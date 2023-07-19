@@ -11,6 +11,7 @@ open Compile
 let compileProject (p : string) =
     generateCodePath <- Path.Combine(p,"../Game.Generated")
     let gcp = generateCodePath
+    printfn "Code Path: %s" gcp
     // Force load of Gameframework
     GameFramework.GameFramework.Load()
 
@@ -52,6 +53,7 @@ let main argv =
         eprintfn "CSharpToCpp Path-To-CSharp-Project"
         -1
     else if Directory.Exists argv[0] then
+        printfn "Compiling %s" argv[0]
         compileProject argv[0]
         0    
     else

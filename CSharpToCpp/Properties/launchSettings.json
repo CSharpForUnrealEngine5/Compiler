@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CSharpToCpp": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\UnrealEngine\\Dev\\CSharpForUnrealEngine5\\CSharpExamples\\FirstPerson\\Source\\FirstPerson\\Game"
+    }
+  }
+}
