@@ -9,6 +9,8 @@ open Microsoft.CodeAnalysis.CSharp.Strict
 open Compile
 
 let compileProject (p : string) =
+    generateCodePath <- Path.Combine(p,"../Game.Generated")
+    let gcp = generateCodePath
     // Force load of Gameframework
     GameFramework.GameFramework.Load()
 
@@ -46,5 +48,14 @@ let compileProject (p : string) =
 
 [<EntryPoint>]
 let main argv =
-    compileProject sourceCodePath
-    0    
+    if argv.Length = 0 then
+        eprintfn "CSharpToCpp Path-To-CSharp-Project"
+        -1
+    else if Directory.Exists argv[0] then
+        compileProject argv[0]
+        0    
+    else
+        eprintfn "Project file not found: %s" argv[0]
+        -1
+
+    
