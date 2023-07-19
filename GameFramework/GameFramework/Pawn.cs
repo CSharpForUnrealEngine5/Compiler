@@ -13,7 +13,7 @@ namespace GameFramework {
         public void AddControllerYawInput(double X) { }
         public void AddControllerPitchInput(double Y) { }
 
-        public virtual void AddMovementInput(FVector WorldDirection, float ScaleValue = 1.0f, bool bForce = false) { }
+        public virtual void AddMovementInput(FVector WorldDirection, double ScaleValue = 1.0f, bool bForce = false) { }
 
     }
 
