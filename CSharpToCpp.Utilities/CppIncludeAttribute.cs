@@ -1,6 +1,6 @@
 ﻿namespace CSharpToCpp.Utilities
 {
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface | AttributeTargets.Enum | AttributeTargets.Struct)]
+    [AttributeUsage( AttributeTargets.Class | AttributeTargets.Interface | AttributeTargets.Enum | AttributeTargets.Struct,AllowMultiple = true)]
     public class CppIncludeAttribute : Attribute 
     {
         public CppIncludeAttribute(params string[] includeFilePath)

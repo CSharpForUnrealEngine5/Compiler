@@ -288,6 +288,11 @@ let compileExpression m expr : (string*(ITypeSymbol*ISymbol))=
             ($"new {e}",tOrS)
         else
             (e,tOrS)
+    | CastExpression (_,ty,_,expr) ->
+        let (ty',needsNew) = compileType m ty
+        let (e,ety) = compileExpression m expr
+        let estr = $"({ty'})({e})"
+        (estr,tOrS)
     | _ -> NotSupportedException(expr.ToString()) |> raise
     
 //let compileIdentifier m id expr =
