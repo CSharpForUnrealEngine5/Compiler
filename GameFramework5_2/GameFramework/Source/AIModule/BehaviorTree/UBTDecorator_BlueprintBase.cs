@@ -7,8 +7,8 @@ public partial class UBTDecorator_BlueprintBase : UBTDecorator {
 // BTDecorator_BlueprintBase
 	public AAIController AIOwner;
 	public AActor ActorOwner;
-	public TArray<sbyte> ObservedKeyNames;
-	public sbyte CustomDescription;
+	public TArray<string> ObservedKeyNames;
+	public string CustomDescription;
 	public bool bShowPropertyDetails;
 	public bool bCheckConditionOnlyBlackBoardChanges;
 	public bool bIsObservingBB;
@@ -17,13 +17,13 @@ public partial class UBTDecorator_BlueprintBase : UBTDecorator {
 	public void ReceiveExecutionFinish(UObject OwnerActor,EBTNodeResult NodeResult) {}
 	public void ReceiveObserverActivated(UObject OwnerActor) {}
 	public void ReceiveObserverDeactivated(UObject OwnerActor) {}
-	public bool PerformConditionCheck(UObject OwnerActor,bool ReturnValue) { return default; }
+	public bool PerformConditionCheck(UObject OwnerActor) { return default; }
 	public void ReceiveTickAI(UObject OwnerController,UObject ControlledPawn,float DeltaSeconds) {}
 	public void ReceiveExecutionStartAI(UObject OwnerController,UObject ControlledPawn) {}
 	public void ReceiveExecutionFinishAI(UObject OwnerController,UObject ControlledPawn,EBTNodeResult NodeResult) {}
 	public void ReceiveObserverActivatedAI(UObject OwnerController,UObject ControlledPawn) {}
 	public void ReceiveObserverDeactivatedAI(UObject OwnerController,UObject ControlledPawn) {}
-	public bool PerformConditionCheckAI(UObject OwnerController,UObject ControlledPawn,bool ReturnValue) { return default; }
-	public bool IsDecoratorExecutionActive(bool ReturnValue) { return default; }
-	public bool IsDecoratorObserverActive(bool ReturnValue) { return default; }
+	public bool PerformConditionCheckAI(UObject OwnerController,UObject ControlledPawn) { return default; }
+	public bool IsDecoratorExecutionActive() { return default; }
+	public bool IsDecoratorObserverActive() { return default; }
 }

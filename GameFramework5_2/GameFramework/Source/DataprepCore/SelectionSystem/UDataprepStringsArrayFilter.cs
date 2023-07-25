@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UDataprepStringsArrayFilter : UDataprepFilter {
 // DataprepStringsArrayFilter
 	public EDataprepStringMatchType StringMatchingCriteria;
-	public sbyte UserString;
+	public string UserString;
 	public UDataprepStringFilterMatchingArray UserStringArray;
 	public bool bMatchInArray;
 	public UDataprepStringsArrayFetcher StringsArrayFetcher;

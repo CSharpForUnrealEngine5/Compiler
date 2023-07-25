@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FDataprepPropertyLink {
 // DataprepPropertyLink
 	public object CachedProperty;
-	public sbyte PropertyName;
+	public string PropertyName;
 	public int ContainerIndex;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ActorLayerUtilities.h")]
 public partial struct FActorLayer {
 // ActorLayer
-	public sbyte Name;
+	public string Name;
 }

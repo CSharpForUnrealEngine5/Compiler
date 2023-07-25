@@ -6,7 +6,7 @@ public partial class UMetasoundEditorSettings : UObject {
 // MetasoundEditorSettings
 	public bool bPinMetaSoundPatchInAssetMenu;
 	public bool bPinMetaSoundSourceInAssetMenu;
-	public sbyte DefaultAuthor;
+	public string DefaultAuthor;
 	public FLinearColor DefaultPinTypeColor;
 	public FLinearColor AudioPinTypeColor;
 	public FLinearColor BooleanPinTypeColor;

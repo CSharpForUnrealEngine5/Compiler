@@ -7,6 +7,6 @@ public partial struct FPartyMemberRepData {
 // PartyMemberRepData
 	public FPartyMemberPlatformData PlatformData;
 	public ECrossplayPreference CrossplayPreference;
-	public sbyte JoinMethod;
+	public string JoinMethod;
 	public FPartyMemberJoinInProgressData JoinInProgressData;
 }

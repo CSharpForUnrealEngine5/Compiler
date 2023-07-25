@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UMassCompositeProcessor : UMassProcessor {
 // MassCompositeProcessor
 	public FMassRuntimePipeline ChildPipeline;
-	public sbyte GroupName;
+	public string GroupName;
 }

@@ -6,5 +6,5 @@ public partial class UJoinSessionCallbackProxy : UOnlineBlueprintCallProxyBase {
 // JoinSessionCallbackProxy
 	public FEmptyOnlineDelegate OnSuccess;
 	public FEmptyOnlineDelegate OnFailure;
-	public UObject JoinSession(UObject WorldContextObject,UObject PlayerController,FBlueprintSessionResult SearchResult,UObject ReturnValue) { return default; }
+	public UObject JoinSession(UObject WorldContextObject,UObject PlayerController,FBlueprintSessionResult SearchResult) { return default; }
 }

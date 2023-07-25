@@ -9,23 +9,23 @@ public partial class AControlRigShapeActor : AActor {
 	public UStaticMeshComponent StaticMeshComponent;
 	public uint ControlRigIndex;
 	public TWeakObjectPtr<UControlRig> ControlRig;
-	public sbyte ControlName;
-	public sbyte ShapeName;
-	public sbyte ColorParameterName;
+	public string ControlName;
+	public string ShapeName;
+	public string ColorParameterName;
 	public void SetEnabled(bool bInEnabled) {}
-	public bool IsEnabled(bool ReturnValue) { return default; }
+	public bool IsEnabled() { return default; }
 	public void SetSelected(bool bInSelected) {}
-	public bool IsSelectedInEditor(bool ReturnValue) { return default; }
+	public bool IsSelectedInEditor() { return default; }
 	public void SetSelectable(bool bInSelectable) {}
 	public void SetHovered(bool bInHovered) {}
-	public bool IsHovered(bool ReturnValue) { return default; }
+	public bool IsHovered() { return default; }
 	public void OnTransformChanged(FTransform NewTransform) {}
 	public void OnEnabledChanged(bool bIsEnabled) {}
 	public void OnSelectionChanged(bool bIsSelected) {}
 	public void OnHoveredChanged(bool bIsSelected) {}
 	public void OnManipulatingChanged(bool bIsManipulating) {}
 	public void SetGlobalTransform(FTransform InTransform) {}
-	public FTransform GetGlobalTransform(FTransform ReturnValue) { return default; }
+	public FTransform GetGlobalTransform() { return default; }
 	public bool bSelected;
 	public bool bHovered;
 }

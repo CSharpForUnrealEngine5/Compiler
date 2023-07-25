@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for defining escalation state configuration.</summary>
 public partial class UEscalationManagerConfig : UStatePerObjectConfig {
 // EscalationManagerConfig
-	public TArray<sbyte> EscalationSeverity;
+	public TArray<string> EscalationSeverity;
 }

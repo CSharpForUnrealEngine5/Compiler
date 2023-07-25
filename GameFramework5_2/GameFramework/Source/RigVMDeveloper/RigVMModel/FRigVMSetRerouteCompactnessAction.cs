@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a reroute node's compactness in the graph.</summary>
 public partial struct FRigVMSetRerouteCompactnessAction {
 // RigVMSetRerouteCompactnessAction
-	public sbyte NodePath;
+	public string NodePath;
 	public bool OldShowAsFullNode;
 	public bool NewShowAsFullNode;
 }

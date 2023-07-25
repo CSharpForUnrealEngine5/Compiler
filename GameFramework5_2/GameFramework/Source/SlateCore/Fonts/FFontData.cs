@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Payload data describing an individual font in a typeface. Keep this lean as it's also used as a key!</summary>
 public partial struct FFontData {
 // FontData
-	public sbyte FontFilename;
+	public string FontFilename;
 	public EFontHinting Hinting;
 	public EFontLoadingPolicy LoadingPolicy;
 	public int SubFaceIndex;

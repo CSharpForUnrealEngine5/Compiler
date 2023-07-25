@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Test Actor. To be removed at some point.</summary>
 public partial class AScriptTestActor : AActor {
 // ScriptTestActor
-	public sbyte TestString;
+	public string TestString;
 	public float TestValue;
 	public bool TestBool;
-	public float TestFunction(float InValue,float InFactor,bool bMultiply,float ReturnValue) { return default; }
+	public float TestFunction(float InValue,float InFactor,bool bMultiply) { return default; }
 }

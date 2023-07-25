@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FUsdMeshAssetOptions {
 // UsdMeshAssetOptions
 	public bool bUsePayload;
-	public sbyte PayloadFormat;
+	public string PayloadFormat;
 	public bool bBakeMaterials;
 	public bool bRemoveUnrealMaterials;
 	public FUsdMaterialBakingOptions MaterialBakingOptions;

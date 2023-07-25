@@ -5,16 +5,16 @@ using CSharpToCpp.Utilities;
 ///<summary>/</summary>
 public partial class UDisplayClusterConfigurationData : UDisplayClusterConfigurationData_Base {
 // DisplayClusterConfigurationData
-	public UObject GetViewport(sbyte NodeId,sbyte ViewportId,UObject ReturnValue) { return default; }
-	public bool AssignPostprocess(sbyte NodeId,sbyte PostprocessId,sbyte Type,TMap<sbyte,sbyte> Parameters,int Order=-1,bool ReturnValue) { return default; }
-	public bool RemovePostprocess(sbyte NodeId,sbyte PostprocessId,bool ReturnValue) { return default; }
-	public bool GetPostprocess(sbyte NodeId,sbyte PostprocessId,FDisplayClusterConfigurationPostprocess OutPostprocess,bool ReturnValue) { return default; }
-	public bool GetProjectionPolicy(sbyte NodeId,sbyte ViewportId,FDisplayClusterConfigurationProjection OutProjection,bool ReturnValue) { return default; }
-	public void GetReferencedMeshNames(TArray<sbyte> OutMeshNames) {}
+	public UObject GetViewport(string NodeId,string ViewportId) { return default; }
+	public bool AssignPostprocess(string NodeId,string PostprocessId,string Type,TMap<string,string> Parameters,int Order/*=-1*/) { return default; }
+	public bool RemovePostprocess(string NodeId,string PostprocessId) { return default; }
+	public bool GetPostprocess(string NodeId,string PostprocessId,FDisplayClusterConfigurationPostprocess OutPostprocess) { return default; }
+	public bool GetProjectionPolicy(string NodeId,string ViewportId,FDisplayClusterConfigurationProjection OutProjection) { return default; }
+	public void GetReferencedMeshNames(TArray<string> OutMeshNames) {}
 	public FDisplayClusterConfigurationInfo Info;
 	public UDisplayClusterConfigurationScene Scene;
 	public UDisplayClusterConfigurationCluster Cluster;
-	public TMap<sbyte,sbyte> CustomParameters;
+	public TMap<string,string> CustomParameters;
 	public FDisplayClusterConfigurationDiagnostics Diagnostics;
 	public FDisplayClusterConfigurationRenderFrame RenderFrameSettings;
 	public FDisplayClusterConfigurationICVFX_StageSettings StageSettings;
@@ -22,7 +22,7 @@ public partial class UDisplayClusterConfigurationData : UDisplayClusterConfigura
 	public bool bExitOnEsc;
 	public bool bOverrideViewportsFromExternalConfig;
 	public FDisplayClusterConfigurationGlobalMediaSettings MediaSettings;
-	public sbyte PathToConfig;
-	public sbyte ImportedPath;
+	public string PathToConfig;
+	public string ImportedPath;
 	public FDisplayClusterEditorPropertyReference DefaultFrameSizeRef;
 }

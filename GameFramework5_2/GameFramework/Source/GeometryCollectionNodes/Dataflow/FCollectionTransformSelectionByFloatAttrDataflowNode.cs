@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FCollectionTransformSelectionByFloatAttrDataflowNode {
 // CollectionTransformSelectionByFloatAttrDataflowNode
 	public FManagedArrayCollection Collection;
-	public sbyte GroupName;
-	public sbyte AttrName;
+	public string GroupName;
+	public string AttrName;
 	public float Min;
 	public float Max;
 	public ERangeSettingEnum RangeSetting;

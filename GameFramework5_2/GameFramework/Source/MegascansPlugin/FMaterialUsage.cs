@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Asset metadata</summary>
 public partial struct FMaterialUsage {
 // MaterialUsage
-	public sbyte instanceID;
-	public sbyte materialSlot;
+	public string instanceID;
+	public string materialSlot;
 }

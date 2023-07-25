@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 public partial class UAnimSet : UObject {
 // AnimSet
 	public bool bAnimRotationOnly;
-	public TArray<sbyte> TrackBoneNames;
+	public TArray<string> TrackBoneNames;
 	public TArray<UAnimSequence> Sequences;
 	public TArray<FAnimSetMeshLinkup> LinkupCache;
 	public TArray<byte> BoneUseAnimTranslation;
 	public TArray<byte> ForceUseMeshTranslation;
-	public TArray<sbyte> UseTranslationBoneNames;
-	public TArray<sbyte> ForceMeshTranslationBoneNames;
-	public sbyte PreviewSkelMeshName;
-	public sbyte BestRatioSkelMeshName;
+	public TArray<string> UseTranslationBoneNames;
+	public TArray<string> ForceMeshTranslationBoneNames;
+	public string PreviewSkelMeshName;
+	public string BestRatioSkelMeshName;
 }

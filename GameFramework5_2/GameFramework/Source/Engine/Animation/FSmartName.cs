@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/SmartName.h")]
 public partial struct FSmartName {
 // SmartName
-	public sbyte DisplayName;
+	public string DisplayName;
 }

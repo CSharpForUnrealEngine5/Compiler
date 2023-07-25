@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UMaterialExpressionFunctionInput : UMaterialExpression {
 // MaterialExpressionFunctionInput
 	public FExpressionInput Preview;
-	public sbyte InputName;
-	public sbyte Description;
+	public string InputName;
+	public string Description;
 	public FGuid Id;
 	public byte InputType;
 	public FVector4f PreviewValue;

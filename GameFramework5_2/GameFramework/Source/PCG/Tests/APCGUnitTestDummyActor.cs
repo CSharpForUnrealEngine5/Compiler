@@ -9,8 +9,8 @@ public partial class APCGUnitTestDummyActor : AActor {
 	public long Int64Property;
 	public double DoubleProperty;
 	public bool BoolProperty;
-	public sbyte NameProperty;
-	public sbyte StringProperty;
+	public string NameProperty;
+	public string StringProperty;
 	public EPCGUnitTestDummyEnum EnumProperty;
 	public FVector VectorProperty;
 	public FVector4 Vector4Property;

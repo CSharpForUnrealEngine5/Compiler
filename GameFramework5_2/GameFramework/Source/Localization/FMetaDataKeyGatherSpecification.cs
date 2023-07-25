@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FMetaDataKeyGatherSpecification {
 // MetaDataKeyGatherSpecification
 	public FMetaDataKeyName MetaDataKey;
-	public sbyte TextNamespace;
+	public string TextNamespace;
 	public FMetaDataTextKeyPattern TextKeyPattern;
 }

@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("PCGPin.h")]
 public partial struct FPCGPinProperties {
 // PCGPinProperties
-	public sbyte Label;
+	public string Label;
 	public EPCGDataType AllowedTypes;
 	public bool bAllowMultipleData;
 	public bool bAllowMultipleConnections;
 	public bool bAdvancedPin;
-	public sbyte Tooltip;
+	public string Tooltip;
 }

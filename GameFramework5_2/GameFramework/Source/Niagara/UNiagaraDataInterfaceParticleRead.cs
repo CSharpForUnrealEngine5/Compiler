@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraDataInterfaceParticleRead.h")]
 public partial class UNiagaraDataInterfaceParticleRead : UNiagaraDataInterfaceRWBase {
 // NiagaraDataInterfaceParticleRead
-	public sbyte EmitterName;
+	public string EmitterName;
 }

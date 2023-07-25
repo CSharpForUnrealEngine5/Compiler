@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/PoseWatch.h")]
 public partial class UPoseWatchFolder : UObject {
 // PoseWatchFolder
-	public sbyte Label;
+	public string Label;
 	public TWeakObjectPtr<UPoseWatchFolder> Parent;
 	public bool bIsVisible;
 	public bool bIsExpanded;

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FAssetRenameData {
 // AssetRenameData
 	public TWeakObjectPtr<UObject> Asset;
-	public sbyte NewPackagePath;
-	public sbyte NewName;
+	public string NewPackagePath;
+	public string NewName;
 	public FSoftObjectPath OldObjectPath;
 	public FSoftObjectPath NewObjectPath;
 	public bool bOnlyFixSoftReferences;

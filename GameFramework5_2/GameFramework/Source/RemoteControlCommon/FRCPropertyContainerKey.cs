@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Minimal information needed to lookup a unique property container class</summary>
 public partial struct FRCPropertyContainerKey {
 // RCPropertyContainerKey
-	public sbyte ValueTypeName;
+	public string ValueTypeName;
 }

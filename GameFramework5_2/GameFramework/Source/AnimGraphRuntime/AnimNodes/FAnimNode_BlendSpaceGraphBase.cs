@@ -7,7 +7,7 @@ public partial struct FAnimNode_BlendSpaceGraphBase {
 // AnimNode_BlendSpaceGraphBase
 	public float X;
 	public float Y;
-	public sbyte GroupName;
+	public string GroupName;
 	public byte GroupRole;
 	public UBlendSpace BlendSpace;
 	public TArray<FPoseLink> SamplePoseLinks;

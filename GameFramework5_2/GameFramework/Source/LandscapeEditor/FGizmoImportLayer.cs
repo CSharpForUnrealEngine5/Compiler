@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("LandscapeEditorObject.h")]
 public partial struct FGizmoImportLayer {
 // GizmoImportLayer
-	public sbyte LayerFilename;
-	public sbyte LayerName;
+	public string LayerFilename;
+	public string LayerName;
 	public bool bNoImport;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FHairGroupInfo {
 // HairGroupInfo
 	public int GroupID;
-	public sbyte GroupName;
+	public string GroupName;
 	public int NumCurves;
 	public int NumGuides;
 	public int NumCurveVertices;

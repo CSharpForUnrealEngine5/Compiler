@@ -9,11 +9,11 @@ public partial class UMovieSceneDMXLibrarySection : UMovieSceneSection {
 	public void AddFixturePatch(UObject InPatch) {}
 	public void AddFixturePatches(TArray<FDMXEntityFixturePatchRef> InFixturePatchRefs) {}
 	public void RemoveFixturePatch(UObject InPatch) {}
-	public bool ContainsFixturePatch(UObject InPatch,bool ReturnValue) { return default; }
+	public bool ContainsFixturePatch(UObject InPatch) { return default; }
 	public void SetFixturePatchActiveMode(UObject InPatch,int InActiveMode) {}
 	public void ToggleFixturePatchChannel(UObject InPatch,int InChannelIndex) {}
-	public bool GetFixturePatchChannelEnabled(UObject InPatch,int InChannelIndex,bool ReturnValue) { return default; }
-	public TArray<UObject> GetFixturePatches(TArray<UObject> ReturnValue) { return default; }
-	public int GetNumPatches(int ReturnValue) { return default; }
+	public bool GetFixturePatchChannelEnabled(UObject InPatch,int InChannelIndex) { return default; }
+	public TArray<UObject> GetFixturePatches() { return default; }
+	public int GetNumPatches() { return default; }
 	public TArray<FDMXFixturePatchChannel> FixturePatchChannels;
 }

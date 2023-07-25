@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UPCGMetadataSettingsBase : UPCGSettings {
 // PCGMetadataSettingsBase
 	public FPCGAttributePropertySelector OutputTarget;
-	public sbyte OutputAttributeName_DEPRECATED;
+	public string OutputAttributeName_DEPRECATED;
 	public EPCGMetadataSettingsBaseMode Mode_DEPRECATED;
 }

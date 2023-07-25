@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("TrackRecorders/IMovieSceneTrackRecorderHost.h")]
 public partial struct FTakeRecorderPropertyTrackSettings {
 // TakeRecorderPropertyTrackSettings
-	public sbyte ComponentPath;
-	public sbyte PropertyPath;
+	public string ComponentPath;
+	public string PropertyPath;
 }

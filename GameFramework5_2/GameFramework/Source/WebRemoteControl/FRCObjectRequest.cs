@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request to access an object</summary>
 public partial struct FRCObjectRequest {
 // RCObjectRequest
-	public sbyte ObjectPath;
-	public sbyte PropertyName;
+	public string ObjectPath;
+	public string PropertyName;
 	public bool ResetToDefault;
 	public bool GenerateTransaction;
 	public ERCModifyOperation Operation;

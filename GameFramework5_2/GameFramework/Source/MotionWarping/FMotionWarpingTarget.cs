@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Represents a point of alignment in the world</summary>
 public partial struct FMotionWarpingTarget {
 // MotionWarpingTarget
-	public sbyte Name;
+	public string Name;
 	public FVector Location;
 	public FRotator Rotation;
 	public TWeakObjectPtr<USceneComponent> Component;
-	public sbyte BoneName;
+	public string BoneName;
 	public bool bFollowComponent;
 }

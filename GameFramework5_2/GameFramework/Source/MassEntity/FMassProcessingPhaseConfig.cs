@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("MassProcessingPhaseManager.h")]
 public partial struct FMassProcessingPhaseConfig {
 // MassProcessingPhaseConfig
-	public sbyte PhaseName;
+	public string PhaseName;
 	public UClass PhaseGroupClass;
 	public TArray<UMassProcessor> ProcessorCDOs;
 	public UMassCompositeProcessor PhaseProcessor;
-	public sbyte Description;
+	public string Description;
 }

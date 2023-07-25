@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>UV Layer Settings for the UVEditorMode</summary>
 public partial class UUVEditorUVChannelProperties : UInteractiveToolPropertySet {
 // UVEditorUVChannelProperties
-	public sbyte Asset;
-	public TArray<sbyte> GetAssetNames(TArray<sbyte> ReturnValue) { return default; }
-	public sbyte UVChannel;
-	public TArray<sbyte> GetUVChannelNames(TArray<sbyte> ReturnValue) { return default; }
+	public string Asset;
+	public TArray<string> GetAssetNames() { return default; }
+	public string UVChannel;
+	public TArray<string> GetUVChannelNames() { return default; }
 }

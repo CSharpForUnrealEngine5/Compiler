@@ -6,6 +6,6 @@ public partial struct FAssetConfig {
 // AssetConfig
 	public EOculusAssetType AssetType;
 	public bool Required;
-	public sbyte Name;
-	public sbyte Sku;
+	public string Name;
+	public string Sku;
 }

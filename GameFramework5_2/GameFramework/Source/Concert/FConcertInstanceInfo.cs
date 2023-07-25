@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertInstanceInfo {
 // ConcertInstanceInfo
 	public FGuid InstanceId;
-	public sbyte InstanceName;
-	public sbyte InstanceType;
+	public string InstanceName;
+	public string InstanceType;
 }

@@ -7,6 +7,6 @@ public partial class UControlRigShapeLibrary : UObject {
 	public FControlRigShapeDefinition DefaultShape;
 	public TSoftObjectPtr<UMaterial> DefaultMaterial;
 	public TSoftObjectPtr<UMaterial> XRayMaterial;
-	public sbyte MaterialColorParameter;
+	public string MaterialColorParameter;
 	public TArray<FControlRigShapeDefinition> Shapes;
 }

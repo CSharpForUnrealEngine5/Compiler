@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 public partial struct FHairGroupsCardsSourceDescription {
 // HairGroupsCardsSourceDescription
 	public UMaterialInterface Material;
-	public sbyte MaterialSlotName;
+	public string MaterialSlotName;
 	public EHairCardsSourceType SourceType;
 	public UStaticMesh ProceduralMesh;
-	public sbyte ProceduralMeshKey;
+	public string ProceduralMeshKey;
 	public UStaticMesh ImportedMesh;
 	public FHairGroupsProceduralCards ProceduralSettings;
 	public FHairGroupCardsTextures Textures;
@@ -16,5 +16,5 @@ public partial struct FHairGroupsCardsSourceDescription {
 	public int LODIndex;
 	public UHairCardGenerationSettings GenerationSettings;
 	public FHairGroupCardsInfo CardsInfo;
-	public sbyte ImportedMeshKey;
+	public string ImportedMeshKey;
 }

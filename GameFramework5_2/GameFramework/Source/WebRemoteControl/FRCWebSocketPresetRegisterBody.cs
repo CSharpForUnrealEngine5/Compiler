@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made via websocket to register for events about a given preset.</summary>
 public partial struct FRCWebSocketPresetRegisterBody {
 // RCWebSocketPresetRegisterBody
-	public sbyte PresetName;
+	public string PresetName;
 	public bool IgnoreRemoteChanges;
 }

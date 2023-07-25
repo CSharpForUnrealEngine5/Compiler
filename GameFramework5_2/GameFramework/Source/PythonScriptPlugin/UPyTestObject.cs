@@ -9,14 +9,14 @@ public partial class UPyTestObject : UObject {
 	public int Int;
 	public float Float;
 	public EPyTestEnum Enum;
-	public sbyte String;
-	public sbyte Name;
-	public sbyte Text;
+	public string String;
+	public string Name;
+	public string Text;
 	public object FieldPath;
 	public object StructFieldPath;
-	public TArray<sbyte> StringArray;
-	public TSet<sbyte> StringSet;
-	public TMap<sbyte,int> StringIntMap;
+	public TArray<string> StringArray;
+	public TSet<string> StringSet;
+	public TMap<string,int> StringIntMap;
 	public FPyTestDelegate Delegate;
 	public FPyTestMulticastDelegate MulticastDelegate;
 	public FPyTestStruct Struct;
@@ -24,25 +24,25 @@ public partial class UPyTestObject : UObject {
 	public FPyTestChildStruct ChildStruct;
 	public bool BoolInstanceOnly;
 	public bool BoolDefaultsOnly;
-	public int FuncBlueprintImplementable(int InValue,int ReturnValue) { return default; }
-	public int FuncBlueprintNative(int InValue,int ReturnValue) { return default; }
+	public int FuncBlueprintImplementable(int InValue) { return default; }
+	public int FuncBlueprintNative(int InValue) { return default; }
 	public void FuncBlueprintNativeRef(FPyTestStruct InOutStruct) {}
-	public int CallFuncBlueprintImplementable(int InValue,int ReturnValue) { return default; }
-	public int CallFuncBlueprintNative(int InValue,int ReturnValue) { return default; }
+	public int CallFuncBlueprintImplementable(int InValue) { return default; }
+	public int CallFuncBlueprintNative(int InValue) { return default; }
 	public void CallFuncBlueprintNativeRef(FPyTestStruct InOutStruct) {}
 	public void FuncTakingPyTestStruct(FPyTestStruct InStruct) {}
 	public void FuncTakingPyTestChildStruct(FPyTestChildStruct InStruct) {}
 	public void LegacyFuncTakingPyTestStruct(FPyTestStruct InStruct) {}
-	public void FuncTakingPyTestStructDefault(FPyTestStruct InStruct=FPyTestStruct) {}
-	public int FuncTakingPyTestDelegate(FPyTestDelegate InDelegate,int InValue,int ReturnValue) { return default; }
+	public void FuncTakingPyTestStructDefault(FPyTestStruct InStruct/*=new FPyTestStruct()*/) {}
+	public int FuncTakingPyTestDelegate(FPyTestDelegate InDelegate,int InValue) { return default; }
 	public void FuncTakingFieldPath(object InFieldPath) {}
-	public int DelegatePropertyCallback(int InValue,int ReturnValue) { return default; }
-	public void MulticastDelegatePropertyCallback(sbyte InStr) {}
-	public TArray<int> ReturnArray(TArray<int> ReturnValue) { return default; }
-	public TSet<int> ReturnSet(TSet<int> ReturnValue) { return default; }
-	public TMap<int,bool> ReturnMap(TMap<int,bool> ReturnValue) { return default; }
-	public object ReturnFieldPath(object ReturnValue) { return default; }
+	public int DelegatePropertyCallback(int InValue) { return default; }
+	public void MulticastDelegatePropertyCallback(string InStr) {}
+	public TArray<int> ReturnArray() { return default; }
+	public TSet<int> ReturnSet() { return default; }
+	public TMap<int,bool> ReturnMap() { return default; }
+	public object ReturnFieldPath() { return default; }
 	public void EmitScriptError() {}
 	public void EmitScriptWarning() {}
-	public int GetConstantValue(int ReturnValue) { return default; }
+	public int GetConstantValue() { return default; }
 }

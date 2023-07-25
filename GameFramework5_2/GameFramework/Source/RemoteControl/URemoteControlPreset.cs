@@ -6,12 +6,12 @@ using CSharpToCpp.Utilities;
 public partial class URemoteControlPreset : UObject {
 // RemoteControlPreset
 	public FRemoteControlPresetLayout Layout;
-	public TMap<sbyte,sbyte> Metadata;
+	public TMap<string,string> Metadata;
 	public TArray<URemoteControlBinding> Bindings;
 	public URCVirtualPropertyContainerBase ControllerContainer;
 	public FGuid PresetId;
 	public TMap<FGuid,FRCCachedFieldData> FieldCache;
-	public TMap<sbyte,FGuid> NameToGuidMap;
+	public TMap<string,FGuid> NameToGuidMap;
 	public URemoteControlExposeRegistry Registry;
-	public TArray<sbyte> DetailsTabIdentifierOverrides;
+	public TArray<string> DetailsTabIdentifierOverrides;
 }

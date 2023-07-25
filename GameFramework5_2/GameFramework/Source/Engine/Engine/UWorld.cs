@@ -20,7 +20,7 @@ public partial class UWorld : UObject {
 	public TArray<ULevelStreaming> StreamingLevels;
 	public FStreamingLevelsToConsider StreamingLevelsToConsider;
 	public AServerStreamingLevelsVisibility ServerStreamingLevelsVisibility;
-	public sbyte StreamingLevelsPrefix;
+	public string StreamingLevelsPrefix;
 	public ULevel CurrentLevelPendingVisibility;
 	public ULevel CurrentLevelPendingInvisibility;
 	public UDemoNetDriver DemoNetDriver;
@@ -49,6 +49,6 @@ public partial class UWorld : UObject {
 	public TArray<ULevel> SelectedLevels;
 	public UWorldComposition WorldComposition;
 	public UContentBundleManager ContentBundleManager;
-	public UObject K2_GetWorldSettings(UObject ReturnValue) { return default; }
+	public UObject K2_GetWorldSettings() { return default; }
 	public FWorldPSCPool PSCPool;
 }

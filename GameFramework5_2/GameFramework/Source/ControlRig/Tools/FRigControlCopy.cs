@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>The Data Stored For Each Control in A Pose.</summary>
 public partial struct FRigControlCopy {
 // RigControlCopy
-	public sbyte Name;
+	public string Name;
 	public ERigControlType ControlType;
 	public FRigControlValue Value;
 	public FRigElementKey ParentKey;

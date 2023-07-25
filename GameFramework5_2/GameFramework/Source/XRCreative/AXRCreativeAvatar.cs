@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("XRCreativeAvatar.h")]
 public partial class AXRCreativeAvatar : APawn {
 // XRCreativeAvatar
-	public FTransform GetHeadTransform(FTransform ReturnValue) { return default; }
-	public FTransform GetHeadTransformRoomSpace(FTransform ReturnValue) { return default; }
+	public FTransform GetHeadTransform() { return default; }
+	public FTransform GetHeadTransformRoomSpace() { return default; }
 	public void SetComponentTickInEditor(UObject Component,bool bShouldTickInEditor) {}
 	public void RegisterObjectForInput(UObject Object) {}
 	public void UnregisterObjectForInput(UObject Object) {}
@@ -13,8 +13,8 @@ public partial class AXRCreativeAvatar : APawn {
 	public void RemoveInputMappingContext(UObject Context) {}
 	public void PlayHapticEffect(UObject HapticEffect,int ControllerID,EControllerHand Hand,float Scale,bool bLoop) {}
 	public void StopHapticEffect(EControllerHand Hand,int ControllerID) {}
-	public UObject SpawnTransientActor(UClass ActorClass,sbyte ActorName,UObject ReturnValue) { return default; }
-	public UObject OpenLevelSequence(UObject LevelSequence,UObject ReturnValue) { return default; }
+	public UObject SpawnTransientActor(UClass ActorClass,string ActorName) { return default; }
+	public UObject OpenLevelSequence(UObject LevelSequence) { return default; }
 	public UMotionControllerComponent LeftController;
 	public UMotionControllerComponent LeftControllerAim;
 	public UXRCreativePointerComponent LeftControllerPointer;

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made for web socket.</summary>
 public partial struct FRCWebSocketRequest {
 // RCWebSocketRequest
-	public sbyte MessageName;
+	public string MessageName;
 	public int Id;
-	public sbyte ForwardedFor;
+	public string ForwardedFor;
 }

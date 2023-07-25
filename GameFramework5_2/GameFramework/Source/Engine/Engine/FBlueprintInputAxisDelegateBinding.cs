@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/InputAxisDelegateBinding.h")]
 public partial struct FBlueprintInputAxisDelegateBinding {
 // BlueprintInputAxisDelegateBinding
-	public sbyte InputAxisName;
-	public sbyte FunctionNameToBind;
+	public string InputAxisName;
+	public string FunctionNameToBind;
 }

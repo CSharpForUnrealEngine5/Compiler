@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("LevelSnapshotsEditorFunctionLibrary.h")]
 public partial class ULevelSnapshotsEditorFunctionLibrary : UBlueprintFunctionLibrary {
 // LevelSnapshotsEditorFunctionLibrary
-	public UObject TakeLevelSnapshotAndSaveToDisk(UObject WorldContextObject,sbyte FileName,sbyte FolderPath,sbyte Description,bool bShouldCreateUniqueFileName=true,UObject ReturnValue) { return default; }
-	public void TakeAndSaveLevelSnapshotEditorWorld(sbyte FileName,sbyte FolderPath,sbyte Description) {}
+	public UObject TakeLevelSnapshotAndSaveToDisk(UObject WorldContextObject,string FileName,string FolderPath,string Description,bool bShouldCreateUniqueFileName/*=true*/) { return default; }
+	public void TakeAndSaveLevelSnapshotEditorWorld(string FileName,string FolderPath,string Description) {}
 	public void GenerateThumbnailForSnapshotAsset(UObject SnapshotPackage) {}
 }

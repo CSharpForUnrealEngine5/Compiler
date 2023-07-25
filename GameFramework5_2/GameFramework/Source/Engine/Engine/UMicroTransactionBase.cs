@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UMicroTransactionBase : UPlatformInterfaceBase {
 // MicroTransactionBase
 	public TArray<FPurchaseInfo> AvailableProducts;
-	public sbyte LastError;
-	public sbyte LastErrorSolution;
+	public string LastError;
+	public string LastErrorSolution;
 }

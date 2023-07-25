@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlResponse.h")]
 public partial struct FRCPresetMetadataModified {
 // RCPresetMetadataModified
-	public sbyte Type;
-	public sbyte PresetName;
-	public sbyte PresetId;
-	public TMap<sbyte,sbyte> Metadata;
+	public string Type;
+	public string PresetName;
+	public string PresetId;
+	public TMap<string,string> Metadata;
 }

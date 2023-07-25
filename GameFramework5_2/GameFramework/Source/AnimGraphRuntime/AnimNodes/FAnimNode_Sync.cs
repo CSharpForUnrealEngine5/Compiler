@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNode_Sync {
 // AnimNode_Sync
 	public FPoseLink Source;
-	public sbyte GroupName;
+	public string GroupName;
 	public byte GroupRole;
 }

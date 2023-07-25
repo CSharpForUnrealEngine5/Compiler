@@ -7,5 +7,5 @@ public partial class UAbilityTask_WaitInputPress : UAbilityTask {
 // AbilityTask_WaitInputPress
 	public FInputPressDelegate OnPress;
 	public void OnPressCallback() {}
-	public UObject WaitInputPress(UObject OwningAbility,bool bTestAlreadyPressed=false,UObject ReturnValue) { return default; }
+	public UObject WaitInputPress(UObject OwningAbility,bool bTestAlreadyPressed/*=false*/) { return default; }
 }

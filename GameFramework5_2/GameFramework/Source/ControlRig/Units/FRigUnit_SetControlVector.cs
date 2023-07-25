@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetControlVector is used to perform a change in the hierarchy by setting a single control's Vector value.</summary>
 public partial struct FRigUnit_SetControlVector {
 // RigUnit_SetControlVector
-	public sbyte Control;
+	public string Control;
 	public float Weight;
 	public FVector Vector;
 	public ERigVMTransformSpace Space;

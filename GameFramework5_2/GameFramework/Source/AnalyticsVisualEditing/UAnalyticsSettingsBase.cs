@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("AnalyticsSettings.h")]
 public partial class UAnalyticsSettingsBase : UDeveloperSettings {
 // AnalyticsSettingsBase
-	public sbyte SettingsDisplayName;
-	public sbyte SettingsTooltip;
+	public string SettingsDisplayName;
+	public string SettingsTooltip;
 }

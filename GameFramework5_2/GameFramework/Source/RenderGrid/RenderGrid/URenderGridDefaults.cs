@@ -7,5 +7,5 @@ public partial class URenderGridDefaults : UObject {
 // RenderGridDefaults
 	public ULevelSequence LevelSequence;
 	public UMoviePipelinePrimaryConfig RenderPreset;
-	public sbyte OutputDirectory;
+	public string OutputDirectory;
 }

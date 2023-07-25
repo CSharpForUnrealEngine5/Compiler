@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>The Unreal equivalent (twin) of a USD prim</summary>
 public partial class UUsdPrimTwin : UObject {
 // UsdPrimTwin
-	public sbyte PrimPath;
+	public string PrimPath;
 	public TWeakObjectPtr<USceneComponent> SceneComponent;
-	public TMap<sbyte,UUsdPrimTwin> Children;
+	public TMap<string,UUsdPrimTwin> Children;
 	public TWeakObjectPtr<UUsdPrimTwin> Parent;
 }

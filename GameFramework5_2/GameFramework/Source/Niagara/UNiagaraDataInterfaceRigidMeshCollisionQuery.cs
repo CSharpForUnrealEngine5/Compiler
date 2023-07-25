@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Data Interface used to collide against static meshes - whether it is the mesh distance field or a physics asset's collision primitive</summary>
 public partial class UNiagaraDataInterfaceRigidMeshCollisionQuery : UNiagaraDataInterface {
 // NiagaraDataInterfaceRigidMeshCollisionQuery
-	public sbyte Tag_DEPRECATED;
-	public TArray<sbyte> ActorTags;
-	public TArray<sbyte> ComponentTags;
+	public string Tag_DEPRECATED;
+	public TArray<string> ActorTags;
+	public TArray<string> ComponentTags;
 	public TArray<TSoftObjectPtr<AActor>> SourceActors;
 	public bool OnlyUseMoveable;
 	public bool UseComplexCollisions;

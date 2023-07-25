@@ -21,9 +21,9 @@ public partial class ULegacyCameraShake : UCameraShakeBase {
 	public float OscillatorTimeRemaining;
 	public void ReceivePlayShake(float Scale) {}
 	public void BlueprintUpdateCameraShake(float DeltaTime,float Alpha,FMinimalViewInfo POV,FMinimalViewInfo ModifiedPOV) {}
-	public bool ReceiveIsFinished(bool ReturnValue) { return default; }
+	public bool ReceiveIsFinished() { return default; }
 	public void ReceiveStopShake(bool bImmediately) {}
-	public UObject StartLegacyCameraShake(UObject PlayerCameraManager,UClass ShakeClass,float Scale=1.f,ECameraShakePlaySpace PlaySpace=ECameraShakePlaySpace,FRotator UserPlaySpaceRot=FRotator,UObject ReturnValue) { return default; }
-	public UObject StartLegacyCameraShakeFromSource(UObject PlayerCameraManager,UClass ShakeClass,UObject SourceComponent,float Scale=1.f,ECameraShakePlaySpace PlaySpace=ECameraShakePlaySpace,FRotator UserPlaySpaceRot=FRotator,UObject ReturnValue) { return default; }
+	public UObject StartLegacyCameraShake(UObject PlayerCameraManager,UClass ShakeClass,float Scale/*=1.0f*/,ECameraShakePlaySpace PlaySpace/*=ECameraShakePlaySpace.CameraLocal*/,FRotator UserPlaySpaceRot/*=FRotator.ZeroRotator*/) { return default; }
+	public UObject StartLegacyCameraShakeFromSource(UObject PlayerCameraManager,UClass ShakeClass,UObject SourceComponent,float Scale/*=1.0f*/,ECameraShakePlaySpace PlaySpace/*=ECameraShakePlaySpace.CameraLocal*/,FRotator UserPlaySpaceRot/*=FRotator.ZeroRotator*/) { return default; }
 	public USequenceCameraShakePattern SequenceShakePattern;
 }

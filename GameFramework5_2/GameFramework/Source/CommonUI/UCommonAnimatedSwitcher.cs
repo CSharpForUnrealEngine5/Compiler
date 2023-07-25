@@ -7,10 +7,10 @@ public partial class UCommonAnimatedSwitcher : UWidgetSwitcher {
 // CommonAnimatedSwitcher
 	public void ActivateNextWidget(bool bCanWrap) {}
 	public void ActivatePreviousWidget(bool bCanWrap) {}
-	public bool HasWidgets(bool ReturnValue) { return default; }
+	public bool HasWidgets() { return default; }
 	public void SetDisableTransitionAnimation(bool bDisableAnimation) {}
-	public bool IsCurrentlySwitching(bool ReturnValue) { return default; }
-	public bool IsTransitionPlaying(bool ReturnValue) { return default; }
+	public bool IsCurrentlySwitching() { return default; }
+	public bool IsTransitionPlaying() { return default; }
 	public ECommonSwitcherTransition TransitionType;
 	public ETransitionCurve TransitionCurveType;
 	public float TransitionDuration;

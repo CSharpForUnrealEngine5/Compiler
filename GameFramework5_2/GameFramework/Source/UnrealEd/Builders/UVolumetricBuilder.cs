@@ -7,5 +7,5 @@ public partial class UVolumetricBuilder : UEditorBrushBuilder {
 	public float Z;
 	public float Radius;
 	public int NumSheets;
-	public sbyte GroupName;
+	public string GroupName;
 }

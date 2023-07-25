@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraMessages.h")]
 public partial class UNiagaraMessageDataText : UNiagaraMessageData {
 // NiagaraMessageDataText
-	public sbyte MessageText;
-	public sbyte ShortDescription;
+	public string MessageText;
+	public string ShortDescription;
 	public ENiagaraMessageSeverity MessageSeverity;
 	public bool bAllowDismissal;
-	public sbyte TopicName;
+	public string TopicName;
 }

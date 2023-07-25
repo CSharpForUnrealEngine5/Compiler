@@ -9,6 +9,6 @@ public partial class UNiagaraClipboardContent : UObject {
 	public TArray<UNiagaraRendererProperties> Renderers;
 	public TArray<UNiagaraScript> Scripts;
 	public TArray<FNiagaraClipboardScriptVariable> ScriptVariables;
-	public sbyte ExportedNodes;
+	public string ExportedNodes;
 	public bool bFixupPasteIndexForScriptDependenciesInStack;
 }

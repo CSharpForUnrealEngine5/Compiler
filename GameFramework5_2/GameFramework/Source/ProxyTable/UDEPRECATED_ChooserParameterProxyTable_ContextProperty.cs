@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>deprecated classes for upgrading old data</summary>
 public partial class UDEPRECATED_ChooserParameterProxyTable_ContextProperty : UObject {
 // ChooserParameterProxyTable_ContextProperty
-	public TArray<sbyte> PropertyBindingChain;
+	public TArray<string> PropertyBindingChain;
 }

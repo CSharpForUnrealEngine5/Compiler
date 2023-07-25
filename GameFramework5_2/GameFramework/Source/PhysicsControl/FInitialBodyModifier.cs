@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FInitialBodyModifier {
 // InitialBodyModifier
 	public AActor Actor;
-	public sbyte MeshComponentName;
-	public sbyte BoneName;
+	public string MeshComponentName;
+	public string BoneName;
 	public EPhysicsMovementType MovementType;
 	public float GravityMultiplier;
 	public FVector KinematicTargetPosition;

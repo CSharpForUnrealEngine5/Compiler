@@ -28,26 +28,26 @@ public partial class USpinBox : UWidget {
 	public FOnSpinBoxValueCommittedEvent OnValueCommitted;
 	public FOnSpinBoxBeginSliderMovement OnBeginSliderMovement;
 	public FOnSpinBoxValueChangedEvent OnEndSliderMovement;
-	public float GetValue(float ReturnValue) { return default; }
+	public float GetValue() { return default; }
 	public void SetValue(float NewValue) {}
-	public int GetMinFractionalDigits(int ReturnValue) { return default; }
+	public int GetMinFractionalDigits() { return default; }
 	public void SetMinFractionalDigits(int NewValue) {}
-	public int GetMaxFractionalDigits(int ReturnValue) { return default; }
+	public int GetMaxFractionalDigits() { return default; }
 	public void SetMaxFractionalDigits(int NewValue) {}
-	public bool GetAlwaysUsesDeltaSnap(bool ReturnValue) { return default; }
+	public bool GetAlwaysUsesDeltaSnap() { return default; }
 	public void SetAlwaysUsesDeltaSnap(bool bNewValue) {}
-	public float GetDelta(float ReturnValue) { return default; }
+	public float GetDelta() { return default; }
 	public void SetDelta(float NewValue) {}
-	public float GetMinValue(float ReturnValue) { return default; }
+	public float GetMinValue() { return default; }
 	public void SetMinValue(float NewValue) {}
 	public void ClearMinValue() {}
-	public float GetMaxValue(float ReturnValue) { return default; }
+	public float GetMaxValue() { return default; }
 	public void SetMaxValue(float NewValue) {}
 	public void ClearMaxValue() {}
-	public float GetMinSliderValue(float ReturnValue) { return default; }
+	public float GetMinSliderValue() { return default; }
 	public void SetMinSliderValue(float NewValue) {}
 	public void ClearMinSliderValue() {}
-	public float GetMaxSliderValue(float ReturnValue) { return default; }
+	public float GetMaxSliderValue() { return default; }
 	public void SetMaxSliderValue(float NewValue) {}
 	public void ClearMaxSliderValue() {}
 	public void SetForegroundColor(FSlateColor InForegroundColor) {}

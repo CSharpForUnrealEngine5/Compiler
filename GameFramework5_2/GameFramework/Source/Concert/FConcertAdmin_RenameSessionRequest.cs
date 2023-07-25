@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertAdmin_RenameSessionRequest {
 // ConcertAdmin_RenameSessionRequest
 	public FGuid SessionId;
-	public sbyte NewName;
-	public sbyte UserName;
-	public sbyte DeviceName;
+	public string NewName;
+	public string UserName;
+	public string DeviceName;
 }

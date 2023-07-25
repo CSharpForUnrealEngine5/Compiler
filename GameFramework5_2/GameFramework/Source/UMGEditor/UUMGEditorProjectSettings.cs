@@ -9,7 +9,7 @@ public partial class UUMGEditorProjectSettings : UDeveloperSettings {
 	public TArray<FDirectoryWidgetCompilerOptions> DirectoryCompilerOptions;
 	public bool bShowWidgetsFromEngineContent;
 	public bool bShowWidgetsFromDeveloperContent;
-	public TArray<sbyte> CategoriesToHide;
+	public TArray<string> CategoriesToHide;
 	public TArray<FSoftClassPath> WidgetClassesToHide;
 	public bool bUseWidgetTemplateSelector;
 	public TArray<TSoftObjectPtr<UClass>> CommonRootWidgetClasses;

@@ -8,7 +8,7 @@ public partial struct FGatherTextFromPackagesConfiguration {
 	public TArray<FGatherTextIncludePath> IncludePathWildcards;
 	public TArray<FGatherTextExcludePath> ExcludePathWildcards;
 	public TArray<FGatherTextFileExtension> FileExtensions;
-	public TArray<sbyte> Collections;
+	public TArray<string> Collections;
 	public TArray<FSoftClassPath> ExcludeClasses;
 	public bool ShouldExcludeDerivedClasses;
 	public bool ShouldGatherFromEditorOnlyData;

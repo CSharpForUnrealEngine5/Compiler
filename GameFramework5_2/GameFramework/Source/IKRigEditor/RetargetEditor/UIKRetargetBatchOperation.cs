@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>/ Encapsulate ability to batch duplicate and retarget a set of animation assets</summary>
 public partial class UIKRetargetBatchOperation : UObject {
 // IKRetargetBatchOperation
-	public TArray<FAssetData> DuplicateAndRetarget(TArray<FAssetData> AssetsToRetarget,UObject SourceMesh,UObject TargetMesh,UObject IKRetargetAsset,sbyte Search="",sbyte Replace="",sbyte Prefix="",sbyte Suffix="",bool bRemapReferencedAssets=true,TArray<FAssetData> ReturnValue) { return default; }
+	public TArray<FAssetData> DuplicateAndRetarget(TArray<FAssetData> AssetsToRetarget,UObject SourceMesh,UObject TargetMesh,UObject IKRetargetAsset,string Search/*=""*/,string Replace/*=""*/,string Prefix/*=""*/,string Suffix/*=""*/,bool bRemapReferencedAssets/*=true*/) { return default; }
 }

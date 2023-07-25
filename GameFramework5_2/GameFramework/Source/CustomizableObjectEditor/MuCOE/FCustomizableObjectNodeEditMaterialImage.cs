@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>UCustomizableObjectNodeEditMaterial</summary>
 public partial struct FCustomizableObjectNodeEditMaterialImage {
 // CustomizableObjectNodeEditMaterialImage
-	public sbyte Name;
+	public string Name;
 }

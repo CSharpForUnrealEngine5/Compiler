@@ -7,5 +7,5 @@ public partial class UAbilityTask_NetworkSyncPoint : UAbilityTask {
 // AbilityTask_NetworkSyncPoint
 	public FNetworkSyncDelegate OnSync;
 	public void OnSignalCallback() {}
-	public UObject WaitNetSync(UObject OwningAbility,EAbilityTaskNetSyncType SyncType,UObject ReturnValue) { return default; }
+	public UObject WaitNetSync(UObject OwningAbility,EAbilityTaskNetSyncType SyncType) { return default; }
 }

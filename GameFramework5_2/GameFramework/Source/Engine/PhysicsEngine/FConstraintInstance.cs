@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Container for a physics representation of an object.</summary>
 public partial struct FConstraintInstance {
 // ConstraintInstance
-	public sbyte JointName;
-	public sbyte ConstraintBone1;
-	public sbyte ConstraintBone2;
+	public string JointName;
+	public string ConstraintBone1;
+	public string ConstraintBone2;
 	public FVector Pos1;
 	public FVector PriAxis1;
 	public FVector SecAxis1;

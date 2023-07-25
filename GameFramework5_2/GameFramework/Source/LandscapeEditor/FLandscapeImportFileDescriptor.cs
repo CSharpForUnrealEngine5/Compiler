@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FLandscapeImportFileDescriptor {
 // LandscapeImportFileDescriptor
 	public FIntPoint Coord;
-	public sbyte FilePath;
+	public string FilePath;
 }

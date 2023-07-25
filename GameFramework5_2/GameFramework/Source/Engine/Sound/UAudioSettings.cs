@@ -27,7 +27,7 @@ public partial class UAudioSettings : UDeveloperSettings {
 	public uint NumStoppingSources;
 	public EPanningMethod PanningMethod;
 	public EMonoChannelUpmixMethod MonoChannelUpmixMethod;
-	public sbyte DialogueFilenameFormat;
+	public string DialogueFilenameFormat;
 	public TArray<FSoundDebugEntry> DebugSounds;
 	public TArray<FDefaultAudioBusSettings> DefaultAudioBuses;
 	public USoundClass DefaultSoundClass;

@@ -12,5 +12,5 @@ public partial struct FGameplayAbilityActorInfo {
 	public TWeakObjectPtr<USkeletalMeshComponent> SkeletalMeshComponent;
 	public TWeakObjectPtr<UAnimInstance> AnimInstance;
 	public TWeakObjectPtr<UMovementComponent> MovementComponent;
-	public sbyte AffectedAnimInstanceTag;
+	public string AffectedAnimInstanceTag;
 }

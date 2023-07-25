@@ -18,11 +18,11 @@ public partial class UImage : UWidget {
 	public void SetBrushResourceObject(UObject ResourceObject) {}
 	public void SetBrush(FSlateBrush InBrush) {}
 	public void SetBrushFromAsset(UObject Asset) {}
-	public void SetBrushFromTexture(UObject Texture,bool bMatchSize=false) {}
-	public void SetBrushFromAtlasInterface(object /*AtlasRegion*/ AtlasRegion,bool bMatchSize=false) {}
-	public void SetBrushFromTextureDynamic(UObject Texture,bool bMatchSize=false) {}
+	public void SetBrushFromTexture(UObject Texture,bool bMatchSize/*=false*/) {}
+	public void SetBrushFromAtlasInterface(object /*AtlasRegion*/ AtlasRegion,bool bMatchSize/*=false*/) {}
+	public void SetBrushFromTextureDynamic(UObject Texture,bool bMatchSize/*=false*/) {}
 	public void SetBrushFromMaterial(UObject Material) {}
-	public void SetBrushFromSoftTexture(TSoftObjectPtr<UTexture2D> SoftTexture,bool bMatchSize=false) {}
+	public void SetBrushFromSoftTexture(TSoftObjectPtr<UTexture2D> SoftTexture,bool bMatchSize/*=false*/) {}
 	public void SetBrushFromSoftMaterial(TSoftObjectPtr<UMaterialInterface> SoftMaterial) {}
-	public UObject GetDynamicMaterial(UObject ReturnValue) { return default; }
+	public UObject GetDynamicMaterial() { return default; }
 }

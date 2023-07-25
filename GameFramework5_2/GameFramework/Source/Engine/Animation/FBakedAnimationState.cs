@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/AnimStateMachineTypes.h")]
 public partial struct FBakedAnimationState {
 // BakedAnimationState
-	public sbyte StateName;
+	public string StateName;
 	public TArray<FBakedStateExitTransition> Transitions;
 	public int StateRootNodeIndex;
 	public int StartNotify;

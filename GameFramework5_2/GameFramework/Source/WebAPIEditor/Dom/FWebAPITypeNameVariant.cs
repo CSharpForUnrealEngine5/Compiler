@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FWebAPITypeNameVariant {
 // WebAPITypeNameVariant
 	public TSoftObjectPtr<UWebAPITypeInfo> TypeInfo;
-	public sbyte TypeString;
-	public sbyte JsonName;
+	public string TypeString;
+	public string JsonName;
 }

@@ -7,8 +7,8 @@ public partial class UStaticMeshLightingInfo : UObject {
 // StaticMeshLightingInfo
 	public TWeakObjectPtr<AActor> StaticMeshActor;
 	public TWeakObjectPtr<UStaticMesh> StaticMesh;
-	public sbyte LevelName;
-	public sbyte TextureMapping;
+	public string LevelName;
+	public string TextureMapping;
 	public bool bTextureMapping;
 	public bool bHasLightmapTexCoords;
 	public int StaticLightingResolution;
@@ -18,5 +18,5 @@ public partial class UStaticMeshLightingInfo : UObject {
 	public float TextureShadowMapMemoryUsage;
 	public float VertexShadowMapMemoryUsage;
 	public int ShadowMapLightCount;
-	public TArray<sbyte> LightmapTextureNames;
+	public TArray<string> LightmapTextureNames;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FOneSkyUploadedFileResponseImport {
 // OneSkyUploadedFileResponseImport
 	public int id;
-	public sbyte created_at;
+	public string created_at;
 	public int created_at_timestamp;
 }

@@ -12,7 +12,7 @@ public partial class UGenerateStaticMeshLODAssetToolProperties : UInteractiveToo
 	public FGenerateStaticMeshLODProcess_TextureSettings TextureBaking;
 	public FGenerateStaticMeshLODProcess_UVSettings UVGeneration;
 	public FGenerateStaticMeshLODProcess_CollisionSettings SimpleCollision;
-	public sbyte CollisionGroupLayerName;
-	public TArray<sbyte> GetGroupLayersFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GroupLayersList;
+	public string CollisionGroupLayerName;
+	public TArray<string> GetGroupLayersFunc() { return default; }
+	public TArray<string> GroupLayersList;
 }

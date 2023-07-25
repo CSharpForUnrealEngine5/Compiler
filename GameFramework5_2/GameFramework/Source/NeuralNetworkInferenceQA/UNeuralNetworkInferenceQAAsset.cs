@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>This is an auxiliary class. See UNeuralNetwork for a high-level wrapper of the whole NeuralNetworkInference plugin. The UNeuralNetwork header</summary>
 public partial class UNeuralNetworkInferenceQAAsset : UObject {
 // NeuralNetworkInferenceQAAsset
-	public TMap<sbyte,FNeuralNetworkInferenceQAOperatorAsset> Operators;
+	public TMap<string,FNeuralNetworkInferenceQAOperatorAsset> Operators;
 }

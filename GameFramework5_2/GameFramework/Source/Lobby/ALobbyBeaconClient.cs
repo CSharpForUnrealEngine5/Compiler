@@ -9,16 +9,16 @@ public partial class ALobbyBeaconClient : AOnlineBeaconClient {
 	public ALobbyBeaconPlayerState PlayerState;
 	public void ClientJoinGame() {}
 	public void ClientSetInviteFlags(FJoinabilitySettings Settings) {}
-	public void ServerCheat(sbyte Msg) {}
+	public void ServerCheat(string Msg) {}
 	public ELobbyBeaconJoinState LobbyJoinServerState;
-	public void ServerLoginPlayer(sbyte InSessionId,FUniqueNetIdRepl InUniqueId,sbyte UrlString) {}
+	public void ServerLoginPlayer(string InSessionId,FUniqueNetIdRepl InUniqueId,string UrlString) {}
 	public void ServerDisconnectFromLobby() {}
 	public void ServerNotifyJoiningServer() {}
 	public void ClientAckJoiningServer() {}
-	public void ServerKickPlayer(FUniqueNetIdRepl PlayerToKick,sbyte Reason) {}
+	public void ServerKickPlayer(FUniqueNetIdRepl PlayerToKick,string Reason) {}
 	public void ServerSetPartyOwner(FUniqueNetIdRepl InUniqueId,FUniqueNetIdRepl InPartyOwnerId) {}
 	public void ClientLoginComplete(FUniqueNetIdRepl InUniqueId,bool bWasSuccessful) {}
-	public void ClientWasKicked(sbyte KickReason) {}
-	public void ClientPlayerJoined(sbyte NewPlayerName,FUniqueNetIdRepl InUniqueId) {}
+	public void ClientWasKicked(string KickReason) {}
+	public void ClientPlayerJoined(string NewPlayerName,FUniqueNetIdRepl InUniqueId) {}
 	public void ClientPlayerLeft(FUniqueNetIdRepl InUniqueId) {}
 }

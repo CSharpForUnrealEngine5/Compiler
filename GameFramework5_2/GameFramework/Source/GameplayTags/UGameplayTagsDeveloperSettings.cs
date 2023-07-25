@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameplayTagsSettings.h")]
 public partial class UGameplayTagsDeveloperSettings : UDeveloperSettings {
 // GameplayTagsDeveloperSettings
-	public sbyte DeveloperConfigName;
-	public sbyte FavoriteTagSource;
+	public string DeveloperConfigName;
+	public string FavoriteTagSource;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithAssetImportData.h")]
 public partial class UDatasmithStaticMeshGLTFImportData : UDatasmithStaticMeshImportData {
 // DatasmithStaticMeshGLTFImportData
-	public sbyte SourceMeshName;
+	public string SourceMeshName;
 }

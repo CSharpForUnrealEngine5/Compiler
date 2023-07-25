@@ -13,13 +13,13 @@ public partial class UFbxAnimSequenceImportData : UFbxAssetImportData {
 	public bool bUseDefaultSampleRate;
 	public int CustomSampleRate;
 	public bool bSnapToClosestFrameBoundary;
-	public sbyte SourceAnimationName;
+	public string SourceAnimationName;
 	public bool bImportCustomAttribute;
 	public bool bDeleteExistingCustomAttributeCurves;
 	public bool bDeleteExistingNonCurveCustomAttributes;
 	public bool bImportBoneTracks;
 	public bool bSetMaterialDriveParameterOnCustomAttribute;
-	public TArray<sbyte> MaterialCurveSuffixes;
+	public TArray<string> MaterialCurveSuffixes;
 	public bool bRemoveRedundantKeys;
 	public bool bDeleteExistingMorphTargetCurves;
 	public bool bDoNotImportCurveWithZero;

@@ -7,5 +7,5 @@ public partial struct FCollectionTransformSelectionInfoDataflowNode {
 // CollectionTransformSelectionInfoDataflowNode
 	public FDataflowTransformSelection TransformSelection;
 	public FManagedArrayCollection Collection;
-	public sbyte String;
+	public string String;
 }

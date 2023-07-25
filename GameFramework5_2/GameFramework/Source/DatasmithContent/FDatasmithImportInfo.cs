@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure that fill the same role as FAssetImportInfo, but for SourceUri.</summary>
 public partial struct FDatasmithImportInfo {
 // DatasmithImportInfo
-	public sbyte SourceUri;
-	public sbyte SourceHash;
+	public string SourceUri;
+	public string SourceHash;
 }

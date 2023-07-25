@@ -11,6 +11,6 @@ public partial class UGameplayTasksComponent : UActorComponent {
 	public TArray<UGameplayTask> KnownTasks;
 	public FOnClaimedResourcesChangeSignature OnClaimedResourcesChange;
 	public void OnRep_SimulatedTasks(TArray<UObject> PreviousSimulatedTasks) {}
-	public EGameplayTaskRunResult K2_RunGameplayTask(object /*TaskOwner*/ TaskOwner,UObject Task,byte Priority,TArray<UClass> AdditionalRequiredResources,TArray<UClass> AdditionalClaimedResources,EGameplayTaskRunResult ReturnValue) { return default; }
+	public EGameplayTaskRunResult K2_RunGameplayTask(object /*TaskOwner*/ TaskOwner,UObject Task,byte Priority,TArray<UClass> AdditionalRequiredResources,TArray<UClass> AdditionalClaimedResources) { return default; }
 	public TArray<UGameplayTask> SimulatedTasks;
 }

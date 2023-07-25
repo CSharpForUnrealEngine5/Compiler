@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionCustom.h")]
 public partial struct FCustomInput {
 // CustomInput
-	public sbyte InputName;
+	public string InputName;
 	public FExpressionInput Input;
 }

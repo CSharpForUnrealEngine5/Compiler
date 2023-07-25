@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeTextureVariation.h")]
 public partial struct FCustomizableObjectTextureVariation {
 // CustomizableObjectTextureVariation
-	public sbyte Tag;
+	public string Tag;
 }

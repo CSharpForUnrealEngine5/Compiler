@@ -11,6 +11,6 @@ public partial struct FParticleEvent_GenerateInfo {
 	public bool LastTimeOnly;
 	public bool UseReflectedImpactVector;
 	public bool bUseOrbitOffset;
-	public sbyte CustomName;
+	public string CustomName;
 	public TArray<UParticleModuleEventSendToGame> ParticleModuleEventsToSendToGame;
 }

@@ -8,7 +8,7 @@ public partial class UNiagaraBakerOutputVolumeTexture : UNiagaraBakerOutput {
 	public bool bGenerateAtlas;
 	public bool bGenerateFrames;
 	public bool bExportFrames;
-	public sbyte AtlasAssetPathFormat;
-	public sbyte FramesAssetPathFormat;
-	public sbyte FramesExportPathFormat;
+	public string AtlasAssetPathFormat;
+	public string FramesAssetPathFormat;
+	public string FramesExportPathFormat;
 }

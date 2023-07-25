@@ -10,5 +10,5 @@ public partial struct FViewportConfigOptions {
 	public int CameraSpeedSetting;
 	public float CameraSpeedScalar;
 	public EAnimationViewportCameraFollowMode CameraFollowMode;
-	public sbyte CameraFollowBoneName;
+	public string CameraFollowBoneName;
 }

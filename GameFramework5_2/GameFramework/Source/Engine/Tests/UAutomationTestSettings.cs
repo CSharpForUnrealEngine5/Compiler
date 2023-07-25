@@ -5,18 +5,18 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements the Editor's user settings.</summary>
 public partial class UAutomationTestSettings : UObject {
 // AutomationTestSettings
-	public TArray<sbyte> EngineTestModules;
-	public TArray<sbyte> EditorTestModules;
+	public TArray<string> EngineTestModules;
+	public TArray<string> EditorTestModules;
 	public FSoftObjectPath AutomationTestmap;
 	public TArray<FEditorMapPerformanceTestDefinition> EditorPerformanceTestMaps;
-	public TArray<sbyte> AssetsToOpen;
-	public TArray<sbyte> MapsToPIETest;
+	public TArray<string> AssetsToOpen;
+	public TArray<string> MapsToPIETest;
 	public bool bUseAllProjectMapsToPlayInPIE;
 	public FBuildPromotionTestSettings BuildPromotionTest;
 	public FMaterialEditorPromotionSettings MaterialEditorPromotionTest;
 	public FParticleEditorPromotionSettings ParticleEditorPromotionTest;
 	public FBlueprintEditorPromotionSettings BlueprintEditorPromotionTest;
-	public TArray<sbyte> TestLevelFolders;
+	public TArray<string> TestLevelFolders;
 	public TArray<FExternalToolDefinition> ExternalTools;
 	public TArray<FEditorImportExportTestDefinition> ImportExportTestDefinitions;
 	public TArray<FLaunchOnTestSettings> LaunchOnSettings;

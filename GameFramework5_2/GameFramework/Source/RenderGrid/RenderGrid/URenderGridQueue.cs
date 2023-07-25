@@ -10,19 +10,19 @@ public partial class URenderGridQueue : UObject {
 	public void Pause() {}
 	public void Resume() {}
 	public void Cancel() {}
-	public bool IsStarted(bool ReturnValue) { return default; }
-	public bool IsPaused(bool ReturnValue) { return default; }
-	public bool IsCanceled(bool ReturnValue) { return default; }
-	public bool IsFinished(bool ReturnValue) { return default; }
-	public bool IsCurrentlyRendering(bool ReturnValue) { return default; }
-	public UObject GetRenderGrid(UObject ReturnValue) { return default; }
-	public sbyte GetJobStatus(UObject Job,sbyte ReturnValue) { return default; }
-	public TArray<UObject> GetJobs(TArray<UObject> ReturnValue) { return default; }
-	public int GetJobsCount(int ReturnValue) { return default; }
-	public int GetJobsCompletedCount(int ReturnValue) { return default; }
-	public float GetStatusPercentage(float ReturnValue) { return default; }
-	public int GetJobsRemainingCount(int ReturnValue) { return default; }
-	public sbyte GetStatus(sbyte ReturnValue) { return default; }
+	public bool IsStarted() { return default; }
+	public bool IsPaused() { return default; }
+	public bool IsCanceled() { return default; }
+	public bool IsFinished() { return default; }
+	public bool IsCurrentlyRendering() { return default; }
+	public UObject GetRenderGrid() { return default; }
+	public string GetJobStatus(UObject Job) { return default; }
+	public TArray<UObject> GetJobs() { return default; }
+	public int GetJobsCount() { return default; }
+	public int GetJobsCompletedCount() { return default; }
+	public float GetStatusPercentage() { return default; }
+	public int GetJobsRemainingCount() { return default; }
+	public string GetStatus() { return default; }
 	public TArray<URenderGridJob> RemainingJobs;
 	public TMap<URenderGridJob,URenderGridMoviePipelineRenderJob> Entries;
 	public URenderGrid RenderGrid;

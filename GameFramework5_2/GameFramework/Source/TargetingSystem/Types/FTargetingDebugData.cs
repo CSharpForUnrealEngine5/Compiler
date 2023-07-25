@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FTargetingDebugData {
 // TargetingDebugData
 	public UTargetingPreset TargetingPreset;
-	public TMap<sbyte,sbyte> DebugScratchPadStrings;
+	public TMap<string,string> DebugScratchPadStrings;
 	public TArray<FTargetingDefaultResultData> CachedTargetResults;
 }

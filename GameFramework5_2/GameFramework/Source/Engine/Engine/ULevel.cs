@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A Level is a collection of Actors (lights, volumes, mesh instances etc.).</summary>
 public partial class ULevel : UObject {
 // Level
-	public TMap<sbyte,AActor> ActorsModifiedForPIE;
+	public TMap<string,AActor> ActorsModifiedForPIE;
 	public bool bUseExternalActors;
 	public UWorld OwningWorld;
 	public UModel Model;
@@ -23,7 +23,7 @@ public partial class ULevel : UObject {
 	public float ShadowmapTotalSize;
 	public TArray<FVector> StaticNavigableGeometry;
 	public TArray<FGuid> StreamingTextureGuids;
-	public TArray<sbyte> StreamingTextures;
+	public TArray<string> StreamingTextures;
 	public uint PackedTextureStreamingQualityLevelFeatureLevel;
 	public FGuid LevelBuildDataId;
 	public UMapBuildDataRegistry MapBuildData;
@@ -48,6 +48,6 @@ public partial class ULevel : UObject {
 	public TSoftObjectPtr<UObject> OwnerLevelPartition;
 	public bool bUseActorFolders;
 	public TMap<FGuid,UActorFolder> ActorFolders;
-	public TMap<sbyte,FActorFolderSet> FolderLabelToActorFolders;
+	public TMap<string,FActorFolderSet> FolderLabelToActorFolders;
 	public TArray<UActorFolder> LoadedExternalActorFolders;
 }

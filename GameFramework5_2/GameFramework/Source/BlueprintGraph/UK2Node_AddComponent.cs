@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UK2Node_AddComponent : UK2Node_CallFunction {
 // K2Node_AddComponent
 	public bool bHasExposedVariable;
-	public sbyte TemplateBlueprint;
+	public string TemplateBlueprint;
 	public UClass TemplateType;
 }

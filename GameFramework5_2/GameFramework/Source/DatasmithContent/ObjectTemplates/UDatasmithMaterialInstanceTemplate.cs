@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UDatasmithMaterialInstanceTemplate : UDatasmithObjectTemplate {
 // DatasmithMaterialInstanceTemplate
 	public TSoftObjectPtr<UMaterialInterface> ParentMaterial;
-	public TMap<sbyte,float> ScalarParameterValues;
-	public TMap<sbyte,FLinearColor> VectorParameterValues;
-	public TMap<sbyte,TSoftObjectPtr<UTexture>> TextureParameterValues;
+	public TMap<string,float> ScalarParameterValues;
+	public TMap<string,FLinearColor> VectorParameterValues;
+	public TMap<string,TSoftObjectPtr<UTexture>> TextureParameterValues;
 	public FDatasmithStaticParameterSetTemplate StaticParameters;
 }

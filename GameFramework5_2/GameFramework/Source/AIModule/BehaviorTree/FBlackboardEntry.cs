@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>blackboard entry definition</summary>
 public partial struct FBlackboardEntry {
 // BlackboardEntry
-	public sbyte EntryName;
-	public sbyte EntryDescription;
-	public sbyte EntryCategory;
+	public string EntryName;
+	public string EntryDescription;
+	public string EntryCategory;
 	public UBlackboardKeyType KeyType;
 	public bool bInstanceSynced;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlModels.h")]
 public partial struct FRCExposedActorDescription {
 // RCExposedActorDescription
-	public sbyte DisplayName;
-	public sbyte ID;
+	public string DisplayName;
+	public string ID;
 	public FRCObjectDescription UnderlyingActor;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>FGameplayCueNotify_PlacementInfo</summary>
 public partial struct FGameplayCueNotify_PlacementInfo {
 // GameplayCueNotify_PlacementInfo
-	public sbyte SocketName;
+	public string SocketName;
 	public EGameplayCueNotify_AttachPolicy AttachPolicy;
 	public EAttachmentRule AttachmentRule;
 	public bool bOverrideRotation;

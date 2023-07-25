@@ -7,6 +7,6 @@ public partial struct FGameplayTagBlueprintPropertyMapping {
 // GameplayTagBlueprintPropertyMapping
 	public FGameplayTag TagToMap;
 	public object PropertyToEdit;
-	public sbyte PropertyName;
+	public string PropertyName;
 	public FGuid PropertyGuid;
 }

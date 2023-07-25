@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_EditablePinBase.h")]
 public partial struct FUserPinInfo {
 // UserPinInfo
-	public sbyte PinName;
+	public string PinName;
 	public FEdGraphPinType PinType;
 	public byte DesiredPinDirection;
-	public sbyte PinDefaultValue;
+	public string PinDefaultValue;
 }

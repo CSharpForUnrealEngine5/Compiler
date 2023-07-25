@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UDistanceCurveModifier : UAnimationModifier {
 // DistanceCurveModifier
 	public int SampleRate;
-	public sbyte CurveName;
+	public string CurveName;
 	public float StopSpeedThreshold;
 	public EDistanceCurve_Axis Axis;
 	public bool bStopAtEnd;

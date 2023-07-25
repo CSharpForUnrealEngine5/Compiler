@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Framework/MultiBox/ToolMenuBase.h")]
 public partial struct FCustomizedToolMenuNameArray {
 // CustomizedToolMenuNameArray
-	public TArray<sbyte> Names;
+	public TArray<string> Names;
 }

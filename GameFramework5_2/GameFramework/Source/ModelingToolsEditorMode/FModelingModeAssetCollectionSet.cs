@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a Named list/set of content-browser Collection names</summary>
 public partial struct FModelingModeAssetCollectionSet {
 // ModelingModeAssetCollectionSet
-	public sbyte Name;
+	public string Name;
 	public TArray<FCollectionReference> Collections;
 }

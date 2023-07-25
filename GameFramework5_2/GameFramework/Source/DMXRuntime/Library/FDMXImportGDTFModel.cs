@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFModel {
 // DMXImportGDTFModel
-	public sbyte Name;
+	public string Name;
 	public float Length;
 	public float Width;
 	public float Height;

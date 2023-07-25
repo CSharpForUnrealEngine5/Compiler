@@ -11,7 +11,7 @@ public partial struct FMovieSceneEvaluationTrack {
 	public TWeakObjectPtr<UMovieSceneTrack> SourceTrack;
 	public TArray<FMovieSceneEvalTemplatePtr> ChildTemplates;
 	public FMovieSceneTrackImplementationPtr TrackTemplate;
-	public sbyte EvaluationGroup;
+	public string EvaluationGroup;
 	public bool bEvaluateInPreroll;
 	public bool bEvaluateInPostroll;
 	public bool bTearDownPriority;

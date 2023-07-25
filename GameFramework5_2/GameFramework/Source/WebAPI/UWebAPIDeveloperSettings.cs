@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>The base class of any auto generated WebAPI settings object.</summary>
 public partial class UWebAPIDeveloperSettings : UDeveloperSettings {
 // WebAPIDeveloperSettings
-	public sbyte Host;
-	public sbyte BaseUrl;
-	public sbyte UserAgent;
-	public sbyte DateTimeFormat;
+	public string Host;
+	public string BaseUrl;
+	public string UserAgent;
+	public string DateTimeFormat;
 	public bool bOverrideScheme;
-	public sbyte URISchemeOverride;
-	public TArray<sbyte> URISchemes;
+	public string URISchemeOverride;
+	public TArray<string> URISchemes;
 	public bool bLogRequests;
 	public TArray<UWebAPIAuthenticationSettings> AuthenticationSettings;
 }

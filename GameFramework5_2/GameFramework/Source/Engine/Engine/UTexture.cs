@@ -6,7 +6,7 @@ public partial class UTexture : UStreamableRenderAsset {
 // Texture
 	public FTextureSource Source;
 	public FGuid LightingGuid;
-	public sbyte SourceFilePath_DEPRECATED;
+	public string SourceFilePath_DEPRECATED;
 	public UAssetImportData AssetImportData;
 	public float AdjustBrightness;
 	public float AdjustBrightnessCurve;
@@ -22,7 +22,7 @@ public partial class UTexture : UStreamableRenderAsset {
 	public bool CompressFinal;
 	public bool DeferCompression;
 	public byte LossyCompressionAmount;
-	public sbyte OodleTextureSdkVersion;
+	public string OodleTextureSdkVersion;
 	public int MaxTextureSize;
 	public byte CompressionQuality;
 	public FGuid CompressionCacheId;
@@ -59,9 +59,9 @@ public partial class UTexture : UStreamableRenderAsset {
 	public bool VirtualTextureStreaming;
 	public bool CompressionYCoCg;
 	public bool bNotOfflineProcessed;
-	public long Blueprint_GetMemorySize(long ReturnValue) { return default; }
+	public long Blueprint_GetMemorySize() { return default; }
 	public void Blueprint_GetTextureSourceDiskAndMemorySize(long OutDiskSize,long OutMemorySize) {}
-	public bool ComputeTextureSourceChannelMinMax(FLinearColor OutColorMin,FLinearColor OutColorMax,bool ReturnValue) { return default; }
+	public bool ComputeTextureSourceChannelMinMax(FLinearColor OutColorMin,FLinearColor OutColorMax) { return default; }
 	public bool bAsyncResourceReleaseHasBeenStarted;
 	public TArray<UAssetUserData> AssetUserData;
 }

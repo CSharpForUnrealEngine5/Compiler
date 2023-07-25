@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkTypes.h")]
 public partial struct FLiveLinkCurveElement {
 // LiveLinkCurveElement
-	public sbyte CurveName;
+	public string CurveName;
 	public float CurveValue;
 }

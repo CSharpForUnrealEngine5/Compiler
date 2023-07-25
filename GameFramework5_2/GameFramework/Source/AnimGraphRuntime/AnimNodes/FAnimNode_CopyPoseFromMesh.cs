@@ -10,5 +10,5 @@ public partial struct FAnimNode_CopyPoseFromMesh {
 	public bool bCopyCurves;
 	public bool bCopyCustomAttributes;
 	public bool bUseMeshPose;
-	public sbyte RootBoneToCopy;
+	public string RootBoneToCopy;
 }

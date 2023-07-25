@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Simple struct for a table row in the gameplay tag table and element in the ini list</summary>
 public partial struct FGameplayTagTableRow {
 // GameplayTagTableRow
-	public sbyte Tag;
-	public sbyte DevComment;
+	public string Tag;
+	public string DevComment;
 }

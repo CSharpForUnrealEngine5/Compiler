@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An ObjectLibrary for the GameplayCue Notifies. Wraps 2 underlying UObjectLibraries plus options/delegates for how they are loaded</summary>
 public partial struct FGameplayCueObjectLibrary {
 // GameplayCueObjectLibrary
-	public TArray<sbyte> Paths;
+	public TArray<string> Paths;
 	public UObjectLibrary ActorObjectLibrary;
 	public UObjectLibrary StaticObjectLibrary;
 	public UGameplayCueSet CueSet;

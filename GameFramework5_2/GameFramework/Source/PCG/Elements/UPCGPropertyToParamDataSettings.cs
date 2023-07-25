@@ -8,14 +8,14 @@ public partial class UPCGPropertyToParamDataSettings : UPCGSettings {
 	public FPCGActorSelectorSettings ActorSelector;
 	public bool bSelectComponent;
 	public UClass ComponentClass;
-	public sbyte PropertyName;
+	public string PropertyName;
 	public bool bExtractObjectAndStruct;
-	public sbyte OutputAttributeName;
+	public string OutputAttributeName;
 	public bool bAlwaysRequeryActors;
 	public bool bTrackActorsOnlyWithinBounds;
 	public EPCGActorSelection ActorSelection_DEPRECATED;
-	public sbyte ActorSelectionTag_DEPRECATED;
-	public sbyte ActorSelectionName_DEPRECATED;
+	public string ActorSelectionTag_DEPRECATED;
+	public string ActorSelectionName_DEPRECATED;
 	public UClass ActorSelectionClass_DEPRECATED;
 	public EPCGActorFilter ActorFilter_DEPRECATED;
 	public bool bIncludeChildren_DEPRECATED;

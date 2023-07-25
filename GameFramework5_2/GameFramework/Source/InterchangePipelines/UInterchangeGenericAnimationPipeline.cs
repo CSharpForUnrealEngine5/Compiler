@@ -14,11 +14,11 @@ public partial class UInterchangeGenericAnimationPipeline : UInterchangePipeline
 	public bool bSnapToClosestFrameBoundary;
 	public bool bImportCustomAttribute;
 	public bool bSetMaterialDriveParameterOnCustomAttribute;
-	public TArray<sbyte> MaterialCurveSuffixes;
+	public TArray<string> MaterialCurveSuffixes;
 	public bool bRemoveCurveRedundantKeys;
 	public bool bDoNotImportCurveWithZero;
 	public bool bDeleteExistingNonCurveCustomAttributes;
 	public bool bDeleteExistingCustomAttributeCurves;
 	public bool bDeleteExistingMorphTargetCurves;
-	public sbyte SourceAnimationName;
+	public string SourceAnimationName;
 }

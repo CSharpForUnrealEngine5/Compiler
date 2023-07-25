@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("AttributeEditorTool.h")]
 public partial class UAttributeEditorCopyAttributeActions : UAttributeEditorActionPropertySet {
 // AttributeEditorCopyAttributeActions
-	public TArray<sbyte> FromAttribute;
-	public TArray<sbyte> ToAttribute;
+	public TArray<string> FromAttribute;
+	public TArray<string> ToAttribute;
 	public void CopyFromTo() {}
 }

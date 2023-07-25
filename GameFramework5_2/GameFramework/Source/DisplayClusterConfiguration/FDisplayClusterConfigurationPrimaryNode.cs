@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("DisplayClusterConfigurationTypes.h")]
 public partial struct FDisplayClusterConfigurationPrimaryNode {
 // DisplayClusterConfigurationPrimaryNode
-	public sbyte Id;
+	public string Id;
 	public FDisplayClusterConfigurationPrimaryNodePorts Ports;
 }

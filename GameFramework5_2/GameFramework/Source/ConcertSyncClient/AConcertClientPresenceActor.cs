@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A ConcertClientPresenceActor is a transient actor representing other client presences during a concert client session.</summary>
 public partial class AConcertClientPresenceActor : AActor {
 // ConcertClientPresenceActor
-	public sbyte PresenceDeviceType;
+	public string PresenceDeviceType;
 	public UStaticMeshComponent PresenceMeshComponent;
 	public UTextRenderComponent PresenceTextComponent;
 	public UMaterialInstanceDynamic PresenceMID;

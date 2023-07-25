@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FPointWeightMap {
 // PointWeightMap
 	public TArray<float> Values;
-	public sbyte Name;
+	public string Name;
 	public byte CurrentTarget;
 	public bool bEnabled;
 }

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>* UDatasmithVariantElement</summary>
 public partial class UDatasmithVariantElement : UDatasmithObjectElement {
 // DatasmithVariantElement
-	public UObject CreateActorBinding(UObject ReturnValue) { return default; }
+	public UObject CreateActorBinding() { return default; }
 	public void AddActorBinding(UObject Binding) {}
-	public int GetActorBindingsCount(int ReturnValue) { return default; }
-	public UObject GetActorBinding(int Index,UObject ReturnValue) { return default; }
+	public int GetActorBindingsCount() { return default; }
+	public UObject GetActorBinding(int Index) { return default; }
 	public void RemoveActorBinding(UObject Binding) {}
 }

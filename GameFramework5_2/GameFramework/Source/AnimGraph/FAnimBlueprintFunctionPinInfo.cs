@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Required info for reconstructing a manually specified pin</summary>
 public partial struct FAnimBlueprintFunctionPinInfo {
 // AnimBlueprintFunctionPinInfo
-	public sbyte Name;
+	public string Name;
 	public FEdGraphPinType Type;
 }

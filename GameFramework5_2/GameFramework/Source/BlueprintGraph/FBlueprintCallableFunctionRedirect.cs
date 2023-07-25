@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure used to automatically convert blueprintcallable functions (that have blueprint parameter) calls (in bp graph)</summary>
 public partial struct FBlueprintCallableFunctionRedirect {
 // BlueprintCallableFunctionRedirect
-	public sbyte ClassName;
-	public sbyte OldFunctionName;
-	public sbyte NewFunctionName;
-	public sbyte BlueprintParamName;
-	public sbyte ClassParamName;
+	public string ClassName;
+	public string OldFunctionName;
+	public string NewFunctionName;
+	public string BlueprintParamName;
+	public string ClassParamName;
 }

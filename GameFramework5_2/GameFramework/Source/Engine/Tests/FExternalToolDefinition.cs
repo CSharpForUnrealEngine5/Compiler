@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure for defining an external tool</summary>
 public partial struct FExternalToolDefinition {
 // ExternalToolDefinition
-	public sbyte ToolName;
+	public string ToolName;
 	public FFilePath ExecutablePath;
-	public sbyte CommandLineOptions;
+	public string CommandLineOptions;
 	public FDirectoryPath WorkingDirectory;
-	public sbyte ScriptExtension;
+	public string ScriptExtension;
 	public FDirectoryPath ScriptDirectory;
 }

@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Contains graph data associated with a variable.</summary>
 public partial struct FMetasoundFrontendVariable {
 // MetasoundFrontendVariable
-	public sbyte Name;
-	public sbyte DisplayName;
-	public sbyte Description;
-	public sbyte TypeName;
+	public string Name;
+	public string DisplayName;
+	public string Description;
+	public string TypeName;
 	public FMetasoundFrontendLiteral Literal;
 	public FGuid ID;
 	public FGuid VariableNodeID;

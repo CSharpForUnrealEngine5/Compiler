@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>* Helper class to be able to read different source data</summary>
 public partial class UInterchangeSourceData : UObject {
 // InterchangeSourceData
-	public sbyte GetFilename(sbyte ReturnValue) { return default; }
-	public bool SetFilename(sbyte InFilename,bool ReturnValue) { return default; }
-	public sbyte Filename;
+	public string GetFilename() { return default; }
+	public bool SetFilename(string InFilename) { return default; }
+	public string Filename;
 }

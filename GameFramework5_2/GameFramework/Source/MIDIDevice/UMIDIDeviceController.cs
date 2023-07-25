@@ -6,5 +6,5 @@ public partial class UMIDIDeviceController : UMIDIDeviceControllerBase {
 // MIDIDeviceController
 	public FOnMIDIEvent OnMIDIEvent;
 	public int DeviceID;
-	public sbyte DeviceName;
+	public string DeviceName;
 }

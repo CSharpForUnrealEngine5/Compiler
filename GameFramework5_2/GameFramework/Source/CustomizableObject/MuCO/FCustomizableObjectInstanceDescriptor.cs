@@ -12,5 +12,5 @@ public partial struct FCustomizableObjectInstanceDescriptor {
 	public TArray<FCustomizableObjectTextureParameterValue> TextureParameters;
 	public TArray<FCustomizableObjectVectorParameterValue> VectorParameters;
 	public TArray<FCustomizableObjectProjectorParameterValue> ProjectorParameters;
-	public TMap<sbyte,FMultilayerProjector> MultilayerProjectors;
+	public TMap<string,FMultilayerProjector> MultilayerProjectors;
 }

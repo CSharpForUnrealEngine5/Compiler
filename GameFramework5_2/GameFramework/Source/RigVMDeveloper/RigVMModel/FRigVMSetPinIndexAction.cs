@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action to reorder pins on a node</summary>
 public partial struct FRigVMSetPinIndexAction {
 // RigVMSetPinIndexAction
-	public sbyte PinPath;
+	public string PinPath;
 	public int OldIndex;
 	public int NewIndex;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Contains information about the target module for code generation files.</summary>
 public partial struct FWebAPIDefinitionTargetModule {
 // WebAPIDefinitionTargetModule
-	public sbyte Name;
-	public sbyte AbsolutePath;
-	public sbyte ResolvedPath;
+	public string Name;
+	public string AbsolutePath;
+	public string ResolvedPath;
 }

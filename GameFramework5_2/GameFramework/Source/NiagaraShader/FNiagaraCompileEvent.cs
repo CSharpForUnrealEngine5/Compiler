@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraCompileEvent {
 // NiagaraCompileEvent
 	public FNiagaraCompileEventSeverity Severity;
-	public sbyte Message;
-	public sbyte ShortDescription;
+	public string Message;
+	public string ShortDescription;
 	public bool bDismissable;
 	public FGuid NodeGuid;
 	public FGuid PinGuid;

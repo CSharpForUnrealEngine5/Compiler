@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraPropagatedVariable {
 // NiagaraPropagatedVariable
 	public FNiagaraVariable SwitchParameter;
-	public sbyte PropagatedName;
+	public string PropagatedName;
 }

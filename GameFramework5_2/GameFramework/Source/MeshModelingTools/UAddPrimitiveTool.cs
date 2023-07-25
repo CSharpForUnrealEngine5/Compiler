@@ -11,5 +11,5 @@ public partial class UAddPrimitiveTool : USingleClickTool {
 	public UPreviewMesh PreviewMesh;
 	public UCombinedTransformGizmo Gizmo;
 	public UDragAlignmentMechanic DragAlignmentMechanic;
-	public sbyte AssetName;
+	public string AssetName;
 }

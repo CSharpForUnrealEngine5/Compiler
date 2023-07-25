@@ -5,25 +5,25 @@ using CSharpToCpp.Utilities;
 ///<summary>Camera Calibration subsystem</summary>
 public partial class UCameraCalibrationSubsystem : UEngineSubsystem {
 // CameraCalibrationSubsystem
-	public UObject GetDefaultLensFile(UObject ReturnValue) { return default; }
+	public UObject GetDefaultLensFile() { return default; }
 	public void SetDefaultLensFile(UObject NewDefaultLensFile) {}
-	public UObject GetLensFile(FLensFilePicker Picker,UObject ReturnValue) { return default; }
-	public TArray<UObject> GetDistortionModelHandlers(UObject Component,TArray<UObject> ReturnValue) { return default; }
-	public UObject FindDistortionModelHandler(FDistortionHandlerPicker DistortionHandlerPicker,bool bUpdatePicker=true,UObject ReturnValue) { return default; }
-	public UObject FindOrCreateDistortionModelHandler(FDistortionHandlerPicker DistortionHandlerPicker,UClass LensModelClass,UObject ReturnValue) { return default; }
+	public UObject GetLensFile(FLensFilePicker Picker) { return default; }
+	public TArray<UObject> GetDistortionModelHandlers(UObject Component) { return default; }
+	public UObject FindDistortionModelHandler(FDistortionHandlerPicker DistortionHandlerPicker,bool bUpdatePicker/*=true*/) { return default; }
+	public UObject FindOrCreateDistortionModelHandler(FDistortionHandlerPicker DistortionHandlerPicker,UClass LensModelClass) { return default; }
 	public void UnregisterDistortionModelHandler(UObject Component,UObject Handler) {}
-	public UClass GetRegisteredLensModel(sbyte ModelName,UClass ReturnValue) { return default; }
-	public UClass GetCameraNodalOffsetAlgo(sbyte Name,UClass ReturnValue) { return default; }
-	public TArray<sbyte> GetCameraNodalOffsetAlgos(TArray<sbyte> ReturnValue) { return default; }
-	public UClass GetCameraImageCenterAlgo(sbyte Name,UClass ReturnValue) { return default; }
-	public TArray<sbyte> GetCameraImageCenterAlgos(TArray<sbyte> ReturnValue) { return default; }
-	public UObject GetOverlayMaterial(sbyte OverlayName,UObject ReturnValue) { return default; }
-	public TArray<sbyte> GetOverlayMaterialNames(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GetCameraCalibrationSteps(TArray<sbyte> ReturnValue) { return default; }
-	public UClass GetCameraCalibrationStep(sbyte Name,UClass ReturnValue) { return default; }
+	public UClass GetRegisteredLensModel(string ModelName) { return default; }
+	public UClass GetCameraNodalOffsetAlgo(string Name) { return default; }
+	public TArray<string> GetCameraNodalOffsetAlgos() { return default; }
+	public UClass GetCameraImageCenterAlgo(string Name) { return default; }
+	public TArray<string> GetCameraImageCenterAlgos() { return default; }
+	public UObject GetOverlayMaterial(string OverlayName) { return default; }
+	public TArray<string> GetOverlayMaterialNames() { return default; }
+	public TArray<string> GetCameraCalibrationSteps() { return default; }
+	public UClass GetCameraCalibrationStep(string Name) { return default; }
 	public ULensFile DefaultLensFile;
-	public TMap<sbyte,UClass> LensModelMap;
-	public TMap<sbyte,UClass> CameraNodalOffsetAlgosMap;
-	public TMap<sbyte,UClass> CameraImageCenterAlgosMap;
-	public TMap<sbyte,UClass> CameraCalibrationStepsMap;
+	public TMap<string,UClass> LensModelMap;
+	public TMap<string,UClass> CameraNodalOffsetAlgosMap;
+	public TMap<string,UClass> CameraImageCenterAlgosMap;
+	public TMap<string,UClass> CameraCalibrationStepsMap;
 }

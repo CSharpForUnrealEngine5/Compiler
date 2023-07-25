@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UMaterialExpressionNamedRerouteDeclaration : UMaterialExpressionNamedRerouteBase {
 // MaterialExpressionNamedRerouteDeclaration
 	public FExpressionInput Input;
-	public sbyte Name;
+	public string Name;
 	public FLinearColor NodeColor;
 	public FGuid VariableGuid;
 }

@@ -6,5 +6,5 @@ public partial class UPropertyBinding : UObject {
 // PropertyBinding
 	public TWeakObjectPtr<UObject> SourceObject;
 	public FDynamicPropertyPath SourcePath;
-	public sbyte DestinationProperty;
+	public string DestinationProperty;
 }

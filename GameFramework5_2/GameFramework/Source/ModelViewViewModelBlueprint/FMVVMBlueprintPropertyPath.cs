@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FMVVMBlueprintPropertyPath {
 // MVVMBlueprintPropertyPath
 	public TArray<FMVVMBlueprintFieldPath> Paths;
-	public sbyte WidgetName;
+	public string WidgetName;
 	public FGuid ContextId;
 	public FMemberReference BindingReference;
 	public EBindingKind BindingKind;

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines data for sections visible in the stack view.</summary>
 public partial struct FNiagaraStackSection {
 // NiagaraStackSection
-	public sbyte SectionIdentifier;
-	public sbyte SectionDisplayName;
-	public TArray<sbyte> Categories;
+	public string SectionIdentifier;
+	public string SectionDisplayName;
+	public TArray<string> Categories;
 	public bool bEnabled;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UWebAPIParameter : UWebAPIModel {
 // WebAPIParameter
 	public EWebAPIParameterStorage Storage;
-	public sbyte MediaType;
+	public string MediaType;
 	public UWebAPIModel Model;
 	public bool bIsArray;
 	public UWebAPIProperty Property;

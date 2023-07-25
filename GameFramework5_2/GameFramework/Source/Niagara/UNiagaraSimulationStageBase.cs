@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraSimulationStageBase : UNiagaraMergeable {
 // NiagaraSimulationStageBase
 	public UNiagaraScript Script;
-	public sbyte SimulationStageName;
+	public string SimulationStageName;
 	public bool bEnabled;
 	public FGuid OuterEmitterVersion;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ShowLayersCommand.h")]
 public partial class UShowLayersCommand : UUTBBaseCommand {
 // ShowLayersCommand
-	public TArray<sbyte> Layers;
+	public TArray<string> Layers;
 	public bool bIsolate;
 }

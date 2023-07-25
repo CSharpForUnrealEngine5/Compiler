@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ComputeFramework/ComputeKernelPermutationSet.h")]
 public partial struct FComputeKernelPermutationBool {
 // ComputeKernelPermutationBool
-	public sbyte Name;
+	public string Name;
 	public bool Value;
 }

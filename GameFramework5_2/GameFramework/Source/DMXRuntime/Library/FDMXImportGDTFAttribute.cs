@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFAttribute {
 // DMXImportGDTFAttribute
-	public sbyte Name;
-	public sbyte Pretty;
+	public string Name;
+	public string Pretty;
 	public FDMXImportGDTFActivationGroup ActivationGroup;
 	public FDMXImportGDTFFeature Feature;
-	public sbyte MainAttribute;
+	public string MainAttribute;
 	public EDMXImportGDTFPhysicalUnit PhysicalUnit;
 	public FDMXColorCIE Color;
 }

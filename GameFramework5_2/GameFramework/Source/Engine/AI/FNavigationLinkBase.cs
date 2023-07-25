@@ -25,7 +25,7 @@ public partial struct FNavigationLinkBase {
 	public bool bSupportsAgent13;
 	public bool bSupportsAgent14;
 	public bool bSupportsAgent15;
-	public sbyte Description;
+	public string Description;
 	public byte Direction;
 	public bool bUseSnapHeight;
 	public bool bSnapToCheapestArea;

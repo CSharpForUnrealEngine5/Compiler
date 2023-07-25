@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("OpenColorIOEditorSettings.h")]
 public partial struct FPerViewportDisplaySettingPair {
 // PerViewportDisplaySettingPair
-	public sbyte ViewportIdentifier;
+	public string ViewportIdentifier;
 	public FOpenColorIODisplayConfiguration DisplayConfiguration;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>/</summary>
 public partial struct FCommonDialogueBankParticipant {
 // CommonDialogueBankParticipant
-	public sbyte FallbackName;
+	public string FallbackName;
 	public FGameplayTag ParticipantName;
 	public FLinearColor NodeTint;
 }

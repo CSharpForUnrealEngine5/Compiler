@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Clipboard contents for anim curves</summary>
 public partial struct FAnimCurveViewerClipboardEntry {
 // AnimCurveViewerClipboardEntry
-	public sbyte CurveName;
+	public string CurveName;
 	public FCurveMetaData MetaData;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithVREDImportData.h")]
 public partial struct FVREDCppVariantMaterialOption {
 // VREDCppVariantMaterialOption
-	public sbyte Name;
+	public string Name;
 }

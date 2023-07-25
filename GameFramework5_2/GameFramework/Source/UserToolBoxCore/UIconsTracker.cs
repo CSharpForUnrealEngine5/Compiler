@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UIconsTracker : UDataAsset {
 // IconsTracker
 	public TArray<FIconFolderInfo> IconFolderInfos;
-	public sbyte PrefixId;
+	public string PrefixId;
 }

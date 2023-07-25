@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FLevelSequenceObject {
 // LevelSequenceObject
 	public TLazyObjectPtr<UObject> ObjectOrOwner;
-	public sbyte ComponentName;
+	public string ComponentName;
 	public TWeakObjectPtr<UObject> CachedComponent;
 }

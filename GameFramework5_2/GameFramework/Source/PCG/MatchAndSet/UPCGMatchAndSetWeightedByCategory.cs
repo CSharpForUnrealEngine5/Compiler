@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MatchAndSet/PCGMatchAndSetWeightedByCategory.h")]
 public partial class UPCGMatchAndSetWeightedByCategory : UPCGMatchAndSetBase {
 // PCGMatchAndSetWeightedByCategory
-	public sbyte CategoryAttribute;
+	public string CategoryAttribute;
 	public EPCGMetadataTypes CategoryType;
 	public EPCGMetadataTypesConstantStructStringMode CategoryStringMode;
 	public TArray<FPCGMatchAndSetWeightedByCategoryEntryList> Categories;

@@ -15,23 +15,23 @@ public partial class UEditConditionTestObject : UObject {
 	public TSoftObjectPtr<UClass> SoftClassPtr;
 	public TWeakObjectPtr<UObject> WeakObjectPtr;
 	public void VoidFunction() {}
-	public bool GetBoolFunction(bool ReturnValue) { return default; }
-	public EditConditionTestEnum GetEnumFunction(EditConditionTestEnum ReturnValue) { return default; }
-	public byte GetByteEnumFunction(byte ReturnValue) { return default; }
-	public double GetDoubleFunction(double ReturnValue) { return default; }
-	public int GetIntegerFunction(int ReturnValue) { return default; }
-	public byte GetUintBitfieldFunction(byte ReturnValue) { return default; }
-	public UObject GetUObjectPtrFunction(UObject ReturnValue) { return default; }
-	public TSoftObjectPtr<UClass> GetSoftClassPtrFunction(TSoftObjectPtr<UClass> ReturnValue) { return default; }
-	public TWeakObjectPtr<UObject> GetWeakObjectPtrFunction(TWeakObjectPtr<UObject> ReturnValue) { return default; }
+	public bool GetBoolFunction() { return default; }
+	public EditConditionTestEnum GetEnumFunction() { return default; }
+	public byte GetByteEnumFunction() { return default; }
+	public double GetDoubleFunction() { return default; }
+	public int GetIntegerFunction() { return default; }
+	public byte GetUintBitfieldFunction() { return default; }
+	public UObject GetUObjectPtrFunction() { return default; }
+	public TSoftObjectPtr<UClass> GetSoftClassPtrFunction() { return default; }
+	public TWeakObjectPtr<UObject> GetWeakObjectPtrFunction() { return default; }
 	public void StaticVoidFunction() {}
-	public bool StaticGetBoolFunction(bool ReturnValue) { return default; }
-	public EditConditionTestEnum StaticGetEnumFunction(EditConditionTestEnum ReturnValue) { return default; }
-	public byte StaticGetByteEnumFunction(byte ReturnValue) { return default; }
-	public double StaticGetDoubleFunction(double ReturnValue) { return default; }
-	public int StaticGetIntegerFunction(int ReturnValue) { return default; }
-	public byte StaticGetUintBitfieldFunction(byte ReturnValue) { return default; }
-	public UObject StaticGetUObjectPtrFunction(UObject ReturnValue) { return default; }
-	public TSoftObjectPtr<UClass> StaticGetSoftClassPtrFunction(TSoftObjectPtr<UClass> ReturnValue) { return default; }
-	public TWeakObjectPtr<UObject> StaticGetWeakObjectPtrFunction(TWeakObjectPtr<UObject> ReturnValue) { return default; }
+	public bool StaticGetBoolFunction() { return default; }
+	public EditConditionTestEnum StaticGetEnumFunction() { return default; }
+	public byte StaticGetByteEnumFunction() { return default; }
+	public double StaticGetDoubleFunction() { return default; }
+	public int StaticGetIntegerFunction() { return default; }
+	public byte StaticGetUintBitfieldFunction() { return default; }
+	public UObject StaticGetUObjectPtrFunction() { return default; }
+	public TSoftObjectPtr<UClass> StaticGetSoftClassPtrFunction() { return default; }
+	public TWeakObjectPtr<UObject> StaticGetWeakObjectPtrFunction() { return default; }
 }

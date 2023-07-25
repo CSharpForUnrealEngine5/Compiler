@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Configuration for FNetAnalyticsData - enabling/disabling analytics data, based on DataName</summary>
 public partial struct FNetAnalyticsDataConfig {
 // NetAnalyticsDataConfig
-	public sbyte DataName;
+	public string DataName;
 	public bool bEnabled;
 }

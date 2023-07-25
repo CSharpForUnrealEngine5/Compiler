@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FRigInfluenceMapPerEvent {
 // RigInfluenceMapPerEvent
 	public TArray<FRigInfluenceMap> Maps;
-	public TMap<sbyte,int> EventToIndex;
+	public TMap<string,int> EventToIndex;
 }

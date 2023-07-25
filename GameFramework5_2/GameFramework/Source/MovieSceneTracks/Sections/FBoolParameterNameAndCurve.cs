@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure representing an bool  parameter and it's associated animation curve.</summary>
 public partial struct FBoolParameterNameAndCurve {
 // BoolParameterNameAndCurve
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMovieSceneBoolChannel ParameterCurve;
 }

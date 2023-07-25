@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure representing a collision profile name, this gets a special UI in the editor</summary>
 public partial struct FCollisionProfileName {
 // CollisionProfileName
-	public sbyte Name;
+	public string Name;
 }

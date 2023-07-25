@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPropertiesToRecordForActorClass {
 // PropertiesToRecordForActorClass
 	public UClass Class;
-	public TArray<sbyte> Properties;
+	public TArray<string> Properties;
 }

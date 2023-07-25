@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertClientWorkspaceData {
 // ConcertClientWorkspaceData
 	public FGuid SessionIdentifier;
-	public TMap<sbyte,long> PersistedFiles;
+	public TMap<string,long> PersistedFiles;
 }

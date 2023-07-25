@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>* Base class for all bone compression codecs.</summary>
 public partial class UAnimBoneCompressionCodec : UObject {
 // AnimBoneCompressionCodec
-	public sbyte Description;
+	public string Description;
 }

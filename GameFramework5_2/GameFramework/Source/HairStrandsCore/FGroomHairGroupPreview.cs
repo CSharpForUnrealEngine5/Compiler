@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("GroomImportOptions.h")]
 public partial struct FGroomHairGroupPreview {
 // GroomHairGroupPreview
-	public sbyte GroupName;
+	public string GroupName;
 	public int GroupID;
 	public int CurveCount;
 	public int GuideCount;

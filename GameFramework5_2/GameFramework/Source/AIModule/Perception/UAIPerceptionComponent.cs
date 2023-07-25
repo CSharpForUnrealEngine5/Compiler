@@ -16,7 +16,7 @@ public partial class UAIPerceptionComponent : UActorComponent {
 	public void GetCurrentlyPerceivedActors(UClass SenseToUse,TArray<UObject> OutActors) {}
 	public void GetKnownPerceivedActors(UClass SenseToUse,TArray<UObject> OutActors) {}
 	public void GetPerceivedActors(UClass SenseToUse,TArray<UObject> OutActors) {}
-	public bool GetActorsPerception(UObject Actor,FActorPerceptionBlueprintInfo Info,bool ReturnValue) { return default; }
+	public bool GetActorsPerception(UObject Actor,FActorPerceptionBlueprintInfo Info) { return default; }
 	public void SetSenseEnabled(UClass SenseClass,bool bEnable) {}
 	public FPerceptionUpdatedDelegate OnPerceptionUpdated;
 	public FActorPerceptionForgetUpdatedDelegate OnTargetPerceptionForgotten;

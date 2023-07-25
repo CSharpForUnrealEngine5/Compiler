@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMChangeLocalVariableDefaultValueAction {
 // RigVMChangeLocalVariableDefaultValueAction
 	public FRigVMGraphVariableDescription LocalVariable;
-	public sbyte DefaultValue;
+	public string DefaultValue;
 }

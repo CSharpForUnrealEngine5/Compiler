@@ -6,5 +6,5 @@ public partial struct FLiveLinkSourcePreset {
 // LiveLinkSourcePreset
 	public FGuid Guid;
 	public ULiveLinkSourceSettings Settings;
-	public sbyte SourceType;
+	public string SourceType;
 }

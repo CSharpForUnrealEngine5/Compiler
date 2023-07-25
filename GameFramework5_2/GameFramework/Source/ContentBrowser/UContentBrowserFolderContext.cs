@@ -8,5 +8,5 @@ public partial class UContentBrowserFolderContext : UContentBrowserMenuContext {
 	public bool bNoFolderOnDisk;
 	public int NumAssetPaths;
 	public int NumClassPaths;
-	public TArray<sbyte> SelectedPackagePaths;
+	public TArray<string> SelectedPackagePaths;
 }

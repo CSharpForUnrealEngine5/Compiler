@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FWebAPINameVariant {
 // WebAPINameVariant
 	public FWebAPINameInfo NameInfo;
-	public sbyte NameString;
+	public string NameString;
 }

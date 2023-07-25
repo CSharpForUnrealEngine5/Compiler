@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/AnimData/AnimDataNotifications.h")]
 public partial struct FAnimationTrackPayload {
 // AnimationTrackPayload
-	public sbyte Name;
+	public string Name;
 }

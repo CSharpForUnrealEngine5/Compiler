@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class URootMotionModifier_AdjustmentBlendWarp : URootMotionModifier_Warp {
 // RootMotionModifier_AdjustmentBlendWarp
 	public bool bWarpIKBones;
-	public TArray<sbyte> IKBones;
+	public TArray<string> IKBones;
 	public FTransform CachedMeshTransform;
 	public FTransform CachedMeshRelativeTransform;
 	public FTransform CachedRootMotion;

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FBuildPromotionNewProjectSettings {
 // BuildPromotionNewProjectSettings
 	public FDirectoryPath NewProjectFolderOverride;
-	public sbyte NewProjectNameOverride;
+	public string NewProjectNameOverride;
 }

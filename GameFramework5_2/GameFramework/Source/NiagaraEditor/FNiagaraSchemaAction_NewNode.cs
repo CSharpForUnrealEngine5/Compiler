@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraSchemaAction_NewNode {
 // NiagaraSchemaAction_NewNode
 	public UEdGraphNode NodeTemplate;
-	public sbyte InternalName;
+	public string InternalName;
 }

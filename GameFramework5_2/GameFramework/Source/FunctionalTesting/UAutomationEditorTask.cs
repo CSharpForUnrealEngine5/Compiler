@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>UAutomationEditorTask</summary>
 public partial class UAutomationEditorTask : UObject {
 // AutomationEditorTask
-	public bool IsTaskDone(bool ReturnValue) { return default; }
-	public bool IsValidTask(bool ReturnValue) { return default; }
+	public bool IsTaskDone() { return default; }
+	public bool IsValidTask() { return default; }
 }

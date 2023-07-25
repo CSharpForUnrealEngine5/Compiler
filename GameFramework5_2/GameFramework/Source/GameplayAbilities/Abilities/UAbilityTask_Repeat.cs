@@ -7,5 +7,5 @@ public partial class UAbilityTask_Repeat : UAbilityTask {
 // AbilityTask_Repeat
 	public FRepeatedActionDelegate OnPerformAction;
 	public FRepeatedActionDelegate OnFinished;
-	public UObject RepeatAction(UObject OwningAbility,float TimeBetweenActions,int TotalActionCount,UObject ReturnValue) { return default; }
+	public UObject RepeatAction(UObject OwningAbility,float TimeBetweenActions,int TotalActionCount) { return default; }
 }

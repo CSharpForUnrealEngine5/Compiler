@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Sound Submix class meant for use with soundfield formats, such as Ambisonics.</summary>
 public partial class USoundfieldSubmix : USoundSubmixWithParentBase {
 // SoundfieldSubmix
-	public sbyte SoundfieldEncodingFormat;
+	public string SoundfieldEncodingFormat;
 	public USoundfieldEncodingSettingsBase EncodingSettings;
 	public TArray<USoundfieldEffectBase> SoundfieldEffectChain;
 	public UClass EncodingSettingsClass;

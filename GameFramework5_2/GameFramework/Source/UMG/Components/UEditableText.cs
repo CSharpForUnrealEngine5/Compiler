@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>Editable text box widget</summary>
 public partial class UEditableText : UWidget {
 // EditableText
-	public void FOnEditableTextChangedEvent(sbyte Text) {}
-	public void FOnEditableTextCommittedEvent(sbyte Text,ETextCommit CommitMethod) {}
-	public sbyte Text;
+	public void FOnEditableTextChangedEvent(string Text) {}
+	public void FOnEditableTextCommittedEvent(string Text,ETextCommit CommitMethod) {}
+	public string Text;
 	public FGetText TextDelegate;
-	public sbyte HintText;
+	public string HintText;
 	public FGetText HintTextDelegate;
 	public FEditableTextStyle WidgetStyle;
 	public bool IsReadOnly;
@@ -30,17 +30,17 @@ public partial class UEditableText : UWidget {
 	public FShapedTextOptions ShapedTextOptions;
 	public FOnEditableTextChangedEvent OnTextChanged;
 	public FOnEditableTextCommittedEvent OnTextCommitted;
-	public sbyte GetText(sbyte ReturnValue) { return default; }
-	public void SetText(sbyte InText) {}
+	public string GetText() { return default; }
+	public void SetText(string InText) {}
 	public void SetIsPassword(bool InbIsPassword) {}
-	public sbyte GetHintText(sbyte ReturnValue) { return default; }
-	public void SetHintText(sbyte InHintText) {}
+	public string GetHintText() { return default; }
+	public void SetHintText(string InHintText) {}
 	public void SetMinimumDesiredWidth(float InMinDesiredWidth) {}
 	public void SetIsReadOnly(bool InbIsReadyOnly) {}
-	public ETextJustify GetJustification(ETextJustify ReturnValue) { return default; }
+	public ETextJustify GetJustification() { return default; }
 	public void SetJustification(ETextJustify InJustification) {}
 	public void SetTextOverflowPolicy(ETextOverflowPolicy InOverflowPolicy) {}
-	public FSlateFontInfo GetFont(FSlateFontInfo ReturnValue) { return default; }
+	public FSlateFontInfo GetFont() { return default; }
 	public void SetFont(FSlateFontInfo InFontInfo) {}
 	public void SetFontMaterial(UObject InMaterial) {}
 	public void SetFontOutlineMaterial(UObject InMaterial) {}

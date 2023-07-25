@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFGeometryBase {
 // DMXImportGDTFGeometryBase
-	public sbyte Name;
-	public sbyte Model;
+	public string Name;
+	public string Model;
 	public FMatrix Position;
 }

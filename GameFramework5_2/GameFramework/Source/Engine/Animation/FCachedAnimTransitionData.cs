@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/CachedAnimData.h")]
 public partial struct FCachedAnimTransitionData {
 // CachedAnimTransitionData
-	public sbyte StateMachineName;
-	public sbyte FromStateName;
-	public sbyte ToStateName;
+	public string StateMachineName;
+	public string FromStateName;
+	public string ToStateName;
 }

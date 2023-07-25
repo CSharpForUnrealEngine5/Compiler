@@ -9,10 +9,10 @@ public partial class UConcertClientConfig : UObject {
 	public bool bAutoConnect;
 	public bool bRetryAutoConnectOnError;
 	public EConcertServerType ServerType;
-	public sbyte DefaultServerURL;
-	public sbyte DefaultSessionName;
-	public sbyte DefaultSessionToRestore;
-	public sbyte DefaultSaveSessionAs;
+	public string DefaultServerURL;
+	public string DefaultSessionName;
+	public string DefaultSessionToRestore;
+	public string DefaultSaveSessionAs;
 	public FGameplayTagContainer ReadOnlyAssignment;
 	public FGameplayTagContainer SendOnlyAssignment;
 	public bool bShouldPromptForHotReloadOnLevel;

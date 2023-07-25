@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MovieRenderPipelineDataTypes.h")]
 public partial struct FMoviePipelineSegmentWorkMetrics {
 // MoviePipelineSegmentWorkMetrics
-	public sbyte SegmentName;
+	public string SegmentName;
 	public int OutputFrameIndex;
 	public int TotalOutputFrameCount;
 	public int OutputSubSampleIndex;

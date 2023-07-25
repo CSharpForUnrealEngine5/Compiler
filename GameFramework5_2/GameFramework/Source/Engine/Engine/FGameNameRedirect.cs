@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/Engine.h")]
 public partial struct FGameNameRedirect {
 // GameNameRedirect
-	public sbyte OldGameName;
-	public sbyte NewGameName;
+	public string OldGameName;
+	public string NewGameName;
 }

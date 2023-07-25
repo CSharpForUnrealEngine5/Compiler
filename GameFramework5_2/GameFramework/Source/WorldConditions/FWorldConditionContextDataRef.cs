@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes a reference to context data defined in UWorldConditionSchema.</summary>
 public partial struct FWorldConditionContextDataRef {
 // WorldConditionContextDataRef
-	public sbyte Name;
+	public string Name;
 	public byte Index;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Required by LoadModel() when loading operators in HLSL and DirectML runtime</summary>
 public partial struct FNNEFormatAttributeDesc {
 // NNEFormatAttributeDesc
-	public sbyte Name;
+	public string Name;
 	public FNNEAttributeValue Value;
 }

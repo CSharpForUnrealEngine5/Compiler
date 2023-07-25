@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>General purpose version info for Metasound Frontend objects.</summary>
 public partial struct FMetasoundFrontendVersion {
 // MetasoundFrontendVersion
-	public sbyte Name;
+	public string Name;
 	public FMetasoundFrontendVersionNumber Number;
 }

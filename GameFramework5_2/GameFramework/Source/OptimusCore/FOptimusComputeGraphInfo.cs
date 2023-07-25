@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FOptimusComputeGraphInfo {
 // OptimusComputeGraphInfo
 	public EOptimusNodeGraphType GraphType;
-	public sbyte GraphName;
+	public string GraphName;
 	public UOptimusComputeGraph ComputeGraph;
 }

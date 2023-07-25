@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("AnalyticsMulticastSettings.h")]
 public partial class UAnalyticsMulticastSettings : UAnalyticsSettingsBase {
 // AnalyticsMulticastSettings
-	public TArray<sbyte> ReleaseMulticastProviders;
-	public TArray<sbyte> DebugMulticastProviders;
-	public TArray<sbyte> TestMulticastProviders;
-	public TArray<sbyte> DevelopmentMulticastProviders;
+	public TArray<string> ReleaseMulticastProviders;
+	public TArray<string> DebugMulticastProviders;
+	public TArray<string> TestMulticastProviders;
+	public TArray<string> DevelopmentMulticastProviders;
 }

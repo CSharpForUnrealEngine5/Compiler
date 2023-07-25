@@ -7,5 +7,5 @@ public partial struct FDisplayClusterMoviePipelineConfiguration {
 	public TSoftObjectPtr<ADisplayClusterRootActor> DCRootActor;
 	public bool bUseViewportResolutions;
 	public bool bRenderAllViewports;
-	public TArray<sbyte> AllowedViewportNamesList;
+	public TArray<string> AllowedViewportNamesList;
 }

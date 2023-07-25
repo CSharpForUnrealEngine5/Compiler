@@ -6,5 +6,5 @@ public partial struct FConcertPackage {
 // ConcertPackage
 	public FConcertPackageInfo Info;
 	public FConcertByteArray PackageData;
-	public sbyte FileId;
+	public string FileId;
 }

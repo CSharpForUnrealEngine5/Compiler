@@ -9,7 +9,7 @@ public partial class UConeBuilder : UEditorBrushBuilder {
 	public float OuterRadius;
 	public float InnerRadius;
 	public int Sides;
-	public sbyte GroupName;
+	public string GroupName;
 	public bool AlignToSide;
 	public bool Hollow;
 }

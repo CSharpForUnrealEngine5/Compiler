@@ -7,7 +7,7 @@ public partial struct FMetasoundFrontendNode {
 // MetasoundFrontendNode
 	public FGuid ID;
 	public FGuid ClassID;
-	public sbyte Name;
+	public string Name;
 	public FMetasoundFrontendNodeInterface Interface;
 	public TArray<FMetasoundFrontendVertexLiteral> InputLiterals;
 	public FMetasoundFrontendNodeStyle Style;

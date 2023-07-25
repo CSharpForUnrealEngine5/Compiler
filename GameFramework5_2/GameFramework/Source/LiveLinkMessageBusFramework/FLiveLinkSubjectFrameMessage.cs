@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkMessages.h")]
 public partial struct FLiveLinkSubjectFrameMessage {
 // LiveLinkSubjectFrameMessage
-	public sbyte SubjectName;
+	public string SubjectName;
 	public TArray<FTransform> Transforms;
 	public TArray<FLiveLinkCurveElement> Curves;
 	public FLiveLinkMetaData MetaData;

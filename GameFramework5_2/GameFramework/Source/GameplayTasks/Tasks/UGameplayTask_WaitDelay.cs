@@ -6,5 +6,5 @@ public partial class UGameplayTask_WaitDelay : UGameplayTask {
 // GameplayTask_WaitDelay
 	public void FTaskDelayDelegate() {}
 	public FTaskDelayDelegate OnFinish;
-	public UObject TaskWaitDelay(object /*TaskOwner*/ TaskOwner,float Time,byte Priority=192,UObject ReturnValue) { return default; }
+	public UObject TaskWaitDelay(object /*TaskOwner*/ TaskOwner,float Time,byte Priority/*=192*/) { return default; }
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a color to be used for a particular Tool Palette Tool</summary>
 public partial struct FModelingModeCustomToolColor {
 // ModelingModeCustomToolColor
-	public sbyte ToolName;
+	public string ToolName;
 	public FLinearColor Color;
 }

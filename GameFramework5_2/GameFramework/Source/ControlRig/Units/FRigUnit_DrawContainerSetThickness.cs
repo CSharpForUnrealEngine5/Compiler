@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Set Imported Draw Container curve thickness</summary>
 public partial struct FRigUnit_DrawContainerSetThickness {
 // RigUnit_DrawContainerSetThickness
-	public sbyte InstructionName;
+	public string InstructionName;
 	public float Thickness;
 }

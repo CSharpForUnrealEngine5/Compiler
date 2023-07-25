@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertMessages.h")]
 public partial struct FConcertAdmin_DiscoverServersEvent {
 // ConcertAdmin_DiscoverServersEvent
-	public sbyte RequiredRole;
-	public sbyte RequiredVersion;
-	public sbyte ClientAuthenticationKey;
+	public string RequiredRole;
+	public string RequiredVersion;
+	public string ClientAuthenticationKey;
 }

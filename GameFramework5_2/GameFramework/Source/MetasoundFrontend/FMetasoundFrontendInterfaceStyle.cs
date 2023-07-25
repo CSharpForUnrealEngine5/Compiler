@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FMetasoundFrontendInterfaceStyle {
 // MetasoundFrontendInterfaceStyle
 	public TArray<int> DefaultSortOrder;
-	public TMap<sbyte,sbyte> RequiredMembers;
+	public TMap<string,string> RequiredMembers;
 }

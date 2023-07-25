@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraStackEditorData : UNiagaraEditorDataBase {
 // NiagaraStackEditorData
 	public bool bHideDisabledModules;
-	public TMap<sbyte,bool> StackEntryKeyToExpandedMap;
-	public TMap<sbyte,bool> StackEntryKeyToExpandedOverviewMap;
-	public TMap<sbyte,sbyte> StackEntryKeyToDisplayName;
-	public TArray<sbyte> DismissedStackIssueIds;
+	public TMap<string,bool> StackEntryKeyToExpandedMap;
+	public TMap<string,bool> StackEntryKeyToExpandedOverviewMap;
+	public TMap<string,string> StackEntryKeyToDisplayName;
+	public TArray<string> DismissedStackIssueIds;
 }

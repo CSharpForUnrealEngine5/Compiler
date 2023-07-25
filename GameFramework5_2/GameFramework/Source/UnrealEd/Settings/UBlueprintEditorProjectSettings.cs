@@ -8,9 +8,9 @@ public partial class UBlueprintEditorProjectSettings : UDeveloperSettings {
 	public bool bValidateUnloadedSoftActorReferences;
 	public bool bEnableChildActorExpansionInTreeView;
 	public EChildActorComponentTreeViewVisualizationMode DefaultChildActorTreeViewMode;
-	public TArray<sbyte> NamespacesToAlwaysInclude;
-	public TArray<sbyte> DisabledCompilerMessagesExceptEditor;
-	public TArray<sbyte> DisabledCompilerMessages;
-	public TArray<sbyte> SuppressedDeprecationMessages;
+	public TArray<string> NamespacesToAlwaysInclude;
+	public TArray<string> DisabledCompilerMessagesExceptEditor;
+	public TArray<string> DisabledCompilerMessages;
+	public TArray<string> SuppressedDeprecationMessages;
 	public TArray<TSoftObjectPtr<UClass>> BaseClassesToAllowRecompilingDuringPlayInEditor;
 }

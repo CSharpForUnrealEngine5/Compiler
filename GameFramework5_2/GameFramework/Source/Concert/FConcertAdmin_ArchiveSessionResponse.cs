@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertAdmin_ArchiveSessionResponse {
 // ConcertAdmin_ArchiveSessionResponse
 	public FGuid SessionId;
-	public sbyte SessionName;
+	public string SessionName;
 	public FGuid ArchiveId;
-	public sbyte ArchiveName;
+	public string ArchiveName;
 }

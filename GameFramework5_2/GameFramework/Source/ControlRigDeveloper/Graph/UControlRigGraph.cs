@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Graph/ControlRigGraph.h")]
 public partial class UControlRigGraph : UEdGraph {
 // ControlRigGraph
-	public sbyte ModelNodePath;
+	public string ModelNodePath;
 	public bool bIsFunctionDefinition;
 	public URigVMController TemplateController;
 }

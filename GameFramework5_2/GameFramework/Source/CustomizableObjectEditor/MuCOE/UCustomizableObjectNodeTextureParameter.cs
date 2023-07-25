@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UCustomizableObjectNodeTextureParameter : UCustomizableObjectNode {
 // CustomizableObjectNodeTextureParameter
 	public UTexture2D DefaultValue;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMutableParamUIMetadata ParamUIMetadata;
 	public int TextureSizeX;
 	public int TextureSizeY;

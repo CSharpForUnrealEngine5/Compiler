@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UTestBTTask_ToggleFlag : UBTTaskNode {
 // TestBTTask_ToggleFlag
 	public int LogIndex;
-	public sbyte KeyName;
+	public string KeyName;
 	public int NumToggles;
 	public byte TaskResult;
 }

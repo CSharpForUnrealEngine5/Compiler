@@ -82,6 +82,6 @@ public partial class ULevelEditorViewportSettings : UObject {
 	public float SplineTangentScale;
 	public FVector2D LastInViewportMenuLocation;
 	public TSoftObjectPtr<UMaterialInterface> MaterialForDroppedTextures;
-	public TMap<EMaterialKind,sbyte> MaterialParamsForDroppedTextures;
+	public TMap<EMaterialKind,string> MaterialParamsForDroppedTextures;
 	public TArray<FLevelEditorViewportInstanceSettingsKeyValuePair> PerInstanceSettings;
 }

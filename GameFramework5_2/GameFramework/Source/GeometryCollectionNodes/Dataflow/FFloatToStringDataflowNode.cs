@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FFloatToStringDataflowNode {
 // FloatToStringDataflowNode
 	public float Float;
-	public sbyte String;
+	public string String;
 }

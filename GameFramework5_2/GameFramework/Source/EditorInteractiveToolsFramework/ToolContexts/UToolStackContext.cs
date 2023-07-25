@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UToolStackContext : UObject {
 // ToolStackContext
 	public TWeakObjectPtr<UEdMode> EdMode;
-	public TMap<sbyte,FInteractiveToolStack> ToolStacks;
+	public TMap<string,FInteractiveToolStack> ToolStacks;
 }

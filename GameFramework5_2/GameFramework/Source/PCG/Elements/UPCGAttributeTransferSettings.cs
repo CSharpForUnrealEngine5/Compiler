@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Transfer an attribute from a source metadata to a target data.</summary>
 public partial class UPCGAttributeTransferSettings : UPCGSettings {
 // PCGAttributeTransferSettings
-	public sbyte SourceAttributeName;
-	public sbyte TargetAttributeName;
+	public string SourceAttributeName;
+	public string TargetAttributeName;
 }

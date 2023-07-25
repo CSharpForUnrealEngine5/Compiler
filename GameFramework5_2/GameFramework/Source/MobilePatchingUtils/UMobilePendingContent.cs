@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("MobilePatchingLibrary.h")]
 public partial class UMobilePendingContent : UMobileInstalledContent {
 // MobilePendingContent
-	public float GetDownloadSize(float ReturnValue) { return default; }
-	public float GetRequiredDiskSpace(float ReturnValue) { return default; }
-	public float GetTotalDownloadedSize(float ReturnValue) { return default; }
-	public float GetDownloadSpeed(float ReturnValue) { return default; }
-	public sbyte GetDownloadStatusText(sbyte ReturnValue) { return default; }
-	public float GetInstallProgress(float ReturnValue) { return default; }
+	public float GetDownloadSize() { return default; }
+	public float GetRequiredDiskSpace() { return default; }
+	public float GetTotalDownloadedSize() { return default; }
+	public float GetDownloadSpeed() { return default; }
+	public string GetDownloadStatusText() { return default; }
+	public float GetInstallProgress() { return default; }
 	public void StartInstall(FOnContentInstallSucceeded OnSucceeded,FOnContentInstallFailed OnFailed) {}
 }

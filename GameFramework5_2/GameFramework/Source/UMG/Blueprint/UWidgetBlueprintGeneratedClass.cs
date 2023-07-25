@@ -12,8 +12,8 @@ public partial class UWidgetBlueprintGeneratedClass : UBlueprintGeneratedClass {
 	public bool bCanCallPreConstruct;
 	public TArray<FDelegateRuntimeBinding> Bindings;
 	public TArray<UWidgetAnimation> Animations;
-	public TArray<sbyte> NamedSlots;
-	public TMap<sbyte,FGuid> NamedSlotsWithID;
-	public TArray<sbyte> AvailableNamedSlots;
-	public TArray<sbyte> InstanceNamedSlots;
+	public TArray<string> NamedSlots;
+	public TMap<string,FGuid> NamedSlotsWithID;
+	public TArray<string> AvailableNamedSlots;
+	public TArray<string> InstanceNamedSlots;
 }

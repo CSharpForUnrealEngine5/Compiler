@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>* This stores information about the target for a given VCam Widget Connection</summary>
 public partial struct FVCamConnectionTargetSettings {
 // VCamConnectionTargetSettings
-	public sbyte TargetModifierName;
-	public sbyte TargetConnectionPoint;
+	public string TargetModifierName;
+	public string TargetConnectionPoint;
 }

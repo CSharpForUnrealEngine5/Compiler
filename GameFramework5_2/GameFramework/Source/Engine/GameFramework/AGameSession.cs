@@ -10,5 +10,5 @@ public partial class AGameSession : AInfo {
 	public int MaxPartySize;
 	public byte MaxSplitscreensPerConnection;
 	public bool bRequiresPushToTalk;
-	public sbyte SessionName;
+	public string SessionName;
 }

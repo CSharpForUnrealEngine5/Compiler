@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameplayTask_MoveTo.h")]
 public partial class UGameplayTask_MoveTo : UGameplayTask {
 // GameplayTask_MoveTo
-	public UObject MoveTo(UObject Actor,FVector GoalLocation,UObject GoalActor=nullptr,EGameplayTaskMoveToIntent EndOfPathIntent=EGameplayTaskMoveToIntent,float AcceptanceRadius=-1.f,EAIOptionFlag StopOnOverlap=EAIOptionFlag,EAIOptionFlag AcceptPartialPath=EAIOptionFlag,bool bUsePathfinding=true,bool bUseContinuousGoalTracking=false,EAIOptionFlag ProjectGoalOnNavigation=EAIOptionFlag,UObject ReturnValue) { return default; }
+	public UObject MoveTo(UObject Actor,FVector GoalLocation,UObject GoalActor/*=nullptr*/,EGameplayTaskMoveToIntent EndOfPathIntent/*=EGameplayTaskMoveToIntent.Stop*/,float AcceptanceRadius/*=-1.0f*/,EAIOptionFlag StopOnOverlap/*=EAIOptionFlag.Default*/,EAIOptionFlag AcceptPartialPath/*=EAIOptionFlag.Default*/,bool bUsePathfinding/*=true*/,bool bUseContinuousGoalTracking/*=false*/,EAIOptionFlag ProjectGoalOnNavigation/*=EAIOptionFlag.Default*/) { return default; }
 	public FGenericGameplayTaskDelegate OnRequestFailed;
 	public FGameplayTaskActuationCompleted OnCompleted;
 	public UCharacterMovementComponent MovementComponent;

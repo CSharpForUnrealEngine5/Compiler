@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRigTransformConstraint {
 // RigTransformConstraint
 	public byte TranformType;
-	public sbyte ParentSpace;
+	public string ParentSpace;
 	public float Weight;
 }

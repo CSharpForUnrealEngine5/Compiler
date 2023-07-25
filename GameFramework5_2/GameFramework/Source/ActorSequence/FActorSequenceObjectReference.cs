@@ -7,5 +7,5 @@ public partial struct FActorSequenceObjectReference {
 // ActorSequenceObjectReference
 	public EActorSequenceObjectReferenceType Type;
 	public FGuid ActorId;
-	public sbyte PathToComponent;
+	public string PathToComponent;
 }

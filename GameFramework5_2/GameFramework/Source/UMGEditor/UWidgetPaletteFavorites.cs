@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("WidgetPaletteFavorites.h")]
 public partial class UWidgetPaletteFavorites : UObject {
 // WidgetPaletteFavorites
-	public TArray<sbyte> Favorites;
+	public TArray<string> Favorites;
 }

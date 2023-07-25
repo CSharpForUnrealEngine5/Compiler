@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlResponse.h")]
 public partial struct FGetMetadataResponse {
 // GetMetadataResponse
-	public TMap<sbyte,sbyte> Metadata;
+	public TMap<string,string> Metadata;
 }

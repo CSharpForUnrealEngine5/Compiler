@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Metadata associated with a vertex.</summary>
 public partial struct FMetasoundFrontendVertexMetadata {
 // MetasoundFrontendVertexMetadata
-	public sbyte DisplayName;
-	public sbyte DisplayNameTransient;
-	public sbyte Description;
-	public sbyte DescriptionTransient;
+	public string DisplayName;
+	public string DisplayNameTransient;
+	public string Description;
+	public string DescriptionTransient;
 	public int SortOrderIndex;
 	public bool bIsAdvancedDisplay;
 	public bool bSerializeText;

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNameCurveKey {
 // NameCurveKey
 	public float Time;
-	public sbyte Value;
+	public string Value;
 }

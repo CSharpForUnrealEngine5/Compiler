@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Acts as a bridge between an exposed property/function and an object to act on.</summary>
 public partial class URemoteControlBinding : UObject {
 // RemoteControlBinding
-	public sbyte Name;
+	public string Name;
 	public FSoftObjectPath LastBoundObjectPath;
 }

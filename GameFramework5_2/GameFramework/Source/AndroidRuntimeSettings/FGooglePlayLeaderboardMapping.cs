@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds the game-specific leaderboard name and corresponding ID from Google Play services.</summary>
 public partial struct FGooglePlayLeaderboardMapping {
 // GooglePlayLeaderboardMapping
-	public sbyte Name;
-	public sbyte LeaderboardID;
+	public string Name;
+	public string LeaderboardID;
 }

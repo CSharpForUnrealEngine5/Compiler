@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds the event name and corresponding token from Adjust dashboard.</summary>
 public partial struct FAdjustEventMapping {
 // AdjustEventMapping
-	public sbyte Name;
-	public sbyte Token;
+	public string Name;
+	public string Token;
 }

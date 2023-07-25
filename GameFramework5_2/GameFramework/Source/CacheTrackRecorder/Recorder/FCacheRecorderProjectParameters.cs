@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Recorder/CacheTrackRecorder.h")]
 public partial struct FCacheRecorderProjectParameters {
 // CacheRecorderProjectParameters
-	public sbyte DefaultSlate;
+	public string DefaultSlate;
 	public bool bCacheTrackRecorderControlsClockTime;
 	public EUpdateClockSource RecordingClockSource;
 	public bool bStartAtCurrentTimecode;

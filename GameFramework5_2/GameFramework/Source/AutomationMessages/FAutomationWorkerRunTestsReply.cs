@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that is sent in response to FAutomationWorkerRunTests.</summary>
 public partial struct FAutomationWorkerRunTestsReply {
 // AutomationWorkerRunTestsReply
-	public sbyte TestName;
+	public string TestName;
 	public TArray<FAutomationExecutionEntry> Entries;
 	public int WarningTotal;
 	public int ErrorTotal;

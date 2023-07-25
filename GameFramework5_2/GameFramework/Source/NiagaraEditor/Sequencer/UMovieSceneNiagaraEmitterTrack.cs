@@ -8,5 +8,5 @@ public partial class UMovieSceneNiagaraEmitterTrack : UMovieSceneNameableTrack {
 	public TArray<UMovieSceneSection> Sections;
 	public bool bSectionsWereModified;
 	public FGuid EmitterHandleId;
-	public sbyte SystemPath;
+	public string SystemPath;
 }

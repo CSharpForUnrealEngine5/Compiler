@@ -19,27 +19,27 @@ public partial class AAIController : AController {
 	public UBlackboardComponent Blackboard;
 	public UGameplayTasksComponent CachedGameplayTasksComponent;
 	public UClass DefaultNavigationFilterClass;
-	public EPathFollowingRequestResult MoveToActor(UObject Goal,float AcceptanceRadius=-1,bool bStopOnOverlap=true,bool bUsePathfinding=true,bool bCanStrafe=true,UClass FilterClass=NULL,bool bAllowPartialPath=true,EPathFollowingRequestResult ReturnValue) { return default; }
-	public EPathFollowingRequestResult MoveToLocation(FVector Dest,float AcceptanceRadius=-1,bool bStopOnOverlap=true,bool bUsePathfinding=true,bool bProjectDestinationToNavigation=false,bool bCanStrafe=true,UClass FilterClass=NULL,bool bAllowPartialPath=true,EPathFollowingRequestResult ReturnValue) { return default; }
+	public EPathFollowingRequestResult MoveToActor(UObject Goal,float AcceptanceRadius/*=-1f*/,bool bStopOnOverlap/*=true*/,bool bUsePathfinding/*=true*/,bool bCanStrafe/*=true*/,UClass FilterClass/*=NULL*/,bool bAllowPartialPath/*=true*/) { return default; }
+	public EPathFollowingRequestResult MoveToLocation(FVector Dest,float AcceptanceRadius/*=-1f*/,bool bStopOnOverlap/*=true*/,bool bUsePathfinding/*=true*/,bool bProjectDestinationToNavigation/*=false*/,bool bCanStrafe/*=true*/,UClass FilterClass/*=NULL*/,bool bAllowPartialPath/*=true*/) { return default; }
 	public FAIMoveCompletedSignature ReceiveMoveCompleted;
-	public EPathFollowingStatus GetMoveStatus(EPathFollowingStatus ReturnValue) { return default; }
-	public bool HasPartialPath(bool ReturnValue) { return default; }
-	public FVector GetImmediateMoveDestination(FVector ReturnValue) { return default; }
+	public EPathFollowingStatus GetMoveStatus() { return default; }
+	public bool HasPartialPath() { return default; }
+	public FVector GetImmediateMoveDestination() { return default; }
 	public void SetMoveBlockDetection(bool bEnable) {}
-	public bool RunBehaviorTree(UObject BTAsset,bool ReturnValue) { return default; }
-	public bool UseBlackboard(UObject BlackboardAsset,UObject BlackboardComponent,bool ReturnValue) { return default; }
+	public bool RunBehaviorTree(UObject BTAsset) { return default; }
+	public bool UseBlackboard(UObject BlackboardAsset,UObject BlackboardComponent) { return default; }
 	public void ClaimTaskResource(UClass ResourceClass) {}
 	public void UnclaimTaskResource(UClass ResourceClass) {}
 	public void OnUsingBlackBoard(UObject BlackboardComp,UObject BlackboardAsset) {}
-	public FVector GetFocalPoint(FVector ReturnValue) { return default; }
-	public FVector GetFocalPointOnActor(UObject Actor,FVector ReturnValue) { return default; }
+	public FVector GetFocalPoint() { return default; }
+	public FVector GetFocalPointOnActor(UObject Actor) { return default; }
 	public void K2_SetFocalPoint(FVector FP) {}
 	public void K2_SetFocus(UObject NewFocus) {}
-	public UObject GetFocusActor(UObject ReturnValue) { return default; }
+	public UObject GetFocusActor() { return default; }
 	public void K2_ClearFocus() {}
 	public void OnGameplayTaskResourcesClaimed(FGameplayResourceSet NewlyClaimed,FGameplayResourceSet FreshlyReleased) {}
-	public UObject GetPathFollowingComponent(UObject ReturnValue) { return default; }
-	public UObject GetAIPerceptionComponent(UObject ReturnValue) { return default; }
+	public UObject GetPathFollowingComponent() { return default; }
+	public UObject GetAIPerceptionComponent() { return default; }
 	public void SetPathFollowingComponent(UObject NewPFComponent) {}
-	public UObject GetDeprecatedActionsComponent(UObject ReturnValue) { return default; }
+	public UObject GetDeprecatedActionsComponent() { return default; }
 }

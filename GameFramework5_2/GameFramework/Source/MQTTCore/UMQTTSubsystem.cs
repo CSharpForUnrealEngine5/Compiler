@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Provides persistent access to clients</summary>
 public partial class UMQTTSubsystem : UEngineSubsystem {
 // MQTTSubsystem
-	public UObject GetOrCreateClient_WithProjectURL(UObject InParent,UObject ReturnValue) { return default; }
-	public UObject GetOrCreateClient(UObject InParent,FMQTTURL InURL,UObject ReturnValue) { return default; }
-	public sbyte GetPayloadString(FMQTTClientMessage InClientMessage,sbyte ReturnValue) { return default; }
-	public bool GetPayloadJson(UObject InParent,FMQTTClientMessage InClientMessage,FJsonObjectWrapper OutJson,bool ReturnValue) { return default; }
+	public UObject GetOrCreateClient_WithProjectURL(UObject InParent) { return default; }
+	public UObject GetOrCreateClient(UObject InParent,FMQTTURL InURL) { return default; }
+	public string GetPayloadString(FMQTTClientMessage InClientMessage) { return default; }
+	public bool GetPayloadJson(UObject InParent,FMQTTClientMessage InClientMessage,FJsonObjectWrapper OutJson) { return default; }
 	public TMap<FGuid,UMQTTClientObject> Clients;
 }

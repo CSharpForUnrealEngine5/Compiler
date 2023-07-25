@@ -14,6 +14,6 @@ public partial class URemoteSessionSettings : UObject {
 	public bool bAutoHostWithGame;
 	public int ImageQuality;
 	public int FrameRate;
-	public TArray<sbyte> AllowedChannels;
-	public TArray<sbyte> DeniedChannels;
+	public TArray<string> AllowedChannels;
+	public TArray<string> DeniedChannels;
 }

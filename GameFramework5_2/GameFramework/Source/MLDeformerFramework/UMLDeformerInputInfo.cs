@@ -6,10 +6,10 @@ using CSharpToCpp.Utilities;
 public partial class UMLDeformerInputInfo : UObject {
 // MLDeformerInputInfo
 	public FSoftObjectPath SkeletalMesh;
-	public TArray<sbyte> BoneNameStrings_DEPRECATED;
-	public TArray<sbyte> CurveNameStrings_DEPRECATED;
-	public TArray<sbyte> BoneNames;
-	public TArray<sbyte> CurveNames;
+	public TArray<string> BoneNameStrings_DEPRECATED;
+	public TArray<string> CurveNameStrings_DEPRECATED;
+	public TArray<string> BoneNames;
+	public TArray<string> CurveNames;
 	public int NumBaseMeshVertices;
 	public int NumTargetMeshVertices;
 }

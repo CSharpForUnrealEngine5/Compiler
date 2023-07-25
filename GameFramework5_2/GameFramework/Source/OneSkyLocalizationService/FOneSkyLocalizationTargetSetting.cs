@@ -7,5 +7,5 @@ public partial struct FOneSkyLocalizationTargetSetting {
 // OneSkyLocalizationTargetSetting
 	public FGuid TargetGuid;
 	public int OneSkyProjectId;
-	public sbyte OneSkyFileName;
+	public string OneSkyFileName;
 }

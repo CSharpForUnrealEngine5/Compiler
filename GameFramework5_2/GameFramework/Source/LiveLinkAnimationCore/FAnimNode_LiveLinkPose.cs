@@ -6,7 +6,7 @@ public partial struct FAnimNode_LiveLinkPose {
 // AnimNode_LiveLinkPose
 	public FPoseLink InputPose;
 	public FLiveLinkSubjectName LiveLinkSubjectName;
-	public sbyte SubjectName_DEPRECATED;
+	public string SubjectName_DEPRECATED;
 	public UClass RetargetAsset;
 	public ULiveLinkRetargetAsset CurrentRetargetAsset;
 }

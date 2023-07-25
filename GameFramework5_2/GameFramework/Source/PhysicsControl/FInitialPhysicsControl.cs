@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial struct FInitialPhysicsControl {
 // InitialPhysicsControl
 	public AActor ParentActor;
-	public sbyte ParentMeshComponentName;
-	public sbyte ParentBoneName;
+	public string ParentMeshComponentName;
+	public string ParentBoneName;
 	public AActor ChildActor;
-	public sbyte ChildMeshComponentName;
-	public sbyte ChildBoneName;
+	public string ChildMeshComponentName;
+	public string ChildBoneName;
 	public FPhysicsControlData ControlData;
 	public FPhysicsControlMultiplier ControlMultiplier;
 	public FPhysicsControlTarget ControlTarget;

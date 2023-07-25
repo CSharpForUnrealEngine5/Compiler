@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Dataflow/DataflowEngineTypes.h")]
 public partial struct FStringValuePair {
 // StringValuePair
-	public sbyte Key;
-	public sbyte Value;
+	public string Key;
+	public string Value;
 }

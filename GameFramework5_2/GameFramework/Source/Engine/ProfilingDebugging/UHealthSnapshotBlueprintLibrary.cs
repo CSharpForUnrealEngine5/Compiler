@@ -6,5 +6,5 @@ public partial class UHealthSnapshotBlueprintLibrary : UBlueprintFunctionLibrary
 // HealthSnapshotBlueprintLibrary
 	public void StartPerformanceSnapshots() {}
 	public void StopPerformanceSnapshots() {}
-	public void LogPerformanceSnapshot(sbyte SnapshotTitle,bool bResetStats=true) {}
+	public void LogPerformanceSnapshot(string SnapshotTitle,bool bResetStats/*=true*/) {}
 }

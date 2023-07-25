@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>“MemQuery Savings” command is supposed to list potential memory savings for assets based on predefined presets.</summary>
 public partial class UMemoryUsageQueriesConfig : UObject {
 // MemoryUsageQueriesConfig
-	public TMap<sbyte,sbyte> SavingsPresets;
+	public TMap<string,string> SavingsPresets;
 }

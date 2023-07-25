@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("AssetView/AssetViewConfig.h")]
 public partial class UAssetViewConfig : UEditorConfigBase {
 // AssetViewConfig
-	public TMap<sbyte,FAssetViewInstanceConfig> Instances;
+	public TMap<string,FAssetViewInstanceConfig> Instances;
 }

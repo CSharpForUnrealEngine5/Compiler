@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("AI/Navigation/NavigationTypes.h")]
 public partial struct FNavDataConfig {
 // NavDataConfig
-	public sbyte Name;
+	public string Name;
 	public FColor Color;
 	public FVector DefaultQueryExtent;
 	public UClass NavigationDataClass;

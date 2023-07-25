@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FChildActorComponentInstanceData {
 // ChildActorComponentInstanceData
 	public UClass ChildActorClass;
-	public sbyte ChildActorName;
+	public string ChildActorName;
 	public TArray<FChildActorAttachedActorInfo> AttachedActors;
 }

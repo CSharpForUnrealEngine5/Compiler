@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>ControlName is used to represent a Control name in the graph</summary>
 public partial struct FRigUnit_ControlName {
 // RigUnit_ControlName
-	public sbyte Control;
+	public string Control;
 }

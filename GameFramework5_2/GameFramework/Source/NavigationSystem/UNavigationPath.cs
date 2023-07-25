@@ -8,12 +8,12 @@ public partial class UNavigationPath : UObject {
 	public FOnNavigationPathUpdated PathUpdatedNotifier;
 	public TArray<FVector> PathPoints;
 	public byte RecalculateOnInvalidation;
-	public sbyte GetDebugString(sbyte ReturnValue) { return default; }
-	public void EnableDebugDrawing(bool bShouldDrawDebugData,FLinearColor PathColor=FLinearColor) {}
+	public string GetDebugString() { return default; }
+	public void EnableDebugDrawing(bool bShouldDrawDebugData,FLinearColor PathColor/*=FLinearColor.White*/) {}
 	public void EnableRecalculationOnInvalidation(byte DoRecalculation) {}
-	public double GetPathLength(double ReturnValue) { return default; }
-	public double GetPathCost(double ReturnValue) { return default; }
-	public bool IsPartial(bool ReturnValue) { return default; }
-	public bool IsValid(bool ReturnValue) { return default; }
-	public bool IsStringPulled(bool ReturnValue) { return default; }
+	public double GetPathLength() { return default; }
+	public double GetPathCost() { return default; }
+	public bool IsPartial() { return default; }
+	public bool IsValid() { return default; }
+	public bool IsStringPulled() { return default; }
 }

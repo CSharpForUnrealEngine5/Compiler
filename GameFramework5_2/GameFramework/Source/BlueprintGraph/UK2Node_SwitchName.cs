@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_SwitchName.h")]
 public partial class UK2Node_SwitchName : UK2Node_Switch {
 // K2Node_SwitchName
-	public TArray<sbyte> PinNames;
+	public TArray<string> PinNames;
 }

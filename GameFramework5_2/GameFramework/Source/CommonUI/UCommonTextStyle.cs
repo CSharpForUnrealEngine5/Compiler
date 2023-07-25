@@ -16,7 +16,7 @@ public partial class UCommonTextStyle : UObject {
 	public void GetFont(FSlateFontInfo OutFont) {}
 	public void GetColor(FLinearColor OutColor) {}
 	public void GetMargin(FMargin OutMargin) {}
-	public float GetLineHeightPercentage(float ReturnValue) { return default; }
+	public float GetLineHeightPercentage() { return default; }
 	public void GetShadowOffset(FVector2D OutShadowOffset) {}
 	public void GetShadowColor(FLinearColor OutColor) {}
 	public void GetStrikeBrush(FSlateBrush OutStrikeBrush) {}

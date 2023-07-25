@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("TextFilterKeyValueHandlers.h")]
 public partial struct FTextFilterKeyValueHandlerEntry {
 // TextFilterKeyValueHandlerEntry
-	public sbyte Key;
+	public string Key;
 	public TSoftObjectPtr<UClass> HandlerClass;
 }

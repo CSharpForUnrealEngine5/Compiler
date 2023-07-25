@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ObjectMixerEditorSerializedData.h")]
 public partial struct FObjectMixerColumnData {
 // ObjectMixerColumnData
-	public sbyte ColumnName;
+	public string ColumnName;
 	public bool bShouldBeEnabled;
 }

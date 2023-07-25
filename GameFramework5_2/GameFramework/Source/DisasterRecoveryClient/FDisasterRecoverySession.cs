@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FDisasterRecoverySession {
 // DisasterRecoverySession
 	public FGuid RepositoryId;
-	public sbyte RepositoryRootDir;
-	public sbyte SessionName;
+	public string RepositoryRootDir;
+	public string SessionName;
 	public uint MountedByProcessId;
 	public uint ClientProcessId;
 	public byte Flags;

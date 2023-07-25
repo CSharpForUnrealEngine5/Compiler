@@ -4,23 +4,23 @@ using CSharpToCpp.Utilities;
 [CppInclude("AutomationWorkerMessages.h")]
 public partial struct FAutomationScreenshotMetadata {
 // AutomationScreenshotMetadata
-	public sbyte ScreenShotName;
-	public sbyte Context;
-	public sbyte TestName;
-	public sbyte Notes;
+	public string ScreenShotName;
+	public string Context;
+	public string TestName;
+	public string Notes;
 	public FGuid Id;
-	public sbyte Commit;
+	public string Commit;
 	public int Width;
 	public int Height;
-	public sbyte Rhi;
-	public sbyte Platform;
-	public sbyte FeatureLevel;
+	public string Rhi;
+	public string Platform;
+	public string FeatureLevel;
 	public bool bIsStereo;
-	public sbyte Vendor;
-	public sbyte AdapterName;
-	public sbyte AdapterInternalDriverVersion;
-	public sbyte AdapterUserDriverVersion;
-	public sbyte UniqueDeviceId;
+	public string Vendor;
+	public string AdapterName;
+	public string AdapterInternalDriverVersion;
+	public string AdapterUserDriverVersion;
+	public string UniqueDeviceId;
 	public float ResolutionQuality;
 	public int ViewDistanceQuality;
 	public int AntiAliasingQuality;

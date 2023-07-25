@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure representing an animated transform parameter and it's associated animation curve.</summary>
 public partial struct FTransformParameterNameAndCurves {
 // TransformParameterNameAndCurves
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMovieSceneFloatChannel Translation;
 	public FMovieSceneFloatChannel Rotation;
 	public FMovieSceneFloatChannel Scale;

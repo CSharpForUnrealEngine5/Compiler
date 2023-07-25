@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FMovieSceneMarkedFrame {
 // MovieSceneMarkedFrame
 	public FFrameNumber FrameNumber;
-	public sbyte Label;
-	public sbyte Comment;
+	public string Label;
+	public string Comment;
 	public FLinearColor Color;
 	public bool bIsDeterminismFence;
 }

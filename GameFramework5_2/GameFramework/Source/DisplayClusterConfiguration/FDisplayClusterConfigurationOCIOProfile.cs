@@ -7,6 +7,6 @@ public partial struct FDisplayClusterConfigurationOCIOProfile {
 // DisplayClusterConfigurationOCIOProfile
 	public bool bIsEnabled;
 	public FOpenColorIODisplayConfiguration OCIOConfiguration_DEPRECATED;
-	public TArray<sbyte> ApplyOCIOToObjects;
+	public TArray<string> ApplyOCIOToObjects;
 	public FOpenColorIOColorConversionSettings ColorConfiguration;
 }

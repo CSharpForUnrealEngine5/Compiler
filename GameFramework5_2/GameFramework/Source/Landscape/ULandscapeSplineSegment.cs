@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 public partial class ULandscapeSplineSegment : UObject {
 // LandscapeSplineSegment
 	public FLandscapeSplineSegmentConnection Connections;
-	public sbyte LayerName;
+	public string LayerName;
 	public bool bRaiseTerrain;
 	public bool bLowerTerrain;
 	public TArray<FLandscapeSplineMeshEntry> SplineMeshes;
 	public bool bEnableCollision_DEPRECATED;
-	public sbyte CollisionProfileName_DEPRECATED;
+	public string CollisionProfileName_DEPRECATED;
 	public bool bCastShadow;
 	public bool bHiddenInGame;
 	public bool bPlaceSplineMeshesInStreamingLevels;

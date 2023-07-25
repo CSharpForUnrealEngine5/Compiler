@@ -9,5 +9,5 @@ public partial class UAnimNotify_PlayParticleEffect : UAnimNotify {
 	public FRotator RotationOffset;
 	public FVector Scale;
 	public bool Attached;
-	public sbyte SocketName;
+	public string SocketName;
 }

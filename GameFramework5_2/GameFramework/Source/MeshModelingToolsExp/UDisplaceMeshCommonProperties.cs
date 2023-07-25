@@ -10,9 +10,9 @@ public partial class UDisplaceMeshCommonProperties : UInteractiveToolPropertySet
 	public int RandomSeed;
 	public EDisplaceMeshToolSubdivisionType SubdivisionType;
 	public int Subdivisions;
-	public sbyte WeightMap;
-	public TArray<sbyte> GetWeightMapsFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> WeightMapsList;
+	public string WeightMap;
+	public TArray<string> GetWeightMapsFunc() { return default; }
+	public TArray<string> WeightMapsList;
 	public bool bInvertWeightMap;
 	public bool bShowWireframe;
 	public bool bDisableSizeWarning;

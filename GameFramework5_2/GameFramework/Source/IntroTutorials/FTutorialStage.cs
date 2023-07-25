@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>A single tutorial stage, containing the optional main content & a number of widgets with content attached</summary>
 public partial struct FTutorialStage {
 // TutorialStage
-	public sbyte Name;
+	public string Name;
 	public FTutorialContent Content;
 	public TArray<FTutorialWidgetContent> WidgetContent;
-	public sbyte NextButtonText;
-	public sbyte BackButtonText;
-	public TArray<sbyte> PlatformsToTest;
+	public string NextButtonText;
+	public string BackButtonText;
+	public TArray<string> PlatformsToTest;
 	public bool bInvertPlatformTest;
 }

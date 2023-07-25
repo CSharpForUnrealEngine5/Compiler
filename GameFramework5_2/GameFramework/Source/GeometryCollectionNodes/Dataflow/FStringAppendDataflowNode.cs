@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Concatenates two strings together to make a new string</summary>
 public partial struct FStringAppendDataflowNode {
 // StringAppendDataflowNode
-	public sbyte String1;
-	public sbyte String2;
-	public sbyte String;
+	public string String1;
+	public string String2;
+	public string String;
 }

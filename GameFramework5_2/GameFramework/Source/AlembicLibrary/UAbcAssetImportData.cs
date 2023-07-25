@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for import data and options used when importing any asset from Alembic</summary>
 public partial class UAbcAssetImportData : UAssetImportData {
 // AbcAssetImportData
-	public TArray<sbyte> TrackNames;
+	public TArray<string> TrackNames;
 	public FAbcSamplingSettings SamplingSettings;
 	public FAbcNormalGenerationSettings NormalGenerationSettings;
 	public FAbcMaterialSettings MaterialSettings;

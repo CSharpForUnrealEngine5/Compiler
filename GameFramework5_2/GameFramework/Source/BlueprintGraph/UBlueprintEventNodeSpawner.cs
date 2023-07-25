@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UBlueprintEventNodeSpawner : UBlueprintNodeSpawner {
 // BlueprintEventNodeSpawner
 	public UFunction EventFunc;
-	public sbyte CustomEventName;
+	public string CustomEventName;
 }

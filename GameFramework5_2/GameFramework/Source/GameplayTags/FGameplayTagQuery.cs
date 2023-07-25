@@ -8,6 +8,6 @@ public partial struct FGameplayTagQuery {
 	public int TokenStreamVersion;
 	public TArray<FGameplayTag> TagDictionary;
 	public TArray<byte> QueryTokenStream;
-	public sbyte UserDescription;
-	public sbyte AutoDescription;
+	public string UserDescription;
+	public string AutoDescription;
 }

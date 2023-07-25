@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertSyncLockActivitySummary {
 // ConcertSyncLockActivitySummary
 	public EConcertSyncLockEventType LockEventType;
-	public sbyte PrimaryResourceName;
-	public sbyte PrimaryPackageName;
+	public string PrimaryResourceName;
+	public string PrimaryPackageName;
 	public int NumResources;
 }

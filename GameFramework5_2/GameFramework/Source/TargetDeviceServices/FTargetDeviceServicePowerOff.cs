@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FTargetDeviceServicePowerOff {
 // TargetDeviceServicePowerOff
 	public bool Force;
-	public sbyte Operator;
+	public string Operator;
 }

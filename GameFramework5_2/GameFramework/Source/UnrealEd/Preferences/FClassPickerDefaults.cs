@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Default Classes for the Class Picker Dialog</summary>
 public partial struct FClassPickerDefaults {
 // ClassPickerDefaults
-	public sbyte ClassName;
-	public sbyte AssetClass;
+	public string ClassName;
+	public string AssetClass;
 }

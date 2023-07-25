@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Information about a capture device.</summary>
 public partial struct FMediaCaptureDevice {
 // MediaCaptureDevice
-	public sbyte DisplayName;
-	public sbyte Url;
+	public string DisplayName;
+	public string Url;
 }

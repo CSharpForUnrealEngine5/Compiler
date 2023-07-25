@@ -6,5 +6,5 @@ public partial struct FGeometryScriptCreateNewSkeletalMeshAssetOptions {
 // GeometryScriptCreateNewSkeletalMeshAssetOptions
 	public bool bEnableRecomputeNormals;
 	public bool bEnableRecomputeTangents;
-	public TMap<sbyte,UMaterialInterface> Materials;
+	public TMap<string,UMaterialInterface> Materials;
 }

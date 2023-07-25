@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FTutorialContent {
 // TutorialContent
 	public byte Type;
-	public sbyte Content;
-	public sbyte ExcerptName;
-	public sbyte Text;
+	public string Content;
+	public string ExcerptName;
+	public string Text;
 }

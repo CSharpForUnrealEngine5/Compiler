@@ -6,5 +6,5 @@ public partial class UTetrahedronBuilder : UEditorBrushBuilder {
 // TetrahedronBuilder
 	public float Radius;
 	public int SphereExtrapolation;
-	public sbyte GroupName;
+	public string GroupName;
 }

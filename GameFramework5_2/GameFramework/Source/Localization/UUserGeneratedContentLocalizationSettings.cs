@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Settings controlling UGC localization.</summary>
 public partial class UUserGeneratedContentLocalizationSettings : UObject {
 // UserGeneratedContentLocalizationSettings
-	public TArray<sbyte> CulturesToDisable;
+	public TArray<string> CulturesToDisable;
 	public bool bCompileDLCLocalizationDuringCook;
 	public bool bValidateDLCLocalizationDuringCook;
 }

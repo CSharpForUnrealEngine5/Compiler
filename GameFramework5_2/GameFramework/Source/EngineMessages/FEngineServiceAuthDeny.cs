@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for denying service access to a remote user.</summary>
 public partial struct FEngineServiceAuthDeny {
 // EngineServiceAuthDeny
-	public sbyte UserName;
-	public sbyte UserToDeny;
+	public string UserName;
+	public string UserToDeny;
 }

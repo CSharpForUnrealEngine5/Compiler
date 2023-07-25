@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Solvers/IKRig_BodyMover.h")]
 public partial class UIKRig_BodyMover : UIKRigSolver {
 // IKRig_BodyMover
-	public sbyte RootBone;
+	public string RootBone;
 	public float PositionAlpha;
 	public float PositionPositiveX;
 	public float PositionNegativeX;

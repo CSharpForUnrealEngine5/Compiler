@@ -7,7 +7,7 @@ public partial class UK2Node_Select : UK2Node {
 	public int NumOptionPins;
 	public FEdGraphPinType IndexPinType;
 	public UEnum Enum;
-	public TArray<sbyte> EnumEntries;
-	public TArray<sbyte> EnumEntryFriendlyNames;
+	public TArray<string> EnumEntries;
+	public TArray<string> EnumEntryFriendlyNames;
 	public bool bReconstructNode;
 }

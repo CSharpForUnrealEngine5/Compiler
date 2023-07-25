@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a node's position in the graph.</summary>
 public partial struct FRigVMSetNodePositionAction {
 // RigVMSetNodePositionAction
-	public sbyte NodePath;
+	public string NodePath;
 	public FVector2D OldPosition;
 	public FVector2D NewPosition;
 }

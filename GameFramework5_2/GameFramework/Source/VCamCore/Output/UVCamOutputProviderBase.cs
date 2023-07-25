@@ -9,12 +9,12 @@ public partial class UVCamOutputProviderBase : UObject {
 	public bool bUseOverrideResolution;
 	public FIntPoint OverrideResolution;
 	public void SetActive(bool bInActive) {}
-	public bool IsActive(bool ReturnValue) { return default; }
-	public bool IsInitialized(bool ReturnValue) { return default; }
+	public bool IsActive() { return default; }
+	public bool IsInitialized() { return default; }
 	public void SetTargetCamera(UObject InTargetCamera) {}
-	public EVCamTargetViewportID GetTargetViewport(EVCamTargetViewportID ReturnValue) { return default; }
+	public EVCamTargetViewportID GetTargetViewport() { return default; }
 	public void SetTargetViewport(EVCamTargetViewportID Value) {}
-	public UClass GetUMGClass(UClass ReturnValue) { return default; }
+	public UClass GetUMGClass() { return default; }
 	public void SetUMGClass(UClass InUMGClass) {}
 	public EVPWidgetDisplayType DisplayType;
 	public UGameplayViewTargetPolicy GameplayViewTargetPolicy;

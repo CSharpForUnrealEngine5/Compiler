@@ -22,7 +22,7 @@ public partial class UAudioComponent : USceneComponent {
 	public bool bCanPlayMultipleInstances;
 	public bool bDisableParameterUpdatesWhilePlaying;
 	public bool bAutoManageAttachment;
-	public sbyte AudioComponentUserID;
+	public string AudioComponentUserID;
 	public float PitchModulationMin;
 	public float PitchModulationMax;
 	public float VolumeModulationMin;
@@ -53,21 +53,21 @@ public partial class UAudioComponent : USceneComponent {
 	public FOnAudioMultiEnvelopeValue OnAudioMultiEnvelopeValue;
 	public FOnQueueSubtitles OnQueueSubtitles;
 	public void SetSound(UObject NewSound) {}
-	public void FadeIn(float FadeInDuration,float FadeVolumeLevel=1.0f,float StartTime=0.0f,EAudioFaderCurve FadeCurve=EAudioFaderCurve) {}
-	public void FadeOut(float FadeOutDuration,float FadeVolumeLevel,EAudioFaderCurve FadeCurve=EAudioFaderCurve) {}
-	public void Play(float StartTime=0.0f) {}
-	public void PlayQuantized(UObject WorldContextObject,UObject InClockHandle,FQuartzQuantizationBoundary InQuantizationBoundary,FOnQuartzCommandEventBP InDelegate,float InStartTime=0.f,float InFadeInDuration=0.f,float InFadeVolumeLevel=1.f,EAudioFaderCurve InFadeCurve=EAudioFaderCurve) {}
-	public void SetBoolParameter(sbyte InName,bool InBool) {}
-	public void SetIntParameter(sbyte InName,int InInt) {}
-	public void SetFloatParameter(sbyte InName,float InFloat) {}
+	public void FadeIn(float FadeInDuration,float FadeVolumeLevel/*=1.0f*/,float StartTime/*=0.0f*/,EAudioFaderCurve FadeCurve/*=EAudioFaderCurve.Linear*/) {}
+	public void FadeOut(float FadeOutDuration,float FadeVolumeLevel,EAudioFaderCurve FadeCurve/*=EAudioFaderCurve.Linear*/) {}
+	public void Play(float StartTime/*=0.0f*/) {}
+	public void PlayQuantized(UObject WorldContextObject,UObject InClockHandle,FQuartzQuantizationBoundary InQuantizationBoundary,FOnQuartzCommandEventBP InDelegate,float InStartTime/*=0.0f*/,float InFadeInDuration/*=0.0f*/,float InFadeVolumeLevel/*=1.0f*/,EAudioFaderCurve InFadeCurve/*=EAudioFaderCurve.Linear*/) {}
+	public void SetBoolParameter(string InName,bool InBool) {}
+	public void SetIntParameter(string InName,int InInt) {}
+	public void SetFloatParameter(string InName,float InFloat) {}
 	public void Stop() {}
 	public void StopDelayed(float DelayTime) {}
 	public void SetPaused(bool bPause) {}
-	public bool IsPlaying(bool ReturnValue) { return default; }
-	public bool IsVirtualized(bool ReturnValue) { return default; }
-	public EAudioComponentPlayState GetPlayState(EAudioComponentPlayState ReturnValue) { return default; }
-	public void AdjustVolume(float AdjustVolumeDuration,float AdjustVolumeLevel,EAudioFaderCurve FadeCurve=EAudioFaderCurve) {}
-	public void SetWaveParameter(sbyte InName,UObject InWave) {}
+	public bool IsPlaying() { return default; }
+	public bool IsVirtualized() { return default; }
+	public EAudioComponentPlayState GetPlayState() { return default; }
+	public void AdjustVolume(float AdjustVolumeDuration,float AdjustVolumeLevel,EAudioFaderCurve FadeCurve/*=EAudioFaderCurve.Linear*/) {}
+	public void SetWaveParameter(string InName,UObject InWave) {}
 	public void SetVolumeMultiplier(float NewVolumeMultiplier) {}
 	public void SetPitchMultiplier(float NewPitchMultiplier) {}
 	public void SetUISound(bool bInUISound) {}
@@ -80,15 +80,15 @@ public partial class UAudioComponent : USceneComponent {
 	public void SetLowPassFilterEnabled(bool InLowPassFilterEnabled) {}
 	public void SetLowPassFilterFrequency(float InLowPassFilterFrequency) {}
 	public void SetOutputToBusOnly(bool bInOutputToBusOnly) {}
-	public bool HasCookedFFTData(bool ReturnValue) { return default; }
-	public bool HasCookedAmplitudeEnvelopeData(bool ReturnValue) { return default; }
-	public bool GetCookedFFTData(TArray<float> FrequenciesToGet,TArray<FSoundWaveSpectralData> OutSoundWaveSpectralData,bool ReturnValue) { return default; }
-	public bool GetCookedFFTDataForAllPlayingSounds(TArray<FSoundWaveSpectralDataPerSound> OutSoundWaveSpectralData,bool ReturnValue) { return default; }
-	public bool GetCookedEnvelopeData(float OutEnvelopeData,bool ReturnValue) { return default; }
-	public bool GetCookedEnvelopeDataForAllPlayingSounds(TArray<FSoundWaveEnvelopeDataPerSound> OutEnvelopeData,bool ReturnValue) { return default; }
-	public void SetModulationRouting(TSet<UObject> Modulators,EModulationDestination Destination,EModulationRouting RoutingMethod=EModulationRouting) {}
-	public TSet<UObject> GetModulators(EModulationDestination Destination,TSet<UObject> ReturnValue) { return default; }
-	public bool BP_GetAttenuationSettingsToApply(FSoundAttenuationSettings OutAttenuationSettings,bool ReturnValue) { return default; }
+	public bool HasCookedFFTData() { return default; }
+	public bool HasCookedAmplitudeEnvelopeData() { return default; }
+	public bool GetCookedFFTData(TArray<float> FrequenciesToGet,TArray<FSoundWaveSpectralData> OutSoundWaveSpectralData) { return default; }
+	public bool GetCookedFFTDataForAllPlayingSounds(TArray<FSoundWaveSpectralDataPerSound> OutSoundWaveSpectralData) { return default; }
+	public bool GetCookedEnvelopeData(float OutEnvelopeData) { return default; }
+	public bool GetCookedEnvelopeDataForAllPlayingSounds(TArray<FSoundWaveEnvelopeDataPerSound> OutEnvelopeData) { return default; }
+	public void SetModulationRouting(TSet<UObject> Modulators,EModulationDestination Destination,EModulationRouting RoutingMethod/*=EModulationRouting.Inherit*/) {}
+	public TSet<UObject> GetModulators(EModulationDestination Destination) { return default; }
+	public bool BP_GetAttenuationSettingsToApply(FSoundAttenuationSettings OutAttenuationSettings) { return default; }
 	public TWeakObjectPtr<USceneComponent> AutoAttachParent;
-	public sbyte AutoAttachSocketName;
+	public string AutoAttachSocketName;
 }

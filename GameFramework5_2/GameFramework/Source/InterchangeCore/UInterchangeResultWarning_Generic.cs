@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("InterchangeResult.h")]
 public partial class UInterchangeResultWarning_Generic : UInterchangeResultWarning {
 // InterchangeResultWarning_Generic
-	public sbyte Text;
+	public string Text;
 }

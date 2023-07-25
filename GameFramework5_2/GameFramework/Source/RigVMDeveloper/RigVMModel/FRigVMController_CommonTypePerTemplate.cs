@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigVMModel/RigVMController.h")]
 public partial struct FRigVMController_CommonTypePerTemplate {
 // RigVMController_CommonTypePerTemplate
-	public TMap<sbyte,int> Counts;
+	public TMap<string,int> Counts;
 }

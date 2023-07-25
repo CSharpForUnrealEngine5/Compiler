@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>The Shader Ports API manages a set of inputs and outputs attributes.</summary>
 public partial class UInterchangeShaderPortsAPI : UObject {
 // InterchangeShaderPortsAPI
-	public sbyte MakeInputConnectionKey(sbyte InputName,sbyte ReturnValue) { return default; }
-	public sbyte MakeInputValueKey(sbyte InputName,sbyte ReturnValue) { return default; }
-	public sbyte MakeInputName(sbyte InputKey,sbyte ReturnValue) { return default; }
-	public bool IsAnInput(sbyte AttributeKey,bool ReturnValue) { return default; }
-	public bool HasInput(UObject InterchangeNode,sbyte InInputName,bool ReturnValue) { return default; }
-	public void GatherInputs(UObject InterchangeNode,TArray<sbyte> OutInputNames) {}
-	public bool ConnectDefaultOuputToInput(UObject InterchangeNode,sbyte InputName,sbyte ExpressionUid,bool ReturnValue) { return default; }
-	public bool ConnectOuputToInput(UObject InterchangeNode,sbyte InputName,sbyte ExpressionUid,sbyte OutputName,bool ReturnValue) { return default; }
-	public bool GetInputConnection(UObject InterchangeNode,sbyte InputName,sbyte OutExpressionUid,sbyte OutputName,bool ReturnValue) { return default; }
+	public string MakeInputConnectionKey(string InputName) { return default; }
+	public string MakeInputValueKey(string InputName) { return default; }
+	public string MakeInputName(string InputKey) { return default; }
+	public bool IsAnInput(string AttributeKey) { return default; }
+	public bool HasInput(UObject InterchangeNode,string InInputName) { return default; }
+	public void GatherInputs(UObject InterchangeNode,TArray<string> OutInputNames) {}
+	public bool ConnectDefaultOuputToInput(UObject InterchangeNode,string InputName,string ExpressionUid) { return default; }
+	public bool ConnectOuputToInput(UObject InterchangeNode,string InputName,string ExpressionUid,string OutputName) { return default; }
+	public bool GetInputConnection(UObject InterchangeNode,string InputName,string OutExpressionUid,string OutputName) { return default; }
 }

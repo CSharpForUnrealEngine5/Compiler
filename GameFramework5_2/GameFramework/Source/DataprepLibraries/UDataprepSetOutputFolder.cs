@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>For each asset to process, set the sub-folder to save it to.</summary>
 public partial class UDataprepSetOutputFolder : UDataprepOperation {
 // DataprepSetOutputFolder
-	public sbyte FolderName;
+	public string FolderName;
 }

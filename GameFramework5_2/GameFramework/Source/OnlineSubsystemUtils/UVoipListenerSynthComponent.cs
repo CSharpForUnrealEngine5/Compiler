@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("VoipListenerSynthComponent.h")]
 public partial class UVoipListenerSynthComponent : USynthComponent {
 // VoipListenerSynthComponent
-	public bool IsIdling(bool ReturnValue) { return default; }
+	public bool IsIdling() { return default; }
 }

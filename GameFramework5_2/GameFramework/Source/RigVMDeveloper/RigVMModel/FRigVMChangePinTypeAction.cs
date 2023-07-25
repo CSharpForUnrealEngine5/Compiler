@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action changing a pin type</summary>
 public partial struct FRigVMChangePinTypeAction {
 // RigVMChangePinTypeAction
-	public sbyte PinPath;
+	public string PinPath;
 	public int OldTypeIndex;
 	public int NewTypeIndex;
 	public bool bSetupOrphanPins;

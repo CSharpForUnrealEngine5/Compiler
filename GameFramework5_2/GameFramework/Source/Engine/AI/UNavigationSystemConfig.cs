@@ -6,6 +6,6 @@ public partial class UNavigationSystemConfig : UObject {
 // NavigationSystemConfig
 	public FSoftClassPath NavigationSystemClass;
 	public FNavAgentSelector SupportedAgentsMask;
-	public sbyte DefaultAgentName;
+	public string DefaultAgentName;
 	public bool bIsOverriden;
 }

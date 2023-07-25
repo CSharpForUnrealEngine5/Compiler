@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Commandlets/WorldPartitionDataLayerToAssetCommandLet.h")]
 public partial class UDataLayerToAssetCommandlet : UCommandlet {
 // DataLayerToAssetCommandlet
-	public sbyte DestinationFolder;
-	public sbyte ConversionFolder;
+	public string DestinationFolder;
+	public string ConversionFolder;
 	public bool bPerformSavePackages;
 	public bool bIgnoreActorLoadingErrors;
 	public UDataLayerFactory DataLayerFactory;

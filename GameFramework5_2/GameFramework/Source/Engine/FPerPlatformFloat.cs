@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPerPlatformFloat {
 // PerPlatformFloat
 	public float Default;
-	public TMap<sbyte,float> PerPlatform;
+	public TMap<string,float> PerPlatform;
 }

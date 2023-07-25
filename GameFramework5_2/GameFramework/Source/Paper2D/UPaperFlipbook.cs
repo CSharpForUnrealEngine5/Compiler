@@ -9,11 +9,11 @@ public partial class UPaperFlipbook : UObject {
 	public TArray<FPaperFlipbookKeyFrame> KeyFrames;
 	public UMaterialInterface DefaultMaterial;
 	public byte CollisionSource;
-	public int GetNumFrames(int ReturnValue) { return default; }
-	public float GetTotalDuration(float ReturnValue) { return default; }
-	public int GetKeyFrameIndexAtTime(float Time,bool bClampToEnds=false,int ReturnValue) { return default; }
-	public UObject GetSpriteAtTime(float Time,bool bClampToEnds=false,UObject ReturnValue) { return default; }
-	public UObject GetSpriteAtFrame(int FrameIndex,UObject ReturnValue) { return default; }
-	public int GetNumKeyFrames(int ReturnValue) { return default; }
-	public bool IsValidKeyFrameIndex(int Index,bool ReturnValue) { return default; }
+	public int GetNumFrames() { return default; }
+	public float GetTotalDuration() { return default; }
+	public int GetKeyFrameIndexAtTime(float Time,bool bClampToEnds/*=false*/) { return default; }
+	public UObject GetSpriteAtTime(float Time,bool bClampToEnds/*=false*/) { return default; }
+	public UObject GetSpriteAtFrame(int FrameIndex) { return default; }
+	public int GetNumKeyFrames() { return default; }
+	public bool IsValidKeyFrameIndex(int Index) { return default; }
 }

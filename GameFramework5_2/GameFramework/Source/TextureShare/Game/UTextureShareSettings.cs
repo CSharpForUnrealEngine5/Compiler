@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UTextureShareSettings : UObject {
 // TextureShareSettings
 	public bool bCreateDefaults;
-	public sbyte ProcessName;
+	public string ProcessName;
 }

@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>UUTBBaseCommand is the base class for any command of the usertoolbox framework.</summary>
 public partial class UUTBBaseCommand : UObject {
 // UTBBaseCommand
-	public sbyte Name;
-	public sbyte IconPath;
-	public sbyte Tooltip;
-	public sbyte Category;
+	public string Name;
+	public string IconPath;
+	public string Tooltip;
+	public string Category;
 	public bool bShowParameters;
 	public FInputChord KeyboardShortcut;
 	public UClass UIOverride;

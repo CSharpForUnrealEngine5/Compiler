@@ -12,8 +12,8 @@ public partial class URivermaxMediaOutput : UMediaOutput {
 	public FIntPoint Resolution;
 	public FFrameRate FrameRate;
 	public ERivermaxMediaOutputPixelFormat PixelFormat;
-	public sbyte InterfaceAddress;
-	public sbyte StreamAddress;
+	public string InterfaceAddress;
+	public string StreamAddress;
 	public int Port;
 	public bool bUseGPUDirect;
 }

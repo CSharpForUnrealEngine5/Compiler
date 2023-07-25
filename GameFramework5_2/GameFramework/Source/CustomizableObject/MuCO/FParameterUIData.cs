@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectUIData.h")]
 public partial struct FParameterUIData {
 // ParameterUIData
-	public sbyte Name;
+	public string Name;
 	public FMutableParamUIMetadata ParamUIMetadata;
 	public EMutableParameterType Type;
 	public TArray<FIntegerParameterUIData> ArrayIntegerParameterOption;
@@ -12,5 +12,5 @@ public partial struct FParameterUIData {
 	public bool bDontCompressRuntimeTextures;
 	public bool bLiveUpdateMode;
 	public bool bReuseInstanceTextures;
-	public TMap<sbyte,sbyte> ForcedParameterValues;
+	public TMap<string,string> ForcedParameterValues;
 }

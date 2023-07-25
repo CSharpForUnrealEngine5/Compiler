@@ -12,8 +12,8 @@ public partial class AMassSpawner : AActor {
 	public void ClearTemplates() {}
 	public void UnloadConfig() {}
 	public void ScaleSpawningCount(float Scale) {}
-	public int GetCount(int ReturnValue) { return default; }
-	public float GetSpawningCountScale(float ReturnValue) { return default; }
+	public int GetCount() { return default; }
+	public float GetSpawningCountScale() { return default; }
 	public FMassSpawnerOnSpawningFinishedEvent OnSpawningFinishedEvent;
 	public FMassSpawnerOnDespawningFinishedEvent OnDespawningFinishedEvent;
 	public int Count;

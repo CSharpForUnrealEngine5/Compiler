@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FNodalOffsetPointsCalibratorPointData {
 // NodalOffsetPointsCalibratorPointData
 	public bool bIsValid;
-	public sbyte Name;
+	public string Name;
 	public FVector Location;
 }

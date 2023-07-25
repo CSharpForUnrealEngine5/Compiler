@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPerModifierClassWidgetSytleData {
 // PerModifierClassWidgetSytleData
 	public FWidgetStyleDataConfig ModifierStyles;
-	public TMap<sbyte,FWidgetStyleDataConfig> ConnectionPointStyles;
+	public TMap<string,FWidgetStyleDataConfig> ConnectionPointStyles;
 }

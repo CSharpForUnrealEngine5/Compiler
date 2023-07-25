@@ -6,14 +6,14 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertClientInfo {
 // ConcertClientInfo
 	public FConcertInstanceInfo InstanceInfo;
-	public sbyte DeviceName;
-	public sbyte PlatformName;
-	public sbyte UserName;
-	public sbyte DisplayName;
+	public string DeviceName;
+	public string PlatformName;
+	public string UserName;
+	public string DisplayName;
 	public FLinearColor AvatarColor;
-	public sbyte DesktopAvatarActorClass;
-	public sbyte VRAvatarActorClass;
-	public TArray<sbyte> Tags;
+	public string DesktopAvatarActorClass;
+	public string VRAvatarActorClass;
+	public TArray<string> Tags;
 	public bool bHasEditorData;
 	public bool bRequiresCookedData;
 }

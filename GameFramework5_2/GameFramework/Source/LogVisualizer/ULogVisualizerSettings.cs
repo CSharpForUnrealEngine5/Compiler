@@ -21,5 +21,5 @@ public partial class ULogVisualizerSettings : UObject {
 	public bool bForceUniqueLogNames;
 	public FVisualLoggerFiltersData PersistentFilters;
 	public UMaterial DebugMeshMaterialFakeLight;
-	public sbyte DebugMeshMaterialFakeLightName;
+	public string DebugMeshMaterialFakeLightName;
 }

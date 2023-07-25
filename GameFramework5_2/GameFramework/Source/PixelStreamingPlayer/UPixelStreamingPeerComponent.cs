@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial class UPixelStreamingPeerComponent : UActorComponent {
 // PixelStreamingPeerComponent
 	public void SetConfig(FPixelStreamingRTCConfigWrapper Config) {}
-	public FPixelStreamingSessionDescriptionWrapper CreateOffer(FPixelStreamingSessionDescriptionWrapper ReturnValue) { return default; }
-	public FPixelStreamingSessionDescriptionWrapper CreateAnswer(sbyte Offer,FPixelStreamingSessionDescriptionWrapper ReturnValue) { return default; }
-	public void ReceiveAnswer(sbyte Offer) {}
+	public FPixelStreamingSessionDescriptionWrapper CreateOffer() { return default; }
+	public FPixelStreamingSessionDescriptionWrapper CreateAnswer(string Offer) { return default; }
+	public void ReceiveAnswer(string Offer) {}
 	public void ReceiveIceCandidate(FPixelStreamingIceCandidateWrapper Candidate) {}
 	public FPixelStreamingOnIceCandidate OnIceCandidate;
 	public FPixelStreamingOnIceConnection OnIceConnection;

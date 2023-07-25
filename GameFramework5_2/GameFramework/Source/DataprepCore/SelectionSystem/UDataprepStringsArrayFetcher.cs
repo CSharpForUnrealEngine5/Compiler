@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("SelectionSystem/DataprepStringsArrayFetcher.h")]
 public partial class UDataprepStringsArrayFetcher : UDataprepFetcher {
 // DataprepStringsArrayFetcher
-	public TArray<sbyte> Fetch(UObject Object,bool bOutFetchSucceded,TArray<sbyte> ReturnValue) { return default; }
+	public TArray<string> Fetch(UObject Object,bool bOutFetchSucceded) { return default; }
 }

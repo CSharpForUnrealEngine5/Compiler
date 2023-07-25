@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeMeshClipMorph.h")]
 public partial class UCustomizableObjectNodeMeshClipMorph : UCustomizableObjectNodeModifierBase {
 // CustomizableObjectNodeMeshClipMorph
-	public sbyte BoneName;
-	public TArray<sbyte> Tags;
+	public string BoneName;
+	public TArray<string> Tags;
 	public uint ReferenceSkeletonIndex;
 	public FVector StartOffset;
 	public bool bLocalStartOffset;

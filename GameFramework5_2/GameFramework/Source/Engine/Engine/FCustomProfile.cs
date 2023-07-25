@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure for custom profiles.</summary>
 public partial struct FCustomProfile {
 // CustomProfile
-	public sbyte Name;
+	public string Name;
 	public TArray<FResponseChannel> CustomResponses;
 }

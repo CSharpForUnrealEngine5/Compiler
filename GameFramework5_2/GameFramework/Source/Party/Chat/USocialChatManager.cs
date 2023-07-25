@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class USocialChatManager : UObject {
 // SocialChatManager
 	public TMap<TWeakObjectPtr<USocialUser>,USocialPrivateMessageChannel> DirectChannelsByTargetUser;
-	public TMap<sbyte,USocialChatRoom> ChatRoomsById;
-	public TMap<sbyte,USocialReadOnlyChatChannel> ReadOnlyChannelsByDisplayName;
+	public TMap<string,USocialChatRoom> ChatRoomsById;
+	public TMap<string,USocialReadOnlyChatChannel> ReadOnlyChannelsByDisplayName;
 	public bool bEnableChatSlashCommands;
 	public TMap<FUniqueNetIdRepl,USocialGroupChannel> GroupChannels;
 }

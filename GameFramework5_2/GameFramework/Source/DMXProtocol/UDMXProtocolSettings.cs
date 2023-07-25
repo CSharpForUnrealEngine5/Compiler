@@ -9,12 +9,12 @@ public partial class UDMXProtocolSettings : UObject {
 	public TArray<FDMXOutputPortConfig> OutputPortConfigs;
 	public uint SendingRefreshRate;
 	public uint ReceivingRefreshRate_DEPRECATED;
-	public TSet<sbyte> FixtureCategories;
+	public TSet<string> FixtureCategories;
 	public TSet<FDMXAttribute> Attributes;
 	public bool bDefaultSendDMXEnabled;
 	public bool bDefaultReceiveDMXEnabled;
 	public bool bAllFixturePatchesReceiveDMXInEditor;
-	public sbyte InterfaceIPAddress_DEPRECATED;
+	public string InterfaceIPAddress_DEPRECATED;
 	public int GlobalArtNetUniverseOffset_DEPRECATED;
 	public int GlobalSACNUniverseOffset_DEPRECATED;
 }

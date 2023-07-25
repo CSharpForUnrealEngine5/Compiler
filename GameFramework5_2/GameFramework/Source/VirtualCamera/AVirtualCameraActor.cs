@@ -19,6 +19,6 @@ public partial class AVirtualCameraActor : ACineCameraActor {
 	public FPreSetVirtualCameraTransform OnPreSetVirtualCameraTransform;
 	public FOnActorClickedDelegate OnActorClickedDelegate;
 	public FVirtualCameraTickDelegateGroup OnVirtualCameraUpdatedDelegates;
-	public TMap<sbyte,FVirtualCameraSettingsPreset> SettingsPresets;
+	public TMap<string,FVirtualCameraSettingsPreset> SettingsPresets;
 	public UCineCameraComponent StreamedCamera;
 }

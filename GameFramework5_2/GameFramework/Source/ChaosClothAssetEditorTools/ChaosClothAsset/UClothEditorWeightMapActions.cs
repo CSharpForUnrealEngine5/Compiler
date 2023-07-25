@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ChaosClothAsset/ClothWeightMapPaintTool.h")]
 public partial class UClothEditorWeightMapActions : UClothEditorWeightMapPaintToolActionPropertySet {
 // ClothEditorWeightMapActions
-	public sbyte NewWeightMapName;
+	public string NewWeightMapName;
 	public void AddNewWeightMap() {}
 	public void DeleteSelectedWeightMap() {}
 }

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial class UUIFrameworkTextBlock : UUIFrameworkTextBase {
 // UIFrameworkTextBlock
 	public void SetShadowOffset(FVector2f ShadowOffset) {}
-	public FVector2f GetShadowOffset(FVector2f ReturnValue) { return default; }
+	public FVector2f GetShadowOffset() { return default; }
 	public void SetShadowColor(FLinearColor ShadowColor) {}
-	public FLinearColor GetShadowColor(FLinearColor ReturnValue) { return default; }
+	public FLinearColor GetShadowColor() { return default; }
 	public void OnRep_ShadowOffset() {}
 	public void OnRep_ShadowColor() {}
 	public FVector2f ShadowOffset;

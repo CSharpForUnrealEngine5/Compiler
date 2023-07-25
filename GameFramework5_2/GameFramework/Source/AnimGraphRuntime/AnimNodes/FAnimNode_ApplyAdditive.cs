@@ -10,7 +10,7 @@ public partial struct FAnimNode_ApplyAdditive {
 	public FInputScaleBias AlphaScaleBias;
 	public int LODThreshold;
 	public FInputAlphaBoolBlend AlphaBoolBlend;
-	public sbyte AlphaCurveName;
+	public string AlphaCurveName;
 	public FInputScaleBiasClamp AlphaScaleBiasClamp;
 	public EAnimAlphaInputType AlphaInputType;
 	public bool bAlphaBoolEnabled;

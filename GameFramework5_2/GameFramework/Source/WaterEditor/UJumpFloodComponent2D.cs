@@ -4,13 +4,13 @@ using CSharpToCpp.Utilities;
 [CppInclude("JumpFloodComponent2D.h")]
 public partial class UJumpFloodComponent2D : UActorComponent {
 // JumpFloodComponent2D
-	public bool CreateMIDs(bool ReturnValue) { return default; }
+	public bool CreateMIDs() { return default; }
 	public void AssignRenderTargets(UObject InRTA,UObject InRTB) {}
 	public void JumpFlood(UObject SeedRT,float SceneCaptureZ,FLinearColor Curl,bool UseDepth,float ZxLocationT) {}
-	public UObject SingleJumpStep(UObject ReturnValue) { return default; }
-	public UObject FindEdges(UObject SeedRT,float CaptureZ,FLinearColor Curl,bool UseDepth,float ZxLocationT,UObject ReturnValue) { return default; }
+	public UObject SingleJumpStep() { return default; }
+	public UObject FindEdges(UObject SeedRT,float CaptureZ,FLinearColor Curl,bool UseDepth,float ZxLocationT) { return default; }
 	public void FindEdges_Debug(UObject SeedRT,float CaptureZ,FLinearColor Curl,UObject DestRT,float ZOffset) {}
-	public UObject SingleBlurStep(UObject ReturnValue) { return default; }
+	public UObject SingleBlurStep() { return default; }
 	public UMaterialInterface JumpStepMaterial;
 	public UMaterialInterface FindEdgesMaterial;
 	public UMaterialInterface BlurEdgesMaterial;

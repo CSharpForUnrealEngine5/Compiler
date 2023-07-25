@@ -39,9 +39,9 @@ public partial class UCommonButtonStyle : UObject {
 	public void GetDisabledBrush(FSlateBrush Brush) {}
 	public void GetButtonPadding(FMargin OutButtonPadding) {}
 	public void GetCustomPadding(FMargin OutCustomPadding) {}
-	public UObject GetNormalTextStyle(UObject ReturnValue) { return default; }
-	public UObject GetNormalHoveredTextStyle(UObject ReturnValue) { return default; }
-	public UObject GetSelectedTextStyle(UObject ReturnValue) { return default; }
-	public UObject GetSelectedHoveredTextStyle(UObject ReturnValue) { return default; }
-	public UObject GetDisabledTextStyle(UObject ReturnValue) { return default; }
+	public UObject GetNormalTextStyle() { return default; }
+	public UObject GetNormalHoveredTextStyle() { return default; }
+	public UObject GetSelectedTextStyle() { return default; }
+	public UObject GetSelectedHoveredTextStyle() { return default; }
+	public UObject GetDisabledTextStyle() { return default; }
 }

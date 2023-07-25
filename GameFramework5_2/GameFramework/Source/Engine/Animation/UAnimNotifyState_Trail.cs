@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 public partial class UAnimNotifyState_Trail : UAnimNotifyState {
 // AnimNotifyState_Trail
 	public UParticleSystem PSTemplate;
-	public UObject OverridePSTemplate(UObject MeshComp,UObject Animation,UObject ReturnValue) { return default; }
-	public sbyte FirstSocketName;
-	public sbyte SecondSocketName;
+	public UObject OverridePSTemplate(UObject MeshComp,UObject Animation) { return default; }
+	public string FirstSocketName;
+	public string SecondSocketName;
 	public byte WidthScaleMode;
-	public sbyte WidthScaleCurve;
+	public string WidthScaleCurve;
 	public bool bRecycleSpawnedSystems;
 	public bool bRenderGeometry;
 	public bool bRenderSpawnPoints;

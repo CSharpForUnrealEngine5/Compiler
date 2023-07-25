@@ -9,5 +9,5 @@ public partial class UAnimNotify_PlaySound : UAnimNotify {
 	public float PitchMultiplier;
 	public bool bFollow;
 	public bool bPreviewIgnoreAttenuation;
-	public sbyte AttachName;
+	public string AttachName;
 }

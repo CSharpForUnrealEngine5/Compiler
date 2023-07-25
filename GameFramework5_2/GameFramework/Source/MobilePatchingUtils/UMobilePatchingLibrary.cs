@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("MobilePatchingLibrary.h")]
 public partial class UMobilePatchingLibrary : UBlueprintFunctionLibrary {
 // MobilePatchingLibrary
-	public UObject GetInstalledContent(sbyte InstallDirectory,UObject ReturnValue) { return default; }
-	public void RequestContent(sbyte RemoteManifestURL,sbyte CloudURL,sbyte InstallDirectory,FOnRequestContentSucceeded OnSucceeded,FOnRequestContentFailed OnFailed) {}
-	public bool HasActiveWiFiConnection(bool ReturnValue) { return default; }
-	public sbyte GetActiveDeviceProfileName(sbyte ReturnValue) { return default; }
-	public TArray<sbyte> GetSupportedPlatformNames(TArray<sbyte> ReturnValue) { return default; }
+	public UObject GetInstalledContent(string InstallDirectory) { return default; }
+	public void RequestContent(string RemoteManifestURL,string CloudURL,string InstallDirectory,FOnRequestContentSucceeded OnSucceeded,FOnRequestContentFailed OnFailed) {}
+	public bool HasActiveWiFiConnection() { return default; }
+	public string GetActiveDeviceProfileName() { return default; }
+	public TArray<string> GetSupportedPlatformNames() { return default; }
 }

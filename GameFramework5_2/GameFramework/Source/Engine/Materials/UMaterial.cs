@@ -18,7 +18,7 @@ public partial class UMaterial : UMaterialInterface {
 	public byte ShadingModel;
 	public bool bCastDynamicShadowAsMasked;
 	public FMaterialShadingModelField ShadingModels;
-	public sbyte UsedShadingModels;
+	public string UsedShadingModels;
 	public float OpacityMaskClipValue;
 	public bool bEnableSeparateTranslucency_DEPRECATED;
 	public bool bEnableResponsiveAA;

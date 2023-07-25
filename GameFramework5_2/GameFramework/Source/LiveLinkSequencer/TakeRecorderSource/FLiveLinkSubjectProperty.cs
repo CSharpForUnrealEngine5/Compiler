@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("TakeRecorderSource/TakeRecorderLiveLinkSource.h")]
 public partial struct FLiveLinkSubjectProperty {
 // LiveLinkSubjectProperty
-	public sbyte SubjectName;
+	public string SubjectName;
 	public bool bEnabled;
 }

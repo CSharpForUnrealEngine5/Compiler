@@ -5,49 +5,49 @@ using CSharpToCpp.Utilities;
 ///<summary>ns UE</summary>
 public partial class UInterchangeMeshNode : UInterchangeBaseNode {
 // InterchangeMeshNode
-	public bool IsSkinnedMesh(bool ReturnValue) { return default; }
-	public bool SetSkinnedMesh(bool bIsSkinnedMesh,bool ReturnValue) { return default; }
-	public bool IsMorphTarget(bool ReturnValue) { return default; }
-	public bool SetMorphTarget(bool bIsMorphTarget,bool ReturnValue) { return default; }
-	public bool GetMorphTargetName(sbyte OutMorphTargetName,bool ReturnValue) { return default; }
-	public bool SetMorphTargetName(sbyte MorphTargetName,bool ReturnValue) { return default; }
-	public void SetPayLoadKey(sbyte PayloadKey) {}
-	public void SetAnimationCurvePayLoadKey(sbyte PayloadKey) {}
-	public bool GetCustomVertexCount(int AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomVertexCount(int AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomPolygonCount(int AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomPolygonCount(int AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomBoundingBox(FBox AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomBoundingBox(FBox AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomHasVertexNormal(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomHasVertexNormal(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomHasVertexBinormal(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomHasVertexBinormal(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomHasVertexTangent(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomHasVertexTangent(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomHasSmoothGroup(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomHasSmoothGroup(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomHasVertexColor(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomHasVertexColor(bool AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomUVCount(int AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomUVCount(int AttributeValue,bool ReturnValue) { return default; }
-	public int GetSkeletonDependeciesCount(int ReturnValue) { return default; }
-	public void GetSkeletonDependencies(TArray<sbyte> OutDependencies) {}
-	public void GetSkeletonDependency(int Index,sbyte OutDependency) {}
-	public bool SetSkeletonDependencyUid(sbyte DependencyUid,bool ReturnValue) { return default; }
-	public bool RemoveSkeletonDependencyUid(sbyte DependencyUid,bool ReturnValue) { return default; }
-	public int GetMorphTargetDependeciesCount(int ReturnValue) { return default; }
-	public void GetMorphTargetDependencies(TArray<sbyte> OutDependencies) {}
-	public void GetMorphTargetDependency(int Index,sbyte OutDependency) {}
-	public bool SetMorphTargetDependencyUid(sbyte DependencyUid,bool ReturnValue) { return default; }
-	public bool RemoveMorphTargetDependencyUid(sbyte DependencyUid,bool ReturnValue) { return default; }
-	public int GetSceneInstanceUidsCount(int ReturnValue) { return default; }
-	public void GetSceneInstanceUids(TArray<sbyte> OutDependencies) {}
-	public void GetSceneInstanceUid(int Index,sbyte OutDependency) {}
-	public bool SetSceneInstanceUid(sbyte DependencyUid,bool ReturnValue) { return default; }
-	public bool RemoveSceneInstanceUid(sbyte DependencyUid,bool ReturnValue) { return default; }
-	public void GetSlotMaterialDependencies(TMap<sbyte,sbyte> OutMaterialDependencies) {}
-	public bool GetSlotMaterialDependencyUid(sbyte SlotName,sbyte OutMaterialDependency,bool ReturnValue) { return default; }
-	public bool SetSlotMaterialDependencyUid(sbyte SlotName,sbyte MaterialDependencyUid,bool ReturnValue) { return default; }
-	public bool RemoveSlotMaterialDependencyUid(sbyte SlotName,bool ReturnValue) { return default; }
+	public bool IsSkinnedMesh() { return default; }
+	public bool SetSkinnedMesh(bool bIsSkinnedMesh) { return default; }
+	public bool IsMorphTarget() { return default; }
+	public bool SetMorphTarget(bool bIsMorphTarget) { return default; }
+	public bool GetMorphTargetName(string OutMorphTargetName) { return default; }
+	public bool SetMorphTargetName(string MorphTargetName) { return default; }
+	public void SetPayLoadKey(string PayloadKey) {}
+	public void SetAnimationCurvePayLoadKey(string PayloadKey) {}
+	public bool GetCustomVertexCount(int AttributeValue) { return default; }
+	public bool SetCustomVertexCount(int AttributeValue) { return default; }
+	public bool GetCustomPolygonCount(int AttributeValue) { return default; }
+	public bool SetCustomPolygonCount(int AttributeValue) { return default; }
+	public bool GetCustomBoundingBox(FBox AttributeValue) { return default; }
+	public bool SetCustomBoundingBox(FBox AttributeValue) { return default; }
+	public bool GetCustomHasVertexNormal(bool AttributeValue) { return default; }
+	public bool SetCustomHasVertexNormal(bool AttributeValue) { return default; }
+	public bool GetCustomHasVertexBinormal(bool AttributeValue) { return default; }
+	public bool SetCustomHasVertexBinormal(bool AttributeValue) { return default; }
+	public bool GetCustomHasVertexTangent(bool AttributeValue) { return default; }
+	public bool SetCustomHasVertexTangent(bool AttributeValue) { return default; }
+	public bool GetCustomHasSmoothGroup(bool AttributeValue) { return default; }
+	public bool SetCustomHasSmoothGroup(bool AttributeValue) { return default; }
+	public bool GetCustomHasVertexColor(bool AttributeValue) { return default; }
+	public bool SetCustomHasVertexColor(bool AttributeValue) { return default; }
+	public bool GetCustomUVCount(int AttributeValue) { return default; }
+	public bool SetCustomUVCount(int AttributeValue) { return default; }
+	public int GetSkeletonDependeciesCount() { return default; }
+	public void GetSkeletonDependencies(TArray<string> OutDependencies) {}
+	public void GetSkeletonDependency(int Index,string OutDependency) {}
+	public bool SetSkeletonDependencyUid(string DependencyUid) { return default; }
+	public bool RemoveSkeletonDependencyUid(string DependencyUid) { return default; }
+	public int GetMorphTargetDependeciesCount() { return default; }
+	public void GetMorphTargetDependencies(TArray<string> OutDependencies) {}
+	public void GetMorphTargetDependency(int Index,string OutDependency) {}
+	public bool SetMorphTargetDependencyUid(string DependencyUid) { return default; }
+	public bool RemoveMorphTargetDependencyUid(string DependencyUid) { return default; }
+	public int GetSceneInstanceUidsCount() { return default; }
+	public void GetSceneInstanceUids(TArray<string> OutDependencies) {}
+	public void GetSceneInstanceUid(int Index,string OutDependency) {}
+	public bool SetSceneInstanceUid(string DependencyUid) { return default; }
+	public bool RemoveSceneInstanceUid(string DependencyUid) { return default; }
+	public void GetSlotMaterialDependencies(TMap<string,string> OutMaterialDependencies) {}
+	public bool GetSlotMaterialDependencyUid(string SlotName,string OutMaterialDependency) { return default; }
+	public bool SetSlotMaterialDependencyUid(string SlotName,string MaterialDependencyUid) { return default; }
+	public bool RemoveSlotMaterialDependencyUid(string SlotName) { return default; }
 }

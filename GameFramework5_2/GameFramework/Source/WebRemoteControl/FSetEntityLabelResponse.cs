@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlResponse.h")]
 public partial struct FSetEntityLabelResponse {
 // SetEntityLabelResponse
-	public sbyte AssignedLabel;
+	public string AssignedLabel;
 }

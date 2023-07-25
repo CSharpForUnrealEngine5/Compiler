@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Nodes/OptimusNode_CustomComputeKernel.h")]
 public partial class UOptimusNode_CustomComputeKernel : UOptimusNode_ComputeKernelBase {
 // OptimusNode_CustomComputeKernel
-	public sbyte Category;
+	public string Category;
 	public FOptimusValidatedName KernelName;
 	public FOptimusExecutionDomain ExecutionDomain;
 	public FIntVector GroupSize;

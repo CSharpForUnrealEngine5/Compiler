@@ -8,8 +8,8 @@ public partial class UMaterialParameterCollection : UObject {
 	public FGuid StateId;
 	public TArray<FCollectionScalarParameter> ScalarParameters;
 	public TArray<FCollectionVectorParameter> VectorParameters;
-	public TArray<sbyte> GetScalarParameterNames(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GetVectorParameterNames(TArray<sbyte> ReturnValue) { return default; }
-	public float GetScalarParameterDefaultValue(sbyte ParameterName,bool bParameterFound,float ReturnValue) { return default; }
-	public FLinearColor GetVectorParameterDefaultValue(sbyte ParameterName,bool bParameterFound,FLinearColor ReturnValue) { return default; }
+	public TArray<string> GetScalarParameterNames() { return default; }
+	public TArray<string> GetVectorParameterNames() { return default; }
+	public float GetScalarParameterDefaultValue(string ParameterName,bool bParameterFound) { return default; }
+	public FLinearColor GetVectorParameterDefaultValue(string ParameterName,bool bParameterFound) { return default; }
 }

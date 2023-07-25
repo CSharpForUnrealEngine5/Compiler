@@ -8,5 +8,5 @@ public partial class UCurveBase : UObject {
 	public void GetTimeRange(float MinTime,float MaxTime) {}
 	public void GetValueRange(float MinValue,float MaxValue) {}
 	public UAssetImportData AssetImportData;
-	public sbyte ImportPath_DEPRECATED;
+	public string ImportPath_DEPRECATED;
 }

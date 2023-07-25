@@ -12,12 +12,12 @@ public partial class AGameplayCueNotify_Actor : AActor {
 	public bool WarnIfTimelineIsStillRunning;
 	public bool WarnIfLatentActionIsStillRunning;
 	public void K2_HandleGameplayCue(UObject MyTarget,EGameplayCueEvent EventType,FGameplayCueParameters Parameters) {}
-	public bool OnExecute(UObject MyTarget,FGameplayCueParameters Parameters,bool ReturnValue) { return default; }
-	public bool OnActive(UObject MyTarget,FGameplayCueParameters Parameters,bool ReturnValue) { return default; }
-	public bool WhileActive(UObject MyTarget,FGameplayCueParameters Parameters,bool ReturnValue) { return default; }
-	public bool OnRemove(UObject MyTarget,FGameplayCueParameters Parameters,bool ReturnValue) { return default; }
+	public bool OnExecute(UObject MyTarget,FGameplayCueParameters Parameters) { return default; }
+	public bool OnActive(UObject MyTarget,FGameplayCueParameters Parameters) { return default; }
+	public bool WhileActive(UObject MyTarget,FGameplayCueParameters Parameters) { return default; }
+	public bool OnRemove(UObject MyTarget,FGameplayCueParameters Parameters) { return default; }
 	public FGameplayTag GameplayCueTag;
-	public sbyte GameplayCueName;
+	public string GameplayCueName;
 	public bool bAutoAttachToOwner;
 	public bool IsOverride;
 	public bool bUniqueInstancePerInstigator;

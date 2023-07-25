@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>The Spring IK solver uses a verlet integrator to perform an IK solve.</summary>
 public partial struct FRigUnit_SpringIK {
 // RigUnit_SpringIK
-	public sbyte StartBone;
-	public sbyte EndBone;
+	public string StartBone;
+	public string EndBone;
 	public float HierarchyStrength;
 	public float EffectorStrength;
 	public float EffectorRatio;
@@ -16,7 +16,7 @@ public partial struct FRigUnit_SpringIK {
 	public FVector PoleVector;
 	public bool bFlipPolePlane;
 	public EControlRigVectorKind PoleVectorKind;
-	public sbyte PoleVectorSpace;
+	public string PoleVectorSpace;
 	public FVector PrimaryAxis;
 	public FVector SecondaryAxis;
 	public bool bLiveSimulation;

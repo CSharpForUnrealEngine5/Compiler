@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>@TODO: Add comments/tooltips.</summary>
 public partial class UOrientationWarpingModifier : UAnimationModifier {
 // OrientationWarpingModifier
-	public sbyte EnableWarpingCurveName;
-	public sbyte EnableOffsetCurveName;
+	public string EnableWarpingCurveName;
+	public string EnableOffsetCurveName;
 	public float BlendInTime;
 	public float BlendOutTime;
 	public float StopSpeedThreshold;

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Information about the lens rig</summary>
 public partial struct FLensInfo {
 // LensInfo
-	public sbyte LensModelName;
-	public sbyte LensSerialNumber;
+	public string LensModelName;
+	public string LensSerialNumber;
 	public UClass LensModel;
 	public FVector2D SensorDimensions;
 	public FIntPoint ImageDimensions;

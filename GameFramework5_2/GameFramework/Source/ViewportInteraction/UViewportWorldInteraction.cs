@@ -7,15 +7,15 @@ public partial class UViewportWorldInteraction : UEditorWorldExtension {
 	public void AddInteractor(UObject Interactor) {}
 	public void RemoveInteractor(UObject Interactor) {}
 	public void AddActorToExcludeFromHitTests(UObject ActorToExcludeFromHitTests) {}
-	public FTransform GetRoomTransform(FTransform ReturnValue) { return default; }
-	public FTransform GetRoomSpaceHeadTransform(FTransform ReturnValue) { return default; }
-	public FTransform GetHeadTransform(FTransform ReturnValue) { return default; }
+	public FTransform GetRoomTransform() { return default; }
+	public FTransform GetRoomSpaceHeadTransform() { return default; }
+	public FTransform GetHeadTransform() { return default; }
 	public void SetHeadTransform(FTransform NewHeadTransform) {}
 	public void SetRoomTransformForNextFrame(FTransform NewRoomTransform) {}
-	public float GetWorldScaleFactor(float ReturnValue) { return default; }
-	public void SetWorldToMetersScale(float NewWorldToMetersScale,bool bCompensateRoomWorldScale=false) {}
-	public UObject GetTransformGizmoActor(UObject ReturnValue) { return default; }
-	public TArray<UObject> GetInteractors(TArray<UObject> ReturnValue) { return default; }
+	public float GetWorldScaleFactor() { return default; }
+	public void SetWorldToMetersScale(float NewWorldToMetersScale,bool bCompensateRoomWorldScale/*=false*/) {}
+	public UObject GetTransformGizmoActor() { return default; }
+	public TArray<UObject> GetInteractors() { return default; }
 	public TArray<UViewportInteractor> Interactors;
 	public UViewportTransformer ViewportTransformer;
 	public ABaseTransformGizmo TransformGizmoActor;

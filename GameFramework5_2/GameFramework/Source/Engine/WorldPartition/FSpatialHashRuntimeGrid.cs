@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Represents a runtime grid (editing)</summary>
 public partial struct FSpatialHashRuntimeGrid {
 // SpatialHashRuntimeGrid
-	public sbyte GridName;
+	public string GridName;
 	public int CellSize;
 	public float LoadingRange;
 	public bool bBlockOnSlowStreaming;

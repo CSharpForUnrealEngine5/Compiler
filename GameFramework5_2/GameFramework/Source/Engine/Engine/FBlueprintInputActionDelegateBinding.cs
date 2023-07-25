@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/InputActionDelegateBinding.h")]
 public partial struct FBlueprintInputActionDelegateBinding {
 // BlueprintInputActionDelegateBinding
-	public sbyte InputActionName;
+	public string InputActionName;
 	public byte InputKeyEvent;
-	public sbyte FunctionNameToBind;
+	public string FunctionNameToBind;
 }

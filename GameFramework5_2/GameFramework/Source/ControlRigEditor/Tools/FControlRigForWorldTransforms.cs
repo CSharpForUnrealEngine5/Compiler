@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FControlRigForWorldTransforms {
 // ControlRigForWorldTransforms
 	public TWeakObjectPtr<UControlRig> ControlRig;
-	public TArray<sbyte> ControlNames;
+	public TArray<string> ControlNames;
 }

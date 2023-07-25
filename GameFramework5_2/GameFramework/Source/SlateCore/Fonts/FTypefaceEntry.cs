@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A single entry in a typeface</summary>
 public partial struct FTypefaceEntry {
 // TypefaceEntry
-	public sbyte Name;
+	public string Name;
 	public FFontData Font;
 }

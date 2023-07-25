@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 ///<summary>* UDatasmithTextureElement</summary>
 public partial class UDatasmithTextureElement : UDatasmithObjectElement {
 // DatasmithTextureElement
-	public sbyte GetFile(sbyte ReturnValue) { return default; }
-	public void SetFile(sbyte File) {}
-	public EDatasmithTextureMode GetTextureMode(EDatasmithTextureMode ReturnValue) { return default; }
+	public string GetFile() { return default; }
+	public void SetFile(string File) {}
+	public EDatasmithTextureMode GetTextureMode() { return default; }
 	public void SetTextureMode(EDatasmithTextureMode Mode) {}
-	public bool GetAllowResize(bool ReturnValue) { return default; }
+	public bool GetAllowResize() { return default; }
 	public void SetAllowResize(bool bAllowResize) {}
-	public float GetRGBCurve(float ReturnValue) { return default; }
+	public float GetRGBCurve() { return default; }
 	public void SetRGBCurve(float InRGBCurve) {}
-	public EDatasmithColorSpace GetColorSpace(EDatasmithColorSpace ReturnValue) { return default; }
+	public EDatasmithColorSpace GetColorSpace() { return default; }
 	public void SetColorSpace(EDatasmithColorSpace Option) {}
 }

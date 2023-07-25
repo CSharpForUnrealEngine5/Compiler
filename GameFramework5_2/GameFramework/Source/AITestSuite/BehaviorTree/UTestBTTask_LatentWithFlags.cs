@@ -12,7 +12,7 @@ public partial class UTestBTTask_LatentWithFlags : UBTTaskNode {
 	public int LogIndexAbortFinish;
 	public int ExecuteHalfTicks;
 	public int AbortHalfTicks;
-	public sbyte KeyNameExecute;
-	public sbyte KeyNameAbort;
+	public string KeyNameExecute;
+	public string KeyNameAbort;
 	public byte LogResult;
 }

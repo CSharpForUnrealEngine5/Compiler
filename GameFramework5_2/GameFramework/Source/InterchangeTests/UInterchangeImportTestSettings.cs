@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implement settings for the Interchange Import Test</summary>
 public partial class UInterchangeImportTestSettings : UObject {
 // InterchangeImportTestSettings
-	public sbyte ImportTestsPath;
-	public TArray<sbyte> ImportFiles;
+	public string ImportTestsPath;
+	public TArray<string> ImportFiles;
 }

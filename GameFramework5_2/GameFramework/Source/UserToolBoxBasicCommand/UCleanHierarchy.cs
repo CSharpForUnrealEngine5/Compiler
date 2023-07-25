@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("CleanHierarchy.h")]
 public partial class UCleanHierarchy : UUTBBaseCommand {
 // CleanHierarchy
-	public TArray<sbyte> DSMetadataToPreserve;
+	public TArray<string> DSMetadataToPreserve;
 	public bool RemoveEmptyBranches;
 	public bool RemoveIntermediaryActorsWithoutGeometry;
 }

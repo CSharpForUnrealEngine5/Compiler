@@ -12,8 +12,8 @@ public partial class UGameplayBehavior : UObject {
 	public void K2_OnFinishedCharacter(UObject Avatar,bool bWasInterrupted) {}
 	public void K2_EndBehavior(UObject Avatar) {}
 	public void K2_AbortBehavior(UObject Avatar) {}
-	public void K2_TriggerBehavior(UObject Avatar,UObject Config=nullptr,UObject SmartObjectOwner=nullptr) {}
-	public int K2_GetNextActorIndexInSequence(int CurrentIndex=0,int ReturnValue) { return default; }
+	public void K2_TriggerBehavior(UObject Avatar,UObject Config/*=nullptr*/,UObject SmartObjectOwner/*=nullptr*/) {}
+	public int K2_GetNextActorIndexInSequence(int CurrentIndex/*=0*/) { return default; }
 	public FGameplayTag ActionTag;
 	public TArray<AActor> RelevantActors;
 	public AActor TransientSmartObjectOwner;

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNode_CurveSource {
 // AnimNode_CurveSource
 	public FPoseLink SourcePose;
-	public sbyte SourceBinding;
+	public string SourceBinding;
 	public float Alpha;
 	public object /*CurveSource*/ CurveSource;
 }

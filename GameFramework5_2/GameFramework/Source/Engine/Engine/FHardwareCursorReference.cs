@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/UserInterfaceSettings.h")]
 public partial struct FHardwareCursorReference {
 // HardwareCursorReference
-	public sbyte CursorPath;
+	public string CursorPath;
 	public FVector2D HotSpot;
 }

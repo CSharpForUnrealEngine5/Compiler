@@ -7,19 +7,19 @@ public partial class UUserDefinedCaptureProtocol : UMovieSceneImageCaptureProtoc
 // UserDefinedCaptureProtocol
 	public void OnPreTick() {}
 	public void OnTick() {}
-	public bool OnSetup(bool ReturnValue) { return default; }
+	public bool OnSetup() { return default; }
 	public void OnWarmUp() {}
 	public void OnStartCapture() {}
 	public void OnCaptureFrame() {}
 	public void OnPauseCapture() {}
 	public void OnBeginFinalize() {}
-	public bool OnCanFinalize(bool ReturnValue) { return default; }
+	public bool OnCanFinalize() { return default; }
 	public void OnFinalize() {}
 	public void OnPixelsReceived(FCapturedPixels Pixels,FCapturedPixelsID ID,FFrameMetrics FrameMetrics) {}
 	public void ResolveBuffer(UObject Buffer,FCapturedPixelsID BufferID) {}
 	public void StartCapturingFinalPixels(FCapturedPixelsID StreamID) {}
 	public void StopCapturingFinalPixels() {}
-	public sbyte GenerateFilename(FFrameMetrics InFrameMetrics,sbyte ReturnValue) { return default; }
-	public FFrameMetrics GetCurrentFrameMetrics(FFrameMetrics ReturnValue) { return default; }
+	public string GenerateFilename(FFrameMetrics InFrameMetrics) { return default; }
+	public FFrameMetrics GetCurrentFrameMetrics() { return default; }
 	public UWorld World;
 }

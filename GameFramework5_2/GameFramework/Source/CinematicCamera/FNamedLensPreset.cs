@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A named bundle of lens settings used to implement lens presets.</summary>
 public partial struct FNamedLensPreset {
 // NamedLensPreset
-	public sbyte Name;
+	public string Name;
 	public FCameraLensSettings LensSettings;
 }

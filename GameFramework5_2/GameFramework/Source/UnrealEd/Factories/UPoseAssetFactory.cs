@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UPoseAssetFactory : UFactory {
 // PoseAssetFactory
 	public UAnimSequence SourceAnimation;
-	public TArray<sbyte> PoseNames;
+	public TArray<string> PoseNames;
 	public USkeleton TargetSkeleton;
 	public USkeletalMesh PreviewSkeletalMesh;
 }

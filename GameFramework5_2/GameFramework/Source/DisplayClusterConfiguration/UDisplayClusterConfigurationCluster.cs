@@ -8,9 +8,9 @@ public partial class UDisplayClusterConfigurationCluster : UDisplayClusterConfig
 	public FDisplayClusterConfigurationClusterSync Sync;
 	public FDisplayClusterConfigurationNetworkSettings Network;
 	public FDisplayClusterConfigurationFailoverSettings Failover;
-	public TMap<sbyte,UDisplayClusterConfigurationClusterNode> Nodes;
-	public TMap<sbyte,UDisplayClusterConfigurationHostDisplayData> HostDisplayData;
-	public void GetReferencedMeshNames(TArray<sbyte> OutMeshNames) {}
-	public void GetNodeIds(TArray<sbyte> OutNodeIds) {}
-	public UObject GetNode(sbyte NodeId,UObject ReturnValue) { return default; }
+	public TMap<string,UDisplayClusterConfigurationClusterNode> Nodes;
+	public TMap<string,UDisplayClusterConfigurationHostDisplayData> HostDisplayData;
+	public void GetReferencedMeshNames(TArray<string> OutMeshNames) {}
+	public void GetNodeIds(TArray<string> OutNodeIds) {}
+	public UObject GetNode(string NodeId) { return default; }
 }

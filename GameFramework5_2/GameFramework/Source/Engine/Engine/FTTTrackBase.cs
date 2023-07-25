@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/TimelineTemplate.h")]
 public partial struct FTTTrackBase {
 // TTTrackBase
-	public sbyte TrackName;
+	public string TrackName;
 	public bool bIsExternalCurve;
 	public bool bIsExpanded;
 	public bool bIsCurveViewSynchronized;

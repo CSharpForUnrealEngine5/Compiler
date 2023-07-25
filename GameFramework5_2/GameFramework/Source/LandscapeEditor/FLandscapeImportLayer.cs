@@ -6,7 +6,7 @@ public partial struct FLandscapeImportLayer {
 // LandscapeImportLayer
 	public ULandscapeMaterialInstanceConstant ThumbnailMIC;
 	public ELandscapeImportResult ImportResult;
-	public sbyte ErrorMessage;
-	public sbyte ExportFilePath;
+	public string ErrorMessage;
+	public string ExportFilePath;
 	public bool bSelected;
 }

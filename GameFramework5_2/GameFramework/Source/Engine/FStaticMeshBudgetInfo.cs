@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MeshBudgetProjectSettings.h")]
 public partial struct FStaticMeshBudgetInfo {
 // StaticMeshBudgetInfo
-	public sbyte LodGroupName;
+	public string LodGroupName;
 	public double MinimumExtent;
 }

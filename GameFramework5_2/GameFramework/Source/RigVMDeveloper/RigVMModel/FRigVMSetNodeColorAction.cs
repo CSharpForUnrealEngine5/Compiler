@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a node's color in the graph.</summary>
 public partial struct FRigVMSetNodeColorAction {
 // RigVMSetNodeColorAction
-	public sbyte NodePath;
+	public string NodePath;
 	public FLinearColor OldColor;
 	public FLinearColor NewColor;
 }

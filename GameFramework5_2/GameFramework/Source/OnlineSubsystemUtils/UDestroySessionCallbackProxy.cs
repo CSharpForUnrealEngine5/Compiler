@@ -6,5 +6,5 @@ public partial class UDestroySessionCallbackProxy : UOnlineBlueprintCallProxyBas
 // DestroySessionCallbackProxy
 	public FEmptyOnlineDelegate OnSuccess;
 	public FEmptyOnlineDelegate OnFailure;
-	public UObject DestroySession(UObject WorldContextObject,UObject PlayerController,UObject ReturnValue) { return default; }
+	public UObject DestroySession(UObject WorldContextObject,UObject PlayerController) { return default; }
 }

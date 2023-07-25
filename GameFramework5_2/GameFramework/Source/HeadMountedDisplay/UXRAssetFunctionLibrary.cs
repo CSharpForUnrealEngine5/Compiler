@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>UXRAssetFunctionLibrary</summary>
 public partial class UXRAssetFunctionLibrary : UBlueprintFunctionLibrary {
 // XRAssetFunctionLibrary
-	public UObject AddDeviceVisualizationComponentBlocking(UObject Target,FXRDeviceId XRDeviceId,bool bManualAttachment,FTransform RelativeTransform,UObject ReturnValue) { return default; }
-	public UObject AddNamedDeviceVisualizationComponentBlocking(UObject Target,sbyte SystemName,sbyte DeviceName,bool bManualAttachment,FTransform RelativeTransform,FXRDeviceId XRDeviceId,UObject ReturnValue) { return default; }
+	public UObject AddDeviceVisualizationComponentBlocking(UObject Target,FXRDeviceId XRDeviceId,bool bManualAttachment,FTransform RelativeTransform) { return default; }
+	public UObject AddNamedDeviceVisualizationComponentBlocking(UObject Target,string SystemName,string DeviceName,bool bManualAttachment,FTransform RelativeTransform,FXRDeviceId XRDeviceId) { return default; }
 }

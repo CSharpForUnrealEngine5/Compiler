@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/Engine.h")]
 public partial struct FStructRedirect {
 // StructRedirect
-	public sbyte OldStructName;
-	public sbyte NewStructName;
+	public string OldStructName;
+	public string NewStructName;
 }

@@ -17,7 +17,7 @@ public partial class ALandscapeProxy : APartitionActor {
 	public float LOD0DistributionSetting;
 	public float LODDistributionSetting;
 	public int ExportLOD;
-	public TArray<sbyte> TargetDisplayOrderList;
+	public TArray<string> TargetDisplayOrderList;
 	public ELandscapeLayerDisplayMode TargetDisplayOrder;
 	public int StaticLightingLOD;
 	public UPhysicalMaterial DefaultPhysMaterial;
@@ -65,7 +65,7 @@ public partial class ALandscapeProxy : APartitionActor {
 	public bool bGenerateOverlapEvents;
 	public bool bBakeMaterialPositionOffsetIntoCollision;
 	public TArray<ULandscapeLayerInfoObject> EditorCachedLayerInfos_DEPRECATED;
-	public sbyte ReimportHeightmapFilePath;
+	public string ReimportHeightmapFilePath;
 	public FGuid ReimportDestinationLayerGuid;
 	public TArray<FLandscapeEditorLayerSettings> EditorLayerSettings;
 	public TMap<UTexture2D,ULandscapeWeightmapUsage> WeightmapUsageMap;
@@ -82,13 +82,13 @@ public partial class ALandscapeProxy : APartitionActor {
 	public void ChangeLODDistanceFactor(float InLODDistanceFactor) {}
 	public void ChangeComponentScreenSizeToUseSubSections(float InComponentScreenSizeToUseSubSections) {}
 	public void EditorSetLandscapeMaterial(UObject NewLandscapeMaterial) {}
-	public void EditorApplySpline(UObject InSplineComponent,float StartWidth=200,float EndWidth=200,float StartSideFalloff=200,float EndSideFalloff=200,float StartRoll=0,float EndRoll=0,int NumSubdivisions=20,bool bRaiseHeights=true,bool bLowerHeights=true,UObject PaintLayer=nullptr,sbyte EditLayerName=TEXT) {}
-	public void SetLandscapeMaterialTextureParameterValue(sbyte ParameterName,UObject Value) {}
-	public void SetLandscapeMaterialVectorParameterValue(sbyte ParameterName,FLinearColor Value) {}
-	public void SetLandscapeMaterialScalarParameterValue(sbyte ParameterName,float Value) {}
-	public UObject GetLandscapeActor(UObject ReturnValue) { return default; }
-	public bool LandscapeExportHeightmapToRenderTarget(UObject InRenderTarget,bool InExportHeightIntoRGChannel=false,bool InExportLandscapeProxies=true,bool ReturnValue) { return default; }
-	public bool LandscapeImportHeightmapFromRenderTarget(UObject InRenderTarget,bool InImportHeightFromRGChannel=false,bool ReturnValue) { return default; }
-	public bool LandscapeImportWeightmapFromRenderTarget(UObject InRenderTarget,sbyte InLayerName,bool ReturnValue) { return default; }
-	public bool LandscapeExportWeightmapToRenderTarget(UObject InRenderTarget,sbyte InLayerName,bool ReturnValue) { return default; }
+	public void EditorApplySpline(UObject InSplineComponent,float StartWidth/*=200f*/,float EndWidth/*=200f*/,float StartSideFalloff/*=200f*/,float EndSideFalloff/*=200f*/,float StartRoll/*=0f*/,float EndRoll/*=0f*/,int NumSubdivisions/*=20*/,bool bRaiseHeights/*=true*/,bool bLowerHeights/*=true*/,UObject PaintLayer/*=nullptr*/,string EditLayerName/*=TEXT("")*/) {}
+	public void SetLandscapeMaterialTextureParameterValue(string ParameterName,UObject Value) {}
+	public void SetLandscapeMaterialVectorParameterValue(string ParameterName,FLinearColor Value) {}
+	public void SetLandscapeMaterialScalarParameterValue(string ParameterName,float Value) {}
+	public UObject GetLandscapeActor() { return default; }
+	public bool LandscapeExportHeightmapToRenderTarget(UObject InRenderTarget,bool InExportHeightIntoRGChannel/*=false*/,bool InExportLandscapeProxies/*=true*/) { return default; }
+	public bool LandscapeImportHeightmapFromRenderTarget(UObject InRenderTarget,bool InImportHeightFromRGChannel/*=false*/) { return default; }
+	public bool LandscapeImportWeightmapFromRenderTarget(UObject InRenderTarget,string InLayerName) { return default; }
+	public bool LandscapeExportWeightmapToRenderTarget(UObject InRenderTarget,string InLayerName) { return default; }
 }

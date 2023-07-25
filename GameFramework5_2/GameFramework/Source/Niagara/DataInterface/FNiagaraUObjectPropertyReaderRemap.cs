@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("DataInterface/NiagaraDataInterfaceUObjectPropertyReader.h")]
 public partial struct FNiagaraUObjectPropertyReaderRemap {
 // NiagaraUObjectPropertyReaderRemap
-	public sbyte GraphName;
-	public sbyte RemapName;
+	public string GraphName;
+	public string RemapName;
 }

@@ -7,7 +7,7 @@ public partial class UAnimClassData : UObject {
 	public TArray<FBakedAnimationStateMachine> BakedStateMachines;
 	public USkeleton TargetSkeleton;
 	public TArray<FAnimNotifyEvent> AnimNotifies;
-	public TMap<sbyte,FCachedPoseIndices> OrderedSavedPoseIndicesMap;
+	public TMap<string,FCachedPoseIndices> OrderedSavedPoseIndicesMap;
 	public TArray<FAnimBlueprintFunction> AnimBlueprintFunctions;
 	public TArray<FAnimBlueprintFunctionData> AnimBlueprintFunctionData;
 	public TArray<object> AnimNodeProperties;
@@ -17,7 +17,7 @@ public partial class UAnimClassData : UObject {
 	public TArray<object> DynamicResetNodeProperties;
 	public TArray<object> StateMachineNodeProperties;
 	public TArray<object> InitializationNodeProperties;
-	public TMap<sbyte,FGraphAssetPlayerInformation> GraphNameAssetPlayers;
-	public TArray<sbyte> SyncGroupNames;
-	public TMap<sbyte,FAnimGraphBlendOptions> GraphBlendOptions;
+	public TMap<string,FGraphAssetPlayerInformation> GraphNameAssetPlayers;
+	public TArray<string> SyncGroupNames;
+	public TMap<string,FAnimGraphBlendOptions> GraphBlendOptions;
 }

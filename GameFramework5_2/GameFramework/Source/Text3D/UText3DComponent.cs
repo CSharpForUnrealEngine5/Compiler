@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Text3DComponent.h")]
 public partial class UText3DComponent : USceneComponent {
 // Text3DComponent
-	public sbyte Text;
+	public string Text;
 	public float Extrude;
 	public float Bevel;
 	public EText3DBevelType BevelType;
@@ -28,7 +28,7 @@ public partial class UText3DComponent : USceneComponent {
 	public bool bScaleProportionally;
 	public bool bCastShadow;
 	public void FTextGenerated() {}
-	public void SetText(sbyte Value) {}
+	public void SetText(string Value) {}
 	public void SetFont(UObject InFont) {}
 	public void SetOutline(bool bValue) {}
 	public void SetOutlineExpand(float Value) {}
@@ -53,12 +53,12 @@ public partial class UText3DComponent : USceneComponent {
 	public void SetFreeze(bool bFreeze) {}
 	public void SetCastShadow(bool NewCastShadow) {}
 	public void GetBounds(FVector Origin,FVector BoxExtent) {}
-	public int GetGlyphCount(int ReturnValue) { return default; }
-	public UObject GetGlyphKerningComponent(int Index,UObject ReturnValue) { return default; }
-	public TArray<UObject> GetGlyphKerningComponents(TArray<UObject> ReturnValue) { return default; }
-	public UObject GetGlyphMeshComponent(int Index,UObject ReturnValue) { return default; }
-	public TArray<UObject> GetGlyphMeshComponents(TArray<UObject> ReturnValue) { return default; }
-	public FVector GetTextScale(FVector ReturnValue) { return default; }
+	public int GetGlyphCount() { return default; }
+	public UObject GetGlyphKerningComponent(int Index) { return default; }
+	public TArray<UObject> GetGlyphKerningComponents() { return default; }
+	public UObject GetGlyphMeshComponent(int Index) { return default; }
+	public TArray<UObject> GetGlyphMeshComponents() { return default; }
+	public FVector GetTextScale() { return default; }
 	public USceneComponent TextRoot;
 	public FTextGenerated TextGeneratedDelegate;
 	public TArray<USceneComponent> CharacterKernings;

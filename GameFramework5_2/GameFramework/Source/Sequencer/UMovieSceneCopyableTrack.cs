@@ -7,5 +7,5 @@ public partial class UMovieSceneCopyableTrack : UObject {
 	public UMovieSceneTrack Track;
 	public bool bIsRootTrack;
 	public bool bIsCameraCutTrack;
-	public TArray<sbyte> FolderPath;
+	public TArray<string> FolderPath;
 }

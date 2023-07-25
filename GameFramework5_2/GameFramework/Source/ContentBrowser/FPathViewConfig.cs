@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FPathViewConfig {
 // PathViewConfig
 	public bool bExpanded;
-	public TArray<sbyte> SelectedPaths;
-	public TArray<sbyte> PluginFilters;
+	public TArray<string> SelectedPaths;
+	public TArray<string> PluginFilters;
 }

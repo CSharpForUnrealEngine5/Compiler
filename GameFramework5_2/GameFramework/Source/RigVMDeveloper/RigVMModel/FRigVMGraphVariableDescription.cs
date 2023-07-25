@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>The variable description is used to convey information</summary>
 public partial struct FRigVMGraphVariableDescription {
 // RigVMGraphVariableDescription
-	public sbyte Name;
-	public sbyte CPPType;
+	public string Name;
+	public string CPPType;
 	public UObject CPPTypeObject;
-	public sbyte DefaultValue;
+	public string DefaultValue;
 }

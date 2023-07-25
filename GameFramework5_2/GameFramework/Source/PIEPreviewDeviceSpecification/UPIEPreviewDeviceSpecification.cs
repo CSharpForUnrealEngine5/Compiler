@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 public partial class UPIEPreviewDeviceSpecification : UObject {
 // PIEPreviewDeviceSpecification
 	public EPIEPreviewDeviceType PreviewDeviceType;
-	public sbyte GPUFamily;
-	public sbyte GLVersion;
-	public sbyte VulkanVersion;
-	public sbyte AndroidVersion;
-	public sbyte DeviceMake;
-	public sbyte DeviceModel;
-	public sbyte DeviceBuildNumber;
+	public string GPUFamily;
+	public string GLVersion;
+	public string VulkanVersion;
+	public string AndroidVersion;
+	public string DeviceMake;
+	public string DeviceModel;
+	public string DeviceBuildNumber;
 	public bool UsingHoudini;
-	public sbyte Hardware;
-	public sbyte Chipset;
+	public string Hardware;
+	public string Chipset;
 }

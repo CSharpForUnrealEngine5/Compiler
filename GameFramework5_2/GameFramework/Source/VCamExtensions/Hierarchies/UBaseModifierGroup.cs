@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements base logic to keep group names unique within a hierachy</summary>
 public partial class UBaseModifierGroup : UObject {
 // BaseModifierGroup
-	public sbyte NodeName;
+	public string NodeName;
 }

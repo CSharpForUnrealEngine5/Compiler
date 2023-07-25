@@ -8,7 +8,7 @@ public partial struct FSkeletalMeshClothBuildParams {
 	public TWeakObjectPtr<UClothingAssetBase> TargetAsset;
 	public int TargetLod;
 	public bool bRemapParameters;
-	public sbyte AssetName;
+	public string AssetName;
 	public int LodIndex;
 	public int SourceSection;
 	public bool bRemoveFromMesh;

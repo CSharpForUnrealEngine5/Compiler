@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/AnimData/AnimDataNotifications.h")]
 public partial struct FBracketPayload {
 // BracketPayload
-	public sbyte Description;
+	public string Description;
 }

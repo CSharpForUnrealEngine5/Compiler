@@ -9,9 +9,9 @@ public partial class UDatasmithDeltaGenSceneImportData : UDatasmithFBXSceneImpor
 	public bool bRemoveInvisibleNodes;
 	public bool bSimplifyNodeHierarchy;
 	public bool bImportVar;
-	public sbyte VarPath;
+	public string VarPath;
 	public bool bImportPos;
-	public sbyte PosPath;
+	public string PosPath;
 	public bool bImportTml;
-	public sbyte TmlPath;
+	public string TmlPath;
 }

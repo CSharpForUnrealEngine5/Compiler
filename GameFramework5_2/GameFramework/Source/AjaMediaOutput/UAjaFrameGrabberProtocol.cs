@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UAjaFrameGrabberProtocol : UMovieSceneImageCaptureProtocolBase {
 // AjaFrameGrabberProtocol
 	public FSoftObjectPath MediaOutput;
-	public sbyte Information;
+	public string Information;
 	public UAjaMediaOutput TransientMediaOutputPtr;
 	public UAjaMediaCapture TransientMediaCapturePtr;
 }

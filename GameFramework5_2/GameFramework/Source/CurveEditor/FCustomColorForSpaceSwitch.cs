@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Custom Color Object</summary>
 public partial struct FCustomColorForSpaceSwitch {
 // CustomColorForSpaceSwitch
-	public sbyte ControlName;
+	public string ControlName;
 	public FLinearColor Color;
 }

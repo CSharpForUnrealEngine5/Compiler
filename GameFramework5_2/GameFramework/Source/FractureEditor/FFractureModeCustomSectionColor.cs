@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a color to be used for a particular Tool Palette Section</summary>
 public partial struct FFractureModeCustomSectionColor {
 // FractureModeCustomSectionColor
-	public sbyte SectionName;
+	public string SectionName;
 	public FLinearColor Color;
 }

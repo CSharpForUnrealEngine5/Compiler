@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LandscapeMaterialInstanceConstant.h")]
 public partial struct FLandscapeMaterialTextureStreamingInfo {
 // LandscapeMaterialTextureStreamingInfo
-	public sbyte TextureName;
+	public string TextureName;
 	public float TexelFactor;
 }

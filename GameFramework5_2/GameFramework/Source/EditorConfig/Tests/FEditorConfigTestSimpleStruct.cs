@@ -6,7 +6,7 @@ public partial struct FEditorConfigTestSimpleStruct {
 // EditorConfigTestSimpleStruct
 	public bool Bool;
 	public int Int;
-	public sbyte String;
+	public string String;
 	public float Float;
-	public TArray<sbyte> Array;
+	public TArray<string> Array;
 }

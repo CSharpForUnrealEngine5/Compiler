@@ -8,7 +8,7 @@ public partial class UPCGDataFromActorSettings : UPCGSettings {
 	public FPCGActorSelectorSettings ActorSelector;
 	public EPCGGetDataFromActorMode Mode;
 	public bool bDisplayModeSettings;
-	public TArray<sbyte> ExpectedPins;
-	public sbyte PropertyName;
+	public TArray<string> ExpectedPins;
+	public string PropertyName;
 	public bool bTrackActorsOnlyWithinBounds;
 }

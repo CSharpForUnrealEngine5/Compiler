@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UK2Node_WebAPIOperation : UK2Node {
 // K2Node_WebAPIOperation
 	public UClass OperationClass;
-	public sbyte LatentFunctionName;
-	public sbyte DelegatedFunctionName;
+	public string LatentFunctionName;
+	public string DelegatedFunctionName;
 	public EWebAPIOperationAsyncType OperationAsyncType;
 }

@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 ///<summary>Object used to construct the New IK Target Widget</summary>
 public partial class UContextualAnimNewIKTargetParams : UObject {
 // ContextualAnimNewIKTargetParams
-	public sbyte SourceRole;
+	public string SourceRole;
 	public FBoneReference SourceBone;
 	public EContextualAnimIKTargetProvider Provider;
-	public sbyte TargetRole;
+	public string TargetRole;
 	public FBoneReference TargetBone;
-	public sbyte GoalName;
+	public string GoalName;
 	public int SectionIdx;
-	public TArray<sbyte> GetTargetRoleOptions(TArray<sbyte> ReturnValue) { return default; }
+	public TArray<string> GetTargetRoleOptions() { return default; }
 	public TWeakObjectPtr<UContextualAnimSceneAsset> SceneAssetPtr;
-	public TArray<sbyte> CachedRoles;
+	public TArray<string> CachedRoles;
 }

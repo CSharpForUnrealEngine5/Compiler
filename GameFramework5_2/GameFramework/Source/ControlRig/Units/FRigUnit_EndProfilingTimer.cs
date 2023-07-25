@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_EndProfilingTimer {
 // RigUnit_EndProfilingTimer
 	public int NumberOfMeasurements;
-	public sbyte Prefix;
+	public string Prefix;
 	public float AccumulatedTime;
 	public int MeasurementsLeft;
 	public bool bIsInitialized;

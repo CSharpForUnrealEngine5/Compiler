@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Cooked meta-data for a UObject.</summary>
 public partial struct FObjectCookedMetaDataStore {
 // ObjectCookedMetaDataStore
-	public TMap<sbyte,sbyte> ObjectMetaData;
+	public TMap<string,string> ObjectMetaData;
 }

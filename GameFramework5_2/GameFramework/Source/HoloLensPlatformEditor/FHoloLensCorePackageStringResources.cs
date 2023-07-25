@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("HoloLensLocalizedResources.h")]
 public partial struct FHoloLensCorePackageStringResources {
 // HoloLensCorePackageStringResources
-	public sbyte PackageDisplayName;
-	public sbyte PublisherDisplayName;
-	public sbyte PackageDescription;
-	public sbyte ApplicationDisplayName;
-	public sbyte ApplicationDescription;
+	public string PackageDisplayName;
+	public string PublisherDisplayName;
+	public string PackageDescription;
+	public string ApplicationDisplayName;
+	public string ApplicationDescription;
 }

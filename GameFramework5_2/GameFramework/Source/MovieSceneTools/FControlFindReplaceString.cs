@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MovieSceneToolsUserSettings.h")]
 public partial struct FControlFindReplaceString {
 // ControlFindReplaceString
-	public sbyte Find;
-	public sbyte Replace;
+	public string Find;
+	public string Replace;
 }

@@ -13,6 +13,6 @@ public partial struct FAutomatedTestPassResults {
 	public int InProcess;
 	public float TotalDuration;
 	public bool ComparisonExported;
-	public sbyte ComparisonExportDirectory;
+	public string ComparisonExportDirectory;
 	public TArray<FAutomatedTestResult> Tests;
 }

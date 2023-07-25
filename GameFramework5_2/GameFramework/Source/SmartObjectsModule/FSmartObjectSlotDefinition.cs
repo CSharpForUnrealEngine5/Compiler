@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Persistent and sharable definition of a smart object slot.</summary>
 public partial struct FSmartObjectSlotDefinition {
 // SmartObjectSlotDefinition
-	public sbyte Name;
+	public string Name;
 	public FColor DEBUG_DrawColor;
 	public FGuid ID;
 	public bool bEnabled;

@@ -9,5 +9,5 @@ public partial class UDataprepActionAsset : UObject {
 	public bool bIsEnabled;
 	public TArray<UDataprepActionStep> Steps;
 	public UDataprepActionAppearance Appearance;
-	public sbyte Label;
+	public string Label;
 }

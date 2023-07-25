@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectUIData.h")]
 public partial struct FIntegerParameterUIData {
 // IntegerParameterUIData
-	public sbyte Name;
+	public string Name;
 	public FMutableParamUIMetadata ParamUIMetadata;
 }

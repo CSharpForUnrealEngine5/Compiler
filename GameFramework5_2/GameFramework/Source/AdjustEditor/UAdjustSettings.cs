@@ -6,10 +6,10 @@ public partial class UAdjustSettings : UAnalyticsSettingsBase {
 // AdjustSettings
 	public bool bSandboxNondistribution;
 	public bool bSandboxDistribution;
-	public sbyte AppToken;
+	public string AppToken;
 	public byte LogLevel;
-	public sbyte DefaultTracker;
-	public sbyte ProcessName;
+	public string DefaultTracker;
+	public string ProcessName;
 	public bool bEventBuffering;
 	public bool bSendInBackground;
 	public float DelayStart;

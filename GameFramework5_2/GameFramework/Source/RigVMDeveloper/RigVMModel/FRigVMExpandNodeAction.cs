@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>An action to expand a library node into its content</summary>
 public partial struct FRigVMExpandNodeAction {
 // RigVMExpandNodeAction
-	public sbyte LibraryNodePath;
-	public sbyte LibraryNodeContent;
-	public TArray<sbyte> LibraryNodeLinks;
-	public TArray<sbyte> ExpandedNodePaths;
+	public string LibraryNodePath;
+	public string LibraryNodeContent;
+	public TArray<string> LibraryNodeLinks;
+	public TArray<string> ExpandedNodePaths;
 }

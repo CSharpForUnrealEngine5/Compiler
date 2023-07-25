@@ -16,9 +16,9 @@ public partial class UForceFeedbackComponent : USceneComponent {
 	public FForceFeedbackAttenuationSettings AttenuationOverrides;
 	public FOnForceFeedbackFinished OnForceFeedbackFinished;
 	public void SetForceFeedbackEffect(UObject NewForceFeedbackEffect) {}
-	public void Play(float StartTime=0.f) {}
+	public void Play(float StartTime/*=0.0f*/) {}
 	public void Stop() {}
 	public void SetIntensityMultiplier(float NewIntensityMultiplier) {}
 	public void AdjustAttenuation(FForceFeedbackAttenuationSettings InAttenuationSettings) {}
-	public bool BP_GetAttenuationSettingsToApply(FForceFeedbackAttenuationSettings OutAttenuationSettings,bool ReturnValue) { return default; }
+	public bool BP_GetAttenuationSettingsToApply(FForceFeedbackAttenuationSettings OutAttenuationSettings) { return default; }
 }

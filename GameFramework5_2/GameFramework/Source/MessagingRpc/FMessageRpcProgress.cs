@@ -7,5 +7,5 @@ public partial struct FMessageRpcProgress {
 // MessageRpcProgress
 	public float Completion;
 	public FGuid CallId;
-	public sbyte StatusText;
+	public string StatusText;
 }

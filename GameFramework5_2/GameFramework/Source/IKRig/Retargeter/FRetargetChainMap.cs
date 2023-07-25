@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Retargeter/IKRetargeter.h")]
 public partial struct FRetargetChainMap {
 // RetargetChainMap
-	public sbyte SourceChain;
-	public sbyte TargetChain;
+	public string SourceChain;
+	public string TargetChain;
 }

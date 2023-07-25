@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionRuntimeVirtualTextureSampleParameter.h")]
 public partial class UMaterialExpressionRuntimeVirtualTextureSampleParameter : UMaterialExpressionRuntimeVirtualTextureSample {
 // MaterialExpressionRuntimeVirtualTextureSampleParameter
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FGuid ExpressionGUID;
-	public sbyte Group;
+	public string Group;
 	public int SortPriority;
 }

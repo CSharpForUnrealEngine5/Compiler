@@ -8,12 +8,12 @@ public partial class UPoseAsset : UAnimationAsset {
 	public FPoseDataContainer PoseContainer;
 	public bool bAdditivePose;
 	public int BasePoseIndex;
-	public sbyte RetargetSource;
+	public string RetargetSource;
 	public TSoftObjectPtr<USkeletalMesh> RetargetSourceAsset;
 	public TArray<FTransform> RetargetSourceAssetReferencePose;
 	public UAnimSequence SourceAnimation;
 	public FGuid SourceAnimationRawDataGUID;
-	public void RenamePose(sbyte OriginalPoseName,sbyte NewPoseName) {}
-	public void GetPoseNames(TArray<sbyte> PoseNames) {}
+	public void RenamePose(string OriginalPoseName,string NewPoseName) {}
+	public void GetPoseNames(TArray<string> PoseNames) {}
 	public void UpdatePoseFromAnimation(UObject AnimSequence) {}
 }

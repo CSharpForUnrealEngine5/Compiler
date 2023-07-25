@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FGameplayDebuggerShape {
 // GameplayDebuggerShape
 	public TArray<FVector> ShapeData;
-	public sbyte Description;
+	public string Description;
 	public FColor Color;
 	public EGameplayDebuggerShape Type;
 }

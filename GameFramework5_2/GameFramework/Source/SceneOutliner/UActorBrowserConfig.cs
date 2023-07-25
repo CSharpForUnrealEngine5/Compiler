@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ActorBrowsingModeSettings.h")]
 public partial class UActorBrowserConfig : UEditorConfigBase {
 // ActorBrowserConfig
-	public TMap<sbyte,FActorBrowsingModeConfig> ActorBrowsers;
+	public TMap<string,FActorBrowsingModeConfig> ActorBrowsers;
 }

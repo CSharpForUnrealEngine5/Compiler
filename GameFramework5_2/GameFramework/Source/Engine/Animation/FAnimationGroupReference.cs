@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimationGroupReference {
 // AnimationGroupReference
 	public EAnimSyncMethod Method;
-	public sbyte GroupName;
+	public string GroupName;
 	public byte GroupRole;
 }

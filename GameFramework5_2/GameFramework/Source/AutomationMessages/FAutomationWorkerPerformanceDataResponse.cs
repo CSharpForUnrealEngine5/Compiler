@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAutomationWorkerPerformanceDataResponse {
 // AutomationWorkerPerformanceDataResponse
 	public bool bSuccess;
-	public sbyte ErrorMessage;
+	public string ErrorMessage;
 }

@@ -11,23 +11,23 @@ public partial class UQuartzClockHandle : UObject {
 	public void ResumeClock(UObject WorldContextObject,UObject ClockHandle) {}
 	public void ResetTransport(UObject WorldContextObject,FOnQuartzCommandEventBP InDelegate) {}
 	public void ResetTransportQuantized(UObject WorldContextObject,FQuartzQuantizationBoundary InQuantizationBoundary,FOnQuartzCommandEventBP InDelegate,UObject ClockHandle) {}
-	public bool IsClockRunning(UObject WorldContextObject,bool ReturnValue) { return default; }
-	public float GetDurationOfQuantizationTypeInSeconds(UObject WorldContextObject,EQuartzCommandQuantization QuantizationType,float Multiplier=1.0f,float ReturnValue) { return default; }
-	public FQuartzTransportTimeStamp GetCurrentTimestamp(UObject WorldContextObject,FQuartzTransportTimeStamp ReturnValue) { return default; }
-	public float GetEstimatedRunTime(UObject WorldContextObject,float ReturnValue) { return default; }
-	public void StartOtherClock(UObject WorldContextObject,sbyte OtherClockName,FQuartzQuantizationBoundary InQuantizationBoundary,FOnQuartzCommandEventBP InDelegate) {}
+	public bool IsClockRunning(UObject WorldContextObject) { return default; }
+	public float GetDurationOfQuantizationTypeInSeconds(UObject WorldContextObject,EQuartzCommandQuantization QuantizationType,float Multiplier/*=1.0f*/) { return default; }
+	public FQuartzTransportTimeStamp GetCurrentTimestamp(UObject WorldContextObject) { return default; }
+	public float GetEstimatedRunTime(UObject WorldContextObject) { return default; }
+	public void StartOtherClock(UObject WorldContextObject,string OtherClockName,FQuartzQuantizationBoundary InQuantizationBoundary,FOnQuartzCommandEventBP InDelegate) {}
 	public void SubscribeToQuantizationEvent(UObject WorldContextObject,EQuartzCommandQuantization InQuantizationBoundary,FOnQuartzMetronomeEventBP OnQuantizationEvent,UObject ClockHandle) {}
 	public void SubscribeToAllQuantizationEvents(UObject WorldContextObject,FOnQuartzMetronomeEventBP OnQuantizationEvent,UObject ClockHandle) {}
 	public void UnsubscribeFromTimeDivision(UObject WorldContextObject,EQuartzCommandQuantization InQuantizationBoundary,UObject ClockHandle) {}
 	public void UnsubscribeFromAllTimeDivisions(UObject WorldContextObject,UObject ClockHandle) {}
-	public void SetMillisecondsPerTick(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float MillisecondsPerTick=100.f) {}
-	public void SetTicksPerSecond(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float TicksPerSecond=10.f) {}
-	public void SetSecondsPerTick(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float SecondsPerTick=0.25f) {}
-	public void SetThirtySecondNotesPerMinute(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float ThirtySecondsNotesPerMinute=960.f) {}
-	public void SetBeatsPerMinute(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float BeatsPerMinute=60.f) {}
-	public float GetMillisecondsPerTick(UObject WorldContextObject,float ReturnValue) { return default; }
-	public float GetTicksPerSecond(UObject WorldContextObject,float ReturnValue) { return default; }
-	public float GetSecondsPerTick(UObject WorldContextObject,float ReturnValue) { return default; }
-	public float GetThirtySecondNotesPerMinute(UObject WorldContextObject,float ReturnValue) { return default; }
-	public float GetBeatsPerMinute(UObject WorldContextObject,float ReturnValue) { return default; }
+	public void SetMillisecondsPerTick(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float MillisecondsPerTick/*=100.0f*/) {}
+	public void SetTicksPerSecond(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float TicksPerSecond/*=10.0f*/) {}
+	public void SetSecondsPerTick(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float SecondsPerTick/*=0.25f*/) {}
+	public void SetThirtySecondNotesPerMinute(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float ThirtySecondsNotesPerMinute/*=960.0f*/) {}
+	public void SetBeatsPerMinute(UObject WorldContextObject,FQuartzQuantizationBoundary QuantizationBoundary,FOnQuartzCommandEventBP Delegate,UObject ClockHandle,float BeatsPerMinute/*=60.0f*/) {}
+	public float GetMillisecondsPerTick(UObject WorldContextObject) { return default; }
+	public float GetTicksPerSecond(UObject WorldContextObject) { return default; }
+	public float GetSecondsPerTick(UObject WorldContextObject) { return default; }
+	public float GetThirtySecondNotesPerMinute(UObject WorldContextObject) { return default; }
+	public float GetBeatsPerMinute(UObject WorldContextObject) { return default; }
 }

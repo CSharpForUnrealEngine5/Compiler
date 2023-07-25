@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Represents a generic action</summary>
 public partial struct FViewportActionKeyInput {
 // ViewportActionKeyInput
-	public sbyte ActionType;
+	public string ActionType;
 	public byte Event;
 	public bool bIsInputCaptured;
 	public bool bIsAxis;

@@ -9,6 +9,6 @@ public partial struct FHairSimulationSetup {
 	public bool bLocalSimulation;
 	public float LinearVelocityScale;
 	public float AngularVelocityScale;
-	public sbyte LocalBone;
+	public string LocalBone;
 	public float TeleportDistance;
 }

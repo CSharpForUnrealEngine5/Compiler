@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertMessages.h")]
 public partial struct FConcertAdmin_CreateSessionRequest {
 // ConcertAdmin_CreateSessionRequest
-	public sbyte SessionName;
+	public string SessionName;
 	public FConcertClientInfo OwnerClientInfo;
 	public FConcertSessionSettings SessionSettings;
 	public FConcertSessionVersionInfo VersionInfo;

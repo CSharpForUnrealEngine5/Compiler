@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FDataDrivenConsoleVariable {
 // DataDrivenConsoleVariable
 	public FDataDrivenCVarType Type;
-	public sbyte Name;
-	public sbyte ToolTip;
+	public string Name;
+	public string ToolTip;
 	public float DefaultValueFloat;
 	public int DefaultValueInt;
 	public bool DefaultValueBool;

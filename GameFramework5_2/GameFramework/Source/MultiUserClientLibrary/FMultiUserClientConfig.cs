@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MultiUserClientStatics.h")]
 public partial struct FMultiUserClientConfig {
 // MultiUserClientConfig
-	public sbyte DefaultServerURL;
-	public sbyte DefaultSessionName;
-	public sbyte DefaultSessionToRestore;
+	public string DefaultServerURL;
+	public string DefaultSessionName;
+	public string DefaultSessionToRestore;
 	public EMultiUserSourceValidationMode ValidationMode;
 }

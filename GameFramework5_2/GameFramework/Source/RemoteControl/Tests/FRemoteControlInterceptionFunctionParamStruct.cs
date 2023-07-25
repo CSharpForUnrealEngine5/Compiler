@@ -6,5 +6,5 @@ public partial struct FRemoteControlInterceptionFunctionParamStruct {
 // RemoteControlInterceptionFunctionParamStruct
 	public int Int32Value;
 	public TArray<int> IntArray;
-	public sbyte IntString;
+	public string IntString;
 }

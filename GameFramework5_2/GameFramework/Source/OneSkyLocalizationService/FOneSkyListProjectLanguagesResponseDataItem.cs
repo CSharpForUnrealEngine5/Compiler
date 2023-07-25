@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("OneSkyLocalizationServiceResponseTypes.h")]
 public partial struct FOneSkyListProjectLanguagesResponseDataItem {
 // OneSkyListProjectLanguagesResponseDataItem
-	public sbyte code;
-	public sbyte english_name;
-	public sbyte local_name;
-	public sbyte locale;
-	public sbyte region;
+	public string code;
+	public string english_name;
+	public string local_name;
+	public string locale;
+	public string region;
 	public bool is_base_language;
 	public bool is_ready_to_publish;
-	public sbyte translation_progress;
+	public string translation_progress;
 }

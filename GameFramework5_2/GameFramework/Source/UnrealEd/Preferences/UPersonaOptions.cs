@@ -38,8 +38,8 @@ public partial class UPersonaOptions : UObject {
 	public bool bTimelineDisplayPercentage;
 	public bool bTimelineDisplayFormatSecondary;
 	public bool bTimelineDisplayCurveKeys;
-	public TArray<sbyte> TimelineEnabledSnaps;
+	public TArray<string> TimelineEnabledSnaps;
 	public bool bAllowIncompatibleSkeletonSelection;
 	public bool bUseTreeViewForAnimationCurves;
-	public sbyte AnimationCurveGroupingDelimiters;
+	public string AnimationCurveGroupingDelimiters;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FLiveLinkSubjectDataMessage {
 // LiveLinkSubjectDataMessage
 	public FLiveLinkRefSkeleton RefSkeleton;
-	public sbyte SubjectName;
+	public string SubjectName;
 }

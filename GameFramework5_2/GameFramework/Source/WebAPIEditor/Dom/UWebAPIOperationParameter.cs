@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UWebAPIOperationParameter : UWebAPIProperty {
 // WebAPIOperationParameter
 	public EWebAPIParameterStorage Storage;
-	public sbyte MediaType;
+	public string MediaType;
 	public UWebAPIModel Model;
 }

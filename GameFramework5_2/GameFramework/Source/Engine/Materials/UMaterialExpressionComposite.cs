@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Composite (subgraph) expression. Exists purely for organzational purposes.</summary>
 public partial class UMaterialExpressionComposite : UMaterialExpression {
 // MaterialExpressionComposite
-	public sbyte SubgraphName;
+	public string SubgraphName;
 	public UMaterialExpressionPinBase InputExpressions;
 	public UMaterialExpressionPinBase OutputExpressions;
 }

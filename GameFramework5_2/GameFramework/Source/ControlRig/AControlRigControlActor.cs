@@ -9,16 +9,16 @@ public partial class AControlRigControlActor : AActor {
 	public bool bRefreshOnTick;
 	public bool bIsSelectable;
 	public UMaterialInterface MaterialOverride;
-	public sbyte ColorParameter;
+	public string ColorParameter;
 	public bool bCastShadows;
 	public void ResetControlActor() {}
 	public void Clear() {}
 	public void Refresh() {}
 	public USceneComponent ActorRootComponent;
 	public TSoftObjectPtr<UControlRig> ControlRig;
-	public TArray<sbyte> ControlNames;
+	public TArray<string> ControlNames;
 	public TArray<FTransform> ShapeTransforms;
 	public TArray<UStaticMeshComponent> Components;
 	public TArray<UMaterialInstanceDynamic> Materials;
-	public sbyte ColorParameterName;
+	public string ColorParameterName;
 }

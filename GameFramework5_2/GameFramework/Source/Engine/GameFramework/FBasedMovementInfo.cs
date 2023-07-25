@@ -7,7 +7,7 @@ public partial struct FBasedMovementInfo {
 // BasedMovementInfo
 	public ushort BaseID;
 	public UPrimitiveComponent MovementBase;
-	public sbyte BoneName;
+	public string BoneName;
 	public FVector_NetQuantize100 Location;
 	public FRotator Rotation;
 	public bool bServerHasBaseComponent;

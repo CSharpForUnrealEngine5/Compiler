@@ -7,11 +7,11 @@ public partial struct FMovieSceneCaptureSettings {
 // MovieSceneCaptureSettings
 	public FDirectoryPath OutputDirectory;
 	public UClass GameModeOverride;
-	public sbyte OutputFormat;
+	public string OutputFormat;
 	public bool bOverwriteExisting;
 	public bool bUseRelativeFrameNumbers;
 	public int HandleFrames;
-	public sbyte MovieExtension;
+	public string MovieExtension;
 	public byte ZeroPadFrameNumbers;
 	public FFrameRate FrameRate;
 	public bool bUseCustomFrameRate;

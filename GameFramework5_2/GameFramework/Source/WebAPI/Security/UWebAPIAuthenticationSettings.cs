@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Security/WebAPIAuthentication.h")]
 public partial class UWebAPIAuthenticationSettings : UDeveloperSettings {
 // WebAPIAuthenticationSettings
-	public sbyte SchemeName;
+	public string SchemeName;
 }

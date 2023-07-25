@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("PIEPreviewDeviceSpecification.h")]
 public partial struct FPIEIOSDeviceProperties {
 // PIEIOSDeviceProperties
-	public sbyte DeviceModel;
+	public string DeviceModel;
 	public float NativeScaleFactor;
 	public FPIERHIOverrideState MetalRHIState;
 }

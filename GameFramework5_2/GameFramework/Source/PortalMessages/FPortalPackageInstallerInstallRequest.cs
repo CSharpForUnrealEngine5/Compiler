@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Service discovery messages</summary>
 public partial struct FPortalPackageInstallerInstallRequest {
 // PortalPackageInstallerInstallRequest
-	public sbyte AppName;
-	public sbyte BuildLabel;
-	public sbyte DestinationPath;
+	public string AppName;
+	public string BuildLabel;
+	public string DestinationPath;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FMVVMViewModelContext {
 // MVVMViewModelContext
 	public UClass ContextClass;
-	public sbyte ContextName;
+	public string ContextName;
 }

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request to expose a property on a preset</summary>
 public partial struct FRCPresetExposePropertyRequest {
 // RCPresetExposePropertyRequest
-	public sbyte ObjectPath;
-	public sbyte PropertyName;
-	public sbyte Label;
-	public sbyte GroupName;
+	public string ObjectPath;
+	public string PropertyName;
+	public string Label;
+	public string GroupName;
 	public bool EnableEditCondition;
 }

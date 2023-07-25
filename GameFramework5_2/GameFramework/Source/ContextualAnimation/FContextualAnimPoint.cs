@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ContextualAnimSceneAsset.h")]
 public partial struct FContextualAnimPoint {
 // ContextualAnimPoint
-	public sbyte Role;
+	public string Role;
 	public FTransform Transform;
 	public float Speed;
 	public int SectionIdx;

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Stores PIE login credentials</summary>
 public partial struct FPIELoginSettingsInternal {
 // PIELoginSettingsInternal
-	public sbyte Id;
-	public sbyte Token;
-	public sbyte Type;
+	public string Id;
+	public string Token;
+	public string Type;
 	public TArray<byte> TokenBytes;
 }

@@ -7,6 +7,6 @@ public partial struct FTimelineFloatTrack {
 // TimelineFloatTrack
 	public UCurveFloat FloatCurve;
 	public FOnTimelineFloat InterpFunc;
-	public sbyte TrackName;
-	public sbyte FloatPropertyName;
+	public string TrackName;
+	public string FloatPropertyName;
 }

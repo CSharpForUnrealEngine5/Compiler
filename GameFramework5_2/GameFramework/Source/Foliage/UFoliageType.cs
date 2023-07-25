@@ -27,11 +27,11 @@ public partial class UFoliageType : UObject {
 	public float RandomPitchAngle;
 	public FFloatInterval GroundSlopeAngle;
 	public FFloatInterval Height;
-	public TArray<sbyte> LandscapeLayers;
+	public TArray<string> LandscapeLayers;
 	public float MinimumLayerWeight;
-	public TArray<sbyte> ExclusionLandscapeLayers;
+	public TArray<string> ExclusionLandscapeLayers;
 	public float MinimumExclusionLayerWeight;
-	public sbyte LandscapeLayer_DEPRECATED;
+	public string LandscapeLayer_DEPRECATED;
 	public bool CollisionWithWorld;
 	public FVector CollisionScale;
 	public int AverageNormalSampleCount;

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UUIFrameworkButton : UUIFrameworkWidget {
 // UIFrameworkButton
 	public void SetContent(FUIFrameworkSimpleSlot Content) {}
-	public FUIFrameworkSimpleSlot GetContent(FUIFrameworkSimpleSlot ReturnValue) { return default; }
+	public FUIFrameworkSimpleSlot GetContent() { return default; }
 	public void HandleClick() {}
 	public void ServerClick(UObject PlayerController) {}
 	public void OnRep_Slot() {}

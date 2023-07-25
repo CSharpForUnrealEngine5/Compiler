@@ -35,12 +35,12 @@ public partial class UParticleSystemComponent : UFXSystemComponent {
 	public TArray<UParticleSystemReplay> ReplayClips;
 	public float CustomTimeDilation;
 	public TWeakObjectPtr<USceneComponent> AutoAttachParent;
-	public sbyte AutoAttachSocketName;
+	public string AutoAttachSocketName;
 	public byte AutoAttachLocationType_DEPRECATED;
 	public EAttachmentRule AutoAttachLocationRule;
 	public EAttachmentRule AutoAttachRotationRule;
 	public EAttachmentRule AutoAttachScaleRule;
-	public void SetAutoAttachParams(UObject Parent,sbyte SocketName=NAME_None,EAttachLocation LocationType=EAttachLocation) {}
+	public void SetAutoAttachParams(UObject Parent,string SocketName/*=NAME_None*/,EAttachLocation LocationType/*=EAttachLocation.KeepRelativeOffset*/) {}
 	public FOnSystemFinished OnSystemFinished;
 	public void SetBeamEndPoint(int EmitterIndex,FVector NewEndPoint) {}
 	public void SetBeamSourcePoint(int EmitterIndex,FVector NewSourcePoint,int SourceIndex) {}
@@ -49,20 +49,20 @@ public partial class UParticleSystemComponent : UFXSystemComponent {
 	public void SetBeamTargetPoint(int EmitterIndex,FVector NewTargetPoint,int TargetIndex) {}
 	public void SetBeamTargetTangent(int EmitterIndex,FVector NewTangentPoint,int TargetIndex) {}
 	public void SetBeamTargetStrength(int EmitterIndex,float NewTargetStrength,int TargetIndex) {}
-	public bool GetBeamEndPoint(int EmitterIndex,FVector OutEndPoint,bool ReturnValue) { return default; }
-	public bool GetBeamSourcePoint(int EmitterIndex,int SourceIndex,FVector OutSourcePoint,bool ReturnValue) { return default; }
-	public bool GetBeamSourceTangent(int EmitterIndex,int SourceIndex,FVector OutTangentPoint,bool ReturnValue) { return default; }
-	public bool GetBeamSourceStrength(int EmitterIndex,int SourceIndex,float OutSourceStrength,bool ReturnValue) { return default; }
-	public bool GetBeamTargetPoint(int EmitterIndex,int TargetIndex,FVector OutTargetPoint,bool ReturnValue) { return default; }
-	public bool GetBeamTargetTangent(int EmitterIndex,int TargetIndex,FVector OutTangentPoint,bool ReturnValue) { return default; }
-	public bool GetBeamTargetStrength(int EmitterIndex,int TargetIndex,float OutTargetStrength,bool ReturnValue) { return default; }
-	public void SetMaterialParameter(sbyte ParameterName,UObject Param) {}
+	public bool GetBeamEndPoint(int EmitterIndex,FVector OutEndPoint) { return default; }
+	public bool GetBeamSourcePoint(int EmitterIndex,int SourceIndex,FVector OutSourcePoint) { return default; }
+	public bool GetBeamSourceTangent(int EmitterIndex,int SourceIndex,FVector OutTangentPoint) { return default; }
+	public bool GetBeamSourceStrength(int EmitterIndex,int SourceIndex,float OutSourceStrength) { return default; }
+	public bool GetBeamTargetPoint(int EmitterIndex,int TargetIndex,FVector OutTargetPoint) { return default; }
+	public bool GetBeamTargetTangent(int EmitterIndex,int TargetIndex,FVector OutTangentPoint) { return default; }
+	public bool GetBeamTargetStrength(int EmitterIndex,int TargetIndex,float OutTargetStrength) { return default; }
+	public void SetMaterialParameter(string ParameterName,UObject Param) {}
 	public void SetTemplate(UObject NewTemplate) {}
-	public int GetNumActiveParticles(int ReturnValue) { return default; }
-	public void BeginTrails(sbyte InFirstSocketName,sbyte InSecondSocketName,ETrailWidthMode InWidthMode,float InWidth) {}
+	public int GetNumActiveParticles() { return default; }
+	public void BeginTrails(string InFirstSocketName,string InSecondSocketName,ETrailWidthMode InWidthMode,float InWidth) {}
 	public void EndTrails() {}
-	public void SetTrailSourceData(sbyte InFirstSocketName,sbyte InSecondSocketName,ETrailWidthMode InWidthMode,float InWidth) {}
-	public UObject CreateNamedDynamicMaterialInstance(sbyte InName,UObject SourceMaterial=NULL,UObject ReturnValue) { return default; }
-	public UObject GetNamedMaterial(sbyte InName,UObject ReturnValue) { return default; }
-	public void GenerateParticleEvent(sbyte InEventName,float InEmitterTime,FVector InLocation,FVector InDirection,FVector InVelocity) {}
+	public void SetTrailSourceData(string InFirstSocketName,string InSecondSocketName,ETrailWidthMode InWidthMode,float InWidth) {}
+	public UObject CreateNamedDynamicMaterialInstance(string InName,UObject SourceMaterial/*=NULL*/) { return default; }
+	public UObject GetNamedMaterial(string InName) { return default; }
+	public void GenerateParticleEvent(string InEventName,float InEmitterTime,FVector InLocation,FVector InDirection,FVector InVelocity) {}
 }

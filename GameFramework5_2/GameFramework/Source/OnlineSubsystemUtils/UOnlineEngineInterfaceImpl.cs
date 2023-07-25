@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("OnlineEngineInterfaceImpl.h")]
 public partial class UOnlineEngineInterfaceImpl : UOnlineEngineInterface {
 // OnlineEngineInterfaceImpl
-	public TMap<sbyte,sbyte> MappedUniqueNetIdTypes;
-	public TArray<sbyte> CompatibleUniqueNetIdTypes;
-	public sbyte VoiceSubsystemNameOverride;
+	public TMap<string,string> MappedUniqueNetIdTypes;
+	public TArray<string> CompatibleUniqueNetIdTypes;
+	public string VoiceSubsystemNameOverride;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that is published by file servers when they're ready to accept connections.</summary>
 public partial struct FFileServerReady {
 // FileServerReady
-	public TArray<sbyte> AddressList;
+	public TArray<string> AddressList;
 	public FGuid InstanceId;
 }

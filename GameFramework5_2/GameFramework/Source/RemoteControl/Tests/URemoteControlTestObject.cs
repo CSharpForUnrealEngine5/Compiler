@@ -10,5 +10,5 @@ public partial class URemoteControlTestObject : UObject {
 	public TSet<int> IntSet;
 	public TMap<int,int> IntMap;
 	public TMap<int,FRemoteControlTestInnerStruct> IntInnerStructMap;
-	public TMap<sbyte,FColor> StringColorMap;
+	public TMap<string,FColor> StringColorMap;
 }

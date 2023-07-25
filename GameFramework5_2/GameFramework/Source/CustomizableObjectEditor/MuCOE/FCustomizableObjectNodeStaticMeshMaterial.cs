@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeStaticMesh.h")]
 public partial struct FCustomizableObjectNodeStaticMeshMaterial {
 // CustomizableObjectNodeStaticMeshMaterial
-	public sbyte Name;
+	public string Name;
 	public UEdGraphPin_Deprecated MeshPin;
 	public UEdGraphPin_Deprecated LayoutPin;
 	public TArray<UEdGraphPin_Deprecated> ImagePins;

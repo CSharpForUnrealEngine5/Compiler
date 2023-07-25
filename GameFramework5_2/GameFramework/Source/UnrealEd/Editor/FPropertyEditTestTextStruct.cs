@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Editor/PropertyEditorTestObject.h")]
 public partial struct FPropertyEditTestTextStruct {
 // PropertyEditTestTextStruct
-	public sbyte NormalProperty;
+	public string NormalProperty;
 }

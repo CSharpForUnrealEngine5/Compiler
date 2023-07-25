@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class AMrcGarbageMatteActor : AActor {
 // MrcGarbageMatteActor
 	public void ApplyCalibrationData(TArray<FMrcGarbageMatteSaveData> GarbageMatteData) {}
-	public UObject AddNewGabageMatte(FMrcGarbageMatteSaveData GarbageMatteData,UObject ReturnValue) { return default; }
-	public UObject CreateGarbageMatte(FMrcGarbageMatteSaveData GarbageMatteData,UObject ReturnValue) { return default; }
+	public UObject AddNewGabageMatte(FMrcGarbageMatteSaveData GarbageMatteData) { return default; }
+	public UObject CreateGarbageMatte(FMrcGarbageMatteSaveData GarbageMatteData) { return default; }
 	public void GetGarbageMatteData(TArray<FMrcGarbageMatteSaveData> GarbageMatteDataOut) {}
 	public UStaticMesh GarbageMatteMesh;
 	public UMaterial GarbageMatteMaterial;

@@ -24,7 +24,7 @@ public partial class USpringArmComponent : USceneComponent {
 	public float CameraLagMaxTimeStep;
 	public float CameraLagMaxDistance;
 	public bool bClampToMaxPhysicsDeltaTime;
-	public FRotator GetTargetRotation(FRotator ReturnValue) { return default; }
-	public FVector GetUnfixedCameraPosition(FVector ReturnValue) { return default; }
-	public bool IsCollisionFixApplied(bool ReturnValue) { return default; }
+	public FRotator GetTargetRotation() { return default; }
+	public FVector GetUnfixedCameraPosition() { return default; }
+	public bool IsCollisionFixApplied() { return default; }
 }

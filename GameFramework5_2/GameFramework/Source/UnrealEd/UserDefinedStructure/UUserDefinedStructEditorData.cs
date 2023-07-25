@@ -6,5 +6,5 @@ public partial class UUserDefinedStructEditorData : UObject {
 // UserDefinedStructEditorData
 	public uint UniqueNameId;
 	public TArray<FStructVariableDescription> VariablesDescriptions;
-	public sbyte ToolTip;
+	public string ToolTip;
 }

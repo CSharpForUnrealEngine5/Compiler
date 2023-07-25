@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetControlRotator is used to retrieve a single Rotator from a hierarchy.</summary>
 public partial struct FRigUnit_GetControlRotator {
 // RigUnit_GetControlRotator
-	public sbyte Control;
+	public string Control;
 	public ERigVMTransformSpace Space;
 	public FRotator Rotator;
 	public FRotator Minimum;

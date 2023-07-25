@@ -8,6 +8,6 @@ public partial class UPaperExtractSpritesSettings : UObject {
 	public FLinearColor OutlineColor;
 	public FLinearColor ViewportTextureTint;
 	public FLinearColor BackgroundColor;
-	public sbyte NamingTemplate;
+	public string NamingTemplate;
 	public int NamingStartIndex;
 }

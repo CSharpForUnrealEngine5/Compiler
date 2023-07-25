@@ -12,9 +12,9 @@ public partial class AVariantManagerTestActor : AActor {
 	public bool bCapturedBoolProperty;
 	public UObject CapturedObjectProperty;
 	public object /*CapturedInterfaceProperty*/ CapturedInterfaceProperty;
-	public sbyte CapturedNameProperty;
-	public sbyte CapturedStrProperty;
-	public sbyte CapturedTextProperty;
+	public string CapturedNameProperty;
+	public string CapturedStrProperty;
+	public string CapturedTextProperty;
 	public FRotator CapturedRotatorProperty;
 	public FColor CapturedColorProperty;
 	public FLinearColor CapturedLinearColorProperty;

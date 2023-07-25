@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Controls the system used to generate proxy LODs with merged meshes (i.e. the HLOD system).</summary>
 public partial class UProxyLODMeshSimplificationSettings : UDeveloperSettings {
 // ProxyLODMeshSimplificationSettings
-	public sbyte ProxyLODMeshReductionModuleName;
+	public string ProxyLODMeshReductionModuleName;
 }

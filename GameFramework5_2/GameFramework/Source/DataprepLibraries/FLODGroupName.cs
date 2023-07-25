@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>* Simple struct to set up LODGroup name on static meshes</summary>
 public partial struct FLODGroupName {
 // LODGroupName
-	public sbyte Value;
+	public string Value;
 }

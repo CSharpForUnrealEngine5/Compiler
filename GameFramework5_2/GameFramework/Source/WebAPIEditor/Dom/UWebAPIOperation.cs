@@ -7,14 +7,14 @@ public partial class UWebAPIOperation : UObject {
 	public FWebAPITypeNameVariant Name;
 	public bool bGenerate;
 	public UWebAPIService Service;
-	public sbyte Description;
+	public string Description;
 	public bool bIsDeprecated;
-	public sbyte Verb;
-	public sbyte Path;
-	public TArray<sbyte> RequestContentTypes;
-	public TArray<sbyte> ResponseContentTypes;
+	public string Verb;
+	public string Path;
+	public TArray<string> RequestContentTypes;
+	public TArray<string> ResponseContentTypes;
 	public UWebAPIOperationRequest Request;
 	public TArray<UWebAPIOperationResponse> Responses;
 	public TArray<UWebAPIOperationError> Errors;
-	public sbyte GeneratedCodeText;
+	public string GeneratedCodeText;
 }

@@ -13,5 +13,5 @@ public partial class UMIDIDeviceOutputController : UMIDIDeviceControllerBase {
 	public void SendMIDIProgramChange(int Channel,int ProgramNumber) {}
 	public void SendMIDIChannelAftertouch(int Channel,float Amount) {}
 	public int DeviceID;
-	public sbyte DeviceName;
+	public string DeviceName;
 }

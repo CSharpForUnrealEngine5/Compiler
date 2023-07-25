@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FToolMenuStringCommand {
 // ToolMenuStringCommand
 	public EToolMenuStringCommandType Type;
-	public sbyte CustomType;
-	public sbyte String;
+	public string CustomType;
+	public string String;
 }

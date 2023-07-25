@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds the settings for a class that needs a thumbnail renderer. Each entry</summary>
 public partial struct FThumbnailRenderingInfo {
 // ThumbnailRenderingInfo
-	public sbyte ClassNeedingThumbnailName;
+	public string ClassNeedingThumbnailName;
 	public UClass ClassNeedingThumbnail;
-	public sbyte RendererClassName;
+	public string RendererClassName;
 	public UThumbnailRenderer Renderer;
 }

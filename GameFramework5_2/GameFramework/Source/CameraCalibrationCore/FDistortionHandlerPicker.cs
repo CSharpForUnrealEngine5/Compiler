@@ -6,5 +6,5 @@ public partial struct FDistortionHandlerPicker {
 // DistortionHandlerPicker
 	public UCineCameraComponent TargetCameraComponent;
 	public FGuid DistortionProducerID;
-	public sbyte HandlerDisplayName;
+	public string HandlerDisplayName;
 }

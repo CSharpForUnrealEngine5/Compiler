@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a cinematic shot section.</summary>
 public partial class UMovieSceneCinematicShotSection : UMovieSceneSubSection {
 // MovieSceneCinematicShotSection
-	public sbyte GetShotDisplayName(sbyte ReturnValue) { return default; }
-	public void SetShotDisplayName(sbyte InShotDisplayName) {}
-	public sbyte ShotDisplayName;
-	public sbyte DisplayName_DEPRECATED;
+	public string GetShotDisplayName() { return default; }
+	public void SetShotDisplayName(string InShotDisplayName) {}
+	public string ShotDisplayName;
+	public string DisplayName_DEPRECATED;
 	public float ThumbnailReferenceOffset;
 }

@@ -7,12 +7,12 @@ public partial class UPaperGroupedSpriteComponent : UMeshComponent {
 // PaperGroupedSpriteComponent
 	public TArray<UMaterialInterface> InstanceMaterials;
 	public TArray<FSpriteInstanceData> PerInstanceSpriteData;
-	public int AddInstance(FTransform Transform,UObject Sprite,bool bWorldSpace=false,FLinearColor Color=FLinearColor,int ReturnValue) { return default; }
-	public bool GetInstanceTransform(int InstanceIndex,FTransform OutInstanceTransform,bool bWorldSpace=false,bool ReturnValue) { return default; }
-	public bool UpdateInstanceTransform(int InstanceIndex,FTransform NewInstanceTransform,bool bWorldSpace=false,bool bMarkRenderStateDirty=true,bool bTeleport=false,bool ReturnValue) { return default; }
-	public bool UpdateInstanceColor(int InstanceIndex,FLinearColor NewInstanceColor,bool bMarkRenderStateDirty=true,bool ReturnValue) { return default; }
-	public bool RemoveInstance(int InstanceIndex,bool ReturnValue) { return default; }
+	public int AddInstance(FTransform Transform,UObject Sprite,bool bWorldSpace/*=false*/,FLinearColor Color/*=FLinearColor.White*/) { return default; }
+	public bool GetInstanceTransform(int InstanceIndex,FTransform OutInstanceTransform,bool bWorldSpace/*=false*/) { return default; }
+	public bool UpdateInstanceTransform(int InstanceIndex,FTransform NewInstanceTransform,bool bWorldSpace/*=false*/,bool bMarkRenderStateDirty/*=true*/,bool bTeleport/*=false*/) { return default; }
+	public bool UpdateInstanceColor(int InstanceIndex,FLinearColor NewInstanceColor,bool bMarkRenderStateDirty/*=true*/) { return default; }
+	public bool RemoveInstance(int InstanceIndex) { return default; }
 	public void ClearInstances() {}
-	public int GetInstanceCount(int ReturnValue) { return default; }
+	public int GetInstanceCount() { return default; }
 	public void SortInstancesAlongAxis(FVector WorldSpaceSortAxis) {}
 }

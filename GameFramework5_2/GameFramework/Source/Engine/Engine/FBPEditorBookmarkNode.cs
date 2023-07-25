@@ -7,5 +7,5 @@ public partial struct FBPEditorBookmarkNode {
 // BPEditorBookmarkNode
 	public FGuid NodeGuid;
 	public FGuid ParentGuid;
-	public sbyte DisplayName;
+	public string DisplayName;
 }

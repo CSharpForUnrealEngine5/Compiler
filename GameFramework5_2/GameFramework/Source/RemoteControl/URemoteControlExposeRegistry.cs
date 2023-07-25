@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class URemoteControlExposeRegistry : UObject {
 // RemoteControlExposeRegistry
 	public TSet<FRCEntityWrapper> ExposedEntities;
-	public TMap<sbyte,FGuid> LabelToIdCache;
+	public TMap<string,FGuid> LabelToIdCache;
 	public TSet<UScriptStruct> ExposedTypes;
 }

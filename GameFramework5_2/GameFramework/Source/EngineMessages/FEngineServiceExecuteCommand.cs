@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for executing a console command.</summary>
 public partial struct FEngineServiceExecuteCommand {
 // EngineServiceExecuteCommand
-	public sbyte Command;
-	public sbyte UserName;
+	public string Command;
+	public string UserName;
 }

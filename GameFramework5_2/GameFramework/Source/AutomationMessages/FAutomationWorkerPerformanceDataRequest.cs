@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message to request the performance data for this hardware.</summary>
 public partial struct FAutomationWorkerPerformanceDataRequest {
 // AutomationWorkerPerformanceDataRequest
-	public sbyte Platform;
-	public sbyte Hardware;
-	public sbyte TestName;
+	public string Platform;
+	public string Hardware;
+	public string TestName;
 	public TArray<double> DataPoints;
 }

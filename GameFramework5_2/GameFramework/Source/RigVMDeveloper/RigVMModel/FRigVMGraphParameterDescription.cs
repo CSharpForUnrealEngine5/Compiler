@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>The parameter description is used to convey information</summary>
 public partial struct FRigVMGraphParameterDescription {
 // RigVMGraphParameterDescription
-	public sbyte Name;
+	public string Name;
 	public bool bIsInput;
-	public sbyte CPPType;
+	public string CPPType;
 	public UObject CPPTypeObject;
-	public sbyte DefaultValue;
+	public string DefaultValue;
 }

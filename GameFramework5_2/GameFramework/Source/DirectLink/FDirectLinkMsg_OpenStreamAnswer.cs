@@ -6,6 +6,6 @@ public partial struct FDirectLinkMsg_OpenStreamAnswer {
 // DirectLinkMsg_OpenStreamAnswer
 	public int RecipientStreamPort;
 	public bool bAccepted;
-	public sbyte Error;
+	public string Error;
 	public int OpenedStreamPort;
 }

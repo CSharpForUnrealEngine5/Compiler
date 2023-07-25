@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Particles/Location/ParticleModuleLocationEmitter.h")]
 public partial class UParticleModuleLocationEmitter : UParticleModuleLocationBase {
 // ParticleModuleLocationEmitter
-	public sbyte EmitterName;
+	public string EmitterName;
 	public byte SelectionMethod;
 	public bool InheritSourceVelocity;
 	public float InheritSourceVelocityScale;

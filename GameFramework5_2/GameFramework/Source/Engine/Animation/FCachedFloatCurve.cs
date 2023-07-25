@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/AnimCurveTypes.h")]
 public partial struct FCachedFloatCurve {
 // CachedFloatCurve
-	public sbyte CurveName;
+	public string CurveName;
 }

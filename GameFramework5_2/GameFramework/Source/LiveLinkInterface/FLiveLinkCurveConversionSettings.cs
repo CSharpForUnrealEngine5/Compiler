@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkCurveRemapSettings.h")]
 public partial struct FLiveLinkCurveConversionSettings {
 // LiveLinkCurveConversionSettings
-	public TMap<sbyte,FSoftObjectPath> CurveConversionAssetMap;
+	public TMap<string,FSoftObjectPath> CurveConversionAssetMap;
 }

@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("PortalPackageInstallerMessages.h")]
 public partial struct FPortalPackageInstallerUninstallRequest {
 // PortalPackageInstallerUninstallRequest
-	public sbyte AppName;
-	public sbyte BuildLabel;
-	public sbyte InstallationPath;
+	public string AppName;
+	public string BuildLabel;
+	public string InstallationPath;
 	public bool RemoveUserFiles;
 }

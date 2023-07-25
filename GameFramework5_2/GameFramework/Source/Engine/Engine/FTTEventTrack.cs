@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure storing information about one event track</summary>
 public partial struct FTTEventTrack {
 // TTEventTrack
-	public sbyte FunctionName;
+	public string FunctionName;
 	public UCurveFloat CurveKeys;
 }

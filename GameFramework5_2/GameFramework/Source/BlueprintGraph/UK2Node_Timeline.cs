@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_Timeline.h")]
 public partial class UK2Node_Timeline : UK2Node {
 // K2Node_Timeline
-	public sbyte TimelineName;
+	public string TimelineName;
 	public bool bAutoPlay;
 	public FGuid TimelineGuid;
 	public bool bLoop;

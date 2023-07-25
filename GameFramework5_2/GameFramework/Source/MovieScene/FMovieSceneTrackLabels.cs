@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure for labels that can be assigned to movie scene tracks.</summary>
 public partial struct FMovieSceneTrackLabels {
 // MovieSceneTrackLabels
-	public TArray<sbyte> Strings;
+	public TArray<string> Strings;
 }

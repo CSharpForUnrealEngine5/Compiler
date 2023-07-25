@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UNodalOffsetTool : UCameraCalibrationStep {
 // NodalOffsetTool
 	public UCameraNodalOffsetAlgo NodalOffsetAlgo;
-	public TMap<sbyte,UMaterialInstanceDynamic> AlgoOverlayMIDs;
+	public TMap<string,UMaterialInstanceDynamic> AlgoOverlayMIDs;
 }

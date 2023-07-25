@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A single changed Blueprint component property.</summary>
 public partial struct FBlueprintComponentChangedPropertyInfo {
 // BlueprintComponentChangedPropertyInfo
-	public sbyte PropertyName;
+	public string PropertyName;
 	public int ArrayIndex;
 	public UStruct PropertyScope;
 }

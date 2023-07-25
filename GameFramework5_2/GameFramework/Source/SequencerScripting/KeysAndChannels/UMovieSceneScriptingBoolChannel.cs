@@ -4,14 +4,14 @@ using CSharpToCpp.Utilities;
 [CppInclude("KeysAndChannels/MovieSceneScriptingBool.h")]
 public partial class UMovieSceneScriptingBoolChannel : UMovieSceneScriptingChannel {
 // MovieSceneScriptingBoolChannel
-	public UObject AddKey(FFrameNumber InTime,bool NewValue,float SubFrame=0.f,ESequenceTimeUnit TimeUnit=ESequenceTimeUnit,UObject ReturnValue) { return default; }
+	public UObject AddKey(FFrameNumber InTime,bool NewValue,float SubFrame/*=0.0f*/,ESequenceTimeUnit TimeUnit/*=ESequenceTimeUnit.DisplayRate*/) { return default; }
 	public void RemoveKey(UObject Key) {}
-	public TArray<UObject> GetKeys(TArray<UObject> ReturnValue) { return default; }
-	public int GetNumKeys(int ReturnValue) { return default; }
-	public TArray<bool> EvaluateKeys(FSequencerScriptingRange Range,FFrameRate FrameRate,TArray<bool> ReturnValue) { return default; }
-	public FSequencerScriptingRange ComputeEffectiveRange(FSequencerScriptingRange ReturnValue) { return default; }
+	public TArray<UObject> GetKeys() { return default; }
+	public int GetNumKeys() { return default; }
+	public TArray<bool> EvaluateKeys(FSequencerScriptingRange Range,FFrameRate FrameRate) { return default; }
+	public FSequencerScriptingRange ComputeEffectiveRange() { return default; }
 	public void SetDefault(bool InDefaultValue) {}
-	public bool GetDefault(bool ReturnValue) { return default; }
+	public bool GetDefault() { return default; }
 	public void RemoveDefault() {}
-	public bool HasDefault(bool ReturnValue) { return default; }
+	public bool HasDefault() { return default; }
 }

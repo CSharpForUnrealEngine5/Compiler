@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Sections/MovieSceneReplaySection.h")]
 public partial class UMovieSceneReplaySection : UMovieSceneSection {
 // MovieSceneReplaySection
-	public sbyte ReplayName;
+	public string ReplayName;
 }

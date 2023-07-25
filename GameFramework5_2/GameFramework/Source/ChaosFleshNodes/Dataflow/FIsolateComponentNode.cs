@@ -6,5 +6,5 @@ public partial struct FIsolateComponentNode {
 // IsolateComponentNode
 	public FManagedArrayCollection Collection;
 	public bool bDeleteHiddenFaces;
-	public sbyte TargetComponentIndex;
+	public string TargetComponentIndex;
 }

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimSequenceTrackContainer {
 // AnimSequenceTrackContainer
 	public TArray<FRawAnimSequenceTrack> AnimationTracks;
-	public TArray<sbyte> TrackNames;
+	public TArray<string> TrackNames;
 }

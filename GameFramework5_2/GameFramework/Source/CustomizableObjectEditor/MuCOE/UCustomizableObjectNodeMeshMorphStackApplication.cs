@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeMeshMorphStackApplication.h")]
 public partial class UCustomizableObjectNodeMeshMorphStackApplication : UCustomizableObjectNode {
 // CustomizableObjectNodeMeshMorphStackApplication
-	public TArray<sbyte> MorphNames;
+	public TArray<string> MorphNames;
 }

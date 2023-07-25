@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UInteractiveGizmoManager : UObject {
 // InteractiveGizmoManager
 	public TArray<FActiveGizmo> ActiveGizmos;
-	public TMap<sbyte,UInteractiveGizmoBuilder> GizmoBuilders;
+	public TMap<string,UInteractiveGizmoBuilder> GizmoBuilders;
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraNodeAssignment : UNiagaraNodeFunctionCall {
 // NiagaraNodeAssignment
 	public FNiagaraVariable AssignmentTarget_DEPRECATED;
-	public sbyte AssignmentDefaultValue_DEPRECATED;
+	public string AssignmentDefaultValue_DEPRECATED;
 	public TArray<FNiagaraVariable> AssignmentTargets;
-	public TArray<sbyte> AssignmentDefaultValues;
-	public sbyte OldFunctionCallName;
+	public TArray<string> AssignmentDefaultValues;
+	public string OldFunctionCallName;
 }

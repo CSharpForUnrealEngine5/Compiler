@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithAssetImportData.h")]
 public partial class UDatasmithGLTFSceneImportData : UDatasmithSceneImportData {
 // DatasmithGLTFSceneImportData
-	public sbyte Generator;
+	public string Generator;
 	public float Version;
-	public sbyte Author;
-	public sbyte License;
-	public sbyte Source;
+	public string Author;
+	public string License;
+	public string Source;
 }

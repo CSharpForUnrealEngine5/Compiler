@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Helper class to allow the BP to call the custom setters and getters on FPCGAttributePropertySelector.</summary>
 public partial class UPCGAttributePropertySelectorBlueprintHelpers : UBlueprintFunctionLibrary {
 // PCGAttributePropertySelectorBlueprintHelpers
-	public bool SetPointProperty(FPCGAttributePropertySelector Selector,EPCGPointProperties InPointProperty,bool ReturnValue) { return default; }
-	public bool SetAttributeName(FPCGAttributePropertySelector Selector,sbyte InAttributeName,bool ReturnValue) { return default; }
-	public sbyte GetName(FPCGAttributePropertySelector Selector,sbyte ReturnValue) { return default; }
+	public bool SetPointProperty(FPCGAttributePropertySelector Selector,EPCGPointProperties InPointProperty) { return default; }
+	public bool SetAttributeName(FPCGAttributePropertySelector Selector,string InAttributeName) { return default; }
+	public string GetName(FPCGAttributePropertySelector Selector) { return default; }
 }

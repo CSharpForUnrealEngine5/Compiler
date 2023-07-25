@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UClassCookedMetaData : UObject {
 // ClassCookedMetaData
 	public FStructCookedMetaDataStore ClassMetaData;
-	public TMap<sbyte,FStructCookedMetaDataStore> FunctionsMetaData;
+	public TMap<string,FStructCookedMetaDataStore> FunctionsMetaData;
 }

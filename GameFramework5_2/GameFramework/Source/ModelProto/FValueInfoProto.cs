@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Level 3 - FValueInfoProto</summary>
 public partial struct FValueInfoProto {
 // ValueInfoProto
-	public sbyte Name;
+	public string Name;
 	public FTypeProto Type;
-	public sbyte DocString;
+	public string DocString;
 }

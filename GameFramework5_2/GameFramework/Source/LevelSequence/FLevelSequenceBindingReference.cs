@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An external reference to an level sequence object, resolvable through an arbitrary context.</summary>
 public partial struct FLevelSequenceBindingReference {
 // LevelSequenceBindingReference
-	public sbyte PackageName_DEPRECATED;
+	public string PackageName_DEPRECATED;
 	public FSoftObjectPath ExternalObjectPath;
-	public sbyte ObjectPath;
+	public string ObjectPath;
 }

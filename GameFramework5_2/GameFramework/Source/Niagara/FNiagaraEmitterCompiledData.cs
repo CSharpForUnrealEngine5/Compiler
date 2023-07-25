@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraSystem.h")]
 public partial struct FNiagaraEmitterCompiledData {
 // NiagaraEmitterCompiledData
-	public TArray<sbyte> SpawnAttributes;
+	public TArray<string> SpawnAttributes;
 	public FNiagaraVariable EmitterSpawnIntervalVar;
 	public FNiagaraVariable EmitterInterpSpawnStartDTVar;
 	public FNiagaraVariable EmitterSpawnGroupVar;

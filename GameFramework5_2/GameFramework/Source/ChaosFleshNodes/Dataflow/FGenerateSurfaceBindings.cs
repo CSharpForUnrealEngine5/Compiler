@@ -8,7 +8,7 @@ public partial struct FGenerateSurfaceBindings {
 	public FManagedArrayCollection Collection;
 	public UStaticMesh StaticMeshIn;
 	public USkeletalMesh SkeletalMeshIn;
-	public TArray<sbyte> GeometryGroupGuidsIn;
+	public TArray<string> GeometryGroupGuidsIn;
 	public bool bDoSurfaceProjection;
 	public uint SurfaceProjectionIterations;
 	public bool bDoOrphanReparenting;

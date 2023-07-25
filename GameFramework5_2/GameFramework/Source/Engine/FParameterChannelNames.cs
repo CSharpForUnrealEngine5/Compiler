@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MaterialTypes.h")]
 public partial struct FParameterChannelNames {
 // ParameterChannelNames
-	public sbyte R;
-	public sbyte G;
-	public sbyte B;
-	public sbyte A;
+	public string R;
+	public string G;
+	public string B;
+	public string A;
 }

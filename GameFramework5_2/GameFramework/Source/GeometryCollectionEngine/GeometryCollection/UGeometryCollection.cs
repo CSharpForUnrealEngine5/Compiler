@@ -46,7 +46,7 @@ public partial class UGeometryCollection : UObject {
 	public UAssetImportData AssetImportData;
 	public UThumbnailInfo ThumbnailInfo;
 	public UDataflow DataflowAsset;
-	public sbyte DataflowTerminal;
+	public string DataflowTerminal;
 	public FGuid PersistentGuid;
 	public FGuid StateGuid;
 	public int BoneSelectedMaterialIndex;

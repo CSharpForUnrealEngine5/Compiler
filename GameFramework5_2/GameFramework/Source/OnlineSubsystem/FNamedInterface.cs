@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a named object interface for dynamically bound interfaces</summary>
 public partial struct FNamedInterface {
 // NamedInterface
-	public sbyte InterfaceName;
+	public string InterfaceName;
 	public UObject InterfaceObject;
 }

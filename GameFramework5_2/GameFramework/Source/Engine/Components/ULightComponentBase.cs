@@ -29,7 +29,7 @@ public partial class ULightComponentBase : USceneComponent {
 	public UTexture2D DynamicEditorTexture;
 	public float DynamicEditorTextureScale;
 	public void SetCastShadows(bool bNewValue) {}
-	public FLinearColor GetLightColor(FLinearColor ReturnValue) { return default; }
+	public FLinearColor GetLightColor() { return default; }
 	public void SetCastVolumetricShadow(bool bNewValue) {}
 	public void SetCastDeepShadow(bool bNewValue) {}
 	public void SetAffectReflection(bool bNewValue) {}

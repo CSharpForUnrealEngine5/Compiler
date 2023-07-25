@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UParticleModuleEventReceiverBase : UParticleModuleEventBase {
 // ParticleModuleEventReceiverBase
 	public byte EventGeneratorType;
-	public sbyte EventName;
+	public string EventName;
 }

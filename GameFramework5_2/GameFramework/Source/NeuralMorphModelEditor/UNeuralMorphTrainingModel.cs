@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>The training model for the neural morph model.</summary>
 public partial class UNeuralMorphTrainingModel : UMLDeformerTrainingModel {
 // NeuralMorphTrainingModel
-	public int Train(int ReturnValue) { return default; }
-	public int GetNumBoneGroups(int ReturnValue) { return default; }
-	public int GetNumCurveGroups(int ReturnValue) { return default; }
-	public TArray<int> GenerateBoneGroupIndices(TArray<int> ReturnValue) { return default; }
-	public TArray<int> GenerateCurveGroupIndices(TArray<int> ReturnValue) { return default; }
+	public int Train() { return default; }
+	public int GetNumBoneGroups() { return default; }
+	public int GetNumCurveGroups() { return default; }
+	public TArray<int> GenerateBoneGroupIndices() { return default; }
+	public TArray<int> GenerateCurveGroupIndices() { return default; }
 }

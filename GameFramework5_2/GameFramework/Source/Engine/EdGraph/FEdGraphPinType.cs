@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct used to define the type of information carried on this pin</summary>
 public partial struct FEdGraphPinType {
 // EdGraphPinType
-	public sbyte PinCategory;
-	public sbyte PinSubCategory;
+	public string PinCategory;
+	public string PinSubCategory;
 	public TWeakObjectPtr<UObject> PinSubCategoryObject;
 	public FSimpleMemberReference PinSubCategoryMemberReference;
 	public FEdGraphTerminalType PinValueType;

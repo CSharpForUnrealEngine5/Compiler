@@ -6,9 +6,9 @@ public partial class UTestBTService_Log : UBTService {
 // TestBTService_Log
 	public int LogActivation;
 	public int LogDeactivation;
-	public sbyte KeyNameTick;
-	public sbyte KeyNameBecomeRelevant;
-	public sbyte KeyNameCeaseRelevant;
+	public string KeyNameTick;
+	public string KeyNameBecomeRelevant;
+	public string KeyNameCeaseRelevant;
 	public int LogTick;
 	public bool bToggleValue;
 }

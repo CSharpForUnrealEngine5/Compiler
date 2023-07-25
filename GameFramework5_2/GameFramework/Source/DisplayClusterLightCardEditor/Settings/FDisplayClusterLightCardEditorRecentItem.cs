@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FDisplayClusterLightCardEditorRecentItem {
 // DisplayClusterLightCardEditorRecentItem
 	public TSoftObjectPtr<UObject> ObjectPath;
-	public sbyte ItemType;
+	public string ItemType;
 }

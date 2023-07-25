@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("AppleImageUtilsBlueprintProxy.h")]
 public partial struct FAppleImageUtilsImageConversionResult {
 // AppleImageUtilsImageConversionResult
-	public sbyte Error;
+	public string Error;
 	public TArray<byte> ImageData;
 }

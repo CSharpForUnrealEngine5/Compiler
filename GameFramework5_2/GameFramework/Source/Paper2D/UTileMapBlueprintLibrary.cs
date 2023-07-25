@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>A collection of utility methods for working with tile map components</summary>
 public partial class UTileMapBlueprintLibrary : UBlueprintFunctionLibrary {
 // TileMapBlueprintLibrary
-	public sbyte GetTileUserData(FPaperTileInfo Tile,sbyte ReturnValue) { return default; }
-	public FTransform GetTileTransform(FPaperTileInfo Tile,FTransform ReturnValue) { return default; }
+	public string GetTileUserData(FPaperTileInfo Tile) { return default; }
+	public FTransform GetTileTransform(FPaperTileInfo Tile) { return default; }
 	public void BreakTile(FPaperTileInfo Tile,int TileIndex,UObject TileSet,bool bFlipH,bool bFlipV,bool bFlipD) {}
-	public FPaperTileInfo MakeTile(int TileIndex,UObject TileSet,bool bFlipH,bool bFlipV,bool bFlipD,FPaperTileInfo ReturnValue) { return default; }
+	public FPaperTileInfo MakeTile(int TileIndex,UObject TileSet,bool bFlipH,bool bFlipV,bool bFlipD) { return default; }
 }

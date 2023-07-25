@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("EdGraphSchema_BehaviorTreeDecorator.h")]
 public partial class UEdGraphSchema_BehaviorTreeDecorator : UEdGraphSchema {
 // EdGraphSchema_BehaviorTreeDecorator
-	public sbyte PC_Boolean;
+	public string PC_Boolean;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Unit for reading parameters from context</summary>
 public partial struct FRigUnit_AnimNextInterfaceParameter {
 // RigUnit_AnimNextInterfaceParameter
-	public sbyte Parameter;
+	public string Parameter;
 }

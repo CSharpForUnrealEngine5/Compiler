@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial struct FSkeletalMaterial {
 // SkeletalMaterial
 	public UMaterialInterface MaterialInterface;
-	public sbyte MaterialSlotName;
+	public string MaterialSlotName;
 	public bool bEnableShadowCasting_DEPRECATED;
 	public bool bRecomputeTangent_DEPRECATED;
-	public sbyte ImportedMaterialSlotName;
+	public string ImportedMaterialSlotName;
 	public FMeshUVChannelInfo UVChannelData;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Data used to filter object instances by their name and tags.</summary>
 public partial struct FContentBrowserDataObjectFilter {
 // ContentBrowserDataObjectFilter
-	public TArray<sbyte> ObjectNamesToInclude;
-	public TArray<sbyte> ObjectNamesToExclude;
+	public TArray<string> ObjectNamesToInclude;
+	public TArray<string> ObjectNamesToExclude;
 	public bool bOnDiskObjectsOnly;
 }

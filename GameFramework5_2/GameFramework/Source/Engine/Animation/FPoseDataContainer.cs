@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FPoseDataContainer {
 // PoseDataContainer
 	public TArray<FSmartName> PoseNames;
-	public TArray<sbyte> Tracks;
+	public TArray<string> Tracks;
 	public TArray<int> TrackBoneIndices;
 	public TArray<FPoseAssetInfluences> TrackPoseInfluenceIndices;
 	public TArray<FPoseData> Poses;

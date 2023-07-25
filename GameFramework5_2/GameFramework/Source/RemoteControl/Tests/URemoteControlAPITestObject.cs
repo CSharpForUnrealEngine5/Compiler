@@ -10,7 +10,7 @@ public partial class URemoteControlAPITestObject : UObject {
 	public TSet<int> IntSet;
 	public TMap<int,int> IntMap;
 	public TMap<int,FRemoteControlTestStructOuter> StructOuterMap;
-	public TMap<sbyte,FColor> StringColorMap;
+	public TMap<string,FColor> StringColorMap;
 	public TArray<FVector> ArrayOfVectors;
 	public UStaticMeshComponent StaticMeshComponent;
 	public short Int8Value;
@@ -19,9 +19,9 @@ public partial class URemoteControlAPITestObject : UObject {
 	public float FloatValue;
 	public double DoubleValue;
 	public FRemoteControlTestStructOuter RemoteControlTestStructOuter;
-	public sbyte StringValue;
-	public sbyte NameValue;
-	public sbyte TextValue;
+	public string StringValue;
+	public string NameValue;
+	public string TextValue;
 	public bool bValue;
 	public byte ByteValue;
 	public byte RemoteControlEnumByteValue;

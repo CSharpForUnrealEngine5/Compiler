@@ -6,5 +6,5 @@ public partial struct FFunctionInputSummaryViewKey {
 // FunctionInputSummaryViewKey
 	public FGuid FunctionGuid;
 	public FGuid InputGuid;
-	public sbyte InputName;
+	public string InputName;
 }

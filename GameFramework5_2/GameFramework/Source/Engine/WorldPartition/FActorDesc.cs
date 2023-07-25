@@ -7,12 +7,12 @@ public partial struct FActorDesc {
 // ActorDesc
 	public FGuid Guid;
 	public FSoftObjectPath Class;
-	public sbyte Name;
-	public sbyte Label;
+	public string Name;
+	public string Label;
 	public FBox Bounds;
-	public sbyte RuntimeGrid;
+	public string RuntimeGrid;
 	public bool bIsSpatiallyLoaded;
 	public bool bActorIsEditorOnly;
-	public sbyte ActorPackage;
-	public sbyte ActorPath;
+	public string ActorPackage;
+	public string ActorPath;
 }

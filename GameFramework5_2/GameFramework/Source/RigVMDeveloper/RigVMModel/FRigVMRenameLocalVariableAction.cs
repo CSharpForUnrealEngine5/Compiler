@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An action to rename a local variable.</summary>
 public partial struct FRigVMRenameLocalVariableAction {
 // RigVMRenameLocalVariableAction
-	public sbyte OldVariableName;
-	public sbyte NewVariableName;
+	public string OldVariableName;
+	public string NewVariableName;
 }

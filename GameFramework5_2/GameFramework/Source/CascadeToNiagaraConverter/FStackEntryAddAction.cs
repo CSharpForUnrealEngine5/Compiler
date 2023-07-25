@@ -8,5 +8,5 @@ public partial struct FStackEntryAddAction {
 	public UNiagaraScriptConversionContext ScriptConversionContext;
 	public UNiagaraClipboardFunction ClipboardFunction;
 	public FStackEntryID StackEntryID;
-	public sbyte ModuleName;
+	public string ModuleName;
 }

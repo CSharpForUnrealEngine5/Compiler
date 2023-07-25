@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusComponentSource.h")]
 public partial class UOptimusComponentSourceBinding : UObject {
 // OptimusComponentSourceBinding
-	public sbyte BindingName;
+	public string BindingName;
 	public UClass ComponentType;
-	public TArray<sbyte> ComponentTags;
+	public TArray<string> ComponentTags;
 	public bool bIsPrimaryBinding;
 }

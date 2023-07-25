@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class USelectiveTessellationProperties : UInteractiveToolPropertySet {
 // SelectiveTessellationProperties
 	public EDisplaceMeshToolTriangleSelectionType SelectionType;
-	public sbyte ActiveMaterial;
-	public TArray<sbyte> GetMaterialIDsFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> MaterialIDList;
+	public string ActiveMaterial;
+	public TArray<string> GetMaterialIDsFunc() { return default; }
+	public TArray<string> MaterialIDList;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made via websocket to start a transaction.</summary>
 public partial struct FRCWebSocketTransactionStartBody {
 // RCWebSocketTransactionStartBody
-	public sbyte Description;
+	public string Description;
 	public int TransactionId;
 }

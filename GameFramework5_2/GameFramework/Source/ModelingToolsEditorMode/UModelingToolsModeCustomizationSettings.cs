@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("ModelingToolsEditorModeSettings.h")]
 public partial class UModelingToolsModeCustomizationSettings : UDeveloperSettings {
 // ModelingToolsModeCustomizationSettings
-	public TArray<sbyte> ToolSectionOrder;
-	public TArray<sbyte> ToolFavorites;
+	public TArray<string> ToolSectionOrder;
+	public TArray<string> ToolFavorites;
 	public TArray<FModelingModeCustomSectionColor> SectionColors;
 	public TArray<FModelingModeCustomToolColor> ToolColors;
 	public TArray<FModelingModeAssetCollectionSet> BrushAlphaSets;

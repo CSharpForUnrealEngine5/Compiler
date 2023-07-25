@@ -7,12 +7,12 @@ public partial struct FDirectLinkMsg_EndpointState {
 	public uint StateRevision;
 	public uint MinProtocolVersion;
 	public uint ProtocolVersion;
-	public sbyte UEVersion;
-	public sbyte ComputerName;
-	public sbyte UserName;
+	public string UEVersion;
+	public string ComputerName;
+	public string UserName;
 	public uint ProcessId;
-	public sbyte ExecutableName;
-	public sbyte NiceName;
+	public string ExecutableName;
+	public string NiceName;
 	public TArray<FNamedId> Destinations;
 	public TArray<FNamedId> Sources;
 }

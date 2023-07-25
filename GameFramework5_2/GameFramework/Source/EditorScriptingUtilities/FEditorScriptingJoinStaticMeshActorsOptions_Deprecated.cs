@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FEditorScriptingJoinStaticMeshActorsOptions_Deprecated {
 // EditorScriptingJoinStaticMeshActorsOptions_Deprecated
 	public bool bDestroySourceActors;
-	public sbyte NewActorLabel;
+	public string NewActorLabel;
 	public bool bRenameComponentsFromSource;
 }

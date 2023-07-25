@@ -7,7 +7,7 @@ public partial class ALocationVolume : AVolume {
 // LocationVolume
 	public void Load() {}
 	public void Unload() {}
-	public bool IsLoaded(bool ReturnValue) { return default; }
+	public bool IsLoaded() { return default; }
 	public FColor DebugColor;
 	public bool bIsRuntime;
 }

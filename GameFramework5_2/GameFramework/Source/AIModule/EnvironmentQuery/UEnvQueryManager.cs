@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("EnvironmentQuery/EnvQueryManager.h")]
 public partial class UEnvQueryManager : UAISubsystem {
 // EnvQueryManager
-	public UObject RunEQSQuery(UObject WorldContextObject,UObject QueryTemplate,UObject Querier,byte RunMode,UClass WrapperClass,UObject ReturnValue) { return default; }
+	public UObject RunEQSQuery(UObject WorldContextObject,UObject QueryTemplate,UObject Querier,byte RunMode,UClass WrapperClass) { return default; }
 	public TArray<FEnvQueryInstanceCache> InstanceCache;
 	public TArray<UEnvQueryContext> LocalContexts;
 	public TArray<UEnvQueryInstanceBlueprintWrapper> GCShieldedWrappers;

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("LandscapeLayerInfoObject.h")]
 public partial class ULandscapeLayerInfoObject : UObject {
 // LandscapeLayerInfoObject
-	public sbyte LayerName;
+	public string LayerName;
 	public UPhysicalMaterial PhysMaterial;
 	public float Hardness;
 	public float MinimumCollisionRelevanceWeight;

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UDMXPixelMappingRendererComponent : UDMXPixelMappingOutputComponent {
 // DMXPixelMappingRendererComponent
 	public void RendererInputTexture() {}
-	public bool GetPixelMappingComponentModulators(FDMXEntityFixturePatchRef FixturePatchRef,TArray<UObject> DMXModulators,bool ReturnValue) { return default; }
+	public bool GetPixelMappingComponentModulators(FDMXEntityFixturePatchRef FixturePatchRef,TArray<UObject> DMXModulators) { return default; }
 	public EDMXPixelMappingRendererType RendererType;
 	public UTexture InputTexture;
 	public UMaterialInterface InputMaterial;

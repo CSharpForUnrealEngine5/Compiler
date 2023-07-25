@@ -9,12 +9,12 @@ public partial class AGameStateBase : AInfo {
 	public AGameModeBase AuthorityGameMode;
 	public UClass SpectatorClass;
 	public TArray<APlayerState> PlayerArray;
-	public double GetServerWorldTimeSeconds(double ReturnValue) { return default; }
-	public bool HasBegunPlay(bool ReturnValue) { return default; }
-	public bool HasMatchStarted(bool ReturnValue) { return default; }
-	public bool HasMatchEnded(bool ReturnValue) { return default; }
-	public float GetPlayerStartTime(UObject Controller,float ReturnValue) { return default; }
-	public float GetPlayerRespawnDelay(UObject Controller,float ReturnValue) { return default; }
+	public double GetServerWorldTimeSeconds() { return default; }
+	public bool HasBegunPlay() { return default; }
+	public bool HasMatchStarted() { return default; }
+	public bool HasMatchEnded() { return default; }
+	public float GetPlayerStartTime(UObject Controller) { return default; }
+	public float GetPlayerRespawnDelay(UObject Controller) { return default; }
 	public void OnRep_GameModeClass() {}
 	public void OnRep_SpectatorClass() {}
 	public void OnRep_ReplicatedHasBegunPlay() {}

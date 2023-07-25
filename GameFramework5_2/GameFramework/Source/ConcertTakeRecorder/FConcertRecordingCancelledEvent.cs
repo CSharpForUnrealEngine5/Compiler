@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertTakeRecorderMessages.h")]
 public partial struct FConcertRecordingCancelledEvent {
 // ConcertRecordingCancelledEvent
-	public sbyte TakeName;
+	public string TakeName;
 }

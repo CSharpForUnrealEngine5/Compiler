@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UContextualAnimMovieSceneTrack : UMovieSceneNameableTrack {
 // ContextualAnimMovieSceneTrack
 	public TArray<UMovieSceneSection> Sections;
-	public sbyte Role;
+	public string Role;
 }

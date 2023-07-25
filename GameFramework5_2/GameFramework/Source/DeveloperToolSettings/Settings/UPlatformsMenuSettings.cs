@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UPlatformsMenuSettings : UObject {
 // PlatformsMenuSettings
 	public FDirectoryPath StagingDirectory;
-	public sbyte LaunchOnTarget;
-	public TMap<sbyte,EProjectPackagingBuildConfigurations> PerPlatformBuildConfig;
-	public TMap<sbyte,sbyte> PerPlatformTargetFlavorName;
-	public TMap<sbyte,sbyte> PerPlatformBuildTarget;
+	public string LaunchOnTarget;
+	public TMap<string,EProjectPackagingBuildConfigurations> PerPlatformBuildConfig;
+	public TMap<string,string> PerPlatformTargetFlavorName;
+	public TMap<string,string> PerPlatformBuildTarget;
 }

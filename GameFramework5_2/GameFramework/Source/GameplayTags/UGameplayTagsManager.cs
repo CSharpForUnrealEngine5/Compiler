@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds data about the tag dictionary, is in a singleton UObject</summary>
 public partial class UGameplayTagsManager : UObject {
 // GameplayTagsManager
-	public TMap<sbyte,FGameplayTagSource> TagSources;
+	public TMap<string,FGameplayTagSource> TagSources;
 	public TArray<UDataTable> GameplayTagTables;
 }

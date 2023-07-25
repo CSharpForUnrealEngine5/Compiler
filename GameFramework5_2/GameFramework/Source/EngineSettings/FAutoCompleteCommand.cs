@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure for auto-complete commands and their descriptions.</summary>
 public partial struct FAutoCompleteCommand {
 // AutoCompleteCommand
-	public sbyte Command;
-	public sbyte Desc;
+	public string Command;
+	public string Desc;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Chaos/CacheEvents.h")]
 public partial struct FCacheEventTrack {
 // CacheEventTrack
-	public sbyte Name;
+	public string Name;
 	public UScriptStruct Struct;
 	public TArray<float> TimeStamps;
 }

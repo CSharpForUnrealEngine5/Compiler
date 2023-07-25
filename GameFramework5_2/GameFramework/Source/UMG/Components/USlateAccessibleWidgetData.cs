@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>A container for all accessible properties for a UWidget that will be passed to the underlying SWidget.</summary>
 public partial class USlateAccessibleWidgetData : UObject {
 // SlateAccessibleWidgetData
-	public sbyte FGetText(sbyte ReturnValue) { return default; }
+	public string FGetText() { return default; }
 	public bool bCanChildrenBeAccessible;
 	public ESlateAccessibleBehavior AccessibleBehavior;
 	public ESlateAccessibleBehavior AccessibleSummaryBehavior;
-	public sbyte AccessibleText;
+	public string AccessibleText;
 	public FGetText AccessibleTextDelegate;
-	public sbyte AccessibleSummaryText;
+	public string AccessibleSummaryText;
 	public FGetText AccessibleSummaryTextDelegate;
 }

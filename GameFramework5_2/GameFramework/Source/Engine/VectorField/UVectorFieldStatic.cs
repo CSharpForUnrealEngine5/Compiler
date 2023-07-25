@@ -8,6 +8,6 @@ public partial class UVectorFieldStatic : UVectorField {
 	public int SizeY;
 	public int SizeZ;
 	public bool bAllowCPUAccess;
-	public sbyte SourceFilePath_DEPRECATED;
+	public string SourceFilePath_DEPRECATED;
 	public UAssetImportData AssetImportData;
 }

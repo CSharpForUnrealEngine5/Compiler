@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraDataChannel.h")]
 public partial class UNiagaraDataChannel : UObject {
 // NiagaraDataChannel
-	public sbyte ChannelName;
+	public string ChannelName;
 	public TArray<FNiagaraVariable> Variables;
 	public bool bKeepPreviousFrameData;
 	public FNiagaraDataSetCompiledData CompiledData;

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Remote Control Protocol Widget Settings</summary>
 public partial class URemoteControlProtocolWidgetsSettings : UObject {
 // RemoteControlProtocolWidgetsSettings
-	public TSet<sbyte> HiddenProtocolTypeNames;
-	public sbyte PreferredProtocol;
+	public TSet<string> HiddenProtocolTypeNames;
+	public string PreferredProtocol;
 }

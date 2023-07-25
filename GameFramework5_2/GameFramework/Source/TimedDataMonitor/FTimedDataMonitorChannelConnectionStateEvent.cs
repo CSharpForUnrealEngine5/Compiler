@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FTimedDataMonitorChannelConnectionStateEvent {
 // TimedDataMonitorChannelConnectionStateEvent
 	public ETimedDataInputState NewState;
-	public sbyte InputName;
-	public sbyte ChannelName;
+	public string InputName;
+	public string ChannelName;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UUserDefinedEnum : UEnum {
 // UserDefinedEnum
 	public uint UniqueNameIndex;
-	public sbyte EnumDescription;
-	public TMap<sbyte,sbyte> DisplayNameMap;
+	public string EnumDescription;
+	public TMap<string,string> DisplayNameMap;
 	public UEnumCookedMetaData CachedCookedMetaDataPtr;
 }

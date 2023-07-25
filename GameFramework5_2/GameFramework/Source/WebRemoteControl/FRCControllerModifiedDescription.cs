@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FRCControllerModifiedDescription {
 // RCControllerModifiedDescription
 	public TArray<FRCControllerDescription> Controllers;
-	public TArray<sbyte> ChangedValues;
+	public TArray<string> ChangedValues;
 }

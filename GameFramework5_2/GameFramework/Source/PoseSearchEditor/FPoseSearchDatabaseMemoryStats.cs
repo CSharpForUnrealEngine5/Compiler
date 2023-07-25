@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("PoseSearchDatabaseEditorReflection.h")]
 public partial struct FPoseSearchDatabaseMemoryStats {
 // PoseSearchDatabaseMemoryStats
-	public sbyte EstimatedDatabaseSize;
-	public sbyte ValuesSize;
-	public sbyte PCAValuesSize;
-	public sbyte KDTreeSize;
-	public sbyte PoseMetadataSize;
-	public sbyte AssetsSize;
+	public string EstimatedDatabaseSize;
+	public string ValuesSize;
+	public string PCAValuesSize;
+	public string KDTreeSize;
+	public string PoseMetadataSize;
+	public string AssetsSize;
 }

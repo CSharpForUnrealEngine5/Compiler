@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FSimpleMemberReference {
 // SimpleMemberReference
 	public UObject MemberParent;
-	public sbyte MemberName;
+	public string MemberName;
 	public FGuid MemberGuid;
 }

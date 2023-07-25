@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a mapping between an action and speech recognition</summary>
 public partial struct FInputActionSpeechMapping {
 // InputActionSpeechMapping
-	public sbyte ActionName;
-	public sbyte SpeechKeyword;
+	public string ActionName;
+	public string SpeechKeyword;
 }

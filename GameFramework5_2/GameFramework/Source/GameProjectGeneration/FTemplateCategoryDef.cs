@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("TemplateProjectDefs.h")]
 public partial struct FTemplateCategoryDef {
 // TemplateCategoryDef
-	public sbyte Key;
+	public string Key;
 	public TArray<FLocalizedTemplateString> LocalizedDisplayNames;
 	public TArray<FLocalizedTemplateString> LocalizedDescriptions;
-	public sbyte Icon;
+	public string Icon;
 	public bool IsMajorCategory;
 }

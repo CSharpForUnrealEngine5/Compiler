@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("BehaviorTree/BTNode.h")]
 public partial class UBTNode : UObject {
 // BTNode
-	public sbyte NodeName;
+	public string NodeName;
 	public UBehaviorTree TreeAsset;
 	public UBTCompositeNode ParentNode;
 }

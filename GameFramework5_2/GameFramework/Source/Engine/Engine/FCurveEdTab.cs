@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/InterpCurveEdSetup.h")]
 public partial struct FCurveEdTab {
 // CurveEdTab
-	public sbyte TabName;
+	public string TabName;
 	public TArray<FCurveEdEntry> Curves;
 	public float ViewStartInput;
 	public float ViewEndInput;

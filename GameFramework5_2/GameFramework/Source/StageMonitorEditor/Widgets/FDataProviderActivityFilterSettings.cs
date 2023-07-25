@@ -7,9 +7,9 @@ public partial struct FDataProviderActivityFilterSettings {
 // DataProviderActivityFilterSettings
 	public TArray<UScriptStruct> ExistingPeriodicTypes;
 	public TArray<UScriptStruct> RestrictedTypes;
-	public TArray<sbyte> RestrictedProviders;
-	public TArray<sbyte> RestrictedRoles;
-	public TArray<sbyte> RestrictedSources;
+	public TArray<string> RestrictedProviders;
+	public TArray<string> RestrictedRoles;
+	public TArray<string> RestrictedSources;
 	public bool bEnableCriticalStateFilter;
 	public bool bEnableTimeFilter;
 	public uint MaxMessageAgeInMinutes;

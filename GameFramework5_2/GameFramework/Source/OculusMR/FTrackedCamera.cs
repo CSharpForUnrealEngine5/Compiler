@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FTrackedCamera {
 // TrackedCamera
 	public int Index;
-	public sbyte Name;
+	public string Name;
 	public double UpdateTime;
 	public float FieldOfView;
 	public int SizeX;

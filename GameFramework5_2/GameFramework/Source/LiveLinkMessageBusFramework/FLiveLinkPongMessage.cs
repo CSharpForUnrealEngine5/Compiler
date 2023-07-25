@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkMessages.h")]
 public partial struct FLiveLinkPongMessage {
 // LiveLinkPongMessage
-	public sbyte ProviderName;
-	public sbyte MachineName;
+	public string ProviderName;
+	public string MachineName;
 	public FGuid PollRequest;
 	public int LiveLinkVersion;
 	public double CreationPlatformTime;

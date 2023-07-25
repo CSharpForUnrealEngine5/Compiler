@@ -8,5 +8,5 @@ public partial class UTestBTDecorator_Blueprint : UBTDecorator_BlueprintBase {
 	public int LogIndexBecomeRelevant;
 	public int LogIndexCeaseRelevant;
 	public int LogIndexCalculate;
-	public sbyte ObservingKeyName;
+	public string ObservingKeyName;
 }

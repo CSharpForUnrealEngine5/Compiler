@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UScriptBlueprintGeneratedClass : UBlueprintGeneratedClass {
 // ScriptBlueprintGeneratedClass
 	public TArray<byte> ByteCode;
-	public sbyte SourceCode;
+	public string SourceCode;
 	public TArray<UProperty> ScriptProperties_DEPRECATED;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Formats/JSON427/DisplayClusterConfigurationJsonTypes_427.h")]
 public partial struct FDisplayClusterConfigurationJsonViewport_427 {
 // DisplayClusterConfigurationJsonViewport_427
-	public sbyte Camera;
+	public string Camera;
 	public float BufferRatio;
 	public int GPUIndex;
 	public bool AllowCrossGPUTransfer;

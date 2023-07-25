@@ -8,7 +8,7 @@ public partial struct FSkeletalMeshLODGroupSettings {
 	public float LODHysteresis;
 	public EBoneFilterActionOption BoneFilterActionOption;
 	public TArray<FBoneFilter> BoneList;
-	public TArray<sbyte> BonesToPrioritize;
+	public TArray<string> BonesToPrioritize;
 	public TArray<int> SectionsToPrioritize;
 	public float WeightOfPrioritization;
 	public UAnimSequence BakePose;

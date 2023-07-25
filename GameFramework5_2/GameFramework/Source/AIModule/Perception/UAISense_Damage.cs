@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UAISense_Damage : UAISense {
 // AISense_Damage
 	public TArray<FAIDamageEvent> RegisteredEvents;
-	public void ReportDamageEvent(UObject WorldContextObject,UObject DamagedActor,UObject Instigator,float DamageAmount,FVector EventLocation,FVector HitLocation,sbyte Tag=NAME_None) {}
+	public void ReportDamageEvent(UObject WorldContextObject,UObject DamagedActor,UObject Instigator,float DamageAmount,FVector EventLocation,FVector HitLocation,string Tag/*=NAME_None*/) {}
 }

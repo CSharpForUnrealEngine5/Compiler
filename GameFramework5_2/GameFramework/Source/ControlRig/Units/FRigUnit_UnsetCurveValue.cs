@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>UnsetCurveValue is used to perform a change in the curve container by invalidating a single Curve value.</summary>
 public partial struct FRigUnit_UnsetCurveValue {
 // RigUnit_UnsetCurveValue
-	public sbyte Curve;
+	public string Curve;
 	public FCachedRigElement CachedCurveIndex;
 }

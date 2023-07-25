@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectIdentifier.h")]
 public partial struct FCustomizableObjectIdPair {
 // CustomizableObjectIdPair
-	public sbyte CustomizableObjectGroupName;
-	public sbyte CustomizableObjectName;
+	public string CustomizableObjectGroupName;
+	public string CustomizableObjectName;
 }

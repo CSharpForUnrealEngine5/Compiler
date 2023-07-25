@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("BehaviorTree/TestBTTask_SetFlag.h")]
 public partial class UTestBTTask_SetFlag : UBTTaskNode {
 // TestBTTask_SetFlag
-	public sbyte KeyName;
+	public string KeyName;
 	public bool bValue;
-	public sbyte OnAbortKeyName;
+	public string OnAbortKeyName;
 	public bool bOnAbortValue;
 	public byte TaskResult;
 }

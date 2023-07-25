@@ -12,6 +12,6 @@ public partial struct FNiagaraParameterStore {
 	public TArray<UNiagaraDataInterface> DataInterfaces;
 	public TArray<UObject> UObjects;
 	public TArray<FNiagaraPositionSource> OriginalPositionData;
-	public sbyte DebugName;
+	public string DebugName;
 	public TMap<FNiagaraVariable,FGuid> ParameterGuidMapping;
 }

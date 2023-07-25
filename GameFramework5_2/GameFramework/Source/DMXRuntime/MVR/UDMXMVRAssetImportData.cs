@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MVR/DMXMVRAssetImportData.h")]
 public partial class UDMXMVRAssetImportData : UAssetImportData {
 // DMXMVRAssetImportData
-	public sbyte FilePathAndName;
+	public string FilePathAndName;
 	public FDMXByteArray64 RawSourceData;
 }

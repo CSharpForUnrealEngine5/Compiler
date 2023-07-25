@@ -10,8 +10,8 @@ public partial class UNiagaraSystem : UFXSystemAsset {
 	public ENiagaraScriptLibraryVisibility LibraryVisibility;
 	public bool bIsTemplateAsset_DEPRECATED;
 	public ENiagaraScriptTemplateSpecification TemplateSpecification;
-	public sbyte TemplateAssetDescription;
-	public sbyte Category;
+	public string TemplateAssetDescription;
+	public string Category;
 	public TArray<UNiagaraScript> ScratchPadScripts;
 	public FNiagaraParameterStore EditorOnlyAddedParameters;
 	public FNiagaraSystemUpdateContext UpdateContext;
@@ -73,7 +73,7 @@ public partial class UNiagaraSystem : UFXSystemAsset {
 	public UNiagaraBakerSettings BakerGeneratedSettings;
 	public bool bHasSystemScriptDIsWithPerInstanceData;
 	public bool bNeedsGPUContextInitForDataInterfaces;
-	public TArray<sbyte> UserDINamesReadInSystemScripts;
+	public TArray<string> UserDINamesReadInSystemScripts;
 	public TArray<UNiagaraDataChannelDefinitions> ReferencedDataChannelDefinitions;
 	public TMap<FGuid,UNiagaraMessageDataBase> MessageKeyToMessageMap;
 }

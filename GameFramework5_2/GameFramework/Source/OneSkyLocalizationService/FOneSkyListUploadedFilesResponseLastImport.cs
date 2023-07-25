@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FOneSkyListUploadedFilesResponseLastImport {
 // OneSkyListUploadedFilesResponseLastImport
 	public int id;
-	public sbyte status;
+	public string status;
 }

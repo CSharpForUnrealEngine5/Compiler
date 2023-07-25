@@ -6,5 +6,5 @@ public partial struct FGeometryScriptDebugMessage {
 // GeometryScriptDebugMessage
 	public EGeometryScriptDebugMessageType MessageType;
 	public EGeometryScriptErrorType ErrorType;
-	public sbyte Message;
+	public string Message;
 }

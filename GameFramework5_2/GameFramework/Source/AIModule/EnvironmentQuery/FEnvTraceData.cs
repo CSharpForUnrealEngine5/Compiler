@@ -14,7 +14,7 @@ public partial struct FEnvTraceData {
 	public float PostProjectionVerticalOffset;
 	public byte TraceChannel;
 	public byte SerializedChannel;
-	public sbyte TraceProfileName;
+	public string TraceProfileName;
 	public byte TraceShape;
 	public byte TraceMode;
 	public bool bTraceComplex;

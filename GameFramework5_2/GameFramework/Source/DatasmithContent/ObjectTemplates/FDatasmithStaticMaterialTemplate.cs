@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ObjectTemplates/DatasmithStaticMeshTemplate.h")]
 public partial struct FDatasmithStaticMaterialTemplate {
 // DatasmithStaticMaterialTemplate
-	public sbyte MaterialSlotName;
+	public string MaterialSlotName;
 	public UMaterialInterface MaterialInterface;
 }

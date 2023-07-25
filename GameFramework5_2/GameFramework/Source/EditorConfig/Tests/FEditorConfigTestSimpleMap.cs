@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Tests/EditorConfigTests.h")]
 public partial struct FEditorConfigTestSimpleMap {
 // EditorConfigTestSimpleMap
-	public TMap<sbyte,sbyte> Map;
+	public TMap<string,string> Map;
 }

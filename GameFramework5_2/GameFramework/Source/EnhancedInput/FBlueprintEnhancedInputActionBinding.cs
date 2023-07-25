@@ -6,5 +6,5 @@ public partial struct FBlueprintEnhancedInputActionBinding {
 // BlueprintEnhancedInputActionBinding
 	public UInputAction InputAction;
 	public ETriggerEvent TriggerEvent;
-	public sbyte FunctionNameToBind;
+	public string FunctionNameToBind;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct defining the time synth global quantization settings</summary>
 public partial struct FAudioCaptureDeviceInfo {
 // AudioCaptureDeviceInfo
-	public sbyte DeviceName;
+	public string DeviceName;
 	public int NumInputChannels;
 	public int SampleRate;
 }

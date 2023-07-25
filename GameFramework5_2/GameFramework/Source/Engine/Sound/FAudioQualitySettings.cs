@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Sound/AudioSettings.h")]
 public partial struct FAudioQualitySettings {
 // AudioQualitySettings
-	public sbyte DisplayName;
+	public string DisplayName;
 	public int MaxChannels;
 }

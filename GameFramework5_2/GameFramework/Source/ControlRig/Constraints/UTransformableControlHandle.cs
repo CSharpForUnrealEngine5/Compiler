@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UTransformableControlHandle : UTransformableHandle {
 // TransformableControlHandle
 	public TSoftObjectPtr<UControlRig> ControlRig;
-	public sbyte ControlName;
+	public string ControlName;
 }

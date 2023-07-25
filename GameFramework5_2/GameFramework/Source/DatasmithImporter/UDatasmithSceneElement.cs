@@ -4,16 +4,16 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithBlueprintLibrary.h")]
 public partial class UDatasmithSceneElement : UDatasmithSceneElementBase {
 // DatasmithSceneElement
-	public UObject ConstructDatasmithSceneFromFile(sbyte FilePath,UObject ReturnValue) { return default; }
-	public UObject ConstructDatasmithSceneFromSourceUri(sbyte SourceUri,UObject ReturnValue) { return default; }
-	public UObject ConstructDatasmithSceneFromCADFiles(TArray<sbyte> FilePaths,UObject ReturnValue) { return default; }
-	public UObject GetExistingDatasmithScene(sbyte AssetPath,UObject ReturnValue) { return default; }
-	public bool TranslateScene(bool ReturnValue) { return default; }
-	public FDatasmithImportFactoryCreateFileResult ImportScene(sbyte DestinationFolder,FDatasmithImportFactoryCreateFileResult ReturnValue) { return default; }
-	public TArray<FDatasmithImportFactoryCreateFileResult> ImportScenes(sbyte DestinationFolder,TArray<FDatasmithImportFactoryCreateFileResult> ReturnValue) { return default; }
-	public FDatasmithImportFactoryCreateFileResult ReimportScene(FDatasmithImportFactoryCreateFileResult ReturnValue) { return default; }
-	public UObject GetOptions(UClass OptionType=nullptr,UObject ReturnValue) { return default; }
-	public TMap<UClass,UObject> GetAllOptions(TMap<UClass,UObject> ReturnValue) { return default; }
-	public UObject GetImportOptions(UObject ReturnValue) { return default; }
+	public UObject ConstructDatasmithSceneFromFile(string FilePath) { return default; }
+	public UObject ConstructDatasmithSceneFromSourceUri(string SourceUri) { return default; }
+	public UObject ConstructDatasmithSceneFromCADFiles(TArray<string> FilePaths) { return default; }
+	public UObject GetExistingDatasmithScene(string AssetPath) { return default; }
+	public bool TranslateScene() { return default; }
+	public FDatasmithImportFactoryCreateFileResult ImportScene(string DestinationFolder) { return default; }
+	public TArray<FDatasmithImportFactoryCreateFileResult> ImportScenes(string DestinationFolder) { return default; }
+	public FDatasmithImportFactoryCreateFileResult ReimportScene() { return default; }
+	public UObject GetOptions(UClass OptionType/*=nullptr*/) { return default; }
+	public TMap<UClass,UObject> GetAllOptions() { return default; }
+	public UObject GetImportOptions() { return default; }
 	public void DestroyScene() {}
 }

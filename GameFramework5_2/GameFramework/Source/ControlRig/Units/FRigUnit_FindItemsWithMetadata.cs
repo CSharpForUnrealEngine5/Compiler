@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Returns all items containing a specific set of metadata</summary>
 public partial struct FRigUnit_FindItemsWithMetadata {
 // RigUnit_FindItemsWithMetadata
-	public sbyte Name;
+	public string Name;
 	public ERigMetadataType Type;
 	public TArray<FRigElementKey> Items;
 }

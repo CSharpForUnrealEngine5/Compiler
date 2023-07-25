@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeMeshVariation.h")]
 public partial struct FCustomizableObjectMeshVariation {
 // CustomizableObjectMeshVariation
-	public sbyte Tag;
+	public string Tag;
 }

@@ -23,12 +23,12 @@ public partial class UBlueprintEditorSettings : UDeveloperSettings {
 	public bool bNavigateToNativeFunctionsFromCallNodes;
 	public bool bDoubleClickNavigatesToParent;
 	public bool bEnableTypePromotion;
-	public TSet<sbyte> TypePromotionPinDenyList;
+	public TSet<string> TypePromotionPinDenyList;
 	public TArray<FAdditionalBlueprintCategory> AdditionalBlueprintCategories;
 	public EBlueprintBreakpointReloadMethod BreakpointReloadMethod;
 	public bool bEnablePinValueInspectionTooltips;
 	public bool bEnableNamespaceEditorFeatures;
-	public TArray<sbyte> NamespacesToAlwaysInclude;
+	public TArray<string> NamespacesToAlwaysInclude;
 	public bool bEnableContextMenuTimeSlicing;
 	public bool bFavorPureCastNodes;
 	public byte SaveOnCompile;
@@ -46,7 +46,7 @@ public partial class UBlueprintEditorSettings : UDeveloperSettings {
 	public bool bShowAccessSpecifier;
 	public TMap<FGuid,FEditedDocumentInfo> Bookmarks;
 	public TArray<FBPEditorBookmarkNode> BookmarkNodes;
-	public TMap<sbyte,FPerBlueprintSettings> PerBlueprintSettings;
+	public TMap<string,FPerBlueprintSettings> PerBlueprintSettings;
 	public bool bIncludeCommentNodesInBookmarksTab;
 	public bool bShowBookmarksForCurrentDocumentOnlyInTab;
 	public TMap<int,FEditedDocumentInfo> GraphEditorQuickJumps;

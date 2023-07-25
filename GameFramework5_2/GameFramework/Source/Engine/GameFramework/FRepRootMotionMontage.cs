@@ -11,7 +11,7 @@ public partial struct FRepRootMotionMontage {
 	public FVector_NetQuantize100 Location;
 	public FRotator Rotation;
 	public UPrimitiveComponent MovementBase;
-	public sbyte MovementBaseBoneName;
+	public string MovementBaseBoneName;
 	public bool bRelativePosition;
 	public bool bRelativeRotation;
 	public FRootMotionSourceGroup AuthoritativeRootMotion;

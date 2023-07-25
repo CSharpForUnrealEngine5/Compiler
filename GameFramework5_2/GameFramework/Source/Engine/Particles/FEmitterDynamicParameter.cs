@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Helper structure for displaying the parameter.</summary>
 public partial struct FEmitterDynamicParameter {
 // EmitterDynamicParameter
-	public sbyte ParamName;
+	public string ParamName;
 	public bool bUseEmitterTime;
 	public bool bSpawnTimeOnly;
 	public byte ValueMethod;

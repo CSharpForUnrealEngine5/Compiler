@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Rigs/RigHierarchyDefines.h")]
 public partial struct FRigElement {
 // RigElement
-	public sbyte Name;
+	public string Name;
 	public int Index;
 }

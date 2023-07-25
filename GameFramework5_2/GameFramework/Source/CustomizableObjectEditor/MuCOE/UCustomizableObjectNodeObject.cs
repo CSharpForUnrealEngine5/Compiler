@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeObject.h")]
 public partial class UCustomizableObjectNodeObject : UCustomizableObjectNode {
 // CustomizableObjectNodeObject
-	public sbyte ObjectName;
+	public string ObjectName;
 	public FMutableParamUIMetadata ParamUIMetadata;
 	public int NumLODs;
 	public ECustomizableObjectAutomaticLODStrategy AutoLODStrategy;

@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("ContentBrowserItemPath.h")]
 public partial class UContentBrowserItemPathExtensions : UBlueprintFunctionLibrary {
 // ContentBrowserItemPathExtensions
-	public void SetPath(FContentBrowserItemPath ItemPath,sbyte InPath,EContentBrowserPathType InPathType) {}
-	public sbyte GetVirtualPath(FContentBrowserItemPath ItemPath,sbyte ReturnValue) { return default; }
-	public sbyte GetInternalPath(FContentBrowserItemPath ItemPath,sbyte ReturnValue) { return default; }
-	public FContentBrowserItemPath MakeContentBrowserItemPath(sbyte InPath,EContentBrowserPathType InPathType,FContentBrowserItemPath ReturnValue) { return default; }
-	public void BreakContentBrowserItemPath(FContentBrowserItemPath ItemPath,sbyte VirtualPath,sbyte InternalPath) {}
+	public void SetPath(FContentBrowserItemPath ItemPath,string InPath,EContentBrowserPathType InPathType) {}
+	public string GetVirtualPath(FContentBrowserItemPath ItemPath) { return default; }
+	public string GetInternalPath(FContentBrowserItemPath ItemPath) { return default; }
+	public FContentBrowserItemPath MakeContentBrowserItemPath(string InPath,EContentBrowserPathType InPathType) { return default; }
+	public void BreakContentBrowserItemPath(FContentBrowserItemPath ItemPath,string VirtualPath,string InternalPath) {}
 }

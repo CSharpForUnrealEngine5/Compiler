@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>An action to collapse a selection of nodes</summary>
 public partial struct FRigVMCollapseNodesAction {
 // RigVMCollapseNodesAction
-	public sbyte LibraryNodePath;
-	public sbyte CollapsedNodesContent;
-	public TArray<sbyte> CollapsedNodesPaths;
-	public TArray<sbyte> CollapsedNodesLinks;
+	public string LibraryNodePath;
+	public string CollapsedNodesContent;
+	public TArray<string> CollapsedNodesPaths;
+	public TArray<string> CollapsedNodesLinks;
 	public bool bIsAggregate;
 }

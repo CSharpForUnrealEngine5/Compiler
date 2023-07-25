@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/MeshSimplificationSettings.h")]
 public partial class UMeshSimplificationSettings : UDeveloperSettings {
 // MeshSimplificationSettings
-	public sbyte MeshReductionModuleName;
+	public string MeshReductionModuleName;
 	public bool bMeshReductionBackwardCompatible;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UOptimusVariableDescription : UObject {
 // OptimusVariableDescription
 	public FGuid Guid;
-	public sbyte VariableName;
+	public string VariableName;
 	public FOptimusDataTypeRef DataType;
 	public UOptimusValueContainer DefaultValue;
 	public TArray<byte> ValueData;

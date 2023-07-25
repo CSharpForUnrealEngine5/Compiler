@@ -7,7 +7,7 @@ public partial class UGameplayTask : UObject {
 	public void FGenericGameplayTaskDelegate() {}
 	public void ReadyForActivation() {}
 	public void EndTask() {}
-	public sbyte InstanceName;
+	public string InstanceName;
 	public ETaskResourceOverlapPolicy ResourceOverlapPolicy;
 	public UGameplayTask ChildTask;
 }

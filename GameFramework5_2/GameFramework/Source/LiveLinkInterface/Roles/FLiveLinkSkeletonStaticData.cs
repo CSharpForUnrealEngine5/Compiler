@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Static data for Animation purposes. Contains data about bones that shouldn't change every frame.</summary>
 public partial struct FLiveLinkSkeletonStaticData {
 // LiveLinkSkeletonStaticData
-	public TArray<sbyte> BoneNames;
+	public TArray<string> BoneNames;
 	public TArray<int> BoneParents;
 }

@@ -6,6 +6,6 @@ public partial class USocialGroupChannel : UObject {
 // SocialGroupChannel
 	public USocialUser SocialUser;
 	public FUniqueNetIdRepl GroupId;
-	public sbyte DisplayName;
+	public string DisplayName;
 	public TArray<USocialUser> Members;
 }

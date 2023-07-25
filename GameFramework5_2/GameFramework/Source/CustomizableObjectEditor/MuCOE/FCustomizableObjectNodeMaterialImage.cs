@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>UCustomizableObjectNodeMaterial</summary>
 public partial struct FCustomizableObjectNodeMaterialImage {
 // CustomizableObjectNodeMaterialImage
-	public sbyte Name;
+	public string Name;
 	public int UVLayout;
 	public UTexture2D ReferenceTexture;
 	public int LayerIndex;
-	public sbyte PinName;
+	public string PinName;
 }

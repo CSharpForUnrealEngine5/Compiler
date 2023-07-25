@@ -9,7 +9,7 @@ public partial struct FConcertTransactionEventBase {
 	public FGuid TransactionEndpointId;
 	public byte TransactionUpdateIndex;
 	public int VersionIndex;
-	public TArray<sbyte> ModifiedPackages;
+	public TArray<string> ModifiedPackages;
 	public FConcertObjectId PrimaryObjectId;
 	public TArray<FConcertExportedObject> ExportedObjects;
 }

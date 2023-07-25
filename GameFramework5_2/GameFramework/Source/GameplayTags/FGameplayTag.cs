@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A single gameplay tag, which represents a hierarchical name of the form x.y that is registered in the GameplayTagsManager</summary>
 public partial struct FGameplayTag {
 // GameplayTag
-	public sbyte TagName;
+	public string TagName;
 }

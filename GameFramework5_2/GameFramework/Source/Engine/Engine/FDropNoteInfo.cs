@@ -7,5 +7,5 @@ public partial struct FDropNoteInfo {
 // DropNoteInfo
 	public FVector Location;
 	public FRotator Rotation;
-	public sbyte Comment;
+	public string Comment;
 }

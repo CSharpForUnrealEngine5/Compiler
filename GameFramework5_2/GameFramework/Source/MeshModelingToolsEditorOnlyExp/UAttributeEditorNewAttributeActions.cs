@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("AttributeEditorTool.h")]
 public partial class UAttributeEditorNewAttributeActions : UAttributeEditorActionPropertySet {
 // AttributeEditorNewAttributeActions
-	public sbyte NewName;
+	public string NewName;
 	public EAttributeEditorElementType ElementType;
 	public EAttributeEditorAttribType DataType;
 	public void AddWeightMapLayer() {}

@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectParameterTypeDefinitions.h")]
 public partial struct FCustomizableObjectTextureParameterValue {
 // CustomizableObjectTextureParameterValue
-	public sbyte ParameterName;
+	public string ParameterName;
 	public ulong ParameterValue;
-	public sbyte Uid;
+	public string Uid;
 	public TArray<ulong> ParameterRangeValues;
 }

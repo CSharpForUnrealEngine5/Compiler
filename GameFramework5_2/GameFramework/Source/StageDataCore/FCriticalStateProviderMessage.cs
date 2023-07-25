@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FCriticalStateProviderMessage {
 // CriticalStateProviderMessage
 	public EStageCriticalStateEvent State;
-	public sbyte SourceName;
+	public string SourceName;
 }

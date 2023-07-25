@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Function library containing utility methods for writing images on a global async queue</summary>
 public partial class UImageWriteBlueprintLibrary : UBlueprintFunctionLibrary {
 // ImageWriteBlueprintLibrary
-	public void ExportToDisk(UObject Texture,sbyte Filename,FImageWriteOptions Options) {}
+	public void ExportToDisk(UObject Texture,string Filename,FImageWriteOptions Options) {}
 }

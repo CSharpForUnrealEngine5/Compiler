@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UAbilityTask_WaitGameplayTagAdded : UAbilityTask_WaitGameplayTag {
 // AbilityTask_WaitGameplayTagAdded
 	public FWaitGameplayTagDelegate Added;
-	public UObject WaitGameplayTagAdd(UObject OwningAbility,FGameplayTag Tag,UObject InOptionalExternalTarget=nullptr,bool OnlyTriggerOnce=false,UObject ReturnValue) { return default; }
+	public UObject WaitGameplayTagAdd(UObject OwningAbility,FGameplayTag Tag,UObject InOptionalExternalTarget/*=nullptr*/,bool OnlyTriggerOnce/*=false*/) { return default; }
 }

@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkVRPNConnectionSettings.h")]
 public partial struct FLiveLinkVRPNConnectionSettings {
 // LiveLinkVRPNConnectionSettings
-	public sbyte IPAddress;
+	public string IPAddress;
 	public uint LocalUpdateRateInHz;
-	public sbyte DeviceName;
-	public sbyte SubjectName;
+	public string DeviceName;
+	public string SubjectName;
 	public EVRPNDeviceType Type;
 }

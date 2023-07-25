@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/WidgetAnimation.h")]
 public partial class UWidgetAnimation : UMovieSceneSequence {
 // WidgetAnimation
-	public float GetStartTime(float ReturnValue) { return default; }
-	public float GetEndTime(float ReturnValue) { return default; }
+	public float GetStartTime() { return default; }
+	public float GetEndTime() { return default; }
 	public void BindToAnimationStarted(UObject Widget,FWidgetAnimationDynamicEvent Delegate) {}
 	public void UnbindFromAnimationStarted(UObject Widget,FWidgetAnimationDynamicEvent Delegate) {}
 	public void UnbindAllFromAnimationStarted(UObject Widget) {}
@@ -15,5 +15,5 @@ public partial class UWidgetAnimation : UMovieSceneSequence {
 	public UMovieScene MovieScene;
 	public TArray<FWidgetAnimationBinding> AnimationBindings;
 	public bool bLegacyFinishOnStop;
-	public sbyte DisplayLabel;
+	public string DisplayLabel;
 }

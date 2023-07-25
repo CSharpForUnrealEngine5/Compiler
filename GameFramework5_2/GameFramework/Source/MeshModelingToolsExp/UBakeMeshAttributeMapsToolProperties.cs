@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 public partial class UBakeMeshAttributeMapsToolProperties : UInteractiveToolPropertySet {
 // BakeMeshAttributeMapsToolProperties
 	public int MapTypes;
-	public sbyte MapPreview;
+	public string MapPreview;
 	public EBakeTextureResolution Resolution;
 	public EBakeTextureBitDepth BitDepth;
 	public EBakeTextureSamplesPerPixel SamplesPerPixel;
 	public UTexture2D SampleFilterMask;
-	public TArray<sbyte> GetMapPreviewNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> MapPreviewNamesList;
+	public TArray<string> GetMapPreviewNamesFunc() { return default; }
+	public TArray<string> MapPreviewNamesList;
 }

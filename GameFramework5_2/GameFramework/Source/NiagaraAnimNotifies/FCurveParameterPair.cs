@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("AnimNotifyState_TimedNiagaraEffect.h")]
 public partial struct FCurveParameterPair {
 // CurveParameterPair
-	public sbyte AnimCurveName;
-	public sbyte UserVariableName;
+	public string AnimCurveName;
+	public string UserVariableName;
 }

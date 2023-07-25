@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for behaviour node which holds the logic to execute behaviour</summary>
 public partial class URCBehaviourNode : UObject {
 // RCBehaviourNode
-	public sbyte DisplayName;
-	public sbyte BehaviorDescription;
+	public string DisplayName;
+	public string BehaviorDescription;
 }

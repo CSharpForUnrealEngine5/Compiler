@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertServerSessionRepository {
 // ConcertServerSessionRepository
 	public FGuid RepositoryId;
-	public sbyte RepositoryRootDir;
-	public sbyte WorkingDir;
-	public sbyte SavedDir;
+	public string RepositoryRootDir;
+	public string WorkingDir;
+	public string SavedDir;
 	public int ProcessId;
 	public bool bMounted;
 }

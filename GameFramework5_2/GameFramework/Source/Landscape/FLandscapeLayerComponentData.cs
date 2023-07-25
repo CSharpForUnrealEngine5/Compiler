@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("LandscapeComponent.h")]
 public partial struct FLandscapeLayerComponentData {
 // LandscapeLayerComponentData
-	public sbyte DebugName;
+	public string DebugName;
 	public FHeightmapData HeightmapData;
 	public FWeightmapData WeightmapData;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeExposePin.h")]
 public partial class UCustomizableObjectNodeExposePin : UCustomizableObjectNode {
 // CustomizableObjectNodeExposePin
-	public sbyte PinType;
-	public sbyte Name;
+	public string PinType;
+	public string Name;
 }

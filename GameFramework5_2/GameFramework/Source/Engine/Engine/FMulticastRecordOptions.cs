@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/DemoNetDriver.h")]
 public partial struct FMulticastRecordOptions {
 // MulticastRecordOptions
-	public sbyte FuncPathName;
+	public string FuncPathName;
 	public bool bServerSkip;
 	public bool bClientSkip;
 }

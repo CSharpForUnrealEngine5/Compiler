@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that handles both storing and requesting ground truth data.</summary>
 public partial struct FAutomationWorkerTestDataRequest {
 // AutomationWorkerTestDataRequest
-	public sbyte DataType;
-	public sbyte DataPlatform;
-	public sbyte DataTestName;
-	public sbyte DataName;
-	public sbyte JsonData;
+	public string DataType;
+	public string DataPlatform;
+	public string DataTestName;
+	public string DataName;
+	public string JsonData;
 }

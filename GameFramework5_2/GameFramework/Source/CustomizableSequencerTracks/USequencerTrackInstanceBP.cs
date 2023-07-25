@@ -11,8 +11,8 @@ public partial class USequencerTrackInstanceBP : UMovieSceneTrackInstance {
 	public void K2_OnInputRemoved(FSequencerTrackInstanceInput Input) {}
 	public void K2_OnEndUpdateInputs() {}
 	public void K2_OnDestroyed() {}
-	public UObject GetAnimatedObject(UObject ReturnValue) { return default; }
-	public TArray<FSequencerTrackInstanceInput> GetInputs(TArray<FSequencerTrackInstanceInput> ReturnValue) { return default; }
-	public int GetNumInputs(int ReturnValue) { return default; }
-	public FSequencerTrackInstanceInput GetInput(int Index,FSequencerTrackInstanceInput ReturnValue) { return default; }
+	public UObject GetAnimatedObject() { return default; }
+	public TArray<FSequencerTrackInstanceInput> GetInputs() { return default; }
+	public int GetNumInputs() { return default; }
+	public FSequencerTrackInstanceInput GetInput(int Index) { return default; }
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>UI Curve Parameter type</summary>
 public partial struct FAnimCurveParam {
 // AnimCurveParam
-	public sbyte Name;
+	public string Name;
 }

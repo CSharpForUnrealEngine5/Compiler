@@ -7,6 +7,6 @@ public partial struct FTimelineLinearColorTrack {
 // TimelineLinearColorTrack
 	public UCurveLinearColor LinearColorCurve;
 	public FOnTimelineLinearColor InterpFunc;
-	public sbyte TrackName;
-	public sbyte LinearColorPropertyName;
+	public string TrackName;
+	public string LinearColorPropertyName;
 }

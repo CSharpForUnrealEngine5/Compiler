@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Editable font parameter.</summary>
 public partial struct FFontParameterValue {
 // FontParameterValue
-	public sbyte ParameterName_DEPRECATED;
+	public string ParameterName_DEPRECATED;
 	public FMaterialParameterInfo ParameterInfo;
 	public UFont FontValue;
 	public int FontPage;

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObject.h")]
 public partial struct FProfileParameterDat {
 // ProfileParameterDat
-	public sbyte ProfileName;
+	public string ProfileName;
 	public TArray<FCustomizableObjectBoolParameterValue> BoolParameters;
 	public TArray<FCustomizableObjectIntParameterValue> IntParameters;
 	public TArray<FCustomizableObjectFloatParameterValue> FloatParameters;

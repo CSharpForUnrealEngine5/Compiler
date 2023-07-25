@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Each slot data referenced by Animation Slot</summary>
 public partial struct FSlotAnimationTrack {
 // SlotAnimationTrack
-	public sbyte SlotName;
+	public string SlotName;
 	public FAnimTrack AnimTrack;
 }

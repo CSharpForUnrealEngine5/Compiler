@@ -11,5 +11,5 @@ public partial class UAbilityTask_WaitConfirmCancel : UAbilityTask {
 	public void OnCancelCallback() {}
 	public void OnLocalConfirmCallback() {}
 	public void OnLocalCancelCallback() {}
-	public UObject WaitConfirmCancel(UObject OwningAbility,UObject ReturnValue) { return default; }
+	public UObject WaitConfirmCancel(UObject OwningAbility) { return default; }
 }

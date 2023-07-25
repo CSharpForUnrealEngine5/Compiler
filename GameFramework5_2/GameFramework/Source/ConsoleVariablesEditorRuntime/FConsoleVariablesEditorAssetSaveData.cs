@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Data that will be serialized with this asset</summary>
 public partial struct FConsoleVariablesEditorAssetSaveData {
 // ConsoleVariablesEditorAssetSaveData
-	public sbyte CommandName;
-	public sbyte CommandValueAsString;
+	public string CommandName;
+	public string CommandValueAsString;
 	public ECheckBoxState CheckedState;
 }

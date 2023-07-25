@@ -5,44 +5,44 @@ using CSharpToCpp.Utilities;
 ///<summary>The widget component provides a surface in the 3D environment on which to render widgets normally rendered to the screen.</summary>
 public partial class UWidgetComponent : UMeshComponent {
 // WidgetComponent
-	public UObject GetUserWidgetObject(UObject ReturnValue) { return default; }
-	public UObject GetRenderTarget(UObject ReturnValue) { return default; }
-	public UObject GetMaterialInstance(UObject ReturnValue) { return default; }
-	public UObject GetWidget(UObject ReturnValue) { return default; }
+	public UObject GetUserWidgetObject() { return default; }
+	public UObject GetRenderTarget() { return default; }
+	public UObject GetMaterialInstance() { return default; }
+	public UObject GetWidget() { return default; }
 	public void SetWidget(UObject Widget) {}
 	public void SetOwnerPlayer(UObject LocalPlayer) {}
-	public bool GetManuallyRedraw(bool ReturnValue) { return default; }
+	public bool GetManuallyRedraw() { return default; }
 	public void SetManuallyRedraw(bool bUseManualRedraw) {}
-	public UObject GetOwnerPlayer(UObject ReturnValue) { return default; }
-	public FVector2D GetDrawSize(FVector2D ReturnValue) { return default; }
-	public FVector2D GetCurrentDrawSize(FVector2D ReturnValue) { return default; }
+	public UObject GetOwnerPlayer() { return default; }
+	public FVector2D GetDrawSize() { return default; }
+	public FVector2D GetCurrentDrawSize() { return default; }
 	public void SetDrawSize(FVector2D Size) {}
 	public void RequestRedraw() {}
 	public void RequestRenderUpdate() {}
-	public bool GetTwoSided(bool ReturnValue) { return default; }
+	public bool GetTwoSided() { return default; }
 	public void SetTwoSided(bool bWantTwoSided) {}
-	public bool GetTickWhenOffscreen(bool ReturnValue) { return default; }
+	public bool GetTickWhenOffscreen() { return default; }
 	public void SetTickWhenOffscreen(bool bWantTickWhenOffscreen) {}
 	public void SetBackgroundColor(FLinearColor NewBackgroundColor) {}
 	public void SetTintColorAndOpacity(FLinearColor NewTintColorAndOpacity) {}
-	public FVector2D GetPivot(FVector2D ReturnValue) { return default; }
+	public FVector2D GetPivot() { return default; }
 	public void SetPivot(FVector2D InPivot) {}
-	public bool GetDrawAtDesiredSize(bool ReturnValue) { return default; }
+	public bool GetDrawAtDesiredSize() { return default; }
 	public void SetDrawAtDesiredSize(bool bInDrawAtDesiredSize) {}
-	public float GetRedrawTime(float ReturnValue) { return default; }
+	public float GetRedrawTime() { return default; }
 	public void SetRedrawTime(float InRedrawTime) {}
-	public EWidgetSpace GetWidgetSpace(EWidgetSpace ReturnValue) { return default; }
+	public EWidgetSpace GetWidgetSpace() { return default; }
 	public void SetWidgetSpace(EWidgetSpace NewSpace) {}
-	public EWidgetGeometryMode GetGeometryMode(EWidgetGeometryMode ReturnValue) { return default; }
+	public EWidgetGeometryMode GetGeometryMode() { return default; }
 	public void SetGeometryMode(EWidgetGeometryMode InGeometryMode) {}
-	public float GetCylinderArcAngle(float ReturnValue) { return default; }
+	public float GetCylinderArcAngle() { return default; }
 	public void SetCylinderArcAngle(float InCylinderArcAngle) {}
-	public bool GetWindowFocusable(bool ReturnValue) { return default; }
+	public bool GetWindowFocusable() { return default; }
 	public void SetWindowFocusable(bool bInWindowFocusable) {}
-	public EWindowVisibility GetWindowVisiblility(EWindowVisibility ReturnValue) { return default; }
+	public EWindowVisibility GetWindowVisiblility() { return default; }
 	public void SetWindowVisibility(EWindowVisibility InVisibility) {}
 	public void SetTickMode(ETickMode InTickMode) {}
-	public bool IsWidgetVisible(bool ReturnValue) { return default; }
+	public bool IsWidgetVisible() { return default; }
 	public EWidgetSpace Space;
 	public EWidgetTimingPolicy TimingPolicy;
 	public UClass WidgetClass;
@@ -75,7 +75,7 @@ public partial class UWidgetComponent : UMeshComponent {
 	public UMaterialInstanceDynamic MaterialInstance;
 	public bool bAddedToScreen;
 	public bool bEditTimeUsable;
-	public sbyte SharedLayerName;
+	public string SharedLayerName;
 	public int LayerZOrder;
 	public EWidgetGeometryMode GeometryMode;
 	public float CylinderArcAngle;

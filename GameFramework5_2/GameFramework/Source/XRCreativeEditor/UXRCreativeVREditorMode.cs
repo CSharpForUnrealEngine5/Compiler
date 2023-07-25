@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("XRCreativeVREditorMode.h")]
 public partial class UXRCreativeVREditorMode : UVREditorModeBase {
 // XRCreativeVREditorMode
-	public FTransform GetRoomTransform(FTransform ReturnValue) { return default; }
-	public FTransform GetHeadTransform(FTransform ReturnValue) { return default; }
+	public FTransform GetRoomTransform() { return default; }
+	public FTransform GetHeadTransform() { return default; }
 	public void BP_OnEnter() {}
 	public void BP_OnExit() {}
 	public void BP_Tick(float DeltaSeconds) {}

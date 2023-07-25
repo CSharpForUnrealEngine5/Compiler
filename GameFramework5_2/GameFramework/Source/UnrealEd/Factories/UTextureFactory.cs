@@ -27,7 +27,7 @@ public partial class UTextureFactory : UFactory {
 	public bool bFlipNormalMapGreenChannel;
 	public bool bUsingExistingSettings;
 	public bool bUseHashAsGuid;
-	public sbyte UdimRegexPattern;
+	public string UdimRegexPattern;
 	public ETextureSourceColorSpace ColorSpaceMode;
 	public byte HDRImportShouldBeLongLatCubeMap;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRemoteControlProtocolBinding {
 // RemoteControlProtocolBinding
 	public FGuid Id;
-	public sbyte ProtocolName;
+	public string ProtocolName;
 	public FGuid PropertyId;
-	public sbyte MappingPropertyName;
+	public string MappingPropertyName;
 }

@@ -9,5 +9,5 @@ public partial class USynesthesiaSpectrumAnalyzer : UAudioAnalyzer {
 	public FOnSpectrumResults OnSpectrumResults;
 	public FOnLatestSpectrumResults OnLatestSpectrumResults;
 	public void GetCenterFrequencies(float InSampleRate,TArray<float> OutCenterFrequencies) {}
-	public int GetNumCenterFrequencies(int ReturnValue) { return default; }
+	public int GetNumCenterFrequencies() { return default; }
 }

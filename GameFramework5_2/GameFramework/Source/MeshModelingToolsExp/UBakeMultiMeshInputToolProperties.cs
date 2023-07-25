@@ -7,9 +7,9 @@ public partial class UBakeMultiMeshInputToolProperties : UInteractiveToolPropert
 	public UStaticMesh TargetStaticMesh;
 	public USkeletalMesh TargetSkeletalMesh;
 	public AActor TargetDynamicMesh;
-	public sbyte TargetUVLayer;
+	public string TargetUVLayer;
 	public TArray<FBakeMultiMeshDetailProperties> SourceMeshes;
 	public float ProjectionDistance;
-	public TArray<sbyte> GetTargetUVLayerNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> TargetUVLayerNamesList;
+	public TArray<string> GetTargetUVLayerNamesFunc() { return default; }
+	public TArray<string> TargetUVLayerNamesList;
 }

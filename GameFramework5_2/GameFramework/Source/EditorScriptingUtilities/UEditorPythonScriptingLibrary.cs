@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UEditorPythonScriptingLibrary : UBlueprintFunctionLibrary {
 // EditorPythonScriptingLibrary
 	public void SetKeepPythonScriptAlive(bool bNewKeepAlive) {}
-	public bool GetKeepPythonScriptAlive(bool ReturnValue) { return default; }
+	public bool GetKeepPythonScriptAlive() { return default; }
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Information about the input bindings for an action on currently active controller (i.e device path, input path, mode, slot)</summary>
 public partial struct FSteamVRInputBindingInfo {
 // SteamVRInputBindingInfo
-	public sbyte DevicePathName;
-	public sbyte InputPathName;
-	public sbyte ModeName;
-	public sbyte SlotName;
+	public string DevicePathName;
+	public string InputPathName;
+	public string ModeName;
+	public string SlotName;
 }

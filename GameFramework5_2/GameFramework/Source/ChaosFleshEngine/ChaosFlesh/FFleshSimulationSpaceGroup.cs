@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ChaosFlesh/ChaosDeformableTetrahedralComponent.h")]
 public partial struct FFleshSimulationSpaceGroup {
 // FleshSimulationSpaceGroup
-	public sbyte SimSpaceBoneName;
+	public string SimSpaceBoneName;
 	public byte SimSpace;
 	public USkeletalMesh SimSpaceSkeletalMesh;
 }

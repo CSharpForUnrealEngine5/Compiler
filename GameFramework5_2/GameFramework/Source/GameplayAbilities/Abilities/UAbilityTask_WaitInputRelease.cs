@@ -7,5 +7,5 @@ public partial class UAbilityTask_WaitInputRelease : UAbilityTask {
 // AbilityTask_WaitInputRelease
 	public FInputReleaseDelegate OnRelease;
 	public void OnReleaseCallback() {}
-	public UObject WaitInputRelease(UObject OwningAbility,bool bTestAlreadyReleased=false,UObject ReturnValue) { return default; }
+	public UObject WaitInputRelease(UObject OwningAbility,bool bTestAlreadyReleased/*=false*/) { return default; }
 }

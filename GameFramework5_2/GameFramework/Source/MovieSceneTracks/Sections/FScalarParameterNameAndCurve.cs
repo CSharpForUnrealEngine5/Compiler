@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure representing an animated scalar parameter and it's associated animation curve.</summary>
 public partial struct FScalarParameterNameAndCurve {
 // ScalarParameterNameAndCurve
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMovieSceneFloatChannel ParameterCurve;
 }

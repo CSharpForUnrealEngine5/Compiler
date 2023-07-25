@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNode_Slot {
 // AnimNode_Slot
 	public FPoseLink Source;
-	public sbyte SlotName;
+	public string SlotName;
 	public bool bAlwaysUpdateSourcePose;
 }

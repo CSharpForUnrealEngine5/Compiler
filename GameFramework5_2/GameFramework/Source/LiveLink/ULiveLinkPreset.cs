@@ -6,8 +6,8 @@ public partial class ULiveLinkPreset : UObject {
 // LiveLinkPreset
 	public TArray<FLiveLinkSourcePreset> Sources;
 	public TArray<FLiveLinkSubjectPreset> Subjects;
-	public bool ApplyToClient(bool ReturnValue) { return default; }
+	public bool ApplyToClient() { return default; }
 	public void ApplyToClientLatent(UObject WorldContextObject,FLatentActionInfo LatentInfo) {}
-	public bool AddToClient(bool bRecreatePresets=true,bool ReturnValue) { return default; }
+	public bool AddToClient(bool bRecreatePresets/*=true*/) { return default; }
 	public void BuildFromClient() {}
 }

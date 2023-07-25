@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A simple static text widget.</summary>
 public partial class UTextBlock : UTextLayoutWidget {
 // TextBlock
-	public sbyte Text;
+	public string Text;
 	public FGetText TextDelegate;
 	public FSlateColor ColorAndOpacity;
 	public FGetSlateColor ColorAndOpacityDelegate;
@@ -18,8 +18,8 @@ public partial class UTextBlock : UTextLayoutWidget {
 	public bool bWrapWithInvalidationPanel;
 	public ETextTransformPolicy TextTransformPolicy;
 	public ETextOverflowPolicy TextOverflowPolicy;
-	public sbyte GetText(sbyte ReturnValue) { return default; }
-	public void SetText(sbyte InText) {}
+	public string GetText() { return default; }
+	public void SetText(string InText) {}
 	public void SetColorAndOpacity(FSlateColor InColorAndOpacity) {}
 	public void SetOpacity(float InOpacity) {}
 	public void SetShadowColorAndOpacity(FLinearColor InShadowColorAndOpacity) {}
@@ -32,7 +32,7 @@ public partial class UTextBlock : UTextLayoutWidget {
 	public void SetTextOverflowPolicy(ETextOverflowPolicy InOverflowPolicy) {}
 	public void SetFontMaterial(UObject InMaterial) {}
 	public void SetFontOutlineMaterial(UObject InMaterial) {}
-	public UObject GetDynamicFontMaterial(UObject ReturnValue) { return default; }
-	public UObject GetDynamicOutlineMaterial(UObject ReturnValue) { return default; }
+	public UObject GetDynamicFontMaterial() { return default; }
+	public UObject GetDynamicOutlineMaterial() { return default; }
 	public bool bSimpleTextMode;
 }

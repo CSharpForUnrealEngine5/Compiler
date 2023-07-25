@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionDynamicParameter.h")]
 public partial class UMaterialExpressionDynamicParameter : UMaterialExpression {
 // MaterialExpressionDynamicParameter
-	public TArray<sbyte> ParamNames;
+	public TArray<string> ParamNames;
 	public FLinearColor DefaultValue;
 	public uint ParameterIndex;
 }

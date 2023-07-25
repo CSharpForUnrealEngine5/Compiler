@@ -6,6 +6,6 @@ public partial struct FBlueprintInputDebugKeyDelegateBinding {
 // BlueprintInputDebugKeyDelegateBinding
 	public FInputChord InputChord;
 	public byte InputKeyEvent;
-	public sbyte FunctionNameToBind;
+	public string FunctionNameToBind;
 	public bool bExecuteWhenPaused;
 }

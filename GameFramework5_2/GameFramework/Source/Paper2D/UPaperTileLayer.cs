@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>This class represents a single layer in a tile map.  All layers in the map must have the size dimensions.</summary>
 public partial class UPaperTileLayer : UObject {
 // PaperTileLayer
-	public sbyte LayerName;
+	public string LayerName;
 	public int LayerWidth;
 	public int LayerHeight;
 	public bool bHiddenInEditor;

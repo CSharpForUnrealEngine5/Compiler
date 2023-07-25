@@ -10,6 +10,6 @@ public partial struct FComputeGraphEdge {
 	public int DataInterfaceIndex;
 	public int DataInterfaceBindingIndex;
 	public bool bKernelInput;
-	public sbyte BindingFunctionNameOverride;
-	public sbyte BindingFunctionNamespace;
+	public string BindingFunctionNameOverride;
+	public string BindingFunctionNamespace;
 }

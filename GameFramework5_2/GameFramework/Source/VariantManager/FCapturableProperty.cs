@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes a property path that can be captured. It just exposes a display name but</summary>
 public partial struct FCapturableProperty {
 // CapturableProperty
-	public sbyte DisplayName;
+	public string DisplayName;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A reference object for an Optimus data type to use in UObjects and other UStruct-like things</summary>
 public partial struct FOptimusDataTypeRef {
 // OptimusDataTypeRef
-	public sbyte TypeName;
+	public string TypeName;
 	public TWeakObjectPtr<UObject> TypeObject;
 }

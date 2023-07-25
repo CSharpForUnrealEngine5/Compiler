@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LocationServicesIOSSettings.h")]
 public partial class ULocationServicesIOSSettings : UObject {
 // LocationServicesIOSSettings
-	public sbyte LocationAlwaysUsageDescription;
-	public sbyte LocationWhenInUseDescription;
+	public string LocationAlwaysUsageDescription;
+	public string LocationWhenInUseDescription;
 }

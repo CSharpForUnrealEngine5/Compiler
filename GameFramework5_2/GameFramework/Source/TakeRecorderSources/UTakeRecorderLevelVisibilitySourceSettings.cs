@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A recording source that records level visibilitiy</summary>
 public partial class UTakeRecorderLevelVisibilitySourceSettings : UTakeRecorderSource {
 // TakeRecorderLevelVisibilitySourceSettings
-	public sbyte LevelVisibilityTrackName;
+	public string LevelVisibilityTrackName;
 }

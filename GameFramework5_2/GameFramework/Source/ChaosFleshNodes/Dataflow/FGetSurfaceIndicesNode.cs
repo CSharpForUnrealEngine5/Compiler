@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FGetSurfaceIndicesNode {
 // GetSurfaceIndicesNode
 	public FManagedArrayCollection Collection;
-	public TArray<sbyte> GeometryGroupGuidsIn;
+	public TArray<string> GeometryGroupGuidsIn;
 	public TArray<int> SurfaceIndicesOut;
 }

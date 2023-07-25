@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Solvers/IKRig_FBIKSolver.h")]
 public partial class UIKRig_FBIKBoneSettings : UObject {
 // IKRig_FBIKBoneSettings
-	public sbyte Bone;
+	public string Bone;
 	public float RotationStiffness;
 	public float PositionStiffness;
 	public EPBIKLimitType X;

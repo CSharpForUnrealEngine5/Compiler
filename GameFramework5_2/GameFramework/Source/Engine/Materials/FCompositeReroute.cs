@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Collection of pins used for tunneling between graphs.</summary>
 public partial struct FCompositeReroute {
 // CompositeReroute
-	public sbyte Name;
+	public string Name;
 	public UMaterialExpressionReroute Expression;
 }

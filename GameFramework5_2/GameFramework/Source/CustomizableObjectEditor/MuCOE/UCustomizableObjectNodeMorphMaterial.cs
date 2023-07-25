@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeMorphMaterial.h")]
 public partial class UCustomizableObjectNodeMorphMaterial : UCustomizableObjectNodeEditMaterialBase {
 // CustomizableObjectNodeMorphMaterial
-	public sbyte MorphTargetName;
+	public string MorphTargetName;
 }

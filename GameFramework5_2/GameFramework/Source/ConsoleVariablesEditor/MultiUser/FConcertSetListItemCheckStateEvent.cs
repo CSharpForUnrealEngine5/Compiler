@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MultiUser/ConsoleVariableSyncData.h")]
 public partial struct FConcertSetListItemCheckStateEvent {
 // ConcertSetListItemCheckStateEvent
-	public sbyte Variable;
+	public string Variable;
 	public ECheckBoxState CheckState;
 }

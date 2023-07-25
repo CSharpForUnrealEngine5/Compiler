@@ -13,14 +13,14 @@ public partial class UPCGPointFilterSettings : UPCGSettings {
 	public FPCGMetadataTypesConstantStruct AttributeTypes;
 	public EPCGPointTargetFilterType TargetFilterType_DEPRECATED;
 	public EPCGPointProperties TargetPointProperty_DEPRECATED;
-	public sbyte TargetAttributeName_DEPRECATED;
+	public string TargetAttributeName_DEPRECATED;
 	public EPCGPointThresholdType ThresholdFilterType_DEPRECATED;
 	public EPCGPointProperties ThresholdPointProperty_DEPRECATED;
-	public sbyte ThresholdAttributeName_DEPRECATED;
+	public string ThresholdAttributeName_DEPRECATED;
 	public EPCGPointFilterConstantType ThresholdConstantType_DEPRECATED;
 	public long Integer64Constant_DEPRECATED;
 	public float FloatConstant_DEPRECATED;
 	public FVector VectorConstant_DEPRECATED;
 	public FVector4 Vector4Constant_DEPRECATED;
-	public sbyte StringConstant_DEPRECATED;
+	public string StringConstant_DEPRECATED;
 }

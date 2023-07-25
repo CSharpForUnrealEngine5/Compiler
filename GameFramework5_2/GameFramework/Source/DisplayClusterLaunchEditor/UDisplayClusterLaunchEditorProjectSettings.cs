@@ -6,14 +6,14 @@ public partial class UDisplayClusterLaunchEditorProjectSettings : UObject {
 // DisplayClusterLaunchEditorProjectSettings
 	public bool bCloseEditorOnLaunch;
 	public bool bConnectToMultiUser;
-	public sbyte ExplicitSessionName;
+	public string ExplicitSessionName;
 	public bool bEnableUnrealInsights;
 	public bool bEnableStatNamedEvents;
 	public FDirectoryPath ExplicitTraceFileSaveDirectory;
 	public FSoftObjectPath ConsoleVariablesPreset;
-	public TSet<sbyte> AdditionalConsoleVariables;
-	public TSet<sbyte> AdditionalConsoleCommands;
-	public TSet<sbyte> CommandLineArguments;
-	public sbyte LogFileName;
+	public TSet<string> AdditionalConsoleVariables;
+	public TSet<string> AdditionalConsoleCommands;
+	public TSet<string> CommandLineArguments;
+	public string LogFileName;
 	public TArray<FDisplayClusterLaunchLoggingConstruct> Logging;
 }

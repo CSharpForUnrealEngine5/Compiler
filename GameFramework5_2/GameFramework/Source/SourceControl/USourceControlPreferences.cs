@@ -8,6 +8,6 @@ public partial class USourceControlPreferences : UDeveloperSettings {
 	public bool bEnableValidationTag;
 	public bool bShouldDeleteNewFilesOnRevert;
 	public bool bEnableUncontrolledChangelists;
-	public TArray<sbyte> CollectionChangelistTags;
-	public TMap<sbyte,sbyte> SpecificCollectionChangelistTags;
+	public TArray<string> CollectionChangelistTags;
+	public TMap<string,string> SpecificCollectionChangelistTags;
 }

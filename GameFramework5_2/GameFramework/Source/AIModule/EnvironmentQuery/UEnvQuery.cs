@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UEnvQuery : UDataAsset {
 // EnvQuery
 	public UEdGraph EdGraph;
-	public sbyte QueryName;
+	public string QueryName;
 	public TArray<UEnvQueryOption> Options;
 }

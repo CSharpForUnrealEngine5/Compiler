@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UCanvasRenderTarget2D : UTextureRenderTarget2D {
 // CanvasRenderTarget2D
 	public void UpdateResource() {}
-	public UObject CreateCanvasRenderTarget2D(UObject WorldContextObject,UClass CanvasRenderTarget2DClass,int Width=1024,int Height=1024,UObject ReturnValue) { return default; }
+	public UObject CreateCanvasRenderTarget2D(UObject WorldContextObject,UClass CanvasRenderTarget2DClass,int Width/*=1024*/,int Height/*=1024*/) { return default; }
 	public void ReceiveUpdate(UObject Canvas,int Width,int Height) {}
 	public void GetSize(int Width,int Height) {}
 	public FOnCanvasRenderTargetUpdate OnCanvasRenderTargetUpdate;

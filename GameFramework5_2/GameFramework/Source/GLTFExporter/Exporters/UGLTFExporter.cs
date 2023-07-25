@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Exporters/GLTFExporter.h")]
 public partial class UGLTFExporter : UExporter {
 // GLTFExporter
-	public bool ExportToGLTF(UObject Object,sbyte FilePath,UObject Options,TSet<UObject> SelectedActors,FGLTFExportMessages OutMessages,bool ReturnValue) { return default; }
+	public bool ExportToGLTF(UObject Object,string FilePath,UObject Options,TSet<UObject> SelectedActors,FGLTFExportMessages OutMessages) { return default; }
 }

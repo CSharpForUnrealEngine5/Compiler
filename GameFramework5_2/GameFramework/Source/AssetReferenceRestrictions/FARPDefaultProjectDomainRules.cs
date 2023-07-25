@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("AssetReferencingPolicySettings.h")]
 public partial struct FARPDefaultProjectDomainRules {
 // ARPDefaultProjectDomainRules
-	public TArray<sbyte> CanReferenceTheseDomains;
+	public TArray<string> CanReferenceTheseDomains;
 }

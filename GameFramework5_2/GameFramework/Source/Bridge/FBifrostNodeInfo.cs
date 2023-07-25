@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Dummy data structure, all json data to be converted to ustructs</summary>
 public partial struct FBifrostNodeInfo {
 // BifrostNodeInfo
-	public sbyte Name;
-	public sbyte Value;
+	public string Name;
+	public string Value;
 }

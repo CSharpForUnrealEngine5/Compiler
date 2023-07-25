@@ -12,5 +12,5 @@ public partial class UCustomizableObjectLayout : UObject {
 	public FIntPoint GridSize;
 	public FIntPoint MaxGridSize;
 	public ECustomizableObjectTextureLayoutPackingStrategy PackingStrategy;
-	public sbyte LayoutName;
+	public string LayoutName;
 }

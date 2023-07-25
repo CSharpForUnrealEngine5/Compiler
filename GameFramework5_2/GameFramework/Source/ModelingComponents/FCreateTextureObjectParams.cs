@@ -8,6 +8,6 @@ public partial struct FCreateTextureObjectParams {
 	public int TypeHintExtended;
 	public UWorld TargetWorld;
 	public UObject StoreRelativeToObject;
-	public sbyte BaseName;
+	public string BaseName;
 	public UTexture2D GeneratedTransientTexture;
 }

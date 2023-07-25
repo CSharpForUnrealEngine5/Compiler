@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Represent a current play position in an animation</summary>
 public partial struct FMarkerSyncAnimPosition {
 // MarkerSyncAnimPosition
-	public sbyte PreviousMarkerName;
-	public sbyte NextMarkerName;
+	public string PreviousMarkerName;
+	public string NextMarkerName;
 	public float PositionBetweenMarkers;
 }

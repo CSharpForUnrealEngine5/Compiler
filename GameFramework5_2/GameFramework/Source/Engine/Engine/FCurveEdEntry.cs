@@ -7,7 +7,7 @@ public partial struct FCurveEdEntry {
 // CurveEdEntry
 	public UObject CurveObject;
 	public FColor CurveColor;
-	public sbyte CurveName;
+	public string CurveName;
 	public int bHideCurve;
 	public int bColorCurve;
 	public int bFloatingPointColorCurve;

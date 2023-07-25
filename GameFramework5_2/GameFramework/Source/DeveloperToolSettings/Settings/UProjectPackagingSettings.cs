@@ -7,7 +7,7 @@ public partial class UProjectPackagingSettings : UObject {
 // ProjectPackagingSettings
 	public EProjectPackagingBuild Build;
 	public EProjectPackagingBuildConfigurations BuildConfiguration;
-	public sbyte BuildTarget;
+	public string BuildTarget;
 	public bool FullRebuild;
 	public bool ForDistribution;
 	public bool IncludeDebugFiles;
@@ -28,10 +28,10 @@ public partial class UProjectPackagingSettings : UObject {
 	public FDirectoryPath HttpChunkInstallDataDirectory;
 	public EAssetRegistryWritebackMethod WriteBackMetadataToAssetRegistry;
 	public bool bCompressed;
-	public sbyte PackageCompressionFormat;
+	public string PackageCompressionFormat;
 	public bool bForceUseProjectCompressionFormatIgnoreHardwareOverride;
-	public sbyte PackageAdditionalCompressionOptions;
-	public sbyte PackageCompressionMethod;
+	public string PackageAdditionalCompressionOptions;
+	public string PackageCompressionMethod;
 	public int PackageCompressionLevel_DebugDevelopment;
 	public int PackageCompressionLevel_TestShipping;
 	public int PackageCompressionLevel_Distribution;
@@ -39,7 +39,7 @@ public partial class UProjectPackagingSettings : UObject {
 	public int PackageCompressionMinPercentSaved;
 	public bool bPackageCompressionEnableDDC;
 	public int PackageCompressionMinSizeToConsiderDDC;
-	public sbyte HttpChunkInstallDataVersion;
+	public string HttpChunkInstallDataVersion;
 	public bool IncludePrerequisites;
 	public bool IncludeAppLocalPrerequisites;
 	public bool bShareMaterialShaderCode;
@@ -48,8 +48,8 @@ public partial class UProjectPackagingSettings : UObject {
 	public FDirectoryPath ApplocalPrerequisitesDirectory;
 	public bool IncludeCrashReporter;
 	public EProjectPackagingInternationalizationPresets InternationalizationPreset;
-	public TArray<sbyte> CulturesToStage;
-	public TArray<sbyte> LocalizationTargetsToChunk;
+	public TArray<string> CulturesToStage;
+	public TArray<string> LocalizationTargetsToChunk;
 	public int LocalizationTargetCatchAllChunkId;
 	public bool bCookAll;
 	public bool bCookMapsOnly;
@@ -58,14 +58,14 @@ public partial class UProjectPackagingSettings : UObject {
 	public bool GenerateEarlyDownloaderPakFile_DEPRECATED;
 	public bool bSkipEditorContent;
 	public bool bSkipMovies;
-	public TArray<sbyte> UFSMovies;
-	public TArray<sbyte> NonUFSMovies;
-	public TArray<sbyte> CompressedChunkWildcard;
-	public TArray<sbyte> IniKeyBlacklist;
-	public TArray<sbyte> IniKeyDenylist;
-	public TArray<sbyte> IniSectionBlacklist;
-	public TArray<sbyte> IniSectionDenylist;
-	public TArray<sbyte> EarlyDownloaderPakFileFiles_DEPRECATED;
+	public TArray<string> UFSMovies;
+	public TArray<string> NonUFSMovies;
+	public TArray<string> CompressedChunkWildcard;
+	public TArray<string> IniKeyBlacklist;
+	public TArray<string> IniKeyDenylist;
+	public TArray<string> IniSectionBlacklist;
+	public TArray<string> IniSectionDenylist;
+	public TArray<string> EarlyDownloaderPakFileFiles_DEPRECATED;
 	public TArray<FFilePath> MapsToCook;
 	public TArray<FDirectoryPath> DirectoriesToAlwaysCook;
 	public TArray<FDirectoryPath> DirectoriesToNeverCook;

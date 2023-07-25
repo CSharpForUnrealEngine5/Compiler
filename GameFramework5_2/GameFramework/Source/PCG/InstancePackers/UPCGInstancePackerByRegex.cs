@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("InstancePackers/PCGInstancePackerByRegex.h")]
 public partial class UPCGInstancePackerByRegex : UPCGInstancePackerBase {
 // PCGInstancePackerByRegex
-	public TArray<sbyte> RegexPatterns;
+	public TArray<string> RegexPatterns;
 }

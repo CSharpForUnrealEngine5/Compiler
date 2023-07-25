@@ -13,7 +13,7 @@ public partial class UAnimStateTransitionNode : UAnimStateNodeBase {
 	public UCurveFloat CustomBlendCurve;
 	public UBlendProfile BlendProfile;
 	public bool bAutomaticRuleBasedOnSequencePlayerInState;
-	public sbyte SyncGroupNameToRequireValidMarkersRule;
+	public string SyncGroupNameToRequireValidMarkersRule;
 	public byte LogicType;
 	public FAnimNotifyEvent TransitionStart;
 	public FAnimNotifyEvent TransitionEnd;
@@ -21,10 +21,10 @@ public partial class UAnimStateTransitionNode : UAnimStateNodeBase {
 	public bool Bidirectional;
 	public bool bSharedRules;
 	public bool bSharedCrossfade;
-	public sbyte SharedRulesName;
+	public string SharedRulesName;
 	public FGuid SharedRulesGuid;
 	public FLinearColor SharedColor;
-	public sbyte SharedCrossfadeName;
+	public string SharedCrossfadeName;
 	public FGuid SharedCrossfadeGuid;
 	public int SharedCrossfadeIdx;
 }

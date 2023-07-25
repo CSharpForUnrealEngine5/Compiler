@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UEnhancedInputWorldSubsystem : UWorldSubsystem {
 // EnhancedInputWorldSubsystem
 	public void AddActorInputComponent(UObject Actor) {}
-	public bool RemoveActorInputComponent(UObject Actor,bool ReturnValue) { return default; }
+	public bool RemoveActorInputComponent(UObject Actor) { return default; }
 	public UEnhancedPlayerInput PlayerInput;
 	public TArray<TWeakObjectPtr<UInputComponent>> CurrentInputStack;
 }

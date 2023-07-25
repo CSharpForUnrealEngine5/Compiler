@@ -22,6 +22,6 @@ public partial struct FMovieSceneSubSequenceData {
 	public FMovieSceneFrameRange PostRollRange;
 	public short HierarchicalBias;
 	public FMovieSceneSequenceInstanceDataPtr InstanceData;
-	public sbyte SectionPath;
+	public string SectionPath;
 	public FGuid SubSectionSignature;
 }

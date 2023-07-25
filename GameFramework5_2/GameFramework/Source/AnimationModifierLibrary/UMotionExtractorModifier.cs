@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Extracts motion from a bone in the animation and bakes it into a curve</summary>
 public partial class UMotionExtractorModifier : UAnimationModifier {
 // MotionExtractorModifier
-	public sbyte BoneName;
+	public string BoneName;
 	public EMotionExtractor_MotionType MotionType;
 	public EMotionExtractor_Axis Axis;
 	public bool bRemoveCurveOnRevert;
@@ -17,5 +17,5 @@ public partial class UMotionExtractorModifier : UAnimationModifier {
 	public bool bNormalize;
 	public int SampleRate;
 	public bool bUseCustomCurveName;
-	public sbyte CustomCurveName;
+	public string CustomCurveName;
 }

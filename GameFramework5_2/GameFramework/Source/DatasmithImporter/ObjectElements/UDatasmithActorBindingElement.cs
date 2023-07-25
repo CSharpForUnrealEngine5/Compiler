@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial class UDatasmithActorBindingElement : UDatasmithObjectElement {
 // DatasmithActorBindingElement
 	public void SetActor(UObject Actor) {}
-	public UObject GetActor(UObject ReturnValue) { return default; }
-	public UObject CreatePropertyCapture(UObject ReturnValue) { return default; }
-	public UObject CreateObjectPropertyCapture(UObject ReturnValue) { return default; }
+	public UObject GetActor() { return default; }
+	public UObject CreatePropertyCapture() { return default; }
+	public UObject CreateObjectPropertyCapture() { return default; }
 	public void AddPropertyCapture(UObject Prop) {}
-	public int GetPropertyCapturesCount(int ReturnValue) { return default; }
-	public UObject GetPropertyCapture(int Index,UObject ReturnValue) { return default; }
+	public int GetPropertyCapturesCount() { return default; }
+	public UObject GetPropertyCapture(int Index) { return default; }
 	public void RemovePropertyCapture(UObject Prop) {}
 }

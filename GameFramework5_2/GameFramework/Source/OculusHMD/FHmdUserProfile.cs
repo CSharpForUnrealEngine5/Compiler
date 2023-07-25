@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("OculusFunctionLibrary.h")]
 public partial struct FHmdUserProfile {
 // HmdUserProfile
-	public sbyte Name;
-	public sbyte Gender;
+	public string Name;
+	public string Gender;
 	public float PlayerHeight;
 	public float EyeHeight;
 	public float IPD;

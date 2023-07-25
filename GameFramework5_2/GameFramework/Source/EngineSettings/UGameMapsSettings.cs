@@ -6,7 +6,7 @@ public partial class UGameMapsSettings : UObject {
 // GameMapsSettings
 	public FSoftObjectPath EditorStartupMap;
 	public TArray<FTemplateMapInfoOverride> EditorTemplateMapOverrides;
-	public sbyte LocalMapOptions;
+	public string LocalMapOptions;
 	public FSoftObjectPath TransitionMap;
 	public bool bUseSplitscreen;
 	public byte TwoPlayerSplitscreenLayout;
@@ -20,7 +20,7 @@ public partial class UGameMapsSettings : UObject {
 	public FSoftClassPath GlobalDefaultServerGameMode;
 	public TArray<FGameModeName> GameModeMapPrefixes;
 	public TArray<FGameModeName> GameModeClassAliases;
-	public UObject GetGameMapsSettings(UObject ReturnValue) { return default; }
-	public void SetSkipAssigningGamepadToPlayer1(bool bSkipFirstPlayer=true) {}
-	public bool GetSkipAssigningGamepadToPlayer1(bool ReturnValue) { return default; }
+	public UObject GetGameMapsSettings() { return default; }
+	public void SetSkipAssigningGamepadToPlayer1(bool bSkipFirstPlayer/*=true*/) {}
+	public bool GetSkipAssigningGamepadToPlayer1() { return default; }
 }

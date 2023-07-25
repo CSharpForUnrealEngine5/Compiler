@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Grid/PCGLandscapeCache.h")]
 public partial struct FPCGLandscapeLayerWeight {
 // PCGLandscapeLayerWeight
-	public sbyte Name;
+	public string Name;
 	public float Weight;
 }

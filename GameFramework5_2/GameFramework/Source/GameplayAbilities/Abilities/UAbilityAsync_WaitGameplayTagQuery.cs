@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UAbilityAsync_WaitGameplayTagQuery : UAbilityAsync {
 // AbilityAsync_WaitGameplayTagQuery
 	public FAsyncWaitGameplayTagQueryDelegate Triggered;
-	public UObject WaitGameplayTagQueryOnActor(UObject TargetActor,FGameplayTagQuery TagQuery,EWaitGameplayTagQueryTriggerCondition TriggerCondition=EWaitGameplayTagQueryTriggerCondition,bool bOnlyTriggerOnce=false,UObject ReturnValue) { return default; }
+	public UObject WaitGameplayTagQueryOnActor(UObject TargetActor,FGameplayTagQuery TagQuery,EWaitGameplayTagQueryTriggerCondition TriggerCondition/*=EWaitGameplayTagQueryTriggerCondition.WhenTrue*/,bool bOnlyTriggerOnce/*=false*/) { return default; }
 }

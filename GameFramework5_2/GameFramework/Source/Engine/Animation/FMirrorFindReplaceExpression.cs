@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Find and Replace expressions used to generate mirror tables</summary>
 public partial struct FMirrorFindReplaceExpression {
 // MirrorFindReplaceExpression
-	public sbyte FindExpression;
-	public sbyte ReplaceExpression;
+	public string FindExpression;
+	public string ReplaceExpression;
 	public byte FindReplaceMethod;
 }

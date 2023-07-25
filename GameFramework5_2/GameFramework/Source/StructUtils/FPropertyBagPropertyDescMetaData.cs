@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("PropertyBag.h")]
 public partial struct FPropertyBagPropertyDescMetaData {
 // PropertyBagPropertyDescMetaData
-	public sbyte Key;
-	public sbyte Value;
+	public string Key;
+	public string Value;
 }

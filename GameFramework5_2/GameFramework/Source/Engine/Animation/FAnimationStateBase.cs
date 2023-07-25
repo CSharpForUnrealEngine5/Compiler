@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>This is the base class that both baked states and transitions use</summary>
 public partial struct FAnimationStateBase {
 // AnimationStateBase
-	public sbyte StateName;
+	public string StateName;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Action to add a Material Function call to the graph</summary>
 public partial struct FMaterialGraphSchemaAction_NewFunctionCall {
 // MaterialGraphSchemaAction_NewFunctionCall
-	public sbyte FunctionPath;
+	public string FunctionPath;
 }

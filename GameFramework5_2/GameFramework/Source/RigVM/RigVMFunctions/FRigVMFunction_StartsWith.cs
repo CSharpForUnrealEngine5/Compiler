@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Tests whether this string starts with given string</summary>
 public partial struct FRigVMFunction_StartsWith {
 // RigVMFunction_StartsWith
-	public sbyte Name;
-	public sbyte Start;
+	public string Name;
+	public string Start;
 	public bool Result;
 }

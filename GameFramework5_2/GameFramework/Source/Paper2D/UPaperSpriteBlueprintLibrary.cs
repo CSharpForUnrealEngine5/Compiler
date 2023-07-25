@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("PaperSpriteBlueprintLibrary.h")]
 public partial class UPaperSpriteBlueprintLibrary : UBlueprintFunctionLibrary {
 // PaperSpriteBlueprintLibrary
-	public FSlateBrush MakeBrushFromSprite(UObject Sprite,int Width,int Height,FSlateBrush ReturnValue) { return default; }
+	public FSlateBrush MakeBrushFromSprite(UObject Sprite,int Width,int Height) { return default; }
 }

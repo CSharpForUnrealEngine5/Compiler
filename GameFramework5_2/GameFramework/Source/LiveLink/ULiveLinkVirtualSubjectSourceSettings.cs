@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>VirtualSubjectSource Settings to be able to differentiate from live sources and keep a name associated to the source</summary>
 public partial class ULiveLinkVirtualSubjectSourceSettings : ULiveLinkSourceSettings {
 // LiveLinkVirtualSubjectSourceSettings
-	public sbyte SourceName;
+	public string SourceName;
 }

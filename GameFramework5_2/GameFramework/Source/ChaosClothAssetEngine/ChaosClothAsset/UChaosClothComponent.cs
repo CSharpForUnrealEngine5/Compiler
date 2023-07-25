@@ -6,13 +6,13 @@ using CSharpToCpp.Utilities;
 public partial class UChaosClothComponent : USkinnedMeshComponent {
 // ChaosClothComponent
 	public void SetClothAsset(UObject InClothAsset) {}
-	public UObject GetClothAsset(UObject ReturnValue) { return default; }
+	public UObject GetClothAsset() { return default; }
 	public void ResetTeleportMode() {}
 	public void ForceNextUpdateTeleport() {}
 	public void ForceNextUpdateTeleportAndReset() {}
 	public void SuspendSimulation() {}
 	public void ResumeSimulation() {}
-	public bool IsSimulationSuspended(bool ReturnValue) { return default; }
+	public bool IsSimulationSuspended() { return default; }
 	public UChaosClothAsset ClothAsset;
 	public bool bUseAttachedParentAsPoseComponent;
 	public bool bWaitForParallelTask;

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FCompositeSubFont {
 // CompositeSubFont
 	public TArray<FInt32Range> CharacterRanges;
-	public sbyte Cultures;
-	public sbyte EditorName;
+	public string Cultures;
+	public string EditorName;
 }

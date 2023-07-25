@@ -8,14 +8,14 @@ public partial class UQosRegionManager : UObject {
 	public int NumTestsPerRegion;
 	public float PingTimeout;
 	public bool bEnableSubspaceBiasOrder;
-	public sbyte SubspaceDelimiter;
+	public string SubspaceDelimiter;
 	public TArray<FQosRegionInfo> RegionDefinitions;
 	public TArray<FQosDatacenterInfo> DatacenterDefinitions;
 	public FDateTime LastCheckTimestamp;
 	public UQosEvaluator Evaluator;
 	public EQosCompletionResult QosEvalResult;
 	public TArray<FRegionQosInstance> RegionOptions;
-	public sbyte ForceRegionId;
+	public string ForceRegionId;
 	public bool bRegionForcedViaCommandline;
-	public sbyte SelectedRegionId;
+	public string SelectedRegionId;
 }

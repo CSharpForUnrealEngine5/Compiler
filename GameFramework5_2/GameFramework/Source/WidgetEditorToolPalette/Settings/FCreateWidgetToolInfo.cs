@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FCreateWidgetToolInfo {
 // CreateWidgetToolInfo
 	public UClass WidgetClass;
-	public sbyte DisplayName;
+	public string DisplayName;
 	public FInputChord WidgetHotkey;
 	public UClass CreateWidgetToolBuilder;
 }

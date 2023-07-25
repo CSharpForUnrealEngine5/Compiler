@@ -10,16 +10,16 @@ public partial class UTakeRecorderActorSource : UTakeRecorderSource {
 	public bool bRecordParentHierarchy;
 	public bool bReduceKeys;
 	public UActorRecorderPropertyMap RecordedProperties;
-	public TArray<sbyte> IncludeAnimationNames;
-	public TArray<sbyte> ExcludeAnimationNames;
+	public TArray<string> IncludeAnimationNames;
+	public TArray<string> ExcludeAnimationNames;
 	public ULevelSequence TargetLevelSequence;
 	public ULevelSequence RootLevelSequence;
 	public TArray<UObject> FactorySettings;
 	public TArray<UMovieSceneTrackRecorder> TrackRecorders;
 	public UTakeRecorderActorSource ParentSource;
 	public bool bShowProgressDialog;
-	public UObject AddSourceForActor(UObject InActor,UObject InSources,UObject ReturnValue) { return default; }
+	public UObject AddSourceForActor(UObject InActor,UObject InSources) { return default; }
 	public void RemoveActorFromSources(UObject InActor,UObject InSources) {}
 	public void SetSourceActor(TSoftObjectPtr<AActor> InTarget) {}
-	public TSoftObjectPtr<AActor> GetSourceActor(TSoftObjectPtr<AActor> ReturnValue) { return default; }
+	public TSoftObjectPtr<AActor> GetSourceActor() { return default; }
 }

@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class ULiveLinkComponent : UActorComponent {
 // LiveLinkComponent
 	public FLiveLinkTickSignature OnLiveLinkUpdated;
-	public void GetAvailableSubjectNames(TArray<sbyte> SubjectNames) {}
-	public void GetSubjectData(sbyte SubjectName,bool bSuccess,FSubjectFrameHandle SubjectFrameHandle) {}
-	public void GetSubjectDataAtWorldTime(sbyte SubjectName,float WorldTime,bool bSuccess,FSubjectFrameHandle SubjectFrameHandle) {}
-	public void GetSubjectDataAtSceneTime(sbyte SubjectName,FTimecode SceneTime,bool bSuccess,FSubjectFrameHandle SubjectFrameHandle) {}
+	public void GetAvailableSubjectNames(TArray<string> SubjectNames) {}
+	public void GetSubjectData(string SubjectName,bool bSuccess,FSubjectFrameHandle SubjectFrameHandle) {}
+	public void GetSubjectDataAtWorldTime(string SubjectName,float WorldTime,bool bSuccess,FSubjectFrameHandle SubjectFrameHandle) {}
+	public void GetSubjectDataAtSceneTime(string SubjectName,FTimecode SceneTime,bool bSuccess,FSubjectFrameHandle SubjectFrameHandle) {}
 }

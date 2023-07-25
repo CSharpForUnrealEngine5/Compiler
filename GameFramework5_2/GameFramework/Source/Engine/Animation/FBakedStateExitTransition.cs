@@ -9,6 +9,6 @@ public partial struct FBakedStateExitTransition {
 	public int TransitionIndex;
 	public bool bDesiredTransitionReturnValue;
 	public bool bAutomaticRemainingTimeRule;
-	public sbyte SyncGroupNameToRequireValidMarkersRule;
+	public string SyncGroupNameToRequireValidMarkersRule;
 	public TArray<int> PoseEvaluatorLinks;
 }

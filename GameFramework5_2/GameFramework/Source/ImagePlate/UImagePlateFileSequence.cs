@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UImagePlateFileSequence : UObject {
 // ImagePlateFileSequence
 	public FDirectoryPath SequencePath;
-	public sbyte FileWildcard;
+	public string FileWildcard;
 	public float Framerate;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertHeaderRowUtils.h")]
 public partial struct FColumnVisibilitySnapshot {
 // ColumnVisibilitySnapshot
-	public sbyte Snapshot;
+	public string Snapshot;
 }

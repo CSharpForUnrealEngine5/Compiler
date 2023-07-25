@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Particles/ParticleEmitter.h")]
 public partial class UParticleEmitter : UObject {
 // ParticleEmitter
-	public sbyte EmitterName;
+	public string EmitterName;
 	public int SubUVDataOffset;
 	public byte EmitterRenderMode;
 	public EParticleSignificanceLevel SignificanceLevel;
@@ -22,5 +22,5 @@ public partial class UParticleEmitter : UObject {
 	public int InitialAllocationCount;
 	public float QualityLevelSpawnRateScale;
 	public uint DetailModeBitmask;
-	public sbyte DetailModeDisplay;
+	public string DetailModeDisplay;
 }

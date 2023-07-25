@@ -9,7 +9,7 @@ public partial struct FPCGWorldCommonQueryParams {
 	public byte CollisionChannel;
 	public bool bTraceComplex;
 	public EPCGWorldQueryFilterByTag ActorTagFilter;
-	public sbyte ActorTagsList;
+	public string ActorTagsList;
 	public bool bIgnoreLandscapeHits;
-	public TSet<sbyte> ParsedActorTagsList;
+	public TSet<string> ParsedActorTagsList;
 }

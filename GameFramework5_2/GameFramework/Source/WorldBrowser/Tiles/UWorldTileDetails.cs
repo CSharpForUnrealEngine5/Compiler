@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UWorldTileDetails : UObject {
 // WorldTileDetails
 	public bool bTileEditable;
-	public sbyte PackageName;
-	public sbyte ParentPackageName;
+	public string PackageName;
+	public string ParentPackageName;
 	public FIntVector Position;
 	public FIntVector AbsolutePosition;
 	public int ZOrder;

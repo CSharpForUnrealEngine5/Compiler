@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FRCCachedFieldData {
 // RCCachedFieldData
 	public FGuid LayoutGroupId;
-	public sbyte OwnerObjectAlias;
+	public string OwnerObjectAlias;
 }

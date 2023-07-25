@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithVREDImportData.h")]
 public partial struct FVREDCppVariantTransform {
 // VREDCppVariantTransform
-	public TArray<sbyte> TargetNodes;
+	public TArray<string> TargetNodes;
 	public TArray<FVREDCppVariantTransformOption> Options;
 }

@@ -6,5 +6,5 @@ public partial class UCascadeConfiguration : UObject {
 // CascadeConfiguration
 	public TArray<FModuleMenuMapper> ModuleMenu_TypeDataToBaseModuleRejections;
 	public TArray<FModuleMenuMapper> ModuleMenu_TypeDataToSpecificModuleRejections;
-	public TArray<sbyte> ModuleMenu_ModuleRejections;
+	public TArray<string> ModuleMenu_ModuleRejections;
 }

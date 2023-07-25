@@ -7,7 +7,7 @@ public partial class USceneComponent : UActorComponent {
 // SceneComponent
 	public TWeakObjectPtr<APhysicsVolume> PhysicsVolume;
 	public USceneComponent AttachParent;
-	public sbyte AttachSocketName;
+	public string AttachSocketName;
 	public TArray<USceneComponent> AttachChildren;
 	public TArray<USceneComponent> ClientAttachedChildren;
 	public FVector RelativeLocation;
@@ -30,7 +30,7 @@ public partial class USceneComponent : UActorComponent {
 	public bool bComputeFastLocalBounds;
 	public bool bComputeBoundsOnceForGame;
 	public bool bComputedBoundsOnceForGame;
-	public bool GetShouldUpdatePhysicsVolume(bool ReturnValue) { return default; }
+	public bool GetShouldUpdatePhysicsVolume() { return default; }
 	public void SetShouldUpdatePhysicsVolume(bool bInShouldUpdatePhysicsVolume) {}
 	public bool bIsNotRenderAttachmentRoot;
 	public bool bVisualizeComponent;
@@ -46,7 +46,7 @@ public partial class USceneComponent : UActorComponent {
 	public void K2_SetRelativeLocation(FVector NewLocation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_SetRelativeRotation(FRotator NewRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_SetRelativeTransform(FTransform NewTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
-	public FTransform GetRelativeTransform(FTransform ReturnValue) { return default; }
+	public FTransform GetRelativeTransform() { return default; }
 	public void ResetRelativeTransform() {}
 	public void SetRelativeScale3D(FVector NewScale3D) {}
 	public void K2_AddRelativeLocation(FVector DeltaLocation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
@@ -62,39 +62,39 @@ public partial class USceneComponent : UActorComponent {
 	public void K2_AddWorldRotation(FRotator DeltaRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_AddWorldTransform(FTransform DeltaTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_AddWorldTransformKeepScale(FTransform DeltaTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
-	public FVector K2_GetComponentLocation(FVector ReturnValue) { return default; }
-	public FRotator K2_GetComponentRotation(FRotator ReturnValue) { return default; }
-	public FVector K2_GetComponentScale(FVector ReturnValue) { return default; }
-	public FTransform K2_GetComponentToWorld(FTransform ReturnValue) { return default; }
-	public FVector GetForwardVector(FVector ReturnValue) { return default; }
-	public FVector GetUpVector(FVector ReturnValue) { return default; }
-	public FVector GetRightVector(FVector ReturnValue) { return default; }
-	public bool IsSimulatingPhysics(sbyte BoneName=NAME_None,bool ReturnValue) { return default; }
-	public bool IsAnySimulatingPhysics(bool ReturnValue) { return default; }
-	public UObject GetAttachParent(UObject ReturnValue) { return default; }
-	public sbyte GetAttachSocketName(sbyte ReturnValue) { return default; }
+	public FVector K2_GetComponentLocation() { return default; }
+	public FRotator K2_GetComponentRotation() { return default; }
+	public FVector K2_GetComponentScale() { return default; }
+	public FTransform K2_GetComponentToWorld() { return default; }
+	public FVector GetForwardVector() { return default; }
+	public FVector GetUpVector() { return default; }
+	public FVector GetRightVector() { return default; }
+	public bool IsSimulatingPhysics(string BoneName/*=NAME_None*/) { return default; }
+	public bool IsAnySimulatingPhysics() { return default; }
+	public UObject GetAttachParent() { return default; }
+	public string GetAttachSocketName() { return default; }
 	public void GetParentComponents(TArray<UObject> Parents) {}
-	public int GetNumChildrenComponents(int ReturnValue) { return default; }
-	public UObject GetChildComponent(int ChildIndex,UObject ReturnValue) { return default; }
+	public int GetNumChildrenComponents() { return default; }
+	public UObject GetChildComponent(int ChildIndex) { return default; }
 	public void GetChildrenComponents(bool bIncludeAllDescendants,TArray<UObject> Children) {}
-	public bool K2_AttachTo(UObject InParent,sbyte InSocketName=NAME_None,EAttachLocation AttachType=EAttachLocation,bool bWeldSimulatedBodies=true,bool ReturnValue) { return default; }
-	public bool K2_AttachToComponent(UObject Parent,sbyte SocketName,EAttachmentRule LocationRule,EAttachmentRule RotationRule,EAttachmentRule ScaleRule,bool bWeldSimulatedBodies,bool ReturnValue) { return default; }
-	public void DetachFromParent(bool bMaintainWorldPosition=false,bool bCallModify=true) {}
-	public void K2_DetachFromComponent(EDetachmentRule LocationRule=EDetachmentRule,EDetachmentRule RotationRule=EDetachmentRule,EDetachmentRule ScaleRule=EDetachmentRule,bool bCallModify=true) {}
-	public TArray<sbyte> GetAllSocketNames(TArray<sbyte> ReturnValue) { return default; }
-	public FTransform GetSocketTransform(sbyte InSocketName,ERelativeTransformSpace TransformSpace=RTS_World,FTransform ReturnValue) { return default; }
-	public FVector GetSocketLocation(sbyte InSocketName,FVector ReturnValue) { return default; }
-	public FRotator GetSocketRotation(sbyte InSocketName,FRotator ReturnValue) { return default; }
-	public FQuat GetSocketQuaternion(sbyte InSocketName,FQuat ReturnValue) { return default; }
-	public bool DoesSocketExist(sbyte InSocketName,bool ReturnValue) { return default; }
-	public FVector GetComponentVelocity(FVector ReturnValue) { return default; }
-	public bool IsVisible(bool ReturnValue) { return default; }
-	public void SetVisibility(bool bNewVisibility,bool bPropagateToChildren=false) {}
-	public void ToggleVisibility(bool bPropagateToChildren=false) {}
-	public void SetHiddenInGame(bool NewHidden,bool bPropagateToChildren=false) {}
-	public UObject GetPhysicsVolume(UObject ReturnValue) { return default; }
+	public bool K2_AttachTo(UObject InParent,string InSocketName/*=NAME_None*/,EAttachLocation AttachType/*=EAttachLocation.KeepRelativeOffset*/,bool bWeldSimulatedBodies/*=true*/) { return default; }
+	public bool K2_AttachToComponent(UObject Parent,string SocketName,EAttachmentRule LocationRule,EAttachmentRule RotationRule,EAttachmentRule ScaleRule,bool bWeldSimulatedBodies) { return default; }
+	public void DetachFromParent(bool bMaintainWorldPosition/*=false*/,bool bCallModify/*=true*/) {}
+	public void K2_DetachFromComponent(EDetachmentRule LocationRule/*=EDetachmentRule.KeepRelative*/,EDetachmentRule RotationRule/*=EDetachmentRule.KeepRelative*/,EDetachmentRule ScaleRule/*=EDetachmentRule.KeepRelative*/,bool bCallModify/*=true*/) {}
+	public TArray<string> GetAllSocketNames() { return default; }
+	public FTransform GetSocketTransform(string InSocketName,ERelativeTransformSpace TransformSpace/*=RTS_World*/) { return default; }
+	public FVector GetSocketLocation(string InSocketName) { return default; }
+	public FRotator GetSocketRotation(string InSocketName) { return default; }
+	public FQuat GetSocketQuaternion(string InSocketName) { return default; }
+	public bool DoesSocketExist(string InSocketName) { return default; }
+	public FVector GetComponentVelocity() { return default; }
+	public bool IsVisible() { return default; }
+	public void SetVisibility(bool bNewVisibility,bool bPropagateToChildren/*=false*/) {}
+	public void ToggleVisibility(bool bPropagateToChildren/*=false*/) {}
+	public void SetHiddenInGame(bool NewHidden,bool bPropagateToChildren/*=false*/) {}
+	public UObject GetPhysicsVolume() { return default; }
 	public void K2_SetRelativeLocationAndRotation(FVector NewLocation,FRotator NewRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
-	public void SetAbsolute(bool bNewAbsoluteLocation=false,bool bNewAbsoluteRotation=false,bool bNewAbsoluteScale=false) {}
+	public void SetAbsolute(bool bNewAbsoluteLocation/*=false*/,bool bNewAbsoluteRotation/*=false*/,bool bNewAbsoluteScale/*=false*/) {}
 	public void K2_SetWorldLocationAndRotation(FVector NewLocation,FRotator NewRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void SetMobility(EComponentMobility NewMobility) {}
 }

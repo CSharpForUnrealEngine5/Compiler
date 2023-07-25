@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeObject.h")]
 public partial struct FRealTimeMorphSelectionOverride {
 // RealTimeMorphSelectionOverride
-	public sbyte MorphName;
+	public string MorphName;
 	public ECustomizableObjectSelectionOverride SelectionOverride;
-	public TArray<sbyte> SkeletalMeshesNames;
+	public TArray<string> SkeletalMeshesNames;
 	public TArray<ECustomizableObjectSelectionOverride> Override;
 }

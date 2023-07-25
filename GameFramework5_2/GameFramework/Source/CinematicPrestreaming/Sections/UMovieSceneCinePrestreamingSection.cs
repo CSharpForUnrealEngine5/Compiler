@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Movie Scene Section representing a Prestreaming asset.</summary>
 public partial class UMovieSceneCinePrestreamingSection : UMovieSceneSection {
 // MovieSceneCinePrestreamingSection
-	public TSoftObjectPtr<UCinePrestreamingData> GetPrestreamingAsset(TSoftObjectPtr<UCinePrestreamingData> ReturnValue) { return default; }
+	public TSoftObjectPtr<UCinePrestreamingData> GetPrestreamingAsset() { return default; }
 	public void SetPrestreamingAsset(UObject InData) {}
-	public int GetQualityLevel(int ReturnValue) { return default; }
+	public int GetQualityLevel() { return default; }
 	public void SetQualityLevel(int InLevel) {}
 	public void SetStartFrameOffset(int InOffset) {}
 	public TSoftObjectPtr<UCinePrestreamingData> PrestreamingAsset;

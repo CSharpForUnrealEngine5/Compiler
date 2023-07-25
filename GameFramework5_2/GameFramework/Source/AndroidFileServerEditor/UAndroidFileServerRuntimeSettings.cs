@@ -6,7 +6,7 @@ public partial class UAndroidFileServerRuntimeSettings : UObject {
 // AndroidFileServerRuntimeSettings
 	public bool bEnablePlugin;
 	public bool bAllowNetworkConnection;
-	public sbyte SecurityToken;
+	public string SecurityToken;
 	public bool bIncludeInShipping;
 	public bool bAllowExternalStartInShipping;
 	public bool bCompileAFSProject;
@@ -15,5 +15,5 @@ public partial class UAndroidFileServerRuntimeSettings : UObject {
 	public bool bReportStats;
 	public byte ConnectionType;
 	public bool bUseManualIPAddress;
-	public sbyte ManualIPAddress;
+	public string ManualIPAddress;
 }

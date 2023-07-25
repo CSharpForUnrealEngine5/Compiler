@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("XRCreativeToolset.h")]
 public partial class UXRCreativeTool : UObject {
 // XRCreativeTool
-	public sbyte GetToolName(sbyte ReturnValue) { return default; }
-	public sbyte GetDisplayName(sbyte ReturnValue) { return default; }
-	public UClass GetPaletteTabClass(UClass ReturnValue) { return default; }
+	public string GetToolName() { return default; }
+	public string GetDisplayName() { return default; }
+	public UClass GetPaletteTabClass() { return default; }
 }

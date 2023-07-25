@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeMeshClipDeform.h")]
 public partial class UCustomizableObjectNodeMeshClipDeform : UCustomizableObjectNodeModifierBase {
 // CustomizableObjectNodeMeshClipDeform
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 	public EShapeBindingMethod BindingMethod;
 }

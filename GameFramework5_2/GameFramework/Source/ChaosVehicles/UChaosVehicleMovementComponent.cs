@@ -45,16 +45,16 @@ public partial class UChaosVehicleMovementComponent : UPawnMovementComponent {
 	public void SetTargetGear(int GearNum,bool bImmediate) {}
 	public void SetUseAutomaticGears(bool bUseAuto) {}
 	public void SetRequiresControllerForInputs(bool bRequiresController) {}
-	public int GetCurrentGear(int ReturnValue) { return default; }
-	public int GetTargetGear(int ReturnValue) { return default; }
-	public bool GetUseAutoGears(bool ReturnValue) { return default; }
-	public float GetForwardSpeed(float ReturnValue) { return default; }
-	public float GetForwardSpeedMPH(float ReturnValue) { return default; }
-	public float GetThrottleInput(float ReturnValue) { return default; }
-	public float GetBrakeInput(float ReturnValue) { return default; }
-	public bool GetHandbrakeInput(bool ReturnValue) { return default; }
-	public float GetSteeringInput(float ReturnValue) { return default; }
-	public bool IsParked(bool ReturnValue) { return default; }
+	public int GetCurrentGear() { return default; }
+	public int GetTargetGear() { return default; }
+	public bool GetUseAutoGears() { return default; }
+	public float GetForwardSpeed() { return default; }
+	public float GetForwardSpeedMPH() { return default; }
+	public float GetThrottleInput() { return default; }
+	public float GetBrakeInput() { return default; }
+	public bool GetHandbrakeInput() { return default; }
+	public float GetSteeringInput() { return default; }
+	public bool IsParked() { return default; }
 	public void ResetVehicle() {}
 	public void EnableSelfRighting(bool InState) {}
 	public FVehicleReplicatedState ReplicatedState;

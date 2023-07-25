@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlModels.h")]
 public partial struct FRCPropertyDescription {
 // RCPropertyDescription
-	public sbyte Name;
-	public sbyte DisplayName;
-	public sbyte Description;
-	public sbyte Type;
-	public sbyte TypePath;
-	public sbyte ContainerType;
-	public sbyte KeyType;
-	public TMap<sbyte,sbyte> Metadata;
+	public string Name;
+	public string DisplayName;
+	public string Description;
+	public string Type;
+	public string TypePath;
+	public string ContainerType;
+	public string KeyType;
+	public TMap<string,string> Metadata;
 }

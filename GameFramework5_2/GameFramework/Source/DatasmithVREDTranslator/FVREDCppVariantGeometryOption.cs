@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithVREDImportData.h")]
 public partial struct FVREDCppVariantGeometryOption {
 // VREDCppVariantGeometryOption
-	public sbyte Name;
-	public TArray<sbyte> VisibleMeshes;
-	public TArray<sbyte> HiddenMeshes;
+	public string Name;
+	public TArray<string> VisibleMeshes;
+	public TArray<string> HiddenMeshes;
 }

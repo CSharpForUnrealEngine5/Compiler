@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>An action injecting a node into a pin</summary>
 public partial struct FRigVMInjectNodeIntoPinAction {
 // RigVMInjectNodeIntoPinAction
-	public sbyte PinPath;
+	public string PinPath;
 	public bool bAsInput;
-	public sbyte InputPinName;
-	public sbyte OutputPinName;
-	public sbyte NodePath;
+	public string InputPinName;
+	public string OutputPinName;
+	public string NodePath;
 }

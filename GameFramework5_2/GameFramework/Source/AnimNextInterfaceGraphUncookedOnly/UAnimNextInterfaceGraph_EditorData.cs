@@ -17,7 +17,7 @@ public partial class UAnimNextInterfaceGraph_EditorData : UObject {
 	public FRigVMRuntimeSettings VMRuntimeSettings;
 	public FRigVMCompileSettings VMCompileSettings;
 	public FControlRigPythonSettings PythonLogSettings;
-	public TMap<sbyte,FRigVMOperand> PinToOperandMap;
+	public TMap<string,FRigVMOperand> PinToOperandMap;
 	public bool bVMRecompilationRequired;
 	public bool bIsCompiling;
 }

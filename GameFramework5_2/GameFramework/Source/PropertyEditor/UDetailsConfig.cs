@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DetailsViewConfig.h")]
 public partial class UDetailsConfig : UEditorConfigBase {
 // DetailsConfig
-	public TMap<sbyte,FDetailsViewConfig> Views;
+	public TMap<string,FDetailsViewConfig> Views;
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Purchase information structure</summary>
 public partial struct FPurchaseInfo {
 // PurchaseInfo
-	public sbyte Identifier;
-	public sbyte DisplayName;
-	public sbyte DisplayDescription;
-	public sbyte DisplayPrice;
+	public string Identifier;
+	public string DisplayName;
+	public string DisplayDescription;
+	public string DisplayPrice;
 }

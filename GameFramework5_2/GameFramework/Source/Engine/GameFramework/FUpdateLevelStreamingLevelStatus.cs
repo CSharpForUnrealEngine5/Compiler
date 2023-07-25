@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>This structure is used to pass arguments to ClientUpdateMultipleLevelsStreamingStatus() client RPC function</summary>
 public partial struct FUpdateLevelStreamingLevelStatus {
 // UpdateLevelStreamingLevelStatus
-	public sbyte PackageName;
+	public string PackageName;
 	public int LODIndex;
 	public bool bNewShouldBeLoaded;
 	public bool bNewShouldBeVisible;

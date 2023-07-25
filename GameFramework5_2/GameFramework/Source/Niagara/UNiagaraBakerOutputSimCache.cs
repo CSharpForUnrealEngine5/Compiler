@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraBakerOutputSimCache.h")]
 public partial class UNiagaraBakerOutputSimCache : UNiagaraBakerOutput {
 // NiagaraBakerOutputSimCache
-	public sbyte SimCacheAssetPathFormat;
+	public string SimCacheAssetPathFormat;
 	public FNiagaraSimCacheCreateParameters CreateParameters;
 }

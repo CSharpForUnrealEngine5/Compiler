@@ -9,10 +9,10 @@ public partial class UAnimationStateMachineLibrary : UBlueprintFunctionLibrary {
 	public void ConvertToAnimationStateResultPure(FAnimNodeReference Node,FAnimationStateResultReference AnimationState,bool Result) {}
 	public void ConvertToAnimationStateMachine(FAnimNodeReference Node,FAnimationStateMachineReference AnimationState,EAnimNodeReferenceConversionResult Result) {}
 	public void ConvertToAnimationStateMachinePure(FAnimNodeReference Node,FAnimationStateMachineReference AnimationState,bool Result) {}
-	public bool IsStateBlendingIn(FAnimUpdateContext UpdateContext,FAnimationStateResultReference Node,bool ReturnValue) { return default; }
-	public bool IsStateBlendingOut(FAnimUpdateContext UpdateContext,FAnimationStateResultReference Node,bool ReturnValue) { return default; }
-	public void SetState(FAnimUpdateContext UpdateContext,FAnimationStateMachineReference Node,sbyte TargetState,float Duration,byte BlendType,UObject BlendProfile,EAlphaBlendOption AlphaBlendOption,UObject CustomBlendCurve) {}
-	public sbyte GetState(FAnimUpdateContext UpdateContext,FAnimationStateMachineReference Node,sbyte ReturnValue) { return default; }
-	public float GetRelevantAnimTimeRemaining(FAnimUpdateContext UpdateContext,FAnimationStateResultReference Node,float ReturnValue) { return default; }
-	public float GetRelevantAnimTimeRemainingFraction(FAnimUpdateContext UpdateContext,FAnimationStateResultReference Node,float ReturnValue) { return default; }
+	public bool IsStateBlendingIn(FAnimUpdateContext UpdateContext,FAnimationStateResultReference Node) { return default; }
+	public bool IsStateBlendingOut(FAnimUpdateContext UpdateContext,FAnimationStateResultReference Node) { return default; }
+	public void SetState(FAnimUpdateContext UpdateContext,FAnimationStateMachineReference Node,string TargetState,float Duration,byte BlendType,UObject BlendProfile,EAlphaBlendOption AlphaBlendOption,UObject CustomBlendCurve) {}
+	public string GetState(FAnimUpdateContext UpdateContext,FAnimationStateMachineReference Node) { return default; }
+	public float GetRelevantAnimTimeRemaining(FAnimUpdateContext UpdateContext,FAnimationStateResultReference Node) { return default; }
+	public float GetRelevantAnimTimeRemainingFraction(FAnimUpdateContext UpdateContext,FAnimationStateResultReference Node) { return default; }
 }

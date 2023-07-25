@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("WorldPartition/HLOD/DestructibleHLODComponent.h")]
 public partial class UWorldPartitionDestructibleHLODComponent : USceneComponent {
 // WorldPartitionDestructibleHLODComponent
-	public TArray<sbyte> DestructibleActors;
+	public TArray<string> DestructibleActors;
 }

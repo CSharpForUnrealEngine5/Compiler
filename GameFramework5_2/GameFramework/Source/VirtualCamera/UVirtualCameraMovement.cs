@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>A class to handle the virtual Camera transform.</summary>
 public partial class UVirtualCameraMovement : UObject {
 // VirtualCameraMovement
-	public FTransform GetLocalTransform(FTransform ReturnValue) { return default; }
+	public FTransform GetLocalTransform() { return default; }
 	public void SetLocalTransform(FTransform Transform) {}
-	public FTransform GetTransform(FTransform ReturnValue) { return default; }
+	public FTransform GetTransform() { return default; }
 	public void SetLocalAxis(FTransform InTransform) {}
 	public void ResetLocalAxis() {}
 	public void SetLocationScale(FVector LocationScale) {}

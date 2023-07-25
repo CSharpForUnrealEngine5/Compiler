@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Scene hierarchy</summary>
 public partial class UDisplayClusterConfigurationSceneComponent : UDisplayClusterConfigurationData_Base {
 // DisplayClusterConfigurationSceneComponent
-	public sbyte ParentId;
+	public string ParentId;
 	public FVector Location;
 	public FRotator Rotation;
 }

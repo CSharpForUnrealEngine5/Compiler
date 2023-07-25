@@ -7,11 +7,11 @@ public partial struct FMVVMBlueprintViewModelContext {
 	public FGuid ViewModelContextId;
 	public UClass NotifyFieldValueClass;
 	public UClass ViewModelClass_DEPRECATED;
-	public sbyte OverrideDisplayName_DEPRECATED;
-	public sbyte ViewModelName;
+	public string OverrideDisplayName_DEPRECATED;
+	public string ViewModelName;
 	public EMVVMBlueprintViewModelContextCreationType CreationType;
-	public sbyte GlobalViewModelIdentifier;
-	public sbyte ViewModelPropertyPath;
+	public string GlobalViewModelIdentifier;
+	public string ViewModelPropertyPath;
 	public bool bCreateSetterFunction;
 	public bool bOptional;
 }

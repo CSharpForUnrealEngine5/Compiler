@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class URenderGridPropsSourceRemoteControl : URenderGridPropsSourceBase {
 // RenderGridPropsSourceRemoteControl
 	public URemoteControlPreset RemoteControlPreset;
-	public sbyte ActivePresetGroup;
+	public string ActivePresetGroup;
 }

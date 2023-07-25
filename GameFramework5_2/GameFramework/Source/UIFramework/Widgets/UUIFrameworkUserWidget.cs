@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UUIFrameworkUserWidget : UUIFrameworkWidget {
 // UIFrameworkUserWidget
 	public void SetWidgetClass(TSoftObjectPtr<UClass> Value) {}
-	public void SetNamedSlot(sbyte SlotName,UObject Widget) {}
+	public void SetNamedSlot(string SlotName,UObject Widget) {}
 	public FUIFrameworkUserWidgetSlotList ReplicatedSlotList;
 }

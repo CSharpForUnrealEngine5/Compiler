@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameplayTagColumn.h")]
 public partial struct FGameplayTagContextProperty {
 // GameplayTagContextProperty
-	public TArray<sbyte> PropertyBindingChain;
+	public TArray<string> PropertyBindingChain;
 }

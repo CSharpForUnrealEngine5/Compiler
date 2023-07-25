@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_RemoveMetadataTag {
 // RigUnit_RemoveMetadataTag
 	public FRigElementKey Item;
-	public sbyte Tag;
+	public string Tag;
 	public bool Removed;
 	public FCachedRigElement CachedIndex;
 }

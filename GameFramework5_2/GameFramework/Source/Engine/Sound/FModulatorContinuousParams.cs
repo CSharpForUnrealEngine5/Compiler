@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Sound/SoundNodeModulatorContinuous.h")]
 public partial struct FModulatorContinuousParams {
 // ModulatorContinuousParams
-	public sbyte ParameterName;
+	public string ParameterName;
 	public float Default;
 	public float MinInput;
 	public float MaxInput;

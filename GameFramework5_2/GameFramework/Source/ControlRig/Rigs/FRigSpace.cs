@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigSpace {
 // RigSpace
 	public ERigSpaceType SpaceType;
-	public sbyte ParentName;
+	public string ParentName;
 	public int ParentIndex;
 	public FTransform InitialTransform;
 	public FTransform LocalTransform;

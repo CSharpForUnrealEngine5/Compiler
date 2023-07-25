@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigEditor/SIKRigRetargetChainList.h")]
 public partial struct FIKRigRetargetChainSettings {
 // IKRigRetargetChainSettings
-	public sbyte ChainName;
-	public sbyte StartBone;
-	public sbyte EndBone;
+	public string ChainName;
+	public string StartBone;
+	public string EndBone;
 }

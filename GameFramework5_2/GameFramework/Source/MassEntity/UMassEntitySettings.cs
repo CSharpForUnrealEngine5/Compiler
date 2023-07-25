@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements the settings for MassEntity plugin</summary>
 public partial class UMassEntitySettings : UMassModuleSettings {
 // MassEntitySettings
-	public sbyte DumpDependencyGraphFileName;
+	public string DumpDependencyGraphFileName;
 	public FMassProcessingPhaseConfig ProcessingPhasesConfig;
 	public TArray<UMassProcessor> ProcessorCDOs;
 }

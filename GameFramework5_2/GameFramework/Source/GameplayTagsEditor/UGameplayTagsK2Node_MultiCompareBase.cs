@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UGameplayTagsK2Node_MultiCompareBase : UK2Node {
 // GameplayTagsK2Node_MultiCompareBase
 	public int NumberOfPins;
-	public TArray<sbyte> PinNames;
+	public TArray<string> PinNames;
 }

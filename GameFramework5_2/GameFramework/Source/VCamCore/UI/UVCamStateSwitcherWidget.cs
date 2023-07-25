@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>A widget that has a set of states you can switch between using SetCurrentState.</summary>
 public partial class UVCamStateSwitcherWidget : UVCamWidget {
 // VCamStateSwitcherWidget
-	public void K2_SetCurrentState(sbyte NewState) {}
-	public bool SetCurrentState(sbyte NewState,bool bForceUpdate=false,bool bReinitializeConnections=true,bool ReturnValue) { return default; }
-	public sbyte GetCurrentState(sbyte ReturnValue) { return default; }
-	public TArray<sbyte> GetStates(TArray<sbyte> ReturnValue) { return default; }
-	public bool GetStateInfo(sbyte State,FVCamWidgetConnectionState OutStateInfo,bool ReturnValue) { return default; }
+	public void K2_SetCurrentState(string NewState) {}
+	public bool SetCurrentState(string NewState,bool bForceUpdate/*=false*/,bool bReinitializeConnections/*=true*/) { return default; }
+	public string GetCurrentState() { return default; }
+	public TArray<string> GetStates() { return default; }
+	public bool GetStateInfo(string State,FVCamWidgetConnectionState OutStateInfo) { return default; }
 	public FChangeConnectionStateEvent OnPreStateChanged;
 	public FChangeConnectionStateEvent OnPostStateChanged;
-	public TMap<sbyte,FVCamWidgetConnectionState> States;
-	public sbyte CurrentState;
+	public TMap<string,FVCamWidgetConnectionState> States;
+	public string CurrentState;
 }

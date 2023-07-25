@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request to describe an object using its path.</summary>
 public partial struct FDescribeObjectRequest {
 // DescribeObjectRequest
-	public sbyte ObjectPath;
+	public string ObjectPath;
 }

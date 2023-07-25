@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UGenerateStaticMeshLODAssetToolOutputProperties : UInteractiveToolPropertySet {
 // GenerateStaticMeshLODAssetToolOutputProperties
 	public EGenerateLODAssetOutputMode OutputMode;
-	public sbyte NewAssetName;
+	public string NewAssetName;
 	public bool bSaveInputAsHiResSource;
-	public sbyte GeneratedSuffix;
+	public string GeneratedSuffix;
 	public bool bShowOutputMode;
 }

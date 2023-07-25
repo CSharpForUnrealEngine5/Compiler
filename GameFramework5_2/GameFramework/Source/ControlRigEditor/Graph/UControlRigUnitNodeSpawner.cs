@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UControlRigUnitNodeSpawner : UBlueprintNodeSpawner {
 // ControlRigUnitNodeSpawner
 	public UScriptStruct StructTemplate;
-	public sbyte MethodName;
+	public string MethodName;
 }

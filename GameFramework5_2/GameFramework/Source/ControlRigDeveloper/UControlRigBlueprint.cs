@@ -4,23 +4,23 @@ using CSharpToCpp.Utilities;
 [CppInclude("ControlRigBlueprint.h")]
 public partial class UControlRigBlueprint : UBlueprint {
 // ControlRigBlueprint
-	public void SetPreviewMesh(UObject PreviewMesh,bool bMarkAsDirty=true) {}
-	public UObject GetPreviewMesh(UObject ReturnValue) { return default; }
+	public void SetPreviewMesh(UObject PreviewMesh,bool bMarkAsDirty/*=true*/) {}
+	public UObject GetPreviewMesh() { return default; }
 	public void RecompileVM() {}
 	public void RecompileVMIfRequired() {}
 	public void RequestAutoVMRecompilation() {}
 	public void SetAutoVMRecompile(bool bAutoRecompile) {}
 	public void RequestControlRigInit() {}
-	public UObject GetModel(UObject InEdGraph=nullptr,UObject ReturnValue) { return default; }
-	public UObject GetDefaultModel(UObject ReturnValue) { return default; }
-	public TArray<UObject> GetAllModels(TArray<UObject> ReturnValue) { return default; }
-	public UObject GetLocalFunctionLibrary(UObject ReturnValue) { return default; }
-	public UObject AddModel(sbyte InName=TEXT,bool bSetupUndoRedo=true,bool bPrintPythonCommand=true,UObject ReturnValue) { return default; }
-	public bool RemoveModel(sbyte InName=TEXT,bool bSetupUndoRedo=true,bool bPrintPythonCommand=true,bool ReturnValue) { return default; }
-	public UObject GetController(UObject InGraph=nullptr,UObject ReturnValue) { return default; }
-	public UObject GetControllerByName(sbyte InGraphName=TEXT,UObject ReturnValue) { return default; }
-	public UObject GetOrCreateController(UObject InGraph=nullptr,UObject ReturnValue) { return default; }
-	public TArray<sbyte> GeneratePythonCommands(sbyte InNewBlueprintName,TArray<sbyte> ReturnValue) { return default; }
+	public UObject GetModel(UObject InEdGraph/*=nullptr*/) { return default; }
+	public UObject GetDefaultModel() { return default; }
+	public TArray<UObject> GetAllModels() { return default; }
+	public UObject GetLocalFunctionLibrary() { return default; }
+	public UObject AddModel(string InName/*=TEXT("Rig Graph")*/,bool bSetupUndoRedo/*=true*/,bool bPrintPythonCommand/*=true*/) { return default; }
+	public bool RemoveModel(string InName/*=TEXT("Rig Graph")*/,bool bSetupUndoRedo/*=true*/,bool bPrintPythonCommand/*=true*/) { return default; }
+	public UObject GetController(UObject InGraph/*=nullptr*/) { return default; }
+	public UObject GetControllerByName(string InGraphName/*=TEXT("")*/) { return default; }
+	public UObject GetOrCreateController(UObject InGraph/*=nullptr*/) { return default; }
+	public TArray<string> GeneratePythonCommands(string InNewBlueprintName) { return default; }
 	public UControlRigGraph FunctionLibraryEdGraph;
 	public FRigGraphDisplaySettings RigGraphDisplaySettings;
 	public FRigHierarchySettings HierarchySettings;
@@ -35,16 +35,16 @@ public partial class UControlRigBlueprint : UBlueprint {
 	public TArray<FRigVMReferenceNodeData> FunctionReferenceNodeData;
 	public URigVMGraph TemplateModel;
 	public URigVMController TemplateController;
-	public TMap<sbyte,FRigVMOperand> PinToOperandMap;
-	public TArray<UObject> GetCurrentlyOpenRigBlueprints(TArray<UObject> ReturnValue) { return default; }
-	public UClass GetControlRigClass(UClass ReturnValue) { return default; }
-	public UObject CreateControlRig(UObject ReturnValue) { return default; }
-	public TArray<UObject> GetAvailableRigUnits(TArray<UObject> ReturnValue) { return default; }
-	public TArray<FRigVMGraphVariableDescription> GetMemberVariables(TArray<FRigVMGraphVariableDescription> ReturnValue) { return default; }
-	public sbyte AddMemberVariable(sbyte InName,sbyte InCPPType,bool bIsPublic=false,bool bIsReadOnly=false,sbyte InDefaultValue=TEXT,sbyte ReturnValue) { return default; }
-	public bool RemoveMemberVariable(sbyte InName,bool ReturnValue) { return default; }
-	public bool RenameMemberVariable(sbyte InOldName,sbyte InNewName,bool ReturnValue) { return default; }
-	public bool ChangeMemberVariableType(sbyte InName,sbyte InCPPType,bool bIsPublic=false,bool bIsReadOnly=false,sbyte InDefaultValue=TEXT,bool ReturnValue) { return default; }
+	public TMap<string,FRigVMOperand> PinToOperandMap;
+	public TArray<UObject> GetCurrentlyOpenRigBlueprints() { return default; }
+	public UClass GetControlRigClass() { return default; }
+	public UObject CreateControlRig() { return default; }
+	public TArray<UObject> GetAvailableRigUnits() { return default; }
+	public TArray<FRigVMGraphVariableDescription> GetMemberVariables() { return default; }
+	public string AddMemberVariable(string InName,string InCPPType,bool bIsPublic/*=false*/,bool bIsReadOnly/*=false*/,string InDefaultValue/*=TEXT("")*/) { return default; }
+	public bool RemoveMemberVariable(string InName) { return default; }
+	public bool RenameMemberVariable(string InOldName,string InNewName) { return default; }
+	public bool ChangeMemberVariableType(string InName,string InCPPType,bool bIsPublic/*=false*/,bool bIsReadOnly/*=false*/,string InDefaultValue/*=TEXT("")*/) { return default; }
 	public TSoftObjectPtr<UControlRigShapeLibrary> GizmoLibrary_DEPRECATED;
 	public TArray<TSoftObjectPtr<UControlRigShapeLibrary>> ShapeLibraries;
 	public FRigVMStatistics Statistics_DEPRECATED;
@@ -52,13 +52,13 @@ public partial class UControlRigBlueprint : UBlueprint {
 	public FRigInfluenceMapPerEvent Influences;
 	public FRigHierarchyContainer HierarchyContainer_DEPRECATED;
 	public URigHierarchy Hierarchy;
-	public UObject GetHierarchyController(UObject ReturnValue) { return default; }
+	public UObject GetHierarchyController() { return default; }
 	public bool bSupportsInversion;
 	public bool bSupportsControls;
 	public TSoftObjectPtr<USkeletalMesh> PreviewSkeletalMesh;
 	public TSoftObjectPtr<UObject> SourceHierarchyImport;
 	public TSoftObjectPtr<UObject> SourceCurveImport;
-	public TArray<sbyte> SupportedEventNames;
+	public TArray<string> SupportedEventNames;
 	public bool bExposesAnimatableControls;
 	public bool bAutoRecompileVM;
 	public bool bVMRecompilationRequired;

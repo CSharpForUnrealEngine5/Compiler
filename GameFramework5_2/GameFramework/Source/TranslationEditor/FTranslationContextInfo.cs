@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("TranslationUnit.h")]
 public partial struct FTranslationContextInfo {
 // TranslationContextInfo
-	public sbyte Key;
-	public sbyte Context;
+	public string Key;
+	public string Context;
 	public TArray<FTranslationChange> Changes;
 }

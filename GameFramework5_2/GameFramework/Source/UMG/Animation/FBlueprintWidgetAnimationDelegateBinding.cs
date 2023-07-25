@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FBlueprintWidgetAnimationDelegateBinding {
 // BlueprintWidgetAnimationDelegateBinding
 	public EWidgetAnimationEvent Action;
-	public sbyte AnimationToBind;
-	public sbyte FunctionNameToBind;
-	public sbyte UserTag;
+	public string AnimationToBind;
+	public string FunctionNameToBind;
+	public string UserTag;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Passphrase Struct</summary>
 public partial struct FRCPassphrase {
 // RCPassphrase
-	public sbyte Identifier;
-	public sbyte Passphrase;
+	public string Identifier;
+	public string Passphrase;
 }

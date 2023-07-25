@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertResourceLockRequest {
 // ConcertResourceLockRequest
 	public FGuid ClientId;
-	public TArray<sbyte> ResourceNames;
+	public TArray<string> ResourceNames;
 	public EConcertResourceLockType LockType;
 }

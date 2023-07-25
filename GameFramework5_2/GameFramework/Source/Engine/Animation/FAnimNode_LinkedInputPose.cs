@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/AnimNode_LinkedInputPose.h")]
 public partial struct FAnimNode_LinkedInputPose {
 // AnimNode_LinkedInputPose
-	public sbyte Name;
-	public sbyte Graph;
+	public string Name;
+	public string Graph;
 	public FPoseLink InputPose;
 }

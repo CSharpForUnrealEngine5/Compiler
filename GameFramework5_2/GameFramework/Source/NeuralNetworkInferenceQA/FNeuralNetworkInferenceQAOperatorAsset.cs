@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNeuralNetworkInferenceQAOperatorAsset {
 // NeuralNetworkInferenceQAOperatorAsset
 	public TArray<FNeuralNetworkInferenceQAOperatorTestAsset> PreviousTests;
-	public sbyte PreviousTestsString;
+	public string PreviousTestsString;
 }

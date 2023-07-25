@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FAzureSpatialAnchorsDiagnosticsConfig {
 // AzureSpatialAnchorsDiagnosticsConfig
 	public bool bImagesEnabled;
-	public sbyte LogDirectory;
+	public string LogDirectory;
 	public EAzureSpatialAnchorsLogVerbosity LogLevel;
 	public int MaxDiskSizeInMB;
 }

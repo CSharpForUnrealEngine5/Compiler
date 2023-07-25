@@ -6,5 +6,5 @@ public partial struct FKinematicTetrahedralBindingsDataflowNode {
 // KinematicTetrahedralBindingsDataflowNode
 	public USkeletalMesh SkeletalMeshIn;
 	public FManagedArrayCollection Collection;
-	public sbyte ExclusionList;
+	public string ExclusionList;
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for the result from an Interchange operation.</summary>
 public partial class UInterchangeResult : UObject {
 // InterchangeResult
-	public sbyte SourceAssetName;
-	public sbyte DestinationAssetName;
+	public string SourceAssetName;
+	public string DestinationAssetName;
 	public UClass AssetType;
-	public sbyte InterchangeKey;
+	public string InterchangeKey;
 }

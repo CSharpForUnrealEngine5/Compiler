@@ -11,7 +11,7 @@ public partial class UWebAPILiquidJSSettings : UDeveloperSettings {
 	public bool bAutoStartWebSocketServer;
 	public uint HttpServerPort;
 	public uint WebSocketServerPort;
-	public sbyte ServiceUrl;
-	public sbyte FormattedServiceUrl;
+	public string ServiceUrl;
+	public string FormattedServiceUrl;
 	public uint FormattedWithPort;
 }

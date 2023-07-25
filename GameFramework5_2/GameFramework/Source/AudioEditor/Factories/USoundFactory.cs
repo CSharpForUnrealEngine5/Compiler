@@ -9,5 +9,5 @@ public partial class USoundFactory : UFactory {
 	public bool bIncludeLoopingNode;
 	public bool bIncludeModulatorNode;
 	public float CueVolume;
-	public sbyte CuePackageSuffix;
+	public string CuePackageSuffix;
 }

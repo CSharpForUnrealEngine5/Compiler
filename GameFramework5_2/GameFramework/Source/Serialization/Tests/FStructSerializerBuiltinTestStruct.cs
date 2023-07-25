@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FStructSerializerBuiltinTestStruct {
 // StructSerializerBuiltinTestStruct
 	public FGuid Guid;
-	public sbyte Name;
-	public sbyte String;
-	public sbyte Text;
+	public string Name;
+	public string String;
+	public string Text;
 	public FVector Vector;
 	public FVector4 Vector4;
 	public FRotator Rotator;

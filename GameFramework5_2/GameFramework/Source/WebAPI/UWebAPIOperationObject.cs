@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Baseclass for an asynchronous Http request/response operation.</summary>
 public partial class UWebAPIOperationObject : UObject {
 // WebAPIOperationObject
-	public sbyte Message;
+	public string Message;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("TemplateSequencePlayer.h")]
 public partial class UTemplateSequencePlayer : UMovieSceneSequencePlayer {
 // TemplateSequencePlayer
-	public UObject CreateTemplateSequencePlayer(UObject WorldContextObject,UObject TemplateSequence,FMovieSceneSequencePlaybackSettings Settings,UObject OutActor,UObject ReturnValue) { return default; }
+	public UObject CreateTemplateSequencePlayer(UObject WorldContextObject,UObject TemplateSequence,FMovieSceneSequencePlaybackSettings Settings,UObject OutActor) { return default; }
 }

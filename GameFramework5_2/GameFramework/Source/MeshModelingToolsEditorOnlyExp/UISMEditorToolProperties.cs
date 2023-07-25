@@ -10,5 +10,5 @@ public partial class UISMEditorToolProperties : UInteractiveToolPropertySet {
 	public bool bShowSelectable;
 	public bool bShowSelected;
 	public bool bHideWhenDragging;
-	public TArray<sbyte> SelectedInstances;
+	public TArray<string> SelectedInstances;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UScalableSphereGizmo : UInteractiveGizmo {
 // ScalableSphereGizmo
 	public float HitErrorThreshold;
-	public sbyte TransactionDescription;
+	public string TransactionDescription;
 	public float Radius;
 	public bool bIsHovering;
 	public bool bIsDragging;

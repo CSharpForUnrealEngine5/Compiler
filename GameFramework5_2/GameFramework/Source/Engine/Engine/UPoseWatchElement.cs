@@ -7,7 +7,7 @@ public partial class UPoseWatchElement : UObject {
 	public bool bIsVisible;
 	public bool bHasColor;
 	public FColor Color;
-	public sbyte Label;
-	public sbyte IconName;
+	public string Label;
+	public string IconName;
 	public TWeakObjectPtr<UPoseWatch> Parent;
 }

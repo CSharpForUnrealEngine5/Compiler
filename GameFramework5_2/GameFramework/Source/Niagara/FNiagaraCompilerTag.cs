@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraCompilerTag {
 // NiagaraCompilerTag
 	public FNiagaraVariable Variable;
-	public sbyte StringValue;
+	public string StringValue;
 }

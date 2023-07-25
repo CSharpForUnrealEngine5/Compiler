@@ -7,6 +7,6 @@ public partial struct FPrimaryAssetRulesCustomOverride {
 // PrimaryAssetRulesCustomOverride
 	public FPrimaryAssetType PrimaryAssetType;
 	public FDirectoryPath FilterDirectory;
-	public sbyte FilterString;
+	public string FilterString;
 	public FPrimaryAssetRules Rules;
 }

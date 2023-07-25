@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMBranchInfo {
 // RigVMBranchInfo
 	public int Index;
-	public sbyte Label;
+	public string Label;
 	public int InstructionIndex;
 	public int ArgumentIndex;
 	public ushort FirstInstruction;

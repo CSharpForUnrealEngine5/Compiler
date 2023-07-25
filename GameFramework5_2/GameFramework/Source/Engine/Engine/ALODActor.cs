@@ -8,7 +8,7 @@ public partial class ALODActor : AActor {
 	public UStaticMeshComponent StaticMeshComponent;
 	public TMap<FHLODInstancingKey,UInstancedStaticMeshComponent> InstancedStaticMeshComponents;
 	public UHLODProxy Proxy;
-	public sbyte Key;
+	public string Key;
 	public float LODDrawDistance;
 	public int LODLevel;
 	public TArray<AActor> SubActors;
@@ -22,7 +22,7 @@ public partial class ALODActor : AActor {
 	public bool bOverrideScreenSize;
 	public int ScreenSize;
 	public void OnSubActorEndPlay(UObject Actor,EEndPlayReason Reason) {}
-	public sbyte LODActorTag;
+	public string LODActorTag;
 	public bool bBuiltFromHLODDesc;
 	public UHLODProxyDesc ProxyDesc;
 }

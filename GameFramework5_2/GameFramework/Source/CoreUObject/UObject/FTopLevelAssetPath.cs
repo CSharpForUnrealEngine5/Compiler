@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A struct that can reference a top level asset such as '/Path/To/Package.AssetName'</summary>
 public partial struct FTopLevelAssetPath {
 // TopLevelAssetPath
-	public sbyte PackageName;
-	public sbyte AssetName;
+	public string PackageName;
+	public string AssetName;
 }

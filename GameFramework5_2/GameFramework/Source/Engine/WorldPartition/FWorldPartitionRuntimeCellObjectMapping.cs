@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("WorldPartition/WorldPartitionRuntimeCell.h")]
 public partial struct FWorldPartitionRuntimeCellObjectMapping {
 // WorldPartitionRuntimeCellObjectMapping
-	public sbyte Package;
-	public sbyte Path;
+	public string Package;
+	public string Path;
 	public FActorContainerID ContainerID;
 	public FTransform ContainerTransform;
-	public sbyte ContainerPackage;
-	public sbyte WorldPackage;
+	public string ContainerPackage;
+	public string WorldPackage;
 	public FGuid ContentBundleGuid;
-	public sbyte LoadedPath;
+	public string LoadedPath;
 }

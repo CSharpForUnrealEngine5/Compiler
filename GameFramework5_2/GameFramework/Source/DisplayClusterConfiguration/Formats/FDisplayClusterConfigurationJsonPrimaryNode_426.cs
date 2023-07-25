@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Formats/JSON426/DisplayClusterConfigurationJsonTypes_426.h")]
 public partial struct FDisplayClusterConfigurationJsonPrimaryNode_426 {
 // DisplayClusterConfigurationJsonPrimaryNode_426
-	public sbyte Id;
-	public TMap<sbyte,ushort> Ports;
+	public string Id;
+	public TMap<string,ushort> Ports;
 }

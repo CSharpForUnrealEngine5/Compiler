@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class ANiagaraPreviewBase : AActor {
 // NiagaraPreviewBase
 	public void SetSystem(UObject InSystem) {}
-	public void SetLabelText(sbyte InXAxisText,sbyte InYAxisText) {}
+	public void SetLabelText(string InXAxisText,string InYAxisText) {}
 }

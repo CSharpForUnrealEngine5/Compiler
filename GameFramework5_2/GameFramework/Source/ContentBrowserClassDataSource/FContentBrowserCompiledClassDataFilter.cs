@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FContentBrowserCompiledClassDataFilter {
 // ContentBrowserCompiledClassDataFilter
 	public TSet<UClass> ValidClasses;
-	public TSet<sbyte> ValidFolders;
+	public TSet<string> ValidFolders;
 }

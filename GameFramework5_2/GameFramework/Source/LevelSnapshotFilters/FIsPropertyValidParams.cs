@@ -9,5 +9,5 @@ public partial struct FIsPropertyValidParams {
 	public FPropertyContainerHandle SnapshotPropertyContainer;
 	public FPropertyContainerHandle LevelPropertyContainers;
 	public object Property;
-	public TArray<sbyte> PropertyPath;
+	public TArray<string> PropertyPath;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FGeneratedTexture {
 // GeneratedTexture
 	public int Id;
-	public sbyte Name;
+	public string Name;
 	public UTexture2D Texture;
 }

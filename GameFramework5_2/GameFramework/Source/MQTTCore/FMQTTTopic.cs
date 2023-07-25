@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MQTTShared.h")]
 public partial struct FMQTTTopic {
 // MQTTTopic
-	public sbyte Path;
+	public string Path;
 }

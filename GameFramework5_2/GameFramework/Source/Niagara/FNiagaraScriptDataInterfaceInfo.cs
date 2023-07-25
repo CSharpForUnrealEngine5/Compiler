@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraScriptDataInterfaceInfo {
 // NiagaraScriptDataInterfaceInfo
 	public UNiagaraDataInterface DataInterface;
-	public sbyte Name;
+	public string Name;
 	public int UserPtrIdx;
 	public FNiagaraTypeDefinition Type;
-	public sbyte RegisteredParameterMapRead;
-	public sbyte RegisteredParameterMapWrite;
+	public string RegisteredParameterMapRead;
+	public string RegisteredParameterMapWrite;
 }

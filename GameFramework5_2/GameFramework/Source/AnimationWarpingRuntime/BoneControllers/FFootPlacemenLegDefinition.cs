@@ -8,6 +8,6 @@ public partial struct FFootPlacemenLegDefinition {
 	public FBoneReference IKFootBone;
 	public FBoneReference BallBone;
 	public int NumBonesInLimb;
-	public sbyte SpeedCurveName;
-	public sbyte DisableLockCurveName;
+	public string SpeedCurveName;
+	public string DisableLockCurveName;
 }

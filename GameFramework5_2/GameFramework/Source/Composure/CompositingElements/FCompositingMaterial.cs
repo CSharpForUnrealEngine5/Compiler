@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial struct FCompositingMaterial {
 // CompositingMaterial
 	public UMaterialInterface Material;
-	public TMap<sbyte,sbyte> ParamPassMappings;
-	public TMap<sbyte,FNamedCompMaterialParam> RequiredMaterialParams;
-	public TArray<sbyte> EditorHiddenParams;
-	public TMap<sbyte,FLinearColor> VectorOverrideProxies;
+	public TMap<string,string> ParamPassMappings;
+	public TMap<string,FNamedCompMaterialParam> RequiredMaterialParams;
+	public TArray<string> EditorHiddenParams;
+	public TMap<string,FLinearColor> VectorOverrideProxies;
 	public UMaterialInstanceDynamic CachedMID;
 }

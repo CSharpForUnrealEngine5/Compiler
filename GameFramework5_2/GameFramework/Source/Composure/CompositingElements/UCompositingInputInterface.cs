@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UCompositingInputInterface : UInterface {
 // CompositingInputInterface
 	public void OnFrameBegin(UObject Proxy,bool bCameraCutThisFrame) {}
-	public UObject GenerateInput(UObject Proxy,UObject ReturnValue) { return default; }
+	public UObject GenerateInput(UObject Proxy) { return default; }
 	public void OnFrameEnd(UObject Proxy) {}
 }

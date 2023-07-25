@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FBoneFilter {
 // BoneFilter
 	public bool bExcludeSelf;
-	public sbyte BoneName;
+	public string BoneName;
 }

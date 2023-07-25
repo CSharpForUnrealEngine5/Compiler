@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DisplayClusterConfigurationTypes_Base.h")]
 public partial struct FDisplayClusterConfigurationClusterItemReferenceList {
 // DisplayClusterConfigurationClusterItemReferenceList
-	public TArray<sbyte> ItemNames;
+	public TArray<string> ItemNames;
 }

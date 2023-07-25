@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Blueprint function library to convert geospatial coordinates to text</summary>
 public partial class UGeoReferencingBFL : UBlueprintFunctionLibrary {
 // GeoReferencingBFL
-	public sbyte ToFullText(FVector CartesianCoordinates,int IntegralDigits=3,sbyte ReturnValue) { return default; }
-	public sbyte ToCompactText(FVector CartesianCoordinates,int IntegralDigits=3,sbyte ReturnValue) { return default; }
-	public void ToSeparateTexts(FVector CartesianCoordinates,sbyte OutX,sbyte OutY,sbyte OutZ,int IntegralDigits=3) {}
+	public string ToFullText(FVector CartesianCoordinates,int IntegralDigits/*=3*/) { return default; }
+	public string ToCompactText(FVector CartesianCoordinates,int IntegralDigits/*=3*/) { return default; }
+	public void ToSeparateTexts(FVector CartesianCoordinates,string OutX,string OutY,string OutZ,int IntegralDigits/*=3*/) {}
 }

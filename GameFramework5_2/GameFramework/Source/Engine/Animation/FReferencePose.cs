@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>This is a mapping table between bone in a particular skeletal mesh and bone of this skeleton set.</summary>
 public partial struct FReferencePose {
 // ReferencePose
-	public sbyte PoseName;
+	public string PoseName;
 	public TArray<FTransform> ReferencePose;
 	public TSoftObjectPtr<USkeletalMesh> SourceReferenceMesh;
 }

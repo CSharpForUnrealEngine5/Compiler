@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FSwarmPongMessage {
 // SwarmPongMessage
 	public bool bIsEditor;
-	public sbyte ComputerName;
+	public string ComputerName;
 }

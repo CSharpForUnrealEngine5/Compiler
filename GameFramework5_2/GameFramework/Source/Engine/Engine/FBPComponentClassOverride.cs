@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Utility struct to store class overrides for components.</summary>
 public partial struct FBPComponentClassOverride {
 // BPComponentClassOverride
-	public sbyte ComponentName;
+	public string ComponentName;
 	public UClass ComponentClass;
 }

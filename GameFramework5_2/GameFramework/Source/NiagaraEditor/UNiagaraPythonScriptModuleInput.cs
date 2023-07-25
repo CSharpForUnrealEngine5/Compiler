@@ -6,17 +6,17 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraPythonScriptModuleInput : UObject {
 // NiagaraPythonScriptModuleInput
 	public UNiagaraClipboardFunctionInput Input;
-	public bool IsSet(bool ReturnValue) { return default; }
-	public bool IsLocalValue(bool ReturnValue) { return default; }
-	public bool IsLinkedValue(bool ReturnValue) { return default; }
-	public float AsFloat(float ReturnValue) { return default; }
-	public int AsInt(int ReturnValue) { return default; }
-	public bool AsBool(bool ReturnValue) { return default; }
-	public FVector2D AsVec2(FVector2D ReturnValue) { return default; }
-	public FVector AsVec3(FVector ReturnValue) { return default; }
-	public FVector4 AsVec4(FVector4 ReturnValue) { return default; }
-	public FLinearColor AsColor(FLinearColor ReturnValue) { return default; }
-	public FQuat AsQuat(FQuat ReturnValue) { return default; }
-	public sbyte AsEnum(sbyte ReturnValue) { return default; }
-	public sbyte AsLinkedValue(sbyte ReturnValue) { return default; }
+	public bool IsSet() { return default; }
+	public bool IsLocalValue() { return default; }
+	public bool IsLinkedValue() { return default; }
+	public float AsFloat() { return default; }
+	public int AsInt() { return default; }
+	public bool AsBool() { return default; }
+	public FVector2D AsVec2() { return default; }
+	public FVector AsVec3() { return default; }
+	public FVector4 AsVec4() { return default; }
+	public FLinearColor AsColor() { return default; }
+	public FQuat AsQuat() { return default; }
+	public string AsEnum() { return default; }
+	public string AsLinkedValue() { return default; }
 }

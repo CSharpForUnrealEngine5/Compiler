@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A UInteractiveTool contains a set of UObjects that contain "properties" of the Tool, ie</summary>
 public partial class UInteractiveToolPropertySet : UObject {
 // InteractiveToolPropertySet
-	public TMap<sbyte,UInteractiveToolPropertySet> CachedPropertiesMap;
+	public TMap<string,UInteractiveToolPropertySet> CachedPropertiesMap;
 	public bool bIsPropertySetEnabled;
 }

@@ -5,16 +5,16 @@ using CSharpToCpp.Utilities;
 ///<summary>This structure describes metadata associated with a user declared function or macro</summary>
 public partial struct FKismetUserDeclaredFunctionMetadata {
 // KismetUserDeclaredFunctionMetadata
-	public sbyte ToolTip;
-	public sbyte Category;
-	public sbyte Keywords;
-	public sbyte CompactNodeTitle;
+	public string ToolTip;
+	public string Category;
+	public string Keywords;
+	public string CompactNodeTitle;
 	public FLinearColor InstanceTitleColor;
-	public sbyte DeprecationMessage;
+	public string DeprecationMessage;
 	public bool bIsDeprecated;
 	public bool bCallInEditor;
 	public bool bThreadSafe;
 	public bool bIsUnsafeDuringActorConstruction;
 	public short HasLatentFunctions;
-	public TMap<sbyte,sbyte> MetaDataMap;
+	public TMap<string,string> MetaDataMap;
 }

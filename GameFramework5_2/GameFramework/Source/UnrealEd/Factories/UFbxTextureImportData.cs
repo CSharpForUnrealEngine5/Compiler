@@ -8,11 +8,11 @@ public partial class UFbxTextureImportData : UFbxAssetImportData {
 	public bool bInvertNormalMaps;
 	public EMaterialSearchLocation MaterialSearchLocation;
 	public FSoftObjectPath BaseMaterialName;
-	public sbyte BaseColorName;
-	public sbyte BaseDiffuseTextureName;
-	public sbyte BaseNormalTextureName;
-	public sbyte BaseEmissiveColorName;
-	public sbyte BaseEmmisiveTextureName;
-	public sbyte BaseSpecularTextureName;
-	public sbyte BaseOpacityTextureName;
+	public string BaseColorName;
+	public string BaseDiffuseTextureName;
+	public string BaseNormalTextureName;
+	public string BaseEmissiveColorName;
+	public string BaseEmmisiveTextureName;
+	public string BaseSpecularTextureName;
+	public string BaseOpacityTextureName;
 }

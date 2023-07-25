@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UAbilityTask_MoveToLocation : UAbilityTask {
 // AbilityTask_MoveToLocation
 	public FMoveToLocationDelegate OnTargetLocationReached;
-	public UObject MoveToLocation(UObject OwningAbility,sbyte TaskInstanceName,FVector Location,float Duration,UObject OptionalInterpolationCurve,UObject OptionalVectorInterpolationCurve,UObject ReturnValue) { return default; }
+	public UObject MoveToLocation(UObject OwningAbility,string TaskInstanceName,FVector Location,float Duration,UObject OptionalInterpolationCurve,UObject OptionalVectorInterpolationCurve) { return default; }
 	public FVector StartLocation;
 	public FVector TargetLocation;
 	public float DurationOfMovement;

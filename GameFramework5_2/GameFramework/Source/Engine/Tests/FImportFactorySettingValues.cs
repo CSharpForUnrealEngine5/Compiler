@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds FProperty names and values to customize factory settings</summary>
 public partial struct FImportFactorySettingValues {
 // ImportFactorySettingValues
-	public sbyte SettingName;
-	public sbyte Value;
+	public string SettingName;
+	public string Value;
 }

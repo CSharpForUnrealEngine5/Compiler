@@ -6,18 +6,18 @@ using CSharpToCpp.Utilities;
 public partial struct FImageComparisonResult {
 // ImageComparisonResult
 	public FDateTime CreationTime;
-	public sbyte SourcePlatform;
-	public sbyte SourceRHI;
-	public sbyte IdealApprovedFolderPath;
-	public sbyte ApprovedFilePath;
-	public sbyte IncomingFilePath;
-	public sbyte ComparisonFilePath;
-	public sbyte ReportApprovedFilePath;
-	public sbyte ReportIncomingFilePath;
-	public sbyte ReportComparisonFilePath;
+	public string SourcePlatform;
+	public string SourceRHI;
+	public string IdealApprovedFolderPath;
+	public string ApprovedFilePath;
+	public string IncomingFilePath;
+	public string ComparisonFilePath;
+	public string ReportApprovedFilePath;
+	public string ReportIncomingFilePath;
+	public string ReportComparisonFilePath;
 	public double MaxLocalDifference;
 	public double GlobalDifference;
 	public FImageTolerance Tolerance;
-	public sbyte ErrorMessage;
+	public string ErrorMessage;
 	public int Version;
 }

@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Adds an attribute to Spatial data or to an Attribute Set, or creates a new Attribute Set if no</summary>
 public partial class UPCGCreateAttributeSettings : UPCGSettings {
 // PCGCreateAttributeSettings
-	public sbyte OutputAttributeName;
+	public string OutputAttributeName;
 	public bool bFromSourceParam;
 	public bool bDisplayFromSourceParamSetting;
-	public sbyte SourceParamAttributeName;
+	public string SourceParamAttributeName;
 	public FPCGMetadataTypesConstantStruct AttributeTypes;
 	public EPCGMetadataTypes Type_DEPRECATED;
 	public float FloatValue_DEPRECATED;
@@ -20,9 +20,9 @@ public partial class UPCGCreateAttributeSettings : UPCGSettings {
 	public FVector4 Vector4Value_DEPRECATED;
 	public FQuat QuatValue_DEPRECATED;
 	public FTransform TransformValue_DEPRECATED;
-	public sbyte StringValue_DEPRECATED;
+	public string StringValue_DEPRECATED;
 	public bool BoolValue_DEPRECATED;
 	public FRotator RotatorValue_DEPRECATED;
-	public sbyte NameValue_DEPRECATED;
+	public string NameValue_DEPRECATED;
 	public bool bKeepExistingAttributes_DEPRECATED;
 }

@@ -6,13 +6,13 @@ public partial struct FAnimGraphNodePropertyBinding {
 // AnimGraphNodePropertyBinding
 	public FEdGraphPinType PinType;
 	public FEdGraphPinType PromotedPinType;
-	public sbyte PropertyName;
+	public string PropertyName;
 	public int ArrayIndex;
-	public sbyte PathAsText;
-	public TArray<sbyte> PropertyPath;
-	public sbyte ContextId;
-	public sbyte CompiledContext;
-	public sbyte CompiledContextDesc;
+	public string PathAsText;
+	public TArray<string> PropertyPath;
+	public string ContextId;
+	public string CompiledContext;
+	public string CompiledContextDesc;
 	public EAnimGraphNodePropertyBindingType Type;
 	public bool bIsBound;
 	public bool bIsPromotion;

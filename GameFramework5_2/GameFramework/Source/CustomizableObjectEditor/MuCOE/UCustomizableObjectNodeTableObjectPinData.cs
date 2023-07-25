@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for all Table Pins.</summary>
 public partial class UCustomizableObjectNodeTableObjectPinData : UCustomizableObjectNodePinData {
 // CustomizableObjectNodeTableObjectPinData
-	public sbyte ColumnName;
+	public string ColumnName;
 }

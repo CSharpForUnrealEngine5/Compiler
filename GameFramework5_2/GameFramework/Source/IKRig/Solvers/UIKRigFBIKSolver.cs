@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Solvers/IKRig_FBIKSolver.h")]
 public partial class UIKRigFBIKSolver : UIKRigSolver {
 // IKRigFBIKSolver
-	public sbyte RootBone;
+	public string RootBone;
 	public int Iterations;
 	public float MassMultiplier;
 	public bool bAllowStretch;

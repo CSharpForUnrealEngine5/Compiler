@@ -6,5 +6,5 @@ public partial class USkeletalMeshFromStaticMeshFactory : UFactory {
 // SkeletalMeshFromStaticMeshFactory
 	public USkeleton Skeleton;
 	public UStaticMesh StaticMesh;
-	public sbyte BindBoneName;
+	public string BindBoneName;
 }

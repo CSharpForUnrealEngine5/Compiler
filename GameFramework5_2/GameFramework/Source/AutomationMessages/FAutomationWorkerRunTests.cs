@@ -7,8 +7,8 @@ public partial struct FAutomationWorkerRunTests {
 // AutomationWorkerRunTests
 	public uint ExecutionCount;
 	public int RoleIndex;
-	public sbyte TestName;
-	public sbyte BeautifiedTestName;
-	public sbyte FullTestPath;
+	public string TestName;
+	public string BeautifiedTestName;
+	public string FullTestPath;
 	public bool bSendAnalytics;
 }

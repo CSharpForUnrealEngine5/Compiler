@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>FMrcVideoCaptureFeedIndex</summary>
 public partial struct FMrcVideoCaptureFeedIndex {
 // MrcVideoCaptureFeedIndex
-	public sbyte DeviceURL;
+	public string DeviceURL;
 	public int StreamIndex;
 	public int FormatIndex;
 }

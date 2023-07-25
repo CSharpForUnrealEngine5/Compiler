@@ -5,28 +5,28 @@ using CSharpToCpp.Utilities;
 ///<summary>A particular job within the Queue</summary>
 public partial class UMoviePipelineExecutorJob : UObject {
 // MoviePipelineExecutorJob
-	public void SetStatusMessage(sbyte InStatus) {}
-	public sbyte GetStatusMessage(sbyte ReturnValue) { return default; }
+	public void SetStatusMessage(string InStatus) {}
+	public string GetStatusMessage() { return default; }
 	public void SetStatusProgress(float InProgress) {}
-	public float GetStatusProgress(float ReturnValue) { return default; }
+	public float GetStatusProgress() { return default; }
 	public void SetConsumed(bool bInConsumed) {}
-	public bool IsConsumed(bool ReturnValue) { return default; }
+	public bool IsConsumed() { return default; }
 	public void SetIsEnabled(bool bInEnabled) {}
-	public bool IsEnabled(bool ReturnValue) { return default; }
+	public bool IsEnabled() { return default; }
 	public void OnDuplicated() {}
 	public void SetPresetOrigin(UObject InPreset) {}
-	public UObject GetPresetOrigin(UObject ReturnValue) { return default; }
-	public UObject GetConfiguration(UObject ReturnValue) { return default; }
+	public UObject GetPresetOrigin() { return default; }
+	public UObject GetConfiguration() { return default; }
 	public void SetConfiguration(UObject InPreset) {}
 	public void SetSequence(FSoftObjectPath InSequence) {}
-	public sbyte JobName;
+	public string JobName;
 	public FSoftObjectPath Sequence;
 	public FSoftObjectPath Map;
-	public sbyte Author;
-	public sbyte Comment;
+	public string Author;
+	public string Comment;
 	public TArray<UMoviePipelineExecutorShot> ShotInfo;
-	public sbyte UserData;
-	public sbyte StatusMessage;
+	public string UserData;
+	public string StatusMessage;
 	public float StatusProgress;
 	public bool bIsConsumed;
 	public UMoviePipelinePrimaryConfig Configuration;

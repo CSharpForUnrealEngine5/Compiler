@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Message sent from a debugger client to a connected debugger containing the results of a sim cache capture.</summary>
 public partial struct FNiagaraSystemSimCacheCaptureReply {
 // NiagaraSystemSimCacheCaptureReply
-	public sbyte ComponentName;
+	public string ComponentName;
 	public TArray<byte> SimCacheData;
 }

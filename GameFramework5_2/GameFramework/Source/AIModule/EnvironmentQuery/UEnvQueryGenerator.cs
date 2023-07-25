@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("EnvironmentQuery/EnvQueryGenerator.h")]
 public partial class UEnvQueryGenerator : UEnvQueryNode {
 // EnvQueryGenerator
-	public sbyte OptionName;
+	public string OptionName;
 	public UClass ItemType;
 	public bool bAutoSortTests;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>This structure represents a baked transition rule inside a state</summary>
 public partial struct FAnimationTransitionRule {
 // AnimationTransitionRule
-	public sbyte RuleToExecute;
+	public string RuleToExecute;
 	public bool TransitionReturnVal;
 	public int TransitionIndex;
 }

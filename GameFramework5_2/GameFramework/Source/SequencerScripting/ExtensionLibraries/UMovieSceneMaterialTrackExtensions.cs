@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UMovieSceneMaterialTrackExtensions : UBlueprintFunctionLibrary {
 // MovieSceneMaterialTrackExtensions
 	public void SetMaterialIndex(UObject Track,int MaterialIndex) {}
-	public int GetMaterialIndex(UObject Track,int ReturnValue) { return default; }
+	public int GetMaterialIndex(UObject Track) { return default; }
 }

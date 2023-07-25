@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a tree hierarchy. Each node is called a group.</summary>
 public partial class UModifierHierarchyRules : UObject {
 // ModifierHierarchyRules
-	public sbyte GetRootNode(sbyte ReturnValue) { return default; }
-	public bool GetParentNode(sbyte ChildNode,sbyte ParentNode,bool ReturnValue) { return default; }
-	public TSet<sbyte> GetChildNodes(sbyte Node,TSet<sbyte> ReturnValue) { return default; }
-	public UObject GetModifierInNode(UObject Component,sbyte NodeName,UObject ReturnValue) { return default; }
-	public bool GetConnectionPointTargetForNode(sbyte GroupName,UObject Component,FVCamModifierConnectionBinding Connection,bool ReturnValue) { return default; }
-	public TSet<sbyte> GetNodesContainingModifier(UObject Modifier,TSet<sbyte> ReturnValue) { return default; }
+	public string GetRootNode() { return default; }
+	public bool GetParentNode(string ChildNode,string ParentNode) { return default; }
+	public TSet<string> GetChildNodes(string Node) { return default; }
+	public UObject GetModifierInNode(UObject Component,string NodeName) { return default; }
+	public bool GetConnectionPointTargetForNode(string GroupName,UObject Component,FVCamModifierConnectionBinding Connection) { return default; }
+	public TSet<string> GetNodesContainingModifier(UObject Modifier) { return default; }
 }

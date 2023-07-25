@@ -8,5 +8,5 @@ public partial class UBTDecorator_CheckGameplayTagsOnActor : UBTDecorator {
 	public FBlackboardKeySelector ActorToCheck;
 	public EGameplayContainerMatchType TagsToMatch;
 	public FGameplayTagContainer GameplayTags;
-	public sbyte CachedDescription;
+	public string CachedDescription;
 }

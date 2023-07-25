@@ -6,12 +6,12 @@ public partial class UWorldPartitionStreamingSourceComponent : UActorComponent {
 // WorldPartitionStreamingSourceComponent
 	public void EnableStreamingSource() {}
 	public void DisableStreamingSource() {}
-	public bool IsStreamingSourceEnabled(bool ReturnValue) { return default; }
-	public bool IsStreamingCompleted(bool ReturnValue) { return default; }
+	public bool IsStreamingSourceEnabled() { return default; }
+	public bool IsStreamingCompleted() { return default; }
 	public float DefaultVisualizerLoadingRange;
 	public EStreamingSourceTargetBehavior TargetBehavior;
-	public TArray<sbyte> TargetGrids;
-	public sbyte TargetGrid_DEPRECATED;
+	public TArray<string> TargetGrids;
+	public string TargetGrid_DEPRECATED;
 	public FColor DebugColor;
 	public TArray<UHLODLayer> TargetHLODLayers;
 	public UHLODLayer TargetHLODLayer_DEPRECATED;

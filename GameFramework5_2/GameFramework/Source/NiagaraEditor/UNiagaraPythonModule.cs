@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Wrapper for a module from the emitter stack.</summary>
 public partial class UNiagaraPythonModule : UObject {
 // NiagaraPythonModule
-	public UObject GetObject(UObject ReturnValue) { return default; }
+	public UObject GetObject() { return default; }
 	public UNiagaraStackModuleItem ModuleItem;
 }

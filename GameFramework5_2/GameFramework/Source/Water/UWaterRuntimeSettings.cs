@@ -8,7 +8,7 @@ public partial class UWaterRuntimeSettings : UDeveloperSettings {
 	public byte CollisionChannelForWaterTraces;
 	public TSoftObjectPtr<UMaterialParameterCollection> MaterialParameterCollection;
 	public float WaterBodyIconWorldZOffset;
-	public sbyte DefaultWaterCollisionProfileName;
+	public string DefaultWaterCollisionProfileName;
 	public TSoftObjectPtr<UMaterialInterface> DefaultWaterInfoMaterial;
 	public UClass WaterBodyRiverComponentClass;
 	public UClass WaterBodyLakeComponentClass;

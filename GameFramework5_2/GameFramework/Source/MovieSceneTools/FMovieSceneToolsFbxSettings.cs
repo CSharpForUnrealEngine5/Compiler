@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MovieSceneToolsProjectSettings.h")]
 public partial struct FMovieSceneToolsFbxSettings {
 // MovieSceneToolsFbxSettings
-	public sbyte FbxPropertyName;
+	public string FbxPropertyName;
 	public FMovieSceneToolsPropertyTrackSettings PropertyPath;
 	public EMovieSceneToolsPropertyTrackType PropertyType;
 }

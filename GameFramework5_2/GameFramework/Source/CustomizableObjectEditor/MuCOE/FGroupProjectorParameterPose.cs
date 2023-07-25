@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeGroupProjectorParameter.h")]
 public partial struct FGroupProjectorParameterPose {
 // GroupProjectorParameterPose
-	public sbyte PoseName;
+	public string PoseName;
 	public UPoseAsset OptionPose;
 }

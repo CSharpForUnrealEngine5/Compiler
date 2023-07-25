@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UPCGMetadataBreakTransformSettings : UPCGMetadataSettingsBase {
 // PCGMetadataBreakTransformSettings
 	public FPCGAttributePropertySelector InputSource;
-	public sbyte InputAttributeName_DEPRECATED;
+	public string InputAttributeName_DEPRECATED;
 }

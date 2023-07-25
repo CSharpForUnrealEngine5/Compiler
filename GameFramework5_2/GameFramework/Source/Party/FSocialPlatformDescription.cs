@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("SocialSettings.h")]
 public partial struct FSocialPlatformDescription {
 // SocialPlatformDescription
-	public sbyte Name;
-	public sbyte PlatformType;
-	public sbyte OnlineSubsystem;
-	public sbyte SessionType;
-	public sbyte ExternalAccountType;
-	public sbyte CrossplayPool;
+	public string Name;
+	public string PlatformType;
+	public string OnlineSubsystem;
+	public string SessionType;
+	public string ExternalAccountType;
+	public string CrossplayPool;
 }

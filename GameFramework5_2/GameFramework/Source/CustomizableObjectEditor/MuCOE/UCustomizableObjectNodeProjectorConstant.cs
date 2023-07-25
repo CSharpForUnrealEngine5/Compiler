@@ -9,5 +9,5 @@ public partial class UCustomizableObjectNodeProjectorConstant : UCustomizableObj
 	public ECustomizableObjectProjectorType ProjectionType;
 	public float ProjectionAngle;
 	public uint ReferenceSkeletonIndex;
-	public sbyte ProjectorBone;
+	public string ProjectorBone;
 }

@@ -8,5 +8,5 @@ public partial class UTexAligner : UObject {
 	public byte TAxis;
 	public float UTile;
 	public float VTile;
-	public sbyte Desc;
+	public string Desc;
 }

@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraScript.h")]
 public partial struct FNiagaraModuleDependency {
 // NiagaraModuleDependency
-	public sbyte Id;
+	public string Id;
 	public ENiagaraModuleDependencyType Type;
 	public ENiagaraModuleDependencyScriptConstraint ScriptConstraint;
-	public sbyte RequiredVersion;
+	public string RequiredVersion;
 	public int OnlyEvaluateInScriptUsage;
-	public sbyte Description;
+	public string Description;
 }

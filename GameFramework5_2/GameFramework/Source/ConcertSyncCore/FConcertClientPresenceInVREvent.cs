@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertPresenceEvents.h")]
 public partial struct FConcertClientPresenceInVREvent {
 // ConcertClientPresenceInVREvent
-	public sbyte VRDevice;
+	public string VRDevice;
 }

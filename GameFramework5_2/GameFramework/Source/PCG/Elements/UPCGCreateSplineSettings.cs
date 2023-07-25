@@ -9,6 +9,6 @@ public partial class UPCGCreateSplineSettings : UPCGSettings {
 	public bool bClosedLoop;
 	public bool bLinear;
 	public bool bApplyCustomTangents;
-	public sbyte ArriveTangentAttribute;
-	public sbyte LeaveTangentAttribute;
+	public string ArriveTangentAttribute;
+	public string LeaveTangentAttribute;
 }

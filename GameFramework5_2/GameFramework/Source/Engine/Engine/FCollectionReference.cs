@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Reference to an editor collection of assets. This allows an editor-only picker UI</summary>
 public partial struct FCollectionReference {
 // CollectionReference
-	public sbyte CollectionName;
+	public string CollectionName;
 }

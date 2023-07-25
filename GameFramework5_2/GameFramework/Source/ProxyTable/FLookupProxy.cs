@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FLookupProxy {
 // LookupProxy
 	public FInstancedStruct ProxyTable;
-	public sbyte Key;
+	public string Key;
 }

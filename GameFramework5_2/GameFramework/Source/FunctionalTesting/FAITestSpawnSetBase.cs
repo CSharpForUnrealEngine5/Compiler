@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>FAITestSpawnSetBase</summary>
 public partial struct FAITestSpawnSetBase {
 // AITestSpawnSetBase
-	public sbyte Name;
+	public string Name;
 	public bool bEnabled;
 	public AActor FallbackSpawnLocation;
 }

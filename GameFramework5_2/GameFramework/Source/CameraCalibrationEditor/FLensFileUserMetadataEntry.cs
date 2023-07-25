@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LensFileExchangeFormat.h")]
 public partial struct FLensFileUserMetadataEntry {
 // LensFileUserMetadataEntry
-	public sbyte Name;
-	public sbyte Value;
+	public string Name;
+	public string Value;
 }

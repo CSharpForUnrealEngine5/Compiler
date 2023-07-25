@@ -43,7 +43,7 @@ public partial class ULightComponent : ULightComponentBase {
 	public void SetIntensity(float NewIntensity) {}
 	public void SetIndirectLightingIntensity(float NewIntensity) {}
 	public void SetVolumetricScatteringIntensity(float NewIntensity) {}
-	public void SetLightColor(FLinearColor NewLightColor,bool bSRGB=true) {}
+	public void SetLightColor(FLinearColor NewLightColor,bool bSRGB/*=true*/) {}
 	public void SetLightFColor(FColor NewLightColor) {}
 	public void SetTemperature(float NewTemperature) {}
 	public void SetUseTemperature(bool bNewValue) {}

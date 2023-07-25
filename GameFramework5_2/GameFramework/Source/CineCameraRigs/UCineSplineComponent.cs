@@ -11,14 +11,14 @@ public partial class UCineSplineComponent : USplineComponent {
 	public void SetFocusDistanceAtSplinePoint(int PointIndex,float value) {}
 	public void SetAbsolutePositionAtSplinePoint(int PointIndex,float value) {}
 	public void SetPointRotationAtSplinePoint(int PointIndex,FQuat value) {}
-	public bool FindSplineDataAtPosition(float InPosition,int OutIndex,float Tolerance=0.001f,bool ReturnValue) { return default; }
+	public bool FindSplineDataAtPosition(float InPosition,int OutIndex,float Tolerance/*=0.001f*/) { return default; }
 	public void UpdateSplineDataAtIndex(int InIndex,FCineSplinePointData InPointData) {}
 	public void AddSplineDataAtPosition(float InPosition,FCineSplinePointData InPointData) {}
-	public FCineSplinePointData GetSplineDataAtPosition(float InPosition,FCineSplinePointData ReturnValue) { return default; }
-	public float GetInputKeyAtPosition(float InPosition,float ReturnValue) { return default; }
-	public float GetPositionAtInputKey(float InKey,float ReturnValue) { return default; }
-	public FQuat GetPointRotationAtSplinePoint(int Index,FQuat ReturnValue) { return default; }
-	public FQuat GetPointRotationAtSplineInputKey(float InKey,FQuat ReturnValue) { return default; }
+	public FCineSplinePointData GetSplineDataAtPosition(float InPosition) { return default; }
+	public float GetInputKeyAtPosition(float InPosition) { return default; }
+	public float GetPositionAtInputKey(float InKey) { return default; }
+	public FQuat GetPointRotationAtSplinePoint(int Index) { return default; }
+	public FQuat GetPointRotationAtSplineInputKey(float InKey) { return default; }
 	public void FOnSplineEdited_BP() {}
 	public FOnSplineEdited_BP OnSplineEdited_BP;
 }

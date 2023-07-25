@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("VPBookmarkContext.h")]
 public partial struct FVPBookmarkCreationContext {
 // VPBookmarkCreationContext
-	public sbyte ConcertCreator;
-	public sbyte CategoryName;
-	public sbyte DisplayName;
+	public string ConcertCreator;
+	public string CategoryName;
+	public string DisplayName;
 }

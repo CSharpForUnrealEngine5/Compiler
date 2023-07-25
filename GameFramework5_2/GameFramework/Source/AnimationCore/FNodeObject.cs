@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A node in a named hierarchy</summary>
 public partial struct FNodeObject {
 // NodeObject
-	public sbyte Name;
-	public sbyte ParentName;
+	public string Name;
+	public string ParentName;
 }

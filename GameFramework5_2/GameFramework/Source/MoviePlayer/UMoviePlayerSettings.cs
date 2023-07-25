@@ -7,5 +7,5 @@ public partial class UMoviePlayerSettings : UObject {
 // MoviePlayerSettings
 	public bool bWaitForMoviesToComplete;
 	public bool bMoviesAreSkippable;
-	public TArray<sbyte> StartupMovies;
+	public TArray<string> StartupMovies;
 }

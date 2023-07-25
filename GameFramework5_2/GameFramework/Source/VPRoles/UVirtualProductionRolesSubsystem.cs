@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>Subsystem for common Virtual Production roles operations.</summary>
 public partial class UVirtualProductionRolesSubsystem : UEngineSubsystem {
 // VirtualProductionRolesSubsystem
-	public void FOnRolesChanged(TArray<sbyte> EnabledRoles) {}
-	public TArray<sbyte> GetActiveRoles(TArray<sbyte> ReturnValue) { return default; }
-	public bool HasActiveRole(sbyte Role,bool ReturnValue) { return default; }
-	public sbyte GetActiveRolesString(sbyte ReturnValue) { return default; }
-	public void SetActiveRoles(TArray<sbyte> Roles) {}
-	public TArray<sbyte> GetAllRoles(TArray<sbyte> ReturnValue) { return default; }
-	public bool AddRole(sbyte RoleName,bool ReturnValue) { return default; }
-	public bool RemoveRole(sbyte RoleName,bool ReturnValue) { return default; }
+	public void FOnRolesChanged(TArray<string> EnabledRoles) {}
+	public TArray<string> GetActiveRoles() { return default; }
+	public bool HasActiveRole(string Role) { return default; }
+	public string GetActiveRolesString() { return default; }
+	public void SetActiveRoles(TArray<string> Roles) {}
+	public TArray<string> GetAllRoles() { return default; }
+	public bool AddRole(string RoleName) { return default; }
+	public bool RemoveRole(string RoleName) { return default; }
 	public FOnRolesChanged OnRolesChangedBP;
 }

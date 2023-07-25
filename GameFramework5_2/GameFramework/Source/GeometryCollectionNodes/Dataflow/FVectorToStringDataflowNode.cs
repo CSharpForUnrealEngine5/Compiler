@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FVectorToStringDataflowNode {
 // VectorToStringDataflowNode
 	public FVector Vector;
-	public sbyte String;
+	public string String;
 }

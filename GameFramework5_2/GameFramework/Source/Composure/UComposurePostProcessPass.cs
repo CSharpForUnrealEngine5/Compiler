@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UComposurePostProcessPass : USceneComponent {
 // ComposurePostProcessPass
 	public void SetSetupMaterial(UObject Material) {}
-	public UObject GetSetupMaterial(UObject ReturnValue) { return default; }
-	public UObject GetOutputRenderTarget(UObject ReturnValue) { return default; }
+	public UObject GetSetupMaterial() { return default; }
+	public UObject GetOutputRenderTarget() { return default; }
 	public void SetOutputRenderTarget(UObject RenderTarget) {}
 	public USceneCaptureComponent2D SceneCapture;
 	public UComposurePostProcessBlendable BlendableInterface;

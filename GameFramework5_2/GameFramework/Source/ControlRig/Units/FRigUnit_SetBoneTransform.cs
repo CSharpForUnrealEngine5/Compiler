@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetBoneTransform is used to perform a change in the hierarchy by setting a single bone's transform.</summary>
 public partial struct FRigUnit_SetBoneTransform {
 // RigUnit_SetBoneTransform
-	public sbyte Bone;
+	public string Bone;
 	public FTransform Transform;
 	public FTransform Result;
 	public ERigVMTransformSpace Space;

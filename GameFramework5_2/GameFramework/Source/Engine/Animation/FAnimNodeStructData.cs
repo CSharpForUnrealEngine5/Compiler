@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Data about editor-side struct property indices.</summary>
 public partial struct FAnimNodeStructData {
 // AnimNodeStructData
-	public TMap<sbyte,int> NameToIndexMap;
+	public TMap<string,int> NameToIndexMap;
 	public int NumProperties;
 }

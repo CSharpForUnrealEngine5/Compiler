@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A named bundle of filmback settings used to implement filmback presets</summary>
 public partial struct FNamedFilmbackPreset {
 // NamedFilmbackPreset
-	public sbyte Name;
+	public string Name;
 	public FCameraFilmbackSettings FilmbackSettings;
 }

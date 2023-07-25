@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("IKRigDefinition.h")]
 public partial struct FRetargetDefinition {
 // RetargetDefinition
-	public sbyte RootBone;
+	public string RootBone;
 	public TArray<FBoneChain> BoneChains;
 }

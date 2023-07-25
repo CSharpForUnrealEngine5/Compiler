@@ -7,6 +7,6 @@ public partial class UNiagaraNodeEmitter : UNiagaraNodeWithDynamicPins {
 // NiagaraNodeEmitter
 	public UNiagaraSystem OwnerSystem;
 	public FGuid EmitterHandleId;
-	public sbyte DisplayName;
+	public string DisplayName;
 	public ENiagaraScriptUsage ScriptType;
 }

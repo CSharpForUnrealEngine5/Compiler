@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FPCGTaggedData {
 // PCGTaggedData
 	public UPCGData Data;
-	public TSet<sbyte> Tags;
-	public sbyte Pin;
+	public TSet<string> Tags;
+	public string Pin;
 	public bool bPinlessData;
 }

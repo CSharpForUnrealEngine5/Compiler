@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("TemplateProjectDefs.h")]
 public partial struct FTemplateFolderRename {
 // TemplateFolderRename
-	public sbyte From;
-	public sbyte To;
+	public string From;
+	public string To;
 }

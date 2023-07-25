@@ -5,19 +5,19 @@ using CSharpToCpp.Utilities;
 ///<summary>This structure represents a context dependent action, with sufficient information for the schema to perform it.</summary>
 public partial struct FEdGraphSchemaAction {
 // EdGraphSchemaAction
-	public sbyte MenuDescription;
-	public sbyte TooltipDescription;
-	public sbyte Category;
-	public sbyte Keywords;
+	public string MenuDescription;
+	public string TooltipDescription;
+	public string Category;
+	public string Keywords;
 	public int Grouping;
 	public int SectionID;
-	public TArray<sbyte> MenuDescriptionArray;
-	public TArray<sbyte> FullSearchTitlesArray;
-	public TArray<sbyte> FullSearchKeywordsArray;
-	public TArray<sbyte> FullSearchCategoryArray;
-	public TArray<sbyte> LocalizedMenuDescriptionArray;
-	public TArray<sbyte> LocalizedFullSearchTitlesArray;
-	public TArray<sbyte> LocalizedFullSearchKeywordsArray;
-	public TArray<sbyte> LocalizedFullSearchCategoryArray;
-	public sbyte SearchText;
+	public TArray<string> MenuDescriptionArray;
+	public TArray<string> FullSearchTitlesArray;
+	public TArray<string> FullSearchKeywordsArray;
+	public TArray<string> FullSearchCategoryArray;
+	public TArray<string> LocalizedMenuDescriptionArray;
+	public TArray<string> LocalizedFullSearchTitlesArray;
+	public TArray<string> LocalizedFullSearchKeywordsArray;
+	public TArray<string> LocalizedFullSearchCategoryArray;
+	public string SearchText;
 }

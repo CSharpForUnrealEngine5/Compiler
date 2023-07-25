@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigEditor/IKRigEditorController.h")]
 public partial class UIKRigBoneDetails : UObject {
 // IKRigBoneDetails
-	public sbyte SelectedBone;
+	public string SelectedBone;
 	public FTransform CurrentTransform;
 	public FTransform ReferenceTransform;
 	public TWeakObjectPtr<UAnimInstance> AnimInstancePtr;

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Particles/ParticleSystem.h")]
 public partial struct FNamedEmitterMaterial {
 // NamedEmitterMaterial
-	public sbyte Name;
+	public string Name;
 	public UMaterialInterface Material;
 }

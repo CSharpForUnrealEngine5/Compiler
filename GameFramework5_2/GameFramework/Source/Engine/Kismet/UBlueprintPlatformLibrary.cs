@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 public partial class UBlueprintPlatformLibrary : UBlueprintFunctionLibrary {
 // BlueprintPlatformLibrary
 	public void ClearAllLocalNotifications() {}
-	public int ScheduleLocalNotificationAtTime(FDateTime FireDateTime,bool LocalTime,sbyte Title,sbyte Body,sbyte Action,sbyte ActivationEvent,int ReturnValue) { return default; }
-	public int ScheduleLocalNotificationFromNow(int inSecondsFromNow,sbyte Title,sbyte Body,sbyte Action,sbyte ActivationEvent,int ReturnValue) { return default; }
-	public int ScheduleLocalNotificationBadgeAtTime(FDateTime FireDateTime,bool LocalTime,sbyte ActivationEvent,int ReturnValue) { return default; }
-	public void ScheduleLocalNotificationBadgeFromNow(int inSecondsFromNow,sbyte ActivationEvent) {}
-	public void CancelLocalNotification(sbyte ActivationEvent) {}
+	public int ScheduleLocalNotificationAtTime(FDateTime FireDateTime,bool LocalTime,string Title,string Body,string Action,string ActivationEvent) { return default; }
+	public int ScheduleLocalNotificationFromNow(int inSecondsFromNow,string Title,string Body,string Action,string ActivationEvent) { return default; }
+	public int ScheduleLocalNotificationBadgeAtTime(FDateTime FireDateTime,bool LocalTime,string ActivationEvent) { return default; }
+	public void ScheduleLocalNotificationBadgeFromNow(int inSecondsFromNow,string ActivationEvent) {}
+	public void CancelLocalNotification(string ActivationEvent) {}
 	public void CancelLocalNotificationById(int NotificationId) {}
-	public void GetLaunchNotification(bool NotificationLaunchedApp,sbyte ActivationEvent,int FireDate) {}
-	public EScreenOrientation GetDeviceOrientation(EScreenOrientation ReturnValue) { return default; }
-	public EScreenOrientation GetAllowedDeviceOrientation(EScreenOrientation ReturnValue) { return default; }
+	public void GetLaunchNotification(bool NotificationLaunchedApp,string ActivationEvent,int FireDate) {}
+	public EScreenOrientation GetDeviceOrientation() { return default; }
+	public EScreenOrientation GetAllowedDeviceOrientation() { return default; }
 	public void SetAllowedDeviceOrientation(EScreenOrientation NewAllowedDeviceOrientation) {}
 }

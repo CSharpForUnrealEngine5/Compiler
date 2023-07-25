@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigVMModel/Nodes/RigVMTemplateNode.h")]
 public partial struct FRigVMTemplatePreferredType {
 // RigVMTemplatePreferredType
-	public sbyte Argument;
+	public string Argument;
 	public int TypeIndex;
-	public sbyte TypeString;
+	public string TypeString;
 }

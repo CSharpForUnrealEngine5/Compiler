@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Actor container class used to duplicate actors during cells streaming in PIE</summary>
 public partial class UActorContainer : UObject {
 // ActorContainer
-	public TMap<sbyte,AActor> Actors;
+	public TMap<string,AActor> Actors;
 }

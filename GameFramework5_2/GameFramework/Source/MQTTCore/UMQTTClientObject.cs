@@ -12,12 +12,12 @@ public partial class UMQTTClientObject : UObject {
 	public void FOnMessageDelegate(FMQTTClientMessage Message) {}
 	public void Connect(FOnConnectDelegate InOnConnect) {}
 	public void Disconnect(FOnDisconnectDelegate InOnDisconnect) {}
-	public void Publish(sbyte InTopic,TArray<byte> InPayload,EMQTTQualityOfService InQoS=EMQTTQualityOfService,bool bInRetain=false) {}
-	public UObject Subscribe(sbyte InTopic,EMQTTQualityOfService InQoS=EMQTTQualityOfService,UObject ReturnValue) { return default; }
-	public TArray<UObject> SubscribeMany(TArray<sbyte> InTopics,TArray<EMQTTQualityOfService> InQoS,TArray<UObject> ReturnValue) { return default; }
-	public void Unsubscribe(sbyte InTopic) {}
-	public sbyte GetClientId(sbyte ReturnValue) { return default; }
-	public FMQTTURL GetURL(FMQTTURL ReturnValue) { return default; }
+	public void Publish(string InTopic,TArray<byte> InPayload,EMQTTQualityOfService InQoS/*=EMQTTQualityOfService.Once*/,bool bInRetain/*=false*/) {}
+	public UObject Subscribe(string InTopic,EMQTTQualityOfService InQoS/*=EMQTTQualityOfService.Once*/) { return default; }
+	public TArray<UObject> SubscribeMany(TArray<string> InTopics,TArray<EMQTTQualityOfService> InQoS) { return default; }
+	public void Unsubscribe(string InTopic) {}
+	public string GetClientId() { return default; }
+	public FMQTTURL GetURL() { return default; }
 	public FOnConnectDelegate OnConnectDelegate;
 	public FOnDisconnectDelegate OnDisconnectDelegate;
 	public FOnMessageDelegate OnMessageDelegate;

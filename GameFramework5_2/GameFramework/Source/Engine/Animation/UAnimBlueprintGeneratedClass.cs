@@ -7,11 +7,11 @@ public partial class UAnimBlueprintGeneratedClass : UBlueprintGeneratedClass {
 	public TArray<FBakedAnimationStateMachine> BakedStateMachines;
 	public USkeleton TargetSkeleton;
 	public TArray<FAnimNotifyEvent> AnimNotifies;
-	public TMap<sbyte,FCachedPoseIndices> OrderedSavedPoseIndicesMap;
-	public TArray<sbyte> SyncGroupNames;
+	public TMap<string,FCachedPoseIndices> OrderedSavedPoseIndicesMap;
+	public TArray<string> SyncGroupNames;
 	public TArray<FExposedValueHandler> EvaluateGraphExposedInputs_DEPRECATED;
-	public TMap<sbyte,FGraphAssetPlayerInformation> GraphAssetPlayerInformation;
-	public TMap<sbyte,FAnimGraphBlendOptions> GraphBlendOptions;
+	public TMap<string,FGraphAssetPlayerInformation> GraphAssetPlayerInformation;
+	public TMap<string,FAnimGraphBlendOptions> GraphBlendOptions;
 	public TArray<FAnimNodeData> AnimNodeData;
 	public TMap<UScriptStruct,FAnimNodeStructData> NodeTypeMap;
 }

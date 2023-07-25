@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("ARTrackable.h")]
 public partial class UARPlaneGeometry : UARTrackedGeometry {
 // ARPlaneGeometry
-	public FVector GetCenter(FVector ReturnValue) { return default; }
-	public FVector GetExtent(FVector ReturnValue) { return default; }
-	public TArray<FVector> GetBoundaryPolygonInLocalSpace(TArray<FVector> ReturnValue) { return default; }
-	public UObject GetSubsumedBy(UObject ReturnValue) { return default; }
-	public EARPlaneOrientation GetOrientation(EARPlaneOrientation ReturnValue) { return default; }
+	public FVector GetCenter() { return default; }
+	public FVector GetExtent() { return default; }
+	public TArray<FVector> GetBoundaryPolygonInLocalSpace() { return default; }
+	public UObject GetSubsumedBy() { return default; }
+	public EARPlaneOrientation GetOrientation() { return default; }
 	public EARPlaneOrientation Orientation;
 	public FVector Center;
 	public FVector Extent;

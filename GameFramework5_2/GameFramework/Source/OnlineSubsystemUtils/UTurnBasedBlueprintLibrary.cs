@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Library of synchronous achievement calls</summary>
 public partial class UTurnBasedBlueprintLibrary : UBlueprintFunctionLibrary {
 // TurnBasedBlueprintLibrary
-	public void GetIsMyTurn(UObject WorldContextObject,UObject PlayerController,sbyte MatchID,bool bIsMyTurn) {}
-	public void GetMyPlayerIndex(UObject WorldContextObject,UObject PlayerController,sbyte MatchID,int PlayerIndex) {}
+	public void GetIsMyTurn(UObject WorldContextObject,UObject PlayerController,string MatchID,bool bIsMyTurn) {}
+	public void GetMyPlayerIndex(UObject WorldContextObject,UObject PlayerController,string MatchID,int PlayerIndex) {}
 	public void RegisterTurnBasedMatchInterfaceObject(UObject WorldContextObject,UObject PlayerController,UObject Object) {}
-	public void GetPlayerDisplayName(UObject WorldContextObject,UObject PlayerController,sbyte MatchID,int PlayerIndex,sbyte PlayerDisplayName) {}
+	public void GetPlayerDisplayName(UObject WorldContextObject,UObject PlayerController,string MatchID,int PlayerIndex,string PlayerDisplayName) {}
 }

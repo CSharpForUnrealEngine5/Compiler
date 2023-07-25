@@ -7,14 +7,14 @@ public partial class UMovieSceneToolsProjectSettings : UObject {
 // MovieSceneToolsProjectSettings
 	public float DefaultStartTime;
 	public float DefaultDuration;
-	public sbyte ShotDirectory;
-	public sbyte ShotPrefix;
+	public string ShotDirectory;
+	public string ShotPrefix;
 	public uint FirstShotNumber;
 	public uint ShotIncrement;
 	public uint ShotNumDigits;
 	public uint TakeNumDigits;
 	public uint FirstTakeNumber;
-	public sbyte TakeSeparator;
-	public sbyte SubSequenceSeparator;
+	public string TakeSeparator;
+	public string SubSequenceSeparator;
 	public TArray<FMovieSceneToolsFbxSettings> FbxSettings;
 }

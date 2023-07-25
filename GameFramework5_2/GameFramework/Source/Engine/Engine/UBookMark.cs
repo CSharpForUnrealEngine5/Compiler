@@ -7,5 +7,5 @@ public partial class UBookMark : UBookmarkBase {
 // BookMark
 	public FVector Location;
 	public FRotator Rotation;
-	public TArray<sbyte> HiddenLevels;
+	public TArray<string> HiddenLevels;
 }

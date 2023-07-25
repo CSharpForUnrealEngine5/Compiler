@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("AndroidDeviceProfileMatchingRules.h")]
 public partial struct FProfileMatch {
 // ProfileMatch
-	public sbyte Profile;
+	public string Profile;
 	public TArray<FProfileMatchItem> Match;
 }

@@ -8,7 +8,7 @@ public partial class UBTTask_BlueprintBase : UBTTaskNode {
 	public AAIController AIOwner;
 	public AActor ActorOwner;
 	public FIntervalCountdown TickInterval;
-	public sbyte CustomDescription;
+	public string CustomDescription;
 	public bool bShowPropertyDetails;
 	public void ReceiveExecute(UObject OwnerActor) {}
 	public void ReceiveAbort(UObject OwnerActor) {}
@@ -18,8 +18,8 @@ public partial class UBTTask_BlueprintBase : UBTTaskNode {
 	public void ReceiveTickAI(UObject OwnerController,UObject ControlledPawn,float DeltaSeconds) {}
 	public void FinishExecute(bool bSuccess) {}
 	public void FinishAbort() {}
-	public void SetFinishOnMessage(sbyte MessageName) {}
-	public void SetFinishOnMessageWithId(sbyte MessageName,int RequestID=-1) {}
-	public bool IsTaskExecuting(bool ReturnValue) { return default; }
-	public bool IsTaskAborting(bool ReturnValue) { return default; }
+	public void SetFinishOnMessage(string MessageName) {}
+	public void SetFinishOnMessageWithId(string MessageName,int RequestID/*=-1*/) {}
+	public bool IsTaskExecuting() { return default; }
+	public bool IsTaskAborting() { return default; }
 }

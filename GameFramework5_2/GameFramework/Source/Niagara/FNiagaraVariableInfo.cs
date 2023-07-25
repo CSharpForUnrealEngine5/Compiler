@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraVariableInfo {
 // NiagaraVariableInfo
 	public FNiagaraVariable Variable;
-	public sbyte Definition;
+	public string Definition;
 	public UNiagaraDataInterface DataInterface;
 }

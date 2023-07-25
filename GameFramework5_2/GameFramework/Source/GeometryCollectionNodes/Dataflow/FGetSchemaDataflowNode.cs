@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FGetSchemaDataflowNode {
 // GetSchemaDataflowNode
 	public FManagedArrayCollection Collection;
-	public sbyte String;
+	public string String;
 }

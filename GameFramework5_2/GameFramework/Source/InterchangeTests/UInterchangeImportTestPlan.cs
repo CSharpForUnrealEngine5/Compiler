@@ -7,6 +7,6 @@ public partial class UInterchangeImportTestPlan : UObject {
 // InterchangeImportTestPlan
 	public TArray<UInterchangeImportTestStepBase> Steps;
 	public bool bIsEnabledInAutomationTests;
-	public sbyte DisabledTestReason;
+	public string DisabledTestReason;
 	public void RunThisTest() {}
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraPreviewGrid.h")]
 public partial class UNiagaraPreviewAxis_InterpParamBase : UNiagaraPreviewAxis {
 // NiagaraPreviewAxis_InterpParamBase
-	public sbyte Param;
+	public string Param;
 	public int Count;
 }

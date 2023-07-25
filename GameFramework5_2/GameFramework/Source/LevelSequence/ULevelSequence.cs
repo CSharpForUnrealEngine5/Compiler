@@ -8,12 +8,12 @@ public partial class ULevelSequence : UMovieSceneSequence {
 	public UMovieScene MovieScene;
 	public FLevelSequenceObjectReferenceMap ObjectReferences;
 	public FLevelSequenceBindingReferences BindingReferences;
-	public TMap<sbyte,FLevelSequenceObject> PossessedObjects_DEPRECATED;
+	public TMap<string,FLevelSequenceObject> PossessedObjects_DEPRECATED;
 	public UBlueprint DirectorBlueprint;
 	public UClass DirectorClass;
-	public UObject FindMetaDataByClass(UClass InClass,UObject ReturnValue) { return default; }
-	public UObject FindOrAddMetaDataByClass(UClass InClass,UObject ReturnValue) { return default; }
-	public UObject CopyMetaData(UObject InMetaData,UObject ReturnValue) { return default; }
+	public UObject FindMetaDataByClass(UClass InClass) { return default; }
+	public UObject FindOrAddMetaDataByClass(UClass InClass) { return default; }
+	public UObject CopyMetaData(UObject InMetaData) { return default; }
 	public void RemoveMetaDataByClass(UClass InClass) {}
 	public TArray<UObject> MetaDataObjects;
 	public TArray<UAssetUserData> AssetUserData;

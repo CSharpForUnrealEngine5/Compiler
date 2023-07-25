@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>The combobox allows you to display a list of options to the user in a dropdown menu for them to select one.</summary>
 public partial class UComboBoxString : UWidget {
 // ComboBoxString
-	public void FOnSelectionChangedEvent(sbyte SelectedItem,ESelectInfo SelectionType) {}
+	public void FOnSelectionChangedEvent(string SelectedItem,ESelectInfo SelectionType) {}
 	public void FOnOpeningEvent() {}
-	public TArray<sbyte> DefaultOptions;
-	public sbyte SelectedOption;
+	public TArray<string> DefaultOptions;
+	public string SelectedOption;
 	public FComboBoxStyle WidgetStyle;
 	public FTableRowStyle ItemStyle;
 	public FScrollBarStyle ScrollBarStyle;
@@ -22,17 +22,17 @@ public partial class UComboBoxString : UWidget {
 	public FGenerateWidgetForString OnGenerateWidgetEvent;
 	public FOnSelectionChangedEvent OnSelectionChanged;
 	public FOnOpeningEvent OnOpening;
-	public void AddOption(sbyte Option) {}
-	public bool RemoveOption(sbyte Option,bool ReturnValue) { return default; }
-	public int FindOptionIndex(sbyte Option,int ReturnValue) { return default; }
-	public sbyte GetOptionAtIndex(int Index,sbyte ReturnValue) { return default; }
+	public void AddOption(string Option) {}
+	public bool RemoveOption(string Option) { return default; }
+	public int FindOptionIndex(string Option) { return default; }
+	public string GetOptionAtIndex(int Index) { return default; }
 	public void ClearOptions() {}
 	public void ClearSelection() {}
 	public void RefreshOptions() {}
-	public void SetSelectedOption(sbyte Option) {}
+	public void SetSelectedOption(string Option) {}
 	public void SetSelectedIndex(int Index) {}
-	public sbyte GetSelectedOption(sbyte ReturnValue) { return default; }
-	public int GetSelectedIndex(int ReturnValue) { return default; }
-	public int GetOptionCount(int ReturnValue) { return default; }
-	public bool IsOpen(bool ReturnValue) { return default; }
+	public string GetSelectedOption() { return default; }
+	public int GetSelectedIndex() { return default; }
+	public int GetOptionCount() { return default; }
+	public bool IsOpen() { return default; }
 }

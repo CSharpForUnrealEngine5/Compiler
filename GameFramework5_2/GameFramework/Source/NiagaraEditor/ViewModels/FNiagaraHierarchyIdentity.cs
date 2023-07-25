@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraHierarchyIdentity {
 // NiagaraHierarchyIdentity
 	public TArray<FGuid> Guids;
-	public TArray<sbyte> Names;
+	public TArray<string> Names;
 }

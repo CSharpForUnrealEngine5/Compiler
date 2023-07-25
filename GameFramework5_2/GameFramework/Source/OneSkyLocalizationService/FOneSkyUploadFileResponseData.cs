@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("OneSkyLocalizationServiceResponseTypes.h")]
 public partial struct FOneSkyUploadFileResponseData {
 // OneSkyUploadFileResponseData
-	public sbyte name;
-	public sbyte format;
+	public string name;
+	public string format;
 	public FOneSkyUploadFileResponseLanguage language;
 	public FOneSkyUploadedFileResponseImport import;
 }

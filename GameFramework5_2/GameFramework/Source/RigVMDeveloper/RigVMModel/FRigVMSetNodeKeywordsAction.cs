@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a node's keywords in the graph.</summary>
 public partial struct FRigVMSetNodeKeywordsAction {
 // RigVMSetNodeKeywordsAction
-	public sbyte NodePath;
-	public sbyte OldKeywords;
-	public sbyte NewKeywords;
+	public string NodePath;
+	public string OldKeywords;
+	public string NewKeywords;
 }

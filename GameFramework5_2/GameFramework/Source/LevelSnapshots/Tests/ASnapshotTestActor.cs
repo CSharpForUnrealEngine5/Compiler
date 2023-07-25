@@ -10,19 +10,19 @@ public partial class ASnapshotTestActor : ACharacter {
 	public UObject ObjectReference;
 	public TArray<UObject> ObjectArray;
 	public TSet<UObject> ObjectSet;
-	public TMap<sbyte,UObject> ObjectMap;
+	public TMap<string,UObject> ObjectMap;
 	public FSoftObjectPath SoftPath;
 	public TArray<FSoftObjectPath> SoftPathArray;
 	public TSet<FSoftObjectPath> SoftPathSet;
-	public TMap<sbyte,FSoftObjectPath> SoftPathMap;
+	public TMap<string,FSoftObjectPath> SoftPathMap;
 	public TSoftObjectPtr<UObject> SoftObjectPtr;
 	public TArray<TSoftObjectPtr<UObject>> SoftObjectPtrArray;
 	public TSet<TSoftObjectPtr<UObject>> SoftObjectPtrSet;
-	public TMap<sbyte,TSoftObjectPtr<UObject>> SoftObjectPtrMap;
+	public TMap<string,TSoftObjectPtr<UObject>> SoftObjectPtrMap;
 	public TWeakObjectPtr<UObject> WeakObjectPtr;
 	public TArray<TWeakObjectPtr<UObject>> WeakObjectPtrArray;
 	public TSet<TWeakObjectPtr<UObject>> WeakObjectPtrSet;
-	public TMap<sbyte,TWeakObjectPtr<UObject>> WeakObjectPtrMap;
+	public TMap<string,TWeakObjectPtr<UObject>> WeakObjectPtrMap;
 	public UActorComponent ExternalComponentReference;
 	public UObject ExternalComponentReferenceAsUObject;
 	public UMaterialInterface GradientLinearMaterial;
@@ -38,7 +38,7 @@ public partial class ASnapshotTestActor : ACharacter {
 	public USubobject NakedSubobject_DefaultSubobject;
 	public USubobject EditOnlySubobject_OptionalSubobject;
 	public TArray<USubobject> EditableInstancedSubobjectArray_OptionalSubobject;
-	public TMap<sbyte,USubobject> EditableInstancedSubobjectMap_OptionalSubobject;
+	public TMap<string,USubobject> EditableInstancedSubobjectMap_OptionalSubobject;
 	public TArray<USubobject> EditOnlySubobjectArray_OptionalSubobject;
-	public TMap<sbyte,USubobject> EditOnlySubobjectMap_OptionalSubobject;
+	public TMap<string,USubobject> EditOnlySubobjectMap_OptionalSubobject;
 }

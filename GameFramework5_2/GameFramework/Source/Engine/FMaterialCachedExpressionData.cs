@@ -22,7 +22,7 @@ public partial struct FMaterialCachedExpressionData {
 	public TArray<FMaterialParameterCollectionInfo> ParameterCollectionInfos;
 	public TArray<ULandscapeGrassType> GrassTypes;
 	public FMaterialLayersFunctionsRuntimeData MaterialLayers;
-	public TArray<sbyte> DynamicParameterNames;
+	public TArray<string> DynamicParameterNames;
 	public TArray<bool> QualityLevelsUsed;
 	public bool bHasMaterialLayers;
 	public bool bHasRuntimeVirtualTextureOutput;

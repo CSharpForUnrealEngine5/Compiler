@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>On each actor to process, add specified tags</summary>
 public partial class UDataprepAddTagsOperation : UDataprepOperation {
 // DataprepAddTagsOperation
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 }

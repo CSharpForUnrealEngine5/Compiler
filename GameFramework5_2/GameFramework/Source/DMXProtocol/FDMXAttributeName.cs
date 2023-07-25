@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DMXAttribute.h")]
 public partial struct FDMXAttributeName {
 // DMXAttributeName
-	public sbyte Name;
+	public string Name;
 }

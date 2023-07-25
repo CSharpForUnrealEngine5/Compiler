@@ -10,9 +10,9 @@ public partial class UParticleModuleLocationSkelVertSurface : UParticleModuleLoc
 	public bool bOrientMeshEmitters;
 	public bool bInheritBoneVelocity;
 	public float InheritVelocityScale;
-	public sbyte SkelMeshActorParamName;
+	public string SkelMeshActorParamName;
 	public USkeletalMesh EditorSkelMesh;
-	public TArray<sbyte> ValidAssociatedBones;
+	public TArray<string> ValidAssociatedBones;
 	public bool bEnforceNormalCheck;
 	public FVector NormalToCompare;
 	public float NormalCheckToleranceDegrees;

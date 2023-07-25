@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Saves properties from widgets within a widget tree.</summary>
 public partial struct FWidgetTreeSnapshot {
 // WidgetTreeSnapshot
-	public sbyte RootWidget;
-	public TMap<sbyte,FWidgetSnapshot> WidgetSnapshots;
+	public string RootWidget;
+	public TMap<string,FWidgetSnapshot> WidgetSnapshots;
 }

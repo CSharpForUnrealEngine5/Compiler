@@ -11,6 +11,6 @@ public partial class UK2Node_CallFunction : UK2Node {
 	public bool bIsFinalFunction;
 	public bool bIsBeadFunction;
 	public FMemberReference FunctionReference;
-	public sbyte CallFunctionName_DEPRECATED;
+	public string CallFunctionName_DEPRECATED;
 	public UClass CallFunctionClass_DEPRECATED;
 }

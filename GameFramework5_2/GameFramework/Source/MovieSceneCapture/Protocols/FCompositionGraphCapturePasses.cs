@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Protocols/CompositionGraphCaptureProtocol.h")]
 public partial struct FCompositionGraphCapturePasses {
 // CompositionGraphCapturePasses
-	public TArray<sbyte> Value;
+	public TArray<string> Value;
 }

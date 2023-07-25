@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Utility class to create simple pop-up dialogs to notify the user of task completion,</summary>
 public partial class UEditorDialogLibrary : UBlueprintFunctionLibrary {
 // EditorDialogLibrary
-	public byte ShowMessage(sbyte Title,sbyte Message,byte MessageType,byte DefaultValue=EAppReturnType,byte ReturnValue) { return default; }
-	public bool ShowSuppressableWarningDialog(sbyte Title,sbyte Message,sbyte InIniSettingName,sbyte InIniSettingFileNameOverride=TEXT,bool bDefaultValue=true,bool ReturnValue) { return default; }
-	public bool ShowObjectDetailsView(sbyte Title,UObject InOutObject,FEditorDialogLibraryObjectDetailsViewOptions Options=FEditorDialogLibraryObjectDetailsViewOptions,bool ReturnValue) { return default; }
-	public bool ShowObjectsDetailsView(sbyte Title,TArray<UObject> InOutObjects,FEditorDialogLibraryObjectDetailsViewOptions Options=FEditorDialogLibraryObjectDetailsViewOptions,bool ReturnValue) { return default; }
+	public byte ShowMessage(string Title,string Message,byte MessageType,byte DefaultValue/*=EAppReturnType.Type.No*/) { return default; }
+	public bool ShowSuppressableWarningDialog(string Title,string Message,string InIniSettingName,string InIniSettingFileNameOverride/*=TEXT("")*/,bool bDefaultValue/*=true*/) { return default; }
+	public bool ShowObjectDetailsView(string Title,UObject InOutObject,FEditorDialogLibraryObjectDetailsViewOptions Options/*=new FEditorDialogLibraryObjectDetailsViewOptions()*/) { return default; }
+	public bool ShowObjectsDetailsView(string Title,TArray<UObject> InOutObjects,FEditorDialogLibraryObjectDetailsViewOptions Options/*=new FEditorDialogLibraryObjectDetailsViewOptions()*/) { return default; }
 }

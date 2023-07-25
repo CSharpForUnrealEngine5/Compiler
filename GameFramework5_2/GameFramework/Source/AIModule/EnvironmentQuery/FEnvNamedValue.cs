@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("EnvironmentQuery/EnvQueryTypes.h")]
 public partial struct FEnvNamedValue {
 // EnvNamedValue
-	public sbyte ParamName;
+	public string ParamName;
 	public EAIParamType ParamType;
 	public float Value;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("BuoyancyTypes.h")]
 public partial struct FSphericalPontoon {
 // SphericalPontoon
-	public sbyte CenterSocket;
+	public string CenterSocket;
 	public FVector RelativeLocation;
 	public float Radius;
 	public bool bFXEnabled;

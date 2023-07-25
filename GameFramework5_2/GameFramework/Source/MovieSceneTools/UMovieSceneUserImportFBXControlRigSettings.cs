@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("MovieSceneToolsUserSettings.h")]
 public partial class UMovieSceneUserImportFBXControlRigSettings : UObject {
 // MovieSceneUserImportFBXControlRigSettings
-	public sbyte ImportedFileName;
+	public string ImportedFileName;
 	public FFrameNumber ImportedStartTime;
 	public FFrameNumber ImportedEndTime;
-	public TArray<sbyte> ImportedNodeNames;
-	public sbyte ImportedFrameRate;
+	public TArray<string> ImportedNodeNames;
+	public string ImportedFrameRate;
 	public TArray<FControlFindReplaceString> FindAndReplaceStrings;
 	public bool bForceFrontXAxis;
 	public bool bConvertSceneUnit;

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Rules used to compute the pivot for a AnimSet</summary>
 public partial struct FContextualAnimSetPivotDefinition {
 // ContextualAnimSetPivotDefinition
-	public sbyte Name;
-	public sbyte Origin;
+	public string Name;
+	public string Origin;
 	public bool bAlongClosestDistance;
-	public sbyte OtherRole;
+	public string OtherRole;
 	public float Weight;
 }

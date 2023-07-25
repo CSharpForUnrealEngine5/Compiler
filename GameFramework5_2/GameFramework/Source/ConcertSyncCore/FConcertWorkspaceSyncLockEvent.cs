@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertWorkspaceMessages.h")]
 public partial struct FConcertWorkspaceSyncLockEvent {
 // ConcertWorkspaceSyncLockEvent
-	public TMap<sbyte,FGuid> LockedResources;
+	public TMap<string,FGuid> LockedResources;
 }

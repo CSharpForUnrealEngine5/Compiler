@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FCollectionVertexSelectionCustomDataflowNode {
 // CollectionVertexSelectionCustomDataflowNode
 	public FManagedArrayCollection Collection;
-	public sbyte VertexIndicies;
+	public string VertexIndicies;
 	public FDataflowVertexSelection VertexSelection;
 }

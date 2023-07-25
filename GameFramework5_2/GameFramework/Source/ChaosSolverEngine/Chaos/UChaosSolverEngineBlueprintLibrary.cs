@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Chaos/ChaosNotifyHandlerInterface.h")]
 public partial class UChaosSolverEngineBlueprintLibrary : UBlueprintFunctionLibrary {
 // ChaosSolverEngineBlueprintLibrary
-	public FHitResult ConvertPhysicsCollisionToHitResult(FChaosPhysicsCollisionInfo PhysicsCollision,FHitResult ReturnValue) { return default; }
+	public FHitResult ConvertPhysicsCollisionToHitResult(FChaosPhysicsCollisionInfo PhysicsCollision) { return default; }
 }

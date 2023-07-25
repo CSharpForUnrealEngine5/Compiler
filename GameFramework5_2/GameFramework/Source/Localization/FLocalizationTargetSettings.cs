@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("LocalizationTargetTypes.h")]
 public partial struct FLocalizationTargetSettings {
 // LocalizationTargetSettings
-	public sbyte Name;
+	public string Name;
 	public FGuid Guid;
 	public ELocalizationTargetConflictStatus ConflictStatus;
 	public TArray<FGuid> TargetDependencies;
 	public TArray<FFilePath> AdditionalManifestDependencies;
-	public TArray<sbyte> RequiredModuleNames;
+	public TArray<string> RequiredModuleNames;
 	public FGatherTextFromTextFilesConfiguration GatherFromTextFiles;
 	public FGatherTextFromPackagesConfiguration GatherFromPackages;
 	public FGatherTextFromMetaDataConfiguration GatherFromMetaData;

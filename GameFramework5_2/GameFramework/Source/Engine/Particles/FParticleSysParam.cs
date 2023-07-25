@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct used for a particular named instance parameter for this ParticleSystemComponent.</summary>
 public partial struct FParticleSysParam {
 // ParticleSysParam
-	public sbyte Name;
+	public string Name;
 	public byte ParamType;
 	public float Scalar;
 	public float Scalar_Low;

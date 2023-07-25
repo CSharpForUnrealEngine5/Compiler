@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_ItemReplace {
 // RigUnit_ItemReplace
 	public FRigElementKey Item;
-	public sbyte Old;
-	public sbyte New;
+	public string Old;
+	public string New;
 	public FRigElementKey Result;
 }

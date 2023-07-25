@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FMVVMBlueprintViewConversionPath {
 // MVVMBlueprintViewConversionPath
 	public FMemberReference DestinationToSourceFunction;
-	public sbyte DestinationToSourceWrapper;
+	public string DestinationToSourceWrapper;
 	public FMemberReference SourceToDestinationFunction;
-	public sbyte SourceToDestinationWrapper;
+	public string SourceToDestinationWrapper;
 }

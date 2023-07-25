@@ -12,6 +12,6 @@ public partial struct FStaticMeshSourceModel {
 	public uint CacheMeshDescriptionVerticesCount;
 	public float LODDistance_DEPRECATED;
 	public FPerPlatformFloat ScreenSize;
-	public sbyte SourceImportFilename;
+	public string SourceImportFilename;
 	public bool bImportWithBaseMesh;
 }

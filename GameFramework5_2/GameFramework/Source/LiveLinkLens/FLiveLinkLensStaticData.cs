@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct for static lens data</summary>
 public partial struct FLiveLinkLensStaticData {
 // LiveLinkLensStaticData
-	public sbyte LensModel;
+	public string LensModel;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Font import options</summary>
 public partial struct FFontImportOptionsData {
 // FontImportOptionsData
-	public sbyte FontName;
+	public string FontName;
 	public float Height;
 	public bool bEnableAntialiasing;
 	public bool bEnableBold;
@@ -13,10 +13,10 @@ public partial struct FFontImportOptionsData {
 	public bool bEnableUnderline;
 	public bool bAlphaOnly;
 	public byte CharacterSet;
-	public sbyte Chars;
-	public sbyte UnicodeRange;
-	public sbyte CharsFilePath;
-	public sbyte CharsFileWildcard;
+	public string Chars;
+	public string UnicodeRange;
+	public string CharsFilePath;
+	public string CharsFileWildcard;
 	public bool bCreatePrintableOnly;
 	public bool bIncludeASCIIRange;
 	public FLinearColor ForegroundColor;

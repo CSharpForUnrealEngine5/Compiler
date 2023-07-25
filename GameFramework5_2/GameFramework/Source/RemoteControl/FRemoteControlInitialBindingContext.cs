@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FRemoteControlInitialBindingContext {
 // RemoteControlInitialBindingContext
 	public TSoftObjectPtr<UClass> SupportedClass;
-	public sbyte ComponentName;
-	public sbyte SubObjectPath;
+	public string ComponentName;
+	public string SubObjectPath;
 	public TSoftObjectPtr<UClass> OwnerActorClass;
-	public sbyte OwnerActorName;
+	public string OwnerActorName;
 }

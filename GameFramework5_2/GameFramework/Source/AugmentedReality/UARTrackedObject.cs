@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ARTrackable.h")]
 public partial class UARTrackedObject : UARTrackedGeometry {
 // ARTrackedObject
-	public UObject GetDetectedObject(UObject ReturnValue) { return default; }
+	public UObject GetDetectedObject() { return default; }
 	public UARCandidateObject DetectedObject;
 }

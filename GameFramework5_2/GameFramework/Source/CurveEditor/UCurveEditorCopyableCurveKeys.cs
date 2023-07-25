@@ -6,8 +6,8 @@ public partial class UCurveEditorCopyableCurveKeys : UObject {
 // CurveEditorCopyableCurveKeys
 	public TArray<FKeyPosition> KeyPositions;
 	public TArray<FKeyAttributes> KeyAttributes;
-	public sbyte ShortDisplayName;
-	public sbyte LongDisplayName;
-	public sbyte IntentionName;
-	public sbyte LongIntentionName;
+	public string ShortDisplayName;
+	public string LongDisplayName;
+	public string IntentionName;
+	public string LongIntentionName;
 }

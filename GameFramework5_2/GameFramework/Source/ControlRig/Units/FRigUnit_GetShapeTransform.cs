@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetShapeTransform is used to retrieve single control's shape transform.</summary>
 public partial struct FRigUnit_GetShapeTransform {
 // RigUnit_GetShapeTransform
-	public sbyte Control;
+	public string Control;
 	public FTransform Transform;
 	public FCachedRigElement CachedControlIndex;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FMultiUserClientInfo {
 // MultiUserClientInfo
 	public FGuid ClientEndpointId;
-	public sbyte DisplayName;
+	public string DisplayName;
 	public FLinearColor AvatarColor;
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 }

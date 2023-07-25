@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("LocalizationTargetTypes.h")]
 public partial struct FMetaDataKeyName {
 // MetaDataKeyName
-	public sbyte Name;
+	public string Name;
 }

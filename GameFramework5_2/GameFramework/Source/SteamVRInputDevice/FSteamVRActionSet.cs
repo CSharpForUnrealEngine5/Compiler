@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>SteamVR action set as defined by the developer</summary>
 public partial struct FSteamVRActionSet {
 // SteamVRActionSet
-	public sbyte Path;
+	public string Path;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Component that allows you to specify custom triangle mesh geometry</summary>
 public partial class UCustomMeshComponent : UMeshComponent {
 // CustomMeshComponent
-	public bool SetCustomMeshTriangles(TArray<FCustomMeshTriangle> Triangles,bool ReturnValue) { return default; }
+	public bool SetCustomMeshTriangles(TArray<FCustomMeshTriangle> Triangles) { return default; }
 	public void AddCustomMeshTriangles(TArray<FCustomMeshTriangle> Triangles) {}
 	public void ClearCustomMeshTriangles() {}
 }

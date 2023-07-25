@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Editable vector parameter.</summary>
 public partial struct FVectorParameterValue {
 // VectorParameterValue
-	public sbyte ParameterName_DEPRECATED;
+	public string ParameterName_DEPRECATED;
 	public FMaterialParameterInfo ParameterInfo;
 	public FLinearColor ParameterValue;
 	public FGuid ExpressionGUID;

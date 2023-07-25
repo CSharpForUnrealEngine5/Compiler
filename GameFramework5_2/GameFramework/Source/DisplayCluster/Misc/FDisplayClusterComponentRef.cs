@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Misc/DisplayClusterObjectRef.h")]
 public partial struct FDisplayClusterComponentRef {
 // DisplayClusterComponentRef
-	public sbyte Name;
+	public string Name;
 }

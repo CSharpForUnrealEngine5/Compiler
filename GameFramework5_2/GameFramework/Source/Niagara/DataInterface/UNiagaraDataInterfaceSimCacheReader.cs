@@ -7,5 +7,5 @@ public partial class UNiagaraDataInterfaceSimCacheReader : UNiagaraDataInterface
 // NiagaraDataInterfaceSimCacheReader
 	public FNiagaraUserParameterBinding SimCacheBinding;
 	public UNiagaraSimCache SimCache;
-	public sbyte EmitterBinding;
+	public string EmitterBinding;
 }

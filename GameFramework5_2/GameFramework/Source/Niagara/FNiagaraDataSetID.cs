@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraCommon.h")]
 public partial struct FNiagaraDataSetID {
 // NiagaraDataSetID
-	public sbyte Name;
+	public string Name;
 	public ENiagaraDataSetType Type;
 }

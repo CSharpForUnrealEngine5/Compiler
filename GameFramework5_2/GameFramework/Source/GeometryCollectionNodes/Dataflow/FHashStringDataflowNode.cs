@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Generates a hash value from a string</summary>
 public partial struct FHashStringDataflowNode {
 // HashStringDataflowNode
-	public sbyte String;
+	public string String;
 	public int Hash;
 }

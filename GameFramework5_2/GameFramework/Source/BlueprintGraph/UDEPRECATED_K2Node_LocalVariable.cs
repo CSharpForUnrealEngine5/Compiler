@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_LocalVariable.h")]
 public partial class UDEPRECATED_K2Node_LocalVariable : UK2Node_TemporaryVariable {
 // K2Node_LocalVariable
-	public sbyte CustomVariableName;
-	public sbyte VariableTooltip;
+	public string CustomVariableName;
+	public string VariableTooltip;
 }

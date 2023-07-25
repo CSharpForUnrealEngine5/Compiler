@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Returns the middle section of a string</summary>
 public partial struct FRigVMFunction_StringMiddle {
 // RigVMFunction_StringMiddle
-	public sbyte Value;
+	public string Value;
 	public int Start;
 	public int Count;
-	public sbyte Result;
+	public string Result;
 }

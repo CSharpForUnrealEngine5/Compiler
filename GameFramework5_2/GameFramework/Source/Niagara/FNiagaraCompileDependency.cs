@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Records necessary information to verify that this will link properly and trace where that linkage dependency exists.</summary>
 public partial struct FNiagaraCompileDependency {
 // NiagaraCompileDependency
-	public sbyte LinkerErrorMessage;
+	public string LinkerErrorMessage;
 	public FGuid NodeGuid;
 	public FGuid PinGuid;
 	public TArray<FGuid> StackGuids;

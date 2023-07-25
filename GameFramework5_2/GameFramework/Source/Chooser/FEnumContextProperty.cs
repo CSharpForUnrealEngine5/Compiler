@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("EnumColumn.h")]
 public partial struct FEnumContextProperty {
 // EnumContextProperty
-	public TArray<sbyte> PropertyBindingChain;
+	public TArray<string> PropertyBindingChain;
 	public UEnum Enum;
 }

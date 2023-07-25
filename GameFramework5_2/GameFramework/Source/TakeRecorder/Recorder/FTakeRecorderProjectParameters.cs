@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FTakeRecorderProjectParameters {
 // TakeRecorderProjectParameters
 	public FDirectoryPath RootTakeSaveDir;
-	public sbyte TakeSaveDir;
-	public sbyte DefaultSlate;
+	public string TakeSaveDir;
+	public string DefaultSlate;
 	public EUpdateClockSource RecordingClockSource;
 	public bool bStartAtCurrentTimecode;
 	public bool bRecordTimecode;

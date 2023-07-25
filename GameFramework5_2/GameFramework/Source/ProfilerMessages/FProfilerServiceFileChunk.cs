@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FProfilerServiceFileChunk {
 // ProfilerServiceFileChunk
 	public FGuid InstanceId;
-	public sbyte Filename;
-	public sbyte HexData;
+	public string Filename;
+	public string HexData;
 	public TArray<byte> Header;
 	public TArray<byte> ChunkHash;
 }

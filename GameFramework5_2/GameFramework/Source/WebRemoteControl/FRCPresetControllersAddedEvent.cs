@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlResponse.h")]
 public partial struct FRCPresetControllersAddedEvent {
 // RCPresetControllersAddedEvent
-	public sbyte Type;
-	public sbyte PresetName;
-	public sbyte PresetId;
+	public string Type;
+	public string PresetName;
+	public string PresetId;
 	public FRCPresetDescription Description;
 }

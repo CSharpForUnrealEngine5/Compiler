@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FLocalSpacePose {
 // LocalSpacePose
 	public TArray<FTransform> Transforms;
-	public TArray<sbyte> Names;
+	public TArray<string> Names;
 }

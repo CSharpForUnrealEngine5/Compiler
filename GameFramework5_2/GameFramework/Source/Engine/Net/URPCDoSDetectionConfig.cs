@@ -9,10 +9,10 @@ public partial class URPCDoSDetectionConfig : UObject {
 	public bool bRPCDoSAnalytics;
 	public int HitchTimeQuotaMS;
 	public int HitchSuspendDetectionTimeMS;
-	public TArray<sbyte> DetectionSeverity;
+	public TArray<string> DetectionSeverity;
 	public int InitialConnectToleranceMS;
-	public TArray<sbyte> RPCBlockWhitelist;
-	public TArray<sbyte> RPCBlockAllowlist;
+	public TArray<string> RPCBlockWhitelist;
+	public TArray<string> RPCBlockAllowlist;
 	public TArray<FRPCAnalyticsThreshold> RPCAnalyticsThresholds;
 	public double RPCAnalyticsOverrideChance;
 }

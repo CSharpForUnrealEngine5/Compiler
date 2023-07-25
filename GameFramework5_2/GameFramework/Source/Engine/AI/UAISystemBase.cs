@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UAISystemBase : UObject {
 // AISystemBase
 	public FSoftClassPath AISystemClassName;
-	public sbyte AISystemModuleName;
+	public string AISystemModuleName;
 	public bool bInstantiateAISystemOnClient;
 }

@@ -6,5 +6,5 @@ public partial class UARSaveWorldAsyncTaskBlueprintProxy : UARBaseAsyncTaskBluep
 // ARSaveWorldAsyncTaskBlueprintProxy
 	public FARSaveWorldPin OnSuccess;
 	public FARSaveWorldPin OnFailed;
-	public UObject ARSaveWorld(UObject WorldContextObject,UObject ReturnValue) { return default; }
+	public UObject ARSaveWorld(UObject WorldContextObject) { return default; }
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FGatherTextSearchDirectory {
 // GatherTextSearchDirectory
 	public ELocalizationGatherPathRoot PathRoot;
-	public sbyte Path;
+	public string Path;
 }

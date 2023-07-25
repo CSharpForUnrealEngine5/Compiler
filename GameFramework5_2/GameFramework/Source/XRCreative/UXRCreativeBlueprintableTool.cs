@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("XRCreativeToolset.h")]
 public partial class UXRCreativeBlueprintableTool : UXRCreativeTool {
 // XRCreativeBlueprintableTool
-	public sbyte ToolName;
-	public sbyte DisplayName;
+	public string ToolName;
+	public string DisplayName;
 	public UClass PaletteTabClass;
 	public UClass ToolActor;
 	public UInputMappingContext ToolInputMappingContext;

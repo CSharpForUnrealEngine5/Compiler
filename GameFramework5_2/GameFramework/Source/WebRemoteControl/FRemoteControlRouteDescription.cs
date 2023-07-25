@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Utility struct to create a textual representation of an http route.</summary>
 public partial struct FRemoteControlRouteDescription {
 // RemoteControlRouteDescription
-	public sbyte Path;
+	public string Path;
 	public ERemoteControlHttpVerbs Verb;
-	public sbyte Description;
+	public string Description;
 }

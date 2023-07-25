@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FKeyBind {
 // KeyBind
 	public FKey Key;
-	public sbyte Command;
+	public string Command;
 	public bool Control;
 	public bool Shift;
 	public bool Alt;

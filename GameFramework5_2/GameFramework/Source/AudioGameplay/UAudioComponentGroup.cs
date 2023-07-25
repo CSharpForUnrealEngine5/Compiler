@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>* Automatic Handler for voices and parameters across any number of AudioComponents</summary>
 public partial class UAudioComponentGroup : USceneComponent {
 // AudioComponentGroup
-	public UObject StaticGetOrCreateComponentGroup(UObject Actor,UObject ReturnValue) { return default; }
-	public void StopSound(UObject Sound,float FadeTime=0.f) {}
-	public bool IsPlayingAny(bool ReturnValue) { return default; }
-	public bool IsVirtualized(bool ReturnValue) { return default; }
+	public UObject StaticGetOrCreateComponentGroup(UObject Actor) { return default; }
+	public void StopSound(UObject Sound,float FadeTime/*=0.0f*/) {}
+	public bool IsPlayingAny() { return default; }
+	public bool IsVirtualized() { return default; }
 	public void BroadcastStopAll() {}
 	public void BroadcastKill() {}
-	public void BroadcastEvent(sbyte EventName) {}
+	public void BroadcastEvent(string EventName) {}
 	public void AddExternalComponent(UObject ComponentToAdd) {}
 	public void EnableVirtualization() {}
 	public void DisableVirtualization() {}
@@ -20,9 +20,9 @@ public partial class UAudioComponentGroup : USceneComponent {
 	public void SetLowPassFilter(float InFrequency) {}
 	public void AddExtension(object /*NewExtension*/ NewExtension) {}
 	public void RemoveExtension(object /*NewExtension*/ NewExtension) {}
-	public float GetFloatParamValue(sbyte ParamName,float ReturnValue) { return default; }
-	public bool GetBoolParamValue(sbyte ParamName,bool ReturnValue) { return default; }
-	public sbyte GetStringParamValue(sbyte ParamName,sbyte ReturnValue) { return default; }
+	public float GetFloatParamValue(string ParamName) { return default; }
+	public bool GetBoolParamValue(string ParamName) { return default; }
+	public string GetStringParamValue(string ParamName) { return default; }
 	public FSoundGroupChanged OnStopped;
 	public FSoundGroupChanged OnKilled;
 	public FSoundGroupChanged OnVirtualized;

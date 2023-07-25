@@ -10,6 +10,6 @@ public partial class ADecalActor : AActor {
 	public UBillboardComponent SpriteComponent;
 	public UBoxComponent BoxComponent_DEPRECATED;
 	public void SetDecalMaterial(UObject NewDecalMaterial) {}
-	public UObject GetDecalMaterial(UObject ReturnValue) { return default; }
-	public UObject CreateDynamicMaterialInstance(UObject ReturnValue) { return default; }
+	public UObject GetDecalMaterial() { return default; }
+	public UObject CreateDynamicMaterialInstance() { return default; }
 }

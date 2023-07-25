@@ -25,7 +25,7 @@ public partial class UFbxImportUI : UObject {
 	public int MinimumLodNumber;
 	public int LodNumber;
 	public bool bImportAnimations;
-	public sbyte OverrideAnimationName;
+	public string OverrideAnimationName;
 	public bool bImportRigidMesh;
 	public bool bImportMaterials;
 	public bool bImportTextures;
@@ -36,12 +36,12 @@ public partial class UFbxImportUI : UObject {
 	public UFbxTextureImportData TextureImportData;
 	public bool bAutomatedImportShouldDetectType;
 	public void ResetToDefault() {}
-	public sbyte FileVersion;
-	public sbyte FileCreator;
-	public sbyte FileCreatorApplication;
-	public sbyte FileUnits;
-	public sbyte FileAxisDirection;
-	public sbyte FileSampleRate;
-	public sbyte AnimStartFrame;
-	public sbyte AnimEndFrame;
+	public string FileVersion;
+	public string FileCreator;
+	public string FileCreatorApplication;
+	public string FileUnits;
+	public string FileAxisDirection;
+	public string FileSampleRate;
+	public string AnimStartFrame;
+	public string AnimEndFrame;
 }

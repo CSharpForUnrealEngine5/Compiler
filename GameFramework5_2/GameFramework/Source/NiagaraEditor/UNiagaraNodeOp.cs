@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraNodeOp.h")]
 public partial class UNiagaraNodeOp : UNiagaraNodeWithDynamicPins {
 // NiagaraNodeOp
-	public sbyte OpName;
+	public string OpName;
 	public TArray<FAddedPinData> AddedPins;
 	public bool bAllStatic;
 }

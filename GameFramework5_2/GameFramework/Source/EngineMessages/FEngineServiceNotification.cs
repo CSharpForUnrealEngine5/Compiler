@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that contains a notification or log output.</summary>
 public partial struct FEngineServiceNotification {
 // EngineServiceNotification
-	public sbyte Text;
+	public string Text;
 	public double TimeSeconds;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MassSettings.h")]
 public partial class UMassSettings : UDeveloperSettings {
 // MassSettings
-	public TMap<sbyte,UMassModuleSettings> ModuleSettings;
+	public TMap<string,UMassModuleSettings> ModuleSettings;
 }

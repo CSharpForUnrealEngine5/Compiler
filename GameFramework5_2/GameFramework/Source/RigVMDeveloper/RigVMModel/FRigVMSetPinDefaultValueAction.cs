@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a pin's default value in the graph.</summary>
 public partial struct FRigVMSetPinDefaultValueAction {
 // RigVMSetPinDefaultValueAction
-	public sbyte PinPath;
-	public sbyte OldDefaultValue;
-	public sbyte NewDefaultValue;
+	public string PinPath;
+	public string OldDefaultValue;
+	public string NewDefaultValue;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class ULevelInstanceEditorSettings : UObject {
 // LevelInstanceEditorSettings
 	public TArray<FTemplateMapInfo> TemplateMapInfos;
-	public sbyte LevelInstanceClassName;
+	public string LevelInstanceClassName;
 }

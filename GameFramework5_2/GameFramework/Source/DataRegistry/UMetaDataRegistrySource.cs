@@ -7,5 +7,5 @@ public partial class UMetaDataRegistrySource : UDataRegistrySource {
 // MetaDataRegistrySource
 	public EMetaDataRegistrySourceAssetUsage AssetUsage;
 	public FAssetManagerSearchRules SearchRules;
-	public TMap<sbyte,UDataRegistrySource> RuntimeChildren;
+	public TMap<string,UDataRegistrySource> RuntimeChildren;
 }

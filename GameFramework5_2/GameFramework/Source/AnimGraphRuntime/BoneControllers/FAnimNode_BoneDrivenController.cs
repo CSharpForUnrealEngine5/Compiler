@@ -12,7 +12,7 @@ public partial struct FAnimNode_BoneDrivenController {
 	public double RangeMax;
 	public double RemappedMin;
 	public double RemappedMax;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FBoneReference TargetBone;
 	public byte TargetComponent_DEPRECATED;
 	public EDrivenDestinationMode DestinationMode;

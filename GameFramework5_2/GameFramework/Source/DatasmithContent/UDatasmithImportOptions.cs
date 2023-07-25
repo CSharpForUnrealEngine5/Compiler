@@ -14,7 +14,7 @@ public partial class UDatasmithImportOptions : UDatasmithOptionsBase {
 	public EDatasmithImportMaterialQuality MaterialQuality;
 	public FDatasmithImportBaseOptions BaseOptions;
 	public FDatasmithReimportOptions ReimportOptions;
-	public sbyte FileName;
-	public sbyte FilePath;
-	public sbyte SourceUri;
+	public string FileName;
+	public string FilePath;
+	public string SourceUri;
 }

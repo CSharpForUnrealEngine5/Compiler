@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("IAssetTools.h")]
 public partial class UAssetToolsHelpers : UObject {
 // AssetToolsHelpers
-	public object /*ReturnValue*/ GetAssetTools(object /*ReturnValue*/ ReturnValue) { return default; }
+	public object /*ReturnValue*/ GetAssetTools() { return default; }
 }

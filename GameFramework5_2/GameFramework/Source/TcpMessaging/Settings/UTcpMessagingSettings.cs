@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UTcpMessagingSettings : UObject {
 // TcpMessagingSettings
 	public bool EnableTransport;
-	public sbyte ListenEndpoint;
-	public TArray<sbyte> ConnectToEndpoints;
+	public string ListenEndpoint;
+	public TArray<string> ConnectToEndpoints;
 	public int ConnectionRetryDelay;
 	public int ConnectionRetryPeriod;
 	public bool bStopServiceWhenAppDeactivates;

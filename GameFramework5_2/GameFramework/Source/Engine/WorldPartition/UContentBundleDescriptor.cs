@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("WorldPartition/ContentBundle/ContentBundleDescriptor.h")]
 public partial class UContentBundleDescriptor : UObject {
 // ContentBundleDescriptor
-	public sbyte DisplayName;
+	public string DisplayName;
 	public FColor DebugColor;
 	public FGuid Guid;
-	public sbyte PackageRoot;
+	public string PackageRoot;
 }

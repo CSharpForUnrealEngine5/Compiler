@@ -7,5 +7,5 @@ public partial class UTemplateSequence : UMovieSceneSequence {
 // TemplateSequence
 	public UMovieScene MovieScene;
 	public TSoftObjectPtr<UClass> BoundActorClass;
-	public TMap<FGuid,sbyte> BoundActorComponents;
+	public TMap<FGuid,string> BoundActorComponents;
 }

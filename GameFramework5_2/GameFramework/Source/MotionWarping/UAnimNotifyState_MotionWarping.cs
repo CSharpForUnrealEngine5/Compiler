@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UAnimNotifyState_MotionWarping : UAnimNotifyState {
 // AnimNotifyState_MotionWarping
 	public URootMotionModifier RootMotionModifier;
-	public UObject AddRootMotionModifier(UObject MotionWarpingComp,UObject Animation,float StartTime,float EndTime,UObject ReturnValue) { return default; }
+	public UObject AddRootMotionModifier(UObject MotionWarpingComp,UObject Animation,float StartTime,float EndTime) { return default; }
 	public void OnRootMotionModifierActivate(UObject MotionWarpingComp,UObject Modifier) {}
 	public void OnRootMotionModifierUpdate(UObject MotionWarpingComp,UObject Modifier) {}
 	public void OnRootMotionModifierDeactivate(UObject MotionWarpingComp,UObject Modifier) {}

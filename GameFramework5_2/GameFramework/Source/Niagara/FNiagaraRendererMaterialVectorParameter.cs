@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraRendererProperties.h")]
 public partial struct FNiagaraRendererMaterialVectorParameter {
 // NiagaraRendererMaterialVectorParameter
-	public sbyte MaterialParameterName;
+	public string MaterialParameterName;
 	public FLinearColor Value;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("PhysicsEngine/PhysicsObjectBlueprintLibrary.h")]
 public partial class UPhysicsObjectBlueprintLibrary : UBlueprintFunctionLibrary {
 // PhysicsObjectBlueprintLibrary
-	public FClosestPhysicsObjectResult GetClosestPhysicsObjectFromWorldLocation(UObject Component,FVector WorldLocation,FClosestPhysicsObjectResult ReturnValue) { return default; }
-	public bool ExtractClosestPhysicsObjectResults(FClosestPhysicsObjectResult Result,sbyte OutName,bool ReturnValue) { return default; }
-	public FTransform GetPhysicsObjectWorldTransform(UObject Component,sbyte BoneName,FTransform ReturnValue) { return default; }
+	public FClosestPhysicsObjectResult GetClosestPhysicsObjectFromWorldLocation(UObject Component,FVector WorldLocation) { return default; }
+	public bool ExtractClosestPhysicsObjectResults(FClosestPhysicsObjectResult Result,string OutName) { return default; }
+	public FTransform GetPhysicsObjectWorldTransform(UObject Component,string BoneName) { return default; }
 }

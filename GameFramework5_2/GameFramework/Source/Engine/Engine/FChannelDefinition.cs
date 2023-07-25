@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Used to specify properties of a channel type</summary>
 public partial struct FChannelDefinition {
 // ChannelDefinition
-	public sbyte ChannelName;
-	public sbyte ClassName;
+	public string ChannelName;
+	public string ClassName;
 	public UClass ChannelClass;
 	public int StaticChannelIndex;
 	public bool bTickOnCreate;

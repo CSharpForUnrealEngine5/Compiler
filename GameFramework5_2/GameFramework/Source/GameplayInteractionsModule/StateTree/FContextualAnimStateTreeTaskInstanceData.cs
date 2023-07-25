@@ -11,7 +11,7 @@ public partial struct FContextualAnimStateTreeTaskInstanceData {
 	public UGameplayTask_PlayContextualAnim Task;
 	public float Duration;
 	public float Time;
-	public sbyte InteractorRole;
-	public sbyte InteractableObjectRole;
+	public string InteractorRole;
+	public string InteractableObjectRole;
 	public FGameplayInteractionAbortContext AbortContext;
 }

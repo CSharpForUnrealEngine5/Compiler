@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ShotgridSettings.h")]
 public partial class UShotgridSettings : UObject {
 // ShotgridSettings
-	public TSet<sbyte> MetaDataTagsForAssetRegistry;
+	public TSet<string> MetaDataTagsForAssetRegistry;
 }

@@ -7,6 +7,6 @@ public partial struct FGetNumElementsInCollectionGroupDataflowNode {
 // GetNumElementsInCollectionGroupDataflowNode
 	public FManagedArrayCollection Collection;
 	public EStandardGroupNameEnum GroupName;
-	public sbyte CustomGroupName;
+	public string CustomGroupName;
 	public int NumElements;
 }

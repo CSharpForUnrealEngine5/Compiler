@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraSimCache.h")]
 public partial struct FNiagaraSimCacheDataBuffersLayout {
 // NiagaraSimCacheDataBuffersLayout
-	public sbyte LayoutName;
+	public string LayoutName;
 	public ENiagaraSimTarget SimTarget;
 	public TArray<FNiagaraSimCacheVariable> Variables;
 	public ushort FloatCount;
@@ -13,7 +13,7 @@ public partial struct FNiagaraSimCacheDataBuffersLayout {
 	public bool bLocalSpace;
 	public bool bAllowInterpolation;
 	public bool bAllowVelocityExtrapolation;
-	public TArray<sbyte> RebaseVariableNames;
-	public TArray<sbyte> InterpVariableNames;
+	public TArray<string> RebaseVariableNames;
+	public TArray<string> InterpVariableNames;
 	public ushort ComponentVelocity;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlResponse.h")]
 public partial struct FRCPresetLayoutModified {
 // RCPresetLayoutModified
-	public sbyte Type;
+	public string Type;
 	public FRCPresetDescription Preset;
 }

@@ -6,5 +6,5 @@ public partial class UPCGMeshSelectorWeighted : UPCGMeshSelectorBase {
 // PCGMeshSelectorWeighted
 	public TArray<FPCGMeshSelectorWeightedEntry> MeshEntries;
 	public bool bUseAttributeMaterialOverrides;
-	public TArray<sbyte> MaterialOverrideAttributes;
+	public TArray<string> MaterialOverrideAttributes;
 }

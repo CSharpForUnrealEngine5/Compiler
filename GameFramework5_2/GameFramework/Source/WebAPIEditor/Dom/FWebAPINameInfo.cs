@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds information for a name and it's alternatives.</summary>
 public partial struct FWebAPINameInfo {
 // WebAPINameInfo
-	public sbyte Name;
-	public sbyte JsonName;
-	public sbyte Prefix;
+	public string Name;
+	public string JsonName;
+	public string Prefix;
 }

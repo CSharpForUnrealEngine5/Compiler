@@ -8,7 +8,7 @@ public partial class UCubeBuilder : UEditorBrushBuilder {
 	public float Y;
 	public float Z;
 	public float WallThickness;
-	public sbyte GroupName;
+	public string GroupName;
 	public bool Hollow;
 	public bool Tessellated;
 }

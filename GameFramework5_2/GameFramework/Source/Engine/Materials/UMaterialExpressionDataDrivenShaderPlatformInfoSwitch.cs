@@ -7,6 +7,6 @@ public partial class UMaterialExpressionDataDrivenShaderPlatformInfoSwitch : UMa
 	public FExpressionInput InputTrue;
 	public FExpressionInput InputFalse;
 	public TArray<FDataDrivenShaderPlatformInfoInput> DDSPIPropertyNames;
-	public TArray<sbyte> GetNameOptions(TArray<sbyte> ReturnValue) { return default; }
+	public TArray<string> GetNameOptions() { return default; }
 	public bool bContainsInvalidProperty;
 }

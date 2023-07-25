@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UGameFeaturesSubsystemSettings : UDeveloperSettings {
 // GameFeaturesSubsystemSettings
 	public FSoftClassPath GameFeaturesManagerClassName;
-	public TArray<sbyte> DisabledPlugins;
-	public TArray<sbyte> AdditionalPluginMetadataKeys;
+	public TArray<string> DisabledPlugins;
+	public TArray<string> AdditionalPluginMetadataKeys;
 }

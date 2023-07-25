@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertTransactionFinalizedEvent {
 // ConcertTransactionFinalizedEvent
 	public FConcertLocalIdentifierState LocalIdentifierState;
-	public sbyte Title;
+	public string Title;
 }

@@ -6,5 +6,5 @@ public partial class UEndMatchCallbackProxy : UOnlineBlueprintCallProxyBase {
 // EndMatchCallbackProxy
 	public FEmptyOnlineDelegate OnSuccess;
 	public FEmptyOnlineDelegate OnFailure;
-	public UObject EndMatch(UObject WorldContextObject,UObject PlayerController,object /*MatchActor*/ MatchActor,sbyte MatchID,EMPMatchOutcome LocalPlayerOutcome,EMPMatchOutcome OtherPlayersOutcome,UObject ReturnValue) { return default; }
+	public UObject EndMatch(UObject WorldContextObject,UObject PlayerController,object /*MatchActor*/ MatchActor,string MatchID,EMPMatchOutcome LocalPlayerOutcome,EMPMatchOutcome OtherPlayersOutcome) { return default; }
 }

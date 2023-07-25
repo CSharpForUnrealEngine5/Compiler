@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFEmitter {
 // DMXImportGDTFEmitter
-	public sbyte Name;
+	public string Name;
 	public FDMXColorCIE Color;
 	public float DominantWaveLength;
-	public sbyte DiodePart;
+	public string DiodePart;
 	public FDMXImportGDTFMeasurement Measurement;
 }

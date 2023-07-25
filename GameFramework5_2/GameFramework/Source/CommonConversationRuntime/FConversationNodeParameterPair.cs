@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConversationTypes.h")]
 public partial struct FConversationNodeParameterPair {
 // ConversationNodeParameterPair
-	public sbyte Name;
-	public sbyte Value;
+	public string Name;
+	public string Value;
 }

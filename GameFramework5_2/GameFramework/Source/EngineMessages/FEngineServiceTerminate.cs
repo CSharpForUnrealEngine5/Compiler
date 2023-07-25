@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for terminating the engine.</summary>
 public partial struct FEngineServiceTerminate {
 // EngineServiceTerminate
-	public sbyte UserName;
+	public string UserName;
 }

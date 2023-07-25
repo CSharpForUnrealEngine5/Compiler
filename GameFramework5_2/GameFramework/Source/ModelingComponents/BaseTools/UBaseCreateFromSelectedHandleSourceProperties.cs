@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UBaseCreateFromSelectedHandleSourceProperties : UOnAcceptHandleSourcesProperties {
 // BaseCreateFromSelectedHandleSourceProperties
 	public EBaseCreateFromSelectedTargetType OutputWriteTo;
-	public sbyte OutputNewName;
-	public sbyte OutputExistingName;
+	public string OutputNewName;
+	public string OutputExistingName;
 }

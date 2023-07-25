@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial class UBehaviorTreeGraphNode_CompositeDecorator : UBehaviorTreeGraphNode {
 // BehaviorTreeGraphNode_CompositeDecorator
 	public UEdGraph BoundGraph;
-	public sbyte CompositeName;
+	public string CompositeName;
 	public bool bShowOperations;
 	public bool bCanAbortFlow;
 	public UBTCompositeNode ParentNodeInstance;
-	public sbyte CachedDescription;
+	public string CachedDescription;
 }

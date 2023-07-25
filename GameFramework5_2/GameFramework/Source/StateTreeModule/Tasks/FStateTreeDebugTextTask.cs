@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Draws debug text on the HUD associated to the player controller.</summary>
 public partial struct FStateTreeDebugTextTask {
 // StateTreeDebugTextTask
-	public sbyte Text;
+	public string Text;
 	public FColor TextColor;
 	public float FontScale;
 	public FVector Offset;

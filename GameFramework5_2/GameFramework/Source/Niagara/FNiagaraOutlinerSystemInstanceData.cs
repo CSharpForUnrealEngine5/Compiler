@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Outliner information on a specific system instance.</summary>
 public partial struct FNiagaraOutlinerSystemInstanceData {
 // NiagaraOutlinerSystemInstanceData
-	public sbyte ComponentName;
+	public string ComponentName;
 	public FVector3f LWCTile;
 	public TArray<FNiagaraOutlinerEmitterInstanceData> Emitters;
 	public ENiagaraExecutionState ActualExecutionState;

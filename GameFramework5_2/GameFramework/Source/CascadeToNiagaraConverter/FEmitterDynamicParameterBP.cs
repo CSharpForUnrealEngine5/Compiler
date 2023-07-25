@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>BlueprintType wrapper around FEmitterDynamicParameter to allow managing in blueprint/python logic.</summary>
 public partial struct FEmitterDynamicParameterBP {
 // EmitterDynamicParameterBP
-	public sbyte ParamName;
+	public string ParamName;
 	public bool bUseEmitterTime;
 	public bool bSpawnTimeOnly;
 	public byte ValueMethod;

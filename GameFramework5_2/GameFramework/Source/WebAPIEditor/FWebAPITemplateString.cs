@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("WebAPICommon.h")]
 public partial struct FWebAPITemplateString {
 // WebAPITemplateString
-	public sbyte String;
+	public string String;
 }

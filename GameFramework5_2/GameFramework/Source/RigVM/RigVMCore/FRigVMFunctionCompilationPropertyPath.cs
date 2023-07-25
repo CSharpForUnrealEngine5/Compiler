@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMFunctionCompilationPropertyPath {
 // RigVMFunctionCompilationPropertyPath
 	public int PropertyIndex;
-	public sbyte HeadCPPType;
-	public sbyte SegmentPath;
+	public string HeadCPPType;
+	public string SegmentPath;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure used to collect New Config options from the user</summary>
 public partial struct FSwitchboardNewConfigUserOptions {
 // SwitchboardNewConfigUserOptions
-	public sbyte ConfigName;
+	public string ConfigName;
 	public FDisplayClusterRootActorReference DCRA;
 	public int NumEditorDevices;
 	public bool bUseLocalhost;

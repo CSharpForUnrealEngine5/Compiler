@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Offset Transform is used to perform a change in the hierarchy by setting a single bone's transform.</summary>
 public partial struct FRigUnit_AddBoneTransform {
 // RigUnit_AddBoneTransform
-	public sbyte Bone;
+	public string Bone;
 	public FTransform Transform;
 	public float Weight;
 	public bool bPostMultiply;

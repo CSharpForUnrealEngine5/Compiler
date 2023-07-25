@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("MoviePipelineCommandLineEncoder.h")]
 public partial class UMoviePipelineCommandLineEncoder : UMoviePipelineSetting {
 // MoviePipelineCommandLineEncoder
-	public sbyte FileNameFormatOverride;
+	public string FileNameFormatOverride;
 	public EMoviePipelineEncodeQuality Quality;
-	public sbyte AdditionalCommandLineArgs;
+	public string AdditionalCommandLineArgs;
 	public bool bDeleteSourceFiles;
 	public bool bSkipEncodeOnRenderCanceled;
 	public bool bWriteEachFrameDuration;

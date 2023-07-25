@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("CommonUITypes.h")]
 public partial struct FCommonInputActionDataBase {
 // CommonInputActionDataBase
-	public sbyte DisplayName;
-	public sbyte HoldDisplayName;
+	public string DisplayName;
+	public string HoldDisplayName;
 	public int NavBarPriority;
 	public FCommonInputTypeInfo KeyboardInputTypeInfo;
 	public FCommonInputTypeInfo DefaultGamepadInputTypeInfo;
-	public TMap<sbyte,FCommonInputTypeInfo> GamepadInputOverrides;
+	public TMap<string,FCommonInputTypeInfo> GamepadInputOverrides;
 	public FCommonInputTypeInfo TouchInputTypeInfo;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MaterialTypes.h")]
 public partial struct FMaterialParameterInfo {
 // MaterialParameterInfo
-	public sbyte Name;
+	public string Name;
 	public byte Association;
 	public int Index;
 }

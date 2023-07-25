@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ImportTestFunctions/MaterialXTestFunctions.h")]
 public partial class UMaterialXTestFunctions : UImportTestFunctionsBase {
 // MaterialXTestFunctions
-	public FInterchangeTestFunctionResult CheckConnectedInputCount(UObject MaterialInterface,int ExpectedNumber,FInterchangeTestFunctionResult ReturnValue) { return default; }
-	public FInterchangeTestFunctionResult CheckInputConnected(UObject MaterialInterface,sbyte InputName,bool bIsConnected,FInterchangeTestFunctionResult ReturnValue) { return default; }
+	public FInterchangeTestFunctionResult CheckConnectedInputCount(UObject MaterialInterface,int ExpectedNumber) { return default; }
+	public FInterchangeTestFunctionResult CheckInputConnected(UObject MaterialInterface,string InputName,bool bIsConnected) { return default; }
 }

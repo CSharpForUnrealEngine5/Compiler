@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Named container with one or more ContextualAnimSet</summary>
 public partial struct FContextualAnimSceneSection {
 // ContextualAnimSceneSection
-	public sbyte Name;
+	public string Name;
 	public TArray<FContextualAnimSet> AnimSets;
-	public TMap<sbyte,FContextualAnimIKTargetDefContainer> RoleToIKTargetDefsMap;
+	public TMap<string,FContextualAnimIKTargetDefContainer> RoleToIKTargetDefsMap;
 	public TArray<FContextualAnimSetPivotDefinition> AnimSetPivotDefinitions;
 }

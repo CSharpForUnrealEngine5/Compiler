@@ -9,5 +9,5 @@ public partial struct FLandscapeLayerStruct {
 	public ALandscapeProxy Owner;
 	public int DebugColorChannel;
 	public bool bSelected;
-	public sbyte SourceFilePath;
+	public string SourceFilePath;
 }

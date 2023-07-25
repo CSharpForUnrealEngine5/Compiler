@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Pivot for a AnimSet</summary>
 public partial struct FContextualAnimSetPivot {
 // ContextualAnimSetPivot
-	public sbyte Name;
+	public string Name;
 	public FTransform Transform;
 }

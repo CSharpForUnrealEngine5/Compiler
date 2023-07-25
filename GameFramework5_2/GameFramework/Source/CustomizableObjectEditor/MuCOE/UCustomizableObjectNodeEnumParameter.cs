@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UCustomizableObjectNodeEnumParameter : UCustomizableObjectNode {
 // CustomizableObjectNodeEnumParameter
 	public int DefaultIndex;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMutableParamUIMetadata ParamUIMetadata;
 	public TArray<FCustomizableObjectNodeEnumValue> Values;
 }

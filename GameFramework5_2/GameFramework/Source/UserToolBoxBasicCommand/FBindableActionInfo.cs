@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ExecuteBindableAction.h")]
 public partial struct FBindableActionInfo {
 // BindableActionInfo
-	public sbyte Context;
-	public sbyte CommandName;
+	public string Context;
+	public string CommandName;
 }

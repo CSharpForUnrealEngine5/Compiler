@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("AnimationGraphSchema.h")]
 public partial class UAnimationGraphSchema : UEdGraphSchema_K2 {
 // AnimationGraphSchema
-	public sbyte PN_SequenceName;
-	public sbyte NAME_NeverAsPin;
-	public sbyte NAME_PinHiddenByDefault;
-	public sbyte NAME_PinShownByDefault;
-	public sbyte NAME_AlwaysAsPin;
-	public sbyte NAME_CustomizeProperty;
-	public sbyte NAME_OnEvaluate;
-	public sbyte DefaultEvaluationHandlerName;
+	public string PN_SequenceName;
+	public string NAME_NeverAsPin;
+	public string NAME_PinHiddenByDefault;
+	public string NAME_PinShownByDefault;
+	public string NAME_AlwaysAsPin;
+	public string NAME_CustomizeProperty;
+	public string NAME_OnEvaluate;
+	public string DefaultEvaluationHandlerName;
 }

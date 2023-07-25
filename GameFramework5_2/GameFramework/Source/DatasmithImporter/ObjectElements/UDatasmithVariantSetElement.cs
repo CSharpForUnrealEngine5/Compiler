@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>* UDatasmithVariantSetElement</summary>
 public partial class UDatasmithVariantSetElement : UDatasmithObjectElement {
 // DatasmithVariantSetElement
-	public UObject CreateVariant(sbyte InElementName,UObject ReturnValue) { return default; }
+	public UObject CreateVariant(string InElementName) { return default; }
 	public void AddVariant(UObject Variant) {}
-	public int GetVariantsCount(int ReturnValue) { return default; }
-	public UObject GetVariant(int Index,UObject ReturnValue) { return default; }
+	public int GetVariantsCount() { return default; }
+	public UObject GetVariant(int Index) { return default; }
 	public void RemoveVariant(UObject Variant) {}
 }

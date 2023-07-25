@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UConversationParticipantComponent : UActorComponent {
 // ConversationParticipantComponent
 	public void RequestServerAdvanceConversation(FAdvanceConversationRequest InChoicePicked) {}
-	public sbyte GetParticipantDisplayName(sbyte ReturnValue) { return default; }
-	public bool IsInActiveConversation(bool ReturnValue) { return default; }
+	public string GetParticipantDisplayName() { return default; }
+	public bool IsInActiveConversation() { return default; }
 	public void ServerAdvanceConversation(FAdvanceConversationRequest InChoicePicked) {}
 	public void ClientUpdateParticipants(FConversationParticipants InParticipants) {}
 	public void ClientExecuteTaskAndSideEffects(FConversationNodeHandle Handle) {}

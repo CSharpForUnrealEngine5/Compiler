@@ -8,7 +8,7 @@ public partial class ANetworkPredictionExtrasFlyingPawn : APawn {
 	public ENetworkPredictionExtrasFlyingInputPreset InputPreset;
 	public bool bFakeAutonomousProxy;
 	public void PrintDebug() {}
-	public float GetMaxMoveSpeed(float ReturnValue) { return default; }
+	public float GetMaxMoveSpeed() { return default; }
 	public void SetMaxMoveSpeed(float NewMaxMoveSpeed) {}
 	public void AddMaxMoveSpeed(float AdditiveMaxMoveSpeed) {}
 	public UFlyingMovementComponent FlyingMovementComponent;

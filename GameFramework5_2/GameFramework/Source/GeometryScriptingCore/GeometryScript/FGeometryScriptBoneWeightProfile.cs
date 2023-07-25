@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("GeometryScript/MeshBoneWeightFunctions.h")]
 public partial struct FGeometryScriptBoneWeightProfile {
 // GeometryScriptBoneWeightProfile
-	public sbyte ProfileName;
+	public string ProfileName;
 }

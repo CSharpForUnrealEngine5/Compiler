@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>This file contains a number of helper structures that can be used to process state-machine-</summary>
 public partial struct FCachedAnimStateData {
 // CachedAnimStateData
-	public sbyte StateMachineName;
-	public sbyte StateName;
+	public string StateMachineName;
+	public string StateName;
 }

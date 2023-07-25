@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>For each static mesh to process, replace the existing static mesh's LODs with new ones based on selected group</summary>
 public partial class UDataprepSetLODGroupOperation : UDataprepOperation {
 // DataprepSetLODGroupOperation
-	public sbyte GroupName;
+	public string GroupName;
 }

@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>Class to represent a set of variants</summary>
 public partial class UInterchangeVariantSetNode : UInterchangeBaseNode {
 // InterchangeVariantSetNode
-	public bool GetCustomDisplayText(sbyte AttributeValue,bool ReturnValue) { return default; }
-	public bool SetCustomDisplayText(sbyte AttributeValue,bool ReturnValue) { return default; }
-	public bool GetCustomVariantsPayloadKey(sbyte PayloadKey,bool ReturnValue) { return default; }
-	public bool SetCustomVariantsPayloadKey(sbyte PayloadKey,bool ReturnValue) { return default; }
-	public int GetCustomDependencyUidCount(int ReturnValue) { return default; }
-	public void GetCustomDependencyUids(TArray<sbyte> OutDependencyUids) {}
-	public void GetCustomDependencyUid(int Index,sbyte OutDependencyUid) {}
-	public bool AddCustomDependencyUid(sbyte DependencyUid,bool ReturnValue) { return default; }
-	public bool RemoveCustomDependencyUid(sbyte DependencyUid,bool ReturnValue) { return default; }
+	public bool GetCustomDisplayText(string AttributeValue) { return default; }
+	public bool SetCustomDisplayText(string AttributeValue) { return default; }
+	public bool GetCustomVariantsPayloadKey(string PayloadKey) { return default; }
+	public bool SetCustomVariantsPayloadKey(string PayloadKey) { return default; }
+	public int GetCustomDependencyUidCount() { return default; }
+	public void GetCustomDependencyUids(TArray<string> OutDependencyUids) {}
+	public void GetCustomDependencyUid(int Index,string OutDependencyUid) {}
+	public bool AddCustomDependencyUid(string DependencyUid) { return default; }
+	public bool RemoveCustomDependencyUid(string DependencyUid) { return default; }
 }

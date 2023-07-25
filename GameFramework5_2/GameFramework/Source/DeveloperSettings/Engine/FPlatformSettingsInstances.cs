@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPlatformSettingsInstances {
 // PlatformSettingsInstances
 	public UPlatformSettings PlatformInstance;
-	public TMap<sbyte,UPlatformSettings> OtherPlatforms;
+	public TMap<string,UPlatformSettings> OtherPlatforms;
 }

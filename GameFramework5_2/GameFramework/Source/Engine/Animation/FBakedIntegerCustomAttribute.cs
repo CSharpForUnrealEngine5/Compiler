@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/CustomAttributes.h")]
 public partial struct FBakedIntegerCustomAttribute {
 // BakedIntegerCustomAttribute
-	public sbyte AttributeName;
+	public string AttributeName;
 	public FIntegralCurve IntCurve;
 }

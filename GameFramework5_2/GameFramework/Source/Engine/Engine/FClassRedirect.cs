@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/Engine.h")]
 public partial struct FClassRedirect {
 // ClassRedirect
-	public sbyte ObjectName;
-	public sbyte OldClassName;
-	public sbyte NewClassName;
-	public sbyte OldSubobjName;
-	public sbyte NewSubobjName;
-	public sbyte NewClassClass;
-	public sbyte NewClassPackage;
+	public string ObjectName;
+	public string OldClassName;
+	public string NewClassName;
+	public string OldSubobjName;
+	public string NewSubobjName;
+	public string NewClassClass;
+	public string NewClassPackage;
 	public bool InstanceOnly;
 }

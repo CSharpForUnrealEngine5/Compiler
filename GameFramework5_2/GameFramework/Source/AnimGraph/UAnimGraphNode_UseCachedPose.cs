@@ -6,5 +6,5 @@ public partial class UAnimGraphNode_UseCachedPose : UAnimGraphNode_Base {
 // AnimGraphNode_UseCachedPose
 	public FAnimNode_UseCachedPose Node;
 	public TWeakObjectPtr<UAnimGraphNode_SaveCachedPose> SaveCachedPoseNode;
-	public sbyte NameOfCache;
+	public string NameOfCache;
 }

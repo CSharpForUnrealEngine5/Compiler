@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("EngineCommand.h")]
 public partial class UEngineCommand : UUTBBaseCommand {
 // EngineCommand
-	public sbyte Command;
+	public string Command;
 }

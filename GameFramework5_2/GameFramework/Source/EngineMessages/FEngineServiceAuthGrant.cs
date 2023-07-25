@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for granting service access to a remote user.</summary>
 public partial struct FEngineServiceAuthGrant {
 // EngineServiceAuthGrant
-	public sbyte UserName;
-	public sbyte UserToGrant;
+	public string UserName;
+	public string UserToGrant;
 }

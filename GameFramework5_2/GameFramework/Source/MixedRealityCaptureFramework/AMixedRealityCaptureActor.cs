@@ -10,8 +10,8 @@ public partial class AMixedRealityCaptureActor : AActor {
 	public bool bHideAttachmentsWithPlayer;
 	public bool bAutoBroadcast;
 	public void SetAutoBroadcast(bool bNewValue) {}
-	public bool IsBroadcasting(bool ReturnValue) { return default; }
-	public UObject GetCaptureTexture(UObject ReturnValue) { return default; }
+	public bool IsBroadcasting() { return default; }
+	public UObject GetCaptureTexture() { return default; }
 	public void OnTargetDestroyed(UObject DestroyedActor) {}
 	public UStaticMesh DebugVisualizerMesh;
 }

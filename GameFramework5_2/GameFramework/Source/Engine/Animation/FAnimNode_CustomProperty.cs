@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Custom property node that you'd like to expand pin by reflecting internal instance (we call TargetInstance here)</summary>
 public partial struct FAnimNode_CustomProperty {
 // AnimNode_CustomProperty
-	public TArray<sbyte> SourcePropertyNames;
-	public TArray<sbyte> DestPropertyNames;
+	public TArray<string> SourcePropertyNames;
+	public TArray<string> DestPropertyNames;
 	public UObject TargetInstance;
 	public UObject SourceInstance;
 }

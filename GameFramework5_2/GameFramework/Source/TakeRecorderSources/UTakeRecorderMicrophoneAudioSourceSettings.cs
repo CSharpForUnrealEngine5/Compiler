@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A recording source that records microphone audio</summary>
 public partial class UTakeRecorderMicrophoneAudioSourceSettings : UTakeRecorderSource {
 // TakeRecorderMicrophoneAudioSourceSettings
-	public sbyte AudioTrackName;
-	public sbyte AudioAssetName;
-	public sbyte AudioSubDirectory;
+	public string AudioTrackName;
+	public string AudioAssetName;
+	public string AudioSubDirectory;
 }

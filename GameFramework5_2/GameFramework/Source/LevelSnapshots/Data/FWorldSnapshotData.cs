@@ -11,11 +11,11 @@ public partial struct FWorldSnapshotData {
 	public TMap<FSoftClassPath,FClassDefaultObjectSnapshotData> ClassDefaults_DEPRECATED;
 	public TArray<FClassSnapshotData> ClassData;
 	public TMap<FSoftObjectPath,FActorSnapshotData> ActorData;
-	public TArray<sbyte> SerializedNames;
+	public TArray<string> SerializedNames;
 	public TArray<FSoftObjectPath> SerializedObjectReferences;
 	public TMap<int,FSubobjectSnapshotData> Subobjects;
 	public TMap<int,FCustomSerializationData> CustomSubobjectSerializationData;
-	public TMap<sbyte,int> NameToIndex;
+	public TMap<string,int> NameToIndex;
 	public TMap<FSoftObjectPath,int> ReferenceToIndex;
 	public TMap<UObject,uint> ArchetypeToClassDataIndex;
 }

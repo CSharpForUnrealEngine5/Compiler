@@ -5,16 +5,16 @@ using CSharpToCpp.Utilities;
 ///<summary>This is a component for AMediaPlate that can play and show media in the world.</summary>
 public partial class UMediaPlateComponent : UActorComponent {
 // MediaPlateComponent
-	public UObject GetMediaPlayer(UObject ReturnValue) { return default; }
-	public UObject GetMediaTexture(int Index=0,UObject ReturnValue) { return default; }
+	public UObject GetMediaPlayer() { return default; }
+	public UObject GetMediaTexture(int Index/*=0*/) { return default; }
 	public void Open() {}
 	public void Play() {}
 	public void Pause() {}
-	public bool Rewind(bool ReturnValue) { return default; }
-	public bool Seek(FTimespan Time,bool ReturnValue) { return default; }
+	public bool Rewind() { return default; }
+	public bool Seek(FTimespan Time) { return default; }
 	public void Close() {}
-	public bool IsMediaPlatePlaying(bool ReturnValue) { return default; }
-	public bool GetLoop(bool ReturnValue) { return default; }
+	public bool IsMediaPlatePlaying() { return default; }
+	public bool GetLoop() { return default; }
 	public void SetLoop(bool bInLoop) {}
 	public bool bPlayOnOpen;
 	public bool bAutoPlay;
@@ -27,11 +27,11 @@ public partial class UMediaPlateComponent : UActorComponent {
 	public int PlaylistIndex;
 	public FMediaSourceCacheSettings CacheSettings;
 	public void SetMeshRange(FVector2D InMeshRange) {}
-	public FVector2D GetMeshRange(FVector2D ReturnValue) { return default; }
+	public FVector2D GetMeshRange() { return default; }
 	public void SetPlayOnlyWhenVisible(bool bInPlayOnlyWhenVisible) {}
-	public bool GetIsAspectRatioAuto(bool ReturnValue) { return default; }
+	public bool GetIsAspectRatioAuto() { return default; }
 	public void SetIsAspectRatioAuto(bool bInIsAspectRatioAuto) {}
-	public float GetLetterboxAspectRatio(float ReturnValue) { return default; }
+	public float GetLetterboxAspectRatio() { return default; }
 	public void SetLetterboxAspectRatio(float AspectRatio) {}
 	public bool bIsMediaPlatePlaying;
 	public bool bPlayOnlyWhenVisible;
@@ -46,6 +46,6 @@ public partial class UMediaPlateComponent : UActorComponent {
 	public UMediaTexture MediaTexture_DEPRECATED;
 	public TArray<UMediaTexture> MediaTextures;
 	public UMediaPlayer MediaPlayer;
-	public void OnMediaOpened(sbyte DeviceUrl) {}
+	public void OnMediaOpened(string DeviceUrl) {}
 	public void OnMediaEnd() {}
 }

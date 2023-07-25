@@ -6,5 +6,5 @@ public partial class ULogoutCallbackProxy : UBlueprintAsyncActionBase {
 // LogoutCallbackProxy
 	public FOnlineLogoutResult OnSuccess;
 	public FOnlineLogoutResult OnFailure;
-	public UObject Logout(UObject WorldContextObject,UObject PlayerController,UObject ReturnValue) { return default; }
+	public UObject Logout(UObject WorldContextObject,UObject PlayerController) { return default; }
 }

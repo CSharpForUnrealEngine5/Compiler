@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Event triggered when an exposed entity struct is modified.</summary>
 public partial struct FRCPresetEntitiesModifiedEvent {
 // RCPresetEntitiesModifiedEvent
-	public sbyte Type;
-	public sbyte PresetName;
-	public sbyte PresetId;
+	public string Type;
+	public string PresetName;
+	public string PresetId;
 	public FRCPresetModifiedEntitiesDescription ModifiedEntities;
 }

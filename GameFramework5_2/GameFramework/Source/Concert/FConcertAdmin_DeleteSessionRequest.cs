@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertAdmin_DeleteSessionRequest {
 // ConcertAdmin_DeleteSessionRequest
 	public FGuid SessionId;
-	public sbyte UserName;
-	public sbyte DeviceName;
+	public string UserName;
+	public string DeviceName;
 }

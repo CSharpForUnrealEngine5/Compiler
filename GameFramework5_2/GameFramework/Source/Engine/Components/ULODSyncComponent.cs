@@ -9,8 +9,8 @@ public partial class ULODSyncComponent : UActorComponent {
 	public int ForcedLOD;
 	public int MinLOD;
 	public TArray<FComponentSync> ComponentsToSync;
-	public TMap<sbyte,FLODMappingData> CustomLODMapping;
-	public sbyte GetLODSyncDebugText(sbyte ReturnValue) { return default; }
+	public TMap<string,FLODMappingData> CustomLODMapping;
+	public string GetLODSyncDebugText() { return default; }
 	public int CurrentLOD;
 	public int CurrentNumLODs;
 	public TArray<UPrimitiveComponent> DriveComponents;

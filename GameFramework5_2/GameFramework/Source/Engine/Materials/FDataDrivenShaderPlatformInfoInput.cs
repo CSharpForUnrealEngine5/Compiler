@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionDataDrivenShaderPlatformInfoSwitch.h")]
 public partial struct FDataDrivenShaderPlatformInfoInput {
 // DataDrivenShaderPlatformInfoInput
-	public sbyte InputName;
+	public string InputName;
 	public byte PropertyCondition;
 }

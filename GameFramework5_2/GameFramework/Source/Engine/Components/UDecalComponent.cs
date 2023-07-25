@@ -13,18 +13,18 @@ public partial class UDecalComponent : USceneComponent {
 	public float FadeInDuration;
 	public float FadeInStartDelay;
 	public bool bDestroyOwnerAfterFade;
-	public float GetFadeStartDelay(float ReturnValue) { return default; }
-	public float GetFadeDuration(float ReturnValue) { return default; }
-	public float GetFadeInStartDelay(float ReturnValue) { return default; }
-	public float GetFadeInDuration(float ReturnValue) { return default; }
+	public float GetFadeStartDelay() { return default; }
+	public float GetFadeDuration() { return default; }
+	public float GetFadeInStartDelay() { return default; }
+	public float GetFadeInDuration() { return default; }
 	public FVector DecalSize;
 	public FLinearColor DecalColor;
-	public void SetFadeOut(float StartDelay,float Duration,bool DestroyOwnerAfterFade=true) {}
+	public void SetFadeOut(float StartDelay,float Duration,bool DestroyOwnerAfterFade/*=true*/) {}
 	public void SetFadeIn(float StartDelay,float Duration) {}
 	public void SetFadeScreenSize(float NewFadeScreenSize) {}
 	public void SetSortOrder(int Value) {}
 	public void SetDecalColor(FLinearColor Color) {}
 	public void SetDecalMaterial(UObject NewDecalMaterial) {}
-	public UObject GetDecalMaterial(UObject ReturnValue) { return default; }
-	public UObject CreateDynamicMaterialInstance(UObject ReturnValue) { return default; }
+	public UObject GetDecalMaterial() { return default; }
+	public UObject CreateDynamicMaterialInstance() { return default; }
 }

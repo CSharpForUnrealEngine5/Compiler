@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FDMXFixtureFunction {
 // DMXFixtureFunction
 	public FDMXAttributeName Attribute;
-	public sbyte FunctionName;
-	public sbyte Description;
+	public string FunctionName;
+	public string Description;
 	public long DefaultValue;
 	public int Channel;
 	public int ChannelOffset_DEPRECATED;

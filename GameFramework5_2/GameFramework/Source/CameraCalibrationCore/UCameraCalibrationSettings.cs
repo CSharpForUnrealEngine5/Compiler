@@ -11,6 +11,6 @@ public partial class UCameraCalibrationSettings : UDeveloperSettings {
 	public TMap<UClass,TSoftObjectPtr<UMaterialInterface>> DefaultUndistortionDisplacementMaterials;
 	public TMap<UClass,TSoftObjectPtr<UMaterialInterface>> DefaultDistortionDisplacementMaterials;
 	public TMap<UClass,TSoftObjectPtr<UMaterialInterface>> DefaultDistortionMaterials;
-	public TMap<sbyte,TSoftObjectPtr<UMaterialInterface>> CalibrationOverlayMaterialOverrides;
+	public TMap<string,TSoftObjectPtr<UMaterialInterface>> CalibrationOverlayMaterialOverrides;
 	public bool bEnableCalibrationDatasetImportExport;
 }

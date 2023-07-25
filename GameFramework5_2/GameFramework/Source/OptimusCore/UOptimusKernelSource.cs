@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusKernelSource.h")]
 public partial class UOptimusKernelSource : UComputeKernelSource {
 // OptimusKernelSource
-	public sbyte Source;
+	public string Source;
 }

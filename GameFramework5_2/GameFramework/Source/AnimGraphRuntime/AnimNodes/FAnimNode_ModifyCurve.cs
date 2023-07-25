@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNode_ModifyCurve {
 // AnimNode_ModifyCurve
 	public FPoseLink SourcePose;
-	public TMap<sbyte,float> CurveMap;
+	public TMap<string,float> CurveMap;
 	public TArray<float> CurveValues;
-	public TArray<sbyte> CurveNames;
+	public TArray<string> CurveNames;
 	public float Alpha;
 	public EModifyCurveApplyMode ApplyMode;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DisplayClusterConfigurationTypes.h")]
 public partial struct FDisplayClusterConfigurationInfo {
 // DisplayClusterConfigurationInfo
-	public sbyte Description;
-	public sbyte Version;
-	public sbyte AssetPath;
+	public string Description;
+	public string Version;
+	public string AssetPath;
 }

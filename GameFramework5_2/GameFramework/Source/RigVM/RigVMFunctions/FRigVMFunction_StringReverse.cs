@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Returns the reverse of the input string</summary>
 public partial struct FRigVMFunction_StringReverse {
 // RigVMFunction_StringReverse
-	public sbyte Value;
-	public sbyte Reverse;
+	public string Value;
+	public string Reverse;
 }

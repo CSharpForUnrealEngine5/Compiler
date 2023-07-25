@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("Data/ManifestUObject.h")]
 public partial struct FFileManifestData {
 // FileManifestData
-	public sbyte Filename;
+	public string Filename;
 	public FSHAHashData FileHash;
 	public TArray<FChunkPartData> FileChunkParts;
-	public TArray<sbyte> InstallTags;
+	public TArray<string> InstallTags;
 	public bool bIsUnixExecutable;
-	public sbyte SymlinkTarget;
+	public string SymlinkTarget;
 	public bool bIsReadOnly;
 	public bool bIsCompressed;
 }

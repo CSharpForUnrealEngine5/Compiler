@@ -13,8 +13,8 @@ public partial class UDetailsView : UPropertyViewBase {
 	public float ColumnWidth;
 	public bool bShowScrollBar;
 	public bool bForceHiddenPropertyVisibility;
-	public sbyte ViewIdentifier;
-	public TArray<sbyte> CategoriesToShow;
-	public TArray<sbyte> PropertiesToShow;
+	public string ViewIdentifier;
+	public TArray<string> CategoriesToShow;
+	public TArray<string> PropertiesToShow;
 	public bool bShowOnlyAllowed;
 }

@@ -8,10 +8,10 @@ public partial struct FCustomizableObjectPopulationConstraint {
 	public int ConstraintWeight;
 	public int TrueWeight;
 	public int FalseWeight;
-	public sbyte DiscreteValue;
+	public string DiscreteValue;
 	public FLinearColor DiscreteColor;
-	public TArray<sbyte> Allowlist;
-	public TArray<sbyte> Blocklist;
+	public TArray<string> Allowlist;
+	public TArray<string> Blocklist;
 	public TArray<FConstraintRanges> Ranges;
 	public UCurveBase Curve;
 	public ECurveColor CurveColor;

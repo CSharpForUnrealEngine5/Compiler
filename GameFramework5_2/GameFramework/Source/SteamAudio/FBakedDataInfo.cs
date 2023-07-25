@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("PhononProbeVolume.h")]
 public partial struct FBakedDataInfo {
 // BakedDataInfo
-	public sbyte Name;
+	public string Name;
 	public int Size;
 }

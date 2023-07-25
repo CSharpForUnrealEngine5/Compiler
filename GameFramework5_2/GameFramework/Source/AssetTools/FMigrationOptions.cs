@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FMigrationOptions {
 // MigrationOptions
 	public EAssetMigrationConflict AssetConflict;
-	public sbyte OrphanFolder;
+	public string OrphanFolder;
 }

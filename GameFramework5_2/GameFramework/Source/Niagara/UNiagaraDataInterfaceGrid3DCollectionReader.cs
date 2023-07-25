@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraDataInterfaceGrid3DCollectionReader.h")]
 public partial class UNiagaraDataInterfaceGrid3DCollectionReader : UNiagaraDataInterfaceGrid3DCollection {
 // NiagaraDataInterfaceGrid3DCollectionReader
-	public sbyte EmitterName;
-	public sbyte DIName;
+	public string EmitterName;
+	public string DIName;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetControlInteger is used to perform a change in the hierarchy by setting a single control's int32 value.</summary>
 public partial struct FRigUnit_SetControlInteger {
 // RigUnit_SetControlInteger
-	public sbyte Control;
+	public string Control;
 	public int Weight;
 	public int IntegerValue;
 	public FCachedRigElement CachedControlIndex;

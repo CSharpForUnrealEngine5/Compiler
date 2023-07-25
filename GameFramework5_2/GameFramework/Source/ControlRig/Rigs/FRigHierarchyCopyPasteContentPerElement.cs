@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigHierarchyCopyPasteContentPerElement {
 // RigHierarchyCopyPasteContentPerElement
 	public FRigElementKey Key;
-	public sbyte Content;
+	public string Content;
 	public TArray<FRigElementKey> Parents;
 	public TArray<FRigElementWeight> ParentWeights;
 	public FRigCurrentAndInitialTransform Pose;

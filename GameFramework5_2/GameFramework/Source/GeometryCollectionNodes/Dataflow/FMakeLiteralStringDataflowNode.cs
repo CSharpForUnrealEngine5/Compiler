@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Description for this node</summary>
 public partial struct FMakeLiteralStringDataflowNode {
 // MakeLiteralStringDataflowNode
-	public sbyte Value;
-	public sbyte String;
+	public string Value;
+	public string String;
 }

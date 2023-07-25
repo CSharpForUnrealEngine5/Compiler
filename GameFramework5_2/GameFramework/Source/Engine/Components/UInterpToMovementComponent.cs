@@ -26,8 +26,8 @@ public partial class UInterpToMovementComponent : UMovementComponent {
 	public float MaxSimulationTimeStep;
 	public int MaxSimulationIterations;
 	public TArray<FInterpControlPoint> ControlPoints;
-	public void AddControlPointPosition(FVector Pos,bool bPositionIsRelative=true) {}
-	public void RestartMovement(float InitialDirection=1.0f) {}
+	public void AddControlPointPosition(FVector Pos,bool bPositionIsRelative/*=true*/) {}
+	public void RestartMovement(float InitialDirection/*=1.0f*/) {}
 	public void FinaliseControlPoints() {}
 	public void ResetControlPoints() {}
 }

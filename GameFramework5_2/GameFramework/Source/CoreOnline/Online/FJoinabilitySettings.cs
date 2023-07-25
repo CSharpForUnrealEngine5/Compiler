@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Online/CoreOnline.h")]
 public partial struct FJoinabilitySettings {
 // JoinabilitySettings
-	public sbyte SessionName;
+	public string SessionName;
 	public bool bPublicSearchable;
 	public bool bAllowInvites;
 	public bool bJoinViaPresence;

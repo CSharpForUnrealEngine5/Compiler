@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Asset user data that can be used with Datasmith on Actors and other objects</summary>
 public partial class UDatasmithAssetUserData : UAssetUserData {
 // DatasmithAssetUserData
-	public TMap<sbyte,sbyte> MetaData;
+	public TMap<string,string> MetaData;
 	public TMap<UClass,UDatasmithObjectTemplate> ObjectTemplates;
 }

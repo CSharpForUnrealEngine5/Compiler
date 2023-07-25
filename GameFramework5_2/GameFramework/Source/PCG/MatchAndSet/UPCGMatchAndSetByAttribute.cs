@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>This Match & Set object looks up an attribute on a given point,</summary>
 public partial class UPCGMatchAndSetByAttribute : UPCGMatchAndSetBase {
 // PCGMatchAndSetByAttribute
-	public sbyte MatchSourceAttribute;
+	public string MatchSourceAttribute;
 	public EPCGMetadataTypes MatchSourceType;
 	public EPCGMetadataTypesConstantStructStringMode MatchSourceStringMode;
 	public TArray<FPCGMatchAndSetByAttributeEntry> Entries;

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertMessages.h")]
 public partial struct FConcertAdmin_ServerDiscoveredEvent {
 // ConcertAdmin_ServerDiscoveredEvent
-	public sbyte ServerName;
+	public string ServerName;
 	public FConcertInstanceInfo InstanceInfo;
 	public EConcertServerFlags ServerFlags;
 }

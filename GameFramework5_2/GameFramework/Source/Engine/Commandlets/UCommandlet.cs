@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("Commandlets/Commandlet.h")]
 public partial class UCommandlet : UObject {
 // Commandlet
-	public sbyte HelpDescription;
-	public sbyte HelpUsage;
-	public sbyte HelpWebLink;
-	public TArray<sbyte> HelpParamNames;
-	public TArray<sbyte> HelpParamDescriptions;
+	public string HelpDescription;
+	public string HelpUsage;
+	public string HelpWebLink;
+	public TArray<string> HelpParamNames;
+	public TArray<string> HelpParamDescriptions;
 	public bool IsServer;
 	public bool IsClient;
 	public bool IsEditor;

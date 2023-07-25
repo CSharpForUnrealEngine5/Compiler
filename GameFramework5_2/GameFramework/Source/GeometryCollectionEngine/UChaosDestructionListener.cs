@@ -27,7 +27,7 @@ public partial class UChaosDestructionListener : USceneComponent {
 	public void SetBreakingEventEnabled(bool bIsEnabled) {}
 	public void SetTrailingEventEnabled(bool bIsEnabled) {}
 	public void SetRemovalEventEnabled(bool bIsEnabled) {}
-	public bool IsEventListening(bool ReturnValue) { return default; }
+	public bool IsEventListening() { return default; }
 	public FOnChaosCollisionEvents OnCollisionEvents;
 	public FOnChaosBreakingEvents OnBreakingEvents;
 	public FOnChaosTrailingEvents OnTrailingEvents;

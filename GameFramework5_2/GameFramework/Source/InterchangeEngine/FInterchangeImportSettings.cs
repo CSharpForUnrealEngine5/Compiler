@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("InterchangeProjectSettings.h")]
 public partial struct FInterchangeImportSettings {
 // InterchangeImportSettings
-	public TMap<sbyte,FInterchangePipelineStack> PipelineStacks;
-	public sbyte DefaultPipelineStack;
+	public TMap<string,FInterchangePipelineStack> PipelineStacks;
+	public string DefaultPipelineStack;
 	public TSoftObjectPtr<UClass> PipelineConfigurationDialogClass;
 	public bool bShowPipelineStacksConfigurationDialog;
 }

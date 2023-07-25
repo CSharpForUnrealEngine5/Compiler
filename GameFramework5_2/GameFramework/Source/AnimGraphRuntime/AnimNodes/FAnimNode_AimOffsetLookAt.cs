@@ -7,8 +7,8 @@ public partial struct FAnimNode_AimOffsetLookAt {
 // AnimNode_AimOffsetLookAt
 	public FPoseLink BasePose;
 	public int LODThreshold;
-	public sbyte SourceSocketName;
-	public sbyte PivotSocketName;
+	public string SourceSocketName;
+	public string PivotSocketName;
 	public FVector LookAtLocation;
 	public FVector SocketAxis;
 	public float Alpha;

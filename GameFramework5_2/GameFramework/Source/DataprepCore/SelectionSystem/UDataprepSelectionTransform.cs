@@ -6,9 +6,9 @@ public partial class UDataprepSelectionTransform : UDataprepParameterizableObjec
 // DataprepSelectionTransform
 	public void Execute(TArray<UObject> InObjects,TArray<UObject> OutObjects) {}
 	public void OnExecution(TArray<UObject> InObjects,TArray<UObject> OutObjects) {}
-	public sbyte GetDisplayTransformName(sbyte ReturnValue) { return default; }
-	public sbyte GetTooltip(sbyte ReturnValue) { return default; }
-	public sbyte GetCategory(sbyte ReturnValue) { return default; }
-	public sbyte GetAdditionalKeyword(sbyte ReturnValue) { return default; }
+	public string GetDisplayTransformName() { return default; }
+	public string GetTooltip() { return default; }
+	public string GetCategory() { return default; }
+	public string GetAdditionalKeyword() { return default; }
 	public bool bOutputCanIncludeInput;
 }

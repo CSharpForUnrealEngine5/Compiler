@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A filter used by the auto reimport manager to explicitly include/exclude files matching the specified wildcard</summary>
 public partial struct FAutoReimportWildcard {
 // AutoReimportWildcard
-	public sbyte Wildcard;
+	public string Wildcard;
 	public bool bInclude;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Compares given property value with controller property value</summary>
 public partial class URCBehaviourConditionalNode : URCBehaviourNode {
 // RCBehaviourConditionalNode
-	public bool Execute(UObject InBehaviour,bool ReturnValue) { return default; }
-	public bool IsSupported(UObject InBehaviour,bool ReturnValue) { return default; }
+	public bool Execute(UObject InBehaviour) { return default; }
+	public bool IsSupported(UObject InBehaviour) { return default; }
 	public void OnPassed(UObject InBehaviour) {}
 }

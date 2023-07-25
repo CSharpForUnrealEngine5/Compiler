@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlResponse.h")]
 public partial struct FDescribeObjectResponse {
 // DescribeObjectResponse
-	public sbyte Name;
+	public string Name;
 	public UClass Class;
 	public TArray<FRCPropertyDescription> Properties;
 	public TArray<FRCFunctionDescription> Functions;

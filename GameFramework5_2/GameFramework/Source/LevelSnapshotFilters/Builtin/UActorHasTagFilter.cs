@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UActorHasTagFilter : UActorSelectorFilter {
 // ActorHasTagFilter
 	public byte TagCheckingBehavior;
-	public TSet<sbyte> AllowedTags;
+	public TSet<string> AllowedTags;
 	public byte ActorToCheck;
 }

@@ -8,7 +8,7 @@ public partial struct FCommonInputPlatformBaseData {
 	public ECommonInputType DefaultInputType;
 	public bool bSupportsMouseAndKeyboard;
 	public bool bSupportsGamepad;
-	public sbyte DefaultGamepadName;
+	public string DefaultGamepadName;
 	public bool bCanChangeGamepadType;
 	public bool bSupportsTouch;
 	public TArray<TSoftObjectPtr<UClass>> ControllerData;

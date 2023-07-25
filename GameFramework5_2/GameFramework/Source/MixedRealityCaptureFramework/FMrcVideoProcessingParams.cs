@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MrcCalibrationData.h")]
 public partial struct FMrcVideoProcessingParams {
 // MrcVideoProcessingParams
-	public TMap<sbyte,float> MaterialScalarParams;
-	public TMap<sbyte,FLinearColor> MaterialVectorParams;
+	public TMap<string,float> MaterialScalarParams;
+	public TMap<string,FLinearColor> MaterialVectorParams;
 }

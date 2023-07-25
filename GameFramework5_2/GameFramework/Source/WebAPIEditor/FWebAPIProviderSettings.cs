@@ -6,12 +6,12 @@ using CSharpToCpp.Utilities;
 public partial struct FWebAPIProviderSettings {
 // WebAPIProviderSettings
 	public bool bEnableArbitraryJsonPayloads;
-	public sbyte RequestTypeNameTemplate;
-	public sbyte ResponseTypeNameTemplate;
-	public sbyte NestedPropertyTypeNameTemplate;
-	public sbyte ParameterTypeNameTemplate;
-	public sbyte OperationObjectNameTemplate;
-	public sbyte UnsetEnumValueName;
-	public sbyte DefaultPropertyName;
-	public sbyte DefaultArrayPropertyName;
+	public string RequestTypeNameTemplate;
+	public string ResponseTypeNameTemplate;
+	public string NestedPropertyTypeNameTemplate;
+	public string ParameterTypeNameTemplate;
+	public string OperationObjectNameTemplate;
+	public string UnsetEnumValueName;
+	public string DefaultPropertyName;
+	public string DefaultArrayPropertyName;
 }

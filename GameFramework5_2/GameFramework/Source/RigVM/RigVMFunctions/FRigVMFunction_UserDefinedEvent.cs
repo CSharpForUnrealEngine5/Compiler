@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMFunction_UserDefinedEvent {
 // RigVMFunction_UserDefinedEvent
 	public FRigVMExecuteContext ExecuteContext;
-	public sbyte EventName;
+	public string EventName;
 }

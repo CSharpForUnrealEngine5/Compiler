@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Iris/ReplicationSystem/Filtering/NetObjectFilterDefinitions.h")]
 public partial struct FNetObjectFilterDefinition {
 // NetObjectFilterDefinition
-	public sbyte FilterName;
-	public sbyte ClassName;
-	public sbyte ConfigClassName;
+	public string FilterName;
+	public string ClassName;
+	public string ConfigClassName;
 }

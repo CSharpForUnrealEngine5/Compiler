@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithImportOptions.h")]
 public partial struct FDatasmithAssetImportOptions {
 // DatasmithAssetImportOptions
-	public sbyte PackagePath;
+	public string PackagePath;
 }

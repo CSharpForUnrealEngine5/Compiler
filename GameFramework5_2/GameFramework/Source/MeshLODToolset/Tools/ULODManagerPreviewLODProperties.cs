@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Tools/LODManagerTool.h")]
 public partial class ULODManagerPreviewLODProperties : UInteractiveToolPropertySet {
 // LODManagerPreviewLODProperties
-	public sbyte VisibleLOD;
-	public TArray<sbyte> GetLODNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> LODNamesList;
+	public string VisibleLOD;
+	public TArray<string> GetLODNamesFunc() { return default; }
+	public TArray<string> LODNamesList;
 	public bool bShowSeams;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Class to describe a type of Fixture. Fixture Patches can be created from Fixture Types (see UDMXEntityFixturePatch::ParentFixtureTypeTemplate).</summary>
 public partial class UDMXEntityFixtureType : UDMXEntity {
 // DMXEntityFixtureType
-	public UObject CreateFixtureTypeInLibrary(FDMXEntityFixtureTypeConstructionParams ConstructionParams,sbyte DesiredName=TEXT,bool bMarkDMXLibraryDirty=true,UObject ReturnValue) { return default; }
+	public UObject CreateFixtureTypeInLibrary(FDMXEntityFixtureTypeConstructionParams ConstructionParams,string DesiredName/*=TEXT("")*/,bool bMarkDMXLibraryDirty/*=true*/) { return default; }
 	public void RemoveFixtureTypeFromLibrary(FDMXEntityFixtureTypeRef FixtureTypeRef) {}
 	public void SetModesFromDMXImport(UObject DMXImportAsset) {}
 	public UDMXImport DMXImport;

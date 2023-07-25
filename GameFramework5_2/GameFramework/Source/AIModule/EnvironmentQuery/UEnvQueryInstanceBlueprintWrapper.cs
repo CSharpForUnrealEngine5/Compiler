@@ -9,10 +9,10 @@ public partial class UEnvQueryInstanceBlueprintWrapper : UObject {
 	public UClass ItemType;
 	public int OptionIndex;
 	public FEQSQueryDoneSignature OnQueryFinishedEvent;
-	public float GetItemScore(int ItemIndex,float ReturnValue) { return default; }
-	public bool GetQueryResultsAsActors(TArray<UObject> ResultActors,bool ReturnValue) { return default; }
-	public bool GetQueryResultsAsLocations(TArray<FVector> ResultLocations,bool ReturnValue) { return default; }
-	public TArray<UObject> GetResultsAsActors(TArray<UObject> ReturnValue) { return default; }
-	public TArray<FVector> GetResultsAsLocations(TArray<FVector> ReturnValue) { return default; }
-	public void SetNamedParam(sbyte ParamName,float Value) {}
+	public float GetItemScore(int ItemIndex) { return default; }
+	public bool GetQueryResultsAsActors(TArray<UObject> ResultActors) { return default; }
+	public bool GetQueryResultsAsLocations(TArray<FVector> ResultLocations) { return default; }
+	public TArray<UObject> GetResultsAsActors() { return default; }
+	public TArray<FVector> GetResultsAsLocations() { return default; }
+	public void SetNamedParam(string ParamName,float Value) {}
 }

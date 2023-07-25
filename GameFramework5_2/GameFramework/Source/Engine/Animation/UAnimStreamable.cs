@@ -6,14 +6,14 @@ public partial class UAnimStreamable : UAnimSequenceBase {
 // AnimStreamable
 	public int NumberOfKeys;
 	public EAnimInterpolationType Interpolation;
-	public sbyte RetargetSource;
+	public string RetargetSource;
 	public FFrameRate SamplingFrameRate;
 	public UAnimSequence SourceSequence;
 	public FGuid RawDataGuid;
 	public int NumFrames;
 	public TArray<FRawAnimSequenceTrack> RawAnimationData;
 	public TArray<FTrackToSkeletonMap> TrackToSkeletonMapTable;
-	public TArray<sbyte> AnimationTrackNames;
+	public TArray<string> AnimationTrackNames;
 	public UAnimBoneCompressionSettings BoneCompressionSettings;
 	public UAnimCurveCompressionSettings CurveCompressionSettings;
 	public bool bEnableRootMotion;

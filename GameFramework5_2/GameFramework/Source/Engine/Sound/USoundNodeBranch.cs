@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Selects a child node based on the value of a boolean parameter</summary>
 public partial class USoundNodeBranch : USoundNode {
 // SoundNodeBranch
-	public sbyte BoolParameterName;
+	public string BoolParameterName;
 }

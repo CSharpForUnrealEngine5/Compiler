@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>Example Command Line: ProjectName MapName -run=WorldPartitionBuilderCommandlet -SCCProvider=Perforce -Builder=WorldPartitionResaveActorsBuilder [-ActorClassName=StaticMeshActor] [-SwitchActorPackagingSchemeToReduced] [-ActorTags=(Tag1,Tag2,...)] [-ActorProperties=((Property1,Value1),(Property2,Value2),...)]</summary>
 public partial class UWorldPartitionResaveActorsBuilder : UWorldPartitionBuilder {
 // WorldPartitionResaveActorsBuilder
-	public sbyte ActorClassName;
-	public sbyte ActorClassesFromFile;
+	public string ActorClassName;
+	public string ActorClassesFromFile;
 	public bool bReportOnly;
 	public bool bResaveDirtyActorDescsOnly;
 	public bool bDiffDirtyActorDescs;
 	public bool bSwitchActorPackagingSchemeToReduced;
 	public bool bEnableActorFolders;
-	public TSet<sbyte> ActorTags;
-	public TMap<sbyte,sbyte> ActorProperties;
+	public TSet<string> ActorTags;
+	public TMap<string,string> ActorProperties;
 }

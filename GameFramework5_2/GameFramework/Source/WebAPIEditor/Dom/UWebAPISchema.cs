@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes the intermediate structure from which to generate code.</summary>
 public partial class UWebAPISchema : UObject {
 // WebAPISchema
-	public sbyte APIName;
-	public sbyte Version;
-	public sbyte Host;
-	public sbyte BaseUrl;
-	public sbyte UserAgent;
-	public sbyte DateTimeFormat;
-	public TArray<sbyte> URISchemes;
+	public string APIName;
+	public string Version;
+	public string Host;
+	public string BaseUrl;
+	public string UserAgent;
+	public string DateTimeFormat;
+	public TArray<string> URISchemes;
 	public UWebAPITypeRegistry TypeRegistry;
 	public TArray<UWebAPIModelBase> Models;
-	public TMap<sbyte,UWebAPIService> Services;
+	public TMap<string,UWebAPIService> Services;
 }

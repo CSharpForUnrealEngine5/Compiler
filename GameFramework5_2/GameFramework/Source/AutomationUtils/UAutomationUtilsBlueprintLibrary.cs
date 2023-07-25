@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("AutomationUtilsBlueprintLibrary.h")]
 public partial class UAutomationUtilsBlueprintLibrary : UBlueprintFunctionLibrary {
 // AutomationUtilsBlueprintLibrary
-	public void TakeGameplayAutomationScreenshot(sbyte ScreenshotName,float MaxGlobalError=.02,float MaxLocalError=.12,sbyte MapNameOverride=TEXT) {}
+	public void TakeGameplayAutomationScreenshot(string ScreenshotName,float MaxGlobalError/*=.02f*/,float MaxLocalError/*=.12f*/,string MapNameOverride/*=TEXT("")*/) {}
 }

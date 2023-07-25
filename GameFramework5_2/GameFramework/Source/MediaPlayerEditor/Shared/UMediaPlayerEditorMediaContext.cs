@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UMediaPlayerEditorMediaContext : UToolMenuContextBase {
 // MediaPlayerEditorMediaContext
 	public UObject SelectedAsset;
-	public sbyte StyleSetName;
+	public string StyleSetName;
 }

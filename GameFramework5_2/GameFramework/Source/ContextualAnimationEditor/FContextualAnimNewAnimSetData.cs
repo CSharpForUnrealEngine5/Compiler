@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ContextualAnimEditorTypes.h")]
 public partial struct FContextualAnimNewAnimSetData {
 // ContextualAnimNewAnimSetData
-	public sbyte RoleName;
+	public string RoleName;
 	public UAnimMontage Animation;
 	public bool bRequiresFlyingMode;
 	public bool bOptional;

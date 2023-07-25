@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("ShotgridEngine.h")]
 public partial struct FShotgridMenuItem {
 // ShotgridMenuItem
-	public sbyte Name;
-	public sbyte Title;
-	public sbyte Description;
-	public sbyte Type;
+	public string Name;
+	public string Title;
+	public string Description;
+	public string Type;
 }

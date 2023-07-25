@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("UTBBaseTab.h")]
 public partial class UUTBTabSection : UObject {
 // UTBTabSection
-	public sbyte SectionName;
+	public string SectionName;
 	public TArray<UUTBBaseCommand> Commands;
 }

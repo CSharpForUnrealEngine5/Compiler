@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>SpaceName is used to represent a Space name in the graph</summary>
 public partial struct FRigUnit_SpaceName {
 // RigUnit_SpaceName
-	public sbyte Space;
+	public string Space;
 }

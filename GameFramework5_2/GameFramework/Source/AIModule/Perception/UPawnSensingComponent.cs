@@ -15,8 +15,8 @@ public partial class UPawnSensingComponent : UActorComponent {
 	public void SetSensingInterval(float NewSensingInterval) {}
 	public void SetSensingUpdatesEnabled(bool bEnabled) {}
 	public void SetPeripheralVisionAngle(float NewPeripheralVisionAngle) {}
-	public float GetPeripheralVisionAngle(float ReturnValue) { return default; }
-	public float GetPeripheralVisionCosine(float ReturnValue) { return default; }
+	public float GetPeripheralVisionAngle() { return default; }
+	public float GetPeripheralVisionCosine() { return default; }
 	public bool bEnableSensingUpdates;
 	public bool bOnlySensePlayers;
 	public bool bSeePawns;

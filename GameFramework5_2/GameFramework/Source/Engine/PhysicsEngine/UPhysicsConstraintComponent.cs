@@ -13,8 +13,8 @@ public partial class UPhysicsConstraintComponent : USceneComponent {
 	public FConstraintBrokenSignature OnConstraintBroken;
 	public FPlasticDeformationEventSignature OnPlasticDeformation;
 	public FConstraintInstance ConstraintInstance;
-	public void SetConstrainedComponents(UObject Component1,sbyte BoneName1,UObject Component2,sbyte BoneName2) {}
-	public void GetConstrainedComponents(UObject OutComponent1,sbyte OutBoneName1,UObject OutComponent2,sbyte OutBoneName2) {}
+	public void SetConstrainedComponents(UObject Component1,string BoneName1,UObject Component2,string BoneName2) {}
+	public void GetConstrainedComponents(UObject OutComponent1,string OutBoneName1,UObject OutComponent2,string OutBoneName2) {}
 	public void BreakConstraint() {}
 	public void SetLinearPositionDrive(bool bEnableDriveX,bool bEnableDriveY,bool bEnableDriveZ) {}
 	public void SetLinearVelocityDrive(bool bEnableDriveX,bool bEnableDriveY,bool bEnableDriveZ) {}
@@ -42,14 +42,14 @@ public partial class UPhysicsConstraintComponent : USceneComponent {
 	public void SetAngularBreakable(bool bAngularBreakable,float AngularBreakThreshold) {}
 	public void SetAngularPlasticity(bool bAngularPlasticity,float AngularPlasticityThreshold) {}
 	public void SetContactTransferScale(float ContactTransferScale) {}
-	public float GetCurrentTwist(float ReturnValue) { return default; }
-	public float GetCurrentSwing1(float ReturnValue) { return default; }
-	public float GetCurrentSwing2(float ReturnValue) { return default; }
+	public float GetCurrentTwist() { return default; }
+	public float GetCurrentSwing1() { return default; }
+	public float GetCurrentSwing2() { return default; }
 	public void SetConstraintReferenceFrame(EConstraintFrame Frame,FTransform RefFrame) {}
 	public void SetConstraintReferencePosition(EConstraintFrame Frame,FVector RefPosition) {}
 	public void SetConstraintReferenceOrientation(EConstraintFrame Frame,FVector PriAxis,FVector SecAxis) {}
 	public void SetDisableCollision(bool bDisableCollision) {}
 	public void GetConstraintForce(FVector OutLinearForce,FVector OutAngularForce) {}
-	public bool IsBroken(bool ReturnValue) { return default; }
-	public FConstraintInstanceAccessor GetConstraint(FConstraintInstanceAccessor ReturnValue) { return default; }
+	public bool IsBroken() { return default; }
+	public FConstraintInstanceAccessor GetConstraint() { return default; }
 }

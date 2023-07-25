@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("TranslationUnit.h")]
 public partial class UTranslationUnit : UObject {
 // TranslationUnit
-	public sbyte Namespace;
-	public sbyte Key;
-	public sbyte Source;
-	public sbyte Translation;
+	public string Namespace;
+	public string Key;
+	public string Source;
+	public string Translation;
 	public TArray<FTranslationContextInfo> Contexts;
 	public bool HasBeenReviewed;
-	public sbyte TranslationBeforeImport;
-	public sbyte LocresPath;
+	public string TranslationBeforeImport;
+	public string LocresPath;
 }

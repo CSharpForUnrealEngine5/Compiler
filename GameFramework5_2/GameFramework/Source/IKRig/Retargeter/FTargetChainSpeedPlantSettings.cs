@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FTargetChainSpeedPlantSettings {
 // TargetChainSpeedPlantSettings
 	public bool EnableSpeedPlanting;
-	public sbyte SpeedCurveName;
+	public string SpeedCurveName;
 	public float SpeedThreshold;
 	public float UnplantStiffness;
 	public float UnplantCriticalDamping;

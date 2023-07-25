@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/CustomAttributes.h")]
 public partial struct FCustomAttributeSetting {
 // CustomAttributeSetting
-	public sbyte Name;
-	public sbyte Meaning;
+	public string Name;
+	public string Meaning;
 }

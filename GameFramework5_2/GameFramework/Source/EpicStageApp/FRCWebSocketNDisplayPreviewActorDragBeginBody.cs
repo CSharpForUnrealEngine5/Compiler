@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRCWebSocketNDisplayPreviewActorDragBeginBody {
 // RCWebSocketNDisplayPreviewActorDragBeginBody
 	public int RendererId;
-	public TArray<sbyte> Actors;
-	public sbyte PrimaryActor;
+	public TArray<string> Actors;
+	public string PrimaryActor;
 	public long SequenceNumber;
 }

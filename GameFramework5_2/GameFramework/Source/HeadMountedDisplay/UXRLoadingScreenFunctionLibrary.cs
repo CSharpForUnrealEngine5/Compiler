@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>XR Loading Screen Function Library</summary>
 public partial class UXRLoadingScreenFunctionLibrary : UBlueprintFunctionLibrary {
 // XRLoadingScreenFunctionLibrary
-	public void SetLoadingScreen(UObject Texture,FVector2D Scale=FVector2D,FVector Offset=FVector,bool bShowLoadingMovie=false,bool bShowOnSet=false) {}
+	public void SetLoadingScreen(UObject Texture,FVector2D Scale/*=new FVector2D(1.0f,1.0f)*/,FVector Offset/*=FVector.ZeroVector*/,bool bShowLoadingMovie/*=false*/,bool bShowOnSet/*=false*/) {}
 	public void ClearLoadingScreenSplashes() {}
-	public void AddLoadingScreenSplash(UObject Texture,FVector Translation,FRotator Rotation,FVector2D Size=FVector2D,FRotator DeltaRotation=FRotator,bool bClearBeforeAdd=false) {}
+	public void AddLoadingScreenSplash(UObject Texture,FVector Translation,FRotator Rotation,FVector2D Size/*=new FVector2D(1.0f,1.0f)*/,FRotator DeltaRotation/*=FRotator.ZeroRotator*/,bool bClearBeforeAdd/*=false*/) {}
 	public void ShowLoadingScreen() {}
 	public void HideLoadingScreen() {}
 }

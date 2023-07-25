@@ -6,6 +6,6 @@ public partial class UInterchangeImportTestStepReimport : UInterchangeImportTest
 // InterchangeImportTestStepReimport
 	public FFilePath SourceFileToReimport;
 	public UClass AssetTypeToReimport;
-	public sbyte AssetNameToReimport;
+	public string AssetNameToReimport;
 	public bool bSaveThenReloadImportedAssets;
 }

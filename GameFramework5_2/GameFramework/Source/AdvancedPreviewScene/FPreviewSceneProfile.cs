@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Preview scene profile settings structure.</summary>
 public partial struct FPreviewSceneProfile {
 // PreviewSceneProfile
-	public sbyte ProfileName;
+	public string ProfileName;
 	public bool bSharedProfile;
 	public bool bUseSkyLighting;
 	public float DirectionalLightIntensity;
@@ -17,7 +17,7 @@ public partial struct FPreviewSceneProfile {
 	public FLinearColor EnvironmentColor;
 	public float EnvironmentIntensity;
 	public TSoftObjectPtr<UTextureCube> EnvironmentCubeMap;
-	public sbyte EnvironmentCubeMapPath;
+	public string EnvironmentCubeMapPath;
 	public bool bPostProcessingEnabled;
 	public FPostProcessSettings PostProcessingSettings;
 	public float LightingRigRotation;

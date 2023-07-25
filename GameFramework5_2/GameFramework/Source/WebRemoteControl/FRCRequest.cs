@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made to the remote control server.</summary>
 public partial struct FRCRequest {
 // RCRequest
-	public sbyte Passphrase;
+	public string Passphrase;
 }

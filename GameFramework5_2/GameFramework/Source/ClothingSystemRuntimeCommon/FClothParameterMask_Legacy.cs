@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Deprecated, legacy definition kept for backward compatibility only.</summary>
 public partial struct FClothParameterMask_Legacy {
 // ClothParameterMask_Legacy
-	public sbyte MaskName;
+	public string MaskName;
 	public EWeightMapTargetCommon CurrentTarget;
 	public float MaxValue_DEPRECATED;
 	public float MinValue_DEPRECATED;

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Styling/TargetBasedWidgetStyleDefinitions.h")]
 public partial class UTargetBasedWidgetStyleDefinitions : UModifierBoundWidgetStyleDefinitions {
 // TargetBasedWidgetStyleDefinitions
-	public TMap<sbyte,FTargettedModifierStyleConfig> ModifierToStyle;
-	public TMap<sbyte,FWidgetStyleDataArray> CategoriesWithoutModifier;
+	public TMap<string,FTargettedModifierStyleConfig> ModifierToStyle;
+	public TMap<string,FWidgetStyleDataArray> CategoriesWithoutModifier;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UWorldPartitionDestructibleInHLODInterface : UInterface {
 // WorldPartitionDestructibleInHLODInterface
 	public void SetHLODDestructionTag(FWorldPartitionHLODDestructionTag InDestructionTag) {}
-	public FWorldPartitionHLODDestructionTag GetHLODDestructionTag(FWorldPartitionHLODDestructionTag ReturnValue) { return default; }
+	public FWorldPartitionHLODDestructionTag GetHLODDestructionTag() { return default; }
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/AnimBlueprint.h")]
 public partial struct FAnimGroupInfo {
 // AnimGroupInfo
-	public sbyte Name;
+	public string Name;
 	public FLinearColor Color;
 }

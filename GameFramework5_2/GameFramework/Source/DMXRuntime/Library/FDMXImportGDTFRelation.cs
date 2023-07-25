@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFRelation {
 // DMXImportGDTFRelation
-	public sbyte Name;
-	public sbyte Master;
-	public sbyte Follower;
+	public string Name;
+	public string Master;
+	public string Follower;
 	public EDMXImportGDTFType Type;
 }

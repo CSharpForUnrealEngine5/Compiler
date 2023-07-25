@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Creates a gradient of twist rotation along a chain.</summary>
 public partial struct FRigUnit_TwistBones {
 // RigUnit_TwistBones
-	public sbyte StartBone;
-	public sbyte EndBone;
+	public string StartBone;
+	public string EndBone;
 	public FVector TwistAxis;
 	public FVector PoleAxis;
 	public ERigVMAnimEasingType TwistEaseType;

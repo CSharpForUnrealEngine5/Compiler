@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/TimelineTemplate.h")]
 public partial struct FTTPropertyTrack {
 // TTPropertyTrack
-	public sbyte PropertyName;
+	public string PropertyName;
 }

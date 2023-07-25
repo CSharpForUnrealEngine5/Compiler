@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FCurveTableRowHandle {
 // CurveTableRowHandle
 	public UCurveTable CurveTable;
-	public sbyte RowName;
+	public string RowName;
 }

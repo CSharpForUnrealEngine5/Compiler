@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for exposed objects, properties, functions etc...</summary>
 public partial struct FRemoteControlEntity {
 // RemoteControlEntity
-	public TMap<sbyte,sbyte> UserMetadata;
+	public TMap<string,string> UserMetadata;
 	public TArray<TWeakObjectPtr<URemoteControlBinding>> Bindings;
 	public TWeakObjectPtr<URemoteControlPreset> Owner;
-	public sbyte Label;
+	public string Label;
 	public FGuid Id;
 }

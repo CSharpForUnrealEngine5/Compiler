@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Base struct used for states, which is subclassed to define/implement custom states.</summary>
 public partial struct FStateStruct {
 // StateStruct
-	public sbyte StateName;
+	public string StateName;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds settings for screenshot fallbacks</summary>
 public partial struct FScreenshotFallbackEntry {
 // ScreenshotFallbackEntry
-	public sbyte Parent;
-	public sbyte Child;
+	public string Parent;
+	public string Child;
 }

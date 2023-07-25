@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Graphs/GenerateStaticMeshLODProcess.h")]
 public partial struct FGenerateStaticMeshLODProcess_PreprocessSettings {
 // GenerateStaticMeshLODProcess_PreprocessSettings
-	public sbyte FilterGroupLayer;
-	public sbyte ThickenWeightMapName;
+	public string FilterGroupLayer;
+	public string ThickenWeightMapName;
 	public float ThickenAmount;
 }

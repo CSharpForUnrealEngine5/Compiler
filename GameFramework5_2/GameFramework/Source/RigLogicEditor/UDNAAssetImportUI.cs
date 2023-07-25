@@ -6,5 +6,5 @@ public partial class UDNAAssetImportUI : UObject {
 // DNAAssetImportUI
 	public USkeletalMesh SkeletalMesh;
 	public void ResetToDefault() {}
-	public sbyte FileName;
+	public string FileName;
 }

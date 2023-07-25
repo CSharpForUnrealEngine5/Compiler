@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Category of a fixture</summary>
 public partial struct FDMXFixtureCategory {
 // DMXFixtureCategory
-	public sbyte Name;
+	public string Name;
 }

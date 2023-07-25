@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FLaunchOnTestSettings {
 // LaunchOnTestSettings
 	public FFilePath LaunchOnTestmap;
-	public sbyte DeviceID;
+	public string DeviceID;
 }

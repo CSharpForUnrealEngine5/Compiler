@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>On each actor to process set metadata value</summary>
 public partial class UDataprepSetMetadataOperation : UDataprepOperation {
 // DataprepSetMetadataOperation
-	public TMap<sbyte,sbyte> Metadata;
+	public TMap<string,string> Metadata;
 }

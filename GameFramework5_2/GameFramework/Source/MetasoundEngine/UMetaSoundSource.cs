@@ -6,14 +6,14 @@ using CSharpToCpp.Utilities;
 public partial class UMetaSoundSource : USoundWaveProcedural {
 // MetaSoundSource
 	public FMetasoundFrontendDocument RootMetasoundDocument;
-	public TSet<sbyte> ReferencedAssetClassKeys;
+	public TSet<string> ReferencedAssetClassKeys;
 	public TSet<UObject> ReferencedAssetClassObjects;
 	public TSet<FSoftObjectPath> ReferenceAssetClassCache;
 	public UMetasoundEditorGraphBase Graph;
 	public EMetasoundSourceAudioFormat OutputFormat;
 	public FGuid AssetClassID;
-	public sbyte RegistryInputTypes;
-	public sbyte RegistryOutputTypes;
+	public string RegistryInputTypes;
+	public string RegistryOutputTypes;
 	public int RegistryVersionMajor;
 	public int RegistryVersionMinor;
 	public bool bIsPreset;

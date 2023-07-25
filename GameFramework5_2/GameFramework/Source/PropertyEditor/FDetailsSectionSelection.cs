@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DetailsViewConfig.h")]
 public partial struct FDetailsSectionSelection {
 // DetailsSectionSelection
-	public TSet<sbyte> SectionNames;
+	public TSet<string> SectionNames;
 }

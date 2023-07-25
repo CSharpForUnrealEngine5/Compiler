@@ -12,6 +12,6 @@ public partial class UDestructibleComponent : USkinnedMeshComponent {
 	public void ApplyDamage(float DamageAmount,FVector HitLocation,FVector ImpulseDir,float ImpulseStrength) {}
 	public void ApplyRadiusDamage(float BaseDamage,FVector HurtOrigin,float DamageRadius,float ImpulseStrength,bool bFullDamage) {}
 	public void SetDestructibleMesh(UObject NewMesh) {}
-	public UObject GetDestructibleMesh(UObject ReturnValue) { return default; }
+	public UObject GetDestructibleMesh() { return default; }
 	public FComponentFractureSignature OnComponentFracture;
 }

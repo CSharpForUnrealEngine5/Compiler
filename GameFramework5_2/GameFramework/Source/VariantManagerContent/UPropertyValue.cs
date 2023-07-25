@@ -4,15 +4,15 @@ using CSharpToCpp.Utilities;
 [CppInclude("PropertyValue.h")]
 public partial class UPropertyValue : UObject {
 // PropertyValue
-	public sbyte GetPropertyTooltip(sbyte ReturnValue) { return default; }
-	public sbyte GetFullDisplayString(sbyte ReturnValue) { return default; }
-	public bool HasRecordedData(bool ReturnValue) { return default; }
+	public string GetPropertyTooltip() { return default; }
+	public string GetFullDisplayString() { return default; }
+	public bool HasRecordedData() { return default; }
 	public TArray<object> Properties_DEPRECATED;
 	public TArray<int> PropertyIndices_DEPRECATED;
 	public TArray<FCapturedPropSegment> CapturedPropSegments;
-	public sbyte FullDisplayString;
-	public sbyte PropertySetterName;
-	public TMap<sbyte,sbyte> PropertySetterParameterDefaults;
+	public string FullDisplayString;
+	public string PropertySetterName;
+	public TMap<string,string> PropertySetterParameterDefaults;
 	public bool bHasRecordedData;
 	public UClass LeafPropertyClass_DEPRECATED;
 	public TArray<byte> ValueBytes;

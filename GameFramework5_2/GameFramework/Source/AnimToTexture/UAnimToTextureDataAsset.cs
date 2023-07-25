@@ -19,7 +19,7 @@ public partial class UAnimToTextureDataAsset : UPrimaryDataAsset {
 	public TSoftObjectPtr<UTexture2D> BonePositionTexture;
 	public TSoftObjectPtr<UTexture2D> BoneRotationTexture;
 	public TSoftObjectPtr<UTexture2D> BoneWeightTexture;
-	public sbyte AttachToSocket;
+	public string AttachToSocket;
 	public float SampleRate;
 	public TArray<FAnimSequenceInfo> AnimSequences;
 	public int NumFrames;
@@ -31,11 +31,11 @@ public partial class UAnimToTextureDataAsset : UPrimaryDataAsset {
 	public FVector BoneMinBBox;
 	public FVector BoneSizeBBox;
 	public TArray<FAnimInfo> Animations;
-	public int GetIndexFromAnimSequence(UObject Sequence,int ReturnValue) { return default; }
+	public int GetIndexFromAnimSequence(UObject Sequence) { return default; }
 	public void ResetInfo() {}
-	public UObject BP_GetStaticMesh(UObject ReturnValue) { return default; }
-	public UObject BP_GetSkeletalMesh(UObject ReturnValue) { return default; }
-	public UObject BP_GetBonePositionTexture(UObject ReturnValue) { return default; }
-	public UObject BP_GetBoneRotationTexture(UObject ReturnValue) { return default; }
-	public UObject BP_GetBoneWeightTexture(UObject ReturnValue) { return default; }
+	public UObject BP_GetStaticMesh() { return default; }
+	public UObject BP_GetSkeletalMesh() { return default; }
+	public UObject BP_GetBonePositionTexture() { return default; }
+	public UObject BP_GetBoneRotationTexture() { return default; }
+	public UObject BP_GetBoneWeightTexture() { return default; }
 }

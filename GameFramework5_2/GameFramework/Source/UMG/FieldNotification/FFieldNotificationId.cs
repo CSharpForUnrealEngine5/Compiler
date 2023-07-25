@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>namespace</summary>
 public partial struct FFieldNotificationId {
 // FieldNotificationId
-	public sbyte FieldName;
+	public string FieldName;
 }

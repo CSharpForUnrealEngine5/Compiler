@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Name of a Metasound class</summary>
 public partial struct FMetasoundFrontendClassName {
 // MetasoundFrontendClassName
-	public sbyte Namespace;
-	public sbyte Name;
-	public sbyte Variant;
+	public string Namespace;
+	public string Name;
+	public string Variant;
 }

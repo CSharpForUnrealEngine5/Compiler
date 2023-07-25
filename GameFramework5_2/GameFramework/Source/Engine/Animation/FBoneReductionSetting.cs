@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/Skeleton.h")]
 public partial struct FBoneReductionSetting {
 // BoneReductionSetting
-	public TArray<sbyte> BonesToRemove;
+	public TArray<string> BonesToRemove;
 }

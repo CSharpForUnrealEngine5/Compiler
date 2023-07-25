@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Attribute type supporting the legacy TVariant<FString> attributes</summary>
 public partial struct FStringAnimationAttribute {
 // StringAnimationAttribute
-	public sbyte Value;
+	public string Value;
 }

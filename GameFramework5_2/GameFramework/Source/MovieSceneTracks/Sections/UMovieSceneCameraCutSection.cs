@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Movie CameraCuts are sections on the CameraCuts track, that show what the viewer "sees"</summary>
 public partial class UMovieSceneCameraCutSection : UMovieSceneSection {
 // MovieSceneCameraCutSection
-	public FMovieSceneObjectBindingID GetCameraBindingID(FMovieSceneObjectBindingID ReturnValue) { return default; }
+	public FMovieSceneObjectBindingID GetCameraBindingID() { return default; }
 	public void SetCameraBindingID(FMovieSceneObjectBindingID InCameraBindingID) {}
 	public bool bLockPreviousCamera;
 	public FGuid CameraGuid_DEPRECATED;

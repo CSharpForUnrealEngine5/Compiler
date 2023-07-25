@@ -6,13 +6,13 @@ using CSharpToCpp.Utilities;
 public partial struct FSessionServicePong {
 // SessionServicePong
 	public bool Authorized;
-	public sbyte BuildDate;
-	public sbyte DeviceName;
+	public string BuildDate;
+	public string DeviceName;
 	public FGuid InstanceId;
-	public sbyte InstanceName;
-	public sbyte PlatformName;
+	public string InstanceName;
+	public string PlatformName;
 	public FGuid SessionId;
-	public sbyte SessionName;
-	public sbyte SessionOwner;
+	public string SessionName;
+	public string SessionOwner;
 	public bool Standalone;
 }

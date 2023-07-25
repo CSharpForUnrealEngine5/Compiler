@@ -7,7 +7,7 @@ public partial class UAISense_Blueprint : UAISense {
 	public UClass ListenerDataType;
 	public TArray<UAIPerceptionComponent> ListenerContainer;
 	public TArray<UAISenseEvent> UnprocessedEvents;
-	public float OnUpdate(TArray<UObject> EventsToProcess,float ReturnValue) { return default; }
+	public float OnUpdate(TArray<UObject> EventsToProcess) { return default; }
 	public void OnListenerRegistered(UObject ActorListener,UObject PerceptionComponent) {}
 	public void OnListenerUpdated(UObject ActorListener,UObject PerceptionComponent) {}
 	public void OnListenerUnregistered(UObject ActorListener,UObject PerceptionComponent) {}

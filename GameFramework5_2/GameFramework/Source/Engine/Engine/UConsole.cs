@@ -8,5 +8,5 @@ public partial class UConsole : UObject {
 	public ULocalPlayer ConsoleTargetPlayer;
 	public UTexture2D DefaultTexture_Black;
 	public UTexture2D DefaultTexture_White;
-	public TArray<sbyte> HistoryBuffer;
+	public TArray<string> HistoryBuffer;
 }

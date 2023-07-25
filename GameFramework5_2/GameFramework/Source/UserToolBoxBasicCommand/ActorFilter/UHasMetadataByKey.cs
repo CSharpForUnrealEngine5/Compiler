@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ActorFilter/BaseActorFilter.h")]
 public partial class UHasMetadataByKey : UBaseActorFilter {
 // HasMetadataByKey
-	public sbyte Key;
+	public string Key;
 }

@@ -7,7 +7,7 @@ public partial struct FMaterialTextureInfo {
 // MaterialTextureInfo
 	public float SamplingScale;
 	public int UVChannelIndex;
-	public sbyte TextureName;
+	public string TextureName;
 	public FSoftObjectPath TextureReference;
 	public int TextureIndex;
 }

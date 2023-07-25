@@ -9,5 +9,5 @@ public partial class URuntimeAssetCacheBuilder_ObjectBase : UObject {
 	public void OnAssetCacheMiss() {}
 	public void SaveNewAssetToCache(UObject NewAsset) {}
 	public int AssetVersion;
-	public sbyte AssetName;
+	public string AssetName;
 }

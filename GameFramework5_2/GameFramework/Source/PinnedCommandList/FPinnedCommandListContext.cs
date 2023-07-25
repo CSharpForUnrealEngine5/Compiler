@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A pinned command list context, allowing us to persist a set of pinned commands</summary>
 public partial struct FPinnedCommandListContext {
 // PinnedCommandListContext
-	public sbyte Name;
+	public string Name;
 	public TArray<FPinnedCommandListCommand> Commands;
 }

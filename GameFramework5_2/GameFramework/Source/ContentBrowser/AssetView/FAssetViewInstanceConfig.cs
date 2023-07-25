@@ -6,5 +6,5 @@ public partial struct FAssetViewInstanceConfig {
 // AssetViewInstanceConfig
 	public byte ThumbnailSize;
 	public byte ViewType;
-	public TArray<sbyte> HiddenColumns;
+	public TArray<string> HiddenColumns;
 }

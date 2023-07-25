@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkMasterLockitConnectionSettings.h")]
 public partial struct FLiveLinkMasterLockitConnectionSettings {
 // LiveLinkMasterLockitConnectionSettings
-	public sbyte IPAddress;
-	public sbyte SubjectName;
+	public string IPAddress;
+	public string SubjectName;
 }

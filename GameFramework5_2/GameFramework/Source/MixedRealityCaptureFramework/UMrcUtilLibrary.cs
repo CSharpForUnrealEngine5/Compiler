@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MrcUtilLibrary.h")]
 public partial class UMrcUtilLibrary : UBlueprintFunctionLibrary {
 // MrcUtilLibrary
-	public bool IsMixedRealityCaptureBroadcasting(bool ReturnValue) { return default; }
+	public bool IsMixedRealityCaptureBroadcasting() { return default; }
 	public void SetMixedRealityCaptureBroadcasting(bool bEnable) {}
-	public UObject GetMixedRealityCaptureTexture(UObject ReturnValue) { return default; }
+	public UObject GetMixedRealityCaptureTexture() { return default; }
 }

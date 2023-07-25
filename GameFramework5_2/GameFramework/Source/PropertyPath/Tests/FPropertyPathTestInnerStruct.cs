@@ -11,5 +11,5 @@ public partial struct FPropertyPathTestInnerStruct {
 	public byte EnumThree;
 	public byte EnumFour;
 	public int Integer;
-	public sbyte String;
+	public string String;
 }

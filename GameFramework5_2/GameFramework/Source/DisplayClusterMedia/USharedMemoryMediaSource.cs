@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Media source for SharedMemory streams.</summary>
 public partial class USharedMemoryMediaSource : UMediaSource {
 // SharedMemoryMediaSource
-	public sbyte UniqueName;
+	public string UniqueName;
 	public ESharedMemoryMediaSourceMode Mode;
 	public bool bZeroLatency;
 }

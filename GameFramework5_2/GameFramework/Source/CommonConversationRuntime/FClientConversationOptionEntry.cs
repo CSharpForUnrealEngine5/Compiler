@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>The conversation option entry is what we send to the client, one entry per choice.</summary>
 public partial struct FClientConversationOptionEntry {
 // ClientConversationOptionEntry
-	public sbyte ChoiceText;
+	public string ChoiceText;
 	public FGameplayTagContainer ChoiceTags;
 	public EConversationChoiceType ChoiceType;
 	public FConversationChoiceReference ChoiceReference;

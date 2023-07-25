@@ -8,7 +8,7 @@ public partial class UCommonInputPlatformSettings : UPlatformSettings {
 	public bool bSupportsMouseAndKeyboard;
 	public bool bSupportsTouch;
 	public bool bSupportsGamepad;
-	public sbyte DefaultGamepadName;
+	public string DefaultGamepadName;
 	public bool bCanChangeGamepadType;
 	public TArray<TSoftObjectPtr<UClass>> ControllerData;
 	public TArray<UClass> ControllerDataClasses;

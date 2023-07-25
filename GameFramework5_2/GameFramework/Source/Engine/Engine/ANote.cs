@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/Note.h")]
 public partial class ANote : AActor {
 // Note
-	public sbyte Text;
+	public string Text;
 	public UBillboardComponent SpriteComponent;
 	public UArrowComponent ArrowComponent;
 }

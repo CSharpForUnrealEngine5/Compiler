@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraScriptHighlight {
 // NiagaraScriptHighlight
 	public FLinearColor Color;
-	public sbyte DisplayName;
+	public string DisplayName;
 }

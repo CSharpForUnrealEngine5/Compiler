@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FAutomationArtifact {
 // AutomationArtifact
 	public FGuid Id;
-	public sbyte Name;
+	public string Name;
 	public EAutomationArtifactType Type;
-	public TMap<sbyte,sbyte> Files;
+	public TMap<string,string> Files;
 }

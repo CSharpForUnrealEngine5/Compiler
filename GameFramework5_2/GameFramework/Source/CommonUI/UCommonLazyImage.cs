@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>A special Image widget that can show unloaded images and takes care of the loading for you!</summary>
 public partial class UCommonLazyImage : UImage {
 // CommonLazyImage
-	public void SetBrushFromLazyTexture(TSoftObjectPtr<UTexture2D> LazyTexture,bool bMatchSize=false) {}
+	public void SetBrushFromLazyTexture(TSoftObjectPtr<UTexture2D> LazyTexture,bool bMatchSize/*=false*/) {}
 	public void SetBrushFromLazyMaterial(TSoftObjectPtr<UMaterialInterface> LazyMaterial) {}
-	public void SetBrushFromLazyDisplayAsset(TSoftObjectPtr<UObject> LazyObject,bool bMatchTextureSize=false) {}
-	public bool IsLoading(bool ReturnValue) { return default; }
-	public void SetMaterialTextureParamName(sbyte TextureParamName) {}
+	public void SetBrushFromLazyDisplayAsset(TSoftObjectPtr<UObject> LazyObject,bool bMatchTextureSize/*=false*/) {}
+	public bool IsLoading() { return default; }
+	public void SetMaterialTextureParamName(string TextureParamName) {}
 	public bool bShowLoading;
 	public FSlateBrush LoadingBackgroundBrush;
-	public sbyte MaterialTextureParamName;
+	public string MaterialTextureParamName;
 	public FOnLoadGuardStateChangedDynamic BP_OnLoadingStateChanged;
 }

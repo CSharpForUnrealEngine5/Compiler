@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>OSC protocol entity for remote control binding</summary>
 public partial struct FRemoteControlOSCProtocolEntity {
 // RemoteControlOSCProtocolEntity
-	public sbyte PathName;
+	public string PathName;
 	public float RangeInputTemplate;
 }

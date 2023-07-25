@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObject.h")]
 public partial struct FMutableRefSocket {
 // MutableRefSocket
-	public sbyte SocketName;
-	public sbyte BoneName;
+	public string SocketName;
+	public string BoneName;
 	public FVector RelativeLocation;
 	public FRotator RelativeRotation;
 	public FVector RelativeScale;

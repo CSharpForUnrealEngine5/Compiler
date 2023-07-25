@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("AnalyticsSettings.h")]
 public partial class UAnalyticsSettings : UAnalyticsSettingsBase {
 // AnalyticsSettings
-	public sbyte DevelopmentProviderName;
-	public sbyte DebugProviderName;
-	public sbyte TestProviderName;
-	public sbyte ReleaseProviderName;
+	public string DevelopmentProviderName;
+	public string DebugProviderName;
+	public string TestProviderName;
+	public string ReleaseProviderName;
 }

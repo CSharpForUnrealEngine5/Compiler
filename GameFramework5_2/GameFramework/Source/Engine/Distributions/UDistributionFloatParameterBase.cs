@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Distributions/DistributionFloatParameterBase.h")]
 public partial class UDistributionFloatParameterBase : UDistributionFloatConstant {
 // DistributionFloatParameterBase
-	public sbyte ParameterName;
+	public string ParameterName;
 	public float MinInput;
 	public float MaxInput;
 	public float MinOutput;

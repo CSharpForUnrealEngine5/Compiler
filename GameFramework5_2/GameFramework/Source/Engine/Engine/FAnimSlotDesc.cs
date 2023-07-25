@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Used to indicate each slot name and how many channels they have.</summary>
 public partial struct FAnimSlotDesc {
 // AnimSlotDesc
-	public sbyte SlotName;
+	public string SlotName;
 	public int NumChannels;
 }

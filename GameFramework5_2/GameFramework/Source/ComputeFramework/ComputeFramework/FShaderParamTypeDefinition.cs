@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Fully describes the name and type of a parameter a shader exposes.</summary>
 public partial struct FShaderParamTypeDefinition {
 // ShaderParamTypeDefinition
-	public sbyte TypeDeclaration;
-	public sbyte Name;
+	public string TypeDeclaration;
+	public string Name;
 	public FShaderValueTypeHandle ValueType;
 	public ushort ArrayElementCount;
 	public EShaderParamBindingType BindingType;

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UInputDeviceTriggerVibrationProperty : UInputDeviceTriggerEffect {
 // InputDeviceTriggerVibrationProperty
 	public FDeviceTriggerTriggerVibrationData TriggerData;
-	public TMap<sbyte,FDeviceTriggerTriggerVibrationData> DeviceOverrideData;
+	public TMap<string,FDeviceTriggerTriggerVibrationData> DeviceOverrideData;
 }

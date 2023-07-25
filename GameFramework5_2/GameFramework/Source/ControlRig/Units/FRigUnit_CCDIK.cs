@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>The CCID solver can solve N-Bone chains using</summary>
 public partial struct FRigUnit_CCDIK {
 // RigUnit_CCDIK
-	public sbyte StartBone;
-	public sbyte EffectorBone;
+	public string StartBone;
+	public string EffectorBone;
 	public FTransform EffectorTransform;
 	public float Precision;
 	public float Weight;

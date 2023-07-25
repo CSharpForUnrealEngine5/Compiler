@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/AnimationAssetExtensions.h")]
 public partial class UAnimationAssetExtensions : UBlueprintFunctionLibrary {
 // AnimationAssetExtensions
-	public UObject GetSkeleton(UObject InAsset,UObject ReturnValue) { return default; }
+	public UObject GetSkeleton(UObject InAsset) { return default; }
 }

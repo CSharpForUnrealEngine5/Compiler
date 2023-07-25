@@ -6,6 +6,6 @@ public partial struct FShaderValueType {
 // ShaderValueType
 	public EShaderFundamentalType Type;
 	public EShaderFundamentalDimensionType DimensionType;
-	public sbyte Name;
+	public string Name;
 	public bool bIsDynamicArray;
 }

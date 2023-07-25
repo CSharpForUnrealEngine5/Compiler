@@ -31,6 +31,6 @@ public partial class UBorder : UContentWidget {
 	public void SetBrushFromTexture(UObject Texture) {}
 	public void SetBrushFromMaterial(UObject Material) {}
 	public void SetShowEffectWhenDisabled(bool bInShowEffectWhenDisabled) {}
-	public UObject GetDynamicMaterial(UObject ReturnValue) { return default; }
+	public UObject GetDynamicMaterial() { return default; }
 	public void SetDesiredSizeScale(FVector2D InScale) {}
 }

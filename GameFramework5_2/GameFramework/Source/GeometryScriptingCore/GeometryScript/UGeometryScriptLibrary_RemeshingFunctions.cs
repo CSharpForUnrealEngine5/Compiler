@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("GeometryScript/MeshRemeshFunctions.h")]
 public partial class UGeometryScriptLibrary_RemeshingFunctions : UBlueprintFunctionLibrary {
 // GeometryScriptLibrary_RemeshingFunctions
-	public UObject ApplyUniformRemesh(UObject TargetMesh,FGeometryScriptRemeshOptions RemeshOptions,FGeometryScriptUniformRemeshOptions UniformOptions,UObject Debug=nullptr,UObject ReturnValue) { return default; }
+	public UObject ApplyUniformRemesh(UObject TargetMesh,FGeometryScriptRemeshOptions RemeshOptions,FGeometryScriptUniformRemeshOptions UniformOptions,UObject Debug/*=nullptr*/) { return default; }
 }

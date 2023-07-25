@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Widgets/UIFUserWidget.h")]
 public partial struct FUIFrameworkUserWidgetSlot {
 // UIFrameworkUserWidgetSlot
-	public sbyte SlotName;
+	public string SlotName;
 }

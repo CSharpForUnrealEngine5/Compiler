@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that contains a console log entry.</summary>
 public partial struct FSessionServiceLog {
 // SessionServiceLog
-	public sbyte Category;
-	public sbyte Data;
+	public string Category;
+	public string Data;
 	public FGuid InstanceId;
 	public double TimeSeconds;
 	public byte Verbosity;

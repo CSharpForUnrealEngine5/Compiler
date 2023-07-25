@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Tests/EditorConfigTests.h")]
 public partial struct FEditorConfigTestKey {
 // EditorConfigTestKey
-	public sbyte Name;
+	public string Name;
 	public double Number;
 }

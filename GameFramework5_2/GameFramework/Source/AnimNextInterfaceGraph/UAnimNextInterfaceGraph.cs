@@ -7,7 +7,7 @@ public partial class UAnimNextInterfaceGraph : UObject {
 // AnimNextInterfaceGraph
 	public URigVM RigVM;
 	public FRigVMRuntimeSettings VMRuntimeSettings;
-	public sbyte ReturnTypeName;
+	public string ReturnTypeName;
 	public UScriptStruct ReturnTypeStruct;
 	public UObject EditorData;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DeviceProfiles/DeviceProfileMatching.h")]
 public partial struct FSelectedFragmentProperties {
 // SelectedFragmentProperties
-	public sbyte Tag;
-	public sbyte Fragment;
+	public string Tag;
+	public string Fragment;
 	public bool bEnabled;
 }

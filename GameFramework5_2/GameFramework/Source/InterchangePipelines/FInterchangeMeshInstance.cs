@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>* A mesh instance is a description of a translated scene node that point on a translated mesh asset.</summary>
 public partial struct FInterchangeMeshInstance {
 // InterchangeMeshInstance
-	public sbyte MeshInstanceUid;
+	public string MeshInstanceUid;
 	public UInterchangeSceneNode LodGroupNode;
 	public bool bReferenceSkinnedMesh;
 	public bool bReferenceMorphTarget;
 	public TMap<int,FInterchangeLodSceneNodeContainer> SceneNodePerLodIndex;
-	public TArray<sbyte> ReferencingMeshGeometryUids;
+	public TArray<string> ReferencingMeshGeometryUids;
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Container for describing various types of netdrivers available to the engine</summary>
 public partial struct FNetDriverDefinition {
 // NetDriverDefinition
-	public sbyte DefName;
-	public sbyte DriverClassName;
-	public sbyte DriverClassNameFallback;
+	public string DefName;
+	public string DriverClassName;
+	public string DriverClassNameFallback;
 	public int MaxChannelsOverride;
 }

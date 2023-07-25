@@ -4,16 +4,16 @@ using CSharpToCpp.Utilities;
 [CppInclude("MoviePipelineCommandLineEncoderSettings.h")]
 public partial class UMoviePipelineCommandLineEncoderSettings : UDeveloperSettings {
 // MoviePipelineCommandLineEncoderSettings
-	public sbyte ExecutablePath;
-	public sbyte CodecHelpText;
-	public sbyte VideoCodec;
-	public sbyte AudioCodec;
-	public sbyte OutputFileExtension;
-	public sbyte CommandLineFormat;
-	public sbyte VideoInputStringFormat;
-	public sbyte AudioInputStringFormat;
-	public sbyte EncodeSettings_Low;
-	public sbyte EncodeSettings_Med;
-	public sbyte EncodeSettings_High;
-	public sbyte EncodeSettings_Epic;
+	public string ExecutablePath;
+	public string CodecHelpText;
+	public string VideoCodec;
+	public string AudioCodec;
+	public string OutputFileExtension;
+	public string CommandLineFormat;
+	public string VideoInputStringFormat;
+	public string AudioInputStringFormat;
+	public string EncodeSettings_Low;
+	public string EncodeSettings_Med;
+	public string EncodeSettings_High;
+	public string EncodeSettings_Epic;
 }

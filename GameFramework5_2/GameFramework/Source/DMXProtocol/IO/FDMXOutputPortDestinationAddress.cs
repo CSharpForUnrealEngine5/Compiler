@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>The IP address outbound DMX is sent to</summary>
 public partial struct FDMXOutputPortDestinationAddress {
 // DMXOutputPortDestinationAddress
-	public sbyte DestinationAddressString;
+	public string DestinationAddressString;
 }

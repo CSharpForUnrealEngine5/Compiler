@@ -7,8 +7,8 @@ public partial class UBTDecorator_Blackboard : UBTDecorator_BlackboardBase {
 // BTDecorator_Blackboard
 	public int IntValue;
 	public float FloatValue;
-	public sbyte StringValue;
-	public sbyte CachedDescription;
+	public string StringValue;
+	public string CachedDescription;
 	public byte OperationType;
 	public byte NotifyObserver;
 	public byte BasicOperation;

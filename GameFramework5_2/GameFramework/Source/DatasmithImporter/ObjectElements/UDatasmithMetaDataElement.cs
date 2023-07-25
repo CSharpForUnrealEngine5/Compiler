@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>* UDatasmithMetaDataElement</summary>
 public partial class UDatasmithMetaDataElement : UDatasmithObjectElement {
 // DatasmithMetaDataElement
-	public int GetPropertiesCount(int ReturnValue) { return default; }
-	public UObject GetProperty(int i,UObject ReturnValue) { return default; }
-	public UObject GetPropertyByName(sbyte InName,UObject ReturnValue) { return default; }
-	public UObject GetAssociatedElement(UObject ReturnValue) { return default; }
-	public void GetProperties(TArray<sbyte> OutKeys,TArray<sbyte> OutValues) {}
+	public int GetPropertiesCount() { return default; }
+	public UObject GetProperty(int i) { return default; }
+	public UObject GetPropertyByName(string InName) { return default; }
+	public UObject GetAssociatedElement() { return default; }
+	public void GetProperties(TArray<string> OutKeys,TArray<string> OutValues) {}
 }

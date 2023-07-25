@@ -14,7 +14,7 @@ public partial class UApplicationLifecycleComponent : UActorComponent {
 	public FApplicationLifetimeDelegate ApplicationHasEnteredForegroundDelegate;
 	public FApplicationLifetimeDelegate ApplicationWillTerminateDelegate;
 	public FApplicationLifetimeDelegate ApplicationShouldUnloadResourcesDelegate;
-	public void FApplicationStartupArgumentsDelegate(TArray<sbyte> StartupArguments) {}
+	public void FApplicationStartupArgumentsDelegate(TArray<string> StartupArguments) {}
 	public FApplicationStartupArgumentsDelegate ApplicationReceivedStartupArgumentsDelegate;
 	public FOnTemperatureChangeDelegate OnTemperatureChangeDelegate;
 	public FOnLowPowerModeDelegate OnLowPowerModeDelegate;

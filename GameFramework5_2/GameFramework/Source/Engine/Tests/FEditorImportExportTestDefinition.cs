@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FEditorImportExportTestDefinition {
 // EditorImportExportTestDefinition
 	public FFilePath ImportFilePath;
-	public sbyte ExportFileExtension;
+	public string ExportFileExtension;
 	public bool bSkipExport;
 	public TArray<FImportFactorySettingValues> FactorySettings;
 }

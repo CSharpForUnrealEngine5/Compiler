@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>The rich text block</summary>
 public partial class URichTextBlock : UTextLayoutWidget {
 // RichTextBlock
-	public sbyte Text;
+	public string Text;
 	public UDataTable TextStyleSet;
 	public TArray<UClass> DecoratorClasses;
 	public bool bOverrideDefaultStyle;
@@ -25,13 +25,13 @@ public partial class URichTextBlock : UTextLayoutWidget {
 	public void SetDefaultTextStyle(FTextBlockStyle InDefaultTextStyle) {}
 	public void SetDefaultMaterial(UObject InMaterial) {}
 	public void ClearAllDefaultStyleOverrides() {}
-	public UObject GetDefaultDynamicMaterial(UObject ReturnValue) { return default; }
+	public UObject GetDefaultDynamicMaterial() { return default; }
 	public void SetDecorators(TArray<UClass> InDecoratorClasses) {}
-	public sbyte GetText(sbyte ReturnValue) { return default; }
-	public void SetText(sbyte InText) {}
-	public UObject GetTextStyleSet(UObject ReturnValue) { return default; }
+	public string GetText() { return default; }
+	public void SetText(string InText) {}
+	public UObject GetTextStyleSet() { return default; }
 	public void SetTextStyleSet(UObject NewTextStyleSet) {}
-	public UObject GetDecoratorByClass(UClass DecoratorClass,UObject ReturnValue) { return default; }
+	public UObject GetDecoratorByClass(UClass DecoratorClass) { return default; }
 	public void RefreshTextLayout() {}
 	public FTextBlockStyle DefaultTextStyle;
 	public TArray<URichTextBlockDecorator> InstanceDecorators;

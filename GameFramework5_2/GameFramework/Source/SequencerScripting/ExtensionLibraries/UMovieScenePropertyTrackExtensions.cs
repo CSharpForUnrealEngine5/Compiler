@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>Function library containing methods that should be hoisted onto UMovieScenePropertyTrack for scripting</summary>
 public partial class UMovieScenePropertyTrackExtensions : UBlueprintFunctionLibrary {
 // MovieScenePropertyTrackExtensions
-	public void SetPropertyNameAndPath(UObject Track,sbyte InPropertyName,sbyte InPropertyPath) {}
-	public sbyte GetPropertyName(UObject Track,sbyte ReturnValue) { return default; }
-	public sbyte GetPropertyPath(UObject Track,sbyte ReturnValue) { return default; }
-	public sbyte GetUniqueTrackName(UObject Track,sbyte ReturnValue) { return default; }
+	public void SetPropertyNameAndPath(UObject Track,string InPropertyName,string InPropertyPath) {}
+	public string GetPropertyName(UObject Track) { return default; }
+	public string GetPropertyPath(UObject Track) { return default; }
+	public string GetUniqueTrackName(UObject Track) { return default; }
 	public void SetObjectPropertyClass(UObject Track,UClass PropertyClass) {}
-	public UClass GetObjectPropertyClass(UObject Track,UClass ReturnValue) { return default; }
+	public UClass GetObjectPropertyClass(UObject Track) { return default; }
 	public void SetByteTrackEnum(UObject Track,UObject InEnum) {}
-	public UObject GetByteTrackEnum(UObject Track,UObject ReturnValue) { return default; }
+	public UObject GetByteTrackEnum(UObject Track) { return default; }
 }

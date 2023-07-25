@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FWidgetNavigationData {
 // WidgetNavigationData
 	public EUINavigationRule Rule;
-	public sbyte WidgetToFocus;
+	public string WidgetToFocus;
 	public TWeakObjectPtr<UWidget> Widget;
 	public FCustomWidgetNavigationDelegate CustomDelegate;
 }

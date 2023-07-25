@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>Contextual Animation actuation state</summary>
 public partial struct FGameplayActuationState_ContextualAnim {
 // GameplayActuationState_ContextualAnim
-	public sbyte InteractorRole;
+	public string InteractorRole;
 	public AActor InteractableObject;
-	public sbyte InteractableObjectRole;
-	public sbyte SectionName;
-	public sbyte ExitSectionName;
+	public string InteractableObjectRole;
+	public string SectionName;
+	public string ExitSectionName;
 	public UContextualAnimSceneAsset SceneAsset;
 	public UContextualAnimSceneInstance SceneInstance;
 }

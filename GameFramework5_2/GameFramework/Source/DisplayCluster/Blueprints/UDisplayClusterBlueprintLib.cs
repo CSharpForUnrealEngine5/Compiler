@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UDisplayClusterBlueprintLib : UBlueprintFunctionLibrary {
 // DisplayClusterBlueprintLib
 	public void GetAPI(object /*OutAPI*/ OutAPI) {}
-	public UObject CreateLightCard(UObject RootActor,UObject ReturnValue) { return default; }
+	public UObject CreateLightCard(UObject RootActor) { return default; }
 	public void DuplicateLightCards(TArray<UObject> OriginalLightcards,TArray<UObject> OutNewLightCards) {}
 	public void FindLightCardsForRootActor(UObject RootActor,TSet<UObject> OutLightCards) {}
 	public void FindChromakeyCardsForRootActor(UObject RootActor,TSet<UObject> OutChromakeyCards) {}

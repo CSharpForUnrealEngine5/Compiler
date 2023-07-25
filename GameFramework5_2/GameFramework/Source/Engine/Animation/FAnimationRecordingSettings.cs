@@ -18,6 +18,6 @@ public partial struct FAnimationRecordingSettings {
 	public bool bRecordAttributeCurves;
 	public bool bRecordMaterialCurves;
 	public bool bTransactRecording;
-	public TArray<sbyte> IncludeAnimationNames;
-	public TArray<sbyte> ExcludeAnimationNames;
+	public TArray<string> IncludeAnimationNames;
+	public TArray<string> ExcludeAnimationNames;
 }

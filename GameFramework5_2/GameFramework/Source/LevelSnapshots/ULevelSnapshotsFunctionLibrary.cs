@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LevelSnapshotsFunctionLibrary.h")]
 public partial class ULevelSnapshotsFunctionLibrary : UBlueprintFunctionLibrary {
 // LevelSnapshotsFunctionLibrary
-	public UObject TakeLevelSnapshot(UObject WorldContextObject,sbyte NewSnapshotName="NewLevelSnapshot",sbyte Description="",UObject ReturnValue) { return default; }
+	public UObject TakeLevelSnapshot(UObject WorldContextObject,string NewSnapshotName/*="NewLevelSnapshot"*/,string Description/*=""*/) { return default; }
 	public void ApplySnapshotToWorld(UObject WorldContextObject,UObject Snapshot,UObject OptionalFilter) {}
 }

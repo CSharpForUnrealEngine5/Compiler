@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class ULevelSequenceProjectSettings : UDeveloperSettings {
 // LevelSequenceProjectSettings
 	public bool bDefaultLockEngineToDisplayRate;
-	public sbyte DefaultDisplayRate;
-	public sbyte DefaultTickResolution;
+	public string DefaultDisplayRate;
+	public string DefaultTickResolution;
 	public EUpdateClockSource DefaultClockSource;
 }

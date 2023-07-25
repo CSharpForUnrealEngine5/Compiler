@@ -14,5 +14,5 @@ public partial struct FLevelExporterUSDOptionsInner {
 	public int HighestLandscapeLOD;
 	public FIntPoint LandscapeBakeResolution;
 	public bool bExportSublayers;
-	public TSet<sbyte> LevelsToIgnore;
+	public TSet<string> LevelsToIgnore;
 }

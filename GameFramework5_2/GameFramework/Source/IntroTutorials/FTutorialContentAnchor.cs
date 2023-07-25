@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial struct FTutorialContentAnchor {
 // TutorialContentAnchor
 	public byte Type;
-	public sbyte WrapperIdentifier;
+	public string WrapperIdentifier;
 	public FSoftObjectPath Asset;
 	public bool bDrawHighlight;
-	public sbyte TabToFocusOrOpen;
-	public sbyte FriendlyName;
-	public sbyte GUIDString;
-	public sbyte OuterName;
+	public string TabToFocusOrOpen;
+	public string FriendlyName;
+	public string GUIDString;
+	public string OuterName;
 }

@@ -12,5 +12,5 @@ public partial class UDMXEntityController : UDMXEntityUniverseManaged {
 	public int RemoteOffset;
 	public int UniverseRemoteStart;
 	public int UniverseRemoteEnd;
-	public TArray<sbyte> AdditionalUnicastIPs;
+	public TArray<string> AdditionalUnicastIPs;
 }

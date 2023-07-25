@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FClothPartEditorData {
 // ClothPartEditorData
 	public int PCACoeffNum;
-	public sbyte VertexMapPath;
+	public string VertexMapPath;
 	public int MeshIndex;
 }

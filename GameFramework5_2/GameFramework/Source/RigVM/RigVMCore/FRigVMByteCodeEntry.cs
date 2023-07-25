@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigVMCore/RigVMByteCode.h")]
 public partial struct FRigVMByteCodeEntry {
 // RigVMByteCodeEntry
-	public sbyte Name;
+	public string Name;
 	public int InstructionIndex;
 }

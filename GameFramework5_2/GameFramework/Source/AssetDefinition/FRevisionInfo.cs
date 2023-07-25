@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Revision information for a single revision of a file in source control</summary>
 public partial struct FRevisionInfo {
 // RevisionInfo
-	public sbyte Revision;
+	public string Revision;
 	public int Changelist;
 	public FDateTime Date;
 }

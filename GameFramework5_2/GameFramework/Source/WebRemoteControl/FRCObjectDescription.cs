@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Short description of an unreal object.</summary>
 public partial struct FRCObjectDescription {
 // RCObjectDescription
-	public sbyte Name;
-	public sbyte Class;
-	public sbyte Path;
+	public string Name;
+	public string Class;
+	public string Path;
 }

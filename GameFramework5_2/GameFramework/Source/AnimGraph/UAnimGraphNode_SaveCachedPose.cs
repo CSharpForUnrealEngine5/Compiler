@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UAnimGraphNode_SaveCachedPose : UAnimGraphNode_Base {
 // AnimGraphNode_SaveCachedPose
 	public FAnimNode_SaveCachedPose Node;
-	public sbyte CacheName;
+	public string CacheName;
 }

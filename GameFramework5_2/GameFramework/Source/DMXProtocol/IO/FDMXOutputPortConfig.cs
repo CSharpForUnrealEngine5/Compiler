@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>Blueprint Configuration of a Port, used in DXM Settings to specify inputs and outputs.</summary>
 public partial struct FDMXOutputPortConfig {
 // DMXOutputPortConfig
-	public sbyte PortName;
-	public sbyte ProtocolName;
+	public string PortName;
+	public string ProtocolName;
 	public EDMXCommunicationType CommunicationType;
 	public bool bAutoCompleteDeviceAddressEnabled;
-	public sbyte AutoCompleteDeviceAddress;
-	public sbyte DeviceAddress;
-	public sbyte DestinationAddress;
+	public string AutoCompleteDeviceAddress;
+	public string DeviceAddress;
+	public string DestinationAddress;
 	public TArray<FDMXOutputPortDestinationAddress> DestinationAddresses;
 	public bool bLoopbackToEngine;
 	public int LocalUniverseStart;

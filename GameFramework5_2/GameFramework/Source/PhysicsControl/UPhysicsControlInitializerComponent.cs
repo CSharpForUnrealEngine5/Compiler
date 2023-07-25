@@ -6,7 +6,7 @@ public partial class UPhysicsControlInitializerComponent : USceneComponent {
 // PhysicsControlInitializerComponent
 	public void CreateControls(UObject PhysicsControlComponent) {}
 	public FInitialCharacterControls InitialCharacterControls;
-	public TMap<sbyte,FInitialPhysicsControl> InitialControls;
-	public TMap<sbyte,FInitialBodyModifier> InitialBodyModifiers;
+	public TMap<string,FInitialPhysicsControl> InitialControls;
+	public TMap<string,FInitialBodyModifier> InitialBodyModifiers;
 	public bool bCreateControlsAtBeginPlay;
 }

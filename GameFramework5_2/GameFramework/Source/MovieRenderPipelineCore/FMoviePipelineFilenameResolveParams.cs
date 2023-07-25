@@ -8,13 +8,13 @@ public partial struct FMoviePipelineFilenameResolveParams {
 	public int FrameNumberShot;
 	public int FrameNumberRel;
 	public int FrameNumberShotRel;
-	public sbyte CameraNameOverride;
-	public sbyte ShotNameOverride;
+	public string CameraNameOverride;
+	public string ShotNameOverride;
 	public int ZeroPadFrameNumberCount;
 	public bool bForceRelativeFrameNumbers;
-	public sbyte FileNameOverride;
-	public TMap<sbyte,sbyte> FileNameFormatOverrides;
-	public TMap<sbyte,sbyte> FileMetadata;
+	public string FileNameOverride;
+	public TMap<string,string> FileNameFormatOverrides;
+	public TMap<string,string> FileMetadata;
 	public FDateTime InitializationTime;
 	public int InitializationVersion;
 	public UMoviePipelineExecutorJob Job;

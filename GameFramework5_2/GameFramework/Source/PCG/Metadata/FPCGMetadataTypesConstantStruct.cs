@@ -16,10 +16,10 @@ public partial struct FPCGMetadataTypesConstantStruct {
 	public FVector4 Vector4Value;
 	public FQuat QuatValue;
 	public FTransform TransformValue;
-	public sbyte StringValue;
+	public string StringValue;
 	public bool BoolValue;
 	public FRotator RotatorValue;
-	public sbyte NameValue;
+	public string NameValue;
 	public FSoftClassPath SoftClassPathValue;
 	public FSoftObjectPath SoftObjectPathValue;
 	public bool bAllowsTypeChange;

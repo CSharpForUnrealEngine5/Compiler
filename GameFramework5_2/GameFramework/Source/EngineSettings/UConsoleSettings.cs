@@ -7,7 +7,7 @@ public partial class UConsoleSettings : UObject {
 // ConsoleSettings
 	public int MaxScrollbackSize;
 	public TArray<FAutoCompleteCommand> ManualAutoCompleteList;
-	public TArray<sbyte> AutoCompleteMapPaths;
+	public TArray<string> AutoCompleteMapPaths;
 	public float BackgroundOpacityPercentage;
 	public bool bOrderTopToBottom;
 	public bool bDisplayHelpInAutoComplete;

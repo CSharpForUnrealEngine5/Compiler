@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UDataprepGraphActionGroupNode : UEdGraphNode {
 // DataprepGraphActionGroupNode
 	public int ExecutionOrder;
-	public sbyte NodeTitle;
+	public string NodeTitle;
 	public TArray<UDataprepActionAsset> Actions;
 	public TWeakObjectPtr<UDataprepAsset> DataprepAssetPtr;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Factories/MaterialImportHelpers.h")]
 public partial class UMaterialImportHelpers : UObject {
 // MaterialImportHelpers
-	public UObject FindExistingMaterialFromSearchLocation(sbyte MaterialFullName,sbyte BasePackagePath,EMaterialSearchLocation SearchLocation,sbyte OutError,UObject ReturnValue) { return default; }
-	public UObject FindExistingMaterial(sbyte BasePath,sbyte MaterialFullName,bool bRecursivePaths,sbyte OutError,UObject ReturnValue) { return default; }
+	public UObject FindExistingMaterialFromSearchLocation(string MaterialFullName,string BasePackagePath,EMaterialSearchLocation SearchLocation,string OutError) { return default; }
+	public UObject FindExistingMaterial(string BasePath,string MaterialFullName,bool bRecursivePaths,string OutError) { return default; }
 }

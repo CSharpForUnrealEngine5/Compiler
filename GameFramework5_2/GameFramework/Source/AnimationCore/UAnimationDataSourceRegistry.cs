@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("AnimationDataSource.h")]
 public partial class UAnimationDataSourceRegistry : UObject {
 // AnimationDataSourceRegistry
-	public TMap<sbyte,TWeakObjectPtr<UObject>> DataSources;
+	public TMap<string,TWeakObjectPtr<UObject>> DataSources;
 }

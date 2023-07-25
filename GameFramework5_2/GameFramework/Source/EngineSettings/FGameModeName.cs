@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Helper structure, used to associate GameModes with shortcut names.</summary>
 public partial struct FGameModeName {
 // GameModeName
-	public sbyte Name;
+	public string Name;
 	public FSoftClassPath GameMode;
 }

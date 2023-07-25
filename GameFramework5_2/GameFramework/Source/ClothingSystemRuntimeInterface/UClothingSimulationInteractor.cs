@@ -10,15 +10,15 @@ public partial class UClothingSimulationInteractor : UObject {
 	public void SetAnimDriveSpringStiffness(float InStiffness) {}
 	public void EnableGravityOverride(FVector InVector) {}
 	public void DisableGravityOverride() {}
-	public void SetNumIterations(int NumIterations=1) {}
-	public void SetMaxNumIterations(int MaxNumIterations=10) {}
-	public void SetNumSubsteps(int NumSubsteps=1) {}
-	public int GetNumCloths(int ReturnValue) { return default; }
-	public int GetNumKinematicParticles(int ReturnValue) { return default; }
-	public int GetNumDynamicParticles(int ReturnValue) { return default; }
-	public int GetNumIterations(int ReturnValue) { return default; }
-	public int GetNumSubsteps(int ReturnValue) { return default; }
-	public float GetSimulationTime(float ReturnValue) { return default; }
-	public UObject GetClothingInteractor(sbyte ClothingAssetName,UObject ReturnValue) { return default; }
-	public TMap<sbyte,UClothingInteractor> ClothingInteractors;
+	public void SetNumIterations(int NumIterations/*=1*/) {}
+	public void SetMaxNumIterations(int MaxNumIterations/*=10*/) {}
+	public void SetNumSubsteps(int NumSubsteps/*=1*/) {}
+	public int GetNumCloths() { return default; }
+	public int GetNumKinematicParticles() { return default; }
+	public int GetNumDynamicParticles() { return default; }
+	public int GetNumIterations() { return default; }
+	public int GetNumSubsteps() { return default; }
+	public float GetSimulationTime() { return default; }
+	public UObject GetClothingInteractor(string ClothingAssetName) { return default; }
+	public TMap<string,UClothingInteractor> ClothingInteractors;
 }

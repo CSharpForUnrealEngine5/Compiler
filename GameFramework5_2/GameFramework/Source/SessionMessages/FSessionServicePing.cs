@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that is published to discover existing application sessions.</summary>
 public partial struct FSessionServicePing {
 // SessionServicePing
-	public sbyte UserName;
+	public string UserName;
 }

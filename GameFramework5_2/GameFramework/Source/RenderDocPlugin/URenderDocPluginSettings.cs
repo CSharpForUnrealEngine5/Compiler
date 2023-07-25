@@ -14,5 +14,5 @@ public partial class URenderDocPluginSettings : UDeveloperSettings {
 	public bool bAutoAttach;
 	public bool bShowHelpOnStartup;
 	public bool bEnableRenderDocCrashHandler;
-	public sbyte RenderDocBinaryPath;
+	public string RenderDocBinaryPath;
 }

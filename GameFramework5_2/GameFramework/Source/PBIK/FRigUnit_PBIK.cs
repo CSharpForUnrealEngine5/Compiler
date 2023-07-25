@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>* Based on a Position Based solver at core, this node can solve multi chains within a root using multi effectors</summary>
 public partial struct FRigUnit_PBIK {
 // RigUnit_PBIK
-	public sbyte Root;
+	public string Root;
 	public TArray<FPBIKEffector> Effectors;
 	public TArray<int> EffectorSolverIndices;
 	public TArray<FPBIKBoneSetting> BoneSettings;
-	public TArray<sbyte> ExcludedBones;
+	public TArray<string> ExcludedBones;
 	public FPBIKSolverSettings Settings;
 	public FPBIKDebug Debug;
 	public TArray<int> BoneSettingToSolverBoneIndex;

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithVREDImportData.h")]
 public partial struct FVREDCppVariantCameraOption {
 // VREDCppVariantCameraOption
-	public sbyte Name;
+	public string Name;
 	public FVector Location;
 	public FRotator Rotation;
 }

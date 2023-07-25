@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraCommon.h")]
 public partial struct FNiagaraMaterialAttributeBinding {
 // NiagaraMaterialAttributeBinding
-	public sbyte MaterialParameterName;
+	public string MaterialParameterName;
 	public FNiagaraVariableBase NiagaraVariable;
 	public FNiagaraVariableBase ResolvedNiagaraVariable;
 	public FNiagaraVariableBase NiagaraChildVariable;

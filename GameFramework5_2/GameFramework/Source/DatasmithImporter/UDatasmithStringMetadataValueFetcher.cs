@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UDatasmithStringMetadataValueFetcher : UDataprepStringsArrayFetcher {
 // DatasmithStringMetadataValueFetcher
 	public byte KeyMatch;
-	public sbyte Key;
+	public string Key;
 }

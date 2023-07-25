@@ -9,11 +9,11 @@ public partial class USynthSamplePlayer : USynthComponent {
 	public FOnSamplePlaybackProgress OnSamplePlaybackProgress;
 	public void SetSoundWave(UObject InSoundWave) {}
 	public void SetPitch(float InPitch,float TimeSec) {}
-	public void SeekToTime(float TimeSec,ESamplePlayerSeekType SeekType,bool bWrap=true) {}
+	public void SeekToTime(float TimeSec,ESamplePlayerSeekType SeekType,bool bWrap/*=true*/) {}
 	public void SetScrubMode(bool bScrubMode) {}
 	public void SetScrubTimeWidth(float InScrubTimeWidthSec) {}
-	public float GetSampleDuration(float ReturnValue) { return default; }
-	public float GetCurrentPlaybackProgressTime(float ReturnValue) { return default; }
-	public float GetCurrentPlaybackProgressPercent(float ReturnValue) { return default; }
-	public bool IsLoaded(bool ReturnValue) { return default; }
+	public float GetSampleDuration() { return default; }
+	public float GetCurrentPlaybackProgressTime() { return default; }
+	public float GetCurrentPlaybackProgressPercent() { return default; }
+	public bool IsLoaded() { return default; }
 }

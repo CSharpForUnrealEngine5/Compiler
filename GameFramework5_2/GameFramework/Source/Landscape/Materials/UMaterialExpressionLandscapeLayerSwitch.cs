@@ -6,6 +6,6 @@ public partial class UMaterialExpressionLandscapeLayerSwitch : UMaterialExpressi
 // MaterialExpressionLandscapeLayerSwitch
 	public FExpressionInput LayerUsed;
 	public FExpressionInput LayerNotUsed;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public bool PreviewUsed;
 }

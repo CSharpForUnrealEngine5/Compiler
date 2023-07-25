@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("IKRigDataTypes.h")]
 public partial struct FIKRigGoal {
 // IKRigGoal
-	public sbyte Name;
+	public string Name;
 	public EIKRigGoalTransformSource TransformSource;
 	public FBoneReference SourceBone;
 	public FVector Position;

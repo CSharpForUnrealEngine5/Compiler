@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FAutomationWorkerFindWorkers {
 // AutomationWorkerFindWorkers
 	public int Changelist;
-	public sbyte GameName;
-	public sbyte ProcessName;
+	public string GameName;
+	public string ProcessName;
 	public FGuid SessionId;
 }

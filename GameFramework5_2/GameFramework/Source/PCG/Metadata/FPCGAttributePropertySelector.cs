@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FPCGAttributePropertySelector {
 // PCGAttributePropertySelector
 	public EPCGAttributePropertySelection Selection;
-	public sbyte AttributeName;
+	public string AttributeName;
 	public EPCGPointProperties PointProperty;
-	public TArray<sbyte> ExtraNames;
+	public TArray<string> ExtraNames;
 }

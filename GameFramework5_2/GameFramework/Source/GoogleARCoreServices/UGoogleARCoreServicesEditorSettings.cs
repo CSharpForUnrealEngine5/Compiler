@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Helper class used to expose GoogleARCoreServices setting in the Editor plugin settings.</summary>
 public partial class UGoogleARCoreServicesEditorSettings : UObject {
 // GoogleARCoreServicesEditorSettings
-	public sbyte AndroidAPIKey;
-	public sbyte IOSAPIKey;
+	public string AndroidAPIKey;
+	public string IOSAPIKey;
 }

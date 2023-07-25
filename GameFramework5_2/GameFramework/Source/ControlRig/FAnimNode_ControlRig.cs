@@ -13,9 +13,9 @@ public partial struct FAnimNode_ControlRig {
 	public bool bSetRefPoseFromSkeleton;
 	public FInputScaleBias AlphaScaleBias;
 	public FInputAlphaBoolBlend AlphaBoolBlend;
-	public sbyte AlphaCurveName;
+	public string AlphaCurveName;
 	public FInputScaleBiasClamp AlphaScaleBiasClamp;
-	public TMap<sbyte,sbyte> InputMapping;
-	public TMap<sbyte,sbyte> OutputMapping;
+	public TMap<string,string> InputMapping;
+	public TMap<string,string> OutputMapping;
 	public int LODThreshold;
 }

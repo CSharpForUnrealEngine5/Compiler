@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("EditorMetadataOverrides.h")]
 public partial struct FMetadataConfig {
 // MetadataConfig
-	public TMap<sbyte,FStructMetadata> Classes;
+	public TMap<string,FStructMetadata> Classes;
 }

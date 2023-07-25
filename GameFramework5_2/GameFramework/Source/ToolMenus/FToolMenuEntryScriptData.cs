@@ -4,13 +4,13 @@ using CSharpToCpp.Utilities;
 [CppInclude("ToolMenuEntryScript.h")]
 public partial struct FToolMenuEntryScriptData {
 // ToolMenuEntryScriptData
-	public sbyte Menu;
-	public sbyte Section;
-	public sbyte Name;
-	public sbyte Label;
-	public sbyte ToolTip;
+	public string Menu;
+	public string Section;
+	public string Name;
+	public string Label;
+	public string ToolTip;
 	public FScriptSlateIcon Icon;
-	public sbyte OwnerName;
+	public string OwnerName;
 	public FToolMenuInsert InsertPosition;
 	public FToolMenuEntryScriptDataAdvanced Advanced;
 }

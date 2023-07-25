@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class ACineCameraActor : ACameraActor {
 // CineCameraActor
 	public FCameraLookatTrackingSettings LookatTrackingSettings;
-	public UObject GetCineCameraComponent(UObject ReturnValue) { return default; }
+	public UObject GetCineCameraComponent() { return default; }
 }

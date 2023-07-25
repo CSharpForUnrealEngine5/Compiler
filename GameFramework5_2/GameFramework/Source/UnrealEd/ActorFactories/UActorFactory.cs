@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("ActorFactories/ActorFactory.h")]
 public partial class UActorFactory : UObject {
 // ActorFactory
-	public sbyte DisplayName;
+	public string DisplayName;
 	public int MenuPriority;
-	public sbyte NewActorClassName;
+	public string NewActorClassName;
 	public UClass NewActorClass;
 	public bool bShowInEditorQuickMenu;
 	public bool bUseSurfaceOrientation;

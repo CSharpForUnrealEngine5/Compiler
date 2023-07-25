@@ -15,7 +15,7 @@ public partial class UPoseWatch : UObject {
 	public bool bIsNodeEnabled;
 	public bool bIsExpanded;
 	public FColor Color_DEPRECATED;
-	public sbyte Label;
-	public sbyte IconName_DEPRECATED;
+	public string Label;
+	public string IconName_DEPRECATED;
 	public TWeakObjectPtr<UPoseWatchFolder> Parent;
 }

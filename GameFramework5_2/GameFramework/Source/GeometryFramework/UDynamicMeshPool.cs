@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>UDynamicMeshPool manages a Pool of UDynamicMesh objects. This allows</summary>
 public partial class UDynamicMeshPool : UObject {
 // DynamicMeshPool
-	public UObject RequestMesh(UObject ReturnValue) { return default; }
+	public UObject RequestMesh() { return default; }
 	public void ReturnMesh(UObject Mesh) {}
 	public void ReturnAllMeshes() {}
 	public void FreeAllMeshes() {}

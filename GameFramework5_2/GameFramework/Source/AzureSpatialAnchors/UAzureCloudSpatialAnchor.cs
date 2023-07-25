@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial class UAzureCloudSpatialAnchor : UObject {
 // AzureCloudSpatialAnchor
 	public UARPin ARPin;
-	public sbyte GetAzureCloudIdentifier(sbyte ReturnValue) { return default; }
-	public TMap<sbyte,sbyte> GetAppProperties(TMap<sbyte,sbyte> ReturnValue) { return default; }
-	public void SetAppProperties(TMap<sbyte,sbyte> InAppProperties) {}
-	public float GetExpiration(float ReturnValue) { return default; }
+	public string GetAzureCloudIdentifier() { return default; }
+	public TMap<string,string> GetAppProperties() { return default; }
+	public void SetAppProperties(TMap<string,string> InAppProperties) {}
+	public float GetExpiration() { return default; }
 	public void SetExpiration(float Lifetime) {}
 }

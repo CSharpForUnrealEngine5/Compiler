@@ -6,7 +6,7 @@ public partial class USoundControlBus : USoundModulatorBase {
 // SoundControlBus
 	public bool bBypass;
 	public bool bOverrideAddress;
-	public sbyte Address;
+	public string Address;
 	public TArray<USoundModulationGenerator> Generators;
 	public USoundModulationParameter Parameter;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Identifies a device.</summary>
 public partial struct FMediaIODevice {
 // MediaIODevice
-	public sbyte DeviceName;
+	public string DeviceName;
 	public int DeviceIdentifier;
 }

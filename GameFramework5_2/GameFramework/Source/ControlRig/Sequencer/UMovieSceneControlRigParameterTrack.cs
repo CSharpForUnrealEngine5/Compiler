@@ -8,5 +8,5 @@ public partial class UMovieSceneControlRigParameterTrack : UMovieSceneNameableTr
 	public UControlRig ControlRig;
 	public UMovieSceneSection SectionToKey;
 	public TArray<UMovieSceneSection> Sections;
-	public sbyte TrackName;
+	public string TrackName;
 }

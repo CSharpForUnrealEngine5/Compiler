@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Utility/WidgetSlotPair.h")]
 public partial class UWidgetSlotPair : UObject {
 // WidgetSlotPair
-	public sbyte WidgetName;
-	public TArray<sbyte> SlotPropertyNames;
-	public TArray<sbyte> SlotPropertyValues;
+	public string WidgetName;
+	public TArray<string> SlotPropertyNames;
+	public TArray<string> SlotPropertyValues;
 }

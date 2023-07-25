@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Sequencer/MovieSceneControlRigParameterSection.h")]
 public partial struct FSpaceControlNameAndChannel {
 // SpaceControlNameAndChannel
-	public sbyte ControlName;
+	public string ControlName;
 	public FMovieSceneControlRigSpaceChannel SpaceCurve;
 }

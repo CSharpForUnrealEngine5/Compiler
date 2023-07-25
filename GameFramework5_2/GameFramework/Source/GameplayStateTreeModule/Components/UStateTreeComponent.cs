@@ -6,7 +6,7 @@ public partial class UStateTreeComponent : UBrainComponent {
 // StateTreeComponent
 	public void SetStartLogicAutomatically(bool bInStartLogicAutomatically) {}
 	public void SendStateTreeEvent(FStateTreeEvent Event) {}
-	public EStateTreeRunStatus GetStateTreeRunStatus(EStateTreeRunStatus ReturnValue) { return default; }
+	public EStateTreeRunStatus GetStateTreeRunStatus() { return default; }
 	public FStateTreeRunStatusChanged OnStateTreeRunStatusChanged;
 	public UStateTree StateTree_DEPRECATED;
 	public FStateTreeReference StateTreeRef;

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertSequencerTimeAdjustmentEvent {
 // ConcertSequencerTimeAdjustmentEvent
 	public FFrameNumber PlaybackStartFrame;
-	public sbyte SequenceObjectPath;
+	public string SequenceObjectPath;
 }

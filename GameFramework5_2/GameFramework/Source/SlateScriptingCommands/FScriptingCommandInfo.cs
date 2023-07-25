@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>The data defining a scripting command. At the exception of its delegates.</summary>
 public partial struct FScriptingCommandInfo {
 // ScriptingCommandInfo
-	public sbyte ContextName;
-	public sbyte Set;
-	public sbyte Name;
-	public sbyte Label;
-	public sbyte Description;
+	public string ContextName;
+	public string Set;
+	public string Name;
+	public string Label;
+	public string Description;
 	public FInputChord InputChord;
 }

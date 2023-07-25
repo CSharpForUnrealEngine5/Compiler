@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FUIInputAction {
 // UIInputAction
 	public FUIActionTag ActionTag;
-	public sbyte DefaultDisplayName;
+	public string DefaultDisplayName;
 	public TArray<FUIActionKeyMapping> KeyMappings;
 }

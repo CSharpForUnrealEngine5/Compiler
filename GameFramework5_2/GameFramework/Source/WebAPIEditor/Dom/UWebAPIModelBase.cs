@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Baseclass with common properties for various Schema classes.</summary>
 public partial class UWebAPIModelBase : UObject {
 // WebAPIModelBase
-	public sbyte Description;
+	public string Description;
 	public bool bIsRequired;
 	public bool bIsReadOnly;
 	public bool bUseMinimumValue;
@@ -13,5 +13,5 @@ public partial class UWebAPIModelBase : UObject {
 	public bool bUseMaximumValue;
 	public double MaximumValue;
 	public bool bUsePattern;
-	public sbyte Pattern;
+	public string Pattern;
 }

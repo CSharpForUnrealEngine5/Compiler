@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UComposureCompositingTargetComponent : UActorComponent {
 // ComposureCompositingTargetComponent
 	public void SetDisplayTexture(UObject DisplayTexture) {}
-	public UObject GetDisplayTexture(UObject ReturnValue) { return default; }
+	public UObject GetDisplayTexture() { return default; }
 	public UTexture DisplayTexture;
 	public UTexture CompilerErrImage;
 }

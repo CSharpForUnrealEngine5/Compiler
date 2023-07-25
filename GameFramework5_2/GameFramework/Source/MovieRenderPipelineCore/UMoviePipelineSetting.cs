@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>A base class for all Movie Render Pipeline settings.</summary>
 public partial class UMoviePipelineSetting : UObject {
 // MoviePipelineSetting
-	public void BuildNewProcessCommandLine(sbyte InOutUnrealURLParams,sbyte InOutCommandLineArgs) {}
-	public void BuildNewProcessCommandLineArgs(TArray<sbyte> InOutUnrealURLParams,TArray<sbyte> InOutCommandLineArgs,TArray<sbyte> InOutDeviceProfileCvars,TArray<sbyte> InOutExecCmds) {}
-	public bool IsEnabled(bool ReturnValue) { return default; }
+	public void BuildNewProcessCommandLine(string InOutUnrealURLParams,string InOutCommandLineArgs) {}
+	public void BuildNewProcessCommandLineArgs(TArray<string> InOutUnrealURLParams,TArray<string> InOutCommandLineArgs,TArray<string> InOutDeviceProfileCvars,TArray<string> InOutExecCmds) {}
+	public bool IsEnabled() { return default; }
 	public void SetIsEnabled(bool bInEnabled) {}
 	public TWeakObjectPtr<UMoviePipeline> CachedPipeline;
 	public bool bEnabled;

@@ -10,8 +10,8 @@ public partial class USynthKnob : UWidget {
 	public float MouseSpeed;
 	public float MouseFineTuneSpeed;
 	public bool ShowTooltipInfo;
-	public sbyte ParameterName;
-	public sbyte ParameterUnits;
+	public string ParameterName;
+	public string ParameterUnits;
 	public FGetFloat ValueDelegate;
 	public FSynthKnobStyle WidgetStyle;
 	public bool Locked;
@@ -21,7 +21,7 @@ public partial class USynthKnob : UWidget {
 	public FOnControllerCaptureBeginEvent OnControllerCaptureBegin;
 	public FOnControllerCaptureEndEvent OnControllerCaptureEnd;
 	public FOnFloatValueChangedEvent OnValueChanged;
-	public float GetValue(float ReturnValue) { return default; }
+	public float GetValue() { return default; }
 	public void SetValue(float InValue) {}
 	public void SetLocked(bool InValue) {}
 	public void SetStepSize(float InValue) {}

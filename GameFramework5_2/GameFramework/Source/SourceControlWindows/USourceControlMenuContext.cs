@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Source control window menu context providing information for menu extenders.</summary>
 public partial class USourceControlMenuContext : UObject {
 // SourceControlMenuContext
-	public TArray<sbyte> SelectedFiles;
+	public TArray<string> SelectedFiles;
 }

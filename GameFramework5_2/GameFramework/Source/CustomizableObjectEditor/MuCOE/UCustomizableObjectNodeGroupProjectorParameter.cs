@@ -4,17 +4,17 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeGroupProjectorParameter.h")]
 public partial class UCustomizableObjectNodeGroupProjectorParameter : UCustomizableObjectNodeProjectorParameter {
 // CustomizableObjectNodeGroupProjectorParameter
-	public sbyte MaterialChannelNameToConnect;
-	public sbyte MaskedOutAreaMaterialChannelName;
+	public string MaterialChannelNameToConnect;
+	public string MaskedOutAreaMaterialChannelName;
 	public UTexture2D ReferenceTexture;
 	public int ProjectionTextureSize;
 	public int DropProjectionTextureAtLOD;
 	public bool bShareProjectionTexturesBetweenLODs;
 	public TArray<FGroupProjectorParameterImage> OptionImages;
 	public TArray<FGroupProjectorParameterPose> OptionPoses;
-	public sbyte DataTableTextureColumnName;
+	public string DataTableTextureColumnName;
 	public UDataTable OptionImagesDataTable;
-	public sbyte AlternateProjectionResolutionStateName;
+	public string AlternateProjectionResolutionStateName;
 	public float AlternateProjectionResolutionFactor;
 	public int UVLayout;
 	public FEdGraphPinReference ImagePin;

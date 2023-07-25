@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectParameterTypeDefinitions.h")]
 public partial struct FCustomizableObjectBoolParameterValue {
 // CustomizableObjectBoolParameterValue
-	public sbyte ParameterName;
+	public string ParameterName;
 	public bool ParameterValue;
-	public sbyte Uid;
+	public string Uid;
 }

@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("WorldPartition/WorldPartitionRuntimeCell.h")]
 public partial struct FWorldPartitionRuntimeCellDebugInfo {
 // WorldPartitionRuntimeCellDebugInfo
-	public sbyte Name;
-	public sbyte GridName;
+	public string Name;
+	public string GridName;
 	public long CoordX;
 	public long CoordY;
 	public long CoordZ;

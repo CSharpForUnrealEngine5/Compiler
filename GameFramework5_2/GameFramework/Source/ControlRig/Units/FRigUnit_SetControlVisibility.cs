@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_SetControlVisibility {
 // RigUnit_SetControlVisibility
 	public FRigElementKey Item;
-	public sbyte Pattern;
+	public string Pattern;
 	public bool bVisible;
 	public TArray<FCachedRigElement> CachedControlIndices;
 }

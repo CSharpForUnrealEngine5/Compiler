@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigVMCore/RigVMUserWorkflow.h")]
 public partial class URigVMUserWorkflowOptions : UObject {
 // RigVMUserWorkflowOptions
-	public bool IsValid(bool ReturnValue) { return default; }
-	public bool RequiresDialog(bool ReturnValue) { return default; }
-	public void ReportError(sbyte InMessage) {}
-	public void ReportWarning(sbyte InMessage) {}
-	public void ReportInfo(sbyte InMessage) {}
+	public bool IsValid() { return default; }
+	public bool RequiresDialog() { return default; }
+	public void ReportError(string InMessage) {}
+	public void ReportWarning(string InMessage) {}
+	public void ReportInfo(string InMessage) {}
 	public UObject Subject;
 	public FRigVMUserWorkflow Workflow;
 }

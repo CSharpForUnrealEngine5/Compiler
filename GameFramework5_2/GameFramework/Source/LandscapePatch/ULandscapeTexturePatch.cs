@@ -4,37 +4,37 @@ using CSharpToCpp.Utilities;
 [CppInclude("LandscapeTexturePatch.h")]
 public partial class ULandscapeTexturePatch : ULandscapePatchComponent {
 // LandscapeTexturePatch
-	public FTransform GetPatchToWorldTransform(FTransform ReturnValue) { return default; }
-	public FVector2D GetUnscaledCoverage(FVector2D ReturnValue) { return default; }
+	public FTransform GetPatchToWorldTransform() { return default; }
+	public FVector2D GetUnscaledCoverage() { return default; }
 	public void SetUnscaledCoverage(FVector2D Coverage) {}
-	public FVector2D GetFullUnscaledWorldSize(FVector2D ReturnValue) { return default; }
-	public FVector2D GetResolution(FVector2D ReturnValue) { return default; }
+	public FVector2D GetFullUnscaledWorldSize() { return default; }
+	public FVector2D GetResolution() { return default; }
 	public void SetResolution(FVector2D ResolutionIn) {}
-	public bool GetInitResolutionFromLandscape(float ResolutionMultiplier,FVector2D ResolutionOut,bool ReturnValue) { return default; }
+	public bool GetInitResolutionFromLandscape(float ResolutionMultiplier,FVector2D ResolutionOut) { return default; }
 	public void SetFalloff(float FalloffIn) {}
 	public void SetBlendMode(ELandscapeTexturePatchBlendMode BlendModeIn) {}
-	public ELandscapeTexturePatchSourceMode GetHeightSourceMode(ELandscapeTexturePatchSourceMode ReturnValue) { return default; }
+	public ELandscapeTexturePatchSourceMode GetHeightSourceMode() { return default; }
 	public void SetHeightSourceMode(ELandscapeTexturePatchSourceMode NewMode) {}
 	public void SetHeightTextureAsset(UObject TextureIn) {}
-	public UObject GetHeightRenderTarget(UObject ReturnValue) { return default; }
+	public UObject GetHeightRenderTarget() { return default; }
 	public void SetHeightRenderTargetFormat(ETextureRenderTargetFormat Format) {}
 	public void SetUseAlphaChannelForHeight(bool bUse) {}
 	public void SetHeightEncodingMode(ELandscapeTextureHeightPatchEncoding EncodingMode) {}
 	public void ResetHeightEncodingMode(ELandscapeTextureHeightPatchEncoding EncodingMode) {}
 	public void SetHeightEncodingSettings(FLandscapeTexturePatchEncodingSettings Settings) {}
 	public void SetZeroHeightMeaning(ELandscapeTextureHeightPatchZeroHeightMeaning ZeroHeightMeaningIn) {}
-	public void AddWeightPatch(sbyte InWeightmapLayerName,ELandscapeTexturePatchSourceMode SourceMode,bool bUseAlphaChannel) {}
-	public void RemoveWeightPatch(sbyte InWeightmapLayerName) {}
+	public void AddWeightPatch(string InWeightmapLayerName,ELandscapeTexturePatchSourceMode SourceMode,bool bUseAlphaChannel) {}
+	public void RemoveWeightPatch(string InWeightmapLayerName) {}
 	public void RemoveAllWeightPatches() {}
 	public void DisableAllWeightPatches() {}
-	public TArray<sbyte> GetAllWeightPatchLayerNames(TArray<sbyte> ReturnValue) { return default; }
-	public ELandscapeTexturePatchSourceMode GetWeightPatchSourceMode(sbyte InWeightmapLayerName,ELandscapeTexturePatchSourceMode ReturnValue) { return default; }
-	public void SetWeightPatchSourceMode(sbyte InWeightmapLayerName,ELandscapeTexturePatchSourceMode NewMode) {}
-	public void SetWeightPatchTextureAsset(sbyte InWeightmapLayerName,UObject TextureIn) {}
-	public UObject GetWeightPatchRenderTarget(sbyte InWeightmapLayerName,UObject ReturnValue) { return default; }
-	public void SetUseAlphaChannelForWeightPatch(sbyte InWeightmapLayerName,bool bUseAlphaChannel) {}
-	public void SetWeightPatchBlendModeOverride(sbyte InWeightmapLayerName,ELandscapeTexturePatchBlendMode BlendMode) {}
-	public void ClearWeightPatchBlendModeOverride(sbyte InWeightmapLayerName) {}
+	public TArray<string> GetAllWeightPatchLayerNames() { return default; }
+	public ELandscapeTexturePatchSourceMode GetWeightPatchSourceMode(string InWeightmapLayerName) { return default; }
+	public void SetWeightPatchSourceMode(string InWeightmapLayerName,ELandscapeTexturePatchSourceMode NewMode) {}
+	public void SetWeightPatchTextureAsset(string InWeightmapLayerName,UObject TextureIn) {}
+	public UObject GetWeightPatchRenderTarget(string InWeightmapLayerName) { return default; }
+	public void SetUseAlphaChannelForWeightPatch(string InWeightmapLayerName,bool bUseAlphaChannel) {}
+	public void SetWeightPatchBlendModeOverride(string InWeightmapLayerName,ELandscapeTexturePatchBlendMode BlendMode) {}
+	public void ClearWeightPatchBlendModeOverride(string InWeightmapLayerName) {}
 	public int ResolutionX;
 	public int ResolutionY;
 	public FVector2D UnscaledPatchCoverage;

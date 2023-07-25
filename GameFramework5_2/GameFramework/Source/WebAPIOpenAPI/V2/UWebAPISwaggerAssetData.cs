@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("V2/WebAPISwaggerFactory.h")]
 public partial class UWebAPISwaggerAssetData : UObject {
 // WebAPISwaggerAssetData
-	public sbyte FileContents;
+	public string FileContents;
 }

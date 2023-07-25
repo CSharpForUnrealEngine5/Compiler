@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraParameterStore.h")]
 public partial struct FNiagaraPositionSource {
 // NiagaraPositionSource
-	public sbyte Name;
+	public string Name;
 	public FVector Value;
 }

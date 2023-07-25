@@ -12,10 +12,10 @@ public partial class UMovieSceneCapture : UObject {
 	public FMovieSceneCaptureSettings Settings;
 	public bool bUseSeparateProcess;
 	public bool bCloseEditorWhenCaptureStarts;
-	public sbyte AdditionalCommandLineArguments;
-	public sbyte InheritedCommandLineArguments;
-	public UObject GetImageCaptureProtocol(UObject ReturnValue) { return default; }
-	public UObject GetAudioCaptureProtocol(UObject ReturnValue) { return default; }
+	public string AdditionalCommandLineArguments;
+	public string InheritedCommandLineArguments;
+	public UObject GetImageCaptureProtocol() { return default; }
+	public UObject GetAudioCaptureProtocol() { return default; }
 	public void SetImageCaptureProtocolType(UClass ProtocolType) {}
 	public void SetAudioCaptureProtocolType(UClass ProtocolType) {}
 }

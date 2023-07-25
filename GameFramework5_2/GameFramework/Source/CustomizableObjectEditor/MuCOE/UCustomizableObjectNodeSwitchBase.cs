@@ -6,6 +6,6 @@ public partial class UCustomizableObjectNodeSwitchBase : UCustomizableObjectNode
 // CustomizableObjectNodeSwitchBase
 	public FEdGraphPinReference OutputPinReference;
 	public void EnumParameterPostEditChangeProperty(FPostEditChangePropertyDelegateParameters Parameters) {}
-	public TArray<sbyte> ReloadingElementsNames;
+	public TArray<string> ReloadingElementsNames;
 	public FEdGraphPinReference SwitchParameterPinReference;
 }

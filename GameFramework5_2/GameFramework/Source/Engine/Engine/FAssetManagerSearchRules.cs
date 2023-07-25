@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Rules for how to scan the asset registry for assets matching path and type descriptions</summary>
 public partial struct FAssetManagerSearchRules {
 // AssetManagerSearchRules
-	public TArray<sbyte> AssetScanPaths;
-	public TArray<sbyte> IncludePatterns;
-	public TArray<sbyte> ExcludePatterns;
+	public TArray<string> AssetScanPaths;
+	public TArray<string> IncludePatterns;
+	public TArray<string> ExcludePatterns;
 	public UClass AssetBaseClass;
 	public bool bHasBlueprintClasses;
 	public bool bForceSynchronousScan;

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("SequencerPlaylist.h")]
 public partial class USequencerPlaylist : UObject {
 // SequencerPlaylist
-	public sbyte Description;
+	public string Description;
 	public TArray<USequencerPlaylistItem> Items;
 }

@@ -7,8 +7,8 @@ public partial struct FAddCustomCollectionAttributeDataflowNode {
 // AddCustomCollectionAttributeDataflowNode
 	public FManagedArrayCollection Collection;
 	public EStandardGroupNameEnum GroupName;
-	public sbyte CustomGroupName;
-	public sbyte AttrName;
+	public string CustomGroupName;
+	public string AttrName;
 	public ECustomAttributeTypeEnum CustomAttributeType;
 	public int NumElements;
 }

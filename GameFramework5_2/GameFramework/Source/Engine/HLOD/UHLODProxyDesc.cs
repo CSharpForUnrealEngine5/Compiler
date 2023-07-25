@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Describe a LODActor</summary>
 public partial class UHLODProxyDesc : UObject {
 // HLODProxyDesc
-	public TArray<sbyte> SubActors;
+	public TArray<string> SubActors;
 	public UStaticMesh StaticMesh;
 	public TArray<FHLODISMComponentDesc> ISMComponentsDesc;
 	public float LODDrawDistance;
@@ -15,9 +15,9 @@ public partial class UHLODProxyDesc : UObject {
 	public float TransitionScreenSize;
 	public bool bOverrideScreenSize;
 	public int ScreenSize;
-	public sbyte Key;
+	public string Key;
 	public int LODLevel;
-	public sbyte LODActorTag;
+	public string LODActorTag;
 	public FVector Location;
 	public FTransform HLODBakingTransform;
 	public TArray<TSoftObjectPtr<UHLODProxyDesc>> SubHLODDescs;

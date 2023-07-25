@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_MakeRequestHeader.h")]
 public partial struct FOptionalPin {
 // OptionalPin
-	public sbyte PinName;
-	public sbyte PinDefaultValue;
+	public string PinName;
+	public string PinDefaultValue;
 	public FEdGraphPinReference LinkedTo;
 }

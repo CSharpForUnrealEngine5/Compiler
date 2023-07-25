@@ -19,13 +19,13 @@ public partial class USceneCaptureComponent : USceneComponent {
 	public int CaptureSortPriority;
 	public bool bUseRayTracingIfEnabled;
 	public TArray<FEngineShowFlagsSetting> ShowFlagSettings;
-	public sbyte ProfilingEventName;
+	public string ProfilingEventName;
 	public void HideComponent(UObject InComponent) {}
-	public void HideActorComponents(UObject InActor,bool bIncludeFromChildActors=false) {}
+	public void HideActorComponents(UObject InActor,bool bIncludeFromChildActors/*=false*/) {}
 	public void ShowOnlyComponent(UObject InComponent) {}
-	public void ShowOnlyActorComponents(UObject InActor,bool bIncludeFromChildActors=false) {}
+	public void ShowOnlyActorComponents(UObject InActor,bool bIncludeFromChildActors/*=false*/) {}
 	public void RemoveShowOnlyComponent(UObject InComponent) {}
-	public void RemoveShowOnlyActorComponents(UObject InActor,bool bIncludeFromChildActors=false) {}
+	public void RemoveShowOnlyActorComponents(UObject InActor,bool bIncludeFromChildActors/*=false*/) {}
 	public void ClearShowOnlyComponents() {}
 	public void ClearHiddenComponents() {}
 	public void SetCaptureSortPriority(int NewCaptureSortPriority) {}

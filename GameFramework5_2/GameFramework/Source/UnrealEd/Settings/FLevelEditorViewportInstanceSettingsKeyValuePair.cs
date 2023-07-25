@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a key -> value pair for the per-instance view port settings</summary>
 public partial struct FLevelEditorViewportInstanceSettingsKeyValuePair {
 // LevelEditorViewportInstanceSettingsKeyValuePair
-	public sbyte ConfigName;
+	public string ConfigName;
 	public FLevelEditorViewportInstanceSettings ConfigSettings;
 }

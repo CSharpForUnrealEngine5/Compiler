@@ -6,11 +6,11 @@ public partial struct FSoundWaveTimecodeInfo {
 // SoundWaveTimecodeInfo
 	public ulong NumSamplesSinceMidnight;
 	public uint NumSamplesPerSecond;
-	public sbyte Description;
-	public sbyte OriginatorTime;
-	public sbyte OriginatorDate;
-	public sbyte OriginatorDescription;
-	public sbyte OriginatorReference;
+	public string Description;
+	public string OriginatorTime;
+	public string OriginatorDate;
+	public string OriginatorDescription;
+	public string OriginatorReference;
 	public FFrameRate TimecodeRate;
 	public bool bTimecodeIsDropFrame;
 }

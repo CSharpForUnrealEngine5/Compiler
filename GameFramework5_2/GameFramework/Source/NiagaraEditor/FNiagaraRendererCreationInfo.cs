@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraEditorModule.h")]
 public partial struct FNiagaraRendererCreationInfo {
 // NiagaraRendererCreationInfo
-	public sbyte DisplayName;
-	public sbyte Description;
+	public string DisplayName;
+	public string Description;
 	public FTopLevelAssetPath RendererClassPath;
 }

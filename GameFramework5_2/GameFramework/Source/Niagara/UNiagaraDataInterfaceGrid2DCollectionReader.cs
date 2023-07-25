@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraDataInterfaceGrid2DCollectionReader.h")]
 public partial class UNiagaraDataInterfaceGrid2DCollectionReader : UNiagaraDataInterfaceGrid2DCollection {
 // NiagaraDataInterfaceGrid2DCollectionReader
-	public sbyte EmitterName;
-	public sbyte DIName;
+	public string EmitterName;
+	public string DIName;
 }

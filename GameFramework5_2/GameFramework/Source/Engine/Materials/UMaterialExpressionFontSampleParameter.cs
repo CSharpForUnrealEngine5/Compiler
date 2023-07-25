@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionFontSampleParameter.h")]
 public partial class UMaterialExpressionFontSampleParameter : UMaterialExpressionFontSample {
 // MaterialExpressionFontSampleParameter
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FGuid ExpressionGUID;
-	public sbyte Group;
+	public string Group;
 	public int SortPriority;
 }

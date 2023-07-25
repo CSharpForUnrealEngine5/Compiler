@@ -8,7 +8,7 @@ public partial class UActorRecording : USequenceRecordingBase {
 	public bool bActive;
 	public bool bCreateLevelSequence;
 	public ULevelSequence TargetLevelSequence;
-	public sbyte TargetName;
+	public string TargetName;
 	public uint TakeNumber;
 	public bool bSpecifyTargetAnimation;
 	public UAnimSequence TargetAnimation;

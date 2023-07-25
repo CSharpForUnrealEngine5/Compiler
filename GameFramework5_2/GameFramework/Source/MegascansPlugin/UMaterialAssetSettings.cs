@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MSSettings.h")]
 public partial class UMaterialAssetSettings : UObject {
 // MaterialAssetSettings
-	public sbyte MasterMaterial3d;
-	public sbyte MasterMaterialSurface;
-	public sbyte MasterMaterialPlant;
+	public string MasterMaterial3d;
+	public string MasterMaterialSurface;
+	public string MasterMaterialPlant;
 }

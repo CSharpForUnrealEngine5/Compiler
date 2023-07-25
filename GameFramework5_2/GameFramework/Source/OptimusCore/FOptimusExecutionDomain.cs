@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A struct to hold onto a single-level domain for controlling a kernel's execution domain.</summary>
 public partial struct FOptimusExecutionDomain {
 // OptimusExecutionDomain
-	public sbyte Name;
+	public string Name;
 }

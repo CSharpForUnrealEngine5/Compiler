@@ -10,15 +10,15 @@ public partial class UMockCharacterAbilityComponent : UCharacterMotionComponent 
 	public FMockCharacterAbilityNotifyStateChange OnDashStateChange;
 	public FMockCharacterAbilityNotifyStateChange OnBlinkStateChange;
 	public FMockCharacterAbilityNotifyStateChange OnJumpStateChange;
-	public bool IsSprinting(bool ReturnValue) { return default; }
-	public bool IsDashing(bool ReturnValue) { return default; }
-	public bool IsBlinking(bool ReturnValue) { return default; }
-	public bool IsJumping(bool ReturnValue) { return default; }
+	public bool IsSprinting() { return default; }
+	public bool IsDashing() { return default; }
+	public bool IsBlinking() { return default; }
+	public bool IsJumping() { return default; }
 	public void FMockCharacterAbilityBlinkCueEvent(FVector DestinationLocation,int RandomValue,float ElapsedTimeSeconds) {}
 	public FMockCharacterAbilityBlinkCueEvent OnBlinkActivateEvent;
 	public void FMockCharacterAbilityBlinkCueRollback() {}
 	public FMockCharacterAbilityBlinkCueRollback OnBlinkActivateEventRollback;
-	public float GetBlinkWarmupTimeSeconds(float ReturnValue) { return default; }
-	public float GetStamina(float ReturnValue) { return default; }
-	public float GetMaxStamina(float ReturnValue) { return default; }
+	public float GetBlinkWarmupTimeSeconds() { return default; }
+	public float GetStamina() { return default; }
+	public float GetMaxStamina() { return default; }
 }

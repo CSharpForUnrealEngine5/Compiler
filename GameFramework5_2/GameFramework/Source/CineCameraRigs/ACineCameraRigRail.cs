@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("CineCameraRigRail.h")]
 public partial class ACineCameraRigRail : ACameraRig_Rail {
 // CineCameraRigRail
-	public UObject GetCineSplineComponent(UObject ReturnValue) { return default; }
+	public UObject GetCineSplineComponent() { return default; }
 	public bool bUseAbsolutePosition;
 	public float AbsolutePositionOnRail;
 	public bool bUsePointRotation;
@@ -22,5 +22,5 @@ public partial class ACineCameraRigRail : ACameraRig_Rail {
 	public bool bInheritFocusDistance;
 	public void SetSplineMeshMaterial(UObject InMaterial) {}
 	public void SetSplineMeshTexture(UObject InTexture) {}
-	public FVector GetVelocityAtPosition(float InPosition,float delta=0.001,FVector ReturnValue) { return default; }
+	public FVector GetVelocityAtPosition(float InPosition,float delta/*=0.001f*/) { return default; }
 }

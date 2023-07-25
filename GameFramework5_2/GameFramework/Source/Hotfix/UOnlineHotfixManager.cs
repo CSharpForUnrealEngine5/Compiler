@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>This class manages the downloading and application of hotfix data</summary>
 public partial class UOnlineHotfixManager : UObject {
 // OnlineHotfixManager
-	public sbyte OSSName;
-	public sbyte HotfixManagerClassName;
-	public sbyte DebugPrefix;
+	public string OSSName;
+	public string HotfixManagerClassName;
+	public string DebugPrefix;
 	public void StartHotfixProcess() {}
 	public TArray<UObject> AssetsHotfixedFromIniFiles;
 }

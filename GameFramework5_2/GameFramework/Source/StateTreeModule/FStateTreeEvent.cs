@@ -7,5 +7,5 @@ public partial struct FStateTreeEvent {
 // StateTreeEvent
 	public FGameplayTag Tag;
 	public FInstancedStruct Payload;
-	public sbyte Origin;
+	public string Origin;
 }

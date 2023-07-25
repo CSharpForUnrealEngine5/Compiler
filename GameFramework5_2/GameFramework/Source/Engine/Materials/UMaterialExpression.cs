@@ -11,7 +11,7 @@ public partial class UMaterialExpression : UObject {
 	public FGuid MaterialExpressionGuid;
 	public UMaterial Material;
 	public UMaterialFunction Function;
-	public sbyte Desc;
+	public string Desc;
 	public bool bRealtimePreview;
 	public bool bNeedToUpdatePreview;
 	public bool bIsParameterExpression;
@@ -23,6 +23,6 @@ public partial class UMaterialExpression : UObject {
 	public bool bShaderInputData;
 	public bool bShowInputs;
 	public bool bShowOutputs;
-	public TArray<sbyte> MenuCategories;
+	public TArray<string> MenuCategories;
 	public TArray<FExpressionOutput> Outputs;
 }

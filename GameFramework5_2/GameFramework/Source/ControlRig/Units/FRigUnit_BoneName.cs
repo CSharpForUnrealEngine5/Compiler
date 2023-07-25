@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>BoneName is used to represent a bone name in the graph</summary>
 public partial struct FRigUnit_BoneName {
 // RigUnit_BoneName
-	public sbyte Bone;
+	public string Bone;
 }

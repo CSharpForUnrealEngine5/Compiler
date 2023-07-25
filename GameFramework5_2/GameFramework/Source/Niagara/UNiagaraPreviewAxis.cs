@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for all preview axis types.</summary>
 public partial class UNiagaraPreviewAxis : UObject {
 // NiagaraPreviewAxis
-	public int Num(int ReturnValue) { return default; }
-	public void ApplyToPreview(UObject PreviewComponent,int PreviewIndex,bool bIsXAxis,sbyte OutLabelText) {}
+	public int Num() { return default; }
+	public void ApplyToPreview(UObject PreviewComponent,int PreviewIndex,bool bIsXAxis,string OutLabelText) {}
 }

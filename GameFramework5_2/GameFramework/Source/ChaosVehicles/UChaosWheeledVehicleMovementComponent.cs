@@ -15,21 +15,21 @@ public partial class UChaosWheeledVehicleMovementComponent : UChaosVehicleMoveme
 	public FVehicleTransmissionConfig TransmissionSetup;
 	public FVehicleSteeringConfig SteeringSetup;
 	public TArray<UChaosVehicleWheel> Wheels;
-	public float GetEngineRotationSpeed(float ReturnValue) { return default; }
-	public float GetEngineMaxRotationSpeed(float ReturnValue) { return default; }
-	public int GetNumWheels(int ReturnValue) { return default; }
+	public float GetEngineRotationSpeed() { return default; }
+	public float GetEngineMaxRotationSpeed() { return default; }
+	public int GetNumWheels() { return default; }
 	public void BreakWheelStatus(FWheelStatus Status,bool bInContact,FVector ContactPoint,UObject PhysMaterial,float NormalizedSuspensionLength,float SpringForce,float SlipAngle,bool bIsSlipping,float SlipMagnitude,bool bIsSkidding,float SkidMagnitude,FVector SkidNormal,float DriveTorque,float BrakeTorque,bool bABSActivated) {}
-	public FWheelStatus MakeWheelStatus(bool bInContact,FVector ContactPoint,UObject PhysMaterial,float NormalizedSuspensionLength,float SpringForce,float SlipAngle,bool bIsSlipping,float SlipMagnitude,bool bIsSkidding,float SkidMagnitude,FVector SkidNormal,float DriveTorque,float BrakeTorque,bool bABSActivated,FWheelStatus ReturnValue) { return default; }
+	public FWheelStatus MakeWheelStatus(bool bInContact,FVector ContactPoint,UObject PhysMaterial,float NormalizedSuspensionLength,float SpringForce,float SlipAngle,bool bIsSlipping,float SlipMagnitude,bool bIsSkidding,float SkidMagnitude,FVector SkidNormal,float DriveTorque,float BrakeTorque,bool bABSActivated) { return default; }
 	public void BreakWheeledSnapshot(FWheeledSnaphotData Snapshot,FTransform Transform,FVector LinearVelocity,FVector AngularVelocity,int SelectedGear,float EngineRPM,TArray<FWheelSnapshot> WheelSnapshots) {}
-	public FWheeledSnaphotData MakeWheeledSnapshot(FTransform Transform,FVector LinearVelocity,FVector AngularVelocity,int SelectedGear,float EngineRPM,TArray<FWheelSnapshot> WheelSnapshots,FWheeledSnaphotData ReturnValue) { return default; }
+	public FWheeledSnaphotData MakeWheeledSnapshot(FTransform Transform,FVector LinearVelocity,FVector AngularVelocity,int SelectedGear,float EngineRPM,TArray<FWheelSnapshot> WheelSnapshots) { return default; }
 	public void BreakWheelSnapshot(FWheelSnapshot Snapshot,float SuspensionOffset,float WheelRotationAngle,float SteeringAngle,float WheelRadius,float WheelAngularVelocity) {}
-	public FWheelSnapshot MakeWheelSnapshot(float SuspensionOffset,float WheelRotationAngle,float SteeringAngle,float WheelRadius,float WheelAngularVelocity,FWheelSnapshot ReturnValue) { return default; }
-	public FWheelStatus GetWheelState(int WheelIndex,FWheelStatus ReturnValue) { return default; }
+	public FWheelSnapshot MakeWheelSnapshot(float SuspensionOffset,float WheelRotationAngle,float SteeringAngle,float WheelRadius,float WheelAngularVelocity) { return default; }
+	public FWheelStatus GetWheelState(int WheelIndex) { return default; }
 	public void EnableMechanicalSim(bool InState) {}
 	public void EnableSuspension(bool InState) {}
 	public void EnableWheelFriction(bool InState) {}
 	public void SetWheelClass(int WheelIndex,UClass InWheelClass) {}
-	public FWheeledSnaphotData GetSnapshot(FWheeledSnaphotData ReturnValue) { return default; }
+	public FWheeledSnaphotData GetSnapshot() { return default; }
 	public void SetSnapshot(FWheeledSnaphotData SnapshotIn) {}
 	public void SetMaxEngineTorque(float Torque) {}
 	public void SetDragCoefficient(float DragCoeff) {}

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a name to class name mapping for adding the named interfaces automatically</summary>
 public partial struct FNamedInterfaceDef {
 // NamedInterfaceDef
-	public sbyte InterfaceName;
-	public sbyte InterfaceClassName;
+	public string InterfaceName;
+	public string InterfaceClassName;
 }

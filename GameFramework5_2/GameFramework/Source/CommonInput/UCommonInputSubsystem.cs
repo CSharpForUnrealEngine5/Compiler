@@ -4,14 +4,14 @@ using CSharpToCpp.Utilities;
 [CppInclude("CommonInputSubsystem.h")]
 public partial class UCommonInputSubsystem : ULocalPlayerSubsystem {
 // CommonInputSubsystem
-	public bool IsInputMethodActive(ECommonInputType InputMethod,bool ReturnValue) { return default; }
-	public ECommonInputType GetCurrentInputType(ECommonInputType ReturnValue) { return default; }
-	public ECommonInputType GetDefaultInputType(ECommonInputType ReturnValue) { return default; }
+	public bool IsInputMethodActive(ECommonInputType InputMethod) { return default; }
+	public ECommonInputType GetCurrentInputType() { return default; }
+	public ECommonInputType GetDefaultInputType() { return default; }
 	public void SetCurrentInputType(ECommonInputType NewInputType) {}
-	public sbyte GetCurrentGamepadName(sbyte ReturnValue) { return default; }
-	public void SetGamepadInputType(sbyte InGamepadInputType) {}
-	public bool IsUsingPointerInput(bool ReturnValue) { return default; }
-	public bool ShouldShowInputKeys(bool ReturnValue) { return default; }
+	public string GetCurrentGamepadName() { return default; }
+	public void SetGamepadInputType(string InGamepadInputType) {}
+	public bool IsUsingPointerInput() { return default; }
+	public bool ShouldShowInputKeys() { return default; }
 	public void BroadcastInputMethodChanged() {}
 	public FInputMethodChangedDelegate OnInputMethodChanged;
 	public int NumberOfInputMethodChangesRecently;
@@ -19,8 +19,8 @@ public partial class UCommonInputSubsystem : ULocalPlayerSubsystem {
 	public double LastTimeInputMethodThrashingBegan;
 	public ECommonInputType LastInputType;
 	public ECommonInputType CurrentInputType;
-	public sbyte GamepadInputType;
-	public TMap<sbyte,ECommonInputType> CurrentInputLocks;
+	public string GamepadInputType;
+	public TMap<string,ECommonInputType> CurrentInputLocks;
 	public UCommonInputActionDomainTable ActionDomainTable;
 	public bool bIsGamepadSimulatedClick;
 }

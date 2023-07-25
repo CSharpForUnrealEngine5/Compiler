@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>UStruct that holds a JsonObject, can be used by structs passed to JsonObjectConverter to pass through JsonObjects directly</summary>
 public partial struct FJsonObjectWrapper {
 // JsonObjectWrapper
-	public sbyte JsonString;
+	public string JsonString;
 }

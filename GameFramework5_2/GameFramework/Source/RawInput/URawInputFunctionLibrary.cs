@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("RawInputFunctionLibrary.h")]
 public partial class URawInputFunctionLibrary : UBlueprintFunctionLibrary {
 // RawInputFunctionLibrary
-	public TArray<FRegisteredDeviceInfo> GetRegisteredDevices(TArray<FRegisteredDeviceInfo> ReturnValue) { return default; }
+	public TArray<FRegisteredDeviceInfo> GetRegisteredDevices() { return default; }
 }

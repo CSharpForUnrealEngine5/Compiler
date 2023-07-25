@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct for holding SetBytCaller data</summary>
 public partial struct FSetByCallerFloat {
 // SetByCallerFloat
-	public sbyte DataName;
+	public string DataName;
 	public FGameplayTag DataTag;
 }

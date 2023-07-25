@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("EOSSettings.h")]
 public partial struct FArtifactSettings {
 // ArtifactSettings
-	public sbyte ArtifactName;
-	public sbyte ClientId;
-	public sbyte ClientSecret;
-	public sbyte ProductId;
-	public sbyte SandboxId;
-	public sbyte DeploymentId;
-	public sbyte ClientEncryptionKey;
+	public string ArtifactName;
+	public string ClientId;
+	public string ClientSecret;
+	public string ProductId;
+	public string SandboxId;
+	public string DeploymentId;
+	public string ClientEncryptionKey;
 }

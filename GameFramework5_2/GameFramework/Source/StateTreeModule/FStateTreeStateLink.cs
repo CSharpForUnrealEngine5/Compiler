@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Link to another state in StateTree</summary>
 public partial struct FStateTreeStateLink {
 // StateTreeStateLink
-	public sbyte Name;
+	public string Name;
 	public FGuid ID;
 	public EStateTreeTransitionType LinkType;
 	public EStateTreeTransitionType Type_DEPRECATED;

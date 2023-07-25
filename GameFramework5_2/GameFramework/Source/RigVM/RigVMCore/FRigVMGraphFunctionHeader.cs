@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMGraphFunctionHeader {
 // RigVMGraphFunctionHeader
 	public FRigVMGraphFunctionIdentifier LibraryPointer;
-	public sbyte Name;
-	public sbyte NodeTitle;
+	public string Name;
+	public string NodeTitle;
 	public FLinearColor NodeColor;
-	public sbyte Tooltip;
-	public sbyte Category;
-	public sbyte Keywords;
+	public string Tooltip;
+	public string Category;
+	public string Keywords;
 	public TArray<FRigVMGraphFunctionArgument> Arguments;
 	public TMap<FRigVMGraphFunctionIdentifier,uint> Dependencies;
 	public TArray<FRigVMExternalVariable> ExternalVariables;

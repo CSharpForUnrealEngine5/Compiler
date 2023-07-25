@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraBakerSettings.h")]
 public partial struct FNiagaraBakerTextureSettings {
 // NiagaraBakerTextureSettings
-	public sbyte OutputName;
+	public string OutputName;
 	public FNiagaraBakerTextureSource SourceBinding;
 	public bool bUseFrameSize;
 	public FIntPoint FrameSize;

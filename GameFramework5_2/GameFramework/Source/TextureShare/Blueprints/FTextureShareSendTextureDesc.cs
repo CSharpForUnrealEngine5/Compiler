@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Texture with name for sending</summary>
 public partial struct FTextureShareSendTextureDesc {
 // TextureShareSendTextureDesc
-	public sbyte Name;
+	public string Name;
 	public UTexture Texture;
 }

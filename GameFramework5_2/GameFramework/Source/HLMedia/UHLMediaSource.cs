@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UHLMediaSource : UBaseMediaSource {
 // HLMediaSource
 	public bool IsAdaptiveSource;
-	public sbyte StreamUrl;
+	public string StreamUrl;
 }

@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("TemplateProjectDefs.h")]
 public partial struct FTemplateReplacement {
 // TemplateReplacement
-	public TArray<sbyte> Extensions;
-	public sbyte From;
-	public sbyte To;
+	public TArray<string> Extensions;
+	public string From;
+	public string To;
 	public bool bCaseSensitive;
 }

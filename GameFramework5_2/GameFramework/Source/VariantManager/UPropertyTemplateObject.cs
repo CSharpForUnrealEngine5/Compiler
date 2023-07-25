@@ -19,8 +19,8 @@ public partial class UPropertyTemplateObject : UObject {
 	public UObject CapturedObjectProperty;
 	public TSoftObjectPtr<UObject> CapturedSoftObjectProperty;
 	public object /*CapturedInterfaceProperty*/ CapturedInterfaceProperty;
-	public sbyte CapturedNameProperty;
-	public sbyte CapturedStrProperty;
-	public sbyte CapturedTextProperty;
+	public string CapturedNameProperty;
+	public string CapturedStrProperty;
+	public string CapturedTextProperty;
 	public FVector CapturedVectorProperty;
 }

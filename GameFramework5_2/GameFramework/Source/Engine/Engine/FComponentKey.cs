@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FComponentKey {
 // ComponentKey
 	public UClass OwnerClass;
-	public sbyte SCSVariableName;
+	public string SCSVariableName;
 	public FGuid AssociatedGuid;
 }

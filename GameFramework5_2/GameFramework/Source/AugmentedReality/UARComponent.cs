@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UARComponent : USceneComponent {
 // ARComponent
 	public void SetNativeID(FGuid NativeID) {}
-	public UObject GetMRMesh(UObject ReturnValue) { return default; }
+	public UObject GetMRMesh() { return default; }
 	public void ReceiveRemove() {}
 	public void UpdateVisualization() {}
 	public FGuid NativeID;

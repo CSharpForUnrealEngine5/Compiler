@@ -25,11 +25,11 @@ public partial class UBlueprint : UBlueprintCore {
 	public EBlueprintNativizationFlag NativizationFlag;
 	public EBlueprintCompileMode CompileMode;
 	public byte Status;
-	public sbyte BlueprintDisplayName;
-	public sbyte BlueprintDescription;
-	public sbyte BlueprintNamespace;
-	public sbyte BlueprintCategory;
-	public TArray<sbyte> HideCategories;
+	public string BlueprintDisplayName;
+	public string BlueprintDescription;
+	public string BlueprintNamespace;
+	public string BlueprintCategory;
+	public TArray<string> HideCategories;
 	public int BlueprintSystemVersion;
 	public USimpleConstructionScript SimpleConstructionScript;
 	public TArray<UEdGraph> UbergraphPages;
@@ -44,8 +44,8 @@ public partial class UBlueprint : UBlueprintCore {
 	public TArray<FBPComponentClassOverride> ComponentClassOverrides;
 	public UInheritableComponentHandler InheritableComponentHandler;
 	public TArray<FBPVariableDescription> NewVariables;
-	public TArray<sbyte> CategorySorting;
-	public TSet<sbyte> ImportedNamespaces;
+	public TArray<string> CategorySorting;
+	public TSet<string> ImportedNamespaces;
 	public TArray<FBPInterfaceDescription> ImplementedInterfaces;
 	public TArray<FEditedDocumentInfo> LastEditedDocuments;
 	public TMap<FGuid,FEditedDocumentInfo> Bookmarks;
@@ -53,8 +53,8 @@ public partial class UBlueprint : UBlueprintCore {
 	public TArray<UDEPRECATED_Breakpoint> Breakpoints_DEPRECATED;
 	public TArray<FEdGraphPinReference> WatchedPins_DEPRECATED;
 	public TArray<UEdGraphPin_Deprecated> DeprecatedPinWatches;
-	public TMap<sbyte,int> ComponentTemplateNameIndex;
-	public TMap<sbyte,sbyte> OldToNewComponentTemplateNames;
+	public TMap<string,int> ComponentTemplateNameIndex;
+	public TMap<string,string> OldToNewComponentTemplateNames;
 	public TArray<UBlueprintExtension> Extensions;
 	public UThumbnailInfo ThumbnailInfo;
 	public uint CrcLastCompiledCDO;

@@ -27,14 +27,14 @@ public partial class UEditorEngine : UEngine {
 	public bool UseSizingBox;
 	public bool UseAxisIndicator;
 	public bool GodMode;
-	public sbyte GameCommandLine;
+	public string GameCommandLine;
 	public bool bShowBrushMarkerPolys;
 	public bool bEnableSocketSnapping;
 	public bool bEnableLODLocking;
-	public sbyte HeightMapExportClassName;
+	public string HeightMapExportClassName;
 	public TArray<UActorFactory> ActorFactories;
-	public sbyte UserOpenedFile;
-	public sbyte InEditorGameURLOptions;
+	public string UserOpenedFile;
+	public string InEditorGameURLOptions;
 	public UWorld PlayWorld;
 	public bool bIsToggleBetweenPIEandSIEQueued;
 	public bool bAllowMultiplePIEWorlds;
@@ -50,7 +50,7 @@ public partial class UEditorEngine : UEngine {
 	public int CurrentPlayWorldDestination;
 	public bool bMobilePreviewPortrait;
 	public int BuildPlayDevice;
-	public sbyte UserEditedPlayWorldURL;
+	public string UserEditedPlayWorldURL;
 	public UTextureRenderTarget2D ScratchRenderTarget2048;
 	public UTextureRenderTarget2D ScratchRenderTarget1024;
 	public UTextureRenderTarget2D ScratchRenderTarget512;

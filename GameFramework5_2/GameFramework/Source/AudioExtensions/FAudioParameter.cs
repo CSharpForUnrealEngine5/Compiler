@@ -4,17 +4,17 @@ using CSharpToCpp.Utilities;
 [CppInclude("AudioParameter.h")]
 public partial struct FAudioParameter {
 // AudioParameter
-	public sbyte ParamName;
+	public string ParamName;
 	public float FloatParam;
 	public bool BoolParam;
 	public int IntParam;
 	public UObject ObjectParam;
-	public sbyte StringParam;
+	public string StringParam;
 	public TArray<float> ArrayFloatParam;
 	public TArray<bool> ArrayBoolParam;
 	public TArray<int> ArrayIntParam;
 	public TArray<UObject> ArrayObjectParam;
-	public TArray<sbyte> ArrayStringParam;
+	public TArray<string> ArrayStringParam;
 	public EAudioParameterType ParamType;
-	public sbyte TypeName;
+	public string TypeName;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraShared.h")]
 public partial struct FNiagaraShaderScriptExternalConstant {
 // NiagaraShaderScriptExternalConstant
-	public sbyte Type;
-	public sbyte Name;
+	public string Type;
+	public string Name;
 }

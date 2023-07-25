@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("PortalRpcMessages.h")]
 public partial struct FPortalRpcServer {
 // PortalRpcServer
-	public sbyte ServerAddress;
+	public string ServerAddress;
 }

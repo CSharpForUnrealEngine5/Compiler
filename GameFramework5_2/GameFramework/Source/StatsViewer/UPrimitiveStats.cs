@@ -7,7 +7,7 @@ public partial class UPrimitiveStats : UObject {
 // PrimitiveStats
 	public TWeakObjectPtr<UObject> Object;
 	public TArray<TWeakObjectPtr<AActor>> Actors;
-	public sbyte Type;
+	public string Type;
 	public int Count;
 	public int Sections;
 	public int HWInstances;

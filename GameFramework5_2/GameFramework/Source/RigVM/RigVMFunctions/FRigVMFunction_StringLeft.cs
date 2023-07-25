@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Returns the left most characters of a string</summary>
 public partial struct FRigVMFunction_StringLeft {
 // RigVMFunction_StringLeft
-	public sbyte Value;
+	public string Value;
 	public int Count;
-	public sbyte Result;
+	public string Result;
 }

@@ -18,5 +18,5 @@ public partial struct FTimeline {
 	public FOnTimelineEvent TimelinePostUpdateFunc;
 	public FOnTimelineEvent TimelineFinishedFunc;
 	public TWeakObjectPtr<UObject> PropertySetObject;
-	public sbyte DirectionPropertyName;
+	public string DirectionPropertyName;
 }

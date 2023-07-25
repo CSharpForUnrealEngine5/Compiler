@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Fits a given chain to a four point bezier curve.</summary>
 public partial struct FRigUnit_FitChainToCurve {
 // RigUnit_FitChainToCurve
-	public sbyte StartBone;
-	public sbyte EndBone;
+	public string StartBone;
+	public string EndBone;
 	public FRigVMFourPointBezier Bezier;
 	public EControlRigCurveAlignment Alignment;
 	public float Minimum;

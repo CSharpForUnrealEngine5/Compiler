@@ -7,8 +7,8 @@ public partial class UMeshReconstructorBase : UObject {
 	public void StartReconstruction() {}
 	public void StopReconstruction() {}
 	public void PauseReconstruction() {}
-	public bool IsReconstructionStarted(bool ReturnValue) { return default; }
-	public bool IsReconstructionPaused(bool ReturnValue) { return default; }
+	public bool IsReconstructionStarted() { return default; }
+	public bool IsReconstructionPaused() { return default; }
 	public void ConnectMRMesh(UObject Mesh) {}
 	public void DisconnectMRMesh() {}
 }

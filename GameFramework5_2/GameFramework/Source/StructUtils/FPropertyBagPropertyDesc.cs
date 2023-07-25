@@ -7,7 +7,7 @@ public partial struct FPropertyBagPropertyDesc {
 // PropertyBagPropertyDesc
 	public UObject ValueTypeObject;
 	public FGuid ID;
-	public sbyte Name;
+	public string Name;
 	public EPropertyBagPropertyType ValueType;
 	public EPropertyBagContainerType ContainerType;
 	public TArray<FPropertyBagPropertyDescMetaData> MetaData;

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made via websocket to duplicate one or more actors.</summary>
 public partial struct FRCWebSocketNDisplayActorDuplicateBody {
 // RCWebSocketNDisplayActorDuplicateBody
-	public TArray<sbyte> Actors;
+	public TArray<string> Actors;
 	public int RequestId;
 }

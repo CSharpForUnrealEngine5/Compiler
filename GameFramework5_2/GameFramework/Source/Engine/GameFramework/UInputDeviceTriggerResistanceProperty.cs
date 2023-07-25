@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UInputDeviceTriggerResistanceProperty : UInputDeviceTriggerEffect {
 // InputDeviceTriggerResistanceProperty
 	public FDeviceTriggerTriggerResistanceData TriggerData;
-	public TMap<sbyte,FDeviceTriggerTriggerResistanceData> DeviceOverrideData;
+	public TMap<string,FDeviceTriggerTriggerResistanceData> DeviceOverrideData;
 }

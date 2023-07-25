@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for opening an asset in the asset browser.</summary>
 public partial struct FAssetEditorRequestOpenAsset {
 // AssetEditorRequestOpenAsset
-	public sbyte AssetName;
+	public string AssetName;
 }

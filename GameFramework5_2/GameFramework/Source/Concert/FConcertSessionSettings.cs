@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertSettings.h")]
 public partial struct FConcertSessionSettings {
 // ConcertSessionSettings
-	public sbyte ProjectName;
+	public string ProjectName;
 	public uint BaseRevision;
-	public sbyte ArchiveNameOverride;
+	public string ArchiveNameOverride;
 }

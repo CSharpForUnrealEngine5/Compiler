@@ -6,5 +6,5 @@ public partial class UEndTurnCallbackProxy : UOnlineBlueprintCallProxyBase {
 // EndTurnCallbackProxy
 	public FEmptyOnlineDelegate OnSuccess;
 	public FEmptyOnlineDelegate OnFailure;
-	public UObject EndTurn(UObject WorldContextObject,UObject PlayerController,sbyte MatchID,object /*TurnBasedMatchInterface*/ TurnBasedMatchInterface,UObject ReturnValue) { return default; }
+	public UObject EndTurn(UObject WorldContextObject,UObject PlayerController,string MatchID,object /*TurnBasedMatchInterface*/ TurnBasedMatchInterface) { return default; }
 }

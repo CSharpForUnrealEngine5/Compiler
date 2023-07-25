@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPaperSpriteSocket {
 // PaperSpriteSocket
 	public FTransform LocalTransform;
-	public sbyte SocketName;
+	public string SocketName;
 }

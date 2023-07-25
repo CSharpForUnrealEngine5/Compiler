@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Component data for the constraint system</summary>
 public partial struct FConstraintComponentData {
 // ConstraintComponentData
-	public sbyte ConstraintName;
+	public string ConstraintName;
 }

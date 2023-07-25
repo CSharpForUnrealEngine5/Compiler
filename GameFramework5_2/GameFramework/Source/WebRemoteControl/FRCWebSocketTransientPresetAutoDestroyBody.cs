@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made via websocket to automatically destroy a transient preset when the calling client disconnects.</summary>
 public partial struct FRCWebSocketTransientPresetAutoDestroyBody {
 // RCWebSocketTransientPresetAutoDestroyBody
-	public sbyte PresetName;
+	public string PresetName;
 }

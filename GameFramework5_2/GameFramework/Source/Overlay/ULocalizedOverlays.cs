@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class ULocalizedOverlays : UOverlays {
 // LocalizedOverlays
 	public UBasicOverlays DefaultOverlays;
-	public TMap<sbyte,UBasicOverlays> LocaleToOverlaysMap;
+	public TMap<string,UBasicOverlays> LocaleToOverlaysMap;
 	public UAssetImportData AssetImportData;
 }

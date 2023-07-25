@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetCurveValue is used to retrieve a single float from a Curve</summary>
 public partial struct FRigUnit_GetCurveValue {
 // RigUnit_GetCurveValue
-	public sbyte Curve;
+	public string Curve;
 	public bool Valid;
 	public float Value;
 	public FCachedRigElement CachedCurveIndex;

@@ -86,9 +86,9 @@ public partial class UCharacterMovementComponent : UPawnMovementComponent {
 	public FVector PendingImpulseToApply;
 	public FVector PendingForceToApply;
 	public float AnalogInputModifier;
-	public FVector GetLastUpdateLocation(FVector ReturnValue) { return default; }
-	public FRotator GetLastUpdateRotation(FRotator ReturnValue) { return default; }
-	public FVector GetLastUpdateVelocity(FVector ReturnValue) { return default; }
+	public FVector GetLastUpdateLocation() { return default; }
+	public FRotator GetLastUpdateRotation() { return default; }
+	public FVector GetLastUpdateVelocity() { return default; }
 	public float MaxSimulationTimeStep;
 	public int MaxSimulationIterations;
 	public int MaxJumpApexAttemptsPerSimulation;
@@ -147,7 +147,7 @@ public partial class UCharacterMovementComponent : UPawnMovementComponent {
 	public float AvoidanceConsiderationRadius;
 	public FVector RequestedVelocity;
 	public FVector LastUpdateRequestedVelocity;
-	public FVector GetLastUpdateRequestedVelocity(FVector ReturnValue) { return default; }
+	public FVector GetLastUpdateRequestedVelocity() { return default; }
 	public int AvoidanceUID;
 	public FNavAvoidanceMask AvoidanceGroup;
 	public void SetAvoidanceGroup(int GroupFlags) {}
@@ -167,31 +167,31 @@ public partial class UCharacterMovementComponent : UPawnMovementComponent {
 	public float NavMeshProjectionHeightScaleDown;
 	public float NavWalkingFloorDistTolerance;
 	public void SetAvoidanceEnabled(bool bEnable) {}
-	public UObject GetCharacterOwner(UObject ReturnValue) { return default; }
-	public void SetMovementMode(EMovementMode NewMovementMode,byte NewCustomMode=0) {}
-	public bool IsWalking(bool ReturnValue) { return default; }
+	public UObject GetCharacterOwner() { return default; }
+	public void SetMovementMode(EMovementMode NewMovementMode,byte NewCustomMode/*=0*/) {}
+	public bool IsWalking() { return default; }
 	public void DisableMovement() {}
-	public UObject GetMovementBase(UObject ReturnValue) { return default; }
-	public FVector GetImpartedMovementBaseVelocity(FVector ReturnValue) { return default; }
+	public UObject GetMovementBase() { return default; }
+	public FVector GetImpartedMovementBaseVelocity() { return default; }
 	public void CalcVelocity(float DeltaTime,float Friction,bool bFluid,float BrakingDeceleration) {}
-	public float GetMaxJumpHeight(float ReturnValue) { return default; }
-	public float GetMaxJumpHeightWithJumpTime(float ReturnValue) { return default; }
-	public float GetMinAnalogSpeed(float ReturnValue) { return default; }
-	public float GetMaxAcceleration(float ReturnValue) { return default; }
-	public float GetMaxBrakingDeceleration(float ReturnValue) { return default; }
-	public FVector GetCurrentAcceleration(FVector ReturnValue) { return default; }
-	public float GetAnalogInputModifier(float ReturnValue) { return default; }
+	public float GetMaxJumpHeight() { return default; }
+	public float GetMaxJumpHeightWithJumpTime() { return default; }
+	public float GetMinAnalogSpeed() { return default; }
+	public float GetMaxAcceleration() { return default; }
+	public float GetMaxBrakingDeceleration() { return default; }
+	public FVector GetCurrentAcceleration() { return default; }
+	public float GetAnalogInputModifier() { return default; }
 	public void ClearAccumulatedForces() {}
 	public void SetCrouchedHalfHeight(float NewValue) {}
-	public float GetCrouchedHalfHeight(float ReturnValue) { return default; }
-	public void AddImpulse(FVector Impulse,bool bVelocityChange=false) {}
+	public float GetCrouchedHalfHeight() { return default; }
+	public void AddImpulse(FVector Impulse,bool bVelocityChange/*=false*/) {}
 	public void AddForce(FVector Force) {}
-	public float GetPerchRadiusThreshold(float ReturnValue) { return default; }
-	public float GetValidPerchRadius(float ReturnValue) { return default; }
-	public bool IsWalkable(FHitResult Hit,bool ReturnValue) { return default; }
-	public float K2_GetWalkableFloorAngle(float ReturnValue) { return default; }
+	public float GetPerchRadiusThreshold() { return default; }
+	public float GetValidPerchRadius() { return default; }
+	public bool IsWalkable(FHitResult Hit) { return default; }
+	public float K2_GetWalkableFloorAngle() { return default; }
 	public void SetWalkableFloorAngle(float InWalkableFloorAngle) {}
-	public float K2_GetWalkableFloorZ(float ReturnValue) { return default; }
+	public float K2_GetWalkableFloorZ() { return default; }
 	public void SetWalkableFloorZ(float InWalkableFloorZ) {}
 	public FCharacterMovementComponentPostPhysicsTickFunction PostPhysicsTickFunction;
 	public void K2_FindFloor(FVector CapsuleLocation,FFindFloorResult FloorResult) {}

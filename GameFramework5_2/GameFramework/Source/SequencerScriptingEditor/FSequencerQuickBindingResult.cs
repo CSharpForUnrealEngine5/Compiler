@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FSequencerQuickBindingResult {
 // SequencerQuickBindingResult
 	public UK2Node_CustomEvent EventEndpoint;
-	public TArray<sbyte> PayloadNames;
+	public TArray<string> PayloadNames;
 }

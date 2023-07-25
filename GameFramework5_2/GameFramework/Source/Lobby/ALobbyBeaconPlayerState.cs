@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Lightweight representation of a player while connected to the game through the lobby</summary>
 public partial class ALobbyBeaconPlayerState : AInfo {
 // LobbyBeaconPlayerState
-	public sbyte DisplayName;
+	public string DisplayName;
 	public FUniqueNetIdRepl UniqueId;
 	public FUniqueNetIdRepl PartyOwnerUniqueId;
 	public bool bInLobby;

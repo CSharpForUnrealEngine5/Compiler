@@ -10,6 +10,6 @@ public partial struct FMetasoundFrontendLiteral {
 	public TArray<bool> AsBoolean;
 	public TArray<int> AsInteger;
 	public TArray<float> AsFloat;
-	public TArray<sbyte> AsString;
+	public TArray<string> AsString;
 	public TArray<UObject> AsUObject;
 }

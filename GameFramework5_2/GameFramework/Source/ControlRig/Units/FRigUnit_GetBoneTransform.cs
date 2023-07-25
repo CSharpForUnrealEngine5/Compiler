@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetBoneTransform is used to retrieve a single transform from a hierarchy.</summary>
 public partial struct FRigUnit_GetBoneTransform {
 // RigUnit_GetBoneTransform
-	public sbyte Bone;
+	public string Bone;
 	public ERigVMTransformSpace Space;
 	public FTransform Transform;
 	public FCachedRigElement CachedBone;

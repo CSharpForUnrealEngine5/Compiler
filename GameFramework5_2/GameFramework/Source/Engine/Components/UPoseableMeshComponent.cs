@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 ///<summary>UPoseableMeshComponent that allows bone transforms to be driven by blueprint.</summary>
 public partial class UPoseableMeshComponent : USkinnedMeshComponent {
 // PoseableMeshComponent
-	public void SetBoneTransformByName(sbyte BoneName,FTransform InTransform,EBoneSpaces BoneSpace) {}
-	public void SetBoneLocationByName(sbyte BoneName,FVector InLocation,EBoneSpaces BoneSpace) {}
-	public void SetBoneRotationByName(sbyte BoneName,FRotator InRotation,EBoneSpaces BoneSpace) {}
-	public void SetBoneScaleByName(sbyte BoneName,FVector InScale3D,EBoneSpaces BoneSpace) {}
-	public FTransform GetBoneTransformByName(sbyte BoneName,EBoneSpaces BoneSpace,FTransform ReturnValue) { return default; }
-	public FVector GetBoneLocationByName(sbyte BoneName,EBoneSpaces BoneSpace,FVector ReturnValue) { return default; }
-	public FRotator GetBoneRotationByName(sbyte BoneName,EBoneSpaces BoneSpace,FRotator ReturnValue) { return default; }
-	public FVector GetBoneScaleByName(sbyte BoneName,EBoneSpaces BoneSpace,FVector ReturnValue) { return default; }
-	public void ResetBoneTransformByName(sbyte BoneName) {}
+	public void SetBoneTransformByName(string BoneName,FTransform InTransform,EBoneSpaces BoneSpace) {}
+	public void SetBoneLocationByName(string BoneName,FVector InLocation,EBoneSpaces BoneSpace) {}
+	public void SetBoneRotationByName(string BoneName,FRotator InRotation,EBoneSpaces BoneSpace) {}
+	public void SetBoneScaleByName(string BoneName,FVector InScale3D,EBoneSpaces BoneSpace) {}
+	public FTransform GetBoneTransformByName(string BoneName,EBoneSpaces BoneSpace) { return default; }
+	public FVector GetBoneLocationByName(string BoneName,EBoneSpaces BoneSpace) { return default; }
+	public FRotator GetBoneRotationByName(string BoneName,EBoneSpaces BoneSpace) { return default; }
+	public FVector GetBoneScaleByName(string BoneName,EBoneSpaces BoneSpace) { return default; }
+	public void ResetBoneTransformByName(string BoneName) {}
 	public void CopyPoseFromSkeletalComponent(UObject InComponentToCopy) {}
 }

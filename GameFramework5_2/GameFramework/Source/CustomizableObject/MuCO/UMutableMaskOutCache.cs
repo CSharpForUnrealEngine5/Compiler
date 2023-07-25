@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObject.h")]
 public partial class UMutableMaskOutCache : UObject {
 // MutableMaskOutCache
-	public TMap<sbyte,sbyte> Materials;
-	public TMap<sbyte,FMaskOutTexture> Textures;
+	public TMap<string,string> Materials;
+	public TMap<string,FMaskOutTexture> Textures;
 }

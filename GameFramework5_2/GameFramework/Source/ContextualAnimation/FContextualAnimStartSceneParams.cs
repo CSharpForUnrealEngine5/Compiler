@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ContextualAnimTypes.h")]
 public partial struct FContextualAnimStartSceneParams {
 // ContextualAnimStartSceneParams
-	public TMap<sbyte,FContextualAnimSceneBindingContext> RoleToActorMap;
+	public TMap<string,FContextualAnimSceneBindingContext> RoleToActorMap;
 	public int SectionIdx;
 	public int AnimSetIdx;
 }

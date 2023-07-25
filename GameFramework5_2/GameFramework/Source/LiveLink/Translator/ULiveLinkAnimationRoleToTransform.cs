@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Basic object to translate data from one role to another</summary>
 public partial class ULiveLinkAnimationRoleToTransform : ULiveLinkFrameTranslator {
 // LiveLinkAnimationRoleToTransform
-	public sbyte BoneName;
+	public string BoneName;
 }

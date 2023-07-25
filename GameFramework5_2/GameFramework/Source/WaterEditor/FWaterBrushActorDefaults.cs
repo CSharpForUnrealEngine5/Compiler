@@ -6,5 +6,5 @@ public partial struct FWaterBrushActorDefaults {
 // WaterBrushActorDefaults
 	public FWaterCurveSettings CurveSettings;
 	public FWaterBodyHeightmapSettings HeightmapSettings;
-	public TMap<sbyte,FWaterBodyWeightmapSettings> LayerWeightmapSettings;
+	public TMap<string,FWaterBodyWeightmapSettings> LayerWeightmapSettings;
 }

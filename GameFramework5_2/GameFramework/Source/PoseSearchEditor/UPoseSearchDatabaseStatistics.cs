@@ -6,18 +6,18 @@ public partial class UPoseSearchDatabaseStatistics : UObject {
 // PoseSearchDatabaseStatistics
 	public uint AnimationSequences;
 	public uint TotalAnimationPosesInFrames;
-	public sbyte TotalAnimationPosesInTime;
+	public string TotalAnimationPosesInTime;
 	public uint SearchableFrames;
-	public sbyte SearchableTime;
+	public string SearchableTime;
 	public double AverageVelocity;
 	public double MaxVelocity;
 	public double AverageAcceleration;
 	public double MaxAcceleration;
 	public float ExplainedVariance;
-	public sbyte EstimatedDatabaseSize;
-	public sbyte ValuesSize;
-	public sbyte PCAValuesSize;
-	public sbyte KDTreeSize;
-	public sbyte PoseMetadataSize;
-	public sbyte AssetsSize;
+	public string EstimatedDatabaseSize;
+	public string ValuesSize;
+	public string PCAValuesSize;
+	public string KDTreeSize;
+	public string PoseMetadataSize;
+	public string AssetsSize;
 }

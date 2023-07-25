@@ -10,11 +10,11 @@ public partial class UUsdStageImportOptions : UObject {
 	public bool bImportLevelSequences;
 	public bool bImportMaterials;
 	public bool bImportOnlyUsedMaterials;
-	public TArray<sbyte> PrimsToImport;
+	public TArray<string> PrimsToImport;
 	public int PurposesToImport;
 	public int NaniteTriangleThreshold;
-	public sbyte RenderContextToImport;
-	public sbyte MaterialPurpose;
+	public string RenderContextToImport;
+	public string MaterialPurpose;
 	public EUsdRootMotionHandling RootMotionHandling;
 	public bool bOverrideStageOptions;
 	public FUsdStageOptions StageOptions;

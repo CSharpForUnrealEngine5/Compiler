@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct for a flavor's information</summary>
 public partial struct FTargetDeviceVariant {
 // TargetDeviceVariant
-	public sbyte DeviceID;
-	public sbyte VariantName;
-	public sbyte TargetPlatformName;
-	public sbyte TargetPlatformId;
-	public sbyte VanillaPlatformId;
-	public sbyte PlatformDisplayName;
+	public string DeviceID;
+	public string VariantName;
+	public string TargetPlatformName;
+	public string TargetPlatformId;
+	public string VanillaPlatformId;
+	public string PlatformDisplayName;
 }

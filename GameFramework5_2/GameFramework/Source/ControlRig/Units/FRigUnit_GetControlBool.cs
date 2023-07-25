@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetControlBool is used to retrieve a single Bool from a hierarchy.</summary>
 public partial struct FRigUnit_GetControlBool {
 // RigUnit_GetControlBool
-	public sbyte Control;
+	public string Control;
 	public bool BoolValue;
 	public FCachedRigElement CachedControlIndex;
 }

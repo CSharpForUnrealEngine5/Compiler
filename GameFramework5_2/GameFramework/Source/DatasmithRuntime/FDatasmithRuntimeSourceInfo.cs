@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithRuntimeBlueprintLibrary.h")]
 public partial struct FDatasmithRuntimeSourceInfo {
 // DatasmithRuntimeSourceInfo
-	public sbyte Name;
+	public string Name;
 }

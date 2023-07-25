@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_ExecutePythonScript.h")]
 public partial class UK2Node_ExecutePythonScript : UK2Node_CallFunction {
 // K2Node_ExecutePythonScript
-	public TArray<sbyte> Inputs;
-	public TArray<sbyte> Outputs;
+	public TArray<string> Inputs;
+	public TArray<string> Outputs;
 }

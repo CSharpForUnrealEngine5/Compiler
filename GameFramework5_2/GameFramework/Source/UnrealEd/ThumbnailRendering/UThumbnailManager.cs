@@ -14,5 +14,5 @@ public partial class UThumbnailManager : UObject {
 	public UTextureCube AmbientCubemap;
 	public UTexture2D CheckerboardTexture;
 	public TArray<FThumbnailRenderingInfo> RenderableThumbnailTypes;
-	public sbyte ThumbnailManagerClassName;
+	public string ThumbnailManagerClassName;
 }

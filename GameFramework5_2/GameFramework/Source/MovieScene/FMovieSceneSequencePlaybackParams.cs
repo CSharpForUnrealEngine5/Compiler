@@ -6,7 +6,7 @@ public partial struct FMovieSceneSequencePlaybackParams {
 // MovieSceneSequencePlaybackParams
 	public FFrameTime Frame;
 	public float Time;
-	public sbyte MarkedFrame;
+	public string MarkedFrame;
 	public EMovieScenePositionType PositionType;
 	public EUpdatePositionMethod UpdateMethod;
 	public bool bHasJumped;

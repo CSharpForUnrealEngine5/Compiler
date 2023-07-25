@@ -7,5 +7,5 @@ public partial class UMovieSceneActorReferenceSection : UMovieSceneSection {
 // MovieSceneActorReferenceSection
 	public FMovieSceneActorReferenceData ActorReferenceData;
 	public FIntegralCurve ActorGuidIndexCurve_DEPRECATED;
-	public TArray<sbyte> ActorGuidStrings_DEPRECATED;
+	public TArray<string> ActorGuidStrings_DEPRECATED;
 }

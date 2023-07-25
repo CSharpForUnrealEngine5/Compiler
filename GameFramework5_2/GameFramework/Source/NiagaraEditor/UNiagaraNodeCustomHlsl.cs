@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraNodeCustomHlsl : UNiagaraNodeFunctionCall {
 // NiagaraNodeCustomHlsl
 	public ENiagaraScriptUsage ScriptUsage;
-	public sbyte CustomHlsl;
+	public string CustomHlsl;
 	public TArray<FFilePath> AbsoluteIncludeFilePaths;
-	public TArray<sbyte> VirtualIncludeFilePaths;
+	public TArray<string> VirtualIncludeFilePaths;
 	public bool bIsShaderCodeShown;
 }

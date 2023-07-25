@@ -12,7 +12,7 @@ public partial class AChaosCacheManager : AActor {
 	public void ResetAllComponentTransforms() {}
 	public void ResetSingleTransform(int InIndex) {}
 	public void TriggerComponent(UObject InComponent) {}
-	public void TriggerComponentByCache(sbyte InCacheName) {}
+	public void TriggerComponentByCache(string InCacheName) {}
 	public void TriggerAll() {}
 	public TArray<FObservedComponent> ObservedComponents;
 }

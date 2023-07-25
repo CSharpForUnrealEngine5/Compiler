@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ToolMenusEditor.h")]
 public partial class UToolMenuEditorDialogMenu : UToolMenuEditorDialogObject {
 // ToolMenuEditorDialogMenu
-	public sbyte Name;
+	public string Name;
 	public UToolMenu Menu;
 }

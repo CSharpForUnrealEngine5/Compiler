@@ -14,9 +14,9 @@ public partial class UNavMovementComponent : UMovementComponent {
 	public UObject PathFollowingComp;
 	public void StopActiveMovement() {}
 	public void StopMovementKeepPathing() {}
-	public bool IsCrouching(bool ReturnValue) { return default; }
-	public bool IsFalling(bool ReturnValue) { return default; }
-	public bool IsMovingOnGround(bool ReturnValue) { return default; }
-	public bool IsSwimming(bool ReturnValue) { return default; }
-	public bool IsFlying(bool ReturnValue) { return default; }
+	public bool IsCrouching() { return default; }
+	public bool IsFalling() { return default; }
+	public bool IsMovingOnGround() { return default; }
+	public bool IsSwimming() { return default; }
+	public bool IsFlying() { return default; }
 }

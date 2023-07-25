@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConvertToPolygonsTool.h")]
 public partial class UOutputPolygroupLayerProperties : UInteractiveToolPropertySet {
 // OutputPolygroupLayerProperties
-	public sbyte GroupLayer;
-	public TArray<sbyte> GetGroupOptionsList(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> OptionsList;
+	public string GroupLayer;
+	public TArray<string> GetGroupOptionsList() { return default; }
+	public TArray<string> OptionsList;
 	public bool bShowNewLayerName;
-	public sbyte NewLayerName;
+	public string NewLayerName;
 }

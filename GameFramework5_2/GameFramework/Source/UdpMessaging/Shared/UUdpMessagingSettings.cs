@@ -11,14 +11,14 @@ public partial class UUdpMessagingSettings : UObject {
 	public uint AutoRepairAttemptLimit;
 	public ushort WorkQueueSize;
 	public bool bStopServiceWhenAppDeactivates;
-	public sbyte UnicastEndpoint;
-	public sbyte MulticastEndpoint;
+	public string UnicastEndpoint;
+	public string MulticastEndpoint;
 	public EUdpMessageFormat MessageFormat;
 	public byte MulticastTimeToLive;
-	public TArray<sbyte> StaticEndpoints;
-	public TArray<sbyte> ExcludedEndpoints;
+	public TArray<string> StaticEndpoints;
+	public TArray<string> ExcludedEndpoints;
 	public bool EnableTunnel;
-	public sbyte TunnelUnicastEndpoint;
-	public sbyte TunnelMulticastEndpoint;
-	public TArray<sbyte> RemoteTunnelEndpoints;
+	public string TunnelUnicastEndpoint;
+	public string TunnelMulticastEndpoint;
+	public TArray<string> RemoteTunnelEndpoints;
 }

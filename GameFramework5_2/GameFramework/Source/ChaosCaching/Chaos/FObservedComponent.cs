@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Chaos/CacheManagerActor.h")]
 public partial struct FObservedComponent {
 // ObservedComponent
-	public sbyte CacheName;
+	public string CacheName;
 	public FComponentReference ComponentRef;
 	public FSoftComponentReference SoftComponentRef;
 	public bool bIsSimulating;

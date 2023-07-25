@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FMVVMViewClass_CompiledBinding {
 // MVVMViewClass_CompiledBinding
 	public FMVVMVCompiledFieldId FieldId;
-	public sbyte SourcePropertyName;
+	public string SourcePropertyName;
 	public FMVVMVCompiledBinding Binding;
 	public EMVVMExecutionMode ExecutionMode;
 	public byte Flags;

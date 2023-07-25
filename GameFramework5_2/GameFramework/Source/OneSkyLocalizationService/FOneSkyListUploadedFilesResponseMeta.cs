@@ -8,8 +8,8 @@ public partial struct FOneSkyListUploadedFilesResponseMeta {
 	public int status;
 	public int record_count;
 	public int page_count;
-	public sbyte next_page;
-	public sbyte prev_page;
-	public sbyte first_page;
-	public sbyte last_page;
+	public string next_page;
+	public string prev_page;
+	public string first_page;
+	public string last_page;
 }

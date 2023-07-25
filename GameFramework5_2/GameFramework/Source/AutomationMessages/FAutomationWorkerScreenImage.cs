@@ -7,6 +7,6 @@ public partial struct FAutomationWorkerScreenImage {
 // AutomationWorkerScreenImage
 	public TArray<byte> ScreenImage;
 	public TArray<byte> FrameTrace;
-	public sbyte ScreenShotName;
+	public string ScreenShotName;
 	public FAutomationScreenshotMetadata Metadata;
 }

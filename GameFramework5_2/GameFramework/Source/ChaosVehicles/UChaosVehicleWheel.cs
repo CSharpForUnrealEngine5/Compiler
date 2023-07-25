@@ -50,13 +50,13 @@ public partial class UChaosVehicleWheel : UObject {
 	public FVector Location;
 	public FVector OldLocation;
 	public FVector Velocity;
-	public float GetSteerAngle(float ReturnValue) { return default; }
-	public float GetRotationAngle(float ReturnValue) { return default; }
-	public float GetRotationAngularVelocity(float ReturnValue) { return default; }
-	public float GetSuspensionOffset(float ReturnValue) { return default; }
-	public float GetWheelRadius(float ReturnValue) { return default; }
-	public float GetWheelAngularVelocity(float ReturnValue) { return default; }
-	public FVector GetSuspensionAxis(FVector ReturnValue) { return default; }
-	public bool IsInAir(bool ReturnValue) { return default; }
-	public EAxleType GetAxleType(EAxleType ReturnValue) { return default; }
+	public float GetSteerAngle() { return default; }
+	public float GetRotationAngle() { return default; }
+	public float GetRotationAngularVelocity() { return default; }
+	public float GetSuspensionOffset() { return default; }
+	public float GetWheelRadius() { return default; }
+	public float GetWheelAngularVelocity() { return default; }
+	public FVector GetSuspensionAxis() { return default; }
+	public bool IsInAir() { return default; }
+	public EAxleType GetAxleType() { return default; }
 }

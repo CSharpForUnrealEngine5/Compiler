@@ -23,26 +23,26 @@ public partial class UCineCameraComponent : UCameraComponent {
 	public float CurrentHorizontalFOV;
 	public void SetCurrentFocalLength(float InFocalLength) {}
 	public void SetCustomNearClippingPlane(float NewCustomNearClippingPlane) {}
-	public float GetHorizontalFieldOfView(float ReturnValue) { return default; }
-	public float GetVerticalFieldOfView(float ReturnValue) { return default; }
-	public sbyte GetFilmbackPresetName(sbyte ReturnValue) { return default; }
-	public sbyte GetDefaultFilmbackPresetName(sbyte ReturnValue) { return default; }
-	public void SetFilmbackPresetByName(sbyte InPresetName) {}
-	public sbyte GetLensPresetName(sbyte ReturnValue) { return default; }
-	public void SetLensPresetByName(sbyte InPresetName) {}
-	public sbyte GetCropPresetName(sbyte ReturnValue) { return default; }
-	public void SetCropPresetByName(sbyte InPresetName) {}
-	public TArray<FNamedFilmbackPreset> GetFilmbackPresetsCopy(TArray<FNamedFilmbackPreset> ReturnValue) { return default; }
-	public TArray<FNamedLensPreset> GetLensPresetsCopy(TArray<FNamedLensPreset> ReturnValue) { return default; }
+	public float GetHorizontalFieldOfView() { return default; }
+	public float GetVerticalFieldOfView() { return default; }
+	public string GetFilmbackPresetName() { return default; }
+	public string GetDefaultFilmbackPresetName() { return default; }
+	public void SetFilmbackPresetByName(string InPresetName) {}
+	public string GetLensPresetName() { return default; }
+	public void SetLensPresetByName(string InPresetName) {}
+	public string GetCropPresetName() { return default; }
+	public void SetCropPresetByName(string InPresetName) {}
+	public TArray<FNamedFilmbackPreset> GetFilmbackPresetsCopy() { return default; }
+	public TArray<FNamedLensPreset> GetLensPresetsCopy() { return default; }
 	public UStaticMesh FocusPlaneVisualizationMesh;
 	public UMaterial FocusPlaneVisualizationMaterial;
 	public UStaticMeshComponent DebugFocusPlaneComponent;
 	public UMaterialInstanceDynamic DebugFocusPlaneMID;
 	public TArray<FNamedFilmbackPreset> FilmbackPresets;
 	public TArray<FNamedLensPreset> LensPresets;
-	public sbyte DefaultFilmbackPresetName_DEPRECATED;
-	public sbyte DefaultFilmbackPreset;
-	public sbyte DefaultLensPresetName;
+	public string DefaultFilmbackPresetName_DEPRECATED;
+	public string DefaultFilmbackPreset;
+	public string DefaultLensPresetName;
 	public float DefaultLensFocalLength;
 	public float DefaultLensFStop;
 }

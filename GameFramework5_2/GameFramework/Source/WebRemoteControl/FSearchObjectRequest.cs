@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request to search for an asset.</summary>
 public partial struct FSearchObjectRequest {
 // SearchObjectRequest
-	public sbyte Query;
-	public sbyte Class;
-	public sbyte Outer;
+	public string Query;
+	public string Class;
+	public string Outer;
 	public int Limit;
 }

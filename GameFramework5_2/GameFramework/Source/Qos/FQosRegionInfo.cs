@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Metadata about regions made up of datacenters</summary>
 public partial struct FQosRegionInfo {
 // QosRegionInfo
-	public sbyte DisplayName;
-	public sbyte RegionId;
+	public string DisplayName;
+	public string RegionId;
 	public bool bEnabled;
 	public bool bVisible;
 	public bool bAutoAssignable;

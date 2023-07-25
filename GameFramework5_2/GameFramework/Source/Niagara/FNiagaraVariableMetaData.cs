@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraTypes.h")]
 public partial struct FNiagaraVariableMetaData {
 // NiagaraVariableMetaData
-	public sbyte Description;
-	public sbyte CategoryName;
+	public string Description;
+	public string CategoryName;
 	public bool bAdvancedDisplay;
 	public bool bDisplayInOverviewStack;
 	public int InlineParameterSortPriority;
@@ -18,9 +18,9 @@ public partial struct FNiagaraVariableMetaData {
 	public bool bInlineEditConditionToggle;
 	public FNiagaraInputConditionMetadata EditCondition;
 	public FNiagaraInputConditionMetadata VisibleCondition;
-	public TMap<sbyte,sbyte> PropertyMetaData;
-	public sbyte ParentAttribute;
-	public TArray<sbyte> AlternateAliases;
+	public TMap<string,string> PropertyMetaData;
+	public string ParentAttribute;
+	public TArray<string> AlternateAliases;
 	public FGuid VariableGuid;
 	public bool bIsStaticSwitch_DEPRECATED;
 	public int StaticSwitchDefaultValue_DEPRECATED;

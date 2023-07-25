@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPackageClassFilter {
 // PackageClassFilter
 	public FSoftClassPath AssetClass;
-	public TArray<sbyte> ContentPaths;
+	public TArray<string> ContentPaths;
 }

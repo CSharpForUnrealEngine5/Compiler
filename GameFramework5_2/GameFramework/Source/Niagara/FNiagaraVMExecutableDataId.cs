@@ -8,7 +8,7 @@ public partial struct FNiagaraVMExecutableDataId {
 	public FGuid CompilerVersionID;
 	public ENiagaraScriptUsage ScriptUsageType;
 	public FGuid ScriptUsageTypeID;
-	public TArray<sbyte> AdditionalDefines;
+	public TArray<string> AdditionalDefines;
 	public TArray<FNiagaraVariableBase> AdditionalVariables;
 	public bool bUsesRapidIterationParams;
 	public bool bDisableDebugSwitches;

@@ -9,5 +9,5 @@ public partial class USheetBuilder : UEditorBrushBuilder {
 	public int XSegments;
 	public int YSegments;
 	public byte Axis;
-	public sbyte GroupName;
+	public string GroupName;
 }

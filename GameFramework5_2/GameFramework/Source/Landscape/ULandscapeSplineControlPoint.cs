@@ -15,14 +15,14 @@ public partial class ULandscapeSplineControlPoint : UObject {
 	public float RightSideLayerFalloffFactor;
 	public float EndFalloff;
 	public float SegmentMeshOffset;
-	public sbyte LayerName;
+	public string LayerName;
 	public bool bRaiseTerrain;
 	public bool bLowerTerrain;
 	public UStaticMesh Mesh;
 	public TArray<UMaterialInterface> MaterialOverrides;
 	public FVector MeshScale;
 	public bool bEnableCollision_DEPRECATED;
-	public sbyte CollisionProfileName_DEPRECATED;
+	public string CollisionProfileName_DEPRECATED;
 	public bool bCastShadow;
 	public bool bHiddenInGame;
 	public bool bPlaceSplineMeshesInStreamingLevels;

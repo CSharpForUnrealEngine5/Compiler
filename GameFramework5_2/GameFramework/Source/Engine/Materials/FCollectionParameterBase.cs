@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base struct for collection parameters</summary>
 public partial struct FCollectionParameterBase {
 // CollectionParameterBase
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FGuid Id;
 }

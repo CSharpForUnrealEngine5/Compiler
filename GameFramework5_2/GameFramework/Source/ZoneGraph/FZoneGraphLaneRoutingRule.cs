@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FZoneGraphLaneRoutingRule {
 // ZoneGraphLaneRoutingRule
 	public bool bEnabled;
-	public sbyte Comment;
+	public string Comment;
 	public FZoneGraphTagFilter ZoneTagFilter;
 	public FZoneLaneProfileRef SourceLaneProfile;
 	public FZoneLaneProfileRef DestinationLaneProfile;

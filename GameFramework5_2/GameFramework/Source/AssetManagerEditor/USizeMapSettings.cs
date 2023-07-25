@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("SSizeMap.h")]
 public partial class USizeMapSettings : UObject {
 // SizeMapSettings
-	public sbyte SizeType;
+	public string SizeType;
 	public ESizeMapDependencyType DependencyType;
 }

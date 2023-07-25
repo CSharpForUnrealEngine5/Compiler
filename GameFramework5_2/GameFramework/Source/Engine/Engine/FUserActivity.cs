@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>The description of a user activity</summary>
 public partial struct FUserActivity {
 // UserActivity
-	public sbyte ActionName;
+	public string ActionName;
 }

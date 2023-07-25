@@ -7,5 +7,5 @@ public partial struct FPartyMemberPlatformData {
 // PartyMemberPlatformData
 	public FUserPlatform Platform;
 	public FUniqueNetIdRepl UniqueId;
-	public sbyte SessionId;
+	public string SessionId;
 }

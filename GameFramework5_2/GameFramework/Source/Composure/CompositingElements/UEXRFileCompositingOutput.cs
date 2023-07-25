@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UEXRFileCompositingOutput : UCompositingElementOutput {
 // EXRFileCompositingOutput
 	public FDirectoryPath OutputDirectiory;
-	public sbyte FilenameFormat;
+	public string FilenameFormat;
 	public FFrameRate OutputFrameRate;
 	public EExrCompressionOptions Compression;
 }

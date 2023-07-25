@@ -8,7 +8,7 @@ public partial struct FNiagaraEventScriptProperties {
 	public uint SpawnNumber;
 	public uint MaxEventsPerFrame;
 	public FGuid SourceEmitterID;
-	public sbyte SourceEventName;
+	public string SourceEventName;
 	public bool bRandomSpawnNumber;
 	public uint MinSpawnNumber;
 	public bool UpdateAttributeInitialValues;

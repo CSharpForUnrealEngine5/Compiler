@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("AssetReferencingPolicySettings.h")]
 public partial struct FARPDomainDefinitionByContentRoot {
 // ARPDomainDefinitionByContentRoot
-	public sbyte DomainName;
-	public sbyte DomainDisplayName;
-	public sbyte ErrorMessageIfUsedElsewhere;
+	public string DomainName;
+	public string DomainDisplayName;
+	public string ErrorMessageIfUsedElsewhere;
 	public TArray<FDirectoryPath> ContentRoots;
-	public TArray<sbyte> SpecificAssets;
+	public TArray<string> SpecificAssets;
 	public EARPDomainAllowedToReferenceMode ReferenceMode;
-	public TArray<sbyte> CanReferenceTheseDomains;
+	public TArray<string> CanReferenceTheseDomains;
 }

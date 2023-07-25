@@ -7,6 +7,6 @@ public partial struct FConcertAdmin_BatchDeleteSessionRequest {
 // ConcertAdmin_BatchDeleteSessionRequest
 	public TSet<FGuid> SessionIds;
 	public EBatchSessionDeletionFlags Flags;
-	public sbyte UserName;
-	public sbyte DeviceName;
+	public string UserName;
+	public string DeviceName;
 }

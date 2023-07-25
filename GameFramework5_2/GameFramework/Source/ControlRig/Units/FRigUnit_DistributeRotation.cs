@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Distributes rotations provided along a chain.</summary>
 public partial struct FRigUnit_DistributeRotation {
 // RigUnit_DistributeRotation
-	public sbyte StartBone;
-	public sbyte EndBone;
+	public string StartBone;
+	public string EndBone;
 	public TArray<FRigUnit_DistributeRotation_Rotation> Rotations;
 	public ERigVMAnimEasingType RotationEaseType;
 	public float Weight;

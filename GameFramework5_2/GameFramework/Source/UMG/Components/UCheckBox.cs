@@ -14,9 +14,9 @@ public partial class UCheckBox : UContentWidget {
 	public byte PressMethod;
 	public bool IsFocusable;
 	public FOnCheckBoxComponentStateChanged OnCheckStateChanged;
-	public bool IsPressed(bool ReturnValue) { return default; }
-	public bool IsChecked(bool ReturnValue) { return default; }
-	public ECheckBoxState GetCheckedState(ECheckBoxState ReturnValue) { return default; }
+	public bool IsPressed() { return default; }
+	public bool IsChecked() { return default; }
+	public ECheckBoxState GetCheckedState() { return default; }
 	public void SetIsChecked(bool InIsChecked) {}
 	public void SetCheckedState(ECheckBoxState InCheckedState) {}
 	public void SetClickMethod(EButtonClickMethod InClickMethod) {}

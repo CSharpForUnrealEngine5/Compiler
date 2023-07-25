@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UCustomizableObjectNodeColorParameter : UCustomizableObjectNode {
 // CustomizableObjectNodeColorParameter
 	public FLinearColor DefaultValue;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMutableParamUIMetadata ParamUIMetadata;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("AnimNode_ControlRigBase.h")]
 public partial struct FControlRigAnimNodeEventName {
 // ControlRigAnimNodeEventName
-	public sbyte EventName;
+	public string EventName;
 }

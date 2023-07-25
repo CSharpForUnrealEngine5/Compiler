@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("TranslationUnit.h")]
 public partial struct FTranslationChange {
 // TranslationChange
-	public sbyte Version;
+	public string Version;
 	public FDateTime DateAndTime;
-	public sbyte Source;
-	public sbyte Translation;
+	public string Source;
+	public string Translation;
 }

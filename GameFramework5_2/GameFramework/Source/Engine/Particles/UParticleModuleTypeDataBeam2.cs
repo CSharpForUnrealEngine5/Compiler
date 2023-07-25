@@ -13,7 +13,7 @@ public partial class UParticleModuleTypeDataBeam2 : UParticleModuleTypeDataBase 
 	public int InterpolationPoints;
 	public bool bAlwaysOn;
 	public int UpVectorStepSize;
-	public sbyte BranchParentName;
+	public string BranchParentName;
 	public FRawDistributionFloat Distance;
 	public byte TaperMethod;
 	public FRawDistributionFloat TaperFactor;

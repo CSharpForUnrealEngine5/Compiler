@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertVirtualCamera.h")]
 public partial struct FConcertVirtualCameraCameraComponentEvent {
 // ConcertVirtualCameraCameraComponentEvent
-	public sbyte TrackingName;
+	public string TrackingName;
 	public FConcertVirtualCameraCameraData CameraData;
 }

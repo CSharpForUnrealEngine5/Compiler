@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetControlFloat is used to retrieve a single Float from a hierarchy.</summary>
 public partial struct FRigUnit_GetControlFloat {
 // RigUnit_GetControlFloat
-	public sbyte Control;
+	public string Control;
 	public float FloatValue;
 	public float Minimum;
 	public float Maximum;

@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial struct FPolyglotTextData {
 // PolyglotTextData
 	public ELocalizedTextSourceCategory Category;
-	public sbyte NativeCulture;
-	public sbyte Namespace;
-	public sbyte Key;
-	public sbyte NativeString;
-	public TMap<sbyte,sbyte> LocalizedStrings;
+	public string NativeCulture;
+	public string Namespace;
+	public string Key;
+	public string NativeString;
+	public TMap<string,string> LocalizedStrings;
 	public bool bIsMinimalPatch;
-	public sbyte CachedText;
+	public string CachedText;
 }

@@ -6,8 +6,8 @@ public partial class UEditorUtilityTask : UObject {
 // EditorUtilityTask
 	public void Run() {}
 	public void FinishExecutingTask() {}
-	public void SetTaskNotificationText(sbyte Text) {}
-	public bool WasCancelRequested(bool ReturnValue) { return default; }
+	public void SetTaskNotificationText(string Text) {}
+	public bool WasCancelRequested() { return default; }
 	public void ReceiveBeginExecution() {}
 	public void ReceiveCancelRequested() {}
 	public UEditorUtilitySubsystem MyTaskManager;

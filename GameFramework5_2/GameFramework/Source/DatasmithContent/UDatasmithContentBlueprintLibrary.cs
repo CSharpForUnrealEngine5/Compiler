@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithContentBlueprintLibrary.h")]
 public partial class UDatasmithContentBlueprintLibrary : UBlueprintFunctionLibrary {
 // DatasmithContentBlueprintLibrary
-	public UObject GetDatasmithUserData(UObject Object,UObject ReturnValue) { return default; }
-	public sbyte GetDatasmithUserDataValueForKey(UObject Object,sbyte Key,bool bPartialMatchKey=false,sbyte ReturnValue) { return default; }
-	public TArray<sbyte> GetDatasmithUserDataValuesForKey(UObject Object,sbyte Key,bool bPartialMatchKey=false,TArray<sbyte> ReturnValue) { return default; }
-	public void GetDatasmithUserDataKeysAndValuesForValue(UObject Object,sbyte StringToMatch,TArray<sbyte> OutKeys,TArray<sbyte> OutValues) {}
+	public UObject GetDatasmithUserData(UObject Object) { return default; }
+	public string GetDatasmithUserDataValueForKey(UObject Object,string Key,bool bPartialMatchKey/*=false*/) { return default; }
+	public TArray<string> GetDatasmithUserDataValuesForKey(UObject Object,string Key,bool bPartialMatchKey/*=false*/) { return default; }
+	public void GetDatasmithUserDataKeysAndValuesForValue(UObject Object,string StringToMatch,TArray<string> OutKeys,TArray<string> OutValues) {}
 	public void GetAllDatasmithUserData(UClass ObjectClass,TArray<UObject> OutUserData) {}
-	public void GetAllObjectsAndValuesForKey(sbyte Key,UClass ObjectClass,TArray<UObject> OutObjects,TArray<sbyte> OutValues) {}
+	public void GetAllObjectsAndValuesForKey(string Key,UClass ObjectClass,TArray<UObject> OutObjects,TArray<string> OutValues) {}
 }

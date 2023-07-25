@@ -9,34 +9,34 @@ public partial class UAbilitySystemComponent : UGameplayTasksComponent {
 	public void FAbilityConfirmOrCancel() {}
 	public void K2_InitStats(UClass Attributes,UObject DataTable) {}
 	public void GetAllAttributes(TArray<FGameplayAttribute> OutAttributes) {}
-	public UObject GetAttributeSet(UClass AttributeSetClass,UObject ReturnValue) { return default; }
-	public float GetGameplayAttributeValue(FGameplayAttribute Attribute,bool bFound,float ReturnValue) { return default; }
+	public UObject GetAttributeSet(UClass AttributeSetClass) { return default; }
+	public float GetGameplayAttributeValue(FGameplayAttribute Attribute,bool bFound) { return default; }
 	public TArray<FAttributeDefaults> DefaultStartingData;
-	public sbyte AffectedAnimInstanceTag;
-	public FActiveGameplayEffectHandle BP_ApplyGameplayEffectSpecToTarget(FGameplayEffectSpecHandle SpecHandle,UObject Target,FActiveGameplayEffectHandle ReturnValue) { return default; }
-	public FActiveGameplayEffectHandle BP_ApplyGameplayEffectSpecToSelf(FGameplayEffectSpecHandle SpecHandle,FActiveGameplayEffectHandle ReturnValue) { return default; }
-	public bool RemoveActiveGameplayEffect(FActiveGameplayEffectHandle Handle,int StacksToRemove=-1,bool ReturnValue) { return default; }
-	public void RemoveActiveGameplayEffectBySourceEffect(UClass GameplayEffect,UObject InstigatorAbilitySystemComponent,int StacksToRemove=-1) {}
-	public FGameplayEffectSpecHandle MakeOutgoingSpec(UClass GameplayEffectClass,float Level,FGameplayEffectContextHandle Context,FGameplayEffectSpecHandle ReturnValue) { return default; }
-	public FGameplayEffectContextHandle MakeEffectContext(FGameplayEffectContextHandle ReturnValue) { return default; }
-	public int GetGameplayEffectCount(UClass SourceGameplayEffect,UObject OptionalInstigatorFilterComponent,bool bEnforceOnGoingCheck=true,int ReturnValue) { return default; }
-	public int GetGameplayEffectCount_IfLoaded(TSoftObjectPtr<UClass> SoftSourceGameplayEffect,UObject OptionalInstigatorFilterComponent,bool bEnforceOnGoingCheck=true,int ReturnValue) { return default; }
+	public string AffectedAnimInstanceTag;
+	public FActiveGameplayEffectHandle BP_ApplyGameplayEffectSpecToTarget(FGameplayEffectSpecHandle SpecHandle,UObject Target) { return default; }
+	public FActiveGameplayEffectHandle BP_ApplyGameplayEffectSpecToSelf(FGameplayEffectSpecHandle SpecHandle) { return default; }
+	public bool RemoveActiveGameplayEffect(FActiveGameplayEffectHandle Handle,int StacksToRemove/*=-1*/) { return default; }
+	public void RemoveActiveGameplayEffectBySourceEffect(UClass GameplayEffect,UObject InstigatorAbilitySystemComponent,int StacksToRemove/*=-1*/) {}
+	public FGameplayEffectSpecHandle MakeOutgoingSpec(UClass GameplayEffectClass,float Level,FGameplayEffectContextHandle Context) { return default; }
+	public FGameplayEffectContextHandle MakeEffectContext() { return default; }
+	public int GetGameplayEffectCount(UClass SourceGameplayEffect,UObject OptionalInstigatorFilterComponent,bool bEnforceOnGoingCheck/*=true*/) { return default; }
+	public int GetGameplayEffectCount_IfLoaded(TSoftObjectPtr<UClass> SoftSourceGameplayEffect,UObject OptionalInstigatorFilterComponent,bool bEnforceOnGoingCheck/*=true*/) { return default; }
 	public void UpdateActiveGameplayEffectSetByCallerMagnitude(FActiveGameplayEffectHandle ActiveHandle,FGameplayTag SetByCallerTag,float NewValue) {}
 	public void UpdateActiveGameplayEffectSetByCallerMagnitudes(FActiveGameplayEffectHandle ActiveHandle,TMap<FGameplayTag,float> NewSetByCallerValues) {}
 	public void SetActiveGameplayEffectLevel(FActiveGameplayEffectHandle ActiveHandle,int NewLevel) {}
 	public void SetActiveGameplayEffectLevelUsingQuery(FGameplayEffectQuery Query,int NewLevel) {}
-	public float GetGameplayEffectMagnitude(FActiveGameplayEffectHandle Handle,FGameplayAttribute Attribute,float ReturnValue) { return default; }
-	public int GetGameplayTagCount(FGameplayTag GameplayTag,int ReturnValue) { return default; }
+	public float GetGameplayEffectMagnitude(FActiveGameplayEffectHandle Handle,FGameplayAttribute Attribute) { return default; }
+	public int GetGameplayTagCount(FGameplayTag GameplayTag) { return default; }
 	public float OutgoingDuration;
 	public float IncomingDuration;
-	public FActiveGameplayEffectHandle BP_ApplyGameplayEffectToTarget(UClass GameplayEffectClass,UObject Target,float Level,FGameplayEffectContextHandle Context,FActiveGameplayEffectHandle ReturnValue) { return default; }
-	public FActiveGameplayEffectHandle BP_ApplyGameplayEffectToSelf(UClass GameplayEffectClass,float Level,FGameplayEffectContextHandle EffectContext,FActiveGameplayEffectHandle ReturnValue) { return default; }
-	public TArray<FActiveGameplayEffectHandle> GetActiveEffects(FGameplayEffectQuery Query,TArray<FActiveGameplayEffectHandle> ReturnValue) { return default; }
-	public TArray<FActiveGameplayEffectHandle> GetActiveEffectsWithAllTags(FGameplayTagContainer Tags,TArray<FActiveGameplayEffectHandle> ReturnValue) { return default; }
-	public int RemoveActiveEffectsWithTags(FGameplayTagContainer Tags,int ReturnValue) { return default; }
-	public int RemoveActiveEffectsWithSourceTags(FGameplayTagContainer Tags,int ReturnValue) { return default; }
-	public int RemoveActiveEffectsWithAppliedTags(FGameplayTagContainer Tags,int ReturnValue) { return default; }
-	public int RemoveActiveEffectsWithGrantedTags(FGameplayTagContainer Tags,int ReturnValue) { return default; }
+	public FActiveGameplayEffectHandle BP_ApplyGameplayEffectToTarget(UClass GameplayEffectClass,UObject Target,float Level,FGameplayEffectContextHandle Context) { return default; }
+	public FActiveGameplayEffectHandle BP_ApplyGameplayEffectToSelf(UClass GameplayEffectClass,float Level,FGameplayEffectContextHandle EffectContext) { return default; }
+	public TArray<FActiveGameplayEffectHandle> GetActiveEffects(FGameplayEffectQuery Query) { return default; }
+	public TArray<FActiveGameplayEffectHandle> GetActiveEffectsWithAllTags(FGameplayTagContainer Tags) { return default; }
+	public int RemoveActiveEffectsWithTags(FGameplayTagContainer Tags) { return default; }
+	public int RemoveActiveEffectsWithSourceTags(FGameplayTagContainer Tags) { return default; }
+	public int RemoveActiveEffectsWithAppliedTags(FGameplayTagContainer Tags) { return default; }
+	public int RemoveActiveEffectsWithGrantedTags(FGameplayTagContainer Tags) { return default; }
 	public void NetMulticast_InvokeGameplayCueExecuted_FromSpec(FGameplayEffectSpecForRPC Spec,FPredictionKey PredictionKey) {}
 	public void NetMulticast_InvokeGameplayCueExecuted(FGameplayTag GameplayCueTag,FPredictionKey PredictionKey,FGameplayEffectContextHandle EffectContext) {}
 	public void NetMulticast_InvokeGameplayCuesExecuted(FGameplayTagContainer GameplayCueTags,FPredictionKey PredictionKey,FGameplayEffectContextHandle EffectContext) {}
@@ -47,28 +47,28 @@ public partial class UAbilitySystemComponent : UGameplayTasksComponent {
 	public void NetMulticast_InvokeGameplayCueAddedAndWhileActive_FromSpec(FGameplayEffectSpecForRPC Spec,FPredictionKey PredictionKey) {}
 	public void NetMulticast_InvokeGameplayCueAddedAndWhileActive_WithParams(FGameplayTag GameplayCueTag,FPredictionKey PredictionKey,FGameplayCueParameters GameplayCueParameters) {}
 	public void NetMulticast_InvokeGameplayCuesAddedAndWhileActive_WithParams(FGameplayTagContainer GameplayCueTags,FPredictionKey PredictionKey,FGameplayCueParameters GameplayCueParameters) {}
-	public bool IsGameplayCueActive(FGameplayTag GameplayCueTag,bool ReturnValue) { return default; }
-	public FGameplayAbilitySpecHandle K2_GiveAbility(UClass AbilityClass,int Level=0,int InputID=-1,FGameplayAbilitySpecHandle ReturnValue) { return default; }
-	public FGameplayAbilitySpecHandle K2_GiveAbilityAndActivateOnce(UClass AbilityClass,int Level=0,int InputID=-1,FGameplayAbilitySpecHandle ReturnValue) { return default; }
+	public bool IsGameplayCueActive(FGameplayTag GameplayCueTag) { return default; }
+	public FGameplayAbilitySpecHandle K2_GiveAbility(UClass AbilityClass,int Level/*=0*/,int InputID/*=-1*/) { return default; }
+	public FGameplayAbilitySpecHandle K2_GiveAbilityAndActivateOnce(UClass AbilityClass,int Level/*=0*/,int InputID/*=-1*/) { return default; }
 	public void ClearAllAbilities() {}
-	public void ClearAllAbilitiesWithInputID(int InputID=0) {}
+	public void ClearAllAbilitiesWithInputID(int InputID/*=0*/) {}
 	public void ClearAbility(FGameplayAbilitySpecHandle Handle) {}
-	public bool TryActivateAbilitiesByTag(FGameplayTagContainer GameplayTagContainer,bool bAllowRemoteActivation=true,bool ReturnValue) { return default; }
-	public bool TryActivateAbilityByClass(UClass InAbilityToActivate,bool bAllowRemoteActivation=true,bool ReturnValue) { return default; }
-	public bool TryActivateAbility(FGameplayAbilitySpecHandle AbilityToActivate,bool bAllowRemoteActivation=true,bool ReturnValue) { return default; }
+	public bool TryActivateAbilitiesByTag(FGameplayTagContainer GameplayTagContainer,bool bAllowRemoteActivation/*=true*/) { return default; }
+	public bool TryActivateAbilityByClass(UClass InAbilityToActivate,bool bAllowRemoteActivation/*=true*/) { return default; }
+	public bool TryActivateAbility(FGameplayAbilitySpecHandle AbilityToActivate,bool bAllowRemoteActivation/*=true*/) { return default; }
 	public void GetAllAbilities(TArray<FGameplayAbilitySpecHandle> OutAbilityHandles) {}
-	public void FindAllAbilitiesWithTags(TArray<FGameplayAbilitySpecHandle> OutAbilityHandles,FGameplayTagContainer Tags,bool bExactMatch=true) {}
+	public void FindAllAbilitiesWithTags(TArray<FGameplayAbilitySpecHandle> OutAbilityHandles,FGameplayTagContainer Tags,bool bExactMatch/*=true*/) {}
 	public void FindAllAbilitiesMatchingQuery(TArray<FGameplayAbilitySpecHandle> OutAbilityHandles,FGameplayTagQuery Query) {}
-	public void FindAllAbilitiesWithInputID(TArray<FGameplayAbilitySpecHandle> OutAbilityHandles,int InputID=0) {}
+	public void FindAllAbilitiesWithInputID(TArray<FGameplayAbilitySpecHandle> OutAbilityHandles,int InputID/*=0*/) {}
 	public void ServerPrintDebug_Request() {}
-	public void ServerPrintDebug_RequestWithStrings(TArray<sbyte> Strings) {}
-	public void ClientPrintDebug_Response(TArray<sbyte> Strings,int GameFlags) {}
-	public TArray<sbyte> ClientDebugStrings;
-	public TArray<sbyte> ServerDebugStrings;
+	public void ServerPrintDebug_RequestWithStrings(TArray<string> Strings) {}
+	public void ClientPrintDebug_Response(TArray<string> Strings,int GameFlags) {}
+	public TArray<string> ClientDebugStrings;
+	public TArray<string> ServerDebugStrings;
 	public void OnRep_ClientDebugString() {}
 	public void OnRep_ServerDebugString() {}
 	public void ServerAbilityRPCBatch(FServerAbilityRPCBatch BatchInfo) {}
-	public bool GetUserAbilityActivationInhibited(bool ReturnValue) { return default; }
+	public bool GetUserAbilityActivationInhibited() { return default; }
 	public void SetUserAbilityActivationInhibited(bool NewInhibit) {}
 	public bool UserAbilityActivationInhibited;
 	public bool ReplicationProxyEnabled;
@@ -112,8 +112,8 @@ public partial class UAbilitySystemComponent : UGameplayTasksComponent {
 	public bool bPendingMontageRep;
 	public FGameplayAbilityLocalAnimMontage LocalAnimMontageInfo;
 	public void OnRep_ReplicatedAnimMontage() {}
-	public void ServerCurrentMontageSetNextSectionName(UObject ClientAnimMontage,float ClientPosition,sbyte SectionName,sbyte NextSectionName) {}
-	public void ServerCurrentMontageJumpToSectionName(UObject ClientAnimMontage,sbyte SectionName) {}
+	public void ServerCurrentMontageSetNextSectionName(UObject ClientAnimMontage,float ClientPosition,string SectionName,string NextSectionName) {}
+	public void ServerCurrentMontageJumpToSectionName(UObject ClientAnimMontage,string SectionName) {}
 	public void ServerCurrentMontageSetPlayRate(UObject ClientAnimMontage,float InPlayRate) {}
 	public FActiveGameplayEffectsContainer ActiveGameplayEffects;
 	public FActiveGameplayCueContainer ActiveGameplayCues;

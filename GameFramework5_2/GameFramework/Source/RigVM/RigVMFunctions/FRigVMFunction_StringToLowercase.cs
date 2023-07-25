@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Converts the string to lower case</summary>
 public partial struct FRigVMFunction_StringToLowercase {
 // RigVMFunction_StringToLowercase
-	public sbyte Value;
-	public sbyte Result;
+	public string Value;
+	public string Result;
 }

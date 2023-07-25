@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Distributions/DistributionVectorParameterBase.h")]
 public partial class UDistributionVectorParameterBase : UDistributionVectorConstant {
 // DistributionVectorParameterBase
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FVector MinInput;
 	public FVector MaxInput;
 	public FVector MinOutput;

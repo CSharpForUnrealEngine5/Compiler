@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObject.h")]
 public partial struct FFParameterOptionsTags {
 // FParameterOptionsTags
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 }

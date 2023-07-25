@@ -12,10 +12,10 @@ public partial class UAbilityTask_PlayMontageAndWait : UAbilityTask {
 	public void OnMontageBlendingOut(UObject Montage,bool bInterrupted) {}
 	public void OnMontageInterrupted() {}
 	public void OnMontageEnded(UObject Montage,bool bInterrupted) {}
-	public UObject CreatePlayMontageAndWaitProxy(UObject OwningAbility,sbyte TaskInstanceName,UObject MontageToPlay,float Rate=1.f,sbyte StartSection=NAME_None,bool bStopWhenAbilityEnds=true,float AnimRootMotionTranslationScale=1.f,float StartTimeSeconds=0.f,UObject ReturnValue) { return default; }
+	public UObject CreatePlayMontageAndWaitProxy(UObject OwningAbility,string TaskInstanceName,UObject MontageToPlay,float Rate/*=1.0f*/,string StartSection/*=NAME_None*/,bool bStopWhenAbilityEnds/*=true*/,float AnimRootMotionTranslationScale/*=1.0f*/,float StartTimeSeconds/*=0.0f*/) { return default; }
 	public UAnimMontage MontageToPlay;
 	public float Rate;
-	public sbyte StartSection;
+	public string StartSection;
 	public float AnimRootMotionTranslationScale;
 	public float StartTimeSeconds;
 	public bool bStopWhenAbilityEnds;

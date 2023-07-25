@@ -6,6 +6,6 @@ public partial struct FConstraintNodeData {
 // ConstraintNodeData
 	public FTransform RelativeParent;
 	public FConstraintOffset ConstraintOffset;
-	public sbyte LinkedNode;
+	public string LinkedNode;
 	public TArray<FTransformConstraint> Constraints;
 }

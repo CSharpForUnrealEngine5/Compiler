@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FChaosClothSimulationModel {
 // ChaosClothSimulationModel
 	public TArray<FChaosClothSimulationLodModel> ClothSimulationLodModels;
-	public TArray<sbyte> UsedBoneNames;
+	public TArray<string> UsedBoneNames;
 	public TArray<int> UsedBoneIndices;
 	public int ReferenceBoneIndex;
 }

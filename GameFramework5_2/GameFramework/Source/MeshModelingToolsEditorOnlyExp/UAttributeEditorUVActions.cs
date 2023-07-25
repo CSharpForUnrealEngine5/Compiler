@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("AttributeEditorTool.h")]
 public partial class UAttributeEditorUVActions : UAttributeEditorActionPropertySet {
 // AttributeEditorUVActions
-	public sbyte UVLayer;
-	public TArray<sbyte> GetUVLayerNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> UVLayerNamesList;
+	public string UVLayer;
+	public TArray<string> GetUVLayerNamesFunc() { return default; }
+	public TArray<string> UVLayerNamesList;
 	public void ClearAll() {}
 	public void AddNew() {}
 	public void DeleteSelected() {}

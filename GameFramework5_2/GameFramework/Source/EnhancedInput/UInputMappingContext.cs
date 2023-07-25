@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UInputMappingContext : UDataAsset {
 // InputMappingContext
 	public TArray<FEnhancedActionKeyMapping> Mappings;
-	public sbyte ContextDescription;
-	public FEnhancedActionKeyMapping MapKey(UObject Action,FKey ToKey,FEnhancedActionKeyMapping ReturnValue) { return default; }
+	public string ContextDescription;
+	public FEnhancedActionKeyMapping MapKey(UObject Action,FKey ToKey) { return default; }
 	public void UnmapKey(UObject Action,FKey Key) {}
 	public void UnmapAction(UObject Action) {}
 	public void UnmapAllKeysFromAction(UObject Action) {}

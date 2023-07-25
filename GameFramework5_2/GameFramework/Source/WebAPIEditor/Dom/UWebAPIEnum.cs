@@ -7,8 +7,8 @@ public partial class UWebAPIEnum : UWebAPIModelBase {
 // WebAPIEnum
 	public FWebAPITypeNameVariant Name;
 	public bool bGenerate;
-	public sbyte Type;
-	public sbyte DefaultValue;
+	public string Type;
+	public string DefaultValue;
 	public TArray<UWebAPIEnumValue> Values;
-	public sbyte GeneratedCodeText;
+	public string GeneratedCodeText;
 }

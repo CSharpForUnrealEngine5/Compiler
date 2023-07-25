@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UActorComponent : UObject {
 // ActorComponent
 	public FActorComponentTickFunction PrimaryComponentTick;
-	public TArray<sbyte> ComponentTags;
+	public TArray<string> ComponentTags;
 	public TArray<UAssetUserData> AssetUserData;
 	public int UCSSerializationIndex;
 	public bool bNetAddressable;
@@ -22,28 +22,28 @@ public partial class UActorComponent : UObject {
 	public bool bIsVisualizationComponent;
 	public bool bNeedsUCSSerializationIndexEvaluted;
 	public EComponentCreationMethod CreationMethod;
-	public bool IsBeingDestroyed(bool ReturnValue) { return default; }
+	public bool IsBeingDestroyed() { return default; }
 	public void OnRep_IsActive() {}
-	public UObject GetOwner(UObject ReturnValue) { return default; }
-	public bool ComponentHasTag(sbyte Tag,bool ReturnValue) { return default; }
+	public UObject GetOwner() { return default; }
+	public bool ComponentHasTag(string Tag) { return default; }
 	public FActorComponentActivatedSignature OnComponentActivated;
 	public FActorComponentDeactivateSignature OnComponentDeactivated;
 	public TArray<FSimpleMemberReference> UCSModifiedProperties_DEPRECATED;
-	public void Activate(bool bReset=false) {}
+	public void Activate(bool bReset/*=false*/) {}
 	public void Deactivate() {}
-	public void SetActive(bool bNewActive,bool bReset=false) {}
+	public void SetActive(bool bNewActive,bool bReset/*=false*/) {}
 	public void ToggleActive() {}
-	public bool IsActive(bool ReturnValue) { return default; }
+	public bool IsActive() { return default; }
 	public void SetAutoActivate(bool bNewAutoActivate) {}
 	public void SetTickableWhenPaused(bool bTickableWhenPaused) {}
 	public void SetIsReplicated(bool ShouldReplicate) {}
 	public void ReceiveBeginPlay() {}
 	public void ReceiveEndPlay(EEndPlayReason EndPlayReason) {}
 	public void SetComponentTickEnabled(bool bEnabled) {}
-	public bool IsComponentTickEnabled(bool ReturnValue) { return default; }
+	public bool IsComponentTickEnabled() { return default; }
 	public void SetComponentTickInterval(float TickInterval) {}
 	public void SetComponentTickIntervalAndCooldown(float TickInterval) {}
-	public float GetComponentTickInterval(float ReturnValue) { return default; }
+	public float GetComponentTickInterval() { return default; }
 	public void K2_DestroyComponent(UObject Object) {}
 	public void SetTickGroup(ETickingGroup NewTickGroup) {}
 	public void AddTickPrerequisiteActor(UObject PrerequisiteActor) {}

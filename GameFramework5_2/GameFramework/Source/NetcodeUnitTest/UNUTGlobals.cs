@@ -8,7 +8,7 @@ public partial class UNUTGlobals : UObject {
 	public UNetConnection EventWatcher;
 	public int ServerPortOffset;
 	public int UnitTestNetDriverCount;
-	public TArray<sbyte> DumpRPCMatches;
-	public TArray<sbyte> UnitTestModules;
-	public TArray<sbyte> UnloadedModules;
+	public TArray<string> DumpRPCMatches;
+	public TArray<string> UnitTestModules;
+	public TArray<string> UnloadedModules;
 }

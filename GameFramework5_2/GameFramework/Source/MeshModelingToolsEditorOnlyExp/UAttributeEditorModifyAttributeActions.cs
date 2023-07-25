@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("AttributeEditorTool.h")]
 public partial class UAttributeEditorModifyAttributeActions : UAttributeEditorActionPropertySet {
 // AttributeEditorModifyAttributeActions
-	public sbyte Attribute;
-	public TArray<sbyte> GetAttributeNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> AttributeNamesList;
+	public string Attribute;
+	public TArray<string> GetAttributeNamesFunc() { return default; }
+	public TArray<string> AttributeNamesList;
 	public void DeleteSelected() {}
 }

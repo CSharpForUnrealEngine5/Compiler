@@ -16,13 +16,13 @@ public partial struct FNiagaraDebugHUDSettingsData {
 	public FVector2D OverviewLocation;
 	public bool bShowRegisteredComponents;
 	public bool bOverviewShowFilteredSystemOnly;
-	public sbyte ActorFilter;
+	public string ActorFilter;
 	public bool bComponentFilterEnabled;
-	public sbyte ComponentFilter;
+	public string ComponentFilter;
 	public bool bSystemFilterEnabled;
-	public sbyte SystemFilter;
+	public string SystemFilter;
 	public bool bEmitterFilterEnabled;
-	public sbyte EmitterFilter;
+	public string EmitterFilter;
 	public bool bActorFilterEnabled;
 	public ENiagaraDebugHudVerbosity SystemDebugVerbosity;
 	public ENiagaraDebugHudVerbosity SystemEmitterVerbosity;

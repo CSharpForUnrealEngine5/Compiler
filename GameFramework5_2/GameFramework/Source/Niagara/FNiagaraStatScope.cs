@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraCommon.h")]
 public partial struct FNiagaraStatScope {
 // NiagaraStatScope
-	public sbyte FullName;
-	public sbyte FriendlyName;
+	public string FullName;
+	public string FriendlyName;
 }

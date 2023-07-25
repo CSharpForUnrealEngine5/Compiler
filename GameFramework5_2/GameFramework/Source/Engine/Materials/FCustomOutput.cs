@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionCustom.h")]
 public partial struct FCustomOutput {
 // CustomOutput
-	public sbyte OutputName;
+	public string OutputName;
 	public byte OutputType;
 }

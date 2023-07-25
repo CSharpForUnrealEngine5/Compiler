@@ -7,12 +7,12 @@ public partial class UPCGComponent : UActorComponent {
 	public void SetGraph(UObject InGraph) {}
 	public void AddToManagedResources(UObject InResource) {}
 	public void GenerateLocal(bool bForce) {}
-	public void CleanupLocal(bool bRemoveComponents,bool bSave=false) {}
+	public void CleanupLocal(bool bRemoveComponents,bool bSave/*=false*/) {}
 	public void Generate(bool bForce) {}
-	public void Cleanup(bool bRemoveComponents,bool bSave=false) {}
+	public void Cleanup(bool bRemoveComponents,bool bSave/*=false*/) {}
 	public void NotifyPropertiesChangedFromBlueprint() {}
-	public FPCGDataCollection GetGeneratedGraphOutput(FPCGDataCollection ReturnValue) { return default; }
-	public UObject ClearPCGLink(UClass TemplateActor=nullptr,UObject ReturnValue) { return default; }
+	public FPCGDataCollection GetGeneratedGraphOutput() { return default; }
+	public UObject ClearPCGLink(UClass TemplateActor/*=nullptr*/) { return default; }
 	public EPCGComponentInput InputType;
 	public bool bParseActorComponents;
 	public int Seed;
@@ -24,7 +24,7 @@ public partial class UPCGComponent : UActorComponent {
 	public bool bRegenerateInEditor;
 	public bool bDirtyGenerated;
 	public bool bForceGenerateOnBPAddedToWorld;
-	public TArray<sbyte> PostGenerateFunctionNames;
+	public TArray<string> PostGenerateFunctionNames;
 	public UPCGGraphInstance GraphInstance;
 	public UPCGGraph Graph_DEPRECATED;
 	public bool bIsPartitioned;

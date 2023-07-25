@@ -6,7 +6,7 @@ public partial struct FDisplayClusterConfigurationJsonCluster_500 {
 // DisplayClusterConfigurationJsonCluster_500
 	public FDisplayClusterConfigurationJsonPrimaryNode_500 PrimaryNode;
 	public FDisplayClusterConfigurationJsonClusterSync_500 Sync;
-	public TMap<sbyte,sbyte> Network;
+	public TMap<string,string> Network;
 	public FDisplayClusterConfigurationFailoverSettings_500 Failover;
-	public TMap<sbyte,FDisplayClusterConfigurationJsonClusterNode_500> Nodes;
+	public TMap<string,FDisplayClusterConfigurationJsonClusterNode_500> Nodes;
 }

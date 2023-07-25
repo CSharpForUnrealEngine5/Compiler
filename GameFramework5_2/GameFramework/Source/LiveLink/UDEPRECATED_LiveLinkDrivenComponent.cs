@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UDEPRECATED_LiveLinkDrivenComponent : UActorComponent {
 // LiveLinkDrivenComponent
 	public FLiveLinkSubjectName SubjectName;
-	public sbyte ActorTransformBone;
+	public string ActorTransformBone;
 	public bool bModifyActorTransform;
 	public bool bSetRelativeLocation;
 }

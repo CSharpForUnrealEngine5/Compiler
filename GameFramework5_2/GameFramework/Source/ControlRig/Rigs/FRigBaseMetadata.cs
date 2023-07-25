@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Rigs/RigHierarchyMetadata.h")]
 public partial struct FRigBaseMetadata {
 // RigBaseMetadata
-	public sbyte Name;
+	public string Name;
 	public ERigMetadataType Type;
 }

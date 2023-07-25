@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct used to define information for terminal types, e.g. types that can be contained</summary>
 public partial struct FEdGraphTerminalType {
 // EdGraphTerminalType
-	public sbyte TerminalCategory;
-	public sbyte TerminalSubCategory;
+	public string TerminalCategory;
+	public string TerminalSubCategory;
 	public TWeakObjectPtr<UObject> TerminalSubCategoryObject;
 	public bool bTerminalIsConst;
 	public bool bTerminalIsWeakPointer;

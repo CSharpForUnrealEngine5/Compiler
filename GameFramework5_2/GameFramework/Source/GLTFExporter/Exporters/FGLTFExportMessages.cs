@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Exporters/GLTFExporter.h")]
 public partial struct FGLTFExportMessages {
 // GLTFExportMessages
-	public TArray<sbyte> Suggestions;
-	public TArray<sbyte> Warnings;
-	public TArray<sbyte> Errors;
+	public TArray<string> Suggestions;
+	public TArray<string> Warnings;
+	public TArray<string> Errors;
 }

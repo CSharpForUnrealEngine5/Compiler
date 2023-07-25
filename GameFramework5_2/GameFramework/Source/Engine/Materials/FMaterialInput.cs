@@ -7,7 +7,7 @@ public partial struct FMaterialInput {
 // MaterialInput
 	public UMaterialExpression Expression;
 	public int OutputIndex;
-	public sbyte InputName;
+	public string InputName;
 	public int Mask;
 	public int MaskR;
 	public int MaskG;

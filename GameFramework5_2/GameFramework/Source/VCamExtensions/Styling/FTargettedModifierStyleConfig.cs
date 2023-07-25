@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FTargettedModifierStyleConfig {
 // TargettedModifierStyleConfig
 	public FWidgetStyleDataArray ModifierStyles;
-	public TMap<sbyte,FWidgetStyleDataArray> ConnectionPointStyles;
+	public TMap<string,FWidgetStyleDataArray> ConnectionPointStyles;
 }

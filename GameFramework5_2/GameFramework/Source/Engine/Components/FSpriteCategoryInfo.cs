@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Information about the sprite category, used for visualization in the editor</summary>
 public partial struct FSpriteCategoryInfo {
 // SpriteCategoryInfo
-	public sbyte Category;
-	public sbyte DisplayName;
-	public sbyte Description;
+	public string Category;
+	public string DisplayName;
+	public string Description;
 }

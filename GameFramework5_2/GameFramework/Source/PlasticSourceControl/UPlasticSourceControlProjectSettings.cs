@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Project Settings for Plastic SCM Source Control. Saved in Config/DefaultEditor.ini</summary>
 public partial class UPlasticSourceControlProjectSettings : UDeveloperSettings {
 // PlasticSourceControlProjectSettings
-	public TMap<sbyte,sbyte> UserNameToDisplayName;
+	public TMap<string,string> UserNameToDisplayName;
 	public bool bHideEmailDomainInUsername;
 	public bool bPromptForCheckoutOnChange;
 	public int LimitNumberOfRevisionsInHistory;

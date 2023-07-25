@@ -10,18 +10,18 @@ public partial class UPropertyPathTestObject : UObject {
 	public byte EnumThree;
 	public byte EnumFour;
 	public int Integer;
-	public sbyte String;
+	public string String;
 	public float Float;
 	public FPropertyPathTestStruct Struct;
 	public FPropertyPathTestStruct StructRef;
 	public FPropertyPathTestStruct StructConstRef;
 	public UPropertyPathTestObject InnerObject;
 	public void SetFloat(float InFloat) {}
-	public float GetFloat(float ReturnValue) { return default; }
+	public float GetFloat() { return default; }
 	public void SetStruct(FPropertyPathTestStruct InStruct) {}
-	public FPropertyPathTestStruct GetStruct(FPropertyPathTestStruct ReturnValue) { return default; }
+	public FPropertyPathTestStruct GetStruct() { return default; }
 	public void SetStructRef(FPropertyPathTestStruct InStruct) {}
-	public FPropertyPathTestStruct GetStructRef(FPropertyPathTestStruct ReturnValue) { return default; }
+	public FPropertyPathTestStruct GetStructRef() { return default; }
 	public void SetStructConstRef(FPropertyPathTestStruct InStruct) {}
-	public FPropertyPathTestStruct GetStructConstRef(FPropertyPathTestStruct ReturnValue) { return default; }
+	public FPropertyPathTestStruct GetStructConstRef() { return default; }
 }

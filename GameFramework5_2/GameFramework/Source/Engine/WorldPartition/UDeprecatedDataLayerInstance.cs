@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Class used for Runtime Conversion of the Deprecated UDataLayer Class to UDataLayerInstance + UDataLayerAsset.</summary>
 public partial class UDeprecatedDataLayerInstance : UDataLayerInstance {
 // DeprecatedDataLayerInstance
-	public sbyte Label;
-	public sbyte DeprecatedDataLayerFName;
+	public string Label;
+	public string DeprecatedDataLayerFName;
 	public EDataLayerType DataLayerType;
 	public FColor DebugColor;
 }

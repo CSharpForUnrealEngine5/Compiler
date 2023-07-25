@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FBlueprintInputTouchDelegateBinding {
 // BlueprintInputTouchDelegateBinding
 	public byte InputKeyEvent;
-	public sbyte FunctionNameToBind;
+	public string FunctionNameToBind;
 }

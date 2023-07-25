@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>FContextualAnimRoleDefinition</summary>
 public partial struct FContextualAnimRoleDefinition {
 // ContextualAnimRoleDefinition
-	public sbyte Name;
+	public string Name;
 	public bool bIsCharacter;
 	public FTransform MeshToComponent;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FFieldPathNetSerializerSerializationHelper {
 // FieldPathNetSerializerSerializationHelper
 	public TWeakObjectPtr<UStruct> Owner;
-	public TArray<sbyte> PropertyPath;
+	public TArray<string> PropertyPath;
 }

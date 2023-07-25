@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Per-Platform input options</summary>
 public partial class UInputPlatformSettings : UPlatformSettings {
 // InputPlatformSettings
-	public TArray<sbyte> GetAllHardwareDeviceNames(TArray<sbyte> ReturnValue) { return default; }
+	public TArray<string> GetAllHardwareDeviceNames() { return default; }
 	public int MaxTriggerFeedbackPosition;
 	public int MaxTriggerFeedbackStrength;
 	public int MaxTriggerVibrationTriggerPosition;

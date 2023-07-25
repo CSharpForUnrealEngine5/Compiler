@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>UUserToolBoxBaseTab is the class that represent a configurable tab</summary>
 public partial class UUserToolBoxBaseTab : UDataAsset {
 // UserToolBoxBaseTab
-	public sbyte Name;
+	public string Name;
 	public UClass TabUI;
 	public UClass DefaultCommandUIOverride;
 	public bool IsSettingShouldBeVisible;

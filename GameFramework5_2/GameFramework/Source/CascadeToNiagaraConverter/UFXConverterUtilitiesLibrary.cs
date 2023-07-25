@@ -5,40 +5,40 @@ using CSharpToCpp.Utilities;
 ///<summary>A C++ and Blueprint accessible library for converting fx type assets (Cascade and Niagara)</summary>
 public partial class UFXConverterUtilitiesLibrary : UBlueprintFunctionLibrary {
 // FXConverterUtilitiesLibrary
-	public sbyte GetLongPackagePath(sbyte InLongPackageName,sbyte ReturnValue) { return default; }
-	public TArray<UObject> GetCascadeSystemEmitters(UObject System,TArray<UObject> ReturnValue) { return default; }
-	public UObject GetCascadeEmitterLodLevel(UObject Emitter,int Idx,UObject ReturnValue) { return default; }
-	public bool GetLodLevelIsEnabled(UObject LodLevel,bool ReturnValue) { return default; }
-	public TArray<UObject> GetLodLevelModules(UObject LodLevel,TArray<UObject> ReturnValue) { return default; }
-	public UObject GetLodLevelSpawnModule(UObject LodLevel,UObject ReturnValue) { return default; }
-	public UObject GetLodLevelRequiredModule(UObject LodLevel,UObject ReturnValue) { return default; }
-	public UObject GetLodLevelTypeDataModule(UObject LodLevel,UObject ReturnValue) { return default; }
-	public sbyte GetCascadeEmitterName(UObject Emitter,sbyte ReturnValue) { return default; }
-	public UObject CreateScriptContext(FCreateScriptContextArgs Args,UObject ReturnValue) { return default; }
-	public FAssetData CreateAssetData(sbyte InPath,FAssetData ReturnValue) { return default; }
-	public UObject CreateScriptInputLinkedParameter(sbyte ParameterNameString,ENiagaraScriptInputType InputType,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputFloat(float Value,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputVec2(FVector2D Value,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputVector(FVector Value,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputStruct(UObject Value,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputEnum(sbyte UserDefinedEnumAssetPath,sbyte UserDefinedEnumValueNameString,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputInt(int Value,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputDynamic(UObject Value,ENiagaraScriptInputType InputType,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputDI(UObject Value,UObject ReturnValue) { return default; }
-	public UObject CreateScriptInputBool(bool Value,UObject ReturnValue) { return default; }
-	public UObject CreateRibbonRendererProperties(UObject ReturnValue) { return default; }
-	public UObject CreateMeshRendererProperties(UObject ReturnValue) { return default; }
-	public UObject CreateLightRendererProperties(UObject ReturnValue) { return default; }
-	public UObject CreateComponentRendererProperties(UObject ReturnValue) { return default; }
-	public UObject CreateSkeletalMeshDataInterface(UObject ReturnValue) { return default; }
-	public UObject CreateFloatCurveDI(TArray<FRichCurveKeyBP> Keys,UObject ReturnValue) { return default; }
-	public UObject CreateVec2CurveDI(TArray<FRichCurveKeyBP> X_Keys,TArray<FRichCurveKeyBP> Y_Keys,UObject ReturnValue) { return default; }
-	public UObject CreateVec3CurveDI(TArray<FRichCurveKeyBP> X_Keys,TArray<FRichCurveKeyBP> Y_Keys,TArray<FRichCurveKeyBP> Z_Keys,UObject ReturnValue) { return default; }
-	public UObject CreateVec4CurveDI(TArray<FRichCurveKeyBP> X_Keys,TArray<FRichCurveKeyBP> Y_Keys,TArray<FRichCurveKeyBP> Z_Keys,TArray<FRichCurveKeyBP> W_Keys,UObject ReturnValue) { return default; }
-	public UObject CreateSystemConversionContext(UObject InSystem,UObject ReturnValue) { return default; }
+	public string GetLongPackagePath(string InLongPackageName) { return default; }
+	public TArray<UObject> GetCascadeSystemEmitters(UObject System) { return default; }
+	public UObject GetCascadeEmitterLodLevel(UObject Emitter,int Idx) { return default; }
+	public bool GetLodLevelIsEnabled(UObject LodLevel) { return default; }
+	public TArray<UObject> GetLodLevelModules(UObject LodLevel) { return default; }
+	public UObject GetLodLevelSpawnModule(UObject LodLevel) { return default; }
+	public UObject GetLodLevelRequiredModule(UObject LodLevel) { return default; }
+	public UObject GetLodLevelTypeDataModule(UObject LodLevel) { return default; }
+	public string GetCascadeEmitterName(UObject Emitter) { return default; }
+	public UObject CreateScriptContext(FCreateScriptContextArgs Args) { return default; }
+	public FAssetData CreateAssetData(string InPath) { return default; }
+	public UObject CreateScriptInputLinkedParameter(string ParameterNameString,ENiagaraScriptInputType InputType) { return default; }
+	public UObject CreateScriptInputFloat(float Value) { return default; }
+	public UObject CreateScriptInputVec2(FVector2D Value) { return default; }
+	public UObject CreateScriptInputVector(FVector Value) { return default; }
+	public UObject CreateScriptInputStruct(UObject Value) { return default; }
+	public UObject CreateScriptInputEnum(string UserDefinedEnumAssetPath,string UserDefinedEnumValueNameString) { return default; }
+	public UObject CreateScriptInputInt(int Value) { return default; }
+	public UObject CreateScriptInputDynamic(UObject Value,ENiagaraScriptInputType InputType) { return default; }
+	public UObject CreateScriptInputDI(UObject Value) { return default; }
+	public UObject CreateScriptInputBool(bool Value) { return default; }
+	public UObject CreateRibbonRendererProperties() { return default; }
+	public UObject CreateMeshRendererProperties() { return default; }
+	public UObject CreateLightRendererProperties() { return default; }
+	public UObject CreateComponentRendererProperties() { return default; }
+	public UObject CreateSkeletalMeshDataInterface() { return default; }
+	public UObject CreateFloatCurveDI(TArray<FRichCurveKeyBP> Keys) { return default; }
+	public UObject CreateVec2CurveDI(TArray<FRichCurveKeyBP> X_Keys,TArray<FRichCurveKeyBP> Y_Keys) { return default; }
+	public UObject CreateVec3CurveDI(TArray<FRichCurveKeyBP> X_Keys,TArray<FRichCurveKeyBP> Y_Keys,TArray<FRichCurveKeyBP> Z_Keys) { return default; }
+	public UObject CreateVec4CurveDI(TArray<FRichCurveKeyBP> X_Keys,TArray<FRichCurveKeyBP> Y_Keys,TArray<FRichCurveKeyBP> Z_Keys,TArray<FRichCurveKeyBP> W_Keys) { return default; }
+	public UObject CreateSystemConversionContext(UObject InSystem) { return default; }
 	public void GetParticleModuleTypeDataGpuProps(UObject ParticleModule) {}
 	public void GetParticleModuleTypeDataMeshProps(UObject ParticleModule,UObject OutMesh,float OutLODSizeScale,bool bOutUseStaticMeshLODs,bool bOutCastShadows,bool bOutDoCollisions,byte OutMeshAlignment,bool bOutOverrideMaterial,bool bOutOverrideDefaultMotionBlurSettings,bool bOutEnableMotionBlur,UObject OutRollPitchYawRange,byte OutAxisLockOption,bool bOutCameraFacing,byte OutCameraFacingUpAxisOption_DEPRECATED,byte OutCameraFacingOption,bool bOutApplyParticleRotationAsSpin,bool bOutFacingCameraDirectionRatherThanPosition,bool bOutCollisionsConsiderParticleSize) {}
-	public UClass GetParticleModuleTypeDataRibbonClass(UClass ReturnValue) { return default; }
+	public UClass GetParticleModuleTypeDataRibbonClass() { return default; }
 	public void GetParticleModuleTypeDataRibbonProps(UObject ParticleModule,int OutMaxTessellationBetweenParticles,int OutSheetsPerTrail,int OutMaxTrailCount,int OutMaxParticleInTrailCount,bool bOutDeadTrailsOnDeactivate,bool bOutClipSourceSegment,bool bOutEnablePreviousTangentRecalculation,bool bOutTangentRecalculationEveryFrame,bool bOutSpawnInitialParticle,byte OutRenderAxis,float OutTangentSpawningScalar,bool bOutRenderGeometry,bool bOutRenderSpawnPoints,bool bOutRenderTangents,bool bOutRenderTessellation,float OutTilingDistance,float OutDistanceTessellationStepSize,bool bOutEnableTangentDiffInterpScale,float OutTangentTessellationScalar) {}
 	public void GetParticleModuleSpawnProps(UObject ParticleModuleSpawn,UObject OutRate,UObject OutRateScale,byte OutBurstMethod,TArray<FParticleBurstBlueprint> OutBurstList,UObject OutBurstScale,bool bOutApplyGlobalSpawnRateScale,bool bOutProcessSpawnRate,bool bOutProcessSpawnBurst) {}
 	public void GetParticleModuleSpawnPerUnitProps(UObject ParticleModule,float OutUnitScalar,float OutMovementTolerance,UObject OutSpawnPerUnit,float OutMaxFrameDistance,bool bOutIgnoreSpawnRateWhenMoving,bool bOutIgnoreMovementAlongX,bool bOutIgnoreMovementAlongY,bool bOutIgnoreMovementAlongZ,bool bOutProcessSpawnRate,bool bOutProcessBurstList) {}
@@ -79,19 +79,19 @@ public partial class UFXConverterUtilitiesLibrary : UBlueprintFunctionLibrary {
 	public void GetParticleModuleAccelerationDragScaleOverLifeProps(UObject ParticleModule,UObject OutDragScaleRaw) {}
 	public void GetParticleModuleAccelerationProps(UObject ParticleModule,UObject OutAcceleration,bool bOutApplyOwnerScale) {}
 	public void GetParticleModuleAccelerationOverLifetimeProps(UObject ParticleModule,UObject OutAccelOverLife) {}
-	public void GetParticleModuleTrailSourceProps(UObject ParticleModule,byte OutSourceMethod,sbyte OutSourceName,UObject OutSourceStrength,bool bOutLockSourceStrength,int OutSourceOffsetCount,TArray<FVector> OutSourceOffsetDefaults,byte OutSelectionMethod,bool bOutInheritRotation) {}
-	public void GetParticleModuleAttractorParticleProps(UObject ParticleModule,sbyte OutEmitterName,UObject OutRange,bool bOutStrengthByDistance,UObject OutStrength,bool bOutAffectBaseVelocity,byte OutSelectionMethod,bool bOutRenewSource,bool bOutInheritSourceVelocity) {}
+	public void GetParticleModuleTrailSourceProps(UObject ParticleModule,byte OutSourceMethod,string OutSourceName,UObject OutSourceStrength,bool bOutLockSourceStrength,int OutSourceOffsetCount,TArray<FVector> OutSourceOffsetDefaults,byte OutSelectionMethod,bool bOutInheritRotation) {}
+	public void GetParticleModuleAttractorParticleProps(UObject ParticleModule,string OutEmitterName,UObject OutRange,bool bOutStrengthByDistance,UObject OutStrength,bool bOutAffectBaseVelocity,byte OutSelectionMethod,bool bOutRenewSource,bool bOutInheritSourceVelocity) {}
 	public void GetParticleModuleAttractorPointProps(UObject ParticleModule,UObject OutPosition,UObject OutRange,UObject OutStrength,bool boutStrengthByDistance,bool bOutAffectsBaseVelocity,bool bOutOverrideVelocity,bool bOutUseWorldSpacePosition,bool bOutPositiveX,bool bOutPositiveY,bool bOutPositiveZ,bool bOutNegativeX,bool bOutNegativeY,bool bOutNegativeZ) {}
 	public void GetParticleModuleAttractorLineProps(UObject ParticleModule,FVector OutStartPoint,FVector OutEndPoint,UObject OutRange,UObject OutStrength) {}
 	public void GetParticleModuleLocationDirectProps(UObject ParticleModule,UObject OutLocation,UObject OutLocationOffset,UObject OutScaleFactor) {}
 	public void GetParticleModuleLocationProps(UObject ParticleModule,UObject OutStartLocation,float OutDistributeOverNPoints,float OutDistributeThreshold) {}
-	public void GetParticleModuleLocationBoneSocketProps(UObject ParticleModule,byte OutSourceType,FVector OutUniversalOffset,TArray<FLocationBoneSocketInfoBP> OutSourceLocations,byte OutSelectionMethod,bool bOutUpdatePositionEachFrame,bool bOutOrientMeshEmitters,bool bOutInheritBoneVelocity,float OutInheritVelocityScale,sbyte OutSkelMeshActorParamName,int OutNumPreSelectedIndices,UObject OutEditorSkelMesh) {}
+	public void GetParticleModuleLocationBoneSocketProps(UObject ParticleModule,byte OutSourceType,FVector OutUniversalOffset,TArray<FLocationBoneSocketInfoBP> OutSourceLocations,byte OutSelectionMethod,bool bOutUpdatePositionEachFrame,bool bOutOrientMeshEmitters,bool bOutInheritBoneVelocity,float OutInheritVelocityScale,string OutSkelMeshActorParamName,int OutNumPreSelectedIndices,UObject OutEditorSkelMesh) {}
 	public void GetParticleModuleKillBoxProps(UObject ParticleModule,UObject OutLowerLeftCorner,UObject OutUpperRightCorner,bool bOutWorldSpaceCoords,bool bOutKillInside,bool bOutAxisAlignedAndFixedSize) {}
 	public void GetParticleModuleLightProps(UObject ParticleModule,bool bOutUseInverseSquaredFalloff,bool bOutAffectsTranslucency,bool bOutPreviewLightRadius,float OutSpawnFraction,UObject OutColorScaleOverLife,UObject OutBrightnessOverLife,UObject OutRadiusScale,UObject OutLightExponent,FLightingChannels OutLightingChannels,float OutVolumetricScatteringIntensity,bool bOutHighQualityLights,bool bOutShadowCastingLights) {}
 	public void GetParticleModuleMeshMaterialProps(UObject ParticleModule,TArray<UObject> OutMeshMaterials) {}
 	public void SetMeshRendererMaterialOverridesFromCascade(UObject MeshRendererProps,TArray<UObject> MeshMaterials) {}
 	public void GetDistributionMinMaxValues(UObject Distribution,bool bOutSuccess,FVector OutMinValue,FVector OutMaxValue) {}
-	public TArray<byte> GetDistributionLockedAxes(UObject Distribution,TArray<byte> ReturnValue) { return default; }
+	public TArray<byte> GetDistributionLockedAxes(UObject Distribution) { return default; }
 	public void GetDistributionType(UObject Distribution,EDistributionType OutDistributionType,EDistributionValueType OutCascadeDistributionValueType) {}
 	public void GetFloatDistributionConstValues(UObject Distribution,float OutConstFloat) {}
 	public void GetVectorDistributionConstValues(UObject Distribution,FVector OutConstVector) {}
@@ -101,10 +101,10 @@ public partial class UFXConverterUtilitiesLibrary : UBlueprintFunctionLibrary {
 	public void GetVectorDistributionConstCurveValues(UObject Distribution,FInterpCurveVector OutInterpCurveVector) {}
 	public void GetFloatDistributionUniformCurveValues(UObject Distribution,FInterpCurveVector2D OutInterpCurveVector2D) {}
 	public void GetVectorDistributionUniformCurveValues(UObject Distribution,FInterpCurveTwoVectors OutInterpCurveTwoVectors) {}
-	public void GetFloatDistributionParameterValues(UObject Distribution,sbyte OutParameterName,float OutMinInput,float OutMaxInput,float OutMinOutput,float OutMaxOutput) {}
-	public void GetVectorDistributionParameterValues(UObject Distribution,sbyte OutParameterName,FVector OutMinInput,FVector OutMaxInput,FVector OutMinOutput,FVector OutMaxOutput) {}
-	public TArray<FRichCurveKeyBP> KeysFromInterpCurveFloat(FInterpCurveFloat Curve,TArray<FRichCurveKeyBP> ReturnValue) { return default; }
-	public TArray<FRichCurveKeyBP> KeysFromInterpCurveVector(FInterpCurveVector Curve,int ComponentIdx,TArray<FRichCurveKeyBP> ReturnValue) { return default; }
-	public TArray<FRichCurveKeyBP> KeysFromInterpCurveVector2D(FInterpCurveVector2D Curve,int ComponentIdx,TArray<FRichCurveKeyBP> ReturnValue) { return default; }
-	public TArray<FRichCurveKeyBP> KeysFromInterpCurveTwoVectors(FInterpCurveTwoVectors Curve,int ComponentIdx,TArray<FRichCurveKeyBP> ReturnValue) { return default; }
+	public void GetFloatDistributionParameterValues(UObject Distribution,string OutParameterName,float OutMinInput,float OutMaxInput,float OutMinOutput,float OutMaxOutput) {}
+	public void GetVectorDistributionParameterValues(UObject Distribution,string OutParameterName,FVector OutMinInput,FVector OutMaxInput,FVector OutMinOutput,FVector OutMaxOutput) {}
+	public TArray<FRichCurveKeyBP> KeysFromInterpCurveFloat(FInterpCurveFloat Curve) { return default; }
+	public TArray<FRichCurveKeyBP> KeysFromInterpCurveVector(FInterpCurveVector Curve,int ComponentIdx) { return default; }
+	public TArray<FRichCurveKeyBP> KeysFromInterpCurveVector2D(FInterpCurveVector2D Curve,int ComponentIdx) { return default; }
+	public TArray<FRichCurveKeyBP> KeysFromInterpCurveTwoVectors(FInterpCurveTwoVectors Curve,int ComponentIdx) { return default; }
 }

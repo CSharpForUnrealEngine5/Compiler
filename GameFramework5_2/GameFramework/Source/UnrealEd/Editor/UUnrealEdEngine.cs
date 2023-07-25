@@ -9,10 +9,10 @@ public partial class UUnrealEdEngine : UEditorEngine {
 	public UMaterial MaterialCopyPasteBuffer;
 	public USoundCue SoundCueCopyPasteBuffer;
 	public TArray<UAnimCompress> AnimationCompressionAlgorithms;
-	public TArray<sbyte> PackagesToBeFullyLoadedAtStartup;
+	public TArray<string> PackagesToBeFullyLoadedAtStartup;
 	public AActor CurrentLODParentActor;
 	public bool bNeedWarningForPkgEngineVer;
-	public TArray<sbyte> SortedSpriteCategories_DEPRECATED;
+	public TArray<string> SortedSpriteCategories_DEPRECATED;
 	public TArray<FTemplateMapInfo> TemplateMapInfos;
 	public UCookOnTheFlyServer CookServer;
 	public TArray<UClass> ClassesToIgnoreDeleteReferenceWarning;

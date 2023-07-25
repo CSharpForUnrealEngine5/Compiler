@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FRemoteControlField {
 // RemoteControlField
 	public EExposedFieldType FieldType;
-	public sbyte FieldName;
+	public string FieldName;
 	public FRCFieldPathInfo FieldPathInfo;
-	public TArray<sbyte> ComponentHierarchy_DEPRECATED;
+	public TArray<string> ComponentHierarchy_DEPRECATED;
 	public TSet<FRemoteControlProtocolBinding> ProtocolBindings;
 	public FSoftClassPath OwnerClass;
 	public bool bIsEditorOnly;

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Solvers/IKRig_LimbSolver.h")]
 public partial class UIKRig_LimbEffector : UObject {
 // IKRig_LimbEffector
-	public sbyte GoalName;
-	public sbyte BoneName;
+	public string GoalName;
+	public string BoneName;
 }

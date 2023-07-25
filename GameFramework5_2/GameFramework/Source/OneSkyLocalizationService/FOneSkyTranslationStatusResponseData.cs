@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("OneSkyLocalizationServiceResponseTypes.h")]
 public partial struct FOneSkyTranslationStatusResponseData {
 // OneSkyTranslationStatusResponseData
-	public sbyte file_name;
+	public string file_name;
 	public FOneSkyTranslationStatusResponseLocale locale;
-	public sbyte progress;
+	public string progress;
 	public int string_count;
 	public int word_count;
 }

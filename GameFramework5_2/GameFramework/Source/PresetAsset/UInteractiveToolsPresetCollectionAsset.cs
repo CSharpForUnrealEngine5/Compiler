@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements an asset that can be used to store tool settings as a named preset</summary>
 public partial class UInteractiveToolsPresetCollectionAsset : UObject {
 // InteractiveToolsPresetCollectionAsset
-	public TMap<sbyte,FInteractiveToolPresetStore> PerToolPresets;
+	public TMap<string,FInteractiveToolPresetStore> PerToolPresets;
 }

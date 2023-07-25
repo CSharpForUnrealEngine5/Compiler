@@ -10,7 +10,7 @@ public partial class UPersonaPreviewSceneDescription : UObject {
 	public TSoftObjectPtr<USkeletalMesh> PreviewMesh;
 	public TSoftObjectPtr<UAnimBlueprint> PreviewAnimationBlueprint;
 	public EPreviewAnimationBlueprintApplicationMethod ApplicationMethod;
-	public sbyte LinkedAnimGraphTag;
+	public string LinkedAnimGraphTag;
 	public TSoftObjectPtr<UDataAsset> AdditionalMeshes;
 	public UPreviewMeshCollection DefaultAdditionalMeshes;
 }

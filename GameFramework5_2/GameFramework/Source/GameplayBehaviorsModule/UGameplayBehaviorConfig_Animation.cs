@@ -6,6 +6,6 @@ public partial class UGameplayBehaviorConfig_Animation : UGameplayBehaviorConfig
 // GameplayBehaviorConfig_Animation
 	public TSoftObjectPtr<UAnimMontage> AnimMontage;
 	public float PlayRate;
-	public sbyte StartSectionName;
+	public string StartSectionName;
 	public bool bLoop;
 }

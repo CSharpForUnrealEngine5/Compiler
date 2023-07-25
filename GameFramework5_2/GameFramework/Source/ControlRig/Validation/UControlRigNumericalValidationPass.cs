@@ -12,7 +12,7 @@ public partial class UControlRigNumericalValidationPass : UControlRigValidationP
 	public float RotationPrecision;
 	public float ScalePrecision;
 	public float CurvePrecision;
-	public sbyte EventNameA;
-	public sbyte EventNameB;
+	public string EventNameA;
+	public string EventNameB;
 	public FRigPose Pose;
 }

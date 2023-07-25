@@ -7,8 +7,8 @@ public partial class AVirtualCameraPawnBase : APawn {
 // VirtualCameraPawnBase
 	public UVirtualCameraCineCameraComponent CineCamera;
 	public bool bSaveSettingsWhenClosing;
-	public sbyte SavedSettingsSlotName;
-	public TMap<sbyte,FVirtualCameraSettingsPreset> SettingsPresets;
+	public string SavedSettingsSlotName;
+	public TMap<string,FVirtualCameraSettingsPreset> SettingsPresets;
 	public void HighlightTappedActor(UObject HighlightedActor) {}
 	public void TriggerFocusPlaneTimer() {}
 	public void LoadFinished() {}

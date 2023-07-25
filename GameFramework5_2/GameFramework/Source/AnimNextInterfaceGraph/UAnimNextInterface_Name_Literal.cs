@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("AnimNextInterface_Name.h")]
 public partial class UAnimNextInterface_Name_Literal : UObject {
 // AnimNextInterface_Name_Literal
-	public sbyte Value;
+	public string Value;
 }

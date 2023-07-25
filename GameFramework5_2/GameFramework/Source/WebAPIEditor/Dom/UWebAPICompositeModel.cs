@@ -7,5 +7,5 @@ public partial class UWebAPICompositeModel : UWebAPIModelBase {
 	public FWebAPITypeNameVariant Name;
 	public EWebAPIModelCompositionType CompositionType;
 	public TArray<FWebAPITypeNameVariant> Types;
-	public sbyte GeneratedCodeText;
+	public string GeneratedCodeText;
 }

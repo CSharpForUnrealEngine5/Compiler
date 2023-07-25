@@ -20,6 +20,6 @@ public partial struct FStructSerializerLWCTypesTest {
 	public float Float;
 	public double Double;
 	public TArray<FVector> VectorArray;
-	public TMap<sbyte,FVector> StrToVec;
+	public TMap<string,FVector> StrToVec;
 	public TSet<FVector> VectorSet;
 }

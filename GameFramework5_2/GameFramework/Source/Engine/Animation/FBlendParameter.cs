@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/BlendSpace.h")]
 public partial struct FBlendParameter {
 // BlendParameter
-	public sbyte DisplayName;
+	public string DisplayName;
 	public float Min;
 	public float Max;
 	public int GridNum;

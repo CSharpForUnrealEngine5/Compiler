@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMParameter {
 // RigVMParameter
 	public ERigVMParameterType Type;
-	public sbyte Name;
+	public string Name;
 	public int RegisterIndex;
-	public sbyte CPPType;
+	public string CPPType;
 	public UScriptStruct ScriptStruct;
-	public sbyte ScriptStructPath;
+	public string ScriptStructPath;
 }

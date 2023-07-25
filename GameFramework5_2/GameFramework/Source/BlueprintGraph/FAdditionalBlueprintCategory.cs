@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("BlueprintEditorSettings.h")]
 public partial struct FAdditionalBlueprintCategory {
 // AdditionalBlueprintCategory
-	public sbyte Name;
+	public string Name;
 	public FSoftClassPath ClassFilter;
 }

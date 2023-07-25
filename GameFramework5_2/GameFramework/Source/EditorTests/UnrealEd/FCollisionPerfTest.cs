@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("UnrealEd/CollisionAutomationTests.h")]
 public partial struct FCollisionPerfTest {
 // CollisionPerfTest
-	public sbyte RootShapeAsset;
-	public sbyte ShapeType;
+	public string RootShapeAsset;
+	public string ShapeType;
 	public FVector CreationBounds;
 	public FVector CreationElements;
 }

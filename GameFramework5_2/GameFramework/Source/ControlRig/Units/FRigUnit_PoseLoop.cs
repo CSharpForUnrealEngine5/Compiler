@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Given a pose, execute iteratively across all items in the pose</summary>
 public partial struct FRigUnit_PoseLoop {
 // RigUnit_PoseLoop
-	public sbyte BlockToRun;
+	public string BlockToRun;
 	public FRigPose Pose;
 	public FRigElementKey Item;
 	public FTransform GlobalTransform;

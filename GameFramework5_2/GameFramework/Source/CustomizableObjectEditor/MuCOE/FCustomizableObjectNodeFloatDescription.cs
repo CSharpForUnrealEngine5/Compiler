@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeFloatParameter.h")]
 public partial struct FCustomizableObjectNodeFloatDescription {
 // CustomizableObjectNodeFloatDescription
-	public sbyte Name;
+	public string Name;
 }

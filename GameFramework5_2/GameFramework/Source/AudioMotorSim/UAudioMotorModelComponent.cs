@@ -12,10 +12,10 @@ public partial class UAudioMotorModelComponent : UActorComponent {
 	public void StopOutput() {}
 	public void AddMotorAudioComponent(object /*InComponent*/ InComponent) {}
 	public void RemoveMotorAudioComponent(object /*InComponent*/ InComponent) {}
-	public void AddMotorSimComponent(object /*InComponent*/ InComponent,int SortOrder=0) {}
+	public void AddMotorSimComponent(object /*InComponent*/ InComponent,int SortOrder/*=0*/) {}
 	public void RemoveMotorSimComponent(object /*InComponent*/ InComponent) {}
-	public float GetRpm(float ReturnValue) { return default; }
-	public int GetGear(int ReturnValue) { return default; }
-	public FAudioMotorSimRuntimeContext GetRuntimeInfo(FAudioMotorSimRuntimeContext ReturnValue) { return default; }
-	public FAudioMotorSimInputContext GetCachedInputData(FAudioMotorSimInputContext ReturnValue) { return default; }
+	public float GetRpm() { return default; }
+	public int GetGear() { return default; }
+	public FAudioMotorSimRuntimeContext GetRuntimeInfo() { return default; }
+	public FAudioMotorSimInputContext GetCachedInputData() { return default; }
 }

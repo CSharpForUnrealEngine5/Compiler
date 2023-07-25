@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Returns all items with a specific tag</summary>
 public partial struct FRigUnit_FindItemsWithMetadataTag {
 // RigUnit_FindItemsWithMetadataTag
-	public sbyte Tag;
+	public string Tag;
 	public TArray<FRigElementKey> Items;
 }

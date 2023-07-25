@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("AssetRegistry/AssetRegistryHelpers.h")]
 public partial struct FTagAndValue {
 // TagAndValue
-	public sbyte Tag;
-	public sbyte Value;
+	public string Tag;
+	public string Value;
 }

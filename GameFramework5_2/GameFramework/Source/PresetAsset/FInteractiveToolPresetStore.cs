@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("PresetAsset.h")]
 public partial struct FInteractiveToolPresetStore {
 // InteractiveToolPresetStore
-	public TMap<sbyte,FInteractiveToolPresetDefintion> NamedPresets;
+	public TMap<string,FInteractiveToolPresetDefintion> NamedPresets;
 }

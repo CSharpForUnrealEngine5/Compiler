@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FIconFolderInfo {
 // IconFolderInfo
 	public FDirectoryPath FolderPath;
-	public sbyte PrefixId;
+	public string PrefixId;
 	public FVector2D IconSize;
 }

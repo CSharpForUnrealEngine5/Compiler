@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure for collision response templates.</summary>
 public partial struct FCollisionResponseTemplate {
 // CollisionResponseTemplate
-	public sbyte Name;
+	public string Name;
 	public byte CollisionEnabled;
 	public bool bCanModify;
-	public sbyte ObjectTypeName;
+	public string ObjectTypeName;
 	public TArray<FResponseChannel> CustomResponses;
-	public sbyte HelpMessage;
+	public string HelpMessage;
 }

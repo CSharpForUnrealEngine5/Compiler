@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNode_UseCachedPose {
 // AnimNode_UseCachedPose
 	public FPoseLink LinkToCachingNode;
-	public sbyte CachePoseName;
+	public string CachePoseName;
 }

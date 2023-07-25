@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>TextureShare UObject interface</summary>
 public partial class UTextureShare : UObject {
 // TextureShare
-	public UObject GetOrCreateTextureShareObject(sbyte InShareName,UObject ReturnValue) { return default; }
-	public bool RemoveTextureShareObject(sbyte InShareName,bool ReturnValue) { return default; }
-	public TArray<UObject> GetTextureShareObjects(TArray<UObject> ReturnValue) { return default; }
+	public UObject GetOrCreateTextureShareObject(string InShareName) { return default; }
+	public bool RemoveTextureShareObject(string InShareName) { return default; }
+	public TArray<UObject> GetTextureShareObjects() { return default; }
 	public bool bEnable;
-	public sbyte ProcessName;
+	public string ProcessName;
 	public TArray<UTextureShareObject> TextureShareObjects;
 }

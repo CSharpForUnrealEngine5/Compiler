@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Renders text in the world with given font. Contains usual font related attributes such as Scale, Alignment, Color etc.</summary>
 public partial class UTextRenderComponent : UPrimitiveComponent {
 // TextRenderComponent
-	public sbyte Text;
+	public string Text;
 	public UMaterialInterface TextMaterial;
 	public UFont Font;
 	public byte HorizontalAlignment;
@@ -18,7 +18,7 @@ public partial class UTextRenderComponent : UPrimitiveComponent {
 	public float HorizSpacingAdjust;
 	public float VertSpacingAdjust;
 	public bool bAlwaysRenderAsText;
-	public void K2_SetText(sbyte Value) {}
+	public void K2_SetText(string Value) {}
 	public void SetTextMaterial(UObject Material) {}
 	public void SetFont(UObject Value) {}
 	public void SetHorizontalAlignment(EHorizTextAligment Value) {}
@@ -29,6 +29,6 @@ public partial class UTextRenderComponent : UPrimitiveComponent {
 	public void SetHorizSpacingAdjust(float Value) {}
 	public void SetVertSpacingAdjust(float Value) {}
 	public void SetWorldSize(float Value) {}
-	public FVector GetTextLocalSize(FVector ReturnValue) { return default; }
-	public FVector GetTextWorldSize(FVector ReturnValue) { return default; }
+	public FVector GetTextLocalSize() { return default; }
+	public FVector GetTextWorldSize() { return default; }
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Allows anim nodes to be tagged by name at edit time and retrieved by tag at runtime</summary>
 public partial struct FAnimSubsystem_Tag {
 // AnimSubsystem_Tag
-	public TMap<sbyte,int> NodeIndices;
+	public TMap<string,int> NodeIndices;
 }

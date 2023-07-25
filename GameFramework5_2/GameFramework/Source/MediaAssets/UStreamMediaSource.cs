@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("StreamMediaSource.h")]
 public partial class UStreamMediaSource : UBaseMediaSource {
 // StreamMediaSource
-	public sbyte StreamUrl;
+	public string StreamUrl;
 }

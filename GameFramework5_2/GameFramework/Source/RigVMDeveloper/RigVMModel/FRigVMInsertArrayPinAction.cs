@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action inserting a new array pin in the graph.</summary>
 public partial struct FRigVMInsertArrayPinAction {
 // RigVMInsertArrayPinAction
-	public sbyte ArrayPinPath;
+	public string ArrayPinPath;
 	public int Index;
-	public sbyte NewDefaultValue;
+	public string NewDefaultValue;
 }

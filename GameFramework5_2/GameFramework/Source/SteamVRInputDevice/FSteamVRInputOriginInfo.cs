@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FSteamVRInputOriginInfo {
 // SteamVRInputOriginInfo
 	public int TrackedDeviceIndex;
-	public sbyte RenderModelComponentName;
-	public sbyte TrackedDeviceModel;
+	public string RenderModelComponentName;
+	public string TrackedDeviceModel;
 }

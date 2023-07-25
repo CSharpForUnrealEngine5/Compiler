@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("SelectionSystem/DataprepStringFilter.h")]
 public partial class UDataprepStringFilterMatchingArray : UDataprepParameterizableObject {
 // DataprepStringFilterMatchingArray
-	public TArray<sbyte> Strings;
+	public TArray<string> Strings;
 	public bool bExpanded;
 }

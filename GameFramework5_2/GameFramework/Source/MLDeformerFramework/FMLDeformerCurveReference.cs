@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A reference to a curve implemented as a name.</summary>
 public partial struct FMLDeformerCurveReference {
 // MLDeformerCurveReference
-	public sbyte CurveName;
+	public string CurveName;
 }

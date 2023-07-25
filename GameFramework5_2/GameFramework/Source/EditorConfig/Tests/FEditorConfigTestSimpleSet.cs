@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Tests/EditorConfigTests.h")]
 public partial struct FEditorConfigTestSimpleSet {
 // EditorConfigTestSimpleSet
-	public TSet<sbyte> Set;
+	public TSet<string> Set;
 }

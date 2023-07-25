@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionParameter.h")]
 public partial class UMaterialExpressionParameter : UMaterialExpression {
 // MaterialExpressionParameter
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FGuid ExpressionGUID;
-	public sbyte Group;
+	public string Group;
 	public int SortPriority;
 }

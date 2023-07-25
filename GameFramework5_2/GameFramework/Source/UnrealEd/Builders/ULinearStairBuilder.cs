@@ -9,5 +9,5 @@ public partial class ULinearStairBuilder : UEditorBrushBuilder {
 	public int StepWidth;
 	public int NumSteps;
 	public int AddToFirstStep;
-	public sbyte GroupName;
+	public string GroupName;
 }

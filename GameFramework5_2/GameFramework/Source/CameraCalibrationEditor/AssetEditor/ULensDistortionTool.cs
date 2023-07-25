@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class ULensDistortionTool : UCameraCalibrationStep {
 // LensDistortionTool
 	public UCameraLensDistortionAlgo CurrentAlgo;
-	public TMap<sbyte,UClass> AlgosMap;
-	public TMap<sbyte,UClass> SupportedAlgosMap;
-	public TMap<sbyte,UMaterialInstanceDynamic> AlgoOverlayMIDs;
+	public TMap<string,UClass> AlgosMap;
+	public TMap<string,UClass> SupportedAlgosMap;
+	public TMap<string,UMaterialInstanceDynamic> AlgoOverlayMIDs;
 }

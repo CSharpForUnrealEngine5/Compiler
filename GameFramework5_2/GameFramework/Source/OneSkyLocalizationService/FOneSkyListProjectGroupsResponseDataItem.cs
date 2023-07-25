@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("OneSkyLocalizationServiceResponseTypes.h")]
 public partial struct FOneSkyListProjectGroupsResponseDataItem {
 // OneSkyListProjectGroupsResponseDataItem
-	public sbyte id;
-	public sbyte name;
+	public string id;
+	public string name;
 }

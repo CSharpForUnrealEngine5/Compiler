@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Particles/Attractor/ParticleModuleAttractorParticle.h")]
 public partial class UParticleModuleAttractorParticle : UParticleModuleAttractorBase {
 // ParticleModuleAttractorParticle
-	public sbyte EmitterName;
+	public string EmitterName;
 	public FRawDistributionFloat Range;
 	public bool bStrengthByDistance;
 	public FRawDistributionFloat Strength;

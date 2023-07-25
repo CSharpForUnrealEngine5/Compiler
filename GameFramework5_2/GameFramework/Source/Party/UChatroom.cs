@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Helper class for maintaining a single chat room at the game level</summary>
 public partial class UChatroom : UObject {
 // Chatroom
-	public sbyte CurrentChatRoomId;
+	public string CurrentChatRoomId;
 	public int MaxChatRoomRetries;
 	public int NumChatRoomRetries;
 }

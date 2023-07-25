@@ -7,9 +7,9 @@ public partial class UPhysicsConstraintTemplate : UObject {
 	public FConstraintInstance DefaultInstance;
 	public TArray<FPhysicsConstraintProfileHandle> ProfileHandles;
 	public FConstraintProfileProperties DefaultProfile;
-	public sbyte JointName_DEPRECATED;
-	public sbyte ConstraintBone1_DEPRECATED;
-	public sbyte ConstraintBone2_DEPRECATED;
+	public string JointName_DEPRECATED;
+	public string ConstraintBone1_DEPRECATED;
+	public string ConstraintBone2_DEPRECATED;
 	public FVector Pos1_DEPRECATED;
 	public FVector PriAxis1_DEPRECATED;
 	public FVector SecAxis1_DEPRECATED;

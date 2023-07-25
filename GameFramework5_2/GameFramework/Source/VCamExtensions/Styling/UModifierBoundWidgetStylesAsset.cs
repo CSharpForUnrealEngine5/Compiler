@@ -6,10 +6,10 @@ using CSharpToCpp.Utilities;
 public partial class UModifierBoundWidgetStylesAsset : UObject {
 // ModifierBoundWidgetStylesAsset
 	public UModifierBoundWidgetStyleDefinitions Rules;
-	public TArray<UObject> GetStylesForModifier(UObject Modifier,TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetStylesForConnectionPoint(UObject Modifier,sbyte ConnectionPoint,TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetStylesForName(sbyte Category,TArray<UObject> ReturnValue) { return default; }
-	public UObject GetStyleForModifierByClass(UObject Modifier,UClass Class,UObject ReturnValue) { return default; }
-	public UObject GetStyleForConnectionPointByClass(UObject Modifier,sbyte ConnectionPoint,UClass Class,UObject ReturnValue) { return default; }
-	public UObject GetStyleForNameByClass(sbyte Name,UClass Class,UObject ReturnValue) { return default; }
+	public TArray<UObject> GetStylesForModifier(UObject Modifier) { return default; }
+	public TArray<UObject> GetStylesForConnectionPoint(UObject Modifier,string ConnectionPoint) { return default; }
+	public TArray<UObject> GetStylesForName(string Category) { return default; }
+	public UObject GetStyleForModifierByClass(UObject Modifier,UClass Class) { return default; }
+	public UObject GetStyleForConnectionPointByClass(UObject Modifier,string ConnectionPoint,UClass Class) { return default; }
+	public UObject GetStyleForNameByClass(string Name,UClass Class) { return default; }
 }

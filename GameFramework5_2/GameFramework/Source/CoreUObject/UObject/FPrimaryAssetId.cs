@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPrimaryAssetId {
 // PrimaryAssetId
 	public FPrimaryAssetType PrimaryAssetType;
-	public sbyte PrimaryAssetName;
+	public string PrimaryAssetName;
 }

@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>URL structure.</summary>
 public partial struct FURL {
 // URL
-	public sbyte Protocol;
-	public sbyte Host;
+	public string Protocol;
+	public string Host;
 	public int Port;
 	public int Valid;
-	public sbyte Map;
-	public sbyte RedirectURL;
-	public TArray<sbyte> Op;
-	public sbyte Portal;
+	public string Map;
+	public string RedirectURL;
+	public TArray<string> Op;
+	public string Portal;
 }

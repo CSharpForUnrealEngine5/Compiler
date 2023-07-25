@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 ///<summary>A camera modifier that plays camera animation sequences.</summary>
 public partial class UCameraAnimationCameraModifier : UCameraModifier {
 // CameraAnimationCameraModifier
-	public FCameraAnimationHandle PlayCameraAnimation(UObject Sequence,FCameraAnimationParams Params,FCameraAnimationHandle ReturnValue) { return default; }
-	public bool IsCameraAnimationActive(FCameraAnimationHandle Handle,bool ReturnValue) { return default; }
-	public void StopCameraAnimation(FCameraAnimationHandle Handle,bool bImmediate=false) {}
-	public void StopAllCameraAnimationsOf(UObject Sequence,bool bImmediate=false) {}
-	public void StopAllCameraAnimations(bool bImmediate=false) {}
-	public UObject GetCameraAnimationCameraModifier(UObject WorldContextObject,int PlayerIndex,UObject ReturnValue) { return default; }
-	public UObject GetCameraAnimationCameraModifierFromID(UObject WorldContextObject,int ControllerID,UObject ReturnValue) { return default; }
-	public UObject GetCameraAnimationCameraModifierFromPlayerController(UObject PlayerController,UObject ReturnValue) { return default; }
+	public FCameraAnimationHandle PlayCameraAnimation(UObject Sequence,FCameraAnimationParams Params) { return default; }
+	public bool IsCameraAnimationActive(FCameraAnimationHandle Handle) { return default; }
+	public void StopCameraAnimation(FCameraAnimationHandle Handle,bool bImmediate/*=false*/) {}
+	public void StopAllCameraAnimationsOf(UObject Sequence,bool bImmediate/*=false*/) {}
+	public void StopAllCameraAnimations(bool bImmediate/*=false*/) {}
+	public UObject GetCameraAnimationCameraModifier(UObject WorldContextObject,int PlayerIndex) { return default; }
+	public UObject GetCameraAnimationCameraModifierFromID(UObject WorldContextObject,int ControllerID) { return default; }
+	public UObject GetCameraAnimationCameraModifierFromPlayerController(UObject PlayerController) { return default; }
 	public TArray<FActiveCameraAnimationInfo> ActiveAnimations;
 	public ushort NextInstanceSerialNumber;
 }

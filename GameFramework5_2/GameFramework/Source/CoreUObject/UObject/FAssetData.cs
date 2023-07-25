@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>A struct to hold important information about an assets found by the Asset Registry</summary>
 public partial struct FAssetData {
 // AssetData
-	public sbyte ObjectPath;
-	public sbyte PackageName;
-	public sbyte PackagePath;
-	public sbyte AssetName;
-	public sbyte AssetClass;
+	public string ObjectPath;
+	public string PackageName;
+	public string PackagePath;
+	public string AssetName;
+	public string AssetClass;
 	public FTopLevelAssetPath AssetClassPath;
 }

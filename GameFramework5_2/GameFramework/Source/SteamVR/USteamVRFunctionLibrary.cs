@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class USteamVRFunctionLibrary : UBlueprintFunctionLibrary {
 // SteamVRFunctionLibrary
 	public void GetValidTrackedDeviceIds(ESteamVRTrackedDeviceType DeviceType,TArray<int> OutTrackedDeviceIds) {}
-	public bool GetTrackedDevicePositionAndOrientation(int DeviceId,FVector OutPosition,FRotator OutOrientation,bool ReturnValue) { return default; }
-	public bool GetHandPositionAndOrientation(int ControllerIndex,EControllerHand Hand,FVector OutPosition,FRotator OutOrientation,bool ReturnValue) { return default; }
+	public bool GetTrackedDevicePositionAndOrientation(int DeviceId,FVector OutPosition,FRotator OutOrientation) { return default; }
+	public bool GetHandPositionAndOrientation(int ControllerIndex,EControllerHand Hand,FVector OutPosition,FRotator OutOrientation) { return default; }
 }

@@ -9,7 +9,7 @@ public partial struct FPCGActorSelectorSettings {
 	public bool bIncludeChildren;
 	public bool bDisableFilter;
 	public EPCGActorSelection ActorSelection;
-	public sbyte ActorSelectionTag;
+	public string ActorSelectionTag;
 	public UClass ActorSelectionClass;
 	public bool bSelectMultiple;
 }

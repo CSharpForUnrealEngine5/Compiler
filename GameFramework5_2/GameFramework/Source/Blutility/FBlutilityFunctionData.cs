@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FBlutilityFunctionData {
 // BlutilityFunctionData
 	public TSoftObjectPtr<UClass> Class;
-	public sbyte Name;
-	public sbyte NameText;
-	public sbyte Category;
-	public sbyte TooltipText;
+	public string Name;
+	public string NameText;
+	public string Category;
+	public string TooltipText;
 }

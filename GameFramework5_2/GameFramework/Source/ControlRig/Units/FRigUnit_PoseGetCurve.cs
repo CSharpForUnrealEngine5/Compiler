@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_PoseGetCurve {
 // RigUnit_PoseGetCurve
 	public FRigPose Pose;
-	public sbyte Curve;
+	public string Curve;
 	public bool Valid;
 	public float CurveValue;
 	public int CachedPoseElementIndex;

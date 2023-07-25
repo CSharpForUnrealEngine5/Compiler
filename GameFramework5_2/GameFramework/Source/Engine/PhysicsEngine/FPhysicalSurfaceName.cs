@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPhysicalSurfaceName {
 // PhysicalSurfaceName
 	public byte Type;
-	public sbyte Name;
+	public string Name;
 }

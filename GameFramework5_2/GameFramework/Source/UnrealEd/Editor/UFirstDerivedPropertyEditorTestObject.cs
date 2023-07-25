@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Editor/PropertyEditorTestObject.h")]
 public partial class UFirstDerivedPropertyEditorTestObject : UPropertyEditorTestInstancedObject {
 // FirstDerivedPropertyEditorTestObject
-	public sbyte String;
+	public string String;
 }

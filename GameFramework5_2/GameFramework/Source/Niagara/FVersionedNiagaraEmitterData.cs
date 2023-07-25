@@ -6,12 +6,12 @@ using CSharpToCpp.Utilities;
 public partial struct FVersionedNiagaraEmitterData {
 // VersionedNiagaraEmitterData
 	public FNiagaraAssetVersion Version;
-	public sbyte VersionChangeDescription;
+	public string VersionChangeDescription;
 	public ENiagaraPythonUpdateScriptReference UpdateScriptExecution;
-	public sbyte PythonUpdateScript;
+	public string PythonUpdateScript;
 	public FFilePath ScriptAsset;
 	public bool bDeprecated;
-	public sbyte DeprecationMessage;
+	public string DeprecationMessage;
 	public bool bLocalSpace;
 	public bool bDeterminism;
 	public int RandomSeed;
@@ -33,7 +33,7 @@ public partial struct FVersionedNiagaraEmitterData {
 	public FNiagaraEmitterScriptProperties UpdateScriptProps;
 	public FNiagaraEmitterScriptProperties SpawnScriptProps;
 	public FNiagaraParameterStore RendererBindings;
-	public TArray<sbyte> AttributesToPreserve;
+	public TArray<string> AttributesToPreserve;
 	public FNiagaraEmitterScriptProperties EmitterSpawnScriptProps;
 	public FNiagaraEmitterScriptProperties EmitterUpdateScriptProps;
 	public UNiagaraScriptSourceBase GraphSource;
@@ -44,7 +44,7 @@ public partial struct FVersionedNiagaraEmitterData {
 	public TArray<UNiagaraRendererProperties> RendererProperties;
 	public TArray<UNiagaraSimulationStageBase> SimulationStages;
 	public UNiagaraScript GPUComputeScript;
-	public TArray<sbyte> SharedEventGeneratorIds;
+	public TArray<string> SharedEventGeneratorIds;
 	public FNiagaraEmitterScalabilitySettings CurrentScalabilitySettings;
 	public UNiagaraEditorDataBase EditorData;
 	public UNiagaraEditorParametersAdapterBase EditorParameters;

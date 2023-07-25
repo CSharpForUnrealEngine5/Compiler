@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MeshSelectors/PCGMeshSelectorWeightedByCategory.h")]
 public partial class UPCGMeshSelectorWeightedByCategory : UPCGMeshSelectorBase {
 // PCGMeshSelectorWeightedByCategory
-	public sbyte CategoryAttribute;
+	public string CategoryAttribute;
 	public TArray<FPCGWeightedByCategoryEntryList> Entries;
 	public bool bUseAttributeMaterialOverrides;
-	public TArray<sbyte> MaterialOverrideAttributes;
+	public TArray<string> MaterialOverrideAttributes;
 }

@@ -11,5 +11,5 @@ public partial class UOpenXRHandTrackingLiveLinkRemapAsset : ULiveLinkRetargetAs
 	public EQuatSwizzleAxisB SwizzleY;
 	public EQuatSwizzleAxisB SwizzleZ;
 	public EQuatSwizzleAxisB SwizzleW;
-	public TMap<sbyte,sbyte> HandTrackingBoneNameMap;
+	public TMap<string,string> HandTrackingBoneNameMap;
 }

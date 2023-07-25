@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("BlueprintRuntimeSettings.h")]
 public partial struct FBlueprintWarningSettings {
 // BlueprintWarningSettings
-	public sbyte WarningIdentifier;
-	public sbyte WarningDescription;
+	public string WarningIdentifier;
+	public string WarningDescription;
 	public EBlueprintWarningBehavior WarningBehavior;
 }

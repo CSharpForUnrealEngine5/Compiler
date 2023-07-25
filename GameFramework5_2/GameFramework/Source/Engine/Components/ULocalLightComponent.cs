@@ -12,5 +12,5 @@ public partial class ULocalLightComponent : ULightComponent {
 	public FLightmassPointLightSettings LightmassSettings;
 	public void SetAttenuationRadius(float NewRadius) {}
 	public void SetIntensityUnits(ELightUnits NewIntensityUnits) {}
-	public float GetUnitsConversionFactor(ELightUnits SrcUnits,ELightUnits TargetUnits,float CosHalfConeAngle=-1,float ReturnValue) { return default; }
+	public float GetUnitsConversionFactor(ELightUnits SrcUnits,ELightUnits TargetUnits,float CosHalfConeAngle/*=-1f*/) { return default; }
 }

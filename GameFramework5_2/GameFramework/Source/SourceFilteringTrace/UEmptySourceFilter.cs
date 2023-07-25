@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Source filter implementation used to replace filter instance who's UClass is not loaded and or does not exist, primarily used by Filter Preset loading</summary>
 public partial class UEmptySourceFilter : UDataSourceFilter {
 // EmptySourceFilter
-	public sbyte MissingClassName;
+	public string MissingClassName;
 }

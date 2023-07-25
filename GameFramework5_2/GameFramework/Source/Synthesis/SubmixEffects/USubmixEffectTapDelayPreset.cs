@@ -11,7 +11,7 @@ public partial class USubmixEffectTapDelayPreset : USoundEffectSubmixPreset {
 	public void SetTap(int TapId,FTapDelayInfo TapInfo) {}
 	public void GetTap(int TapId,FTapDelayInfo TapInfo) {}
 	public void GetTapIds(TArray<int> TapIds) {}
-	public float GetMaxDelayInMilliseconds(float ReturnValue) { return default; }
+	public float GetMaxDelayInMilliseconds() { return default; }
 	public void SetInterpolationTime(float Time) {}
 	public FSubmixEffectTapDelaySettings Settings;
 }

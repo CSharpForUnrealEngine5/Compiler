@@ -9,7 +9,7 @@ public partial struct FSkeletalMeshLODInfo {
 	public float LODHysteresis;
 	public TArray<int> LODMaterialMap;
 	public TArray<bool> bEnableShadowCasting_DEPRECATED;
-	public TArray<sbyte> RemovedBones_DEPRECATED;
+	public TArray<string> RemovedBones_DEPRECATED;
 	public FSkeletalMeshBuildSettings BuildSettings;
 	public FSkeletalMeshOptimizationSettings ReductionSettings;
 	public TArray<FBoneReference> BonesToRemove;
@@ -18,7 +18,7 @@ public partial struct FSkeletalMeshLODInfo {
 	public float WeightOfPrioritization;
 	public UAnimSequence BakePose;
 	public UAnimSequence BakePoseOverride;
-	public sbyte SourceImportFilename;
+	public string SourceImportFilename;
 	public ESkinCacheUsage SkinCacheUsage;
 	public float MorphTargetPositionErrorTolerance;
 	public bool bHasBeenSimplified;

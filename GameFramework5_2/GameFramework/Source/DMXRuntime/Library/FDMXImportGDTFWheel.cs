@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFWheel {
 // DMXImportGDTFWheel
-	public sbyte Name;
+	public string Name;
 	public TArray<FDMXImportGDTFWheelSlot> Slots;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes one link in a full property path</summary>
 public partial struct FCapturedPropSegment {
 // CapturedPropSegment
-	public sbyte PropertyName;
+	public string PropertyName;
 	public int PropertyIndex;
-	public sbyte ComponentName;
+	public string ComponentName;
 }

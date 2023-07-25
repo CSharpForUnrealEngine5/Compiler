@@ -7,7 +7,7 @@ public partial class UAbilityTask_SpawnActor : UAbilityTask {
 // AbilityTask_SpawnActor
 	public FSpawnActorDelegate Success;
 	public FSpawnActorDelegate DidNotSpawn;
-	public UObject SpawnActor(UObject OwningAbility,FGameplayAbilityTargetDataHandle TargetData,UClass Class,UObject ReturnValue) { return default; }
-	public bool BeginSpawningActor(UObject OwningAbility,FGameplayAbilityTargetDataHandle TargetData,UClass Class,UObject SpawnedActor,bool ReturnValue) { return default; }
+	public UObject SpawnActor(UObject OwningAbility,FGameplayAbilityTargetDataHandle TargetData,UClass Class) { return default; }
+	public bool BeginSpawningActor(UObject OwningAbility,FGameplayAbilityTargetDataHandle TargetData,UClass Class,UObject SpawnedActor) { return default; }
 	public void FinishSpawningActor(UObject OwningAbility,FGameplayAbilityTargetDataHandle TargetData,UObject SpawnedActor) {}
 }

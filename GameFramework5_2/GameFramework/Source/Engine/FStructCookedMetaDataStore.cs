@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FStructCookedMetaDataStore {
 // StructCookedMetaDataStore
 	public FObjectCookedMetaDataStore ObjectMetaData;
-	public TMap<sbyte,FFieldCookedMetaDataStore> PropertiesMetaData;
+	public TMap<string,FFieldCookedMetaDataStore> PropertiesMetaData;
 }

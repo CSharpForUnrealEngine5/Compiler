@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Event that signals a Sequencer just been opened.</summary>
 public partial struct FConcertSequencerOpenEvent {
 // ConcertSequencerOpenEvent
-	public sbyte SequenceObjectPath;
+	public string SequenceObjectPath;
 }

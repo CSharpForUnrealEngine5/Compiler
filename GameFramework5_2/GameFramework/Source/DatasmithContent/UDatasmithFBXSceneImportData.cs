@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UDatasmithFBXSceneImportData : UDatasmithSceneImportData {
 // DatasmithFBXSceneImportData
 	public bool bGenerateLightmapUVs;
-	public sbyte TexturesDir;
+	public string TexturesDir;
 	public byte IntermediateSerialization;
 	public bool bColorizeMaterials;
 }

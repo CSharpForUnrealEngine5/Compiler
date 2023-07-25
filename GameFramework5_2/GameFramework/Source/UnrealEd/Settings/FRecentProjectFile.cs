@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Settings/EditorSettings.h")]
 public partial struct FRecentProjectFile {
 // RecentProjectFile
-	public sbyte ProjectName;
+	public string ProjectName;
 	public FDateTime LastOpenTime;
 }

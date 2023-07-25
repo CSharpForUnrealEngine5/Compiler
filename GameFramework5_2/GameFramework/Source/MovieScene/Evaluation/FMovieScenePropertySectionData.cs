@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Evaluation/MovieScenePropertyTemplate.h")]
 public partial struct FMovieScenePropertySectionData {
 // MovieScenePropertySectionData
-	public sbyte PropertyName;
-	public sbyte PropertyPath;
+	public string PropertyName;
+	public string PropertyPath;
 }

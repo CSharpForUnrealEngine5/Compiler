@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Layers/Layer.h")]
 public partial class ULayer : UObject {
 // Layer
-	public sbyte LayerName;
+	public string LayerName;
 	public bool bIsVisible;
 	public TArray<FLayerActorStats> ActorStats;
 }

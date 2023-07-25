@@ -10,6 +10,6 @@ public partial class UCurvedStairBuilder : UEditorBrushBuilder {
 	public int AngleOfCurve;
 	public int NumSteps;
 	public int AddToFirstStep;
-	public sbyte GroupName;
+	public string GroupName;
 	public bool CounterClockwise;
 }

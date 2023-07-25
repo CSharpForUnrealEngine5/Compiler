@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A single redirect from a deleted tag to the new tag that should replace it</summary>
 public partial struct FGameplayTagRedirect {
 // GameplayTagRedirect
-	public sbyte OldTagName;
-	public sbyte NewTagName;
+	public string OldTagName;
+	public string NewTagName;
 }

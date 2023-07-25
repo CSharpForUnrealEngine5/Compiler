@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNode_Root {
 // AnimNode_Root
 	public FPoseLink Result;
-	public sbyte Name;
-	public sbyte Group;
+	public string Name;
+	public string Group;
 }

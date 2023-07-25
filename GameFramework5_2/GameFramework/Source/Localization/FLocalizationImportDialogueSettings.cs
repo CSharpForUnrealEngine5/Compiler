@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FLocalizationImportDialogueSettings {
 // LocalizationImportDialogueSettings
 	public FDirectoryPath RawAudioPath;
-	public sbyte ImportedDialogueFolder;
+	public string ImportedDialogueFolder;
 	public bool bImportNativeAsSource;
 }

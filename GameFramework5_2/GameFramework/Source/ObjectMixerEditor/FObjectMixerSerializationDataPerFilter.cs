@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ObjectMixerEditorSerializedData.h")]
 public partial struct FObjectMixerSerializationDataPerFilter {
 // ObjectMixerSerializationDataPerFilter
-	public sbyte FilterClassName;
+	public string FilterClassName;
 	public TArray<FObjectMixerCollectionObjectSet> SerializedCollections;
 	public TSet<FObjectMixerColumnData> SerializedColumnData;
 }

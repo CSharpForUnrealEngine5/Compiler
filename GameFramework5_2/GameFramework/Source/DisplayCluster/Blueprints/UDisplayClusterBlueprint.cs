@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UDisplayClusterBlueprint : UBlueprint {
 // DisplayClusterBlueprint
 	public bool bRunConstructionScriptOnInteractiveChange;
-	public sbyte ConfigExport;
+	public string ConfigExport;
 	public UDisplayClusterConfigurationData ConfigData;
 	public int AssetVersion;
 }

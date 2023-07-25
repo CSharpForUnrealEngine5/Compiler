@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/Skeleton.h")]
 public partial struct FAnimSlotGroup {
 // AnimSlotGroup
-	public sbyte GroupName;
-	public TArray<sbyte> SlotNames;
+	public string GroupName;
+	public TArray<string> SlotNames;
 }

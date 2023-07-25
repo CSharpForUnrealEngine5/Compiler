@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetControlDrivenList is used to retrieve the list of affected controls of an indirect control</summary>
 public partial struct FRigUnit_GetControlDrivenList {
 // RigUnit_GetControlDrivenList
-	public sbyte Control;
+	public string Control;
 	public TArray<FRigElementKey> Driven;
 	public FCachedRigElement CachedControlIndex;
 }

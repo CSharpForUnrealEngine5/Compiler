@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Node Information to save with</summary>
 public partial struct FNodeItem {
 // NodeItem
-	public sbyte ParentName;
+	public string ParentName;
 	public FTransform Transform;
 }

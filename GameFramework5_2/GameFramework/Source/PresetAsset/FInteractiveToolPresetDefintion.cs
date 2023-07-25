@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FInteractiveToolPresetDefintion {
 // InteractiveToolPresetDefintion
 	public TArray<UObject> Properties;
-	public sbyte Label;
-	public sbyte Tooltip;
+	public string Label;
+	public string Tooltip;
 }

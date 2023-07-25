@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkRefSkeleton.h")]
 public partial struct FLiveLinkRefSkeleton {
 // LiveLinkRefSkeleton
-	public TArray<sbyte> BoneNames;
+	public TArray<string> BoneNames;
 	public TArray<int> BoneParents;
 }

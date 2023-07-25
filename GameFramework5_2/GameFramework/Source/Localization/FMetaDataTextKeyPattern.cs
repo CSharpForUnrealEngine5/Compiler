@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("LocalizationTargetTypes.h")]
 public partial struct FMetaDataTextKeyPattern {
 // MetaDataTextKeyPattern
-	public sbyte Pattern;
+	public string Pattern;
 }

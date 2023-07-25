@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Class that holds preset data for the automation window</summary>
 public partial struct FAutomationTestPreset {
 // AutomationTestPreset
-	public sbyte Id;
-	public sbyte Name;
-	public TArray<sbyte> EnabledTests;
+	public string Id;
+	public string Name;
+	public TArray<string> EnabledTests;
 }

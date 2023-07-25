@@ -12,7 +12,7 @@ public partial class UNiagaraBakerSettings : UObject {
 	public TArray<UNiagaraBakerOutput> Outputs;
 	public TArray<FNiagaraBakerCameraSettings> CameraSettings;
 	public int CurrentCameraIndex;
-	public sbyte BakeQualityLevel;
+	public string BakeQualityLevel;
 	public bool bRenderComponentOnly;
 	public TArray<FNiagaraBakerTextureSettings> OutputTextures_DEPRECATED;
 	public ENiagaraBakerViewMode CameraViewportMode_DEPRECATED;

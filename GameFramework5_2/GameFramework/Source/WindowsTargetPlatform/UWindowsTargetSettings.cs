@@ -6,20 +6,20 @@ using CSharpToCpp.Utilities;
 public partial class UWindowsTargetSettings : UObject {
 // WindowsTargetSettings
 	public EDefaultGraphicsRHI DefaultGraphicsRHI;
-	public TArray<sbyte> TargetedRHIs_DEPRECATED;
-	public TArray<sbyte> D3D12TargetedShaderFormats;
-	public TArray<sbyte> D3D11TargetedShaderFormats;
-	public TArray<sbyte> VulkanTargetedShaderFormats;
+	public TArray<string> TargetedRHIs_DEPRECATED;
+	public TArray<string> D3D12TargetedShaderFormats;
+	public TArray<string> D3D11TargetedShaderFormats;
+	public TArray<string> VulkanTargetedShaderFormats;
 	public ECompilerVersion Compiler;
 	public int AudioSampleRate;
 	public int AudioCallbackBufferFrameSize;
 	public int AudioNumBuffersToEnqueue;
 	public int AudioMaxChannels;
 	public int AudioNumSourceWorkers;
-	public sbyte SpatializationPlugin;
-	public sbyte SourceDataOverridePlugin;
-	public sbyte ReverbPlugin;
-	public sbyte OcclusionPlugin;
+	public string SpatializationPlugin;
+	public string SourceDataOverridePlugin;
+	public string ReverbPlugin;
+	public string OcclusionPlugin;
 	public FPlatformRuntimeAudioCompressionOverrides CompressionOverrides;
 	public int CacheSizeKB;
 	public int MaxChunkSizeOverrideKB;

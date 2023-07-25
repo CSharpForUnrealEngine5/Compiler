@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial class UAnimNotifyState_TimedNiagaraEffect : UAnimNotifyState {
 // AnimNotifyState_TimedNiagaraEffect
 	public UNiagaraSystem Template;
-	public sbyte SocketName;
+	public string SocketName;
 	public FVector LocationOffset;
 	public FRotator RotationOffset;
 	public bool bDestroyAtEnd;
-	public UObject GetSpawnedEffect(UObject MeshComp,UObject ReturnValue) { return default; }
+	public UObject GetSpawnedEffect(UObject MeshComp) { return default; }
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("LocalizationTargetTypes.h")]
 public partial struct FGatherTextFileExtension {
 // GatherTextFileExtension
-	public sbyte Pattern;
+	public string Pattern;
 }

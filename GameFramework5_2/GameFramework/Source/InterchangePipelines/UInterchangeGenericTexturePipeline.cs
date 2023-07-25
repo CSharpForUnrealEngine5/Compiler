@@ -8,7 +8,7 @@ public partial class UInterchangeGenericTexturePipeline : UInterchangePipelineBa
 	public bool bDetectNormalMapTexture;
 	public bool bFlipNormalMapGreenChannel;
 	public bool bImportUDIMs;
-	public TSet<sbyte> FileExtensionsToImportAsLongLatCubemap;
+	public TSet<string> FileExtensionsToImportAsLongLatCubemap;
 	public bool bPreferCompressedSourceData;
 	public bool bAllowNonPowerOfTwo;
 	public UInterchangeBaseNodeContainer BaseNodeContainer;

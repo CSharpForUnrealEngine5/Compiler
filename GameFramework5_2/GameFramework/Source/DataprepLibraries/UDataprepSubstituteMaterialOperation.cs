@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>On each static mesh or actor to process, replace the material matching the criteria with the specified one</summary>
 public partial class UDataprepSubstituteMaterialOperation : UDataprepOperation {
 // DataprepSubstituteMaterialOperation
-	public sbyte MaterialSearch;
+	public string MaterialSearch;
 	public EEditorScriptingStringMatchType StringMatch;
 	public UMaterialInterface MaterialSubstitute;
 }

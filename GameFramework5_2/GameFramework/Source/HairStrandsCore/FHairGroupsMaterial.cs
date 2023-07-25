@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FHairGroupsMaterial {
 // HairGroupsMaterial
 	public UMaterialInterface Material;
-	public sbyte SlotName;
+	public string SlotName;
 }

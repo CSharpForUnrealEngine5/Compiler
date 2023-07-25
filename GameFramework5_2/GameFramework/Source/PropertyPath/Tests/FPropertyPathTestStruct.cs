@@ -10,7 +10,7 @@ public partial struct FPropertyPathTestStruct {
 	public byte EnumTwo;
 	public byte EnumThree;
 	public byte EnumFour;
-	public sbyte String;
+	public string String;
 	public float Float;
 	public FPropertyPathTestInnerStruct InnerStruct;
 	public UPropertyPathTestObject InnerObject;

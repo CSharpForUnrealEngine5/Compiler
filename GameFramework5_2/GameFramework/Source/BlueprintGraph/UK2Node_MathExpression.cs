@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>This node type acts like a collapsed node, a single node that represents</summary>
 public partial class UK2Node_MathExpression : UK2Node_Composite {
 // K2Node_MathExpression
-	public sbyte Expression;
+	public string Expression;
 	public bool bMadeAfterRotChange;
 }

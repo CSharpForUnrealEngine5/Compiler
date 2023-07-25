@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Subsystems/EditorSubsystemBlueprintLibrary.h")]
 public partial class UEditorSubsystemBlueprintLibrary : UBlueprintFunctionLibrary {
 // EditorSubsystemBlueprintLibrary
-	public UObject GetEditorSubsystem(UClass Class,UObject ReturnValue) { return default; }
+	public UObject GetEditorSubsystem(UClass Class) { return default; }
 }

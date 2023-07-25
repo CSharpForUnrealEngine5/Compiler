@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("AutomationTestExcludelist.h")]
 public partial struct FAutomationTestExcludeOptions {
 // AutomationTestExcludeOptions
-	public sbyte Test;
-	public sbyte Reason;
+	public string Test;
+	public string Reason;
 	public short RHIs;
 	public bool Warn;
 }

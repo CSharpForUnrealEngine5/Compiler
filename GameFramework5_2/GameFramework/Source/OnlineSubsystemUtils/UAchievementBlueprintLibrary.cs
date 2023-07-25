@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Library of synchronous achievement calls</summary>
 public partial class UAchievementBlueprintLibrary : UBlueprintFunctionLibrary {
 // AchievementBlueprintLibrary
-	public void GetCachedAchievementProgress(UObject WorldContextObject,UObject PlayerController,sbyte AchievementID,bool bFoundID,float Progress) {}
-	public void GetCachedAchievementDescription(UObject WorldContextObject,UObject PlayerController,sbyte AchievementID,bool bFoundID,sbyte Title,sbyte LockedDescription,sbyte UnlockedDescription,bool bHidden) {}
+	public void GetCachedAchievementProgress(UObject WorldContextObject,UObject PlayerController,string AchievementID,bool bFoundID,float Progress) {}
+	public void GetCachedAchievementDescription(UObject WorldContextObject,UObject PlayerController,string AchievementID,bool bFoundID,string Title,string LockedDescription,string UnlockedDescription,bool bHidden) {}
 }

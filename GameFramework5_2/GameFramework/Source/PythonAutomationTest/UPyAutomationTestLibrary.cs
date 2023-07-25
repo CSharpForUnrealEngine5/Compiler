@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UPyAutomationTestLibrary : UBlueprintFunctionLibrary {
 // PyAutomationTestLibrary
 	public void SetIsRunningPyLatentCommand(bool isRunning) {}
-	public bool GetIsRunningPyLatentCommand(bool ReturnValue) { return default; }
+	public bool GetIsRunningPyLatentCommand() { return default; }
 	public void SetPyLatentCommandTimeout(float Seconds) {}
-	public float GetPyLatentCommandTimeout(float ReturnValue) { return default; }
+	public float GetPyLatentCommandTimeout() { return default; }
 	public void ResetPyLatentCommand() {}
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A chain of nodes in a hierarchy</summary>
 public partial struct FNodeChain {
 // NodeChain
-	public TArray<sbyte> Nodes;
+	public TArray<string> Nodes;
 }

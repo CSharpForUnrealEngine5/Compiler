@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Selects a child node based on the value of a integer parameter</summary>
 public partial class USoundNodeSwitch : USoundNode {
 // SoundNodeSwitch
-	public sbyte IntParameterName;
+	public string IntParameterName;
 }

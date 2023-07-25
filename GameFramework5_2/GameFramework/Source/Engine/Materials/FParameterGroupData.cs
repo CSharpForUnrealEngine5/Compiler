@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/Material.h")]
 public partial struct FParameterGroupData {
 // ParameterGroupData
-	public sbyte GroupName;
+	public string GroupName;
 	public int GroupSortPriority;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("OpenColorIOColorSpace.h")]
 public partial struct FOpenColorIODisplayView {
 // OpenColorIODisplayView
-	public sbyte Display;
-	public sbyte View;
+	public string Display;
+	public string View;
 }

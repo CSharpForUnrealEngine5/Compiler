@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("DMXAttribute.h")]
 public partial class UDMXAttributeNameConversions : UBlueprintFunctionLibrary {
 // DMXAttributeNameConversions
-	public sbyte Conv_DMXAttributeToString(FDMXAttributeName InAttribute,sbyte ReturnValue) { return default; }
-	public sbyte Conv_DMXAttributeToName(FDMXAttributeName InAttribute,sbyte ReturnValue) { return default; }
+	public string Conv_DMXAttributeToString(FDMXAttributeName InAttribute) { return default; }
+	public string Conv_DMXAttributeToName(FDMXAttributeName InAttribute) { return default; }
 }

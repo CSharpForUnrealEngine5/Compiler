@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>UImportSubsystem</summary>
 public partial class UImportSubsystem : UEditorSubsystem {
 // ImportSubsystem
-	public void FOnAssetPreImport_Dyn(UObject InFactory,UClass InClass,UObject InParent,sbyte Name,sbyte Type) {}
+	public void FOnAssetPreImport_Dyn(UObject InFactory,UClass InClass,UObject InParent,string Name,string Type) {}
 	public void FOnAssetPostImport_Dyn(UObject InFactory,UObject InCreatedObject) {}
 	public void FOnAssetReimport_Dyn(UObject InCreatedObject) {}
 	public void FOnAssetPostLODImport_Dyn(UObject InObject,int InLODIndex) {}

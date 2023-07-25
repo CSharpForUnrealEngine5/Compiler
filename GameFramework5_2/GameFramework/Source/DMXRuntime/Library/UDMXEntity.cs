@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for all entity types</summary>
 public partial class UDMXEntity : UDMXObjectBase {
 // DMXEntity
-	public sbyte Name;
+	public string Name;
 	public TWeakObjectPtr<UDMXLibrary> ParentLibrary;
 	public FGuid Id;
 }

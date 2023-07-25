@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>This class is the base drag drop operation for UMG, extend it to add additional data and add new functionality.</summary>
 public partial class UDragDropOperation : UObject {
 // DragDropOperation
-	public sbyte Tag;
+	public string Tag;
 	public UObject Payload;
 	public UWidget DefaultDragVisual;
 	public EDragPivot Pivot;

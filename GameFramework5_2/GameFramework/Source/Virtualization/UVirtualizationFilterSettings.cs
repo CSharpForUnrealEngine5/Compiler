@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Settings to use when determining if a package should be included/excluded from the</summary>
 public partial class UVirtualizationFilterSettings : UObject {
 // VirtualizationFilterSettings
-	public TArray<sbyte> ExcludePackagePaths;
-	public TArray<sbyte> IncludePackagePaths;
+	public TArray<string> ExcludePackagePaths;
+	public TArray<string> IncludePackagePaths;
 }

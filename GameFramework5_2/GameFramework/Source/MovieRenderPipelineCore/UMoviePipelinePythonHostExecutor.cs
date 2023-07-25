@@ -7,7 +7,7 @@ public partial class UMoviePipelinePythonHostExecutor : UMoviePipelineExecutorBa
 // MoviePipelinePythonHostExecutor
 	public void ExecuteDelayed(UObject InPipelineQueue) {}
 	public void OnMapLoad(UObject InWorld) {}
-	public UObject GetLastLoadedWorld(UObject ReturnValue) { return default; }
+	public UObject GetLastLoadedWorld() { return default; }
 	public UClass ExecutorClass;
 	public UMoviePipelineQueue PipelineQueue;
 	public UWorld LastLoadedWorld;

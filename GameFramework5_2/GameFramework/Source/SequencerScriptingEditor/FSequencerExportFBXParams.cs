@@ -10,5 +10,5 @@ public partial struct FSequencerExportFBXParams {
 	public TArray<FMovieSceneBindingProxy> Bindings;
 	public TArray<UMovieSceneTrack> Tracks;
 	public UFbxExportOption OverrideOptions;
-	public sbyte FBXFileName;
+	public string FBXFileName;
 }

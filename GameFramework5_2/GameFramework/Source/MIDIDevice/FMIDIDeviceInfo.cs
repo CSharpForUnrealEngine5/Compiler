@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FMIDIDeviceInfo {
 // MIDIDeviceInfo
 	public int DeviceID;
-	public sbyte DeviceName;
+	public string DeviceName;
 	public bool bIsAlreadyInUse;
 	public bool bIsDefaultDevice;
 }

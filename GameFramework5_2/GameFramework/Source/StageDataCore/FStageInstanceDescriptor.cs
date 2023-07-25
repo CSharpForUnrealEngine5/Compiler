@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds descriptive information about that data providers.</summary>
 public partial struct FStageInstanceDescriptor {
 // StageInstanceDescriptor
-	public sbyte MachineName;
+	public string MachineName;
 	public uint ProcessId;
-	public sbyte RolesStringified;
-	public sbyte FriendlyName;
+	public string RolesStringified;
+	public string FriendlyName;
 	public int SessionId;
 }

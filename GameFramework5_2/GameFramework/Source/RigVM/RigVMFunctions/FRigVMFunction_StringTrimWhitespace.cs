@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Trims the whitespace from a string (start and end)</summary>
 public partial struct FRigVMFunction_StringTrimWhitespace {
 // RigVMFunction_StringTrimWhitespace
-	public sbyte Value;
-	public sbyte Result;
+	public string Value;
+	public string Result;
 }

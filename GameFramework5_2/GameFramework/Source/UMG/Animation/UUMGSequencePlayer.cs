@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/UMGSequencePlayer.h")]
 public partial class UUMGSequencePlayer : UObject {
 // UMGSequencePlayer
-	public sbyte GetUserTag(sbyte ReturnValue) { return default; }
-	public void SetUserTag(sbyte InUserTag) {}
+	public string GetUserTag() { return default; }
+	public void SetUserTag(string InUserTag) {}
 	public UWidgetAnimation Animation;
 	public FMovieSceneRootEvaluationTemplateInstance RootTemplateInstance;
 }

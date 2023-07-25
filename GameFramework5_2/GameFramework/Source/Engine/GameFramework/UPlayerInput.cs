@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial class UPlayerInput : UObject {
 // PlayerInput
 	public TArray<FKeyBind> DebugExecBindings;
-	public TArray<sbyte> InvertedAxis;
+	public TArray<string> InvertedAxis;
 	public void SetMouseSensitivity(float Sensitivity) {}
-	public void SetBind(sbyte BindName,sbyte Command) {}
+	public void SetBind(string BindName,string Command) {}
 	public void InvertAxisKey(FKey AxisKey) {}
-	public void InvertAxis(sbyte AxisName) {}
+	public void InvertAxis(string AxisName) {}
 	public void ClearSmoothing() {}
-	public UObject GetOuterAPlayerController(UObject ReturnValue) { return default; }
+	public UObject GetOuterAPlayerController() { return default; }
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An action renaming a node in the graph.</summary>
 public partial struct FRigVMRenameNodeAction {
 // RigVMRenameNodeAction
-	public sbyte OldNodeName;
-	public sbyte NewNodeName;
+	public string OldNodeName;
+	public string NewNodeName;
 }

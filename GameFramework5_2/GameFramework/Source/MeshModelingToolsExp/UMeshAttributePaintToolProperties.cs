@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MeshAttributePaintTool.h")]
 public partial class UMeshAttributePaintToolProperties : UInteractiveToolPropertySet {
 // MeshAttributePaintToolProperties
-	public sbyte Attribute;
-	public TArray<sbyte> GetAttributeNames(TArray<sbyte> ReturnValue) { return default; }
+	public string Attribute;
+	public TArray<string> GetAttributeNames() { return default; }
 }

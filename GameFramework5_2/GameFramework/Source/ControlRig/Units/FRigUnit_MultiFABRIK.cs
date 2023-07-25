@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>The FABRIK solver can solve multi chains within a root using multi effectors</summary>
 public partial struct FRigUnit_MultiFABRIK {
 // RigUnit_MultiFABRIK
-	public sbyte RootBone;
+	public string RootBone;
 	public TArray<FRigUnit_MultiFABRIK_EndEffector> Effectors;
 	public float Precision;
 	public bool bPropagateToChildren;

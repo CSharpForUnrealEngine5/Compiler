@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Global settings for Epic Stage App integration.</summary>
 public partial class UStageAppSettings : UDeveloperSettings {
 // StageAppSettings
-	public sbyte DiscoveryEndpoint;
+	public string DiscoveryEndpoint;
 	public int DiscoveryPort;
 	public float DiscoverySocketWaitTime;
 }

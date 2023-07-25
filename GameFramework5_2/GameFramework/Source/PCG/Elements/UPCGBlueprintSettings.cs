@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 public partial class UPCGBlueprintSettings : UPCGSettings {
 // PCGBlueprintSettings
 	public void SetElementType(UClass InElementType,UObject ElementInstance) {}
-	public UClass GetElementType(UClass ReturnValue) { return default; }
+	public UClass GetElementType() { return default; }
 	public UClass BlueprintElement_DEPRECATED;
 	public UClass BlueprintElementType;
 	public UPCGBlueprintElement BlueprintElementInstance;
-	public TArray<sbyte> TrackedActorTags;
+	public TArray<string> TrackedActorTags;
 	public bool bTrackActorsOnlyWithinBounds;
 	public bool bCreatesArtifacts_DEPRECATED;
 	public bool bCanBeMultithreaded_DEPRECATED;

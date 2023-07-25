@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraDataInterfaceEmitterBinding {
 // NiagaraDataInterfaceEmitterBinding
 	public ENiagaraDataInterfaceEmitterBindingMode BindingMode;
-	public sbyte EmitterName;
+	public string EmitterName;
 }

@@ -6,12 +6,12 @@ using CSharpToCpp.Utilities;
 public partial class ADynamicMeshActor : AActor {
 // DynamicMeshActor
 	public UDynamicMeshComponent DynamicMeshComponent;
-	public UObject GetDynamicMeshComponent(UObject ReturnValue) { return default; }
+	public UObject GetDynamicMeshComponent() { return default; }
 	public bool bEnableComputeMeshPool;
 	public UDynamicMeshPool DynamicMeshPool;
-	public UObject GetComputeMeshPool(UObject ReturnValue) { return default; }
-	public UObject AllocateComputeMesh(UObject ReturnValue) { return default; }
-	public bool ReleaseComputeMesh(UObject Mesh,bool ReturnValue) { return default; }
+	public UObject GetComputeMeshPool() { return default; }
+	public UObject AllocateComputeMesh() { return default; }
+	public bool ReleaseComputeMesh(UObject Mesh) { return default; }
 	public void ReleaseAllComputeMeshes() {}
 	public void FreeAllComputeMeshes() {}
 }

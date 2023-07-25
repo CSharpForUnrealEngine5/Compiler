@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MSAssetImportData.h")]
 public partial struct FFoliageTypeInfo {
 // FoliageTypeInfo
-	public sbyte path;
+	public string path;
 }

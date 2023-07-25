@@ -6,7 +6,7 @@ public partial class UActorFolder : UObject {
 // ActorFolder
 	public FGuid ParentFolderGuid;
 	public FGuid FolderGuid;
-	public sbyte FolderLabel;
+	public string FolderLabel;
 	public bool bFolderInitiallyExpanded;
 	public bool bIsDeleted;
 }

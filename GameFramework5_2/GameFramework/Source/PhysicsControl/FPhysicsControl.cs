@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FPhysicsControl {
 // PhysicsControl
 	public UMeshComponent ParentMeshComponent;
-	public sbyte ParentBoneName;
+	public string ParentBoneName;
 	public UMeshComponent ChildMeshComponent;
-	public sbyte ChildBoneName;
+	public string ChildBoneName;
 	public FPhysicsControlData ControlData;
 	public FPhysicsControlMultiplier ControlMultiplier;
 	public FPhysicsControlTarget ControlTarget;

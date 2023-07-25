@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 ///<summary>A single test reply, used by FAutomationWorkerRequestTestsReplyComplete</summary>
 public partial struct FAutomationWorkerSingleTestReply {
 // AutomationWorkerSingleTestReply
-	public sbyte DisplayName;
-	public sbyte FullTestPath;
-	public sbyte TestName;
-	public sbyte TestParameter;
-	public sbyte SourceFile;
+	public string DisplayName;
+	public string FullTestPath;
+	public string TestName;
+	public string TestParameter;
+	public string SourceFile;
 	public int SourceFileLine;
-	public sbyte AssetPath;
-	public sbyte OpenCommand;
+	public string AssetPath;
+	public string OpenCommand;
 	public uint TestFlags;
 	public uint NumParticipantsRequired;
 }

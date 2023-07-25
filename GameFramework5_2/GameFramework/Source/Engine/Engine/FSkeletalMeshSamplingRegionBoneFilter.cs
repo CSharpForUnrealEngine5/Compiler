@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Filter to include or exclude bones and their associated triangles from a sampling region.</summary>
 public partial struct FSkeletalMeshSamplingRegionBoneFilter {
 // SkeletalMeshSamplingRegionBoneFilter
-	public sbyte BoneName;
+	public string BoneName;
 	public bool bIncludeOrExclude;
 	public bool bApplyToChildren;
 }

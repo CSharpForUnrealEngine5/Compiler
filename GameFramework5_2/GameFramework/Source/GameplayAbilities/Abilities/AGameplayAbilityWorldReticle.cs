@@ -8,8 +8,8 @@ public partial class AGameplayAbilityWorldReticle : AActor {
 	public void OnValidTargetChanged(bool bNewValue) {}
 	public void OnTargetingAnActor(bool bNewValue) {}
 	public void OnParametersInitialized() {}
-	public void SetReticleMaterialParamFloat(sbyte ParamName,float value) {}
-	public void SetReticleMaterialParamVector(sbyte ParamName,FVector value) {}
+	public void SetReticleMaterialParamFloat(string ParamName,float value) {}
+	public void SetReticleMaterialParamVector(string ParamName,FVector value) {}
 	public void FaceTowardSource(bool bFaceIn2D) {}
 	public FWorldReticleParameters Parameters;
 	public bool bFaceOwnerFlat;

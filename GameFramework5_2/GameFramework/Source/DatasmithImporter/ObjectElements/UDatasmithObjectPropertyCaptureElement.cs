@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UDatasmithObjectPropertyCaptureElement : UDatasmithBasePropertyCaptureElement {
 // DatasmithObjectPropertyCaptureElement
 	public void SetRecordedObject(UObject Object) {}
-	public UObject GetRecordedObject(UObject ReturnValue) { return default; }
+	public UObject GetRecordedObject() { return default; }
 }

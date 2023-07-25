@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNamedVector {
 // NamedVector
 	public FVector Value;
-	public sbyte Name;
+	public string Name;
 }

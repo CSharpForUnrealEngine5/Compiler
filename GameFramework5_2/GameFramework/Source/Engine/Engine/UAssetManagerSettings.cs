@@ -17,5 +17,5 @@ public partial class UAssetManagerSettings : UDeveloperSettings {
 	public TArray<FAssetManagerRedirect> PrimaryAssetIdRedirects;
 	public TArray<FAssetManagerRedirect> PrimaryAssetTypeRedirects;
 	public TArray<FAssetManagerRedirect> AssetPathRedirects;
-	public TSet<sbyte> MetaDataTagsForAssetRegistry;
+	public TSet<string> MetaDataTagsForAssetRegistry;
 }

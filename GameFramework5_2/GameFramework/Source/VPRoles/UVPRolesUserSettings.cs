@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UVPRolesUserSettings : UObject {
 // VPRolesUserSettings
 	public FGameplayTagContainer Roles;
-	public TSet<sbyte> RoleSources;
-	public TArray<sbyte> CachedRoles;
+	public TSet<string> RoleSources;
+	public TArray<string> CachedRoles;
 }

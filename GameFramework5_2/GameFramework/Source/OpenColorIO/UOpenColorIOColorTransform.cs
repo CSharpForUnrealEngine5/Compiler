@@ -7,10 +7,10 @@ public partial class UOpenColorIOColorTransform : UObject {
 // OpenColorIOColorTransform
 	public UOpenColorIOConfiguration ConfigurationOwner;
 	public bool bIsDisplayViewType;
-	public sbyte SourceColorSpace;
-	public sbyte DestinationColorSpace;
-	public sbyte Display;
-	public sbyte View;
+	public string SourceColorSpace;
+	public string DestinationColorSpace;
+	public string Display;
+	public string View;
 	public EOpenColorIOViewTransformDirection DisplayViewDirection;
 	public TMap<int,UTexture> Textures;
 }

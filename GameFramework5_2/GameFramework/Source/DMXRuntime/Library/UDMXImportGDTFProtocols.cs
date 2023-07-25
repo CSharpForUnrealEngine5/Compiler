@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial class UDMXImportGDTFProtocols : UDMXImportProtocols {
 // DMXImportGDTFProtocols
-	public TArray<sbyte> Protocols;
+	public TArray<string> Protocols;
 }

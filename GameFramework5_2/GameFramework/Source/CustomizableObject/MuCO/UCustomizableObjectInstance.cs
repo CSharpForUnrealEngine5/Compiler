@@ -8,75 +8,75 @@ public partial class UCustomizableObjectInstance : UObject {
 	public FObjectInstanceUpdatedDelegate UpdatedDelegate;
 	public FBeginDestroyDelegate BeginDestroyDelegate;
 	public TArray<USkeletalMesh> SkeletalMeshes;
-	public sbyte SkeletalMeshStatus;
+	public string SkeletalMeshStatus;
 	public void SetObject(UObject InObject) {}
-	public UObject GetCustomizableObject(UObject ReturnValue) { return default; }
-	public bool GetBuildParameterDecorations(bool ReturnValue) { return default; }
+	public UObject GetCustomizableObject() { return default; }
+	public bool GetBuildParameterDecorations() { return default; }
 	public void SetBuildParameterDecorations(bool Value) {}
-	public sbyte GetCurrentState(sbyte ReturnValue) { return default; }
-	public void SetCurrentState(sbyte StateName) {}
-	public UObject GetSkeletalMesh(int ComponentIndex=0,UObject ReturnValue) { return default; }
-	public bool HasAnySkeletalMesh(bool ReturnValue) { return default; }
-	public TArray<FCustomizableObjectBoolParameterValue> GetBoolParameters(TArray<FCustomizableObjectBoolParameterValue> ReturnValue) { return default; }
-	public TArray<FCustomizableObjectIntParameterValue> GetIntParameters(TArray<FCustomizableObjectIntParameterValue> ReturnValue) { return default; }
-	public TArray<FCustomizableObjectFloatParameterValue> GetFloatParameters(TArray<FCustomizableObjectFloatParameterValue> ReturnValue) { return default; }
-	public TArray<FCustomizableObjectTextureParameterValue> GetTextureParameters(TArray<FCustomizableObjectTextureParameterValue> ReturnValue) { return default; }
-	public TArray<FCustomizableObjectVectorParameterValue> GetVectorParameters(TArray<FCustomizableObjectVectorParameterValue> ReturnValue) { return default; }
-	public TArray<FCustomizableObjectProjectorParameterValue> GetProjectorParameters(TArray<FCustomizableObjectProjectorParameterValue> ReturnValue) { return default; }
-	public bool HasAnyParameters(bool ReturnValue) { return default; }
+	public string GetCurrentState() { return default; }
+	public void SetCurrentState(string StateName) {}
+	public UObject GetSkeletalMesh(int ComponentIndex/*=0*/) { return default; }
+	public bool HasAnySkeletalMesh() { return default; }
+	public TArray<FCustomizableObjectBoolParameterValue> GetBoolParameters() { return default; }
+	public TArray<FCustomizableObjectIntParameterValue> GetIntParameters() { return default; }
+	public TArray<FCustomizableObjectFloatParameterValue> GetFloatParameters() { return default; }
+	public TArray<FCustomizableObjectTextureParameterValue> GetTextureParameters() { return default; }
+	public TArray<FCustomizableObjectVectorParameterValue> GetVectorParameters() { return default; }
+	public TArray<FCustomizableObjectProjectorParameterValue> GetProjectorParameters() { return default; }
+	public bool HasAnyParameters() { return default; }
 	public void SetRandomValues() {}
-	public void UpdateSkeletalMeshAsync(bool bIgnoreCloseDist=false,bool bForceHighPriority=false) {}
-	public UObject Clone(UObject ReturnValue) { return default; }
-	public UObject CloneStatic(UObject Outer,UObject ReturnValue) { return default; }
-	public UObject GetParameterDescription(sbyte ParamName,int DescIndex,UObject ReturnValue) { return default; }
-	public bool IsParameterRelevant(sbyte ParamName,bool ReturnValue) { return default; }
-	public bool IsParamMultidimensional(sbyte ParamName,bool ReturnValue) { return default; }
-	public int GetProjectorValueRange(sbyte ParamName,int ReturnValue) { return default; }
-	public sbyte GetIntParameterSelectedOption(sbyte ParamName,int RangeIndex=-1,sbyte ReturnValue) { return default; }
-	public void SetIntParameterSelectedOption(sbyte ParamName,sbyte SelectedOptionName,int RangeIndex=-1) {}
-	public float GetFloatParameterSelectedOption(sbyte FloatParamName,int RangeIndex=-1,float ReturnValue) { return default; }
-	public void SetFloatParameterSelectedOption(sbyte FloatParamName,float FloatValue,int RangeIndex=-1) {}
-	public UObject GetTextureParameterSelectedOptionT(sbyte TextureParamName,int RangeIndex=-1,UObject ReturnValue) { return default; }
-	public void SetTextureParameterSelectedOptionT(sbyte TextureParamName,UObject TextureValue,int RangeIndex=-1) {}
-	public FLinearColor GetColorParameterSelectedOption(sbyte ColorParamName,FLinearColor ReturnValue) { return default; }
-	public void SetColorParameterSelectedOption(sbyte ColorParamName,FLinearColor ColorValue) {}
-	public bool GetBoolParameterSelectedOption(sbyte BoolParamName,bool ReturnValue) { return default; }
-	public void SetBoolParameterSelectedOption(sbyte BoolParamName,bool BoolValue) {}
-	public void SetVectorParameterSelectedOption(sbyte VectorParamName,FLinearColor VectorValue) {}
-	public void SetProjectorValue(sbyte ProjectorParamName,FVector OutPos,FVector OutDirection,FVector OutUp,FVector OutScale,float OutAngle,int RangeIndex=-1) {}
-	public void GetProjectorValue(sbyte ProjectorParamName,FVector OutPos,FVector OutDirection,FVector OutUp,FVector OutScale,float OutAngle,ECustomizableObjectProjectorType OutType,int RangeIndex=-1) {}
-	public FVector GetProjectorPosition(sbyte ParamName,int RangeIndex=-1,FVector ReturnValue) { return default; }
-	public FVector GetProjectorDirection(sbyte ParamName,int RangeIndex=-1,FVector ReturnValue) { return default; }
-	public FVector GetProjectorUp(sbyte ParamName,int RangeIndex=-1,FVector ReturnValue) { return default; }
-	public FVector GetProjectorScale(sbyte ParamName,int RangeIndex=-1,FVector ReturnValue) { return default; }
-	public float GetProjectorAngle(sbyte ParamName,int RangeIndex=-1,float ReturnValue) { return default; }
-	public ECustomizableObjectProjectorType GetProjectorParameterType(sbyte ParamName,int RangeIndex=-1,ECustomizableObjectProjectorType ReturnValue) { return default; }
-	public int FindIntParameterNameIndex(sbyte ParamName,int ReturnValue) { return default; }
-	public int FindFloatParameterNameIndex(sbyte ParamName,int ReturnValue) { return default; }
-	public int FindBoolParameterNameIndex(sbyte ParamName,int ReturnValue) { return default; }
-	public int FindVectorParameterNameIndex(sbyte ParamName,int ReturnValue) { return default; }
-	public int FindProjectorParameterNameIndex(sbyte ParamName,int ReturnValue) { return default; }
-	public int AddValueToIntRange(sbyte ParamName,int ReturnValue) { return default; }
-	public int AddValueToFloatRange(sbyte ParamName,int ReturnValue) { return default; }
-	public int AddValueToProjectorRange(sbyte ParamName,int ReturnValue) { return default; }
-	public int RemoveValueFromIntRange(sbyte ParamName,int ReturnValue) { return default; }
-	public int RemoveValueFromFloatRange(sbyte ParamName,int ReturnValue) { return default; }
-	public int RemoveValueFromProjectorRange(sbyte ParamName,int ReturnValue) { return default; }
-	public bool CreateMultiLayerProjector(sbyte ProjectorParamName,bool ReturnValue) { return default; }
-	public void RemoveMultilayerProjector(sbyte ProjectorParamName) {}
-	public int MultilayerProjectorNumLayers(sbyte ProjectorParamName,int ReturnValue) { return default; }
-	public void MultilayerProjectorCreateLayer(sbyte ProjectorParamName,int Index) {}
-	public void MultilayerProjectorRemoveLayerAt(sbyte ProjectorParamName,int Index) {}
-	public FMultilayerProjectorLayer MultilayerProjectorGetLayer(sbyte ProjectorParamName,int Index,FMultilayerProjectorLayer ReturnValue) { return default; }
-	public void MultilayerProjectorUpdateLayer(sbyte ProjectorParamName,int Index,FMultilayerProjectorLayer Layer) {}
-	public TArray<sbyte> MultilayerProjectorGetVirtualLayers(sbyte ProjectorParamName,TArray<sbyte> ReturnValue) { return default; }
-	public void MultilayerProjectorCreateVirtualLayer(sbyte ProjectorParamName,sbyte Id) {}
-	public FMultilayerProjectorVirtualLayer MultilayerProjectorFindOrCreateVirtualLayer(sbyte ProjectorParamName,sbyte Id,FMultilayerProjectorVirtualLayer ReturnValue) { return default; }
-	public void MultilayerProjectorRemoveVirtualLayer(sbyte ProjectorParamName,sbyte Id) {}
-	public FMultilayerProjectorVirtualLayer MultilayerProjectorGetVirtualLayer(sbyte ProjectorParamName,sbyte Id,FMultilayerProjectorVirtualLayer ReturnValue) { return default; }
-	public void MultilayerProjectorUpdateVirtualLayer(sbyte ProjectorParamName,sbyte Id,FMultilayerProjectorVirtualLayer Layer) {}
-	public UClass GetAnimBP(int ComponentIndex,int SlotIndex,UClass ReturnValue) { return default; }
-	public FGameplayTagContainer GetAnimationGameplayTags(FGameplayTagContainer ReturnValue) { return default; }
+	public void UpdateSkeletalMeshAsync(bool bIgnoreCloseDist/*=false*/,bool bForceHighPriority/*=false*/) {}
+	public UObject Clone() { return default; }
+	public UObject CloneStatic(UObject Outer) { return default; }
+	public UObject GetParameterDescription(string ParamName,int DescIndex) { return default; }
+	public bool IsParameterRelevant(string ParamName) { return default; }
+	public bool IsParamMultidimensional(string ParamName) { return default; }
+	public int GetProjectorValueRange(string ParamName) { return default; }
+	public string GetIntParameterSelectedOption(string ParamName,int RangeIndex/*=-1*/) { return default; }
+	public void SetIntParameterSelectedOption(string ParamName,string SelectedOptionName,int RangeIndex/*=-1*/) {}
+	public float GetFloatParameterSelectedOption(string FloatParamName,int RangeIndex/*=-1*/) { return default; }
+	public void SetFloatParameterSelectedOption(string FloatParamName,float FloatValue,int RangeIndex/*=-1*/) {}
+	public UObject GetTextureParameterSelectedOptionT(string TextureParamName,int RangeIndex/*=-1*/) { return default; }
+	public void SetTextureParameterSelectedOptionT(string TextureParamName,UObject TextureValue,int RangeIndex/*=-1*/) {}
+	public FLinearColor GetColorParameterSelectedOption(string ColorParamName) { return default; }
+	public void SetColorParameterSelectedOption(string ColorParamName,FLinearColor ColorValue) {}
+	public bool GetBoolParameterSelectedOption(string BoolParamName) { return default; }
+	public void SetBoolParameterSelectedOption(string BoolParamName,bool BoolValue) {}
+	public void SetVectorParameterSelectedOption(string VectorParamName,FLinearColor VectorValue) {}
+	public void SetProjectorValue(string ProjectorParamName,FVector OutPos,FVector OutDirection,FVector OutUp,FVector OutScale,float OutAngle,int RangeIndex/*=-1*/) {}
+	public void GetProjectorValue(string ProjectorParamName,FVector OutPos,FVector OutDirection,FVector OutUp,FVector OutScale,float OutAngle,ECustomizableObjectProjectorType OutType,int RangeIndex/*=-1*/) {}
+	public FVector GetProjectorPosition(string ParamName,int RangeIndex/*=-1*/) { return default; }
+	public FVector GetProjectorDirection(string ParamName,int RangeIndex/*=-1*/) { return default; }
+	public FVector GetProjectorUp(string ParamName,int RangeIndex/*=-1*/) { return default; }
+	public FVector GetProjectorScale(string ParamName,int RangeIndex/*=-1*/) { return default; }
+	public float GetProjectorAngle(string ParamName,int RangeIndex/*=-1*/) { return default; }
+	public ECustomizableObjectProjectorType GetProjectorParameterType(string ParamName,int RangeIndex/*=-1*/) { return default; }
+	public int FindIntParameterNameIndex(string ParamName) { return default; }
+	public int FindFloatParameterNameIndex(string ParamName) { return default; }
+	public int FindBoolParameterNameIndex(string ParamName) { return default; }
+	public int FindVectorParameterNameIndex(string ParamName) { return default; }
+	public int FindProjectorParameterNameIndex(string ParamName) { return default; }
+	public int AddValueToIntRange(string ParamName) { return default; }
+	public int AddValueToFloatRange(string ParamName) { return default; }
+	public int AddValueToProjectorRange(string ParamName) { return default; }
+	public int RemoveValueFromIntRange(string ParamName) { return default; }
+	public int RemoveValueFromFloatRange(string ParamName) { return default; }
+	public int RemoveValueFromProjectorRange(string ParamName) { return default; }
+	public bool CreateMultiLayerProjector(string ProjectorParamName) { return default; }
+	public void RemoveMultilayerProjector(string ProjectorParamName) {}
+	public int MultilayerProjectorNumLayers(string ProjectorParamName) { return default; }
+	public void MultilayerProjectorCreateLayer(string ProjectorParamName,int Index) {}
+	public void MultilayerProjectorRemoveLayerAt(string ProjectorParamName,int Index) {}
+	public FMultilayerProjectorLayer MultilayerProjectorGetLayer(string ProjectorParamName,int Index) { return default; }
+	public void MultilayerProjectorUpdateLayer(string ProjectorParamName,int Index,FMultilayerProjectorLayer Layer) {}
+	public TArray<string> MultilayerProjectorGetVirtualLayers(string ProjectorParamName) { return default; }
+	public void MultilayerProjectorCreateVirtualLayer(string ProjectorParamName,string Id) {}
+	public FMultilayerProjectorVirtualLayer MultilayerProjectorFindOrCreateVirtualLayer(string ProjectorParamName,string Id) { return default; }
+	public void MultilayerProjectorRemoveVirtualLayer(string ProjectorParamName,string Id) {}
+	public FMultilayerProjectorVirtualLayer MultilayerProjectorGetVirtualLayer(string ProjectorParamName,string Id) { return default; }
+	public void MultilayerProjectorUpdateVirtualLayer(string ProjectorParamName,string Id,FMultilayerProjectorVirtualLayer Layer) {}
+	public UClass GetAnimBP(int ComponentIndex,int SlotIndex) { return default; }
+	public FGameplayTagContainer GetAnimationGameplayTags() { return default; }
 	public void ForEachAnimInstance(int ComponentIndex,FEachComponentAnimInstanceClassDelegate Delegate) {}
 	public void SetReplacePhysicsAssets(bool bReplaceEnabled) {}
 	public FCustomizableObjectInstanceDescriptor Descriptor;
@@ -89,6 +89,6 @@ public partial class UCustomizableObjectInstance : UObject {
 	public TArray<FCustomizableObjectTextureParameterValue> TextureParameters_DEPRECATED;
 	public TArray<FCustomizableObjectVectorParameterValue> VectorParameters_DEPRECATED;
 	public TArray<FCustomizableObjectProjectorParameterValue> ProjectorParameters_DEPRECATED;
-	public TMap<sbyte,FMultilayerProjector> MultilayerProjectors_DEPRECATED;
+	public TMap<string,FMultilayerProjector> MultilayerProjectors_DEPRECATED;
 	public bool bBuildParameterDecorations_DEPRECATED;
 }

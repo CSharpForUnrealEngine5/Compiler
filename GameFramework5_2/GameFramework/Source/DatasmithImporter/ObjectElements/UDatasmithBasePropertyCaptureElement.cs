@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>* UDatasmithBasePropertyCaptureElement</summary>
 public partial class UDatasmithBasePropertyCaptureElement : UDatasmithObjectElement {
 // DatasmithBasePropertyCaptureElement
-	public void SetPropertyPath(sbyte Path) {}
-	public sbyte GetPropertyPath(sbyte ReturnValue) { return default; }
+	public void SetPropertyPath(string Path) {}
+	public string GetPropertyPath() { return default; }
 	public void SetCategory(EDatasmithPropertyCategory Category) {}
-	public EDatasmithPropertyCategory GetCategory(EDatasmithPropertyCategory ReturnValue) { return default; }
+	public EDatasmithPropertyCategory GetCategory() { return default; }
 }

@@ -11,7 +11,7 @@ public partial struct FCreateMeshObjectParams {
 	public int TypeHintExtended;
 	public UWorld TargetWorld;
 	public FTransform Transform;
-	public sbyte BaseName;
+	public string BaseName;
 	public TArray<UMaterialInterface> Materials;
 	public TArray<UMaterialInterface> AssetMaterials;
 	public bool bEnableCollision;

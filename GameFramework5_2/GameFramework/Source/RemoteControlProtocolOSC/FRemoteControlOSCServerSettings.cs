@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>OSC Remote Control server settings</summary>
 public partial struct FRemoteControlOSCServerSettings {
 // RemoteControlOSCServerSettings
-	public sbyte ServerAddress;
+	public string ServerAddress;
 }

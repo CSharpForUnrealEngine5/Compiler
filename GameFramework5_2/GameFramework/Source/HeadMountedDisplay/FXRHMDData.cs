@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FXRHMDData {
 // XRHMDData
 	public bool bValid;
-	public sbyte DeviceName;
+	public string DeviceName;
 	public FGuid ApplicationInstanceID;
 	public ETrackingStatus TrackingStatus;
 	public FVector Position;

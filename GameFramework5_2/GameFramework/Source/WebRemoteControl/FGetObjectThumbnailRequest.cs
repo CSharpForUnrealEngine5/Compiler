@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request to get an asset's thumbnail.</summary>
 public partial struct FGetObjectThumbnailRequest {
 // GetObjectThumbnailRequest
-	public sbyte ObjectPath;
+	public string ObjectPath;
 }

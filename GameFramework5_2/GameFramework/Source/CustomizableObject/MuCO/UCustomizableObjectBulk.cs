@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObject.h")]
 public partial class UCustomizableObjectBulk : UObject {
 // CustomizableObjectBulk
-	public TArray<sbyte> BulkDataFileNames;
+	public TArray<string> BulkDataFileNames;
 }

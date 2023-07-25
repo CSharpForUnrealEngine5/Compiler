@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/SkeletalMesh.h")]
 public partial struct FBoneMirrorExport {
 // BoneMirrorExport
-	public sbyte BoneName;
-	public sbyte SourceBoneName;
+	public string BoneName;
+	public string SourceBoneName;
 	public byte BoneFlipAxis;
 }

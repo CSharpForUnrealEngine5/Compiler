@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FStateTreeEditorPropertyPath {
 // StateTreeEditorPropertyPath
 	public FGuid StructID;
-	public TArray<sbyte> Path;
+	public TArray<string> Path;
 }

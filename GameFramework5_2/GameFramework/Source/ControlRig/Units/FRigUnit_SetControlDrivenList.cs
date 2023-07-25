@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetControlDrivenList is used to change the list of affected controls of an indirect control</summary>
 public partial struct FRigUnit_SetControlDrivenList {
 // RigUnit_SetControlDrivenList
-	public sbyte Control;
+	public string Control;
 	public TArray<FRigElementKey> Driven;
 	public FCachedRigElement CachedControlIndex;
 }

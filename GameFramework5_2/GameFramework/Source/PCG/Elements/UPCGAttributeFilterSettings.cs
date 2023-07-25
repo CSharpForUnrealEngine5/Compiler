@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UPCGAttributeFilterSettings : UPCGSettings {
 // PCGAttributeFilterSettings
 	public EPCGAttributeFilterOperation Operation;
-	public sbyte SelectedAttributes;
-	public TArray<sbyte> AttributesToKeep_DEPRECATED;
+	public string SelectedAttributes;
+	public TArray<string> AttributesToKeep_DEPRECATED;
 }

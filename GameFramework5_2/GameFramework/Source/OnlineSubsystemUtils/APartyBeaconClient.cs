@@ -9,14 +9,14 @@ public partial class APartyBeaconClient : AOnlineBeaconClient {
 	public void ClientCancelReservationResponse(EPartyReservationResult ReservationResponse) {}
 	public void ClientSendReservationUpdates(int NumRemainingReservations) {}
 	public void ClientSendReservationFull() {}
-	public sbyte DestSessionId;
+	public string DestSessionId;
 	public FPartyReservation PendingReservation;
 	public EClientRequestType RequestType;
 	public bool bPendingReservationSent;
 	public bool bCancelReservation;
-	public void ServerReservationRequest(sbyte SessionId,FPartyReservation Reservation) {}
-	public void ServerUpdateReservationRequest(sbyte SessionId,FPartyReservation ReservationUpdate) {}
-	public void ServerAddOrUpdateReservationRequest(sbyte SessionId,FPartyReservation Reservation) {}
-	public void ServerRemoveMemberFromReservationRequest(sbyte SessionId,FPartyReservation ReservationUpdate) {}
+	public void ServerReservationRequest(string SessionId,FPartyReservation Reservation) {}
+	public void ServerUpdateReservationRequest(string SessionId,FPartyReservation ReservationUpdate) {}
+	public void ServerAddOrUpdateReservationRequest(string SessionId,FPartyReservation Reservation) {}
+	public void ServerRemoveMemberFromReservationRequest(string SessionId,FPartyReservation ReservationUpdate) {}
 	public void ServerCancelReservationRequest(FUniqueNetIdRepl PartyLeader) {}
 }

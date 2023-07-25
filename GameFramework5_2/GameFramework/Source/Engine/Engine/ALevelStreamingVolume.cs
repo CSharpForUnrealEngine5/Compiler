@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/LevelStreamingVolume.h")]
 public partial class ALevelStreamingVolume : AVolume {
 // LevelStreamingVolume
-	public TArray<sbyte> StreamingLevelNames;
+	public TArray<string> StreamingLevelNames;
 	public bool bEditorPreVisOnly;
 	public bool bDisabled;
 	public byte StreamingUsage;

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A base widget to display on actor labels.</summary>
 public partial class UDisplayClusterLabelWidget : UUserWidget {
 // DisplayClusterLabelWidget
-	public void SetLabelText(sbyte InText) {}
+	public void SetLabelText(string InText) {}
 }

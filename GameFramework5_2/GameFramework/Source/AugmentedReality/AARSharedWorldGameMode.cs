@@ -8,5 +8,5 @@ public partial class AARSharedWorldGameMode : AGameMode {
 	public void SetPreviewImageData(TArray<byte> ImageData) {}
 	public void SetARSharedWorldData(TArray<byte> ARWorldData) {}
 	public void SetARWorldSharingIsReady() {}
-	public UObject GetARSharedWorldGameState(UObject ReturnValue) { return default; }
+	public UObject GetARSharedWorldGameState() { return default; }
 }

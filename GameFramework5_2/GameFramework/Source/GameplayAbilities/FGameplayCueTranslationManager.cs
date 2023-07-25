@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FGameplayCueTranslationManager {
 // GameplayCueTranslationManager
 	public TArray<FGameplayCueTranslatorNode> TranslationLUT;
-	public TMap<sbyte,FGameplayCueTranslatorNodeIndex> TranslationNameToIndexMap;
+	public TMap<string,FGameplayCueTranslatorNodeIndex> TranslationNameToIndexMap;
 	public UGameplayTagsManager TagManager;
 }

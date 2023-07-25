@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FWorldConditionContextDataDesc {
 // WorldConditionContextDataDesc
 	public UStruct Struct;
-	public sbyte Name;
+	public string Name;
 	public EWorldConditionContextDataType Type;
 }

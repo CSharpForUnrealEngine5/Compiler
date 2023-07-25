@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FWorldPartitionPerWorldSettings {
 // WorldPartitionPerWorldSettings
 	public TArray<FBox> LoadedEditorRegions;
-	public TArray<sbyte> LoadedEditorLocationVolumes;
-	public TArray<sbyte> NotLoadedDataLayers;
-	public TArray<sbyte> LoadedDataLayers;
+	public TArray<string> LoadedEditorLocationVolumes;
+	public TArray<string> NotLoadedDataLayers;
+	public TArray<string> LoadedDataLayers;
 }

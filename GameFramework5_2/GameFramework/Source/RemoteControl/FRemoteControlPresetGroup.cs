@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Represents a group of field and offers operations to operate on the fields inside of that group.</summary>
 public partial struct FRemoteControlPresetGroup {
 // RemoteControlPresetGroup
-	public sbyte Name;
+	public string Name;
 	public FGuid Id;
 	public FLinearColor TagColor;
 	public TArray<FGuid> Fields;

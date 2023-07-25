@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Actor used to record world partition replay data (streaming sources for now)</summary>
 public partial class AWorldPartitionReplay : AActor {
 // WorldPartitionReplay
-	public TArray<sbyte> StreamingSourceNames;
+	public TArray<string> StreamingSourceNames;
 }

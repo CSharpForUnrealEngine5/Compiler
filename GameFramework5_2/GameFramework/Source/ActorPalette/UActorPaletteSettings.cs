@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UActorPaletteSettings : UDeveloperSettings {
 // ActorPaletteSettings
 	public TArray<FActorPaletteMapEntry> SettingsPerLevel;
-	public TArray<sbyte> RecentlyUsedList;
-	public TArray<sbyte> MostRecentLevelByTab;
-	public TArray<sbyte> FavoritesList;
+	public TArray<string> RecentlyUsedList;
+	public TArray<string> MostRecentLevelByTab;
+	public TArray<string> FavoritesList;
 	public int NumRecentLevelsToKeep;
 }

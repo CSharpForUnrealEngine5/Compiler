@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UAbilityTask_VisualizeTargeting : UAbilityTask {
 // AbilityTask_VisualizeTargeting
 	public FVisualizeTargetingDelegate TimeElapsed;
-	public UObject VisualizeTargeting(UObject OwningAbility,UClass Class,sbyte TaskInstanceName,float Duration=-1.0f,UObject ReturnValue) { return default; }
-	public UObject VisualizeTargetingUsingActor(UObject OwningAbility,UObject TargetActor,sbyte TaskInstanceName,float Duration=-1.0f,UObject ReturnValue) { return default; }
-	public bool BeginSpawningActor(UObject OwningAbility,UClass Class,UObject SpawnedActor,bool ReturnValue) { return default; }
+	public UObject VisualizeTargeting(UObject OwningAbility,UClass Class,string TaskInstanceName,float Duration/*=-1.0f*/) { return default; }
+	public UObject VisualizeTargetingUsingActor(UObject OwningAbility,UObject TargetActor,string TaskInstanceName,float Duration/*=-1.0f*/) { return default; }
+	public bool BeginSpawningActor(UObject OwningAbility,UClass Class,UObject SpawnedActor) { return default; }
 	public void FinishSpawningActor(UObject OwningAbility,UObject SpawnedActor) {}
 }

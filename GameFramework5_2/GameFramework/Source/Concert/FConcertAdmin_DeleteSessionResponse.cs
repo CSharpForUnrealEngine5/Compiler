@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertAdmin_DeleteSessionResponse {
 // ConcertAdmin_DeleteSessionResponse
 	public FGuid SessionId;
-	public sbyte SessionName;
+	public string SessionName;
 }

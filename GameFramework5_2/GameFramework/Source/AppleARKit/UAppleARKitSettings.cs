@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UAppleARKitSettings : UObject {
 // AppleARKitSettings
 	public bool bRequireARKitSupport;
-	public sbyte FaceTrackingLogDir;
+	public string FaceTrackingLogDir;
 	public TArray<ELivelinkTrackingType> LivelinkTrackingTypes;
 	public bool bFaceTrackingLogData;
 	public bool bFaceTrackingWriteEachFrame;
@@ -15,11 +15,11 @@ public partial class UAppleARKitSettings : UObject {
 	public int WrittenCameraImageQuality;
 	public ETextureRotationDirection WrittenCameraImageRotation;
 	public int LiveLinkPublishingPort;
-	public sbyte DefaultFaceTrackingLiveLinkSubjectName;
-	public sbyte DefaultPoseTrackingLiveLinkSubjectName;
+	public string DefaultFaceTrackingLiveLinkSubjectName;
+	public string DefaultPoseTrackingLiveLinkSubjectName;
 	public EARFaceTrackingDirection DefaultFaceTrackingDirection;
 	public bool bAdjustThreadPrioritiesDuringARSession;
 	public int GameThreadPriorityOverride;
 	public int RenderThreadPriorityOverride;
-	public sbyte ARKitTimecodeProvider;
+	public string ARKitTimecodeProvider;
 }

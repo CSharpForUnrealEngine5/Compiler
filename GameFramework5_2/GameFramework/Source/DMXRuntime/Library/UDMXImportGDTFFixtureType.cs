@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial class UDMXImportGDTFFixtureType : UDMXImportFixtureType {
 // DMXImportGDTFFixtureType
-	public sbyte Name;
-	public sbyte ShortName;
-	public sbyte LongName;
-	public sbyte Manufacturer;
-	public sbyte Description;
-	public sbyte FixtureTypeID;
+	public string Name;
+	public string ShortName;
+	public string LongName;
+	public string Manufacturer;
+	public string Description;
+	public string FixtureTypeID;
 	public UTexture2D Thumbnail;
-	public sbyte RefFT;
+	public string RefFT;
 }

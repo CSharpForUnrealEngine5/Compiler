@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for FBX parser errors</summary>
 public partial class UInterchangeResultMeshError : UInterchangeResultError {
 // InterchangeResultMeshError
-	public sbyte MeshName;
+	public string MeshName;
 }

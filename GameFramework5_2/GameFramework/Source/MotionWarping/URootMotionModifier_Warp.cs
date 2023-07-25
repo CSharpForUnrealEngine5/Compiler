@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("RootMotionModifier.h")]
 public partial class URootMotionModifier_Warp : URootMotionModifier {
 // RootMotionModifier_Warp
-	public sbyte WarpTargetName;
+	public string WarpTargetName;
 	public EWarpPointAnimProvider WarpPointAnimProvider;
 	public FTransform WarpPointAnimTransform;
-	public sbyte WarpPointAnimBoneName;
+	public string WarpPointAnimBoneName;
 	public bool bWarpTranslation;
 	public bool bIgnoreZAxis;
 	public EAlphaBlendOption AddTranslationEasingFunc;

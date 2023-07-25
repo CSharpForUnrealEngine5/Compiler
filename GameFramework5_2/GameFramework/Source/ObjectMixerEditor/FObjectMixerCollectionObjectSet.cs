@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ObjectMixerEditorSerializedData.h")]
 public partial struct FObjectMixerCollectionObjectSet {
 // ObjectMixerCollectionObjectSet
-	public sbyte CollectionName;
+	public string CollectionName;
 	public TArray<FObjectMixerCollectionObjectData> CollectionObjects;
 }

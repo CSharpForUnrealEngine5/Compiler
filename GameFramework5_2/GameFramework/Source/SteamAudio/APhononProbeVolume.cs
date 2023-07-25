@@ -12,6 +12,6 @@ public partial class APhononProbeVolume : AVolume {
 	public int ProbeDataSize;
 	public TArray<FBakedDataInfo> BakedDataInfo;
 	public UPhononProbeComponent PhononProbeComponent;
-	public sbyte ProbeBoxFileName;
-	public sbyte ProbeBatchFileName;
+	public string ProbeBoxFileName;
+	public string ProbeBatchFileName;
 }

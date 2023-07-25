@@ -7,12 +7,12 @@ public partial class UDatasmithVREDSceneImportData : UDatasmithFBXSceneImportDat
 	public bool bMergeNodes;
 	public bool bOptimizeDuplicatedNodes;
 	public bool bImportMats;
-	public sbyte MatsPath;
+	public string MatsPath;
 	public bool bImportVar;
 	public bool bCleanVar;
-	public sbyte VarPath;
+	public string VarPath;
 	public bool bImportLightInfo;
-	public sbyte LightInfoPath;
+	public string LightInfoPath;
 	public bool bImportClipInfo;
-	public sbyte ClipInfoPath;
+	public string ClipInfoPath;
 }

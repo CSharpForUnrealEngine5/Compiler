@@ -7,14 +7,14 @@ public partial class USoundscapeSubsystem : UGameInstanceSubsystem {
 	public void SetState(FGameplayTag SoundscapeState) {}
 	public void ClearState(FGameplayTag SoundscapeState) {}
 	public void RestartSoundscape() {}
-	public bool AddPaletteCollection(sbyte PaletteCollectionName,FSoundscapePaletteCollection PaletteCollection,bool ReturnValue) { return default; }
-	public bool RemovePaletteCollection(sbyte PaletteCollectionName,bool ReturnValue) { return default; }
+	public bool AddPaletteCollection(string PaletteCollectionName,FSoundscapePaletteCollection PaletteCollection) { return default; }
+	public bool RemovePaletteCollection(string PaletteCollectionName) { return default; }
 	public TSet<USoundscapePalette> LoadedPaletteCollectionSet;
-	public TMap<sbyte,FSoundscapePaletteCollection> UnloadedPaletteCollections;
+	public TMap<string,FSoundscapePaletteCollection> UnloadedPaletteCollections;
 	public TMap<USoundscapePalette,UActiveSoundscapePalette> ActivePalettes;
-	public void AddColorPointCollection(sbyte ColorPointCollectionName,FSoundscapeColorPointCollection ColorPointCollection) {}
-	public bool RemoveColorPointCollection(sbyte ColorPointCollectionName,bool ReturnValue) { return default; }
-	public int CheckColorPointDensity(FVector Location,FGameplayTag ColorPoint,int ReturnValue) { return default; }
+	public void AddColorPointCollection(string ColorPointCollectionName,FSoundscapeColorPointCollection ColorPointCollection) {}
+	public bool RemoveColorPointCollection(string ColorPointCollectionName) { return default; }
+	public int CheckColorPointDensity(FVector Location,FGameplayTag ColorPoint) { return default; }
 	public TArray<USoundscapeColorPointHashMapCollection> ColorPointHashMapCollections;
 	public USoundscapeColorPointHashMap ColorPointHashMapLOD1;
 	public USoundscapeColorPointHashMap ColorPointHashMapLOD2;

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UPhononSourceComponent : USceneComponent {
 // PhononSourceComponent
 	public float BakingRadius;
-	public sbyte UniqueIdentifier;
+	public string UniqueIdentifier;
 }

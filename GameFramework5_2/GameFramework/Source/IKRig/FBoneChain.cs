@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("IKRigDefinition.h")]
 public partial struct FBoneChain {
 // BoneChain
-	public sbyte ChainName;
+	public string ChainName;
 	public FBoneReference StartBone;
 	public FBoneReference EndBone;
-	public sbyte IKGoalName;
+	public string IKGoalName;
 }

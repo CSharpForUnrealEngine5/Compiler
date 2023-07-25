@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Output information for a SharedMemory media capture.</summary>
 public partial class USharedMemoryMediaOutput : UMediaOutput {
 // SharedMemoryMediaOutput
-	public sbyte UniqueName;
+	public string UniqueName;
 }

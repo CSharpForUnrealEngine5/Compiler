@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>DEPRECATED, please use UBlackboardKeyType_Enum instead</summary>
 public partial class UBlackboardKeyType_NativeEnum : UBlackboardKeyType {
 // BlackboardKeyType_NativeEnum
-	public sbyte EnumName;
+	public string EnumName;
 	public UEnum EnumType;
 }

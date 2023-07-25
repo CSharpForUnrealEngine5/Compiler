@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FOneSkyListProjectsInGroupResponseDataItem {
 // OneSkyListProjectsInGroupResponseDataItem
 	public int id;
-	public sbyte name;
+	public string name;
 }

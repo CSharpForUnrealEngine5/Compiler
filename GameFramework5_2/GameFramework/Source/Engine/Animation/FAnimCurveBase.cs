@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Float curve data for one track</summary>
 public partial struct FAnimCurveBase {
 // AnimCurveBase
-	public sbyte LastObservedName_DEPRECATED;
+	public string LastObservedName_DEPRECATED;
 	public FSmartName Name;
 	public FLinearColor Color;
 	public int CurveTypeFlags;

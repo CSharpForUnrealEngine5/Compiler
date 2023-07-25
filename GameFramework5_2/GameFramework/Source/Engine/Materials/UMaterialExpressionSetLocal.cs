@@ -6,5 +6,5 @@ public partial class UMaterialExpressionSetLocal : UMaterialExpression {
 // MaterialExpressionSetLocal
 	public FExpressionExecOutput Exec;
 	public FExpressionInput Value;
-	public sbyte LocalName;
+	public string LocalName;
 }

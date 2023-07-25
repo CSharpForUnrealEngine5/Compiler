@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FMaterialLayersFunctionsEditorOnlyData {
 // MaterialLayersFunctionsEditorOnlyData
 	public TArray<bool> LayerStates;
-	public TArray<sbyte> LayerNames;
+	public TArray<string> LayerNames;
 	public TArray<bool> RestrictToLayerRelatives;
 	public TArray<bool> RestrictToBlendRelatives;
 	public TArray<FGuid> LayerGuids;

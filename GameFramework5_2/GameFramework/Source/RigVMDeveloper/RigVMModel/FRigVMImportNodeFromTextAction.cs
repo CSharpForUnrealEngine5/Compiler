@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMImportNodeFromTextAction {
 // RigVMImportNodeFromTextAction
 	public FVector2D Position;
-	public sbyte NodePath;
-	public sbyte ExportedText;
+	public string NodePath;
+	public string ExportedText;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DisplayClusterConfigurationTypes.h")]
 public partial class UDisplayClusterConfigurationScene : UDisplayClusterConfigurationData_Base {
 // DisplayClusterConfigurationScene
-	public TMap<sbyte,UDisplayClusterConfigurationSceneComponentXform> Xforms;
-	public TMap<sbyte,UDisplayClusterConfigurationSceneComponentScreen> Screens;
-	public TMap<sbyte,UDisplayClusterConfigurationSceneComponentCamera> Cameras;
+	public TMap<string,UDisplayClusterConfigurationSceneComponentXform> Xforms;
+	public TMap<string,UDisplayClusterConfigurationSceneComponentScreen> Screens;
+	public TMap<string,UDisplayClusterConfigurationSceneComponentCamera> Cameras;
 }

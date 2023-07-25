@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Reference to a lane profile.</summary>
 public partial struct FZoneLaneProfileRef {
 // ZoneLaneProfileRef
-	public sbyte Name;
+	public string Name;
 	public FGuid ID;
 }

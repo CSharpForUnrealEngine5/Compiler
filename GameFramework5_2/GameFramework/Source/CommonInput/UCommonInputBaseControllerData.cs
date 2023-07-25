@@ -7,14 +7,14 @@ public partial class UCommonInputBaseControllerData : UObject {
 // CommonInputBaseControllerData
 	public int SetButtonImageHeightTo;
 	public ECommonInputType InputType;
-	public sbyte GamepadName;
-	public sbyte GamepadDisplayName;
-	public sbyte GamepadCategory;
-	public sbyte GamepadPlatformName;
+	public string GamepadName;
+	public string GamepadDisplayName;
+	public string GamepadCategory;
+	public string GamepadPlatformName;
 	public TArray<FInputDeviceIdentifierPair> GamepadHardwareIdMapping;
 	public TSoftObjectPtr<UTexture2D> ControllerTexture;
 	public TSoftObjectPtr<UTexture2D> ControllerButtonMaskTexture;
 	public TArray<FCommonInputKeyBrushConfiguration> InputBrushDataMap;
 	public TArray<FCommonInputKeySetBrushConfiguration> InputBrushKeySets;
-	public TArray<sbyte> GetRegisteredGamepads(TArray<sbyte> ReturnValue) { return default; }
+	public TArray<string> GetRegisteredGamepads() { return default; }
 }

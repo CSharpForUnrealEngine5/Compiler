@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlFunctionLibrary.h")]
 public partial struct FRemoteControlOptionalExposeArgs {
 // RemoteControlOptionalExposeArgs
-	public sbyte DisplayName;
-	public sbyte GroupName;
+	public string DisplayName;
+	public string GroupName;
 }

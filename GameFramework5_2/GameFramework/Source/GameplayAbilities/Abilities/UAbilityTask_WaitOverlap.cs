@@ -7,5 +7,5 @@ public partial class UAbilityTask_WaitOverlap : UAbilityTask {
 // AbilityTask_WaitOverlap
 	public FWaitOverlapDelegate OnOverlap;
 	public void OnHitCallback(UObject HitComp,UObject OtherActor,UObject OtherComp,FVector NormalImpulse,FHitResult Hit) {}
-	public UObject WaitForOverlap(UObject OwningAbility,UObject ReturnValue) { return default; }
+	public UObject WaitForOverlap(UObject OwningAbility) { return default; }
 }

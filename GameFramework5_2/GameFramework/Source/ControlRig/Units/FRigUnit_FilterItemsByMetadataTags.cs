@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_FilterItemsByMetadataTags {
 // RigUnit_FilterItemsByMetadataTags
 	public TArray<FRigElementKey> Items;
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 	public bool Inclusive;
 	public TArray<FRigElementKey> Result;
 	public TArray<FCachedRigElement> CachedIndices;

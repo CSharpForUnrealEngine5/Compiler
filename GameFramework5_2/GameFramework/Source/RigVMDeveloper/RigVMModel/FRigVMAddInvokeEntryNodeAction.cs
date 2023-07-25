@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action adding an invoke entry node to the graph.</summary>
 public partial struct FRigVMAddInvokeEntryNodeAction {
 // RigVMAddInvokeEntryNodeAction
-	public sbyte EntryName;
+	public string EntryName;
 	public FVector2D Position;
-	public sbyte NodePath;
+	public string NodePath;
 }

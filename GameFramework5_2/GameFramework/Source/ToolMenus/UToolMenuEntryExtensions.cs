@@ -4,17 +4,17 @@ using CSharpToCpp.Utilities;
 [CppInclude("ToolMenusBlueprintLibrary.h")]
 public partial class UToolMenuEntryExtensions : UObject {
 // ToolMenuEntryExtensions
-	public FScriptSlateIcon MakeScriptSlateIcon(sbyte StyleSetName,sbyte StyleName,sbyte SmallStyleName=NAME_None,FScriptSlateIcon ReturnValue) { return default; }
-	public void BreakScriptSlateIcon(FScriptSlateIcon InValue,sbyte StyleSetName,sbyte StyleName,sbyte SmallStyleName) {}
-	public FToolMenuStringCommand MakeStringCommand(EToolMenuStringCommandType Type,sbyte CustomType,sbyte String,FToolMenuStringCommand ReturnValue) { return default; }
-	public void BreakStringCommand(FToolMenuStringCommand InValue,EToolMenuStringCommandType Type,sbyte CustomType,sbyte String) {}
-	public FToolMenuOwner MakeToolMenuOwner(sbyte Name,FToolMenuOwner ReturnValue) { return default; }
-	public void BreakToolMenuOwner(FToolMenuOwner InValue,sbyte Name) {}
-	public void SetLabel(FToolMenuEntry Target,sbyte Label) {}
-	public sbyte GetLabel(FToolMenuEntry Target,sbyte ReturnValue) { return default; }
-	public void SetToolTip(FToolMenuEntry Target,sbyte ToolTip) {}
-	public sbyte GetToolTip(FToolMenuEntry Target,sbyte ReturnValue) { return default; }
-	public void SetIcon(FToolMenuEntry Target,sbyte StyleSetName,sbyte StyleName=NAME_None,sbyte SmallStyleName=NAME_None) {}
-	public void SetStringCommand(FToolMenuEntry Target,EToolMenuStringCommandType Type,sbyte CustomType,sbyte String) {}
-	public FToolMenuEntry InitMenuEntry(sbyte InOwner,sbyte InName,sbyte InLabel,sbyte InToolTip,EToolMenuStringCommandType CommandType,sbyte CustomCommandType,sbyte CommandString,FToolMenuEntry ReturnValue) { return default; }
+	public FScriptSlateIcon MakeScriptSlateIcon(string StyleSetName,string StyleName,string SmallStyleName/*=NAME_None*/) { return default; }
+	public void BreakScriptSlateIcon(FScriptSlateIcon InValue,string StyleSetName,string StyleName,string SmallStyleName) {}
+	public FToolMenuStringCommand MakeStringCommand(EToolMenuStringCommandType Type,string CustomType,string String) { return default; }
+	public void BreakStringCommand(FToolMenuStringCommand InValue,EToolMenuStringCommandType Type,string CustomType,string String) {}
+	public FToolMenuOwner MakeToolMenuOwner(string Name) { return default; }
+	public void BreakToolMenuOwner(FToolMenuOwner InValue,string Name) {}
+	public void SetLabel(FToolMenuEntry Target,string Label) {}
+	public string GetLabel(FToolMenuEntry Target) { return default; }
+	public void SetToolTip(FToolMenuEntry Target,string ToolTip) {}
+	public string GetToolTip(FToolMenuEntry Target) { return default; }
+	public void SetIcon(FToolMenuEntry Target,string StyleSetName,string StyleName/*=NAME_None*/,string SmallStyleName/*=NAME_None*/) {}
+	public void SetStringCommand(FToolMenuEntry Target,EToolMenuStringCommandType Type,string CustomType,string String) {}
+	public FToolMenuEntry InitMenuEntry(string InOwner,string InName,string InLabel,string InToolTip,EToolMenuStringCommandType CommandType,string CustomCommandType,string CommandString) { return default; }
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ContextualAnimTypes.h")]
 public partial struct FContextualAnimIKTarget {
 // ContextualAnimIKTarget
-	public sbyte GoalName;
+	public string GoalName;
 	public float Alpha;
 	public FTransform Transform;
 }

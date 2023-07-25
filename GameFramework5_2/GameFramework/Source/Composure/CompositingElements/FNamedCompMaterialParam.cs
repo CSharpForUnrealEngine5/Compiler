@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNamedCompMaterialParam {
 // NamedCompMaterialParam
 	public EParamType ParamType;
-	public sbyte ParamName;
+	public string ParamName;
 }

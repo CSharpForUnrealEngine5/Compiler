@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>All information about a specific world for the Niagara Outliner.</summary>
 public partial struct FNiagaraOutlinerWorldData {
 // NiagaraOutlinerWorldData
-	public TMap<sbyte,FNiagaraOutlinerSystemData> Systems;
+	public TMap<string,FNiagaraOutlinerSystemData> Systems;
 	public bool bHasBegunPlay;
 	public byte WorldType;
 	public byte NetMode;

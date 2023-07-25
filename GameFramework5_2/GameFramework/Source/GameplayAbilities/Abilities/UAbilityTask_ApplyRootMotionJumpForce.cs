@@ -9,7 +9,7 @@ public partial class UAbilityTask_ApplyRootMotionJumpForce : UAbilityTask_ApplyR
 	public FApplyRootMotionJumpForceDelegate OnLanded;
 	public void Finish() {}
 	public void OnLandedCallback(FHitResult Hit) {}
-	public UObject ApplyRootMotionJumpForce(UObject OwningAbility,sbyte TaskInstanceName,FRotator Rotation,float Distance,float Height,float Duration,float MinimumLandedTriggerTime,bool bFinishOnLanded,ERootMotionFinishVelocityMode VelocityOnFinishMode,FVector SetVelocityOnFinish,float ClampVelocityOnFinish,UObject PathOffsetCurve,UObject TimeMappingCurve,UObject ReturnValue) { return default; }
+	public UObject ApplyRootMotionJumpForce(UObject OwningAbility,string TaskInstanceName,FRotator Rotation,float Distance,float Height,float Duration,float MinimumLandedTriggerTime,bool bFinishOnLanded,ERootMotionFinishVelocityMode VelocityOnFinishMode,FVector SetVelocityOnFinish,float ClampVelocityOnFinish,UObject PathOffsetCurve,UObject TimeMappingCurve) { return default; }
 	public FRotator Rotation;
 	public float Distance;
 	public float Height;

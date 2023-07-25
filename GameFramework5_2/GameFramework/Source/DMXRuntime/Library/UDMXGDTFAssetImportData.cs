@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXGDTFAssetImportData.h")]
 public partial class UDMXGDTFAssetImportData : UAssetImportData {
 // DMXGDTFAssetImportData
-	public sbyte FilePathAndName;
+	public string FilePathAndName;
 	public FDMXByteArray64 RawSourceData;
 }

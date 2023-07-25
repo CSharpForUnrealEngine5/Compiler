@@ -45,7 +45,7 @@ public partial class ULandscapeEditorObject : UObject {
 	public bool bApplyToAllTargets;
 	public ELandscapeGizmoSnapType SnapMode;
 	public bool bSmoothGizmoBrush;
-	public sbyte GizmoHeightmapFilenameString;
+	public string GizmoHeightmapFilenameString;
 	public FIntPoint GizmoImportSize;
 	public TArray<FGizmoImportLayer> GizmoImportLayers;
 	public FVector2D MirrorPoint;
@@ -64,11 +64,11 @@ public partial class ULandscapeEditorObject : UObject {
 	public FRotator NewLandscape_Rotation;
 	public FVector NewLandscape_Scale;
 	public ELandscapeImportResult ImportLandscape_HeightmapImportResult;
-	public sbyte ImportLandscape_HeightmapErrorMessage;
-	public sbyte ImportLandscape_HeightmapFilename;
+	public string ImportLandscape_HeightmapErrorMessage;
+	public string ImportLandscape_HeightmapFilename;
 	public uint ImportLandscape_Width;
 	public uint ImportLandscape_Height;
-	public sbyte HeightmapExportFilename;
+	public string HeightmapExportFilename;
 	public FIntPoint ImportLandscape_GizmoLocalPosition;
 	public ELandscapeImportTransformType ImportType;
 	public bool bHeightmapSelected;

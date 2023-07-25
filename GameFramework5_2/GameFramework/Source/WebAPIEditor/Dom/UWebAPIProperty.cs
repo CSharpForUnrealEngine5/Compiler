@@ -9,6 +9,6 @@ public partial class UWebAPIProperty : UWebAPIModelBase {
 	public FWebAPITypeNameVariant Type;
 	public bool bIsArray;
 	public bool bIsMixin;
-	public sbyte DefaultValue;
-	public TArray<sbyte> DefaultValues;
+	public string DefaultValue;
+	public TArray<string> DefaultValues;
 }

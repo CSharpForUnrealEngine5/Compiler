@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A DMX protocol as a name that can be displayed in UI. The protocol is directly accessible via GetProtocol</summary>
 public partial struct FDMXProtocolName {
 // DMXProtocolName
-	public sbyte Name;
+	public string Name;
 }

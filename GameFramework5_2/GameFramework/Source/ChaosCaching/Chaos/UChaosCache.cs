@@ -8,9 +8,9 @@ public partial class UChaosCache : UObject {
 	public uint NumRecordedFrames;
 	public TArray<int> TrackToParticle;
 	public TArray<FPerParticleCacheData> ParticleTracks;
-	public TMap<sbyte,FRichCurves> ChannelsTracks;
-	public TMap<sbyte,FRichCurve> CurveData;
-	public TMap<sbyte,FCacheEventTrack> EventTracks;
+	public TMap<string,FRichCurves> ChannelsTracks;
+	public TMap<string,FRichCurve> CurveData;
+	public TMap<string,FCacheEventTrack> EventTracks;
 	public FCacheSpawnableTemplate Spawnable;
 	public FGuid AdapterGuid;
 	public int Version;

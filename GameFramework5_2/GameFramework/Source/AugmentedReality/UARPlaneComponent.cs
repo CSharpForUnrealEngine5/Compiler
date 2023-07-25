@@ -8,7 +8,7 @@ public partial class UARPlaneComponent : UARComponent {
 	public void ReceiveUpdate(FARPlaneUpdatePayload Payload) {}
 	public void SetPlaneComponentDebugMode(EPlaneComponentDebugMode NewDebugMode) {}
 	public void SetObjectClassificationDebugColors(TMap<EARObjectClassification,FLinearColor> InColors) {}
-	public TMap<EARObjectClassification,FLinearColor> GetObjectClassificationDebugColors(TMap<EARObjectClassification,FLinearColor> ReturnValue) { return default; }
+	public TMap<EARObjectClassification,FLinearColor> GetObjectClassificationDebugColors() { return default; }
 	public void ServerUpdatePayload(FARPlaneUpdatePayload NewPayload) {}
 	public FARPlaneUpdatePayload ReplicatedPayload;
 }

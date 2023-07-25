@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/PlatformInterfaceWebResponse.h")]
 public partial class UPlatformInterfaceWebResponse : UObject {
 // PlatformInterfaceWebResponse
-	public sbyte OriginalURL;
+	public string OriginalURL;
 	public int ResponseCode;
 	public int Tag;
-	public sbyte StringResponse;
+	public string StringResponse;
 	public TArray<byte> BinaryResponse;
-	public int GetNumHeaders(int ReturnValue) { return default; }
-	public void GetHeader(int HeaderIndex,sbyte Header,sbyte Value) {}
-	public sbyte GetHeaderValue(sbyte HeaderName,sbyte ReturnValue) { return default; }
+	public int GetNumHeaders() { return default; }
+	public void GetHeader(int HeaderIndex,string Header,string Value) {}
+	public string GetHeaderValue(string HeaderName) { return default; }
 }

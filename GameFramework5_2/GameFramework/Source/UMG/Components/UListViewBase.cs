@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Bare-bones base class to make creating custom UListView widgets easier.</summary>
 public partial class UListViewBase : UWidget {
 // ListViewBase
-	public TArray<UObject> GetDisplayedEntryWidgets(TArray<UObject> ReturnValue) { return default; }
-	public float GetScrollOffset(float ReturnValue) { return default; }
+	public TArray<UObject> GetDisplayedEntryWidgets() { return default; }
+	public float GetScrollOffset() { return default; }
 	public void RegenerateAllEntries() {}
 	public void ScrollToTop() {}
 	public void ScrollToBottom() {}

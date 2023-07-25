@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Dataflow/DataflowContextOverridesNodes.h")]
 public partial struct FFloatOverrideDataflowNode {
 // FloatOverrideDataflowNode
-	public sbyte PropertyName;
-	public sbyte KeyName;
+	public string PropertyName;
+	public string KeyName;
 	public float ValueOut;
 }

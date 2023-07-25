@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetControlTransform is used to perform a change in the hierarchy by setting a single control's transform.</summary>
 public partial struct FRigUnit_SetControlTransform {
 // RigUnit_SetControlTransform
-	public sbyte Control;
+	public string Control;
 	public float Weight;
 	public FTransform Transform;
 	public ERigVMTransformSpace Space;

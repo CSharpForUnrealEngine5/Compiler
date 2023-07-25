@@ -10,9 +10,9 @@ public partial class UContextualAnimSceneActorComponent : UPrimitiveComponent {
 	public bool bEnableDebug;
 	public void OnJoinedScene(FContextualAnimSceneBindings InBindings) {}
 	public void OnLeftScene() {}
-	public TArray<FContextualAnimIKTarget> GetIKTargets(TArray<FContextualAnimIKTarget> ReturnValue) { return default; }
-	public FContextualAnimIKTarget GetIKTargetByGoalName(sbyte GoalName,FContextualAnimIKTarget ReturnValue) { return default; }
-	public bool StartContextualAnimScene(FContextualAnimSceneBindings InBindings,bool ReturnValue) { return default; }
+	public TArray<FContextualAnimIKTarget> GetIKTargets() { return default; }
+	public FContextualAnimIKTarget GetIKTargetByGoalName(string GoalName) { return default; }
+	public bool StartContextualAnimScene(FContextualAnimSceneBindings InBindings) { return default; }
 	public FContextualAnimSceneBindings RepBindings;
 	public FContextualAnimSceneBindings Bindings;
 	public TArray<FContextualAnimIKTarget> IKTargets;

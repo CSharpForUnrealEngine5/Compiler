@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAssetLoadingStateProviderMessage {
 // AssetLoadingStateProviderMessage
 	public EStageLoadingState LoadingState;
-	public sbyte AssetName;
+	public string AssetName;
 }

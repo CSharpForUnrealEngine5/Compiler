@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial struct FMQTTClientMessage {
 // MQTTClientMessage
 	public FDateTime TimeStamp;
-	public sbyte Topic;
+	public string Topic;
 	public TArray<byte> Payload;
 	public bool bRetain;
 	public EMQTTQualityOfService QoS;
-	public sbyte PayloadString;
+	public string PayloadString;
 }

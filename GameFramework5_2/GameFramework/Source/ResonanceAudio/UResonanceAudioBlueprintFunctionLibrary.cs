@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UResonanceAudioBlueprintFunctionLibrary : UBlueprintFunctionLibrary {
 // ResonanceAudioBlueprintFunctionLibrary
 	public void SetGlobalReverbPreset(UObject InPreset) {}
-	public UObject GetGlobalReverbPreset(UObject ReturnValue) { return default; }
+	public UObject GetGlobalReverbPreset() { return default; }
 }

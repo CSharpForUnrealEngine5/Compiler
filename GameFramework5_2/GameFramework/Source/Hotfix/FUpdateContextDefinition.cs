@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Update context definition loaded from config.</summary>
 public partial struct FUpdateContextDefinition {
 // UpdateContextDefinition
-	public sbyte Name;
+	public string Name;
 	public bool bEnabled;
 	public bool bCheckAvailabilityOnly;
 	public bool bPatchCheckEnabled;
 	public bool bPlatformEnvironmentDetectionEnabled;
-	public TSet<sbyte> AdditionalTags;
+	public TSet<string> AdditionalTags;
 }

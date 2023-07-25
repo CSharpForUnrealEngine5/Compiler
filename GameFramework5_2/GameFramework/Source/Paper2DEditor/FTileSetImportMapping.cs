@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("TileMapAssetImportData.h")]
 public partial struct FTileSetImportMapping {
 // TileSetImportMapping
-	public sbyte SourceName;
+	public string SourceName;
 	public TWeakObjectPtr<UPaperTileSet> ImportedTileSet;
 	public TWeakObjectPtr<UTexture> ImportedTexture;
 }

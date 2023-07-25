@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("StructUtilsTestTypes.h")]
 public partial struct FTestStructComplex {
 // TestStructComplex
-	public sbyte String;
-	public TArray<sbyte> StringArray;
+	public string String;
+	public TArray<string> StringArray;
 }

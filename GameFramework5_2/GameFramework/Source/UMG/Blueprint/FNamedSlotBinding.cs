@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Blueprint/UserWidget.h")]
 public partial struct FNamedSlotBinding {
 // NamedSlotBinding
-	public sbyte Name;
+	public string Name;
 	public FGuid Guid;
 	public UWidget Content;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusFunctionNodeGraph.h")]
 public partial class UOptimusFunctionNodeGraph : UOptimusNodeSubGraph {
 // OptimusFunctionNodeGraph
-	public sbyte Category;
+	public string Category;
 }

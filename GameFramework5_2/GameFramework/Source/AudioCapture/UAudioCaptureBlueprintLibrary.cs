@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("AudioCaptureBlueprintLibrary.h")]
 public partial class UAudioCaptureBlueprintLibrary : UBlueprintFunctionLibrary {
 // AudioCaptureBlueprintLibrary
-	public sbyte Conv_AudioInputDeviceInfoToString(FAudioInputDeviceInfo info,sbyte ReturnValue) { return default; }
+	public string Conv_AudioInputDeviceInfoToString(FAudioInputDeviceInfo info) { return default; }
 	public void GetAvailableAudioInputDevices(UObject WorldContextObject,FOnAudioInputDevicesObtained OnObtainDevicesEvent) {}
 }

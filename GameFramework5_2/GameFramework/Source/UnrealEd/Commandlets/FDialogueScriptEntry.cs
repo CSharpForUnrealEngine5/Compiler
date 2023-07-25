@@ -4,15 +4,15 @@ using CSharpToCpp.Utilities;
 [CppInclude("Commandlets/ExportDialogueScriptCommandlet.h")]
 public partial struct FDialogueScriptEntry {
 // DialogueScriptEntry
-	public sbyte SpeakingVoice;
-	public TArray<sbyte> TargetVoices;
-	public sbyte SpokenDialogue;
-	public sbyte VoiceActorDirection;
-	public sbyte AudioFileName;
-	public sbyte DialogueAsset;
+	public string SpeakingVoice;
+	public TArray<string> TargetVoices;
+	public string SpokenDialogue;
+	public string VoiceActorDirection;
+	public string AudioFileName;
+	public string DialogueAsset;
 	public bool IsRecorded;
-	public TArray<sbyte> LocalizationKeys;
-	public sbyte SpeakingVoiceGUID;
-	public TArray<sbyte> TargetVoiceGUIDs;
-	public sbyte DialogueAssetGUID;
+	public TArray<string> LocalizationKeys;
+	public string SpeakingVoiceGUID;
+	public TArray<string> TargetVoiceGUIDs;
+	public string DialogueAssetGUID;
 }

@@ -7,5 +7,5 @@ public partial struct FTemplateMapInfoOverride {
 // TemplateMapInfoOverride
 	public FSoftObjectPath Thumbnail;
 	public FSoftObjectPath Map;
-	public sbyte DisplayName;
+	public string DisplayName;
 }

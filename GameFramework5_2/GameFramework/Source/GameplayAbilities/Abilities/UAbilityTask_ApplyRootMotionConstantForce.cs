@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UAbilityTask_ApplyRootMotionConstantForce : UAbilityTask_ApplyRootMotion_Base {
 // AbilityTask_ApplyRootMotionConstantForce
 	public FApplyRootMotionConstantForceDelegate OnFinish;
-	public UObject ApplyRootMotionConstantForce(UObject OwningAbility,sbyte TaskInstanceName,FVector WorldDirection,float Strength,float Duration,bool bIsAdditive,UObject StrengthOverTime,ERootMotionFinishVelocityMode VelocityOnFinishMode,FVector SetVelocityOnFinish,float ClampVelocityOnFinish,bool bEnableGravity,UObject ReturnValue) { return default; }
+	public UObject ApplyRootMotionConstantForce(UObject OwningAbility,string TaskInstanceName,FVector WorldDirection,float Strength,float Duration,bool bIsAdditive,UObject StrengthOverTime,ERootMotionFinishVelocityMode VelocityOnFinishMode,FVector SetVelocityOnFinish,float ClampVelocityOnFinish,bool bEnableGravity) { return default; }
 	public FVector WorldDirection;
 	public float Strength;
 	public float Duration;

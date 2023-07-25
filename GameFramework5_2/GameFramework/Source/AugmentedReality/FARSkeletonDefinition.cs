@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FARSkeletonDefinition {
 // ARSkeletonDefinition
 	public int NumJoints;
-	public TArray<sbyte> JointNames;
+	public TArray<string> JointNames;
 	public TArray<int> ParentIndices;
 }

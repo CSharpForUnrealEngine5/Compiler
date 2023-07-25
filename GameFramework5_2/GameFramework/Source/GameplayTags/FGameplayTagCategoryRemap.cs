@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Category remapping. This allows base engine tag category meta data to remap to multiple project-specific categories.</summary>
 public partial struct FGameplayTagCategoryRemap {
 // GameplayTagCategoryRemap
-	public sbyte BaseCategory;
-	public TArray<sbyte> RemapCategories;
+	public string BaseCategory;
+	public TArray<string> RemapCategories;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("VariantObjectBinding.h")]
 public partial class UVariantObjectBinding : UObject {
 // VariantObjectBinding
-	public sbyte CachedActorLabel;
+	public string CachedActorLabel;
 	public FSoftObjectPath ObjectPtr;
 	public TLazyObjectPtr<UObject> LazyObjectPtr;
 	public TArray<UPropertyValue> CapturedProperties;

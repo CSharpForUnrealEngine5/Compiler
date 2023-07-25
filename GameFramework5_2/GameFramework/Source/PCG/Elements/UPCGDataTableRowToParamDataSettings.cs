@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Elements/PCGDataTableRowToParamData.h")]
 public partial class UPCGDataTableRowToParamDataSettings : UPCGSettings {
 // PCGDataTableRowToParamDataSettings
-	public sbyte RowName;
-	public sbyte PathOverride;
+	public string RowName;
+	public string PathOverride;
 	public TSoftObjectPtr<UDataTable> DataTable;
 }

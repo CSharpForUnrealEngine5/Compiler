@@ -31,14 +31,14 @@ public partial class ULidarPointCloudComponent : UMeshComponent {
 	public UMaterialInterface Material;
 	public UMaterialInterface BaseMaterial;
 	public UMaterialInterface BaseMaterialMasked;
-	public UObject GetPointCloud(UObject ReturnValue) { return default; }
-	public bool HasPointsInSphere(FVector Center,float Radius,bool bVisibleOnly,bool ReturnValue) { return default; }
-	public bool HasPointsInBox(FVector Center,FVector Extent,bool bVisibleOnly,bool ReturnValue) { return default; }
-	public bool HasPointsByRay(FVector Origin,FVector Direction,float Radius,bool bVisibleOnly,bool ReturnValue) { return default; }
-	public TArray<FLidarPointCloudPoint> GetPointsInSphereAsCopies(FVector Center,float Radius,bool bVisibleOnly,bool bReturnWorldSpace,TArray<FLidarPointCloudPoint> ReturnValue) { return default; }
-	public TArray<FLidarPointCloudPoint> GetPointsInBoxAsCopies(FVector Center,FVector Extent,bool bVisibleOnly,bool bReturnWorldSpace,TArray<FLidarPointCloudPoint> ReturnValue) { return default; }
-	public bool LineTraceSingle(FVector Origin,FVector Direction,float Radius,bool bVisibleOnly,FLidarPointCloudPoint PointHit,bool ReturnValue) { return default; }
-	public bool LineTraceMulti(FVector Origin,FVector Direction,float Radius,bool bVisibleOnly,bool bReturnWorldSpace,TArray<FLidarPointCloudPoint> OutHits,bool ReturnValue) { return default; }
+	public UObject GetPointCloud() { return default; }
+	public bool HasPointsInSphere(FVector Center,float Radius,bool bVisibleOnly) { return default; }
+	public bool HasPointsInBox(FVector Center,FVector Extent,bool bVisibleOnly) { return default; }
+	public bool HasPointsByRay(FVector Origin,FVector Direction,float Radius,bool bVisibleOnly) { return default; }
+	public TArray<FLidarPointCloudPoint> GetPointsInSphereAsCopies(FVector Center,float Radius,bool bVisibleOnly,bool bReturnWorldSpace) { return default; }
+	public TArray<FLidarPointCloudPoint> GetPointsInBoxAsCopies(FVector Center,FVector Extent,bool bVisibleOnly,bool bReturnWorldSpace) { return default; }
+	public bool LineTraceSingle(FVector Origin,FVector Direction,float Radius,bool bVisibleOnly,FLidarPointCloudPoint PointHit) { return default; }
+	public bool LineTraceMulti(FVector Origin,FVector Direction,float Radius,bool bVisibleOnly,bool bReturnWorldSpace,TArray<FLidarPointCloudPoint> OutHits) { return default; }
 	public void SetVisibilityOfPointsInSphere(bool bNewVisibility,FVector Center,float Radius) {}
 	public void SetVisibilityOfPointsInBox(bool bNewVisibility,FVector Center,FVector Extent) {}
 	public void SetVisibilityOfFirstPointByRay(bool bNewVisibility,FVector Origin,FVector Direction,float Radius) {}
@@ -52,7 +52,7 @@ public partial class ULidarPointCloudComponent : UMeshComponent {
 	public void RemoveFirstPointByRay(FVector Origin,FVector Direction,float Radius,bool bVisibleOnly) {}
 	public void RemovePointsByRay(FVector Origin,FVector Direction,float Radius,bool bVisibleOnly) {}
 	public void SetPointCloud(UObject InPointCloud) {}
-	public ELidarPointCloudSpriteShape GetPointShape(ELidarPointCloudSpriteShape ReturnValue) { return default; }
+	public ELidarPointCloudSpriteShape GetPointShape() { return default; }
 	public void SetPointShape(ELidarPointCloudSpriteShape NewPointShape) {}
 	public void ApplyRenderingParameters() {}
 }

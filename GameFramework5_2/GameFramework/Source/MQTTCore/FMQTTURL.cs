@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>mqtt[s]:[username][:password]@host.domain[:port]</summary>
 public partial struct FMQTTURL {
 // MQTTURL
-	public sbyte Host;
+	public string Host;
 	public int Port;
-	public sbyte Username;
-	public sbyte Password;
+	public string Username;
+	public string Password;
 	public EMQTTScheme Scheme;
 }

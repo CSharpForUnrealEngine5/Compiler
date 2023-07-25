@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An audio component that also provides curves to drive animation</summary>
 public partial class UAudioCurveSourceComponent : UAudioComponent {
 // AudioCurveSourceComponent
-	public sbyte CurveSourceBindingName;
+	public string CurveSourceBindingName;
 	public float CurveSyncOffset;
 }

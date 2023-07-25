@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A USTRUCT() wrapper struct, used by the implementation, to serialize/deserialize FName and</summary>
 public partial struct FConcertDataStore_String {
 // ConcertDataStore_String
-	public sbyte Value;
+	public string Value;
 }

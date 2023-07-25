@@ -10,7 +10,7 @@ public partial class UMovieSceneControlRigParameterSection : UMovieSceneParamete
 	public TArray<bool> ControlsMask;
 	public FMovieSceneTransformMask TransformMask;
 	public FMovieSceneFloatChannel Weight;
-	public TMap<sbyte,FChannelMapInfo> ControlChannelMap;
+	public TMap<string,FChannelMapInfo> ControlChannelMap;
 	public TArray<FEnumParameterNameAndCurve> EnumParameterNamesAndCurves;
 	public TArray<FIntegerParameterNameAndCurve> IntegerParameterNamesAndCurves;
 	public TArray<FSpaceControlNameAndChannel> SpaceChannels;

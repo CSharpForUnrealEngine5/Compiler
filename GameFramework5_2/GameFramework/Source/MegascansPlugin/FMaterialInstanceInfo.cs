@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("MSAssetImportData.h")]
 public partial struct FMaterialInstanceInfo {
 // MaterialInstanceInfo
-	public sbyte instanceID;
-	public sbyte instanceName;
-	public sbyte instancePath;
-	public sbyte instanceMaster;
-	public sbyte type;
+	public string instanceID;
+	public string instanceName;
+	public string instancePath;
+	public string instanceMaster;
+	public string type;
 	public TArray<FMaterialParams> @params;
 }

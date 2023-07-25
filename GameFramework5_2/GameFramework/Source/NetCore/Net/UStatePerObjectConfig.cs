@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for loading and initializing state configuration</summary>
 public partial class UStatePerObjectConfig : UObject {
 // StatePerObjectConfig
-	public sbyte PerObjectConfigSection;
+	public string PerObjectConfigSection;
 	public bool bEnabled;
 }

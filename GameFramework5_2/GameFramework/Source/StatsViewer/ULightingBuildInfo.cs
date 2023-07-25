@@ -10,5 +10,5 @@ public partial class ULightingBuildInfo : UObject {
 	public float UnmappedTexelsPercentage;
 	public float UnmappedTexelsMemory;
 	public float TotalTexelMemory;
-	public sbyte LevelName;
+	public string LevelName;
 }

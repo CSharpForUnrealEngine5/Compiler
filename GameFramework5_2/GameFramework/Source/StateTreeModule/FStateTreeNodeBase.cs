@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Base struct of StateTree Conditions, Evaluators, and Tasks.</summary>
 public partial struct FStateTreeNodeBase {
 // StateTreeNodeBase
-	public sbyte Name;
+	public string Name;
 	public FStateTreeIndex16 BindingsBatch;
 	public FStateTreeIndex16 DataViewIndex;
 	public FStateTreeIndex16 InstanceIndex;

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>UI data that contains only text. This is mostly used as an example of a subclass of UGameplayEffectUIData.</summary>
 public partial class UGameplayEffectUIData_TextOnly : UGameplayEffectUIData {
 // GameplayEffectUIData_TextOnly
-	public sbyte Description;
+	public string Description;
 }

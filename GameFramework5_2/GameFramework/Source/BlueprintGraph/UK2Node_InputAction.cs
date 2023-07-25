@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_InputAction.h")]
 public partial class UK2Node_InputAction : UK2Node {
 // K2Node_InputAction
-	public sbyte InputActionName;
+	public string InputActionName;
 	public bool bConsumeInput;
 	public bool bExecuteWhenPaused;
 	public bool bOverrideParentBinding;

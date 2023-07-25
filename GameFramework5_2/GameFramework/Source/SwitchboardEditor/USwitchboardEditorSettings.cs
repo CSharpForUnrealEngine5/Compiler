@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class USwitchboardEditorSettings : UObject {
 // SwitchboardEditorSettings
 	public FDirectoryPath VirtualEnvironmentPath;
-	public sbyte ListenerCommandlineArguments;
-	public UObject GetSwitchboardEditorSettings(UObject ReturnValue) { return default; }
+	public string ListenerCommandlineArguments;
+	public UObject GetSwitchboardEditorSettings() { return default; }
 }

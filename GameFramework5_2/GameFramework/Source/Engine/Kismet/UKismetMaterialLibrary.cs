@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("Kismet/KismetMaterialLibrary.h")]
 public partial class UKismetMaterialLibrary : UBlueprintFunctionLibrary {
 // KismetMaterialLibrary
-	public void SetScalarParameterValue(UObject WorldContextObject,UObject Collection,sbyte ParameterName,float ParameterValue) {}
-	public void SetVectorParameterValue(UObject WorldContextObject,UObject Collection,sbyte ParameterName,FLinearColor ParameterValue) {}
-	public float GetScalarParameterValue(UObject WorldContextObject,UObject Collection,sbyte ParameterName,float ReturnValue) { return default; }
-	public FLinearColor GetVectorParameterValue(UObject WorldContextObject,UObject Collection,sbyte ParameterName,FLinearColor ReturnValue) { return default; }
-	public UObject CreateDynamicMaterialInstance(UObject WorldContextObject,UObject Parent,sbyte OptionalName=NAME_None,EMIDCreationFlags CreationFlags=EMIDCreationFlags,UObject ReturnValue) { return default; }
+	public void SetScalarParameterValue(UObject WorldContextObject,UObject Collection,string ParameterName,float ParameterValue) {}
+	public void SetVectorParameterValue(UObject WorldContextObject,UObject Collection,string ParameterName,FLinearColor ParameterValue) {}
+	public float GetScalarParameterValue(UObject WorldContextObject,UObject Collection,string ParameterName) { return default; }
+	public FLinearColor GetVectorParameterValue(UObject WorldContextObject,UObject Collection,string ParameterName) { return default; }
+	public UObject CreateDynamicMaterialInstance(UObject WorldContextObject,UObject Parent,string OptionalName/*=NAME_None*/,EMIDCreationFlags CreationFlags/*=EMIDCreationFlags.None*/) { return default; }
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UHudSettings : UObject {
 // HudSettings
 	public bool bShowHUD;
-	public TArray<sbyte> DebugDisplay;
+	public TArray<string> DebugDisplay;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UTakeRecorderLiveLinkSource : UTakeRecorderSource {
 // TakeRecorderLiveLinkSource
 	public bool bReduceKeys;
-	public sbyte SubjectName;
+	public string SubjectName;
 	public bool bSaveSubjectSettings;
 	public bool bUseSourceTimecode;
 	public bool bDiscardSamplesBeforeStart;

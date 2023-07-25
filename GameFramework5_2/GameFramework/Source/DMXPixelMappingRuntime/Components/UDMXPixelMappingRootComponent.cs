@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Root component in the components tree</summary>
 public partial class UDMXPixelMappingRootComponent : UDMXPixelMappingBaseComponent {
 // DMXPixelMappingRootComponent
-	public TMap<sbyte,UDMXPixelMappingRendererComponent> CachedRendererComponentsByName;
+	public TMap<string,UDMXPixelMappingRendererComponent> CachedRendererComponentsByName;
 }

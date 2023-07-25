@@ -9,8 +9,8 @@ public partial class UPaperImporterSettings : UObject {
 	public bool bPickBestMaterialWhenCreatingTileMaps;
 	public bool bAnalysisCanUseOpaque;
 	public float DefaultPixelsPerUnrealUnit;
-	public TArray<sbyte> NormalMapTextureSuffixes;
-	public TArray<sbyte> BaseMapTextureSuffixes;
+	public TArray<string> NormalMapTextureSuffixes;
+	public TArray<string> BaseMapTextureSuffixes;
 	public byte DefaultSpriteTextureGroup;
 	public bool bOverrideTextureCompression;
 	public byte DefaultSpriteTextureCompression;

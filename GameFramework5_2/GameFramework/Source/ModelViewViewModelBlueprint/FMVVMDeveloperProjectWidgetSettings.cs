@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MVVMDeveloperProjectSettings.h")]
 public partial struct FMVVMDeveloperProjectWidgetSettings {
 // MVVMDeveloperProjectWidgetSettings
-	public TSet<sbyte> DisallowedFieldNames;
-	public TSet<sbyte> AdvancedFieldNames;
+	public TSet<string> DisallowedFieldNames;
+	public TSet<string> AdvancedFieldNames;
 }

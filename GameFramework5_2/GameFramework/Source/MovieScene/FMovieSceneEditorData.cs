@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Editor only data that needs to be saved between sessions for editing but has no runtime purpose</summary>
 public partial struct FMovieSceneEditorData {
 // MovieSceneEditorData
-	public TMap<sbyte,FMovieSceneExpansionState> ExpansionStates;
-	public TArray<sbyte> PinnedNodes;
+	public TMap<string,FMovieSceneExpansionState> ExpansionStates;
+	public TArray<string> PinnedNodes;
 	public double ViewStart;
 	public double ViewEnd;
 	public double WorkStart;

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MetasoundEditorGraphMemberDefaults.h")]
 public partial class UMetasoundEditorGraphMemberDefaultStringArray : UMetasoundEditorGraphMemberDefaultLiteral {
 // MetasoundEditorGraphMemberDefaultStringArray
-	public TArray<sbyte> Default;
+	public TArray<string> Default;
 }

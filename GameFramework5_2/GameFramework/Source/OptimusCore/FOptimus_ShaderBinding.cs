@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusBindingTypes.h")]
 public partial struct FOptimus_ShaderBinding {
 // Optimus_ShaderBinding
-	public sbyte Name;
+	public string Name;
 	public FOptimusDataTypeRef DataType;
 }

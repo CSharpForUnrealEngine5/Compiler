@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that responds to TestDataRequests.</summary>
 public partial struct FAutomationWorkerTestDataResponse {
 // AutomationWorkerTestDataResponse
-	public sbyte JsonData;
+	public string JsonData;
 	public bool bIsNew;
 }

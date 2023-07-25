@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes movement style name.</summary>
 public partial struct FMassMovementStyle {
 // MassMovementStyle
-	public sbyte Name;
+	public string Name;
 	public FGuid ID;
 }

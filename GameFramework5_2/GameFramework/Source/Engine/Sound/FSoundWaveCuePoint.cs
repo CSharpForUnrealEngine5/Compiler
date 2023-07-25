@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FSoundWaveCuePoint {
 // SoundWaveCuePoint
 	public int CuePointID;
-	public sbyte Label;
+	public string Label;
 	public int FramePosition;
 	public int FrameLength;
 }

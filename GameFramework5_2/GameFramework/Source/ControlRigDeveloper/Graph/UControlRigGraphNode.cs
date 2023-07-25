@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for animation ControlRig-related nodes</summary>
 public partial class UControlRigGraphNode : UEdGraphNode {
 // ControlRigGraphNode
-	public sbyte ModelNodePath;
+	public string ModelNodePath;
 	public TWeakObjectPtr<URigVMNode> CachedModelNode;
-	public TMap<sbyte,TWeakObjectPtr<URigVMPin>> PinPathToModelPin;
-	public sbyte PropertyName_DEPRECATED;
-	public sbyte StructPath_DEPRECATED;
+	public TMap<string,TWeakObjectPtr<URigVMPin>> PinPathToModelPin;
+	public string PropertyName_DEPRECATED;
+	public string StructPath_DEPRECATED;
 	public FEdGraphPinType PinType_DEPRECATED;
 	public int ParameterType_DEPRECATED;
-	public TArray<sbyte> ExpandedPins_DEPRECATED;
+	public TArray<string> ExpandedPins_DEPRECATED;
 }

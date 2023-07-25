@@ -4,18 +4,18 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithRuntime.h")]
 public partial class ADatasmithRuntimeActor : AActor {
 // DatasmithRuntimeActor
-	public bool IsConnected(bool ReturnValue) { return default; }
-	public sbyte GetDestinationName(sbyte ReturnValue) { return default; }
-	public sbyte GetSourceName(sbyte ReturnValue) { return default; }
-	public bool OpenConnectionWithIndex(int SourceIndex,bool ReturnValue) { return default; }
+	public bool IsConnected() { return default; }
+	public string GetDestinationName() { return default; }
+	public string GetSourceName() { return default; }
+	public bool OpenConnectionWithIndex(int SourceIndex) { return default; }
 	public void CloseConnection() {}
-	public int GetSourceIndex(int ReturnValue) { return default; }
+	public int GetSourceIndex() { return default; }
 	public float Progress;
 	public bool bBuilding;
-	public sbyte LoadedScene;
+	public string LoadedScene;
 	public FDatasmithRuntimeImportOptions ImportOptions;
-	public sbyte ExternalFile;
-	public bool IsReceiving(bool ReturnValue) { return default; }
+	public string ExternalFile;
+	public bool IsReceiving() { return default; }
 	public void Reset() {}
-	public bool LoadFile(sbyte FilePath,bool ReturnValue) { return default; }
+	public bool LoadFile(string FilePath) { return default; }
 }

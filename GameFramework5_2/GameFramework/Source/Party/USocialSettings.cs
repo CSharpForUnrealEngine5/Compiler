@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Config-driven settings object for the social framework.</summary>
 public partial class USocialSettings : UObject {
 // SocialSettings
-	public TArray<sbyte> OssNamesWithEnvironmentIdPrefix;
+	public TArray<string> OssNamesWithEnvironmentIdPrefix;
 	public int DefaultMaxPartySize;
 	public bool bPreferPlatformInvites;
 	public bool bMustSendPrimaryInvites;
@@ -15,5 +15,5 @@ public partial class USocialSettings : UObject {
 	public int MinNicknameLength;
 	public int MaxNicknameLength;
 	public TArray<FSocialPlatformDescription> SocialPlatformDescriptions;
-	public TArray<sbyte> SonyOSSNames;
+	public TArray<string> SonyOSSNames;
 }

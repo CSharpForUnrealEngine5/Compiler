@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>* Simple struct for the table row used for UDataprepOperationsLibrary::SubstituteMaterials</summary>
 public partial struct FMaterialSubstitutionDataTable {
 // MaterialSubstitutionDataTable
-	public sbyte SearchString;
+	public string SearchString;
 	public EEditorScriptingStringMatchType StringMatch;
 	public UMaterialInterface MaterialReplacement;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Filter to include triangles in a sampling region based on their material.</summary>
 public partial struct FSkeletalMeshSamplingRegionMaterialFilter {
 // SkeletalMeshSamplingRegionMaterialFilter
-	public sbyte MaterialName;
+	public string MaterialName;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Event that signals a Sequencer just been closed.</summary>
 public partial struct FConcertSequencerCloseEvent {
 // ConcertSequencerCloseEvent
-	public sbyte SequenceObjectPath;
+	public string SequenceObjectPath;
 	public bool bControllerClose;
 	public int EditorsWithSequencerOpened;
 }

@@ -9,8 +9,8 @@ public partial class UNiagaraEmitter : UObject {
 	public bool bVersioningEnabled;
 	public TArray<FVersionedNiagaraEmitterData> VersionData;
 	public ENiagaraScriptTemplateSpecification TemplateSpecification;
-	public sbyte TemplateAssetDescription;
-	public sbyte Category;
+	public string TemplateAssetDescription;
+	public string Category;
 	public UTexture2D ThumbnailImage;
 	public ENiagaraScriptLibraryVisibility LibraryVisibility;
 	public FGuid VersionToOpenInEditor;
@@ -23,7 +23,7 @@ public partial class UNiagaraEmitter : UObject {
 	public FNiagaraEmitterScriptProperties SpawnScriptProps_DEPRECATED;
 	public FNiagaraEmitterScriptProperties EmitterSpawnScriptProps_DEPRECATED;
 	public FNiagaraEmitterScriptProperties EmitterUpdateScriptProps_DEPRECATED;
-	public TArray<sbyte> AttributesToPreserve_DEPRECATED;
+	public TArray<string> AttributesToPreserve_DEPRECATED;
 	public TArray<UNiagaraScript> ParentScratchPadScripts_DEPRECATED;
 	public ENiagaraSimTarget SimTarget_DEPRECATED;
 	public FBox FixedBounds_DEPRECATED;
@@ -50,12 +50,12 @@ public partial class UNiagaraEmitter : UObject {
 	public FGuid ChangeId;
 	public UNiagaraEditorDataBase EditorData_DEPRECATED;
 	public UNiagaraEditorParametersAdapterBase EditorParameters_DEPRECATED;
-	public sbyte UniqueEmitterName;
+	public string UniqueEmitterName;
 	public TArray<UNiagaraRendererProperties> RendererProperties_DEPRECATED;
 	public TArray<FNiagaraEventScriptProperties> EventHandlerScriptProps_DEPRECATED;
 	public TArray<UNiagaraSimulationStageBase> SimulationStages_DEPRECATED;
 	public UNiagaraScript GPUComputeScript_DEPRECATED;
-	public TArray<sbyte> SharedEventGeneratorIds_DEPRECATED;
+	public TArray<string> SharedEventGeneratorIds_DEPRECATED;
 	public UNiagaraEmitter Parent_DEPRECATED;
 	public UNiagaraEmitter ParentAtLastMerge_DEPRECATED;
 	public TArray<FParameterDefinitionsSubscription> ParameterDefinitionsSubscriptions;

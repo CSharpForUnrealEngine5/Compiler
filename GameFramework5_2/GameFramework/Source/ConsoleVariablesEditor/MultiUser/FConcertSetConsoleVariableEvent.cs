@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertSetConsoleVariableEvent {
 // ConcertSetConsoleVariableEvent
 	public EConsoleVariableChangeType ChangeType;
-	public sbyte Variable;
-	public sbyte Value;
+	public string Variable;
+	public string Value;
 }

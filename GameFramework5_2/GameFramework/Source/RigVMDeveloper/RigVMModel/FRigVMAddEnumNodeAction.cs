@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>An action adding an enum node to the graph.</summary>
 public partial struct FRigVMAddEnumNodeAction {
 // RigVMAddEnumNodeAction
-	public sbyte CPPType;
-	public sbyte CPPTypeObjectPath;
+	public string CPPType;
+	public string CPPTypeObjectPath;
 	public FVector2D Position;
-	public sbyte NodePath;
+	public string NodePath;
 }

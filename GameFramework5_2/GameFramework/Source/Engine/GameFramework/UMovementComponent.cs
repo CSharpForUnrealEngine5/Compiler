@@ -19,24 +19,24 @@ public partial class UMovementComponent : UActorComponent {
 	public bool bAutoRegisterPhysicsVolumeUpdates;
 	public bool bComponentShouldUpdatePhysicsVolume;
 	public EPlaneConstraintAxisSetting PlaneConstraintAxisSetting;
-	public float GetGravityZ(float ReturnValue) { return default; }
-	public float GetMaxSpeed(float ReturnValue) { return default; }
-	public bool IsExceedingMaxSpeed(float MaxSpeed,bool ReturnValue) { return default; }
+	public float GetGravityZ() { return default; }
+	public float GetMaxSpeed() { return default; }
+	public bool IsExceedingMaxSpeed(float MaxSpeed) { return default; }
 	public void StopMovementImmediately() {}
-	public UObject GetPhysicsVolume(UObject ReturnValue) { return default; }
+	public UObject GetPhysicsVolume() { return default; }
 	public void PhysicsVolumeChanged(UObject NewVolume) {}
 	public void SetUpdatedComponent(UObject NewUpdatedComponent) {}
-	public bool K2_MoveUpdatedComponent(FVector Delta,FRotator NewRotation,FHitResult OutHit,bool bSweep=true,bool bTeleport=false,bool ReturnValue) { return default; }
+	public bool K2_MoveUpdatedComponent(FVector Delta,FRotator NewRotation,FHitResult OutHit,bool bSweep/*=true*/,bool bTeleport/*=false*/) { return default; }
 	public void SetPlaneConstraintAxisSetting(EPlaneConstraintAxisSetting NewAxisSetting) {}
-	public EPlaneConstraintAxisSetting GetPlaneConstraintAxisSetting(EPlaneConstraintAxisSetting ReturnValue) { return default; }
+	public EPlaneConstraintAxisSetting GetPlaneConstraintAxisSetting() { return default; }
 	public void SetPlaneConstraintNormal(FVector PlaneNormal) {}
 	public void SetPlaneConstraintFromVectors(FVector Forward,FVector Up) {}
 	public void SetPlaneConstraintOrigin(FVector PlaneOrigin) {}
 	public void SetPlaneConstraintEnabled(bool bEnabled) {}
-	public FVector GetPlaneConstraintNormal(FVector ReturnValue) { return default; }
-	public FVector GetPlaneConstraintOrigin(FVector ReturnValue) { return default; }
-	public FVector ConstrainDirectionToPlane(FVector Direction,FVector ReturnValue) { return default; }
-	public FVector ConstrainLocationToPlane(FVector Location,FVector ReturnValue) { return default; }
-	public FVector ConstrainNormalToPlane(FVector Normal,FVector ReturnValue) { return default; }
+	public FVector GetPlaneConstraintNormal() { return default; }
+	public FVector GetPlaneConstraintOrigin() { return default; }
+	public FVector ConstrainDirectionToPlane(FVector Direction) { return default; }
+	public FVector ConstrainLocationToPlane(FVector Location) { return default; }
+	public FVector ConstrainNormalToPlane(FVector Normal) { return default; }
 	public void SnapUpdatedComponentToPlane() {}
 }

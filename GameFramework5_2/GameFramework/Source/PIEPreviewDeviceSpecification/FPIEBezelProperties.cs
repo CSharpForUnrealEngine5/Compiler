@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("PIEPreviewDeviceSpecification.h")]
 public partial struct FPIEBezelProperties {
 // PIEBezelProperties
-	public sbyte DeviceBezelFile;
+	public string DeviceBezelFile;
 	public FPIEPreviewDeviceBezelViewportRect BezelViewportRect;
 }

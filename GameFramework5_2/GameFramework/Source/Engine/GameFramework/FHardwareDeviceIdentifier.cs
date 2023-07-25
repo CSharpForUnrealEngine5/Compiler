@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An identifier that can be used to determine what input devices are available based on the FInputDeviceScope.</summary>
 public partial struct FHardwareDeviceIdentifier {
 // HardwareDeviceIdentifier
-	public sbyte InputClassName;
-	public sbyte HardwareDeviceIdentifier;
+	public string InputClassName;
+	public string HardwareDeviceIdentifier;
 }

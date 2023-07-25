@@ -6,5 +6,5 @@ public partial struct FDisplayClusterConfigurationJsonSceneComponentCamera_427 {
 // DisplayClusterConfigurationJsonSceneComponentCamera_427
 	public float InterpupillaryDistance;
 	public bool SwapEyes;
-	public sbyte StereoOffset;
+	public string StereoOffset;
 }

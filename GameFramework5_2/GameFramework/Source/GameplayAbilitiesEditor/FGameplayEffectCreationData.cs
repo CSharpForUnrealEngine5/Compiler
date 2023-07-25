@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameplayEffectCreationMenu.h")]
 public partial struct FGameplayEffectCreationData {
 // GameplayEffectCreationData
-	public sbyte MenuPath;
-	public sbyte BaseName;
+	public string MenuPath;
+	public string BaseName;
 	public UClass ParentGameplayEffect;
 }

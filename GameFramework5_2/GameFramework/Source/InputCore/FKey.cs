@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("InputCoreTypes.h")]
 public partial struct FKey {
 // Key
-	public sbyte KeyName;
+	public string KeyName;
 }

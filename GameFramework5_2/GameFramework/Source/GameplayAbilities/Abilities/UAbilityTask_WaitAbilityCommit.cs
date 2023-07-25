@@ -7,6 +7,6 @@ public partial class UAbilityTask_WaitAbilityCommit : UAbilityTask {
 // AbilityTask_WaitAbilityCommit
 	public FWaitAbilityCommitDelegate OnCommit;
 	public void OnAbilityCommit(UObject ActivatedAbility) {}
-	public UObject WaitForAbilityCommit(UObject OwningAbility,FGameplayTag WithTag,FGameplayTag WithoutTage,bool TriggerOnce=true,UObject ReturnValue) { return default; }
-	public UObject WaitForAbilityCommit_Query(UObject OwningAbility,FGameplayTagQuery Query,bool TriggerOnce=true,UObject ReturnValue) { return default; }
+	public UObject WaitForAbilityCommit(UObject OwningAbility,FGameplayTag WithTag,FGameplayTag WithoutTage,bool TriggerOnce/*=true*/) { return default; }
+	public UObject WaitForAbilityCommit_Query(UObject OwningAbility,FGameplayTagQuery Query,bool TriggerOnce/*=true*/) { return default; }
 }

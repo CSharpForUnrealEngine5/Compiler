@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Misc/LevelSequenceEditorSettings.h")]
 public partial struct FLevelSequencePropertyTrackSettings {
 // LevelSequencePropertyTrackSettings
-	public sbyte ComponentPath;
-	public sbyte PropertyPath;
+	public string ComponentPath;
+	public string PropertyPath;
 }

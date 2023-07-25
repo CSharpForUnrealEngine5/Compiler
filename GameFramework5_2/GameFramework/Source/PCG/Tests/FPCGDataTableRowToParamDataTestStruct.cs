@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Tests/Elements/PCGDataTableRowToParamDataTestStruct.h")]
 public partial struct FPCGDataTableRowToParamDataTestStruct {
 // PCGDataTableRowToParamDataTestStruct
-	public sbyte Name;
-	public sbyte String;
+	public string Name;
+	public string String;
 	public int I32;
 	public long I64;
 	public float F32;

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds the game-specific achievement name and corresponding ID from Google Play services.</summary>
 public partial struct FGooglePlayAchievementMapping {
 // GooglePlayAchievementMapping
-	public sbyte Name;
-	public sbyte AchievementID;
+	public string Name;
+	public string AchievementID;
 }

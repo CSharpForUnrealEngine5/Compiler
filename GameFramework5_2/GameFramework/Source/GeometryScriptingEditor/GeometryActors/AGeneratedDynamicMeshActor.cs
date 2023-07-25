@@ -8,11 +8,11 @@ public partial class AGeneratedDynamicMeshActor : ADynamicMeshActor {
 	public bool bFrozen;
 	public bool bResetOnRebuild;
 	public void OnRebuildGeneratedMesh(UObject TargetMesh) {}
-	public void CopyPropertiesToStaticMesh(UObject StaticMeshActor,bool bCopyComponentMaterials=false) {}
-	public void CopyPropertiesFromStaticMesh(UObject StaticMeshActor,bool bCopyComponentMaterials=false) {}
+	public void CopyPropertiesToStaticMesh(UObject StaticMeshActor,bool bCopyComponentMaterials/*=false*/) {}
+	public void CopyPropertiesFromStaticMesh(UObject StaticMeshActor,bool bCopyComponentMaterials/*=false*/) {}
 	public bool bEnableRebuildProgress;
 	public float DialogDelay;
 	public int NumProgressSteps;
-	public sbyte ProgressMessage;
-	public void IncrementProgress(int NumSteps,sbyte Message) {}
+	public string ProgressMessage;
+	public void IncrementProgress(int NumSteps,string Message) {}
 }

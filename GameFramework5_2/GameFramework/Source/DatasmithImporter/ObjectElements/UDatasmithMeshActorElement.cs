@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial class UDatasmithMeshActorElement : UDatasmithActorElement {
 // DatasmithMeshActorElement
 	public void AddMaterialOverride(UObject Material) {}
-	public int GetMaterialOverridesCount(int ReturnValue) { return default; }
-	public TArray<UObject> GetMaterials(TArray<UObject> ReturnValue) { return default; }
+	public int GetMaterialOverridesCount() { return default; }
+	public TArray<UObject> GetMaterials() { return default; }
 	public void RemoveMaterialOverride(UObject Material) {}
-	public sbyte GetStaticMeshPathName(sbyte ReturnValue) { return default; }
-	public void SetStaticMeshPathName(sbyte InStaticMeshName) {}
-	public UObject GetMeshElement(UObject ReturnValue) { return default; }
-	public FVector GetBoundingBoxSize(FVector ReturnValue) { return default; }
+	public string GetStaticMeshPathName() { return default; }
+	public void SetStaticMeshPathName(string InStaticMeshName) {}
+	public UObject GetMeshElement() { return default; }
+	public FVector GetBoundingBoxSize() { return default; }
 }

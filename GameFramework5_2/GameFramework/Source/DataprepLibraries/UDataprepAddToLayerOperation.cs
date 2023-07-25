@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>On each actor to process, add the actor to the layer</summary>
 public partial class UDataprepAddToLayerOperation : UDataprepOperation {
 // DataprepAddToLayerOperation
-	public sbyte LayerName;
+	public string LayerName;
 }

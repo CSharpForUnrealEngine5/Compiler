@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>The Gobo used for the fixture. The image ressource must apply to the GDTF standard.</summary>
 public partial struct FDMXMVRFixtureGobo {
 // DMXMVRFixtureGobo
-	public sbyte Value;
+	public string Value;
 	public FDMXOptionalFloat Rotation;
 }

@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("PCGEdge.h")]
 public partial class UPCGEdge : UObject {
 // PCGEdge
-	public sbyte InboundLabel_DEPRECATED;
+	public string InboundLabel_DEPRECATED;
 	public UPCGNode InboundNode_DEPRECATED;
-	public sbyte OutboundLabel_DEPRECATED;
+	public string OutboundLabel_DEPRECATED;
 	public UPCGNode OutboundNode_DEPRECATED;
 	public UPCGPin InputPin;
 	public UPCGPin OutputPin;

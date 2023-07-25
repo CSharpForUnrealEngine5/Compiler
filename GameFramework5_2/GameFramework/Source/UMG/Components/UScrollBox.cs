@@ -37,11 +37,11 @@ public partial class UScrollBox : UPanelWidget {
 	public void EndInertialScrolling() {}
 	public FOnUserScrolledEvent OnUserScrolled;
 	public void SetScrollOffset(float NewScrollOffset) {}
-	public float GetScrollOffset(float ReturnValue) { return default; }
-	public float GetScrollOffsetOfEnd(float ReturnValue) { return default; }
-	public float GetViewFraction(float ReturnValue) { return default; }
-	public float GetViewOffsetFraction(float ReturnValue) { return default; }
+	public float GetScrollOffset() { return default; }
+	public float GetScrollOffsetOfEnd() { return default; }
+	public float GetViewFraction() { return default; }
+	public float GetViewOffsetFraction() { return default; }
 	public void ScrollToStart() {}
 	public void ScrollToEnd() {}
-	public void ScrollWidgetIntoView(UObject WidgetToFind,bool AnimateScroll=true,EDescendantScrollDestination ScrollDestination=EDescendantScrollDestination,float Padding=0) {}
+	public void ScrollWidgetIntoView(UObject WidgetToFind,bool AnimateScroll/*=true*/,EDescendantScrollDestination ScrollDestination/*=EDescendantScrollDestination.IntoView*/,float Padding/*=0f*/) {}
 }

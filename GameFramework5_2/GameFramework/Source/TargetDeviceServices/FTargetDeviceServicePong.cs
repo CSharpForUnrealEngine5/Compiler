@@ -7,23 +7,23 @@ public partial struct FTargetDeviceServicePong {
 // TargetDeviceServicePong
 	public bool Connected;
 	public bool Authorized;
-	public sbyte HostName;
-	public sbyte HostUser;
-	public sbyte Make;
-	public sbyte Model;
-	public sbyte Name;
-	public sbyte DeviceUser;
-	public sbyte DeviceUserPassword;
+	public string HostName;
+	public string HostUser;
+	public string Make;
+	public string Model;
+	public string Name;
+	public string DeviceUser;
+	public string DeviceUserPassword;
 	public bool Shared;
 	public bool SupportsMultiLaunch;
 	public bool SupportsPowerOff;
 	public bool SupportsPowerOn;
 	public bool SupportsReboot;
 	public bool SupportsVariants;
-	public sbyte Type;
-	public sbyte DefaultVariant;
+	public string Type;
+	public string DefaultVariant;
 	public TArray<FTargetDeviceVariant> Variants;
 	public bool Aggregated;
-	public sbyte AllDevicesName;
-	public sbyte AllDevicesDefaultVariant;
+	public string AllDevicesName;
+	public string AllDevicesDefaultVariant;
 }

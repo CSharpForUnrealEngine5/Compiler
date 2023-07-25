@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UDEPRECATED_VCamInputSubsystem : UEngineSubsystem {
 // VCamInputSubsystem
 	public void SetShouldConsumeGamepadInput(bool bInShouldConsumeGamepadInput) {}
-	public bool GetShouldConsumeGamepadInput(bool ReturnValue) { return default; }
+	public bool GetShouldConsumeGamepadInput() { return default; }
 	public void BindKeyDownEvent(FKey Key,FKeyInputDelegate Delegate) {}
 	public void BindKeyUpEvent(FKey Key,FKeyInputDelegate Delegate) {}
 	public void BindAnalogEvent(FKey Key,FAnalogInputDelegate Delegate) {}

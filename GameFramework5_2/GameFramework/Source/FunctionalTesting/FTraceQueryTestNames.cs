@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("TraceQueryTestResults.h")]
 public partial struct FTraceQueryTestNames {
 // TraceQueryTestNames
-	public sbyte ComponentName;
-	public sbyte PhysicalMaterialName;
-	public sbyte ActorName;
+	public string ComponentName;
+	public string PhysicalMaterialName;
+	public string ActorName;
 }

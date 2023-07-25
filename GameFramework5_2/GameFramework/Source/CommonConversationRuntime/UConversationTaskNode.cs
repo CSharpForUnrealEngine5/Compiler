@@ -9,9 +9,9 @@ public partial class UConversationTaskNode : UConversationNodeWithLinks {
 	public bool bHasRequirements;
 	public bool bHasDynamicChoices;
 	public bool bIgnoreRequirementsWhileAdvancingConversations;
-	public bool GetNodeBodyColor(FLinearColor BodyColor,bool ReturnValue) { return default; }
-	public EConversationRequirementResult IsRequirementSatisfied(FConversationContext Context,EConversationRequirementResult ReturnValue) { return default; }
-	public FConversationTaskResult ExecuteTaskNode(FConversationContext Context,FConversationTaskResult ReturnValue) { return default; }
+	public bool GetNodeBodyColor(FLinearColor BodyColor) { return default; }
+	public EConversationRequirementResult IsRequirementSatisfied(FConversationContext Context) { return default; }
+	public FConversationTaskResult ExecuteTaskNode(FConversationContext Context) { return default; }
 	public void ExecuteClientEffects(FConversationContext Context) {}
 	public void GatherStaticExtraData(FConversationContext Context,TArray<FConversationNodeParameterPair> InOutExtraData) {}
 	public FLinearColor DefaultNodeBodyColor;

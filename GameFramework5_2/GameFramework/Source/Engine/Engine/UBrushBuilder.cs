@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class of UnrealEd brush builders.</summary>
 public partial class UBrushBuilder : UObject {
 // BrushBuilder
-	public sbyte BitmapFilename;
-	public sbyte ToolTip;
+	public string BitmapFilename;
+	public string ToolTip;
 	public bool NotifyBadParams;
 	public TArray<FVector> Vertices;
 	public TArray<FBuilderPoly> Polys;
-	public sbyte Layer;
+	public string Layer;
 	public bool MergeCoplanars;
 }

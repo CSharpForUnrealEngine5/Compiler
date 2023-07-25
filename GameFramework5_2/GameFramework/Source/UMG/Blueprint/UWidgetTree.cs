@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UWidgetTree : UObject {
 // WidgetTree
 	public UWidget RootWidget;
-	public TMap<sbyte,UWidget> NamedSlotBindings;
+	public TMap<string,UWidget> NamedSlotBindings;
 	public TArray<UWidget> AllWidgets;
 }

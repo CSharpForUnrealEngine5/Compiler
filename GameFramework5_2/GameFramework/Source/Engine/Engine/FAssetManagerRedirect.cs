@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Simple structure for redirecting an old asset name/path to a new one</summary>
 public partial struct FAssetManagerRedirect {
 // AssetManagerRedirect
-	public sbyte Old;
-	public sbyte New;
+	public string Old;
+	public string New;
 }

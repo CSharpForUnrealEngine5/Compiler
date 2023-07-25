@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("VCamInputSettings.h")]
 public partial struct FVCamInputProfile {
 // VCamInputProfile
-	public TMap<sbyte,FKey> MappableKeyOverrides;
+	public TMap<string,FKey> MappableKeyOverrides;
 }

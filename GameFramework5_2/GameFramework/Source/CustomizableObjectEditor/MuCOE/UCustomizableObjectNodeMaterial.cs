@@ -6,7 +6,7 @@ public partial class UCustomizableObjectNodeMaterial : UCustomizableObjectNodeMa
 // CustomizableObjectNodeMaterial
 	public UMaterialInterface Material;
 	public ENodePinMode TextureParametersMode;
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 	public int MeshComponentIndex;
 	public TMap<FGuid,FEdGraphPinReference> PinsParameter;
 	public TMap<FGuid,EPinMode> PinsImagePinMode;

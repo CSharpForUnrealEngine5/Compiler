@@ -6,7 +6,7 @@ public partial struct FRigControlSettings {
 // RigControlSettings
 	public ERigControlAnimationType AnimationType;
 	public ERigControlType ControlType;
-	public sbyte DisplayName;
+	public string DisplayName;
 	public ERigControlAxis PrimaryAxis;
 	public bool bIsCurve;
 	public TArray<FRigControlLimitEnabled> LimitEnabled;
@@ -15,7 +15,7 @@ public partial struct FRigControlSettings {
 	public FRigControlValue MaximumValue;
 	public bool bShapeVisible;
 	public ERigControlVisibility ShapeVisibility;
-	public sbyte ShapeName;
+	public string ShapeName;
 	public FLinearColor ShapeColor;
 	public bool bIsTransientControl;
 	public UEnum ControlEnum;

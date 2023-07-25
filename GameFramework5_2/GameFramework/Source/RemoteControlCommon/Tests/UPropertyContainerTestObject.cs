@@ -15,7 +15,7 @@ public partial class UPropertyContainerTestObject : UObject {
 	public float SomeClampedFloat;
 	public float SomeUIClampedFloat;
 	public float SomeClampedFloat2;
-	public sbyte SomeString;
-	public sbyte SomeText;
+	public string SomeString;
+	public string SomeText;
 	public TArray<float> SomeFloatArray;
 }

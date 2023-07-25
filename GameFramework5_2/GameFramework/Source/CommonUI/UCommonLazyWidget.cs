@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UCommonLazyWidget : UWidget {
 // CommonLazyWidget
 	public void SetLazyContent(TSoftObjectPtr<UClass> SoftWidget) {}
-	public UObject GetContent(UObject ReturnValue) { return default; }
-	public bool IsLoading(bool ReturnValue) { return default; }
+	public UObject GetContent() { return default; }
+	public bool IsLoading() { return default; }
 	public FSlateBrush LoadingBackgroundBrush;
 	public UUserWidget Content;
 	public FOnLoadGuardStateChangedDynamic BP_OnLoadingStateChanged;

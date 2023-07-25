@@ -11,12 +11,12 @@ public partial class UEditorPerProjectUserSettings : UObject {
 	public bool bDisplayBlackboardKeysInAlphabeticalOrder;
 	public bool bDisplayEngineVersionInBadge;
 	public bool bUseSimplygonSwarm;
-	public sbyte SimplygonServerIP;
+	public string SimplygonServerIP;
 	public bool bEnableSwarmDebugging;
 	public uint SimplygonSwarmDelay;
 	public uint SwarmNumOfConcurrentJobs;
 	public uint SwarmMaxUploadChunkSizeInMB;
-	public sbyte SwarmIntermediateFolder;
+	public string SwarmIntermediateFolder;
 	public bool bAutomaticallyHotReloadNewClasses;
 	public bool bShowCompilerLogOnCompileError;
 	public bool bKeepFbxNamespace;
@@ -37,12 +37,12 @@ public partial class UEditorPerProjectUserSettings : UObject {
 	public bool bShowSelectionSubcomponents;
 	public UBlueprintPaletteFavorites BlueprintFavorites;
 	public int AssetViewerProfileIndex;
-	public sbyte AssetViewerProfileName;
+	public string AssetViewerProfileName;
 	public int PreviewFeatureLevel;
-	public sbyte PreviewPlatformName;
-	public sbyte PreviewShaderFormatName;
-	public sbyte PreviewShaderPlatformName;
+	public string PreviewPlatformName;
+	public string PreviewShaderFormatName;
+	public string PreviewShaderPlatformName;
 	public bool bPreviewFeatureLevelActive;
 	public bool bPreviewFeatureLevelWasDefault;
-	public sbyte PreviewDeviceProfileName;
+	public string PreviewDeviceProfileName;
 }

@@ -11,7 +11,7 @@ public partial class UArrowComponent : UPrimitiveComponent {
 	public float ScreenSize;
 	public bool bIsScreenSizeScaled;
 	public bool bTreatAsASprite;
-	public sbyte SpriteCategoryName_DEPRECATED;
+	public string SpriteCategoryName_DEPRECATED;
 	public FSpriteCategoryInfo SpriteInfo;
 	public bool bLightAttachment;
 	public bool bUseInEditorScaling;

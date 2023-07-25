@@ -6,6 +6,6 @@ public partial struct FMoviePipelineCinePrestreamingGeneratedData {
 // MoviePipelineCinePrestreamingGeneratedData
 	public UCinePrestreamingData StreamingData;
 	public UMovieScene MovieScene;
-	public sbyte PackagePath;
-	public sbyte AssetName;
+	public string PackagePath;
+	public string AssetName;
 }

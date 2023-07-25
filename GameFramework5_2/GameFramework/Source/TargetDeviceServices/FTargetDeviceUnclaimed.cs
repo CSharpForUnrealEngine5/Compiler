@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that is sent when a device is no longer claimed.</summary>
 public partial struct FTargetDeviceUnclaimed {
 // TargetDeviceUnclaimed
-	public sbyte DeviceName;
-	public sbyte HostName;
-	public sbyte HostUser;
+	public string DeviceName;
+	public string HostName;
+	public string HostUser;
 }

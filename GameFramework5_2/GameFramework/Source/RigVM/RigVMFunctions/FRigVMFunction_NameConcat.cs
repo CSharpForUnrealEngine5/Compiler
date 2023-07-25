@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Concatenates two strings together to make a new string</summary>
 public partial struct FRigVMFunction_NameConcat {
 // RigVMFunction_NameConcat
-	public sbyte A;
-	public sbyte B;
-	public sbyte Result;
+	public string A;
+	public string B;
+	public string Result;
 }

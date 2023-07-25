@@ -7,5 +7,5 @@ public partial struct FBoneAnimationTrack {
 // BoneAnimationTrack
 	public FRawAnimSequenceTrack InternalTrackData;
 	public int BoneTreeIndex;
-	public sbyte Name;
+	public string Name;
 }

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Reflection UObject being observed in the details view panel of the debugger</summary>
 public partial class UPoseSearchDebuggerReflection : UObject {
 // PoseSearchDebuggerReflection
-	public sbyte CurrentDatabaseName;
+	public string CurrentDatabaseName;
 	public float ElapsedPoseJumpTime;
-	public sbyte AssetPlayerAssetName;
+	public string AssetPlayerAssetName;
 	public float AssetPlayerTime;
 	public float LastDeltaTime;
 	public float SimLinearVelocity;

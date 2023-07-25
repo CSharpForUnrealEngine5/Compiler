@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a section in sub-sequence tracks.</summary>
 public partial class UMovieSceneSubSection : UMovieSceneSection {
 // MovieSceneSubSection
-	public UObject GetSequence(UObject ReturnValue) { return default; }
+	public UObject GetSequence() { return default; }
 	public void SetSequence(UObject Sequence) {}
 	public FMovieSceneSectionParameters Parameters;
 	public float StartOffset_DEPRECATED;

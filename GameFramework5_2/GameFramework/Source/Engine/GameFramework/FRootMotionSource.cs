@@ -8,7 +8,7 @@ public partial struct FRootMotionSource {
 	public ushort Priority;
 	public ushort LocalID;
 	public ERootMotionAccumulateMode AccumulateMode;
-	public sbyte InstanceName;
+	public string InstanceName;
 	public float StartTime;
 	public float CurrentTime;
 	public float PreviousTime;

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Legacy struct for handling back compat serialization</summary>
 public partial struct FClothingAssetData_Legacy {
 // ClothingAssetData_Legacy
-	public sbyte AssetName;
-	public sbyte ApexFileName;
+	public string AssetName;
+	public string ApexFileName;
 	public bool bClothPropertiesChanged;
 	public FClothPhysicsProperties_Legacy PhysicsProperties;
 }

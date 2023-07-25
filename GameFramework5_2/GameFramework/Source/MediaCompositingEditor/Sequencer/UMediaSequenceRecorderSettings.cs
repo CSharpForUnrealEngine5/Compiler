@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UMediaSequenceRecorderSettings : UObject {
 // MediaSequenceRecorderSettings
 	public bool bRecordMediaPlayerEnabled;
-	public sbyte MediaPlayerSubDirectory;
+	public string MediaPlayerSubDirectory;
 }

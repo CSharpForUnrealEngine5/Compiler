@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/Skeleton.h")]
 public partial struct FNameMapping {
 // NameMapping
-	public sbyte NodeName;
-	public sbyte BoneName;
+	public string NodeName;
+	public string BoneName;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FBlackboardKeySelector {
 // BlackboardKeySelector
 	public TArray<UBlackboardKeyType> AllowedTypes;
-	public sbyte SelectedKeyName;
+	public string SelectedKeyName;
 	public UClass SelectedKeyType;
 	public int SelectedKeyID;
 	public bool bNoneIsAllowedValue;

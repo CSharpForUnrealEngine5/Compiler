@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A subsystem to provide and cache dynamically created ustructs.</summary>
 public partial class UWebRCStructRegistry : UEngineSubsystem {
 // WebRCStructRegistry
-	public TMap<sbyte,UScriptStruct> CachedStructs;
+	public TMap<string,UScriptStruct> CachedStructs;
 }

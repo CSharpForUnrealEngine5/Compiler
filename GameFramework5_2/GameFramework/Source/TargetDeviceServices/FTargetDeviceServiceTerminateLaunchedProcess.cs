@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for terminating an application running on the device.</summary>
 public partial struct FTargetDeviceServiceTerminateLaunchedProcess {
 // TargetDeviceServiceTerminateLaunchedProcess
-	public sbyte Variant;
-	public sbyte AppID;
+	public string Variant;
+	public string AppID;
 }

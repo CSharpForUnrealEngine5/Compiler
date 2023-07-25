@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>This structure is used to pass arguments to ServerUpdateLevelVisibilty() and ServerUpdateMultipleLevelsVisibility() server RPC functions</summary>
 public partial struct FUpdateLevelVisibilityLevelInfo {
 // UpdateLevelVisibilityLevelInfo
-	public sbyte PackageName;
-	public sbyte FileName;
+	public string PackageName;
+	public string FileName;
 	public FNetLevelVisibilityTransactionId VisibilityRequestId;
 	public bool bIsVisible;
 	public bool bTryMakeVisible;

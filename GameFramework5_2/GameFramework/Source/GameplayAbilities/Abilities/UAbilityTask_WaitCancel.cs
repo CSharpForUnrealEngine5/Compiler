@@ -7,5 +7,5 @@ public partial class UAbilityTask_WaitCancel : UAbilityTask {
 	public FWaitCancelDelegate OnCancel;
 	public void OnCancelCallback() {}
 	public void OnLocalCancelCallback() {}
-	public UObject WaitCancel(UObject OwningAbility,UObject ReturnValue) { return default; }
+	public UObject WaitCancel(UObject OwningAbility) { return default; }
 }

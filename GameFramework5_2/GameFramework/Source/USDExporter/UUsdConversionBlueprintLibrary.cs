@@ -5,31 +5,31 @@ using CSharpToCpp.Utilities;
 ///<summary>Wrapped static conversion functions from the UsdUtilities module, so that they can be used via scripting</summary>
 public partial class UUsdConversionBlueprintLibrary : UBlueprintFunctionLibrary {
 // UsdConversionBlueprintLibrary
-	public void StreamInRequiredLevels(UObject World,TSet<sbyte> LevelsToIgnore) {}
+	public void StreamInRequiredLevels(UObject World,TSet<string> LevelsToIgnore) {}
 	public void RevertSequencerAnimations() {}
 	public void ReapplySequencerAnimations() {}
-	public TArray<sbyte> GetLoadedLevelNames(UObject World,TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GetVisibleInEditorLevelNames(UObject World,TArray<sbyte> ReturnValue) { return default; }
-	public void StreamOutLevels(UObject OwningWorld,TArray<sbyte> LevelNamesToStreamOut,TArray<sbyte> LevelNamesToHide) {}
-	public TSet<UObject> GetActorsToConvert(UObject World,TSet<UObject> ReturnValue) { return default; }
-	public sbyte GenerateObjectVersionString(UObject ObjectToExport,UObject ExportOptions,sbyte ReturnValue) { return default; }
-	public bool CanExportToLayer(sbyte TargetFilePath,bool ReturnValue) { return default; }
-	public sbyte MakePathRelativeToLayer(sbyte AnchorLayerPath,sbyte PathToMakeRelative,sbyte ReturnValue) { return default; }
-	public void InsertSubLayer(sbyte ParentLayerPath,sbyte SubLayerPath,int Index=-1) {}
-	public void AddPayload(sbyte ReferencingStagePath,sbyte ReferencingPrimPath,sbyte TargetStagePath) {}
-	public sbyte GetPrimPathForObject(UObject ActorOrComponent,sbyte ParentPrimPath=TEXT,bool bUseActorFolders=false,sbyte ReturnValue) { return default; }
-	public sbyte GetSchemaNameForComponent(UObject Component,sbyte ReturnValue) { return default; }
-	public UObject GetInstancedFoliageActorForLevel(bool bCreateIfNone=false,UObject Level=nullptr,UObject ReturnValue) { return default; }
-	public TArray<UObject> GetUsedFoliageTypes(UObject Actor,TArray<UObject> ReturnValue) { return default; }
-	public UObject GetSource(UObject FoliageType,UObject ReturnValue) { return default; }
-	public TArray<FTransform> GetInstanceTransforms(UObject Actor,UObject FoliageType,UObject InstancesLevel=nullptr,TArray<FTransform> ReturnValue) { return default; }
-	public TArray<FAnalyticsEventAttr> GetAnalyticsAttributes(UObject Options,TArray<FAnalyticsEventAttr> ReturnValue) { return default; }
-	public void SendAnalytics(TArray<FAnalyticsEventAttr> Attrs,sbyte EventName,bool bAutomated,double ElapsedSeconds,double NumberOfFrames,sbyte Extension) {}
-	public void RemoveAllPrimSpecs(sbyte StageRootLayer,sbyte PrimPath,sbyte TargetLayer) {}
-	public bool CutPrims(sbyte StageRootLayer,TArray<sbyte> PrimPaths,bool ReturnValue) { return default; }
-	public bool CopyPrims(sbyte StageRootLayer,TArray<sbyte> PrimPaths,bool ReturnValue) { return default; }
-	public TArray<sbyte> PastePrims(sbyte StageRootLayer,sbyte ParentPrimPath,TArray<sbyte> ReturnValue) { return default; }
-	public bool CanPastePrims(bool ReturnValue) { return default; }
+	public TArray<string> GetLoadedLevelNames(UObject World) { return default; }
+	public TArray<string> GetVisibleInEditorLevelNames(UObject World) { return default; }
+	public void StreamOutLevels(UObject OwningWorld,TArray<string> LevelNamesToStreamOut,TArray<string> LevelNamesToHide) {}
+	public TSet<UObject> GetActorsToConvert(UObject World) { return default; }
+	public string GenerateObjectVersionString(UObject ObjectToExport,UObject ExportOptions) { return default; }
+	public bool CanExportToLayer(string TargetFilePath) { return default; }
+	public string MakePathRelativeToLayer(string AnchorLayerPath,string PathToMakeRelative) { return default; }
+	public void InsertSubLayer(string ParentLayerPath,string SubLayerPath,int Index/*=-1*/) {}
+	public void AddPayload(string ReferencingStagePath,string ReferencingPrimPath,string TargetStagePath) {}
+	public string GetPrimPathForObject(UObject ActorOrComponent,string ParentPrimPath/*=TEXT("")*/,bool bUseActorFolders/*=false*/) { return default; }
+	public string GetSchemaNameForComponent(UObject Component) { return default; }
+	public UObject GetInstancedFoliageActorForLevel(bool bCreateIfNone/*=false*/,UObject Level/*=nullptr*/) { return default; }
+	public TArray<UObject> GetUsedFoliageTypes(UObject Actor) { return default; }
+	public UObject GetSource(UObject FoliageType) { return default; }
+	public TArray<FTransform> GetInstanceTransforms(UObject Actor,UObject FoliageType,UObject InstancesLevel/*=nullptr*/) { return default; }
+	public TArray<FAnalyticsEventAttr> GetAnalyticsAttributes(UObject Options) { return default; }
+	public void SendAnalytics(TArray<FAnalyticsEventAttr> Attrs,string EventName,bool bAutomated,double ElapsedSeconds,double NumberOfFrames,string Extension) {}
+	public void RemoveAllPrimSpecs(string StageRootLayer,string PrimPath,string TargetLayer) {}
+	public bool CutPrims(string StageRootLayer,TArray<string> PrimPaths) { return default; }
+	public bool CopyPrims(string StageRootLayer,TArray<string> PrimPaths) { return default; }
+	public TArray<string> PastePrims(string StageRootLayer,string ParentPrimPath) { return default; }
+	public bool CanPastePrims() { return default; }
 	public void ClearPrimClipboard() {}
-	public TArray<sbyte> DuplicatePrims(sbyte StageRootLayer,TArray<sbyte> PrimPaths,EUsdDuplicateType DuplicateType,sbyte TargetLayer,TArray<sbyte> ReturnValue) { return default; }
+	public TArray<string> DuplicatePrims(string StageRootLayer,TArray<string> PrimPaths,EUsdDuplicateType DuplicateType,string TargetLayer) { return default; }
 }

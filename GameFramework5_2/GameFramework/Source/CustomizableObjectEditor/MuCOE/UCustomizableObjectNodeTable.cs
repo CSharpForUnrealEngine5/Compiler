@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeTable.h")]
 public partial class UCustomizableObjectNodeTable : UCustomizableObjectNode {
 // CustomizableObjectNodeTable
-	public sbyte ParameterName;
+	public string ParameterName;
 	public bool bAddNoneOption;
 	public UDataTable Table;
 	public bool bDisableCheckedRows;

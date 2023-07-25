@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("PBIK_Shared.h")]
 public partial struct FPBIKBoneSetting {
 // PBIKBoneSetting
-	public sbyte Bone;
+	public string Bone;
 	public float RotationStiffness;
 	public float PositionStiffness;
 	public EPBIKLimitType X;

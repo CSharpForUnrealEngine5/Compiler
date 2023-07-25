@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FAutomationExecutionEntry {
 // AutomationExecutionEntry
 	public FAutomationEvent Event;
-	public sbyte Filename;
+	public string Filename;
 	public int LineNumber;
 	public FDateTime Timestamp;
 }

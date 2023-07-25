@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("EnvironmentQueryGraphNode_Root.h")]
 public partial class UEnvironmentQueryGraphNode_Root : UEnvironmentQueryGraphNode {
 // EnvironmentQueryGraphNode_Root
-	public TArray<sbyte> DebugMessages;
+	public TArray<string> DebugMessages;
 	public bool bHasDebugError;
 }

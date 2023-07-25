@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FPortalRpcLocateServer {
 // PortalRpcLocateServer
 	public FGuid ProductId;
-	public sbyte ProductVersion;
-	public sbyte HostMacAddress;
-	public sbyte HostUserId;
+	public string ProductVersion;
+	public string HostMacAddress;
+	public string HostUserId;
 }

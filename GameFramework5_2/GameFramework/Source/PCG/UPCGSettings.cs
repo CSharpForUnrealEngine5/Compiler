@@ -6,14 +6,14 @@ using CSharpToCpp.Utilities;
 public partial class UPCGSettings : UPCGSettingsInterface {
 // PCGSettings
 	public int Seed;
-	public TSet<sbyte> FilterOnTags;
+	public TSet<string> FilterOnTags;
 	public bool bPassThroughFilteredOutInputs;
-	public TSet<sbyte> TagsAppliedOnOutput;
+	public TSet<string> TagsAppliedOnOutput;
 	public EPCGSettingsExecutionMode ExecutionMode_DEPRECATED;
 	public FPCGDeterminismSettings DeterminismSettings;
 	public bool bExposeToLibrary;
-	public sbyte Category;
-	public sbyte Description;
+	public string Category;
+	public string Description;
 	public bool bUseSeed;
 	public TArray<FPCGSettingsOverridableParam> CachedOverridableParams;
 }

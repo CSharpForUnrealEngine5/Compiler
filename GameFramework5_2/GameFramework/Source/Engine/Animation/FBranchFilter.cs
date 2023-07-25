@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/AnimData/BoneMaskFilter.h")]
 public partial struct FBranchFilter {
 // BranchFilter
-	public sbyte BoneName;
+	public string BoneName;
 	public int BlendDepth;
 }

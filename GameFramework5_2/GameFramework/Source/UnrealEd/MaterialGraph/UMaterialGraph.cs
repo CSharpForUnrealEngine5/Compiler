@@ -8,5 +8,5 @@ public partial class UMaterialGraph : UEdGraph {
 	public UMaterialFunction MaterialFunction;
 	public UMaterialGraphNode_Root RootNode;
 	public UMaterialExpression SubgraphExpression;
-	public sbyte OriginalMaterialFullName;
+	public string OriginalMaterialFullName;
 }

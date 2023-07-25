@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FLandscapeInfoLayerSettings {
 // LandscapeInfoLayerSettings
 	public ULandscapeLayerInfoObject LayerInfoObj;
-	public sbyte LayerName;
+	public string LayerName;
 	public UMaterialInstanceConstant ThumbnailMIC;
 	public ALandscapeProxy Owner;
 	public int DebugColorChannel;

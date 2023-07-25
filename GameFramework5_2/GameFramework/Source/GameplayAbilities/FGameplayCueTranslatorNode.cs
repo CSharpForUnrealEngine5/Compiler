@@ -8,5 +8,5 @@ public partial struct FGameplayCueTranslatorNode {
 	public TArray<FGameplayCueTranslationLink> Links;
 	public FGameplayCueTranslatorNodeIndex CachedIndex;
 	public FGameplayTag CachedGameplayTag;
-	public sbyte CachedGameplayTagName;
+	public string CachedGameplayTagName;
 }

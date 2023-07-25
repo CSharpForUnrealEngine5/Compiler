@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class USequenceRecorderBlueprintLibrary : UBlueprintFunctionLibrary {
 // SequenceRecorderBlueprintLibrary
 	public void StartRecordingSequence(TArray<UObject> ActorsToRecord) {}
-	public bool IsRecordingSequence(bool ReturnValue) { return default; }
+	public bool IsRecordingSequence() { return default; }
 	public void StopRecordingSequence() {}
 }

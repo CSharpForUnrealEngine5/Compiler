@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FDataRegistryId {
 // DataRegistryId
 	public FDataRegistryType RegistryType;
-	public sbyte ItemName;
+	public string ItemName;
 }

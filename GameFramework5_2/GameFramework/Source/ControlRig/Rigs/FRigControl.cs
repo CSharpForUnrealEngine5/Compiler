@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 public partial struct FRigControl {
 // RigControl
 	public ERigControlType ControlType;
-	public sbyte DisplayName;
-	public sbyte ParentName;
+	public string DisplayName;
+	public string ParentName;
 	public int ParentIndex;
-	public sbyte SpaceName;
+	public string SpaceName;
 	public int SpaceIndex;
 	public FTransform OffsetTransform;
 	public FRigControlValue InitialValue;
@@ -24,7 +24,7 @@ public partial struct FRigControl {
 	public FRigControlValue MaximumValue;
 	public bool bGizmoEnabled;
 	public bool bGizmoVisible;
-	public sbyte GizmoName;
+	public string GizmoName;
 	public FTransform GizmoTransform;
 	public FLinearColor GizmoColor;
 	public TArray<int> Dependents;

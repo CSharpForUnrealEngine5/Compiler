@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("SSkinWeightProfileImportOptions.h")]
 public partial class USkinWeightImportOptions : UObject {
 // SkinWeightImportOptions
-	public sbyte ProfileName;
-	public sbyte FilePath;
+	public string ProfileName;
+	public string FilePath;
 	public int LODIndex;
 }

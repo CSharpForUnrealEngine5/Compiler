@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Provide a snapshot pose, either from the internal named pose cache or via a supplied snapshot</summary>
 public partial struct FAnimNode_PoseSnapshot {
 // AnimNode_PoseSnapshot
-	public sbyte SnapshotName;
+	public string SnapshotName;
 	public FPoseSnapshot Snapshot;
 	public ESnapshotSourceMode Mode;
 }

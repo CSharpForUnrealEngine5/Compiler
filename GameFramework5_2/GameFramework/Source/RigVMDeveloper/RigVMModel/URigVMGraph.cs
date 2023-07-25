@@ -5,32 +5,32 @@ using CSharpToCpp.Utilities;
 ///<summary>The Graph represents a Function definition</summary>
 public partial class URigVMGraph : UObject {
 // RigVMGraph
-	public TArray<UObject> GetNodes(TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetLinks(TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetContainedGraphs(bool bRecursive=false,TArray<UObject> ReturnValue) { return default; }
-	public UObject GetParentGraph(UObject ReturnValue) { return default; }
-	public UObject GetRootGraph(UObject ReturnValue) { return default; }
-	public bool IsRootGraph(bool ReturnValue) { return default; }
-	public UObject GetEntryNode(UObject ReturnValue) { return default; }
-	public UObject GetReturnNode(UObject ReturnValue) { return default; }
-	public TArray<FRigVMGraphVariableDescription> GetVariableDescriptions(TArray<FRigVMGraphVariableDescription> ReturnValue) { return default; }
-	public sbyte GetNodePath(sbyte ReturnValue) { return default; }
-	public sbyte GetGraphName(sbyte ReturnValue) { return default; }
-	public UObject FindNodeByName(sbyte InNodeName,UObject ReturnValue) { return default; }
-	public UObject FindNode(sbyte InNodePath,UObject ReturnValue) { return default; }
-	public UObject FindPin(sbyte InPinPath,UObject ReturnValue) { return default; }
-	public UObject FindLink(sbyte InLinkPinPathRepresentation,UObject ReturnValue) { return default; }
-	public bool IsNodeSelected(sbyte InNodeName,bool ReturnValue) { return default; }
-	public TArray<sbyte> GetSelectNodes(TArray<sbyte> ReturnValue) { return default; }
-	public bool IsTopLevelGraph(bool ReturnValue) { return default; }
-	public UObject GetDefaultFunctionLibrary(UObject ReturnValue) { return default; }
+	public TArray<UObject> GetNodes() { return default; }
+	public TArray<UObject> GetLinks() { return default; }
+	public TArray<UObject> GetContainedGraphs(bool bRecursive/*=false*/) { return default; }
+	public UObject GetParentGraph() { return default; }
+	public UObject GetRootGraph() { return default; }
+	public bool IsRootGraph() { return default; }
+	public UObject GetEntryNode() { return default; }
+	public UObject GetReturnNode() { return default; }
+	public TArray<FRigVMGraphVariableDescription> GetVariableDescriptions() { return default; }
+	public string GetNodePath() { return default; }
+	public string GetGraphName() { return default; }
+	public UObject FindNodeByName(string InNodeName) { return default; }
+	public UObject FindNode(string InNodePath) { return default; }
+	public UObject FindPin(string InPinPath) { return default; }
+	public UObject FindLink(string InLinkPinPathRepresentation) { return default; }
+	public bool IsNodeSelected(string InNodeName) { return default; }
+	public TArray<string> GetSelectNodes() { return default; }
+	public bool IsTopLevelGraph() { return default; }
+	public UObject GetDefaultFunctionLibrary() { return default; }
 	public void SetDefaultFunctionLibrary(UObject InFunctionLibrary) {}
-	public TArray<FRigVMGraphVariableDescription> GetLocalVariables(bool bIncludeInputArguments=false,TArray<FRigVMGraphVariableDescription> ReturnValue) { return default; }
-	public TArray<FRigVMGraphVariableDescription> GetInputArguments(TArray<FRigVMGraphVariableDescription> ReturnValue) { return default; }
-	public TArray<FRigVMGraphVariableDescription> GetOutputArguments(TArray<FRigVMGraphVariableDescription> ReturnValue) { return default; }
+	public TArray<FRigVMGraphVariableDescription> GetLocalVariables(bool bIncludeInputArguments/*=false*/) { return default; }
+	public TArray<FRigVMGraphVariableDescription> GetInputArguments() { return default; }
+	public TArray<FRigVMGraphVariableDescription> GetOutputArguments() { return default; }
 	public TArray<URigVMNode> Nodes;
 	public TArray<URigVMLink> Links;
-	public TArray<sbyte> SelectedNodes;
+	public TArray<string> SelectedNodes;
 	public TWeakObjectPtr<URigVMGraph> DefaultFunctionLibraryPtr;
 	public UScriptStruct ExecuteContextStruct;
 	public bool bEditable;

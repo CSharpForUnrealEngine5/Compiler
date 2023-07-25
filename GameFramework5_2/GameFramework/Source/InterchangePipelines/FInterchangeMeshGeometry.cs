@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>* A mesh geometry is a description of a translated mesh asset node that define a geometry.</summary>
 public partial struct FInterchangeMeshGeometry {
 // InterchangeMeshGeometry
-	public sbyte MeshUid;
+	public string MeshUid;
 	public UInterchangeMeshNode MeshNode;
-	public TArray<sbyte> ReferencingMeshInstanceUids;
-	public TArray<sbyte> AttachedSocketUids;
+	public TArray<string> ReferencingMeshInstanceUids;
+	public TArray<string> AttachedSocketUids;
 }

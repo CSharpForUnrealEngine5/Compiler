@@ -4,14 +4,14 @@ using CSharpToCpp.Utilities;
 [CppInclude("ToolMenuEntry.h")]
 public partial struct FToolMenuEntry {
 // ToolMenuEntry
-	public sbyte Name;
+	public string Name;
 	public FToolMenuOwner Owner;
 	public EMultiBlockType Type;
 	public EUserInterfaceActionType UserInterfaceActionType;
-	public sbyte TutorialHighlightName;
+	public string TutorialHighlightName;
 	public FToolMenuInsert InsertPosition;
 	public bool bShouldCloseWindowAfterMenuSelection;
 	public UToolMenuEntryScript ScriptObject;
-	public sbyte StyleNameOverride;
+	public string StyleNameOverride;
 	public bool bCommandIsKeybindOnly;
 }

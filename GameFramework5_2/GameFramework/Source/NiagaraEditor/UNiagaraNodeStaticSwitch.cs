@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraNodeStaticSwitch.h")]
 public partial class UNiagaraNodeStaticSwitch : UNiagaraNodeUsageSelector {
 // NiagaraNodeStaticSwitch
-	public sbyte InputParameterName;
+	public string InputParameterName;
 	public FStaticSwitchTypeData SwitchTypeData;
 }

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNamedTransform {
 // NamedTransform
 	public FTransform Value;
-	public sbyte Name;
+	public string Name;
 }

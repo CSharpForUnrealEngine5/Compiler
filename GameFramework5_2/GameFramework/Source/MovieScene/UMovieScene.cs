@@ -8,7 +8,7 @@ public partial class UMovieScene : UMovieSceneSignedObject {
 	public TArray<FMovieSceneSpawnable> Spawnables;
 	public TArray<FMovieScenePossessable> Possessables;
 	public TArray<FMovieSceneBinding> ObjectBindings;
-	public TMap<sbyte,FMovieSceneObjectBindingIDs> BindingGroups;
+	public TMap<string,FMovieSceneObjectBindingIDs> BindingGroups;
 	public TArray<UMovieSceneTrack> Tracks;
 	public UMovieSceneTrack CameraCutTrack;
 	public FMovieSceneFrameRange SelectionRange;
@@ -21,12 +21,12 @@ public partial class UMovieScene : UMovieSceneSignedObject {
 	public TArray<FMovieSceneMarkedFrame> MarkedFrames;
 	public bool bReadOnly;
 	public bool bPlaybackRangeLocked;
-	public TMap<sbyte,sbyte> ObjectsToDisplayNames;
-	public TMap<sbyte,FMovieSceneTrackLabels> ObjectsToLabels;
+	public TMap<string,string> ObjectsToDisplayNames;
+	public TMap<string,FMovieSceneTrackLabels> ObjectsToLabels;
 	public FMovieSceneEditorData EditorData;
 	public TArray<UMovieSceneFolder> RootFolders;
-	public TArray<sbyte> SoloNodes;
-	public TArray<sbyte> MuteNodes;
+	public TArray<string> SoloNodes;
+	public TArray<string> MuteNodes;
 	public TArray<FMovieSceneSectionGroup> SectionGroups;
 	public UMovieSceneNodeGroupCollection NodeGroupCollection;
 	public float InTime_DEPRECATED;

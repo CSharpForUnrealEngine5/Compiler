@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteSessionTypes.h")]
 public partial struct FRemoteSessionChannelInfo {
 // RemoteSessionChannelInfo
-	public sbyte Type;
+	public string Type;
 	public ERemoteSessionChannelMode Mode;
 }

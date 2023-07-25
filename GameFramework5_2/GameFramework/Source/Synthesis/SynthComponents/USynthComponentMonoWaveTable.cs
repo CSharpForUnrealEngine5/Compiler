@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("SynthComponents/SynthComponentMonoWaveTable.h")]
 public partial class USynthComponentMonoWaveTable : USynthComponent {
 // SynthComponentMonoWaveTable
-	public int GetNumTableEntries(int ReturnValue) { return default; }
+	public int GetNumTableEntries() { return default; }
 	public void NoteOn(float InMidiNote,float InVelocity) {}
 	public void NoteOff(float InMidiNote) {}
 	public void SetSustainPedalState(bool InSustainPedalState) {}
@@ -42,12 +42,12 @@ public partial class USynthComponentMonoWaveTable : USynthComponent {
 	public void SetPositionEnvelopeBiasInvert(bool bInBiasInvert) {}
 	public void SetPositionEnvelopeDepth(float InDepth) {}
 	public void SetPositionEnvelopeBiasDepth(float InDepth) {}
-	public int GetMaxTableIndex(int ReturnValue) { return default; }
-	public bool SetCurveValue(int TableIndex,int KeyframeIndex,float NewValue,bool ReturnValue) { return default; }
-	public bool SetCurveInterpolationType(CurveInterpolationType InterpolationType,int TableIndex,bool ReturnValue) { return default; }
-	public bool SetCurveTangent(int TableIndex,float InNewTangent,bool ReturnValue) { return default; }
-	public float GetCurveTangent(int TableIndex,float ReturnValue) { return default; }
-	public TArray<float> GetKeyFrameValuesForTable(float TableIndex,TArray<float> ReturnValue) { return default; }
+	public int GetMaxTableIndex() { return default; }
+	public bool SetCurveValue(int TableIndex,int KeyframeIndex,float NewValue) { return default; }
+	public bool SetCurveInterpolationType(CurveInterpolationType InterpolationType,int TableIndex) { return default; }
+	public bool SetCurveTangent(int TableIndex,float InNewTangent) { return default; }
+	public float GetCurveTangent(int TableIndex) { return default; }
+	public TArray<float> GetKeyFrameValuesForTable(float TableIndex) { return default; }
 	public FOnTableAltered OnTableAltered;
 	public FNumTablesChanged OnNumTablesChanged;
 	public UMonoWaveTableSynthPreset CurrentPreset;

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Base static data structure for a subject</summary>
 public partial struct FLiveLinkBaseStaticData {
 // LiveLinkBaseStaticData
-	public TArray<sbyte> PropertyNames;
+	public TArray<string> PropertyNames;
 }

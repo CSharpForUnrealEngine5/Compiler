@@ -11,13 +11,13 @@ public partial class UGameplayTagsSettings : UGameplayTagsList {
 	public bool AllowEditorTagUnloading;
 	public bool AllowGameTagUnloading;
 	public bool FastReplication;
-	public sbyte InvalidTagCharacters;
+	public string InvalidTagCharacters;
 	public TArray<FGameplayTagCategoryRemap> CategoryRemapping;
 	public TArray<FSoftObjectPath> GameplayTagTableList;
 	public TArray<FGameplayTagRedirect> GameplayTagRedirects;
-	public TArray<sbyte> CommonlyReplicatedTags;
+	public TArray<string> CommonlyReplicatedTags;
 	public int NumBitsForContainerSize;
 	public int NetIndexFirstBitSegment;
 	public TArray<FRestrictedConfigInfo> RestrictedConfigFiles;
-	public sbyte RestrictedTagList;
+	public string RestrictedTagList;
 }

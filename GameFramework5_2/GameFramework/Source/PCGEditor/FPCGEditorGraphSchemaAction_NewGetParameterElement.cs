@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPCGEditorGraphSchemaAction_NewGetParameterElement {
 // PCGEditorGraphSchemaAction_NewGetParameterElement
 	public FGuid PropertyGuid;
-	public sbyte PropertyName;
+	public string PropertyName;
 }

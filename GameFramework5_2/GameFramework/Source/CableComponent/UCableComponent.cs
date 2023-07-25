@@ -8,12 +8,12 @@ public partial class UCableComponent : UMeshComponent {
 	public bool bAttachStart;
 	public bool bAttachEnd;
 	public FComponentReference AttachEndTo;
-	public sbyte AttachEndToSocketName;
+	public string AttachEndToSocketName;
 	public FVector EndLocation;
-	public void SetAttachEndToComponent(UObject Component,sbyte SocketName=NAME_None) {}
-	public void SetAttachEndTo(UObject Actor,sbyte ComponentProperty,sbyte SocketName=NAME_None) {}
-	public UObject GetAttachedActor(UObject ReturnValue) { return default; }
-	public UObject GetAttachedComponent(UObject ReturnValue) { return default; }
+	public void SetAttachEndToComponent(UObject Component,string SocketName/*=NAME_None*/) {}
+	public void SetAttachEndTo(UObject Actor,string ComponentProperty,string SocketName/*=NAME_None*/) {}
+	public UObject GetAttachedActor() { return default; }
+	public UObject GetAttachedComponent() { return default; }
 	public void GetCableParticleLocations(TArray<FVector> Locations) {}
 	public float CableLength;
 	public int NumSegments;

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Script-extendable component class</summary>
 public partial class UScriptContextComponent : UActorComponent {
 // ScriptContextComponent
-	public void CallScriptFunction(sbyte FunctionName) {}
+	public void CallScriptFunction(string FunctionName) {}
 }

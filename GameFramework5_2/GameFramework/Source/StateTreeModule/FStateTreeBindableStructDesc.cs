@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FStateTreeBindableStructDesc {
 // StateTreeBindableStructDesc
 	public UStruct Struct;
-	public sbyte Name;
+	public string Name;
 	public EStateTreeBindableStructSource DataSource;
 	public FGuid ID;
 }

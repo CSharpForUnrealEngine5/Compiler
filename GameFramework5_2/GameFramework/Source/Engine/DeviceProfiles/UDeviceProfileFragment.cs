@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DeviceProfiles/DeviceProfileFragment.h")]
 public partial class UDeviceProfileFragment : UObject {
 // DeviceProfileFragment
-	public TArray<sbyte> CVars;
+	public TArray<string> CVars;
 }

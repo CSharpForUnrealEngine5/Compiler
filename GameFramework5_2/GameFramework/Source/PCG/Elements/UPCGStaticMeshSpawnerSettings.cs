@@ -10,6 +10,6 @@ public partial class UPCGStaticMeshSpawnerSettings : UPCGSettings {
 	public UPCGMeshSelectorBase MeshSelectorInstance;
 	public UClass InstancePackerType;
 	public UPCGInstancePackerBase InstancePackerInstance;
-	public sbyte OutAttributeName;
+	public string OutAttributeName;
 	public TArray<FPCGStaticMeshSpawnerEntry> Meshes_DEPRECATED;
 }

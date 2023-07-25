@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UCurveTable : UObject {
 // CurveTable
 	public UAssetImportData AssetImportData;
-	public sbyte ImportPath_DEPRECATED;
+	public string ImportPath_DEPRECATED;
 }

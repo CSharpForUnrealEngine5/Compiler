@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("SourceCodeAccessSettings.h")]
 public partial class USourceCodeAccessSettings : UObject {
 // SourceCodeAccessSettings
-	public sbyte PreferredAccessor;
+	public string PreferredAccessor;
 }

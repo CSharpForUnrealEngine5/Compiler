@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FEditorPropertyPathSegment {
 // EditorPropertyPathSegment
 	public UStruct Struct;
-	public sbyte MemberName;
+	public string MemberName;
 	public FGuid MemberGuid;
 	public bool IsProperty;
 }

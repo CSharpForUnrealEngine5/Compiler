@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FDisplayClusterConfigurationFramePostProcess_OutputRemap_500 {
 // DisplayClusterConfigurationFramePostProcess_OutputRemap_500
 	public bool bEnable;
-	public sbyte DataSource;
-	public sbyte StaticMeshAsset;
-	public sbyte ExternalFile;
+	public string DataSource;
+	public string StaticMeshAsset;
+	public string ExternalFile;
 }

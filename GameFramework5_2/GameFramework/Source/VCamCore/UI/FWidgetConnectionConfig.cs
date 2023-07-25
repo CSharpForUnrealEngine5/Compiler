@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FWidgetConnectionConfig {
 // WidgetConnectionConfig
 	public FVCamChildWidgetReference Widget;
-	public TMap<sbyte,FVCamConnectionTargetSettings> ConnectionTargets;
+	public TMap<string,FVCamConnectionTargetSettings> ConnectionTargets;
 }

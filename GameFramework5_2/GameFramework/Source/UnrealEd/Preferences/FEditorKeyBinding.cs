@@ -9,5 +9,5 @@ public partial struct FEditorKeyBinding {
 	public bool bAltDown;
 	public bool bShiftDown;
 	public FKey Key;
-	public sbyte CommandName;
+	public string CommandName;
 }

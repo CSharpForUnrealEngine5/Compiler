@@ -27,7 +27,7 @@ public partial struct FBodyInstance {
 	public bool bInterpolateWhenSubStepping;
 	public bool bInertiaConditioning;
 	public FCollisionResponseContainer ResponseToChannels_DEPRECATED;
-	public sbyte CollisionProfileName;
+	public string CollisionProfileName;
 	public byte PositionSolverIterationCount;
 	public byte VelocitySolverIterationCount;
 	public FCollisionResponse CollisionResponses;

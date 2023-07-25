@@ -10,7 +10,7 @@ public partial class USpiralStairBuilder : UEditorBrushBuilder {
 	public int StepThickness;
 	public int NumStepsPer360;
 	public int NumSteps;
-	public sbyte GroupName;
+	public string GroupName;
 	public bool SlopedCeiling;
 	public bool SlopedFloor;
 	public bool CounterClockwise;

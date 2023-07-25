@@ -6,6 +6,6 @@ public partial struct FDialogueContextMapping {
 // DialogueContextMapping
 	public FDialogueContext Context;
 	public USoundWave SoundWave;
-	public sbyte LocalizationKeyFormat;
+	public string LocalizationKeyFormat;
 	public UDialogueSoundWaveProxy Proxy;
 }

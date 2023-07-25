@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FDataTableCategoryHandle {
 // DataTableCategoryHandle
 	public UDataTable DataTable;
-	public sbyte ColumnName;
-	public sbyte RowContents;
+	public string ColumnName;
+	public string RowContents;
 }

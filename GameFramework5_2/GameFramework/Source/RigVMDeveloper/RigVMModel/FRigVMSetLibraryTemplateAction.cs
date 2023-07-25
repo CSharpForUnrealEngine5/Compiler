@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting the filtered permutations on a template node</summary>
 public partial struct FRigVMSetLibraryTemplateAction {
 // RigVMSetLibraryTemplateAction
-	public sbyte NodePath;
+	public string NodePath;
 	public TArray<byte> OldTemplateBytes;
 	public TArray<byte> NewTemplateBytes;
 }

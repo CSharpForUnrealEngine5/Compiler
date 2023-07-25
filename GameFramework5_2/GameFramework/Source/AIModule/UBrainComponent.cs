@@ -8,7 +8,7 @@ public partial class UBrainComponent : UActorComponent {
 	public AAIController AIOwner;
 	public void StartLogic() {}
 	public void RestartLogic() {}
-	public void StopLogic(sbyte Reason) {}
-	public bool IsRunning(bool ReturnValue) { return default; }
-	public bool IsPaused(bool ReturnValue) { return default; }
+	public void StopLogic(string Reason) {}
+	public bool IsRunning() { return default; }
+	public bool IsPaused() { return default; }
 }

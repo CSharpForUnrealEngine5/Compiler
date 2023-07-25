@@ -9,5 +9,5 @@ public partial class UDatasmithSceneComponentTemplate : UDatasmithObjectTemplate
 	public TSoftObjectPtr<USceneComponent> AttachParent;
 	public bool bVisible;
 	public bool bCastShadow;
-	public TSet<sbyte> Tags;
+	public TSet<string> Tags;
 }

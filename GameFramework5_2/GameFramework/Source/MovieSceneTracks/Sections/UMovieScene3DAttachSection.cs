@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>A 3D Attach section</summary>
 public partial class UMovieScene3DAttachSection : UMovieScene3DConstraintSection {
 // MovieScene3DAttachSection
-	public sbyte AttachSocketName;
-	public sbyte AttachComponentName;
+	public string AttachSocketName;
+	public string AttachComponentName;
 	public bool bFullRevertOnDetach;
 	public TSoftObjectPtr<USceneComponent> ReAttachOnDetach;
 	public EAttachmentRule AttachmentLocationRule;

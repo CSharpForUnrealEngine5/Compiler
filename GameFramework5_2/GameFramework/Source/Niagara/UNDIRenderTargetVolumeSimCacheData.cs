@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NDIRenderTargetVolumeSimCacheData.h")]
 public partial class UNDIRenderTargetVolumeSimCacheData : UObject {
 // NDIRenderTargetVolumeSimCacheData
-	public sbyte CompressionType;
+	public string CompressionType;
 	public TArray<FNDIRenderTargetVolumeSimCacheFrame> Frames;
 }

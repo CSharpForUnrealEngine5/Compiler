@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FStateTreeExternalDataDesc {
 // StateTreeExternalDataDesc
 	public UStruct Struct;
-	public sbyte Name;
+	public string Name;
 	public FStateTreeExternalDataHandle Handle;
 	public EStateTreeExternalDataRequirement Requirement;
 	public FGuid ID;

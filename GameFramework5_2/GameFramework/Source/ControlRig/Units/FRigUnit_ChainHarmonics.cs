@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Units/Highlevel/Harmonics/RigUnit_ChainHarmonics.h")]
 public partial struct FRigUnit_ChainHarmonics {
 // RigUnit_ChainHarmonics
-	public sbyte ChainRoot;
+	public string ChainRoot;
 	public FVector Speed;
 	public FRigUnit_ChainHarmonics_Reach Reach;
 	public FRigUnit_ChainHarmonics_Wave Wave;

@@ -5,36 +5,36 @@ using CSharpToCpp.Utilities;
 ///<summary>An Unreal Data Asset that defines what features are used in the AR session.</summary>
 public partial class UARSessionConfig : UDataAsset {
 // ARSessionConfig
-	public EARWorldAlignment GetWorldAlignment(EARWorldAlignment ReturnValue) { return default; }
-	public EARSessionType GetSessionType(EARSessionType ReturnValue) { return default; }
-	public EARPlaneDetectionMode GetPlaneDetectionMode(EARPlaneDetectionMode ReturnValue) { return default; }
-	public EARLightEstimationMode GetLightEstimationMode(EARLightEstimationMode ReturnValue) { return default; }
-	public EARFrameSyncMode GetFrameSyncMode(EARFrameSyncMode ReturnValue) { return default; }
-	public bool ShouldRenderCameraOverlay(bool ReturnValue) { return default; }
-	public bool ShouldEnableCameraTracking(bool ReturnValue) { return default; }
-	public bool ShouldEnableAutoFocus(bool ReturnValue) { return default; }
+	public EARWorldAlignment GetWorldAlignment() { return default; }
+	public EARSessionType GetSessionType() { return default; }
+	public EARPlaneDetectionMode GetPlaneDetectionMode() { return default; }
+	public EARLightEstimationMode GetLightEstimationMode() { return default; }
+	public EARFrameSyncMode GetFrameSyncMode() { return default; }
+	public bool ShouldRenderCameraOverlay() { return default; }
+	public bool ShouldEnableCameraTracking() { return default; }
+	public bool ShouldEnableAutoFocus() { return default; }
 	public void SetEnableAutoFocus(bool bNewValue) {}
-	public bool ShouldResetCameraTracking(bool ReturnValue) { return default; }
+	public bool ShouldResetCameraTracking() { return default; }
 	public void SetResetCameraTracking(bool bNewValue) {}
-	public bool ShouldResetTrackedObjects(bool ReturnValue) { return default; }
+	public bool ShouldResetTrackedObjects() { return default; }
 	public void SetResetTrackedObjects(bool bNewValue) {}
-	public TArray<UObject> GetCandidateImageList(TArray<UObject> ReturnValue) { return default; }
+	public TArray<UObject> GetCandidateImageList() { return default; }
 	public void AddCandidateImage(UObject NewCandidateImage) {}
-	public int GetMaxNumSimultaneousImagesTracked(int ReturnValue) { return default; }
-	public EAREnvironmentCaptureProbeType GetEnvironmentCaptureProbeType(EAREnvironmentCaptureProbeType ReturnValue) { return default; }
-	public TArray<byte> GetWorldMapData(TArray<byte> ReturnValue) { return default; }
+	public int GetMaxNumSimultaneousImagesTracked() { return default; }
+	public EAREnvironmentCaptureProbeType GetEnvironmentCaptureProbeType() { return default; }
+	public TArray<byte> GetWorldMapData() { return default; }
 	public void SetWorldMapData(TArray<byte> WorldMapData) {}
-	public TArray<UObject> GetCandidateObjectList(TArray<UObject> ReturnValue) { return default; }
+	public TArray<UObject> GetCandidateObjectList() { return default; }
 	public void SetCandidateObjectList(TArray<UObject> InCandidateObjects) {}
 	public void AddCandidateObject(UObject CandidateObject) {}
-	public FARVideoFormat GetDesiredVideoFormat(FARVideoFormat ReturnValue) { return default; }
+	public FARVideoFormat GetDesiredVideoFormat() { return default; }
 	public void SetDesiredVideoFormat(FARVideoFormat NewFormat) {}
-	public EARFaceTrackingDirection GetFaceTrackingDirection(EARFaceTrackingDirection ReturnValue) { return default; }
+	public EARFaceTrackingDirection GetFaceTrackingDirection() { return default; }
 	public void SetFaceTrackingDirection(EARFaceTrackingDirection InDirection) {}
-	public EARFaceTrackingUpdate GetFaceTrackingUpdate(EARFaceTrackingUpdate ReturnValue) { return default; }
+	public EARFaceTrackingUpdate GetFaceTrackingUpdate() { return default; }
 	public void SetFaceTrackingUpdate(EARFaceTrackingUpdate InUpdate) {}
-	public EARSessionTrackingFeature GetEnabledSessionTrackingFeature(EARSessionTrackingFeature ReturnValue) { return default; }
-	public EARSceneReconstruction GetSceneReconstructionMethod(EARSceneReconstruction ReturnValue) { return default; }
+	public EARSessionTrackingFeature GetEnabledSessionTrackingFeature() { return default; }
+	public EARSceneReconstruction GetSceneReconstructionMethod() { return default; }
 	public void SetSessionTrackingFeatureToEnable(EARSessionTrackingFeature InSessionTrackingFeature) {}
 	public void SetSceneReconstructionMethod(EARSceneReconstruction InSceneReconstructionMethod) {}
 	public bool bGenerateMeshDataFromTrackedGeometry;

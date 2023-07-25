@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameFramework/InternalUniqueNetIdReplNetSerializer.h")]
 public partial struct FUniqueNetIdReplNetSerializerNameStruct {
 // UniqueNetIdReplNetSerializerNameStruct
-	public sbyte Name;
+	public string Name;
 }

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Rig Controller for bone transform *</summary>
 public partial struct FNode {
 // Node
-	public sbyte Name;
-	public sbyte ParentName;
+	public string Name;
+	public string ParentName;
 	public FTransform Transform;
-	public sbyte DisplayName;
+	public string DisplayName;
 	public bool bAdvanced;
 }

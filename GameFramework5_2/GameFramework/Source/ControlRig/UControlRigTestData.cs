@@ -4,15 +4,15 @@ using CSharpToCpp.Utilities;
 [CppInclude("ControlRigTestData.h")]
 public partial class UControlRigTestData : UObject {
 // ControlRigTestData
-	public UObject CreateNewAsset(sbyte InDesiredPackagePath,sbyte InBlueprintPathName,UObject ReturnValue) { return default; }
-	public FVector2D GetTimeRange(bool bInput=false,FVector2D ReturnValue) { return default; }
-	public int GetFrameIndexForTime(double InSeconds,bool bInput=false,int ReturnValue) { return default; }
-	public bool Record(UObject InControlRig,double InRecordingDuration=0.0,bool ReturnValue) { return default; }
-	public bool SetupReplay(UObject InControlRig,bool bGroundTruth=true,bool ReturnValue) { return default; }
+	public UObject CreateNewAsset(string InDesiredPackagePath,string InBlueprintPathName) { return default; }
+	public FVector2D GetTimeRange(bool bInput/*=false*/) { return default; }
+	public int GetFrameIndexForTime(double InSeconds,bool bInput/*=false*/) { return default; }
+	public bool Record(UObject InControlRig,double InRecordingDuration/*=0.0*/) { return default; }
+	public bool SetupReplay(UObject InControlRig,bool bGroundTruth/*=true*/) { return default; }
 	public void ReleaseReplay() {}
-	public EControlRigTestDataPlaybackMode GetPlaybackMode(EControlRigTestDataPlaybackMode ReturnValue) { return default; }
-	public bool IsReplaying(bool ReturnValue) { return default; }
-	public bool IsRecording(bool ReturnValue) { return default; }
+	public EControlRigTestDataPlaybackMode GetPlaybackMode() { return default; }
+	public bool IsReplaying() { return default; }
+	public bool IsRecording() { return default; }
 	public FSoftObjectPath ControlRigObjectPath;
 	public FControlRigTestDataFrame Initial;
 	public TArray<FControlRigTestDataFrame> InputFrames;

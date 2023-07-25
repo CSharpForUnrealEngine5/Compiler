@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectParameterTypeDefinitions.h")]
 public partial struct FCustomizableObjectFloatParameterValue {
 // CustomizableObjectFloatParameterValue
-	public sbyte ParameterName;
+	public string ParameterName;
 	public float ParameterValue;
-	public sbyte Uid;
+	public string Uid;
 	public TArray<float> ParameterRangeValues;
 }

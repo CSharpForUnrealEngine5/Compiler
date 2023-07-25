@@ -20,7 +20,7 @@ public partial class UGroomComponent : UMeshComponent {
 	public UMaterialInterface Meshes_DefaultMaterial;
 	public UNiagaraSystem AngularSpringsSystem;
 	public UNiagaraSystem CosseratRodsSystem;
-	public sbyte AttachmentName;
+	public string AttachmentName;
 	public void SetGroomAsset(UObject Asset) {}
 	public void SetBindingAsset(UObject InBinding) {}
 	public void SetPhysicsAsset(UObject InPhysicsAsset) {}
@@ -29,10 +29,10 @@ public partial class UGroomComponent : UMeshComponent {
 	public void ResetCollisionComponents() {}
 	public void SetEnableSimulation(bool bInEnableSimulation) {}
 	public void ResetSimulation() {}
-	public UObject GetNiagaraComponent(int GroupIndex,UObject ReturnValue) { return default; }
+	public UObject GetNiagaraComponent(int GroupIndex) { return default; }
 	public void SetHairLengthScale(float Scale) {}
 	public void SetHairLengthScaleEnable(bool bEnable) {}
-	public bool GetIsHairLengthScaleEnabled(bool ReturnValue) { return default; }
+	public bool GetIsHairLengthScaleEnabled() { return default; }
 	public TArray<FHairGroupDesc> GroomGroupsDesc;
 	public bool bUseCards;
 	public bool bRunning;

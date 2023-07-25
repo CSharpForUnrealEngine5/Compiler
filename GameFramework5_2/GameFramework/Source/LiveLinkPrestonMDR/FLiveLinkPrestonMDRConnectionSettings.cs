@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkPrestonMDRConnectionSettings.h")]
 public partial struct FLiveLinkPrestonMDRConnectionSettings {
 // LiveLinkPrestonMDRConnectionSettings
-	public sbyte IPAddress;
+	public string IPAddress;
 	public ushort PortNumber;
-	public sbyte SubjectName;
+	public string SubjectName;
 }

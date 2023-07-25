@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Links a Modifier with a Name for use in a Modifier Stack</summary>
 public partial struct FModifierStackEntry {
 // ModifierStackEntry
-	public sbyte Name;
+	public string Name;
 	public bool bEnabled;
 	public UVCamModifier GeneratedModifier;
 }

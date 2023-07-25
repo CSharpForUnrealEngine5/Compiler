@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Utilities/VersionInfoHandler.h")]
 public partial struct FAssetImportTime {
 // AssetImportTime
-	public sbyte path;
-	public sbyte time;
+	public string path;
+	public string time;
 }

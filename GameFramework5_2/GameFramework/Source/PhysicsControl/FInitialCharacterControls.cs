@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FInitialCharacterControls {
 // InitialCharacterControls
 	public AActor CharacterActor;
-	public sbyte SkeletalMeshComponentName;
+	public string SkeletalMeshComponentName;
 	public TArray<FPhysicsControlLimbSetupData> LimbSetupData;
 	public FPhysicsControlData WorldSpaceControlData;
 	public FPhysicsControlSettings WorldSpaceControlSettings;

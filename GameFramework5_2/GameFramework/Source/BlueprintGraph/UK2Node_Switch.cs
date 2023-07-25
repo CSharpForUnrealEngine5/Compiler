@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UK2Node_Switch : UK2Node {
 // K2Node_Switch
 	public bool bHasDefaultPin;
-	public sbyte FunctionName;
+	public string FunctionName;
 	public UClass FunctionClass;
 }

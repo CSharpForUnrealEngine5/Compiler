@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FPoseSnapshot {
 // PoseSnapshot
 	public TArray<FTransform> LocalTransforms;
-	public TArray<sbyte> BoneNames;
-	public sbyte SkeletalMeshName;
-	public sbyte SnapshotName;
+	public TArray<string> BoneNames;
+	public string SkeletalMeshName;
+	public string SnapshotName;
 	public bool bIsValid;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Event sent to a client that created a renderer.</summary>
 public partial struct FRCPreviewRendererCreatedEvent {
 // RCPreviewRendererCreatedEvent
-	public sbyte Type;
+	public string Type;
 	public int RendererId;
 }

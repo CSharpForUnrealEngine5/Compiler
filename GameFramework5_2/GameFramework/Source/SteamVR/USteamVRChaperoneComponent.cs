@@ -8,5 +8,5 @@ public partial class USteamVRChaperoneComponent : UActorComponent {
 	public void FSteamVRChaperoneEvent() {}
 	public FSteamVRChaperoneEvent OnLeaveBounds;
 	public FSteamVRChaperoneEvent OnReturnToBounds;
-	public TArray<FVector> GetBounds(TArray<FVector> ReturnValue) { return default; }
+	public TArray<FVector> GetBounds() { return default; }
 }

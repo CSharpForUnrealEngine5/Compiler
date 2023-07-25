@@ -6,7 +6,7 @@ public partial struct FLevelEditorPlayNetworkEmulationSettings {
 // LevelEditorPlayNetworkEmulationSettings
 	public bool bIsNetworkEmulationEnabled;
 	public NetworkEmulationTarget EmulationTarget;
-	public sbyte CurrentProfile;
+	public string CurrentProfile;
 	public FNetworkEmulationPacketSettings OutPackets;
 	public FNetworkEmulationPacketSettings InPackets;
 }

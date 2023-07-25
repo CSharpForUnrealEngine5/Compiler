@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Iris/ReplicationSystem/NetBlob/NetBlobHandlerDefinitions.h")]
 public partial struct FNetBlobHandlerDefinition {
 // NetBlobHandlerDefinition
-	public sbyte ClassName;
+	public string ClassName;
 }

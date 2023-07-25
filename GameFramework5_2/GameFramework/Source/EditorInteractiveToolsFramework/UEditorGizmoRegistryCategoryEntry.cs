@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UEditorGizmoRegistryCategoryEntry : UObject {
 // EditorGizmoRegistryCategoryEntry
 	public TArray<UInteractiveGizmoBuilder> GizmoTypes;
-	public sbyte CategoryName;
+	public string CategoryName;
 }

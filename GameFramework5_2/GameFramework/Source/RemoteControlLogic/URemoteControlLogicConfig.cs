@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class URemoteControlLogicConfig : UObject {
 // RemoteControlLogicConfig
 	public TArray<EPropertyBagPropertyType> SupportedControllerTypes;
-	public TArray<sbyte> SupportedControllerStructTypes;
+	public TArray<string> SupportedControllerStructTypes;
 }

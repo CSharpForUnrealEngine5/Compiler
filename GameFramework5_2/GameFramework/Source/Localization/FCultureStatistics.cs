@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LocalizationTargetTypes.h")]
 public partial struct FCultureStatistics {
 // CultureStatistics
-	public sbyte CultureName;
+	public string CultureName;
 	public uint WordCount;
 }

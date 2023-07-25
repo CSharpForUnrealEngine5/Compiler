@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>Abstract base class for media sources.</summary>
 public partial class UMediaSource : UObject {
 // MediaSource
-	public sbyte GetUrl(sbyte ReturnValue) { return default; }
-	public bool Validate(bool ReturnValue) { return default; }
-	public void SetMediaOptionBool(sbyte Key,bool Value) {}
-	public void SetMediaOptionFloat(sbyte Key,float Value) {}
-	public void SetMediaOptionInt64(sbyte Key,long Value) {}
-	public void SetMediaOptionString(sbyte Key,sbyte Value) {}
+	public string GetUrl() { return default; }
+	public bool Validate() { return default; }
+	public void SetMediaOptionBool(string Key,bool Value) {}
+	public void SetMediaOptionFloat(string Key,float Value) {}
+	public void SetMediaOptionInt64(string Key,long Value) {}
+	public void SetMediaOptionString(string Key,string Value) {}
 	public UTexture ThumbnailImage;
 	public UObject MediaSourceRenderer;
 }

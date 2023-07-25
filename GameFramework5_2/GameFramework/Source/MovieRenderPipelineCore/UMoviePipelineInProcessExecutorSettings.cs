@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UMoviePipelineInProcessExecutorSettings : UDeveloperSettings {
 // MoviePipelineInProcessExecutorSettings
 	public bool bCloseEditor;
-	public sbyte AdditionalCommandLineArguments;
-	public sbyte InheritedCommandLineArguments;
+	public string AdditionalCommandLineArguments;
+	public string InheritedCommandLineArguments;
 	public int InitialDelayFrameCount;
 }

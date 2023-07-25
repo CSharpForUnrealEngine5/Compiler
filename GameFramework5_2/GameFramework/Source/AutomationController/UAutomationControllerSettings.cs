@@ -9,11 +9,11 @@ public partial class UAutomationControllerSettings : UObject {
 	public bool bSuppressLogErrors;
 	public bool bSuppressLogWarnings;
 	public bool bElevateLogWarningsToErrors;
-	public TArray<sbyte> SuppressedLogCategories;
+	public TArray<string> SuppressedLogCategories;
 	public bool bKeepPIEOpen;
 	public bool bTreatLogWarningsAsTestErrors;
 	public float CheckTestIntervalSeconds;
 	public float GameInstanceLostTimerSeconds;
-	public sbyte TelemetryDirectory;
+	public string TelemetryDirectory;
 	public bool bResetTelemetryStorageOnNewSession;
 }

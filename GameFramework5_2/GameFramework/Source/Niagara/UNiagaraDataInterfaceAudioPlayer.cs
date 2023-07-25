@@ -8,7 +8,7 @@ public partial class UNiagaraDataInterfaceAudioPlayer : UNiagaraDataInterface {
 	public USoundBase SoundToPlay;
 	public USoundAttenuation Attenuation;
 	public USoundConcurrency Concurrency;
-	public TArray<sbyte> ParameterNames;
+	public TArray<string> ParameterNames;
 	public FNiagaraUserParameterBinding ConfigurationUserParameter;
 	public bool bLimitPlaysPerTick;
 	public int MaxPlaysPerTick;

@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_CollectionReplaceItemsArray {
 // RigUnit_CollectionReplaceItemsArray
 	public TArray<FRigElementKey> Items;
-	public sbyte Old;
-	public sbyte New;
+	public string Old;
+	public string New;
 	public bool RemoveInvalidItems;
 	public bool bAllowDuplicates;
 	public TArray<FRigElementKey> Result;

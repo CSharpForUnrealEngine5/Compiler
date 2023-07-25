@@ -8,8 +8,8 @@ public partial class AComposurePipelineBaseActor : AActor {
 	public bool bAutoRun;
 	public bool bRunInEditor;
 	public void SetAutoRun(bool bNewAutoRunVal) {}
-	public bool AreChildrenAndSelfAutoRun(bool ReturnValue) { return default; }
-	public bool IsActivelyRunning(bool ReturnValue) { return default; }
+	public bool AreChildrenAndSelfAutoRun() { return default; }
+	public bool IsActivelyRunning() { return default; }
 	public void EnqueueRendering(bool bCameraCutThisFrame) {}
 	public void SetAutoRunChildrenAndSelf(bool bAutoRunChildAndSelf) {}
 	public bool bAutoRunChildElementsAndSelf;

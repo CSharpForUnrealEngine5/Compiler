@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Additional data for a Mesh pins.</summary>
 public partial class UCustomizableObjectNodeTableMeshPinData : UCustomizableObjectNodeTableObjectPinData {
 // CustomizableObjectNodeTableMeshPinData
-	public sbyte AnimInstanceColumnName;
-	public sbyte AnimSlotColumnName;
-	public sbyte AnimTagColumnName;
-	public sbyte MutableColumnName;
+	public string AnimInstanceColumnName;
+	public string AnimSlotColumnName;
+	public string AnimTagColumnName;
+	public string MutableColumnName;
 	public int LOD;
 	public int Material;
 	public TArray<UCustomizableObjectLayout> Layouts;

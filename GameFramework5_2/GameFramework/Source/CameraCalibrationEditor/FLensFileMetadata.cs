@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("LensFileExchangeFormat.h")]
 public partial struct FLensFileMetadata {
 // LensFileMetadata
-	public sbyte Type;
-	public sbyte Version;
+	public string Type;
+	public string Version;
 	public FLensInfoExchange LensInfo;
-	public sbyte Name;
+	public string Name;
 	public ENodalOffsetCoordinateSystem NodalOffsetCoordinateSystem;
 	public ELensFileUnit FxFyUnits;
 	public ELensFileUnit CxCyUnits;

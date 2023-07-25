@@ -6,10 +6,10 @@ using CSharpToCpp.Utilities;
 public partial class UMoviePipelinePrimaryConfig : UMoviePipelineConfigBase {
 // MoviePipelinePrimaryConfig
 	public void InitializeTransientSettings() {}
-	public TArray<UObject> GetTransientSettings(TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetAllSettings(bool bIncludeDisabledSettings=false,bool bIncludeTransientSettings=false,TArray<UObject> ReturnValue) { return default; }
-	public FFrameRate GetEffectiveFrameRate(UObject InSequence,FFrameRate ReturnValue) { return default; }
-	public TMap<sbyte,UMoviePipelineShotConfig> PerShotConfigMapping;
+	public TArray<UObject> GetTransientSettings() { return default; }
+	public TArray<UObject> GetAllSettings(bool bIncludeDisabledSettings/*=false*/,bool bIncludeTransientSettings/*=false*/) { return default; }
+	public FFrameRate GetEffectiveFrameRate(UObject InSequence) { return default; }
+	public TMap<string,UMoviePipelineShotConfig> PerShotConfigMapping;
 	public UMoviePipelineOutputSetting OutputSetting;
 	public TArray<UMoviePipelineSetting> TransientSettings;
 }

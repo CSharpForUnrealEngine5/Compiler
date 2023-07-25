@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>Settings that identify the names of custom attributes that represent the individual components of a timecode and a subframe along with a take name.</summary>
 public partial struct FTimecodeCustomAttributeNameSettings {
 // TimecodeCustomAttributeNameSettings
-	public sbyte HourAttributeName;
-	public sbyte MinuteAttributeName;
-	public sbyte SecondAttributeName;
-	public sbyte FrameAttributeName;
-	public sbyte SubframeAttributeName;
-	public sbyte RateAttributeName;
-	public sbyte TakenameAttributeName;
+	public string HourAttributeName;
+	public string MinuteAttributeName;
+	public string SecondAttributeName;
+	public string FrameAttributeName;
+	public string SubframeAttributeName;
+	public string RateAttributeName;
+	public string TakenameAttributeName;
 }

@@ -5,18 +5,18 @@ using CSharpToCpp.Utilities;
 ///<summary>UPlayerMappableInputConfig</summary>
 public partial class UPlayerMappableInputConfig : UPrimaryDataAsset {
 // PlayerMappableInputConfig
-	public TArray<FEnhancedActionKeyMapping> GetPlayerMappableKeys(TArray<FEnhancedActionKeyMapping> ReturnValue) { return default; }
-	public FEnhancedActionKeyMapping GetMappingByName(sbyte MappingName,FEnhancedActionKeyMapping ReturnValue) { return default; }
-	public TArray<FEnhancedActionKeyMapping> GetKeysBoundToAction(UObject InAction,TArray<FEnhancedActionKeyMapping> ReturnValue) { return default; }
+	public TArray<FEnhancedActionKeyMapping> GetPlayerMappableKeys() { return default; }
+	public FEnhancedActionKeyMapping GetMappingByName(string MappingName) { return default; }
+	public TArray<FEnhancedActionKeyMapping> GetKeysBoundToAction(UObject InAction) { return default; }
 	public void ResetToDefault() {}
-	public sbyte ConfigName;
-	public sbyte ConfigDisplayName;
+	public string ConfigName;
+	public string ConfigDisplayName;
 	public bool bIsDeprecated;
 	public UObject Metadata;
 	public TMap<UInputMappingContext,int> Contexts;
-	public TMap<UInputMappingContext,int> GetMappingContexts(TMap<UInputMappingContext,int> ReturnValue) { return default; }
-	public sbyte GetConfigName(sbyte ReturnValue) { return default; }
-	public sbyte GetDisplayName(sbyte ReturnValue) { return default; }
-	public bool IsDeprecated(bool ReturnValue) { return default; }
-	public UObject GetMetadata(UObject ReturnValue) { return default; }
+	public TMap<UInputMappingContext,int> GetMappingContexts() { return default; }
+	public string GetConfigName() { return default; }
+	public string GetDisplayName() { return default; }
+	public bool IsDeprecated() { return default; }
+	public UObject GetMetadata() { return default; }
 }

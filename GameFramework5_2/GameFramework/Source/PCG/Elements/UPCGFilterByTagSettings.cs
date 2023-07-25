@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UPCGFilterByTagSettings : UPCGSettings {
 // PCGFilterByTagSettings
 	public EPCGFilterByTagOperation Operation;
-	public sbyte SelectedTags;
+	public string SelectedTags;
 }

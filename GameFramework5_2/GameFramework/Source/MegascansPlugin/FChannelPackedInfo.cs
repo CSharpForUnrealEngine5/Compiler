@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MSAssetImportData.h")]
 public partial struct FChannelPackedInfo {
 // ChannelPackedInfo
-	public sbyte channel;
-	public sbyte packedType;
+	public string channel;
+	public string packedType;
 }

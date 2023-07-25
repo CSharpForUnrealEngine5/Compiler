@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("InterchangePipelineConfigurationBase.h")]
 public partial struct FInterchangeStackInfo {
 // InterchangeStackInfo
-	public sbyte StackName;
+	public string StackName;
 	public TArray<UInterchangePipelineBase> Pipelines;
 }

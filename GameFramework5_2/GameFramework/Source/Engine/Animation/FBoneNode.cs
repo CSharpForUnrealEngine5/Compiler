@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Each Bone node in BoneTree</summary>
 public partial struct FBoneNode {
 // BoneNode
-	public sbyte Name_DEPRECATED;
+	public string Name_DEPRECATED;
 	public int ParentIndex_DEPRECATED;
 	public byte TranslationRetargetingMode;
 }

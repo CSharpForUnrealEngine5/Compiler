@@ -8,6 +8,6 @@ public partial struct FTemplateMapInfo {
 	public TSoftObjectPtr<UTexture2D> ThumbnailTexture;
 	public FSoftObjectPath Thumbnail;
 	public FSoftObjectPath Map;
-	public sbyte DisplayName;
-	public sbyte Category;
+	public string DisplayName;
+	public string Category;
 }

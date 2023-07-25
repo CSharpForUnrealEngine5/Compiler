@@ -7,8 +7,8 @@ public partial class UTileView : UListView {
 // TileView
 	public void SetEntryHeight(float NewHeight) {}
 	public void SetEntryWidth(float NewWidth) {}
-	public float GetEntryHeight(float ReturnValue) { return default; }
-	public float GetEntryWidth(float ReturnValue) { return default; }
+	public float GetEntryHeight() { return default; }
+	public float GetEntryWidth() { return default; }
 	public float EntryHeight;
 	public float EntryWidth;
 	public EListItemAlignment TileAlignment;

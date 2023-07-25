@@ -7,20 +7,20 @@ public partial class UUsdAssetCache2 : UObject {
 // UsdAssetCache2
 	public double UnreferencedAssetStorageSizeMB;
 	public double PersistentAssetStorageSizeMB;
-	public void CacheAsset(sbyte Hash,UObject Asset,UObject Referencer=nullptr) {}
-	public bool CanRemoveAsset(sbyte Hash,bool ReturnValue) { return default; }
-	public UObject RemoveAsset(sbyte Hash,UObject ReturnValue) { return default; }
-	public UObject GetCachedAsset(sbyte Hash,UObject ReturnValue) { return default; }
-	public bool AddAssetReference(UObject Asset,UObject Referencer,bool ReturnValue) { return default; }
-	public bool RemoveAssetReference(UObject Asset,UObject Referencer,bool ReturnValue) { return default; }
-	public bool RemoveAllAssetReferences(UObject Referencer,bool ReturnValue) { return default; }
-	public sbyte GetHashForAsset(UObject Asset,sbyte ReturnValue) { return default; }
-	public bool IsAssetOwnedByCache(sbyte AssetPath,bool ReturnValue) { return default; }
-	public int GetNumAssets(int ReturnValue) { return default; }
-	public TArray<sbyte> GetAllAssetHashes(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<UObject> GetAllLoadedAssets(TArray<UObject> ReturnValue) { return default; }
-	public TArray<sbyte> GetAllCachedAssetPaths(TArray<sbyte> ReturnValue) { return default; }
+	public void CacheAsset(string Hash,UObject Asset,UObject Referencer/*=nullptr*/) {}
+	public bool CanRemoveAsset(string Hash) { return default; }
+	public UObject RemoveAsset(string Hash) { return default; }
+	public UObject GetCachedAsset(string Hash) { return default; }
+	public bool AddAssetReference(UObject Asset,UObject Referencer) { return default; }
+	public bool RemoveAssetReference(UObject Asset,UObject Referencer) { return default; }
+	public bool RemoveAllAssetReferences(UObject Referencer) { return default; }
+	public string GetHashForAsset(UObject Asset) { return default; }
+	public bool IsAssetOwnedByCache(string AssetPath) { return default; }
+	public int GetNumAssets() { return default; }
+	public TArray<string> GetAllAssetHashes() { return default; }
+	public TArray<UObject> GetAllLoadedAssets() { return default; }
+	public TArray<string> GetAllCachedAssetPaths() { return default; }
 	public void Reset() {}
 	public void RefreshStorage() {}
-	public TMap<sbyte,UObject> AssetStorage;
+	public TMap<string,UObject> AssetStorage;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("PortalApplicationWindowMessages.h")]
 public partial struct FPortalApplicationWindowNavigateToRequest {
 // PortalApplicationWindowNavigateToRequest
-	public sbyte Url;
+	public string Url;
 }

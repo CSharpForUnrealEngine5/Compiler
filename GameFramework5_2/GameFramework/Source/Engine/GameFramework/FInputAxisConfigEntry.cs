@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Configurable properties for control axes.</summary>
 public partial struct FInputAxisConfigEntry {
 // InputAxisConfigEntry
-	public sbyte AxisKeyName;
+	public string AxisKeyName;
 	public FInputAxisProperties AxisProperties;
 }

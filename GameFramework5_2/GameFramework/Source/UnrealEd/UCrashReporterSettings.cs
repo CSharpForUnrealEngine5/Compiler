@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements per-project cooker settings exposed to the editor</summary>
 public partial class UCrashReporterSettings : UObject {
 // CrashReporterSettings
-	public sbyte UploadSymbolsPath;
-	public sbyte DownstreamStorage;
-	public TArray<sbyte> RemoteStorage;
+	public string UploadSymbolsPath;
+	public string DownstreamStorage;
+	public TArray<string> RemoteStorage;
 }

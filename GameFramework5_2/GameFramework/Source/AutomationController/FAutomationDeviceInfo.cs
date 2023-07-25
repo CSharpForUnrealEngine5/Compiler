@@ -5,15 +5,15 @@ using CSharpToCpp.Utilities;
 ///<summary>Hold information about the Device</summary>
 public partial struct FAutomationDeviceInfo {
 // AutomationDeviceInfo
-	public sbyte DeviceName;
-	public sbyte Instance;
-	public sbyte Platform;
-	public sbyte OSVersion;
-	public sbyte Model;
-	public sbyte GPU;
-	public sbyte CPUModel;
+	public string DeviceName;
+	public string Instance;
+	public string Platform;
+	public string OSVersion;
+	public string Model;
+	public string GPU;
+	public string CPUModel;
 	public uint RAMInGB;
-	public sbyte RenderMode;
-	public sbyte RHI;
-	public sbyte AppInstanceLog;
+	public string RenderMode;
+	public string RHI;
+	public string AppInstanceLog;
 }

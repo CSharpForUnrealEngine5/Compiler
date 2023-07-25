@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for any unique beacon connectivity, paired with an AOnlineBeaconClient implementation</summary>
 public partial class AOnlineBeaconHostObject : AActor {
 // OnlineBeaconHostObject
-	public sbyte BeaconTypeName;
+	public string BeaconTypeName;
 	public UClass ClientBeaconActorClass;
 	public TArray<AOnlineBeaconClient> ClientActors;
 }

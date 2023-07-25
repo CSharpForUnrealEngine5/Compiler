@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An FMetasoundFrontendVertex provides a named connection point of a node.</summary>
 public partial struct FMetasoundFrontendVertex {
 // MetasoundFrontendVertex
-	public sbyte Name;
-	public sbyte TypeName;
+	public string Name;
+	public string TypeName;
 	public FGuid VertexID;
 }

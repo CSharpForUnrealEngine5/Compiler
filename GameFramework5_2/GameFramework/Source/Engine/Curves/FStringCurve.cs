@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a curve of FStrings.</summary>
 public partial struct FStringCurve {
 // StringCurve
-	public sbyte DefaultValue;
+	public string DefaultValue;
 	public TArray<FStringCurveKey> Keys;
 }

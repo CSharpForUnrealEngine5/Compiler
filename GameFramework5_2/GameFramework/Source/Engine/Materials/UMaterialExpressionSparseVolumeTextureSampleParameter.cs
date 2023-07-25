@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionSparseVolumeTextureSample.h")]
 public partial class UMaterialExpressionSparseVolumeTextureSampleParameter : UMaterialExpressionSparseVolumeTextureSample {
 // MaterialExpressionSparseVolumeTextureSampleParameter
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FGuid ExpressionGUID;
-	public sbyte Group;
+	public string Group;
 	public int SortPriority;
 }

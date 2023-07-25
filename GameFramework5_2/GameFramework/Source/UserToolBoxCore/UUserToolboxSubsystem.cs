@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UUserToolboxSubsystem : UEditorSubsystem {
 // UserToolboxSubsystem
 	public void RegisterTabData() {}
-	public bool PickAnIcon(sbyte OutValue,bool ReturnValue) { return default; }
-	public TMap<sbyte,UUserToolBoxBaseTab> RegisteredTabs;
+	public bool PickAnIcon(string OutValue) { return default; }
+	public TMap<string,UUserToolBoxBaseTab> RegisteredTabs;
 	public void RefreshIcons() {}
 }

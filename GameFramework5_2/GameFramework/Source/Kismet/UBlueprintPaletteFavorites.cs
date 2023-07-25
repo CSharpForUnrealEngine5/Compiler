@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>FBlueprintPaletteFavorites</summary>
 public partial class UBlueprintPaletteFavorites : UObject {
 // BlueprintPaletteFavorites
-	public TArray<sbyte> CustomFavorites;
+	public TArray<string> CustomFavorites;
 	public TArray<FFavoritedBlueprintPaletteItem> CurrentFavorites;
-	public sbyte CurrentProfile;
+	public string CurrentProfile;
 }

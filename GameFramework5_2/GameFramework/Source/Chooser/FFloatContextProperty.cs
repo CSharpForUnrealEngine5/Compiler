@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("FloatRangeColumn.h")]
 public partial struct FFloatContextProperty {
 // FloatContextProperty
-	public TArray<sbyte> PropertyBindingChain;
+	public TArray<string> PropertyBindingChain;
 }

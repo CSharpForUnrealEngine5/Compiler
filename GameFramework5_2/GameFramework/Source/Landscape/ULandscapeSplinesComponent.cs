@@ -14,5 +14,5 @@ public partial class ULandscapeSplinesComponent : UPrimitiveComponent {
 	public TArray<ULandscapeSplineSegment> Segments;
 	public TMap<TSoftObjectPtr<UWorld>,FForeignWorldSplineData> ForeignWorldSplineDataMap;
 	public TArray<UMeshComponent> CookedForeignMeshComponents;
-	public TArray<UObject> GetSplineMeshComponents(TArray<UObject> ReturnValue) { return default; }
+	public TArray<UObject> GetSplineMeshComponents() { return default; }
 }

@@ -7,7 +7,7 @@ public partial struct FVirtualCameraSettings {
 // VirtualCameraSettings
 	public float FocalLength;
 	public float Aperture;
-	public sbyte FilmbackName;
+	public string FilmbackName;
 	public float FilmbackWidth;
 	public float FilmbackHeight;
 	public float MatteOpacity;

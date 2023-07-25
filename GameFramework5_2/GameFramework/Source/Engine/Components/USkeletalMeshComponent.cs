@@ -7,7 +7,7 @@ public partial class USkeletalMeshComponent : USkinnedMeshComponent {
 // SkeletalMeshComponent
 	public USkeletalMesh SkeletalMeshAsset;
 	public void SetSkeletalMeshAsset(UObject NewMesh) {}
-	public UObject GetSkeletalMeshAsset(UObject ReturnValue) { return default; }
+	public UObject GetSkeletalMeshAsset() { return default; }
 	public UAnimBlueprint AnimationBlueprint_DEPRECATED;
 	public UAnimBlueprintGeneratedClass AnimBlueprintGeneratedClass;
 	public UClass AnimClass;
@@ -15,7 +15,7 @@ public partial class USkeletalMeshComponent : USkinnedMeshComponent {
 	public TArray<UAnimInstance> SubInstances;
 	public UAnimInstance PostProcessAnimInstance;
 	public void ToggleDisablePostProcessBlueprint() {}
-	public bool GetDisablePostProcessBlueprint(bool ReturnValue) { return default; }
+	public bool GetDisablePostProcessBlueprint() { return default; }
 	public void SetDisablePostProcessBlueprint(bool bInDisablePostProcess) {}
 	public FSingleAnimationPlayData AnimationData;
 	public FVector RootBoneTranslation;
@@ -23,14 +23,14 @@ public partial class USkeletalMeshComponent : USkinnedMeshComponent {
 	public TArray<UAnimInstance> LinkedInstances;
 	public TArray<FTransform> CachedBoneSpaceTransforms;
 	public TArray<FTransform> CachedComponentSpaceTransforms;
-	public bool GetFloatAttribute_Ref(sbyte BoneName,sbyte AttributeName,float OutValue,ECustomBoneAttributeLookup LookupType=ECustomBoneAttributeLookup,bool ReturnValue) { return default; }
-	public bool GetTransformAttribute_Ref(sbyte BoneName,sbyte AttributeName,FTransform OutValue,ECustomBoneAttributeLookup LookupType=ECustomBoneAttributeLookup,bool ReturnValue) { return default; }
-	public bool GetIntegerAttribute_Ref(sbyte BoneName,sbyte AttributeName,int OutValue,ECustomBoneAttributeLookup LookupType=ECustomBoneAttributeLookup,bool ReturnValue) { return default; }
-	public bool GetStringAttribute_Ref(sbyte BoneName,sbyte AttributeName,sbyte OutValue,ECustomBoneAttributeLookup LookupType=ECustomBoneAttributeLookup,bool ReturnValue) { return default; }
-	public bool GetFloatAttribute(sbyte BoneName,sbyte AttributeName,float DefaultValue,float OutValue,ECustomBoneAttributeLookup LookupType=ECustomBoneAttributeLookup,bool ReturnValue) { return default; }
-	public bool GetTransformAttribute(sbyte BoneName,sbyte AttributeName,FTransform DefaultValue,FTransform OutValue,ECustomBoneAttributeLookup LookupType=ECustomBoneAttributeLookup,bool ReturnValue) { return default; }
-	public bool GetIntegerAttribute(sbyte BoneName,sbyte AttributeName,int DefaultValue,int OutValue,ECustomBoneAttributeLookup LookupType=ECustomBoneAttributeLookup,bool ReturnValue) { return default; }
-	public bool GetStringAttribute(sbyte BoneName,sbyte AttributeName,sbyte DefaultValue,sbyte OutValue,ECustomBoneAttributeLookup LookupType=ECustomBoneAttributeLookup,bool ReturnValue) { return default; }
+	public bool GetFloatAttribute_Ref(string BoneName,string AttributeName,float OutValue,ECustomBoneAttributeLookup LookupType/*=ECustomBoneAttributeLookup.BoneOnly*/) { return default; }
+	public bool GetTransformAttribute_Ref(string BoneName,string AttributeName,FTransform OutValue,ECustomBoneAttributeLookup LookupType/*=ECustomBoneAttributeLookup.BoneOnly*/) { return default; }
+	public bool GetIntegerAttribute_Ref(string BoneName,string AttributeName,int OutValue,ECustomBoneAttributeLookup LookupType/*=ECustomBoneAttributeLookup.BoneOnly*/) { return default; }
+	public bool GetStringAttribute_Ref(string BoneName,string AttributeName,string OutValue,ECustomBoneAttributeLookup LookupType/*=ECustomBoneAttributeLookup.BoneOnly*/) { return default; }
+	public bool GetFloatAttribute(string BoneName,string AttributeName,float DefaultValue,float OutValue,ECustomBoneAttributeLookup LookupType/*=ECustomBoneAttributeLookup.BoneOnly*/) { return default; }
+	public bool GetTransformAttribute(string BoneName,string AttributeName,FTransform DefaultValue,FTransform OutValue,ECustomBoneAttributeLookup LookupType/*=ECustomBoneAttributeLookup.BoneOnly*/) { return default; }
+	public bool GetIntegerAttribute(string BoneName,string AttributeName,int DefaultValue,int OutValue,ECustomBoneAttributeLookup LookupType/*=ECustomBoneAttributeLookup.BoneOnly*/) { return default; }
+	public bool GetStringAttribute(string BoneName,string AttributeName,string DefaultValue,string OutValue,ECustomBoneAttributeLookup LookupType/*=ECustomBoneAttributeLookup.BoneOnly*/) { return default; }
 	public float GlobalAnimRateScale;
 	public byte KinematicBonesUpdateType;
 	public byte PhysicsTransformUpdateMode;
@@ -76,108 +76,108 @@ public partial class USkeletalMeshComponent : USkinnedMeshComponent {
 	public ushort CachedAnimCurveUidVersion;
 	public float ClothBlendWeight;
 	public bool bWaitForParallelClothTask;
-	public TArray<sbyte> DisallowedAnimCurves;
+	public TArray<string> DisallowedAnimCurves;
 	public UBodySetup BodySetup;
 	public float ClothMaxDistanceScale;
 	public FConstraintBrokenSignature OnConstraintBroken;
 	public FPlasticDeformationEventSignature OnPlasticDeformation;
 	public UClass ClothingSimulationFactory;
 	public void SetAnimClass(UClass NewClass) {}
-	public UClass GetAnimClass(UClass ReturnValue) { return default; }
-	public UObject GetAnimInstance(UObject ReturnValue) { return default; }
-	public UObject GetPostProcessInstance(UObject ReturnValue) { return default; }
-	public UObject GetLinkedAnimGraphInstanceByTag(sbyte InTag,UObject ReturnValue) { return default; }
-	public void GetLinkedAnimGraphInstancesByTag(sbyte InTag,TArray<UObject> OutLinkedInstances) {}
-	public void LinkAnimGraphByTag(sbyte InTag,UClass InClass) {}
+	public UClass GetAnimClass() { return default; }
+	public UObject GetAnimInstance() { return default; }
+	public UObject GetPostProcessInstance() { return default; }
+	public UObject GetLinkedAnimGraphInstanceByTag(string InTag) { return default; }
+	public void GetLinkedAnimGraphInstancesByTag(string InTag,TArray<UObject> OutLinkedInstances) {}
+	public void LinkAnimGraphByTag(string InTag,UClass InClass) {}
 	public void LinkAnimClassLayers(UClass InClass) {}
 	public void UnlinkAnimClassLayers(UClass InClass) {}
-	public UObject GetLinkedAnimLayerInstanceByGroup(sbyte InGroup,UObject ReturnValue) { return default; }
-	public UObject GetLinkedAnimLayerInstanceByClass(UClass InClass,UObject ReturnValue) { return default; }
-	public bool HasValidAnimationInstance(bool ReturnValue) { return default; }
-	public void ResetAnimInstanceDynamics(ETeleportType InTeleportType=ETeleportType) {}
+	public UObject GetLinkedAnimLayerInstanceByGroup(string InGroup) { return default; }
+	public UObject GetLinkedAnimLayerInstanceByClass(UClass InClass) { return default; }
+	public bool HasValidAnimationInstance() { return default; }
+	public void ResetAnimInstanceDynamics(ETeleportType InTeleportType/*=ETeleportType.ResetPhysics*/) {}
 	public void SetAnimationMode(EAnimationMode InAnimationMode) {}
-	public EAnimationMode GetAnimationMode(EAnimationMode ReturnValue) { return default; }
+	public EAnimationMode GetAnimationMode() { return default; }
 	public void PlayAnimation(UObject NewAnimToPlay,bool bLooping) {}
 	public void SetAnimation(UObject NewAnimToPlay) {}
 	public void Play(bool bLooping) {}
 	public void Stop() {}
-	public bool IsPlaying(bool ReturnValue) { return default; }
-	public void SetPosition(float InPos,bool bFireNotifies=true) {}
-	public float GetPosition(float ReturnValue) { return default; }
+	public bool IsPlaying() { return default; }
+	public void SetPosition(float InPos,bool bFireNotifies/*=true*/) {}
+	public float GetPosition() { return default; }
 	public void SetPlayRate(float Rate) {}
-	public float GetPlayRate(float ReturnValue) { return default; }
-	public void OverrideAnimationData(UObject InAnimToPlay,bool bIsLooping=true,bool bIsPlaying=true,float Position=0.f,float PlayRate=1.f) {}
-	public void SetMorphTarget(sbyte MorphTargetName,float Value,bool bRemoveZeroWeight=true) {}
+	public float GetPlayRate() { return default; }
+	public void OverrideAnimationData(UObject InAnimToPlay,bool bIsLooping/*=true*/,bool bIsPlaying/*=true*/,float Position/*=0.0f*/,float PlayRate/*=1.0f*/) {}
+	public void SetMorphTarget(string MorphTargetName,float Value,bool bRemoveZeroWeight/*=true*/) {}
 	public void ClearMorphTargets() {}
-	public float GetMorphTarget(sbyte MorphTargetName,float ReturnValue) { return default; }
+	public float GetMorphTarget(string MorphTargetName) { return default; }
 	public void SnapshotPose(FPoseSnapshot Snapshot) {}
 	public void SetAllowClothActors(bool bInAllow) {}
-	public bool GetAllowClothActors(bool ReturnValue) { return default; }
-	public float GetClothMaxDistanceScale(float ReturnValue) { return default; }
+	public bool GetAllowClothActors() { return default; }
+	public float GetClothMaxDistanceScale() { return default; }
 	public void SetClothMaxDistanceScale(float Scale) {}
 	public void ForceClothNextUpdateTeleport() {}
 	public void ForceClothNextUpdateTeleportAndReset() {}
 	public void SuspendClothingSimulation() {}
 	public void ResumeClothingSimulation() {}
-	public bool IsClothingSimulationSuspended(bool ReturnValue) { return default; }
+	public bool IsClothingSimulationSuspended() { return default; }
 	public void ResetClothTeleportMode() {}
 	public void BindClothToLeaderPoseComponent() {}
-	public void UnbindClothFromLeaderPoseComponent(bool bRestoreSimulationSpace=true) {}
-	public void SetAllowRigidBodyAnimNode(bool bInAllow,bool bReinitAnim=true) {}
-	public bool GetAllowRigidBodyAnimNode(bool ReturnValue) { return default; }
+	public void UnbindClothFromLeaderPoseComponent(bool bRestoreSimulationSpace/*=true*/) {}
+	public void SetAllowRigidBodyAnimNode(bool bInAllow,bool bReinitAnim/*=true*/) {}
+	public bool GetAllowRigidBodyAnimNode() { return default; }
 	public void SetUpdateAnimationInEditor(bool NewUpdateState) {}
 	public void SetUpdateClothInEditor(bool NewUpdateState) {}
 	public void SetDisableAnimCurves(bool bInDisableAnimCurves) {}
-	public bool GetDisableAnimCurves(bool ReturnValue) { return default; }
+	public bool GetDisableAnimCurves() { return default; }
 	public void SetAllowAnimCurveEvaluation(bool bInAllow) {}
-	public bool GetAllowedAnimCurveEvaluate(bool ReturnValue) { return default; }
-	public void AllowAnimCurveEvaluation(sbyte NameOfCurve,bool bAllow) {}
+	public bool GetAllowedAnimCurveEvaluate() { return default; }
+	public void AllowAnimCurveEvaluation(string NameOfCurve,bool bAllow) {}
 	public void ResetAllowedAnimCurveEvaluation() {}
-	public void SetAllowedAnimCurvesEvaluation(TArray<sbyte> List,bool bAllow) {}
-	public float GetTeleportRotationThreshold(float ReturnValue) { return default; }
+	public void SetAllowedAnimCurvesEvaluation(TArray<string> List,bool bAllow) {}
+	public float GetTeleportRotationThreshold() { return default; }
 	public void SetTeleportRotationThreshold(float Threshold) {}
-	public float GetTeleportDistanceThreshold(float ReturnValue) { return default; }
+	public float GetTeleportDistanceThreshold() { return default; }
 	public void SetTeleportDistanceThreshold(float Threshold) {}
 	public float TeleportDistanceThreshold;
 	public float TeleportRotationThreshold;
 	public uint LastPoseTickFrame;
-	public UObject GetClothingSimulationInteractor(UObject ReturnValue) { return default; }
+	public UObject GetClothingSimulationInteractor() { return default; }
 	public UClothingSimulationInteractor ClothingInteractor;
 	public FOnAnimInitialized OnAnimInitialized;
-	public void SetBodyNotifyRigidBodyCollision(bool bNewNotifyRigidBodyCollision,sbyte BoneName=NAME_None) {}
-	public void SetNotifyRigidBodyCollisionBelow(bool bNewNotifyRigidBodyCollision,sbyte BoneName=NAME_None,bool bIncludeSelf=true) {}
-	public void SetEnableBodyGravity(bool bEnableGravity,sbyte BoneName) {}
-	public bool IsBodyGravityEnabled(sbyte BoneName,bool ReturnValue) { return default; }
-	public void SetEnableGravityOnAllBodiesBelow(bool bEnableGravity,sbyte BoneName,bool bIncludeSelf=true) {}
-	public bool K2_GetClosestPointOnPhysicsAsset(FVector WorldPosition,FVector ClosestWorldPosition,FVector Normal,sbyte BoneName,float Distance,bool ReturnValue) { return default; }
-	public float GetBoneMass(sbyte BoneName=NAME_None,bool bScaleMass=true,float ReturnValue) { return default; }
-	public FVector GetSkeletalCenterOfMass(FVector ReturnValue) { return default; }
-	public void AddForceToAllBodiesBelow(FVector Force,sbyte BoneName=NAME_None,bool bAccelChange=false,bool bIncludeSelf=true) {}
-	public void AddImpulseToAllBodiesBelow(FVector Impulse,sbyte BoneName=NAME_None,bool bVelChange=false,bool bIncludeSelf=true) {}
-	public void TermBodiesBelow(sbyte ParentBoneName) {}
+	public void SetBodyNotifyRigidBodyCollision(bool bNewNotifyRigidBodyCollision,string BoneName/*=NAME_None*/) {}
+	public void SetNotifyRigidBodyCollisionBelow(bool bNewNotifyRigidBodyCollision,string BoneName/*=NAME_None*/,bool bIncludeSelf/*=true*/) {}
+	public void SetEnableBodyGravity(bool bEnableGravity,string BoneName) {}
+	public bool IsBodyGravityEnabled(string BoneName) { return default; }
+	public void SetEnableGravityOnAllBodiesBelow(bool bEnableGravity,string BoneName,bool bIncludeSelf/*=true*/) {}
+	public bool K2_GetClosestPointOnPhysicsAsset(FVector WorldPosition,FVector ClosestWorldPosition,FVector Normal,string BoneName,float Distance) { return default; }
+	public float GetBoneMass(string BoneName/*=NAME_None*/,bool bScaleMass/*=true*/) { return default; }
+	public FVector GetSkeletalCenterOfMass() { return default; }
+	public void AddForceToAllBodiesBelow(FVector Force,string BoneName/*=NAME_None*/,bool bAccelChange/*=false*/,bool bIncludeSelf/*=true*/) {}
+	public void AddImpulseToAllBodiesBelow(FVector Impulse,string BoneName/*=NAME_None*/,bool bVelChange/*=false*/,bool bIncludeSelf/*=true*/) {}
+	public void TermBodiesBelow(string ParentBoneName) {}
 	public void SetAllBodiesSimulatePhysics(bool bNewSimulate) {}
 	public void SetPhysicsBlendWeight(float PhysicsBlendWeight) {}
 	public void SetEnablePhysicsBlending(bool bNewBlendPhysics) {}
-	public void SetAllBodiesBelowPhysicsDisabled(sbyte InBoneName,bool bDisabled,bool bIncludeSelf=true) {}
-	public void SetAllBodiesBelowLinearVelocity(sbyte InBoneName,FVector LinearVelocity,bool bIncludeSelf=true) {}
-	public FVector GetBoneLinearVelocity(sbyte InBoneName,FVector ReturnValue) { return default; }
-	public void SetAllBodiesBelowSimulatePhysics(sbyte InBoneName,bool bNewSimulate,bool bIncludeSelf=true) {}
+	public void SetAllBodiesBelowPhysicsDisabled(string InBoneName,bool bDisabled,bool bIncludeSelf/*=true*/) {}
+	public void SetAllBodiesBelowLinearVelocity(string InBoneName,FVector LinearVelocity,bool bIncludeSelf/*=true*/) {}
+	public FVector GetBoneLinearVelocity(string InBoneName) { return default; }
+	public void SetAllBodiesBelowSimulatePhysics(string InBoneName,bool bNewSimulate,bool bIncludeSelf/*=true*/) {}
 	public void ResetAllBodiesSimulatePhysics() {}
-	public void SetAllBodiesPhysicsBlendWeight(float PhysicsBlendWeight,bool bSkipCustomPhysicsType=false) {}
-	public void SetAllBodiesBelowPhysicsBlendWeight(sbyte InBoneName,float PhysicsBlendWeight,bool bSkipCustomPhysicsType=false,bool bIncludeSelf=true) {}
-	public void AccumulateAllBodiesBelowPhysicsBlendWeight(sbyte InBoneName,float AddPhysicsBlendWeight,bool bSkipCustomPhysicsType=false) {}
-	public void SetAllMotorsAngularPositionDrive(bool bEnableSwingDrive,bool bEnableTwistDrive,bool bSkipCustomPhysicsType=false) {}
-	public void SetAllMotorsAngularVelocityDrive(bool bEnableSwingDrive,bool bEnableTwistDrive,bool bSkipCustomPhysicsType=false) {}
-	public void SetAllMotorsAngularDriveParams(float InSpring,float InDamping,float InForceLimit,bool bSkipCustomPhysicsType=false) {}
-	public void SetConstraintProfile(sbyte JointName,sbyte ProfileName,bool bDefaultIfNotFound=false) {}
-	public void SetConstraintProfileForAll(sbyte ProfileName,bool bDefaultIfNotFound=false) {}
-	public sbyte FindConstraintBoneName(int ConstraintIndex,sbyte ReturnValue) { return default; }
-	public void BreakConstraint(FVector Impulse,FVector HitLocation,sbyte InBoneName) {}
-	public FConstraintInstanceAccessor GetConstraintByName(sbyte ConstraintName,bool bIncludesTerminated,FConstraintInstanceAccessor ReturnValue) { return default; }
+	public void SetAllBodiesPhysicsBlendWeight(float PhysicsBlendWeight,bool bSkipCustomPhysicsType/*=false*/) {}
+	public void SetAllBodiesBelowPhysicsBlendWeight(string InBoneName,float PhysicsBlendWeight,bool bSkipCustomPhysicsType/*=false*/,bool bIncludeSelf/*=true*/) {}
+	public void AccumulateAllBodiesBelowPhysicsBlendWeight(string InBoneName,float AddPhysicsBlendWeight,bool bSkipCustomPhysicsType/*=false*/) {}
+	public void SetAllMotorsAngularPositionDrive(bool bEnableSwingDrive,bool bEnableTwistDrive,bool bSkipCustomPhysicsType/*=false*/) {}
+	public void SetAllMotorsAngularVelocityDrive(bool bEnableSwingDrive,bool bEnableTwistDrive,bool bSkipCustomPhysicsType/*=false*/) {}
+	public void SetAllMotorsAngularDriveParams(float InSpring,float InDamping,float InForceLimit,bool bSkipCustomPhysicsType/*=false*/) {}
+	public void SetConstraintProfile(string JointName,string ProfileName,bool bDefaultIfNotFound/*=false*/) {}
+	public void SetConstraintProfileForAll(string ProfileName,bool bDefaultIfNotFound/*=false*/) {}
+	public string FindConstraintBoneName(int ConstraintIndex) { return default; }
+	public void BreakConstraint(FVector Impulse,FVector HitLocation,string InBoneName) {}
+	public FConstraintInstanceAccessor GetConstraintByName(string ConstraintName,bool bIncludesTerminated) { return default; }
 	public void GetConstraints(bool bIncludesTerminated,TArray<FConstraintInstanceAccessor> OutConstraints) {}
-	public void GetConstraintsFromBody(sbyte BodyName,bool bParentConstraints,bool bChildConstraints,bool bIncludesTerminated,TArray<FConstraintInstanceAccessor> OutConstraints) {}
-	public void SetAngularLimits(sbyte InBoneName,float Swing1LimitAngle,float TwistLimitAngle,float Swing2LimitAngle) {}
-	public void GetCurrentJointAngles(sbyte InBoneName,float Swing1Angle,float TwistAngle,float Swing2Angle) {}
+	public void GetConstraintsFromBody(string BodyName,bool bParentConstraints,bool bChildConstraints,bool bIncludesTerminated,TArray<FConstraintInstanceAccessor> OutConstraints) {}
+	public void SetAngularLimits(string InBoneName,float Swing1LimitAngle,float TwistLimitAngle,float Swing2LimitAngle) {}
+	public void GetCurrentJointAngles(string InBoneName,float Swing1Angle,float TwistAngle,float Swing2Angle) {}
 	public UAnimSequence SequenceToPlay_DEPRECATED;
 	public UAnimationAsset AnimToPlay_DEPRECATED;
 	public bool bDefaultLooping_DEPRECATED;
@@ -186,6 +186,6 @@ public partial class USkeletalMeshComponent : USkinnedMeshComponent {
 	public float DefaultPlayRate_DEPRECATED;
 	public TSoftObjectPtr<UObject> DefaultAnimatingRigOverride;
 	public void SetDefaultAnimatingRigOverride(TSoftObjectPtr<UObject> InAnimatingRig) {}
-	public TSoftObjectPtr<UObject> GetDefaultAnimatingRigOverride(TSoftObjectPtr<UObject> ReturnValue) { return default; }
-	public TSoftObjectPtr<UObject> GetDefaultAnimatingRig(TSoftObjectPtr<UObject> ReturnValue) { return default; }
+	public TSoftObjectPtr<UObject> GetDefaultAnimatingRigOverride() { return default; }
+	public TSoftObjectPtr<UObject> GetDefaultAnimatingRig() { return default; }
 }

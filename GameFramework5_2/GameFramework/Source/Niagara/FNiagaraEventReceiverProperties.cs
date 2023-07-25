@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>TODO: Event action that spawns other whole Systems?</summary>
 public partial struct FNiagaraEventReceiverProperties {
 // NiagaraEventReceiverProperties
-	public sbyte Name;
-	public sbyte SourceEventGenerator;
-	public sbyte SourceEmitter;
+	public string Name;
+	public string SourceEventGenerator;
+	public string SourceEmitter;
 }

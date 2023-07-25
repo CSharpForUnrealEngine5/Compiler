@@ -15,8 +15,8 @@ public partial class UNiagaraSettings : UDeveloperSettings {
 	public bool bExperimentalVMEnabled;
 	public FSoftObjectPath DefaultEffectType;
 	public FLinearColor PositionPinTypeColor;
-	public TArray<sbyte> QualityLevels;
-	public TMap<sbyte,sbyte> ComponentRendererWarningsPerClass;
+	public TArray<string> QualityLevels;
+	public TMap<string,string> ComponentRendererWarningsPerClass;
 	public byte DefaultRenderTargetFormat;
 	public ENiagaraGpuBufferFormat DefaultGridFormat;
 	public ENiagaraDefaultRendererMotionVectorSetting DefaultRendererMotionVectorSetting;
@@ -29,7 +29,7 @@ public partial class UNiagaraSettings : UDeveloperSettings {
 	public byte NDISkelMesh_AdjacencyTriangleIndexFormat;
 	public bool NDIStaticMesh_AllowDistanceFields;
 	public TArray<byte> NDICollisionQuery_AsyncGpuTraceProviderOrder;
-	public sbyte SimCacheAuxiliaryFileBasePath;
+	public string SimCacheAuxiliaryFileBasePath;
 	public long SimCacheMaxCPUMemoryVolumetrics;
 	public TArray<FNiagaraPlatformSetRedirect> PlatformSetRedirects;
 }

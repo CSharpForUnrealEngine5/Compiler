@@ -16,6 +16,6 @@ public partial class UNiagaraDataInterfaceCurveBase : UNiagaraDataInterface {
 	public bool bOverrideOptimizeThreshold;
 	public bool HasEditorData;
 	public float OptimizeThreshold;
-	public sbyte ExposedName;
+	public string ExposedName;
 	public UTexture2D ExposedTexture;
 }

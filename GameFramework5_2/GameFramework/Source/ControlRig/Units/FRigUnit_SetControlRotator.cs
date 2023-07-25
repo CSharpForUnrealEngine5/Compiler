@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetControlRotator is used to perform a change in the hierarchy by setting a single control's Rotator value.</summary>
 public partial struct FRigUnit_SetControlRotator {
 // RigUnit_SetControlRotator
-	public sbyte Control;
+	public string Control;
 	public float Weight;
 	public FRotator Rotator;
 	public ERigVMTransformSpace Space;

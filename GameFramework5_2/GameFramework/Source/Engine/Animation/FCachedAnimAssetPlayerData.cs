@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/CachedAnimData.h")]
 public partial struct FCachedAnimAssetPlayerData {
 // CachedAnimAssetPlayerData
-	public sbyte StateMachineName;
-	public sbyte StateName;
+	public string StateMachineName;
+	public string StateName;
 }

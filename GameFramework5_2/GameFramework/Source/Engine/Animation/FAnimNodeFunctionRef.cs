@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Cached function name/ptr that is resolved at init time</summary>
 public partial struct FAnimNodeFunctionRef {
 // AnimNodeFunctionRef
-	public sbyte ClassName;
-	public sbyte FunctionName;
+	public string ClassName;
+	public string FunctionName;
 	public UClass Class;
 	public UFunction Function;
 }

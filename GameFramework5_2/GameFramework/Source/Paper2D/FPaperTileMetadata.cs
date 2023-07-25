@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Information about a single tile in a tile set</summary>
 public partial struct FPaperTileMetadata {
 // PaperTileMetadata
-	public sbyte UserDataName;
+	public string UserDataName;
 	public FSpriteGeometryCollection CollisionData;
 	public byte TerrainMembership;
 }

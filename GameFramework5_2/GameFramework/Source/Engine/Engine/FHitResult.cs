@@ -23,6 +23,6 @@ public partial struct FHitResult {
 	public TWeakObjectPtr<UPhysicalMaterial> PhysMaterial;
 	public FActorInstanceHandle HitObjectHandle;
 	public TWeakObjectPtr<UPrimitiveComponent> Component;
-	public sbyte BoneName;
-	public sbyte MyBoneName;
+	public string BoneName;
+	public string MyBoneName;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct representation of SetPresetController HTTP request</summary>
 public partial struct FRCPresetSetControllerRequest {
 // RCPresetSetControllerRequest
-	public sbyte ControllerName;
+	public string ControllerName;
 }

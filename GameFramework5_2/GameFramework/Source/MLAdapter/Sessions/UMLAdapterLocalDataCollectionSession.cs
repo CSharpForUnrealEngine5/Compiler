@@ -7,7 +7,7 @@ public partial class UMLAdapterLocalDataCollectionSession : UMLAdapterSession {
 // MLAdapterLocalDataCollectionSession
 	public void OnPawnControllerChanged(UObject InPawn,UObject InController) {}
 	public FDirectoryPath FilePath;
-	public sbyte FileName;
+	public string FileName;
 	public bool bPrefixOutputFilenameWithTimestamp;
 	public TWeakObjectPtr<UMLAdapterAgent> PlayerControlledAgent;
 }

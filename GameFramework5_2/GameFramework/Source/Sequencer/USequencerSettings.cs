@@ -47,7 +47,7 @@ public partial class USequencerSettings : UObject {
 	public bool bShowStatusBar;
 	public bool bShowTickLines;
 	public bool bShowSequencerToolbar;
-	public sbyte KeyAreaCurveExtents;
+	public string KeyAreaCurveExtents;
 	public float KeyAreaHeightWithCurves;
 	public float ReduceKeysTolerance;
 	public bool bDeleteKeysWhenTrimming;
@@ -62,7 +62,7 @@ public partial class USequencerSettings : UObject {
 	public bool bCompileDirectorOnEvaluate;
 	public uint TrajectoryPathCap;
 	public EFrameNumberDisplayFormats FrameNumberDisplayFormat;
-	public sbyte MovieRendererName;
+	public string MovieRendererName;
 	public bool bAutoExpandNodesOnSelection;
 	public float TreeViewWidth;
 }

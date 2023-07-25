@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines options for conditionally editing and showing script inputs in the UI.</summary>
 public partial struct FNiagaraInputConditionMetadata {
 // NiagaraInputConditionMetadata
-	public sbyte InputName;
-	public TArray<sbyte> TargetValues;
+	public string InputName;
+	public TArray<string> TargetValues;
 }

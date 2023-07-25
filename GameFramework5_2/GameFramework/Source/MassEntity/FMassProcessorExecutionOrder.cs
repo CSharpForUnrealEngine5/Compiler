@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MassProcessor.h")]
 public partial struct FMassProcessorExecutionOrder {
 // MassProcessorExecutionOrder
-	public sbyte ExecuteInGroup;
-	public TArray<sbyte> ExecuteBefore;
-	public TArray<sbyte> ExecuteAfter;
+	public string ExecuteInGroup;
+	public TArray<string> ExecuteBefore;
+	public TArray<string> ExecuteAfter;
 }

@@ -8,14 +8,14 @@ public partial class UDynamicMeshComponent : UBaseDynamicMeshComponent {
 	public void SetDynamicMesh(UObject NewMesh) {}
 	public UDynamicMesh MeshObject;
 	public void ConfigureMaterialSet(TArray<UObject> NewMaterialSet) {}
-	public bool ValidateMaterialSlots(bool bCreateIfMissing=true,bool bDeleteExtraSlots=true,bool ReturnValue) { return default; }
+	public bool ValidateMaterialSlots(bool bCreateIfMissing/*=true*/,bool bDeleteExtraSlots/*=true*/) { return default; }
 	public void SetTangentsType(EDynamicMeshComponentTangentsMode NewTangentsType) {}
-	public EDynamicMeshComponentTangentsMode GetTangentsType(EDynamicMeshComponentTangentsMode ReturnValue) { return default; }
+	public EDynamicMeshComponentTangentsMode GetTangentsType() { return default; }
 	public EDynamicMeshComponentTangentsMode TangentsType;
 	public void EnableComplexAsSimpleCollision() {}
-	public void SetComplexAsSimpleCollisionEnabled(bool bEnabled,bool bImmediateUpdate=true) {}
-	public void SetDeferredCollisionUpdatesEnabled(bool bEnabled,bool bImmediateUpdate=true) {}
-	public void UpdateCollision(bool bOnlyIfPending=true) {}
+	public void SetComplexAsSimpleCollisionEnabled(bool bEnabled,bool bImmediateUpdate/*=true*/) {}
+	public void SetDeferredCollisionUpdatesEnabled(bool bEnabled,bool bImmediateUpdate/*=true*/) {}
+	public void UpdateCollision(bool bOnlyIfPending/*=true*/) {}
 	public byte CollisionType;
 	public bool bUseAsyncCooking;
 	public bool bEnableComplexCollision;

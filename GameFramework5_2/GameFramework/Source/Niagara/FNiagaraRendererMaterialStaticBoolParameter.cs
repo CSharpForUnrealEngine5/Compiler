@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraRendererProperties.h")]
 public partial struct FNiagaraRendererMaterialStaticBoolParameter {
 // NiagaraRendererMaterialStaticBoolParameter
-	public sbyte MaterialParameterName;
-	public sbyte StaticVariableName;
+	public string MaterialParameterName;
+	public string StaticVariableName;
 }

@@ -17,23 +17,23 @@ public partial class ALevelSequenceActor : AActor {
 	public bool bOverrideInstanceData;
 	public bool bReplicatePlayback;
 	public UObject DefaultInstanceData;
-	public UObject GetSequence(UObject ReturnValue) { return default; }
-	public UObject LoadSequence(UObject ReturnValue) { return default; }
+	public UObject GetSequence() { return default; }
+	public UObject LoadSequence() { return default; }
 	public void SetSequence(UObject InSequence) {}
 	public void SetReplicatePlayback(bool ReplicatePlayback) {}
-	public UObject GetSequencePlayer(UObject ReturnValue) { return default; }
+	public UObject GetSequencePlayer() { return default; }
 	public void HideBurnin() {}
 	public void ShowBurnin() {}
-	public void SetBinding(FMovieSceneObjectBindingID Binding,TArray<UObject> Actors,bool bAllowBindingsFromAsset=false) {}
-	public void SetBindingByTag(sbyte BindingTag,TArray<UObject> Actors,bool bAllowBindingsFromAsset=false) {}
-	public void AddBinding(FMovieSceneObjectBindingID Binding,UObject Actor,bool bAllowBindingsFromAsset=false) {}
-	public void AddBindingByTag(sbyte BindingTag,UObject Actor,bool bAllowBindingsFromAsset=false) {}
+	public void SetBinding(FMovieSceneObjectBindingID Binding,TArray<UObject> Actors,bool bAllowBindingsFromAsset/*=false*/) {}
+	public void SetBindingByTag(string BindingTag,TArray<UObject> Actors,bool bAllowBindingsFromAsset/*=false*/) {}
+	public void AddBinding(FMovieSceneObjectBindingID Binding,UObject Actor,bool bAllowBindingsFromAsset/*=false*/) {}
+	public void AddBindingByTag(string BindingTag,UObject Actor,bool bAllowBindingsFromAsset/*=false*/) {}
 	public void RemoveBinding(FMovieSceneObjectBindingID Binding,UObject Actor) {}
-	public void RemoveBindingByTag(sbyte Tag,UObject Actor) {}
+	public void RemoveBindingByTag(string Tag,UObject Actor) {}
 	public void ResetBinding(FMovieSceneObjectBindingID Binding) {}
 	public void ResetBindings() {}
-	public FMovieSceneObjectBindingID FindNamedBinding(sbyte Tag,FMovieSceneObjectBindingID ReturnValue) { return default; }
-	public TArray<FMovieSceneObjectBindingID> FindNamedBindings(sbyte Tag,TArray<FMovieSceneObjectBindingID> ReturnValue) { return default; }
+	public FMovieSceneObjectBindingID FindNamedBinding(string Tag) { return default; }
+	public TArray<FMovieSceneObjectBindingID> FindNamedBindings(string Tag) { return default; }
 	public ULevelSequenceBurnIn BurnInInstance;
 	public bool bShowBurnin;
 }

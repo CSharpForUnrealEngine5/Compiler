@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Beam Multi-target Variables.</summary>
 public partial struct FBeamTargetData {
 // BeamTargetData
-	public sbyte TargetName;
+	public string TargetName;
 	public float TargetPercentage;
 }

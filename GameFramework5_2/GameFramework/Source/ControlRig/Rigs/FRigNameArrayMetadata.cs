@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Rigs/RigHierarchyMetadata.h")]
 public partial struct FRigNameArrayMetadata {
 // RigNameArrayMetadata
-	public TArray<sbyte> Value;
+	public TArray<string> Value;
 }

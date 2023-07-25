@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraPlatformSet.h")]
 public partial struct FNiagaraDeviceProfileStateEntry {
 // NiagaraDeviceProfileStateEntry
-	public sbyte ProfileName;
+	public string ProfileName;
 	public uint QualityLevelMask;
 	public uint SetQualityLevelMask;
 }

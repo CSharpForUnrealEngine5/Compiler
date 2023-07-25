@@ -33,9 +33,9 @@ public partial class URadialSlider : UWidget {
 	public FOnControllerCaptureBeginEvent OnControllerCaptureBegin;
 	public FOnControllerCaptureEndEvent OnControllerCaptureEnd;
 	public FOnFloatValueChangedEvent OnValueChanged;
-	public float GetValue(float ReturnValue) { return default; }
-	public float GetCustomDefaultValue(float ReturnValue) { return default; }
-	public float GetNormalizedSliderHandlePosition(float ReturnValue) { return default; }
+	public float GetValue() { return default; }
+	public float GetCustomDefaultValue() { return default; }
+	public float GetNormalizedSliderHandlePosition() { return default; }
 	public void SetValue(float InValue) {}
 	public void SetCustomDefaultValue(float InValue) {}
 	public void SetSliderRange(FRuntimeFloatCurve InSliderRange) {}

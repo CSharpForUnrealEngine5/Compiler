@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FCreateProxyMeshActorOptions {
 // CreateProxyMeshActorOptions
 	public bool bSpawnMergedActor;
-	public sbyte BasePackageName;
+	public string BasePackageName;
 	public FMeshProxySettings MeshProxySettings;
 }

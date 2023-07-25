@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UCancellableAsyncAction : UBlueprintAsyncActionBase {
 // CancellableAsyncAction
 	public void Cancel() {}
-	public bool IsActive(bool ReturnValue) { return default; }
+	public bool IsActive() { return default; }
 }

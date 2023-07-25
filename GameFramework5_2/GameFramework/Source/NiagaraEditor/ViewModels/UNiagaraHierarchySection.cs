@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ViewModels/HierarchyEditor/NiagaraHierarchyViewModelBase.h")]
 public partial class UNiagaraHierarchySection : UNiagaraHierarchyItemBase {
 // NiagaraHierarchySection
-	public sbyte Section;
-	public sbyte Tooltip;
+	public string Section;
+	public string Tooltip;
 }

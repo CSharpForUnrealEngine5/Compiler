@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Types/MVVMBindingName.h")]
 public partial struct FMVVMBindingName {
 // MVVMBindingName
-	public sbyte BindingName;
+	public string BindingName;
 }

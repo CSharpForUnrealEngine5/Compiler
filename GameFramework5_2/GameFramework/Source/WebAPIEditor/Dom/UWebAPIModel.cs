@@ -8,7 +8,7 @@ public partial class UWebAPIModel : UWebAPIModelBase {
 	public FWebAPITypeNameVariant Name;
 	public bool bGenerate;
 	public FWebAPITypeNameVariant Type;
-	public sbyte DefaultValue;
+	public string DefaultValue;
 	public TArray<UWebAPIProperty> Properties;
-	public sbyte GeneratedCodeText;
+	public string GeneratedCodeText;
 }

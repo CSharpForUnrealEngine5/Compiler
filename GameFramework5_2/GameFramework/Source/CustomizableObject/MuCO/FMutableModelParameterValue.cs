@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObject.h")]
 public partial struct FMutableModelParameterValue {
 // MutableModelParameterValue
-	public sbyte Name;
+	public string Name;
 	public int Value;
 }

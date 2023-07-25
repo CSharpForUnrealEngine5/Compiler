@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Iris/ReplicationSystem/ObjectReplicationBridgeConfig.h")]
 public partial struct FObjectReplicationBridgeDeltaCompressionConfig {
 // ObjectReplicationBridgeDeltaCompressionConfig
-	public sbyte ClassName;
+	public string ClassName;
 	public bool bEnableDeltaCompression;
 }

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraConvertPinRecord {
 // NiagaraConvertPinRecord
 	public FGuid PinId;
-	public TArray<sbyte> Path;
+	public TArray<string> Path;
 }

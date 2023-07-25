@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FGameplayDebuggerDebugActor {
 // GameplayDebuggerDebugActor
 	public TWeakObjectPtr<AActor> Actor;
-	public sbyte ActorName;
+	public string ActorName;
 	public short SyncCounter;
 }

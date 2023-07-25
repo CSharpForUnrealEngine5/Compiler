@@ -5,17 +5,17 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a media play list.</summary>
 public partial class UMediaPlaylist : UObject {
 // MediaPlaylist
-	public bool Add(UObject MediaSource,bool ReturnValue) { return default; }
-	public bool AddFile(sbyte FilePath,bool ReturnValue) { return default; }
-	public bool AddUrl(sbyte Url,bool ReturnValue) { return default; }
-	public UObject Get(int Index,UObject ReturnValue) { return default; }
-	public UObject GetNext(int InOutIndex,UObject ReturnValue) { return default; }
-	public UObject GetPrevious(int InOutIndex,UObject ReturnValue) { return default; }
-	public UObject GetRandom(int OutIndex,UObject ReturnValue) { return default; }
+	public bool Add(UObject MediaSource) { return default; }
+	public bool AddFile(string FilePath) { return default; }
+	public bool AddUrl(string Url) { return default; }
+	public UObject Get(int Index) { return default; }
+	public UObject GetNext(int InOutIndex) { return default; }
+	public UObject GetPrevious(int InOutIndex) { return default; }
+	public UObject GetRandom(int OutIndex) { return default; }
 	public void Insert(UObject MediaSource,int Index) {}
-	public int Num(int ReturnValue) { return default; }
-	public bool Remove(UObject MediaSource,bool ReturnValue) { return default; }
-	public bool RemoveAt(int Index,bool ReturnValue) { return default; }
-	public bool Replace(int Index,UObject Replacement,bool ReturnValue) { return default; }
+	public int Num() { return default; }
+	public bool Remove(UObject MediaSource) { return default; }
+	public bool RemoveAt(int Index) { return default; }
+	public bool Replace(int Index,UObject Replacement) { return default; }
 	public TArray<UMediaSource> Items;
 }

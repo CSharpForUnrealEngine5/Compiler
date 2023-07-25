@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Iris/ReplicationSystem/ObjectReplicationBridgeConfig.h")]
 public partial struct FObjectReplicationBridgeFilterConfig {
 // ObjectReplicationBridgeFilterConfig
-	public sbyte ClassName;
-	public sbyte DynamicFilterName;
+	public string ClassName;
+	public string DynamicFilterName;
 }

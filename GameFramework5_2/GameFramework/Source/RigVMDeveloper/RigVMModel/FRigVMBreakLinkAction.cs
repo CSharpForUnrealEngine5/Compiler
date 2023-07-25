@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMBreakLinkAction {
 // RigVMBreakLinkAction
 	public FSoftObjectPath GraphPath;
-	public sbyte OutputPinPath;
-	public sbyte InputPinPath;
+	public string OutputPinPath;
+	public string InputPinPath;
 }

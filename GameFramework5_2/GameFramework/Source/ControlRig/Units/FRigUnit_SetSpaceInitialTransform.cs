@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetSpaceInitialTransform is used to perform a change in the hierarchy by setting a single space's initial transform.</summary>
 public partial struct FRigUnit_SetSpaceInitialTransform {
 // RigUnit_SetSpaceInitialTransform
-	public sbyte SpaceName;
+	public string SpaceName;
 	public FTransform Transform;
 	public FTransform Result;
 	public ERigVMTransformSpace Space;

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Function library containing methods that should be hoisted onto the test object in Python.</summary>
 public partial class UPyTestObjectLibrary : UBlueprintFunctionLibrary {
 // PyTestObjectLibrary
-	public bool IsBoolSet(UObject InObj,bool ReturnValue) { return default; }
-	public int GetOtherConstantValue(int ReturnValue) { return default; }
+	public bool IsBoolSet(UObject InObj) { return default; }
+	public int GetOtherConstantValue() { return default; }
 }

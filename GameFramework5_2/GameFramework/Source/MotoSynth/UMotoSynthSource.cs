@@ -27,7 +27,7 @@ public partial class UMotoSynthSource : UObject {
 	public int RPMFirstCycleSampleEnd;
 	public int RPMEstimationOctaveOffset;
 	public bool bWriteAnalysisInputToFile;
-	public sbyte AnalysisInputFilePath;
+	public string AnalysisInputFilePath;
 	public void PerformGrainTableAnalysis() {}
 	public void PlayToneMatch() {}
 	public void StopToneMatch() {}

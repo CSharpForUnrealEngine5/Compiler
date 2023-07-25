@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigUnit_AnimNextInterfaceParameter.h")]
 public partial struct FAnimNextInterfaceParameter_Float {
 // AnimNextInterfaceParameter_Float
-	public sbyte Name;
+	public string Name;
 	public float Value;
 }

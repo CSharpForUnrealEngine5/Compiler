@@ -46,15 +46,15 @@ public partial class UStaticMeshComponent : UMeshComponent {
 	public TArray<FGuid> IrrelevantLights_DEPRECATED;
 	public TArray<FStaticMeshComponentLODInfo> LODData;
 	public TArray<FStreamingTextureBuildInfo> StreamingTextureData;
-	public sbyte StaticMeshDerivedDataKey;
+	public string StaticMeshDerivedDataKey;
 	public TArray<uint> MaterialStreamingRelativeBoxes;
 	public FLightmassPrimitiveSettings LightmassSettings;
-	public bool SetStaticMesh(UObject NewMesh,bool ReturnValue) { return default; }
+	public bool SetStaticMesh(UObject NewMesh) { return default; }
 	public void SetForcedLodModel(int NewForcedLodModel) {}
 	public void SetDistanceFieldSelfShadowBias(float NewValue) {}
 	public void SetEvaluateWorldPositionOffsetInRayTracing(bool NewValue) {}
 	public void SetEvaluateWorldPositionOffset(bool NewValue) {}
-	public bool GetInitialEvaluateWorldPositionOffset(bool ReturnValue) { return default; }
+	public bool GetInitialEvaluateWorldPositionOffset() { return default; }
 	public void GetLocalBounds(FVector Min,FVector Max) {}
 	public void SetReverseCulling(bool ReverseCulling) {}
 	public void SetForceDisableNanite(bool bInForceDisableNanite) {}

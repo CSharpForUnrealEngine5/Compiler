@@ -8,5 +8,5 @@ public partial class UDataflowSettings : UDeveloperSettings {
 	public FLinearColor ManagedArrayCollectionPinTypeColor;
 	public FLinearColor BoxPinTypeColor;
 	public FLinearColor SpherePinTypeColor;
-	public TMap<sbyte,FNodeColors> NodeColorsMap;
+	public TMap<string,FNodeColors> NodeColorsMap;
 }

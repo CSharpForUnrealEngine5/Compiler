@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct containing the data that SCustomTextFilterDialog is currently editing</summary>
 public partial struct FCustomTextFilterData {
 // CustomTextFilterData
-	public sbyte FilterLabel;
-	public sbyte FilterString;
+	public string FilterLabel;
+	public string FilterString;
 	public FLinearColor FilterColor;
 }

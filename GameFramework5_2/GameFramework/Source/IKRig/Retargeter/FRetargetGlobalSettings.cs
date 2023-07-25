@@ -10,7 +10,7 @@ public partial struct FRetargetGlobalSettings {
 	public bool bWarping;
 	public EWarpingDirectionSource DirectionSource;
 	public EBasicAxis ForwardDirection;
-	public sbyte DirectionChain;
+	public string DirectionChain;
 	public float WarpForwards;
 	public float SidewaysOffset;
 	public float WarpSplay;

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("PCGInputOutputSettings.h")]
 public partial class UPCGGraphInputOutputSettings : UPCGSettings {
 // PCGGraphInputOutputSettings
-	public TSet<sbyte> PinLabels_DEPRECATED;
+	public TSet<string> PinLabels_DEPRECATED;
 	public TArray<FPCGPinProperties> CustomPins;
 }

@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Category description</summary>
 public partial struct FTutorialCategory {
 // TutorialCategory
-	public sbyte Identifier;
-	public sbyte Title;
+	public string Identifier;
+	public string Title;
 	public int SortOrder;
-	public sbyte Description;
-	public sbyte Icon;
+	public string Description;
+	public string Icon;
 	public FSoftObjectPath Texture;
 }

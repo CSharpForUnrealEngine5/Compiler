@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>A list of sources to record for any given take. Stored as meta-data on ULevelSequence through ULevelSequence::FindMetaData<UTakeRecorderSources></summary>
 public partial class UTakeRecorderSources : UObject {
 // TakeRecorderSources
-	public UObject AddSource(UClass InSourceType,UObject ReturnValue) { return default; }
+	public UObject AddSource(UClass InSourceType) { return default; }
 	public void RemoveSource(UObject InSource) {}
-	public TArray<UObject> GetSourcesCopy(TArray<UObject> ReturnValue) { return default; }
+	public TArray<UObject> GetSourcesCopy() { return default; }
 	public void StartRecordingSource(TArray<UObject> InSources,FQualifiedFrameTime CurrentFrameTime) {}
 	public TArray<UTakeRecorderSource> Sources;
 	public TMap<UTakeRecorderSource,ULevelSequence> SourceSubSequenceMap;

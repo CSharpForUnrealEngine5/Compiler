@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMAddRerouteNodeAction {
 // RigVMAddRerouteNodeAction
 	public bool bShowAsFullNode;
-	public sbyte CPPType;
-	public sbyte CPPTypeObjectPath;
-	public sbyte DefaultValue;
+	public string CPPType;
+	public string CPPTypeObjectPath;
+	public string DefaultValue;
 	public bool bIsConstant;
-	public sbyte CustomWidgetName;
+	public string CustomWidgetName;
 	public FVector2D Position;
-	public sbyte NodePath;
+	public string NodePath;
 }

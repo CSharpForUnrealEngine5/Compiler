@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request to call a function</summary>
 public partial struct FRCCallRequest {
 // RCCallRequest
-	public sbyte ObjectPath;
-	public sbyte FunctionName;
+	public string ObjectPath;
+	public string FunctionName;
 	public bool GenerateTransaction;
 }

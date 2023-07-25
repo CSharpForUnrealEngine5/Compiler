@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a place to efficiently store and retrieve structure data, can be used as a wrapper around Data/Curve Tables or extended with other sources</summary>
 public partial class UDataRegistry : UObject {
 // DataRegistry
-	public sbyte RegistryType;
+	public string RegistryType;
 	public FDataRegistryIdFormat IdFormat;
 	public UScriptStruct ItemStruct;
 	public TArray<UDataRegistrySource> DataSources;

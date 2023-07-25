@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeMeshMorph.h")]
 public partial class UCustomizableObjectNodeMeshMorph : UCustomizableObjectNode {
 // CustomizableObjectNodeMeshMorph
-	public sbyte MorphTargetName;
+	public string MorphTargetName;
 	public bool bReshapeSkeleton;
 	public bool bReshapePhysicsVolumes;
 	public EBoneDeformSelectionMethod SelectionMethod;

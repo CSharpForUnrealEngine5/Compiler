@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for powering on a target device.</summary>
 public partial struct FTargetDeviceServicePowerOn {
 // TargetDeviceServicePowerOn
-	public sbyte Operator;
+	public string Operator;
 }

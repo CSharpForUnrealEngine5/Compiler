@@ -9,5 +9,5 @@ public partial class USynthComponentMoto : USynthComponent {
 	public void SetRPM(float InRPM,float InTimeSec) {}
 	public void SetSettings(FMotoSynthRuntimeSettings InSettings) {}
 	public void GetRPMRange(float OutMinRPM,float OutMaxRPM) {}
-	public bool IsEnabled(bool ReturnValue) { return default; }
+	public bool IsEnabled() { return default; }
 }

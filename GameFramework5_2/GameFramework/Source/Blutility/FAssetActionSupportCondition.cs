@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("AssetActionUtility.h")]
 public partial struct FAssetActionSupportCondition {
 // AssetActionSupportCondition
-	public sbyte Filter;
-	public sbyte FailureReason;
+	public string Filter;
+	public string FailureReason;
 }

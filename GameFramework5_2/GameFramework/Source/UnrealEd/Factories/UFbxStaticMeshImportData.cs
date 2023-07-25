@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Factories/FbxStaticMeshImportData.h")]
 public partial class UFbxStaticMeshImportData : UFbxMeshImportData {
 // FbxStaticMeshImportData
-	public sbyte StaticMeshLODGroup;
+	public string StaticMeshLODGroup;
 	public byte VertexColorImportOption;
 	public FColor VertexOverrideColor;
 	public bool bRemoveDegenerates;

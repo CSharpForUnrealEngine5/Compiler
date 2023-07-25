@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithFileProducer.h")]
 public partial class UDatasmithFileProducer : UDataprepContentProducer {
 // DatasmithFileProducer
-	public sbyte FilePath;
+	public string FilePath;
 	public UDatasmithScene DatasmithScene;
 	public UPackage TransientPackage;
 	public TArray<UDatasmithOptionsBase> TranslatorImportOptions;

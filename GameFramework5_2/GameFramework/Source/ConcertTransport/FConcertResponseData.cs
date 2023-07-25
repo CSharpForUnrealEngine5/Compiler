@@ -7,5 +7,5 @@ public partial struct FConcertResponseData {
 // ConcertResponseData
 	public FGuid RequestMessageId;
 	public EConcertResponseCode ResponseCode;
-	public sbyte Reason;
+	public string Reason;
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraComponentPropertyBinding {
 // NiagaraComponentPropertyBinding
 	public FNiagaraVariableAttributeBinding AttributeBinding;
-	public sbyte PropertyName;
+	public string PropertyName;
 	public FNiagaraTypeDefinition PropertyType;
-	public sbyte MetadataSetterName;
-	public TMap<sbyte,sbyte> PropertySetterParameterDefaults;
+	public string MetadataSetterName;
+	public TMap<string,string> PropertySetterParameterDefaults;
 }

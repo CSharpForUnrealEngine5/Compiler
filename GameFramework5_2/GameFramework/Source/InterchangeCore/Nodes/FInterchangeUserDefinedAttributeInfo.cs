@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Nodes/InterchangeUserDefinedAttribute.h")]
 public partial struct FInterchangeUserDefinedAttributeInfo {
 // InterchangeUserDefinedAttributeInfo
-	public sbyte Name;
+	public string Name;
 }

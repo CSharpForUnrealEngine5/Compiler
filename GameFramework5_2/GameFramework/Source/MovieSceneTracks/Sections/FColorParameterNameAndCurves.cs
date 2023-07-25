@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure representing an animated color parameter and it's associated animation curve.</summary>
 public partial struct FColorParameterNameAndCurves {
 // ColorParameterNameAndCurves
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMovieSceneFloatChannel RedCurve;
 	public FMovieSceneFloatChannel GreenCurve;
 	public FMovieSceneFloatChannel BlueCurve;

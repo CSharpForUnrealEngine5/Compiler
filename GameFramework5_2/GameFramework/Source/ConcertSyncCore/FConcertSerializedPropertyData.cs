@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertTransactionEvents.h")]
 public partial struct FConcertSerializedPropertyData {
 // ConcertSerializedPropertyData
-	public sbyte PropertyName;
+	public string PropertyName;
 	public TArray<byte> SerializedData;
 }

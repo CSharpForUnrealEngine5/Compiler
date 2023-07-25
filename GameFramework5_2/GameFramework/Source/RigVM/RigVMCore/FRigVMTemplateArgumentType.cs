@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigVMCore/RigVMTemplate.h")]
 public partial struct FRigVMTemplateArgumentType {
 // RigVMTemplateArgumentType
-	public sbyte CPPType;
+	public string CPPType;
 	public UObject CPPTypeObject;
 }

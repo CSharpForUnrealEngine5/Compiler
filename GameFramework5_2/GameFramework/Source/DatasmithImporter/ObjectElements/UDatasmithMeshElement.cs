@@ -5,16 +5,16 @@ using CSharpToCpp.Utilities;
 ///<summary>UDatasmithMeshElement defines an actual geometry.</summary>
 public partial class UDatasmithMeshElement : UDatasmithObjectElement {
 // DatasmithMeshElement
-	public sbyte GetFile(sbyte ReturnValue) { return default; }
-	public float GetBoundingBoxWidth(float ReturnValue) { return default; }
-	public float GetBoundingBoxHeight(float ReturnValue) { return default; }
-	public float GetBoundingBoxDepth(float ReturnValue) { return default; }
-	public FVector GetBoundingBoxSize(FVector ReturnValue) { return default; }
-	public float GetLightMapArea(float ReturnValue) { return default; }
-	public int GetLightmapCoordinateIndex(int ReturnValue) { return default; }
+	public string GetFile() { return default; }
+	public float GetBoundingBoxWidth() { return default; }
+	public float GetBoundingBoxHeight() { return default; }
+	public float GetBoundingBoxDepth() { return default; }
+	public FVector GetBoundingBoxSize() { return default; }
+	public float GetLightMapArea() { return default; }
+	public int GetLightmapCoordinateIndex() { return default; }
 	public void SetLightmapCoordinateIndex(int UVChannel) {}
-	public int GetLightmapSourceUV(int ReturnValue) { return default; }
+	public int GetLightmapSourceUV() { return default; }
 	public void SetLightmapSourceUV(int UVChannel) {}
-	public void SetMaterial(sbyte MaterialName,int SlotId) {}
-	public sbyte GetMaterial(int SlotId,sbyte ReturnValue) { return default; }
+	public void SetMaterial(string MaterialName,int SlotId) {}
+	public string GetMaterial(int SlotId) { return default; }
 }

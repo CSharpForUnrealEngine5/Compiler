@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("PCGSettings.h")]
 public partial struct FPCGSettingsOverridableParam {
 // PCGSettingsOverridableParam
-	public sbyte Label;
-	public TArray<sbyte> PropertiesNames;
+	public string Label;
+	public TArray<string> PropertiesNames;
 	public UStruct PropertyClass;
 }

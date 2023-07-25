@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FGetSkeletalMeshDataflowNode {
 // GetSkeletalMeshDataflowNode
 	public USkeletalMesh SkeletalMesh;
-	public sbyte PropertyName;
+	public string PropertyName;
 }

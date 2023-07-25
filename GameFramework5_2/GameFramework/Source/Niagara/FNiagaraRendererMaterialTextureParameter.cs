@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraRendererProperties.h")]
 public partial struct FNiagaraRendererMaterialTextureParameter {
 // NiagaraRendererMaterialTextureParameter
-	public sbyte MaterialParameterName;
+	public string MaterialParameterName;
 	public UTexture Texture;
 }

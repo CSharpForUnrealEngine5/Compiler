@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Wrapper struct for FNames referencing Niagara Data Channels allowing a type customization.</summary>
 public partial struct FNiagaraDataChannelReference {
 // NiagaraDataChannelReference
-	public sbyte ChannelName;
+	public string ChannelName;
 }

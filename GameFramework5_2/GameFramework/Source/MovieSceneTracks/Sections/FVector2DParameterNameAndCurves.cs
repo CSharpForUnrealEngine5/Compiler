@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure representing an animated vector2D parameter and it's associated animation curve.</summary>
 public partial struct FVector2DParameterNameAndCurves {
 // Vector2DParameterNameAndCurves
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMovieSceneFloatChannel XCurve;
 	public FMovieSceneFloatChannel YCurve;
 }

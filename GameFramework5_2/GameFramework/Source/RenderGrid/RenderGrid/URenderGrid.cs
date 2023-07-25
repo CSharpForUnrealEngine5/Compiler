@@ -14,43 +14,43 @@ public partial class URenderGrid : UObject {
 	public void ReceiveEndJobRender(UObject Queue,UObject Job) {}
 	public void ReceiveBeginViewportRender(UObject Job) {}
 	public void ReceiveEndViewportRender(UObject Job) {}
-	public UObject Render(UObject ReturnValue) { return default; }
-	public UObject RenderJobs(TArray<UObject> Jobs,UObject ReturnValue) { return default; }
-	public UObject RenderJob(UObject Job,UObject ReturnValue) { return default; }
-	public FGuid GetGuid(FGuid ReturnValue) { return default; }
+	public UObject Render() { return default; }
+	public UObject RenderJobs(TArray<UObject> Jobs) { return default; }
+	public UObject RenderJob(UObject Job) { return default; }
+	public FGuid GetGuid() { return default; }
 	public void GenerateNewGuid() {}
-	public void SetPropsSource(ERenderGridPropsSourceType InPropsSourceType,UObject InPropsSourceOrigin=nullptr) {}
-	public UObject GetPropsSource(UObject ReturnValue) { return default; }
-	public ERenderGridPropsSourceType GetPropsSourceType(ERenderGridPropsSourceType ReturnValue) { return default; }
-	public UObject GetPropsSourceOrigin(UObject ReturnValue) { return default; }
-	public UObject GetDefaultLevelSequence(UObject ReturnValue) { return default; }
+	public void SetPropsSource(ERenderGridPropsSourceType InPropsSourceType,UObject InPropsSourceOrigin/*=nullptr*/) {}
+	public UObject GetPropsSource() { return default; }
+	public ERenderGridPropsSourceType GetPropsSourceType() { return default; }
+	public UObject GetPropsSourceOrigin() { return default; }
+	public UObject GetDefaultLevelSequence() { return default; }
 	public void SetDefaultLevelSequence(UObject NewSequence) {}
-	public UObject GetDefaultRenderPreset(UObject ReturnValue) { return default; }
-	public UObject GetDefaultRenderPresetOutputSettings(UObject ReturnValue) { return default; }
+	public UObject GetDefaultRenderPreset() { return default; }
+	public UObject GetDefaultRenderPresetOutputSettings() { return default; }
 	public void SetDefaultRenderPreset(UObject NewRenderPreset) {}
-	public sbyte GetDefaultOutputDirectory(sbyte ReturnValue) { return default; }
-	public sbyte GetDefaultOutputDirectoryForDisplay(sbyte ReturnValue) { return default; }
-	public void SetDefaultOutputDirectory(sbyte NewOutputDirectory) {}
+	public string GetDefaultOutputDirectory() { return default; }
+	public string GetDefaultOutputDirectoryForDisplay() { return default; }
+	public void SetDefaultOutputDirectory(string NewOutputDirectory) {}
 	public void ClearRenderGridJobs() {}
 	public void SetRenderGridJobs(TArray<UObject> Jobs) {}
 	public void AddRenderGridJob(UObject Job) {}
 	public void RemoveRenderGridJob(UObject Job) {}
 	public void InsertRenderGridJob(UObject Job,int Index) {}
-	public bool HasAnyRenderGridJobs(bool ReturnValue) { return default; }
-	public bool HasRenderGridJob(UObject Job,bool ReturnValue) { return default; }
-	public int GetIndexOfRenderGridJob(UObject Job,int ReturnValue) { return default; }
-	public TArray<UObject> GetRenderGridJobs(TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetEnabledRenderGridJobs(TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetDisabledRenderGridJobs(TArray<UObject> ReturnValue) { return default; }
+	public bool HasAnyRenderGridJobs() { return default; }
+	public bool HasRenderGridJob(UObject Job) { return default; }
+	public int GetIndexOfRenderGridJob(UObject Job) { return default; }
+	public TArray<UObject> GetRenderGridJobs() { return default; }
+	public TArray<UObject> GetEnabledRenderGridJobs() { return default; }
+	public TArray<UObject> GetDisabledRenderGridJobs() { return default; }
 	public void InsertRenderGridJobBefore(UObject Job,UObject BeforeJob) {}
 	public void InsertRenderGridJobAfter(UObject Job,UObject AfterJob) {}
-	public sbyte GenerateUniqueRandomJobId(sbyte ReturnValue) { return default; }
-	public sbyte GenerateNextJobId(sbyte ReturnValue) { return default; }
-	public bool DoesJobIdExist(sbyte JobId,bool ReturnValue) { return default; }
-	public UObject CreateTempRenderGridJob(UObject ReturnValue) { return default; }
-	public UObject CreateAndAddNewRenderGridJob(UObject ReturnValue) { return default; }
-	public UObject DuplicateAndAddRenderGridJob(UObject Job,UObject ReturnValue) { return default; }
-	public bool ReorderRenderGridJob(UObject Job,UObject DroppedOnJob,bool bAfter=true,bool ReturnValue) { return default; }
+	public string GenerateUniqueRandomJobId() { return default; }
+	public string GenerateNextJobId() { return default; }
+	public bool DoesJobIdExist(string JobId) { return default; }
+	public UObject CreateTempRenderGridJob() { return default; }
+	public UObject CreateAndAddNewRenderGridJob() { return default; }
+	public UObject DuplicateAndAddRenderGridJob(UObject Job) { return default; }
+	public bool ReorderRenderGridJob(UObject Job,UObject DroppedOnJob,bool bAfter/*=true*/) { return default; }
 	public FGuid Guid;
 	public URenderGridSettings Settings;
 	public URenderGridDefaults Defaults;

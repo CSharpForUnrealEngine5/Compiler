@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>This node defines a light fixture object.</summary>
 public partial class UDMXMVRFixtureNode : UDMXMVRParametricObjectNodeBase {
 // DMXMVRFixtureNode
-	public sbyte Name;
-	public sbyte GDTFSpec;
-	public sbyte GDTFMode;
+	public string Name;
+	public string GDTFSpec;
+	public string GDTFMode;
 	public FDMXOptionalGuid Focus;
 	public FDMXOptionalBool CastShadow;
 	public FDMXOptionalGuid Position;
-	public sbyte FixtureID;
+	public string FixtureID;
 	public int UnitNumber;
 	public FDMXMVRFixtureAddresses Addresses;
 	public FDMXOptionalColorCIE1931 CIEColor;

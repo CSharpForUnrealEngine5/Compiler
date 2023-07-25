@@ -5,30 +5,30 @@ using CSharpToCpp.Utilities;
 ///<summary>The nearest neighbor model.</summary>
 public partial class UNearestNeighborModel : UMLDeformerMorphModel {
 // NearestNeighborModel
-	public int GetNumParts(int ReturnValue) { return default; }
-	public int GetPartNumVerts(int PartId,int ReturnValue) { return default; }
-	public int GetPCACoeffStart(int PartId,int ReturnValue) { return default; }
-	public int GetPCACoeffNum(int PartId,int ReturnValue) { return default; }
-	public int GetNumNeighbors(int PartId,int ReturnValue) { return default; }
-	public TArray<float> PCABasis(int PartId,TArray<float> ReturnValue) { return default; }
+	public int GetNumParts() { return default; }
+	public int GetPartNumVerts(int PartId) { return default; }
+	public int GetPCACoeffStart(int PartId) { return default; }
+	public int GetPCACoeffNum(int PartId) { return default; }
+	public int GetNumNeighbors(int PartId) { return default; }
+	public TArray<float> PCABasis(int PartId) { return default; }
 	public void SetPCABasis(int PartId,TArray<float> PCABasis) {}
-	public TArray<float> VertexMean(int PartId,TArray<float> ReturnValue) { return default; }
+	public TArray<float> VertexMean(int PartId) { return default; }
 	public void SetVertexMean(int PartId,TArray<float> VertexMean) {}
 	public void SetNumNeighbors(int PartId,int InNumNeighbors) {}
-	public TArray<float> NeighborCoeffs(int PartId,TArray<float> ReturnValue) { return default; }
+	public TArray<float> NeighborCoeffs(int PartId) { return default; }
 	public void SetNeighborCoeffs(int PartId,TArray<float> NeighborCoeffs) {}
-	public TArray<float> NeighborOffsets(int PartId,TArray<float> ReturnValue) { return default; }
+	public TArray<float> NeighborOffsets(int PartId) { return default; }
 	public void SetNeighborOffsets(int PartId,TArray<float> NeighborOffsets) {}
-	public TArray<float> ClipInputs(TArray<float> Input,TArray<float> ReturnValue) { return default; }
-	public int GetInputDim(int ReturnValue) { return default; }
-	public TArray<int> GetHiddenLayerDims(TArray<int> ReturnValue) { return default; }
-	public int GetOutputDim(int ReturnValue) { return default; }
-	public int GetNumEpochs(int ReturnValue) { return default; }
-	public int GetBatchSize(int ReturnValue) { return default; }
-	public float GetLearningRate(float ReturnValue) { return default; }
-	public TArray<FClothPartEditorData> GetClothPartEditorData(TArray<FClothPartEditorData> ReturnValue) { return default; }
-	public TArray<FSkeletonCachePair> GetNearestNeighborData(TArray<FSkeletonCachePair> ReturnValue) { return default; }
-	public sbyte GetModelDir(sbyte ReturnValue) { return default; }
+	public TArray<float> ClipInputs(TArray<float> Input) { return default; }
+	public int GetInputDim() { return default; }
+	public TArray<int> GetHiddenLayerDims() { return default; }
+	public int GetOutputDim() { return default; }
+	public int GetNumEpochs() { return default; }
+	public int GetBatchSize() { return default; }
+	public float GetLearningRate() { return default; }
+	public TArray<FClothPartEditorData> GetClothPartEditorData() { return default; }
+	public TArray<FSkeletonCachePair> GetNearestNeighborData() { return default; }
+	public string GetModelDir() { return default; }
 	public int InputDim;
 	public TArray<int> HiddenLayerDims;
 	public int OutputDim;
@@ -46,7 +46,7 @@ public partial class UNearestNeighborModel : UMLDeformerMorphModel {
 	public float SavedNetworkSize;
 	public float MorphDataSize;
 	public bool bUseFileCache;
-	public sbyte FileCacheDirectory;
+	public string FileCacheDirectory;
 	public bool bRecomputeDeltas;
 	public bool bRecomputePCA;
 	public TArray<UAnimSequence> SourceAnims;

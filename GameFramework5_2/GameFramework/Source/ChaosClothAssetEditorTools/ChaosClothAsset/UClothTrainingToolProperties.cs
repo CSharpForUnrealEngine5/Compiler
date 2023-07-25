@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UClothTrainingToolProperties : UObject {
 // ClothTrainingToolProperties
 	public UAnimSequence AnimationSequence;
-	public sbyte OutputBufferLocation;
+	public string OutputBufferLocation;
 }

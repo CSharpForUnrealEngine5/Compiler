@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraDebugHUDVariable {
 // NiagaraDebugHUDVariable
 	public bool bEnabled;
-	public sbyte Name;
+	public string Name;
 }

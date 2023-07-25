@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UImageCenterTool : UCameraCalibrationStep {
 // ImageCenterTool
 	public UCameraImageCenterAlgo CurrentAlgo;
-	public TMap<sbyte,UMaterialInstanceDynamic> AlgoOverlayMIDs;
+	public TMap<string,UMaterialInstanceDynamic> AlgoOverlayMIDs;
 }

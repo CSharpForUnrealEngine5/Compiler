@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>This is a mapping table between bone in a particular skeletal mesh and bone of this skeleton set.</summary>
 public partial struct FTransformBase {
 // TransformBase
-	public sbyte Node;
+	public string Node;
 	public FTransformBaseConstraint Constraints;
 }

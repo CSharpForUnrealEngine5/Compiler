@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes a shader function signature.</summary>
 public partial struct FShaderFunctionDefinition {
 // ShaderFunctionDefinition
-	public sbyte Name;
+	public string Name;
 	public TArray<FShaderParamTypeDefinition> ParamTypes;
 	public bool bHasReturnType;
 }

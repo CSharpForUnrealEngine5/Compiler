@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ContentBrowserConfig.h")]
 public partial class UContentBrowserConfig : UEditorConfigBase {
 // ContentBrowserConfig
-	public TSet<sbyte> Favorites;
-	public TMap<sbyte,FContentBrowserInstanceConfig> Instances;
+	public TSet<string> Favorites;
+	public TMap<string,FContentBrowserInstanceConfig> Instances;
 }

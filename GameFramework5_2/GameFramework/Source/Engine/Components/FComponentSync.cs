@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Components/LODSyncComponent.h")]
 public partial struct FComponentSync {
 // ComponentSync
-	public sbyte Name;
+	public string Name;
 	public ESyncOption SyncOption;
 }

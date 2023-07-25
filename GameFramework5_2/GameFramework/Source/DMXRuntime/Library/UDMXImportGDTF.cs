@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial class UDMXImportGDTF : UDMXImport {
 // DMXImportGDTF
-	public UObject GetDMXModes(UObject ReturnValue) { return default; }
-	public sbyte SourceFilename_DEPRECATED;
+	public UObject GetDMXModes() { return default; }
+	public string SourceFilename_DEPRECATED;
 	public UDMXGDTFAssetImportData GDTFAssetImportData;
 }

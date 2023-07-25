@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetCurveValue is used to perform a change in the curve container by setting a single Curve value.</summary>
 public partial struct FRigUnit_SetCurveValue {
 // RigUnit_SetCurveValue
-	public sbyte Curve;
+	public string Curve;
 	public float Value;
 	public FCachedRigElement CachedCurveIndex;
 }

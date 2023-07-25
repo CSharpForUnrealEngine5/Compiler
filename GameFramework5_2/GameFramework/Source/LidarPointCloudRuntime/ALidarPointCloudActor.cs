@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class ALidarPointCloudActor : AActor {
 // LidarPointCloudActor
 	public ULidarPointCloudComponent PointCloudComponent;
-	public UObject GetPointCloud(UObject ReturnValue) { return default; }
+	public UObject GetPointCloud() { return default; }
 	public void SetPointCloud(UObject InPointCloud) {}
 }

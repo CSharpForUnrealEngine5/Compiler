@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes response for a single collision response channel</summary>
 public partial struct FResponseChannel {
 // ResponseChannel
-	public sbyte Channel;
+	public string Channel;
 	public byte Response;
 }

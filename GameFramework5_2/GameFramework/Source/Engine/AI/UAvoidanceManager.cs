@@ -11,8 +11,8 @@ public partial class UAvoidanceManager : UObject {
 	public float ArtificialRadiusExpansion;
 	public float TestHeightDifference_DEPRECATED;
 	public float HeightCheckMargin;
-	public int GetObjectCount(int ReturnValue) { return default; }
-	public int GetNewAvoidanceUID(int ReturnValue) { return default; }
-	public bool RegisterMovementComponent(UObject MovementComp,float AvoidanceWeight=0.5f,bool ReturnValue) { return default; }
-	public FVector GetAvoidanceVelocityForComponent(UObject MovementComp,FVector ReturnValue) { return default; }
+	public int GetObjectCount() { return default; }
+	public int GetNewAvoidanceUID() { return default; }
+	public bool RegisterMovementComponent(UObject MovementComp,float AvoidanceWeight/*=0.5f*/) { return default; }
+	public FVector GetAvoidanceVelocityForComponent(UObject MovementComp) { return default; }
 }

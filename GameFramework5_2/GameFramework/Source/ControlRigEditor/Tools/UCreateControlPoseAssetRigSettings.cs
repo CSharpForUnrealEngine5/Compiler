@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Tools/CreateControlAssetRigSettings.h")]
 public partial class UCreateControlPoseAssetRigSettings : UObject {
 // CreateControlPoseAssetRigSettings
-	public sbyte AssetName;
+	public string AssetName;
 }

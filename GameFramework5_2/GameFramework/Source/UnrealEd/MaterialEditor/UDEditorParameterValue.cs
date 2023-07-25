@@ -7,7 +7,7 @@ public partial class UDEditorParameterValue : UObject {
 	public bool bOverride;
 	public FMaterialParameterInfo ParameterInfo;
 	public FGuid ExpressionId;
-	public sbyte Description;
-	public sbyte AssetPath;
+	public string Description;
+	public string AssetPath;
 	public int SortPriority;
 }

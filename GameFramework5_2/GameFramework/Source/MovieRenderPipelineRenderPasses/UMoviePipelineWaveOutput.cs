@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MoviePipelineWaveOutput.h")]
 public partial class UMoviePipelineWaveOutput : UMoviePipelineOutputBase {
 // MoviePipelineWaveOutput
-	public sbyte FileNameFormatOverride;
+	public string FileNameFormatOverride;
 }

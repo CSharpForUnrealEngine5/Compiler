@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRedistPackage {
 // RedistPackage
 	public bool Included;
-	public sbyte Name;
-	public sbyte Id;
+	public string Name;
+	public string Id;
 }

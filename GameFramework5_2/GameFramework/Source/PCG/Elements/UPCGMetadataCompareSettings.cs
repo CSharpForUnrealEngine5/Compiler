@@ -8,6 +8,6 @@ public partial class UPCGMetadataCompareSettings : UPCGMetadataSettingsBase {
 	public FPCGAttributePropertySelector InputSource1;
 	public FPCGAttributePropertySelector InputSource2;
 	public double Tolerance;
-	public sbyte Input1AttributeName_DEPRECATED;
-	public sbyte Input2AttributeName_DEPRECATED;
+	public string Input1AttributeName_DEPRECATED;
+	public string Input2AttributeName_DEPRECATED;
 }

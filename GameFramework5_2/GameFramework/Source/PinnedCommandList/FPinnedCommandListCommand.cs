@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A command and its context</summary>
 public partial struct FPinnedCommandListCommand {
 // PinnedCommandListCommand
-	public sbyte Name;
-	public sbyte Binding;
+	public string Name;
+	public string Binding;
 	public EPinnedCommandListType Type;
 }

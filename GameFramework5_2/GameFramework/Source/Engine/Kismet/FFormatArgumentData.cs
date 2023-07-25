@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Used to pass argument/value pairs into FText::Format.</summary>
 public partial struct FFormatArgumentData {
 // FormatArgumentData
-	public sbyte ArgumentName;
+	public string ArgumentName;
 	public byte ArgumentValueType;
-	public sbyte ArgumentValue;
+	public string ArgumentValue;
 	public long ArgumentValueInt;
 	public float ArgumentValueFloat;
 	public double ArgumentValueDouble;

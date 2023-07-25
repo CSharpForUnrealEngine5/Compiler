@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Asset user data for Actors in an MVR Scene</summary>
 public partial class UDMXMVRAssetUserData : UAssetUserData {
 // DMXMVRAssetUserData
-	public TMap<sbyte,sbyte> MetaData;
+	public TMap<string,string> MetaData;
 }

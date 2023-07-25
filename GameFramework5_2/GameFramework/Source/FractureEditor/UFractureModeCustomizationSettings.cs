@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("FractureEditorMode.h")]
 public partial class UFractureModeCustomizationSettings : UDeveloperSettings {
 // FractureModeCustomizationSettings
-	public TArray<sbyte> ToolSectionOrder;
-	public TArray<sbyte> ToolFavorites;
+	public TArray<string> ToolSectionOrder;
+	public TArray<string> ToolFavorites;
 	public TArray<FFractureModeCustomSectionColor> SectionColors;
 	public TArray<FFractureModeCustomToolColor> ToolColors;
 }

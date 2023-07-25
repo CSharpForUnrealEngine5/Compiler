@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MediaComponent.h")]
 public partial class UMediaComponent : UActorComponent {
 // MediaComponent
-	public UObject GetMediaPlayer(UObject ReturnValue) { return default; }
-	public UObject GetMediaTexture(UObject ReturnValue) { return default; }
+	public UObject GetMediaPlayer() { return default; }
+	public UObject GetMediaTexture() { return default; }
 	public UMediaTexture MediaTexture;
 	public UMediaPlayer MediaPlayer;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UAudioLinkBlueprintInterface : UInterface {
 // AudioLinkBlueprintInterface
 	public void SetLinkSound(UObject NewSound) {}
-	public void PlayLink(float StartTime=0.0f) {}
+	public void PlayLink(float StartTime/*=0.0f*/) {}
 	public void StopLink() {}
-	public bool IsLinkPlaying(bool ReturnValue) { return default; }
+	public bool IsLinkPlaying() { return default; }
 }

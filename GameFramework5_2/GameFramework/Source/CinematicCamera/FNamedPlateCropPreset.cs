@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A named bundle of crop settings used to implement crop presets.</summary>
 public partial struct FNamedPlateCropPreset {
 // NamedPlateCropPreset
-	public sbyte Name;
+	public string Name;
 	public FPlateCropSettings CropSettings;
 }

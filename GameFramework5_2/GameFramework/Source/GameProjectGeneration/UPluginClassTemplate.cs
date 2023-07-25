@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ClassTemplateEditorSubsystem.h")]
 public partial class UPluginClassTemplate : UClassTemplate {
 // PluginClassTemplate
-	public sbyte PluginName;
+	public string PluginName;
 }

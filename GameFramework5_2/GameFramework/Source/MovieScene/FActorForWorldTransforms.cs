@@ -7,5 +7,5 @@ public partial struct FActorForWorldTransforms {
 // ActorForWorldTransforms
 	public TWeakObjectPtr<AActor> Actor;
 	public TWeakObjectPtr<USceneComponent> Component;
-	public sbyte SocketName;
+	public string SocketName;
 }

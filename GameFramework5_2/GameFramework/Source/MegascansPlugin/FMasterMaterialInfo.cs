@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MSAssetImportData.h")]
 public partial struct FMasterMaterialInfo {
 // MasterMaterialInfo
-	public sbyte masterID;
-	public sbyte masterMaterialName;
-	public sbyte path;
+	public string masterID;
+	public string masterMaterialName;
+	public string path;
 }

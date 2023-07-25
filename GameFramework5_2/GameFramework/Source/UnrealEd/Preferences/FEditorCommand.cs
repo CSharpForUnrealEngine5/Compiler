@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>A parameterless exec command that can be bound to hotkeys and menu items in the editor.</summary>
 public partial struct FEditorCommand {
 // EditorCommand
-	public sbyte Parent;
-	public sbyte CommandName;
-	public sbyte ExecCommand;
-	public sbyte Description;
+	public string Parent;
+	public string CommandName;
+	public string ExecCommand;
+	public string Description;
 }

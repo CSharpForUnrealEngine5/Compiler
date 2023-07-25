@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Information about a single recent/favorite map</summary>
 public partial struct FActorPaletteMapEntry {
 // ActorPaletteMapEntry
-	public sbyte MapPath;
+	public string MapPath;
 }

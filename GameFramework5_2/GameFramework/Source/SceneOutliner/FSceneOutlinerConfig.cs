@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("SceneOutlinerConfig.h")]
 public partial struct FSceneOutlinerConfig {
 // SceneOutlinerConfig
-	public TMap<sbyte,bool> ColumnVisibilities;
+	public TMap<string,bool> ColumnVisibilities;
 	public bool bShouldStackHierarchyHeaders;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UOpenCVLensDistortionBlueprintLibrary : UBlueprintFunctionLibrary {
 // OpenCVLensDistortionBlueprintLibrary
 	public void DrawDisplacementMapToRenderTarget(UObject WorldContextObject,UObject OutputRenderTarget,UObject PreComputedUndistortDisplacementMap) {}
-	public UObject CreateUndistortUVDisplacementMap(FOpenCVLensDistortionParameters LensParameters,FIntPoint ImageSize,float CroppingFactor,FOpenCVCameraViewInfo CameraViewInfo,UObject ReturnValue) { return default; }
-	public bool EqualEqual_CompareLensDistortionModels(FOpenCVLensDistortionParameters A,FOpenCVLensDistortionParameters B,bool ReturnValue) { return default; }
-	public bool NotEqual_CompareLensDistortionModels(FOpenCVLensDistortionParameters A,FOpenCVLensDistortionParameters B,bool ReturnValue) { return default; }
+	public UObject CreateUndistortUVDisplacementMap(FOpenCVLensDistortionParameters LensParameters,FIntPoint ImageSize,float CroppingFactor,FOpenCVCameraViewInfo CameraViewInfo) { return default; }
+	public bool EqualEqual_CompareLensDistortionModels(FOpenCVLensDistortionParameters A,FOpenCVLensDistortionParameters B) { return default; }
+	public bool NotEqual_CompareLensDistortionModels(FOpenCVLensDistortionParameters A,FOpenCVLensDistortionParameters B) { return default; }
 }

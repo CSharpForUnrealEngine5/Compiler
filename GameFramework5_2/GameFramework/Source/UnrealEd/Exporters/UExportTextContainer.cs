@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Exporters/ExportTextContainer.h")]
 public partial class UExportTextContainer : UObject {
 // ExportTextContainer
-	public sbyte ExportText;
+	public string ExportText;
 }

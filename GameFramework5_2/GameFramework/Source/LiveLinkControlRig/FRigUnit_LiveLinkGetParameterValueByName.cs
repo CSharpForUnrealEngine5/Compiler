@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_LiveLinkGetParameterValueByName {
 // RigUnit_LiveLinkGetParameterValueByName
 	public FSubjectFrameHandle SubjectFrame;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public float Value;
 }

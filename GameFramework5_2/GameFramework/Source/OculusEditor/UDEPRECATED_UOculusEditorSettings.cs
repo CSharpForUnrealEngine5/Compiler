@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("OculusEditorSettings.h")]
 public partial class UDEPRECATED_UOculusEditorSettings : UObject {
 // UOculusEditorSettings
-	public TMap<sbyte,bool> PerfToolIgnoreList;
+	public TMap<string,bool> PerfToolIgnoreList;
 	public EOculusPlatform PerfToolTargetPlatform;
 	public bool bAddMenuOption;
 }

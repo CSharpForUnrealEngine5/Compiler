@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraPlatformSet.h")]
 public partial struct FNiagaraPlatformSetConflictEntry {
 // NiagaraPlatformSetConflictEntry
-	public sbyte ProfileName;
+	public string ProfileName;
 	public int QualityLevelMask;
 }

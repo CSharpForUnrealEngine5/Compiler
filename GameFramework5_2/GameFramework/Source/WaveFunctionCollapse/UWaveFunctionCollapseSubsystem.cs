@@ -10,11 +10,11 @@ public partial class UWaveFunctionCollapseSubsystem : UEditorSubsystem {
 	public FRotator Orientation;
 	public bool bUseEmptyBorder;
 	public TMap<FIntVector,FWaveFunctionCollapseOption> StarterOptions;
-	public UObject Collapse(int TryCount=1,int RandomSeed=0,UObject ReturnValue) { return default; }
+	public UObject Collapse(int TryCount/*=1*/,int RandomSeed/*=0*/) { return default; }
 	public void InitializeWFC(TArray<FWaveFunctionCollapseTile> Tiles,TArray<int> RemainingTiles) {}
-	public bool Observe(TArray<FWaveFunctionCollapseTile> Tiles,TArray<int> RemainingTiles,TMap<int,FWaveFunctionCollapseQueueElement> ObservationQueue,int RandomSeed,bool ReturnValue) { return default; }
-	public bool Propagate(TArray<FWaveFunctionCollapseTile> Tiles,TArray<int> RemainingTiles,TMap<int,FWaveFunctionCollapseQueueElement> ObservationQueue,int PropagationCount,bool ReturnValue) { return default; }
-	public bool ObservationPropagation(TArray<FWaveFunctionCollapseTile> Tiles,TArray<int> RemainingTiles,TMap<int,FWaveFunctionCollapseQueueElement> ObservationQueue,int RandomSeed,bool ReturnValue) { return default; }
+	public bool Observe(TArray<FWaveFunctionCollapseTile> Tiles,TArray<int> RemainingTiles,TMap<int,FWaveFunctionCollapseQueueElement> ObservationQueue,int RandomSeed) { return default; }
+	public bool Propagate(TArray<FWaveFunctionCollapseTile> Tiles,TArray<int> RemainingTiles,TMap<int,FWaveFunctionCollapseQueueElement> ObservationQueue,int PropagationCount) { return default; }
+	public bool ObservationPropagation(TArray<FWaveFunctionCollapseTile> Tiles,TArray<int> RemainingTiles,TMap<int,FWaveFunctionCollapseQueueElement> ObservationQueue,int RandomSeed) { return default; }
 	public void DeriveGridFromTransformBounds(TArray<FTransform> Transforms) {}
 	public void DeriveGridFromTransforms(TArray<FTransform> Transforms) {}
 }

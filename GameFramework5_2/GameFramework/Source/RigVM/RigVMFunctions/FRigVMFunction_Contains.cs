@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Returns true or false if a given name exists in another given name</summary>
 public partial struct FRigVMFunction_Contains {
 // RigVMFunction_Contains
-	public sbyte Name;
-	public sbyte Search;
+	public string Name;
+	public string Search;
 	public bool Result;
 }

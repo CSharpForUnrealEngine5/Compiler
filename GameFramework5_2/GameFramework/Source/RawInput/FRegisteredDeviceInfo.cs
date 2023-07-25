@@ -7,5 +7,5 @@ public partial struct FRegisteredDeviceInfo {
 	public int Handle;
 	public int VendorID;
 	public int ProductID;
-	public sbyte DeviceName;
+	public string DeviceName;
 }

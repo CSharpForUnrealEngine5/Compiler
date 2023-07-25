@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>This class indicates a location where a player can spawn when the game begins.</summary>
 public partial class APlayerStart : ANavigationObjectBase {
 // PlayerStart
-	public sbyte PlayerStartTag;
+	public string PlayerStartTag;
 	public UArrowComponent ArrowComponent;
 }

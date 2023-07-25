@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetControlBool is used to perform a change in the hierarchy by setting a single control's bool value.</summary>
 public partial struct FRigUnit_SetControlBool {
 // RigUnit_SetControlBool
-	public sbyte Control;
+	public string Control;
 	public bool BoolValue;
 	public FCachedRigElement CachedControlIndex;
 }

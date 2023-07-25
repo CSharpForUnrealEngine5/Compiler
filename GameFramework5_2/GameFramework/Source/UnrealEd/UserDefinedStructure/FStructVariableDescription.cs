@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("UserDefinedStructure/UserDefinedStructEditorData.h")]
 public partial struct FStructVariableDescription {
 // StructVariableDescription
-	public sbyte VarName;
+	public string VarName;
 	public FGuid VarGuid;
-	public sbyte FriendlyName;
-	public sbyte DefaultValue;
-	public sbyte Category;
-	public sbyte SubCategory;
+	public string FriendlyName;
+	public string DefaultValue;
+	public string Category;
+	public string SubCategory;
 	public TSoftObjectPtr<UObject> SubCategoryObject;
 	public FEdGraphTerminalType PinValueType;
 	public EPinContainerType ContainerType;
@@ -21,6 +21,6 @@ public partial struct FStructVariableDescription {
 	public bool bEnableSaveGame;
 	public bool bEnableMultiLineText;
 	public bool bEnable3dWidget;
-	public sbyte CurrentDefaultValue;
-	public sbyte ToolTip;
+	public string CurrentDefaultValue;
+	public string ToolTip;
 }

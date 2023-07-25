@@ -4,17 +4,17 @@ using CSharpToCpp.Utilities;
 [CppInclude("WebBrowser.h")]
 public partial class UWebBrowser : UWidget {
 // WebBrowser
-	public void FOnUrlChanged(sbyte Text) {}
-	public void FOnBeforePopup(sbyte URL,sbyte Frame) {}
-	public void FOnConsoleMessage(sbyte Message,sbyte Source,int Line) {}
-	public void LoadURL(sbyte NewURL) {}
-	public void LoadString(sbyte Contents,sbyte DummyURL) {}
-	public void ExecuteJavascript(sbyte ScriptText) {}
-	public sbyte GetTitleText(sbyte ReturnValue) { return default; }
-	public sbyte GetUrl(sbyte ReturnValue) { return default; }
+	public void FOnUrlChanged(string Text) {}
+	public void FOnBeforePopup(string URL,string Frame) {}
+	public void FOnConsoleMessage(string Message,string Source,int Line) {}
+	public void LoadURL(string NewURL) {}
+	public void LoadString(string Contents,string DummyURL) {}
+	public void ExecuteJavascript(string ScriptText) {}
+	public string GetTitleText() { return default; }
+	public string GetUrl() { return default; }
 	public FOnUrlChanged OnUrlChanged;
 	public FOnBeforePopup OnBeforePopup;
 	public FOnConsoleMessage OnConsoleMessage;
-	public sbyte InitialURL;
+	public string InitialURL;
 	public bool bSupportsTransparency;
 }

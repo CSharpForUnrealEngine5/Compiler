@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertAdmin_CopySessionRequest {
 // ConcertAdmin_CopySessionRequest
 	public FGuid SessionId;
-	public sbyte SessionName;
+	public string SessionName;
 	public FConcertClientInfo OwnerClientInfo;
 	public FConcertSessionSettings SessionSettings;
 	public FConcertSessionVersionInfo VersionInfo;

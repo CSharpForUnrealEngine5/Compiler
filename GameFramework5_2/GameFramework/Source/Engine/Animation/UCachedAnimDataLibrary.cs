@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A library of commonly used functionality from the CachedAnimData family, exposed to blueprint.</summary>
 public partial class UCachedAnimDataLibrary : UBlueprintFunctionLibrary {
 // CachedAnimDataLibrary
-	public bool StateMachine_IsStateRelevant(UObject InAnimInstance,FCachedAnimStateData CachedAnimStateData,bool ReturnValue) { return default; }
-	public float StateMachine_GetLocalWeight(UObject InAnimInstance,FCachedAnimStateData CachedAnimStateData,float ReturnValue) { return default; }
-	public float StateMachine_GetGlobalWeight(UObject InAnimInstance,FCachedAnimStateData CachedAnimStateData,float ReturnValue) { return default; }
+	public bool StateMachine_IsStateRelevant(UObject InAnimInstance,FCachedAnimStateData CachedAnimStateData) { return default; }
+	public float StateMachine_GetLocalWeight(UObject InAnimInstance,FCachedAnimStateData CachedAnimStateData) { return default; }
+	public float StateMachine_GetGlobalWeight(UObject InAnimInstance,FCachedAnimStateData CachedAnimStateData) { return default; }
 }

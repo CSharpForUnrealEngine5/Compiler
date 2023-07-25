@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Tests/TextPropertyTestObject.h")]
 public partial class UTextPropertyTestObject : UObject {
 // TextPropertyTestObject
-	public sbyte DefaultedText;
-	public sbyte UndefaultedText;
-	public sbyte TransientText;
+	public string DefaultedText;
+	public string UndefaultedText;
+	public string TransientText;
 }

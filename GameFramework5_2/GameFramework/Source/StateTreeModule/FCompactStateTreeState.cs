@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Runtime representation of a StateTree state.</summary>
 public partial struct FCompactStateTreeState {
 // CompactStateTreeState
-	public sbyte Name;
+	public string Name;
 	public FStateTreeStateHandle LinkedState;
 	public FStateTreeStateHandle Parent;
 	public ushort ChildrenBegin;

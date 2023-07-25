@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Sound/AudioSettings.h")]
 public partial struct FSoundDebugEntry {
 // SoundDebugEntry
-	public sbyte DebugName;
+	public string DebugName;
 	public FSoftObjectPath Sound;
 }

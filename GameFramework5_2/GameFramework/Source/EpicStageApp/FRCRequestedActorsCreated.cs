@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Event sent to a client when light cards were created at the request of the client.</summary>
 public partial struct FRCRequestedActorsCreated {
 // RCRequestedActorsCreated
-	public sbyte Type;
-	public TArray<sbyte> ActorPaths;
+	public string Type;
+	public TArray<string> ActorPaths;
 	public int RequestId;
 }

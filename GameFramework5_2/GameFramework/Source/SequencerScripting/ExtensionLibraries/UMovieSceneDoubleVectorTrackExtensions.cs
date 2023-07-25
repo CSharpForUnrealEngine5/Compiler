@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UMovieSceneDoubleVectorTrackExtensions : UBlueprintFunctionLibrary {
 // MovieSceneDoubleVectorTrackExtensions
 	public void SetNumChannelsUsed(UObject Track,int InNumChannelsUsed) {}
-	public int GetNumChannelsUsed(UObject Track,int ReturnValue) { return default; }
+	public int GetNumChannelsUsed(UObject Track) { return default; }
 }

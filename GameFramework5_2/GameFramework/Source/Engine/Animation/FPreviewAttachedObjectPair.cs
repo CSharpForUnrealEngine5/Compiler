@@ -7,5 +7,5 @@ public partial struct FPreviewAttachedObjectPair {
 // PreviewAttachedObjectPair
 	public TSoftObjectPtr<UObject> AttachedObject;
 	public UObject Object_DEPRECATED;
-	public sbyte AttachedTo;
+	public string AttachedTo;
 }

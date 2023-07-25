@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_HierarchyAddControl_ShapeSettings {
 // RigUnit_HierarchyAddControl_ShapeSettings
 	public bool bVisible;
-	public sbyte Name;
+	public string Name;
 	public FLinearColor Color;
 	public FTransform Transform;
 }

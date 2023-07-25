@@ -12,5 +12,5 @@ public partial class UMaterialEditorOptions : UObject {
 	public bool bHideUnrelatedNodes;
 	public bool bAlwaysRefreshAllPreviews;
 	public bool bUseUnsortedMenus;
-	public TArray<sbyte> FavoriteExpressions;
+	public TArray<string> FavoriteExpressions;
 }

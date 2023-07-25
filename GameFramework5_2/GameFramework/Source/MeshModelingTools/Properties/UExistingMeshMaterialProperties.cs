@@ -8,8 +8,8 @@ public partial class UExistingMeshMaterialProperties : UInteractiveToolPropertyS
 	public ESetMeshMaterialMode MaterialMode;
 	public float CheckerDensity;
 	public UMaterialInterface OverrideMaterial;
-	public sbyte UVChannel;
-	public TArray<sbyte> UVChannelNamesList;
-	public TArray<sbyte> GetUVChannelNamesFunc(TArray<sbyte> ReturnValue) { return default; }
+	public string UVChannel;
+	public TArray<string> UVChannelNamesList;
+	public TArray<string> GetUVChannelNamesFunc() { return default; }
 	public UMaterialInstanceDynamic CheckerMaterial;
 }

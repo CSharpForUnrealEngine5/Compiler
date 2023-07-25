@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Settings/ControlRigSettings.h")]
 public partial struct FControlRigSettingsPerPinBool {
 // ControlRigSettingsPerPinBool
-	public TMap<sbyte,bool> Values;
+	public TMap<string,bool> Values;
 }

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FRCWebSocketNDisplayPreviewRendererSetRootBody {
 // RCWebSocketNDisplayPreviewRendererSetRootBody
 	public int RendererId;
-	public sbyte RootActorPath;
+	public string RootActorPath;
 }

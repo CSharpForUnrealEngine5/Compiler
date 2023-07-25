@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_HasMetadataTagArray {
 // RigUnit_HasMetadataTagArray
 	public FRigElementKey Item;
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 	public bool Found;
 	public FCachedRigElement CachedIndex;
 }

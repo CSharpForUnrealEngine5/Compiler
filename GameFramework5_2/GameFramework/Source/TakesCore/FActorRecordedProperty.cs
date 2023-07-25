@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("TakeRecorderSourceProperty.h")]
 public partial struct FActorRecordedProperty {
 // ActorRecordedProperty
-	public sbyte PropertyName;
+	public string PropertyName;
 	public bool bEnabled;
-	public sbyte RecorderName;
+	public string RecorderName;
 }

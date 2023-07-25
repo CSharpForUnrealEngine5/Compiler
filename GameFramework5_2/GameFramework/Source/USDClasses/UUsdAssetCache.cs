@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Owns the assets generated and reused by the USD stage, allowing thread-safe retrieval/storage</summary>
 public partial class UUsdAssetCache : UObject {
 // UsdAssetCache
-	public TMap<sbyte,UObject> TransientStorage;
-	public TMap<sbyte,UObject> PersistentStorage;
+	public TMap<string,UObject> TransientStorage;
+	public TMap<string,UObject> PersistentStorage;
 	public bool bAllowPersistentStorage;
 	public TSet<TWeakObjectPtr<UObject>> OwnedAssets;
-	public TMap<sbyte,TWeakObjectPtr<UObject>> PrimPathToAssets;
+	public TMap<string,TWeakObjectPtr<UObject>> PrimPathToAssets;
 }

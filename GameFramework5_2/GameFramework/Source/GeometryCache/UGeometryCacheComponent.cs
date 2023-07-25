@@ -11,28 +11,28 @@ public partial class UGeometryCacheComponent : UMeshComponent {
 	public void PlayReversedFromEnd() {}
 	public void Pause() {}
 	public void Stop() {}
-	public bool IsPlaying(bool ReturnValue) { return default; }
-	public bool IsPlayingReversed(bool ReturnValue) { return default; }
-	public bool IsLooping(bool ReturnValue) { return default; }
+	public bool IsPlaying() { return default; }
+	public bool IsPlayingReversed() { return default; }
+	public bool IsLooping() { return default; }
 	public void SetLooping(bool bNewLooping) {}
-	public bool IsExtrapolatingFrames(bool ReturnValue) { return default; }
+	public bool IsExtrapolatingFrames() { return default; }
 	public void SetExtrapolateFrames(bool bNewExtrapolating) {}
-	public float GetPlaybackSpeed(float ReturnValue) { return default; }
+	public float GetPlaybackSpeed() { return default; }
 	public void SetPlaybackSpeed(float NewPlaybackSpeed) {}
-	public float GetMotionVectorScale(float ReturnValue) { return default; }
+	public float GetMotionVectorScale() { return default; }
 	public void SetMotionVectorScale(float NewMotionVectorScale) {}
-	public bool SetGeometryCache(UObject NewGeomCache,bool ReturnValue) { return default; }
-	public float GetStartTimeOffset(float ReturnValue) { return default; }
+	public bool SetGeometryCache(UObject NewGeomCache) { return default; }
+	public float GetStartTimeOffset() { return default; }
 	public void SetStartTimeOffset(float NewStartTimeOffset) {}
-	public float GetAnimationTime(float ReturnValue) { return default; }
-	public float GetPlaybackDirection(float ReturnValue) { return default; }
+	public float GetAnimationTime() { return default; }
+	public float GetPlaybackDirection() { return default; }
 	public UGeometryCache GeometryCache;
-	public float GetDuration(float ReturnValue) { return default; }
-	public int GetNumberOfFrames(int ReturnValue) { return default; }
+	public float GetDuration() { return default; }
+	public int GetNumberOfFrames() { return default; }
 	public void SetOverrideWireframeColor(bool bOverride) {}
-	public bool GetOverrideWireframeColor(bool ReturnValue) { return default; }
+	public bool GetOverrideWireframeColor() { return default; }
 	public void SetWireframeOverrideColor(FLinearColor Color) {}
-	public FLinearColor GetWireframeOverrideColor(FLinearColor ReturnValue) { return default; }
+	public FLinearColor GetWireframeOverrideColor() { return default; }
 	public void TickAtThisTime(float Time,bool bInIsRunning,bool bInBackwards,bool bInIsLooping) {}
 	public bool bRunning;
 	public bool bLooping;

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Utilities/VersionInfoHandler.h")]
 public partial struct FAssetInfo {
 // AssetInfo
-	public sbyte path;
-	public sbyte version;
+	public string path;
+	public string version;
 }

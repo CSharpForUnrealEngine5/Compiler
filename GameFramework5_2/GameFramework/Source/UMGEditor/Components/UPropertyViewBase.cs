@@ -9,6 +9,6 @@ public partial class UPropertyViewBase : UWidget {
 	public FSoftObjectPath SoftObjectPath_DEPRECATED;
 	public bool bAutoLoadAsset;
 	public FOnPropertyValueChanged OnPropertyChanged;
-	public UObject GetObject(UObject ReturnValue) { return default; }
+	public UObject GetObject() { return default; }
 	public void SetObject(UObject NewObject) {}
 }

@@ -8,12 +8,12 @@ public partial class ALight : AActor {
 	public bool bEnabled;
 	public void OnRep_bEnabled() {}
 	public void SetEnabled(bool bSetEnabled) {}
-	public bool IsEnabled(bool ReturnValue) { return default; }
+	public bool IsEnabled() { return default; }
 	public void ToggleEnabled() {}
 	public void SetBrightness(float NewBrightness) {}
-	public float GetBrightness(float ReturnValue) { return default; }
+	public float GetBrightness() { return default; }
 	public void SetLightColor(FLinearColor NewLightColor) {}
-	public FLinearColor GetLightColor(FLinearColor ReturnValue) { return default; }
+	public FLinearColor GetLightColor() { return default; }
 	public void SetLightFunctionMaterial(UObject NewLightFunctionMaterial) {}
 	public void SetLightFunctionScale(FVector NewLightFunctionScale) {}
 	public void SetLightFunctionFadeDistance(float NewLightFunctionFadeDistance) {}

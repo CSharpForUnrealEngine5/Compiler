@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Evaluate current Live Link Transform associated with supplied subject</summary>
 public partial struct FRigUnit_LiveLinkEvaluteFrameTransform {
 // RigUnit_LiveLinkEvaluteFrameTransform
-	public sbyte SubjectName;
+	public string SubjectName;
 	public bool bDrawDebug;
 	public FLinearColor DebugColor;
 	public FTransform DebugDrawOffset;

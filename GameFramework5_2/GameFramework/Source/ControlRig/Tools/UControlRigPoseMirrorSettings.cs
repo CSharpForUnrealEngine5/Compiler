@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Tools/ControlRigPoseMirrorSettings.h")]
 public partial class UControlRigPoseMirrorSettings : UObject {
 // ControlRigPoseMirrorSettings
-	public sbyte RightSide;
-	public sbyte LeftSide;
+	public string RightSide;
+	public string LeftSide;
 	public byte MirrorAxis;
 	public byte AxisToFlip;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Returns the length of a string</summary>
 public partial struct FRigVMFunction_StringLength {
 // RigVMFunction_StringLength
-	public sbyte Value;
+	public string Value;
 	public int Length;
 }

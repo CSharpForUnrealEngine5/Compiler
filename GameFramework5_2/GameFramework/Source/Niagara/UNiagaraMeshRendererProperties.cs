@@ -51,7 +51,7 @@ public partial class UNiagaraMeshRendererProperties : UNiagaraRendererProperties
 	public FNiagaraVariableAttributeBinding PrevCameraOffsetBinding;
 	public FNiagaraVariableAttributeBinding PrevVelocityBinding;
 	public UStaticMesh FirstFlipbookFrame;
-	public sbyte FlipbookSuffixFormat;
+	public string FlipbookSuffixFormat;
 	public uint FlipbookSuffixNumDigits;
 	public uint NumFlipbookFrames;
 	public UStaticMesh ParticleMesh_DEPRECATED;

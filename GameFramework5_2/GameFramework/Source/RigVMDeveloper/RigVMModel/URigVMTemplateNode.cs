@@ -5,13 +5,13 @@ using CSharpToCpp.Utilities;
 ///<summary>The Template Node represents an unresolved function.</summary>
 public partial class URigVMTemplateNode : URigVMNode {
 // RigVMTemplateNode
-	public UObject GetScriptStruct(UObject ReturnValue) { return default; }
-	public sbyte GetNotation(sbyte ReturnValue) { return default; }
-	public bool IsSingleton(bool ReturnValue) { return default; }
-	public bool IsResolved(bool ReturnValue) { return default; }
-	public bool IsFullyUnresolved(bool ReturnValue) { return default; }
-	public sbyte TemplateNotation;
-	public sbyte ResolvedFunctionName;
-	public TArray<sbyte> PreferredPermutationTypes_DEPRECATED;
+	public UObject GetScriptStruct() { return default; }
+	public string GetNotation() { return default; }
+	public bool IsSingleton() { return default; }
+	public bool IsResolved() { return default; }
+	public bool IsFullyUnresolved() { return default; }
+	public string TemplateNotation;
+	public string ResolvedFunctionName;
+	public TArray<string> PreferredPermutationTypes_DEPRECATED;
 	public TArray<FRigVMTemplatePreferredType> PreferredPermutationPairs;
 }

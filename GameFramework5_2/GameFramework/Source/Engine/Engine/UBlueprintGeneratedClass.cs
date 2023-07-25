@@ -18,9 +18,9 @@ public partial class UBlueprintGeneratedClass : UClass {
 	public UFunction UberGraphFunction;
 	public TArray<FEventGraphFastCallPair> FastCallPairs_DEPRECATED;
 	public UObject OverridenArchetypeForCDO;
-	public TMap<sbyte,FGuid> PropertyGuids;
+	public TMap<string,FGuid> PropertyGuids;
 	public TArray<UFunction> CalledFunctions;
-	public TMap<sbyte,FGuid> CookedPropertyGuids;
-	public TMap<sbyte,FBlueprintCookedComponentInstancingData> CookedComponentInstancingData;
+	public TMap<string,FGuid> CookedPropertyGuids;
+	public TMap<string,FBlueprintCookedComponentInstancingData> CookedComponentInstancingData;
 	public UClassCookedMetaData CachedCookedMetaDataPtr;
 }

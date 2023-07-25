@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Level 3 - FTensorAnnotation</summary>
 public partial struct FTensorAnnotation {
 // TensorAnnotation
-	public sbyte TensorName;
+	public string TensorName;
 	public TArray<FStringStringEntryProto> QuantParameterTensorNames;
 }

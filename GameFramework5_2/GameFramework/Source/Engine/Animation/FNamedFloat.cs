@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNamedFloat {
 // NamedFloat
 	public float Value;
-	public sbyte Name;
+	public string Name;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("IconsTracker.h")]
 public partial struct FIconInfo {
 // IconInfo
-	public sbyte Id;
-	public sbyte Path;
+	public string Id;
+	public string Path;
 	public FVector2D IconSize;
 }

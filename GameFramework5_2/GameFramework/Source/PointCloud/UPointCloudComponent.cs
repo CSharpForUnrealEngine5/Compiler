@@ -17,8 +17,8 @@ public partial class UPointCloudComponent : UMeshComponent {
 	public void SetPointColor(FLinearColor Color) {}
 	public float PointSize;
 	public void SetPointSize(float Size) {}
-	public TArray<FVector> GetPointsInBox(FBox WorldSpaceBox,TArray<FVector> ReturnValue) { return default; }
-	public TArray<FVector> GetPointsOutsideBox(FBox WorldSpaceBox,TArray<FVector> ReturnValue) { return default; }
+	public TArray<FVector> GetPointsInBox(FBox WorldSpaceBox) { return default; }
+	public TArray<FVector> GetPointsOutsideBox(FBox WorldSpaceBox) { return default; }
 	public UMaterialInterface PointCloudMaterial;
 	public UTexture SpriteTexture;
 	public FBoxSphereBounds WorldBounds;

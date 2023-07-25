@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Factories/FbxSceneImportOptionsStaticMesh.h")]
 public partial class UFbxSceneImportOptionsStaticMesh : UObject {
 // FbxSceneImportOptionsStaticMesh
-	public sbyte StaticMeshLODGroup;
+	public string StaticMeshLODGroup;
 	public bool bAutoGenerateCollision;
 	public EFbxSceneVertexColorImportOption VertexColorImportOption;
 	public FColor VertexOverrideColor;

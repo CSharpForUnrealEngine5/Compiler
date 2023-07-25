@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Keeps a saved location and the name of that location</summary>
 public partial struct FVirtualCameraWaypoint {
 // VirtualCameraWaypoint
-	public sbyte Name;
+	public string Name;
 	public FTransform WaypointTransform;
 	public FDateTime DateCreated;
 	public bool bIsHomeWaypoint;

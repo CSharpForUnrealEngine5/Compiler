@@ -8,6 +8,6 @@ public partial struct FTargetingSourceContext {
 	public AActor SourceActor;
 	public AActor InstigatorActor;
 	public FVector SourceLocation;
-	public sbyte SourceSocketName;
+	public string SourceSocketName;
 	public UObject SourceObject;
 }

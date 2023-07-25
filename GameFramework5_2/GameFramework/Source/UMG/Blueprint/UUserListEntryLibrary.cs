@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Static library to supply "for free" functionality to widgets that implement IUserListEntry</summary>
 public partial class UUserListEntryLibrary : UBlueprintFunctionLibrary {
 // UserListEntryLibrary
-	public bool IsListItemSelected(object /*UserListEntry*/ UserListEntry,bool ReturnValue) { return default; }
-	public bool IsListItemExpanded(object /*UserListEntry*/ UserListEntry,bool ReturnValue) { return default; }
-	public UObject GetOwningListView(object /*UserListEntry*/ UserListEntry,UObject ReturnValue) { return default; }
+	public bool IsListItemSelected(object /*UserListEntry*/ UserListEntry) { return default; }
+	public bool IsListItemExpanded(object /*UserListEntry*/ UserListEntry) { return default; }
+	public UObject GetOwningListView(object /*UserListEntry*/ UserListEntry) { return default; }
 }

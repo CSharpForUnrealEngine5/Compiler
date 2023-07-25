@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>"nDisplay" category structure</summary>
 public partial struct FDisplayClusterConfigurationJsonNdisplay_427 {
 // DisplayClusterConfigurationJsonNdisplay_427
-	public sbyte Description;
-	public sbyte Version;
-	public sbyte AssetPath;
+	public string Description;
+	public string Version;
+	public string AssetPath;
 	public FDisplayClusterConfigurationJsonMisc_427 Misc;
 	public FDisplayClusterConfigurationJsonScene_427 Scene;
 	public FDisplayClusterConfigurationJsonCluster_427 Cluster;
-	public TMap<sbyte,sbyte> CustomParameters;
+	public TMap<string,string> CustomParameters;
 	public FDisplayClusterConfigurationJsonDiagnostics_427 Diagnostics;
 }

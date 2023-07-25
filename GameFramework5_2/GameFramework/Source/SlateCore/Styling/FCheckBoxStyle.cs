@@ -30,7 +30,7 @@ public partial struct FCheckBoxStyle {
 	public FSlateSound CheckedSlateSound;
 	public FSlateSound UncheckedSlateSound;
 	public FSlateSound HoveredSlateSound;
-	public sbyte CheckedSound_DEPRECATED;
-	public sbyte UncheckedSound_DEPRECATED;
-	public sbyte HoveredSound_DEPRECATED;
+	public string CheckedSound_DEPRECATED;
+	public string UncheckedSound_DEPRECATED;
+	public string HoveredSound_DEPRECATED;
 }

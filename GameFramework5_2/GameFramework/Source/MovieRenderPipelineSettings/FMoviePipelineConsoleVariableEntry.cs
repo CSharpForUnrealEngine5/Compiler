@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Represents a console variable override within the Console Variable setting.</summary>
 public partial struct FMoviePipelineConsoleVariableEntry {
 // MoviePipelineConsoleVariableEntry
-	public sbyte Name;
+	public string Name;
 	public float Value;
 	public bool bIsEnabled;
 }

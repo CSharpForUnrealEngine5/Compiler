@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAddedPinData {
 // AddedPinData
 	public FEdGraphPinType PinType;
-	public sbyte PinName;
+	public string PinName;
 }

@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 ///<summary>VR root. This contains nDisplay VR hierarchy in the game.</summary>
 public partial class ADisplayClusterRootActor : AActor {
 // DisplayClusterRootActor
-	public bool GetFlushPositionAndNormal(FVector WorldPosition,FVector OutPosition,FVector OutNormal,bool ReturnValue) { return default; }
-	public bool MakeStageActorFlushToWall(object /*StageActor*/ StageActor,double DesiredOffsetFromFlush=0.0f,bool ReturnValue) { return default; }
-	public UObject GetStageGeometryComponent(UObject ReturnValue) { return default; }
-	public UObject GetDefaultCamera(UObject ReturnValue) { return default; }
-	public UObject GetCommonViewPoint(UObject ReturnValue) { return default; }
-	public bool SetReplaceTextureFlagForAllViewports(bool bReplace,bool ReturnValue) { return default; }
-	public bool SetFreezeOuterViewports(bool bEnable,bool ReturnValue) { return default; }
-	public void UpdateProceduralMeshComponentData(UObject InProceduralMeshComponent=nullptr) {}
+	public bool GetFlushPositionAndNormal(FVector WorldPosition,FVector OutPosition,FVector OutNormal) { return default; }
+	public bool MakeStageActorFlushToWall(object /*StageActor*/ StageActor,double DesiredOffsetFromFlush/*=0.0f*/) { return default; }
+	public UObject GetStageGeometryComponent() { return default; }
+	public UObject GetDefaultCamera() { return default; }
+	public UObject GetCommonViewPoint() { return default; }
+	public bool SetReplaceTextureFlagForAllViewports(bool bReplace) { return default; }
+	public bool SetFreezeOuterViewports(bool bEnable) { return default; }
+	public void UpdateProceduralMeshComponentData(UObject InProceduralMeshComponent/*=nullptr*/) {}
 	public FDisplayClusterEditorPropertyReference ViewportScreenPercentageMultiplierRef;
 	public FDisplayClusterEditorPropertyReference ViewportScreenPercentageRef;
 	public FDisplayClusterEditorPropertyReference ViewportOverscanRef;
@@ -33,7 +33,7 @@ public partial class ADisplayClusterRootActor : AActor {
 	public FDisplayClusterEditorPropertyReference LightcardAllViewportColorConfigurationRef;
 	public FDisplayClusterEditorPropertyReference LightcardPerViewportOCIOProfilesRef;
 	public FDisplayClusterEditorPropertyReference MediaSettingsRef;
-	public sbyte ConfigDataName;
+	public string ConfigDataName;
 	public USceneComponent DisplayClusterRootComponent;
 	public UDisplayClusterCameraComponent DefaultViewPoint;
 	public UDisplayClusterSyncTickComponent SyncTickComponent;
@@ -47,11 +47,11 @@ public partial class ADisplayClusterRootActor : AActor {
 	public bool bFreezePreviewRender;
 	public bool bPreviewICVFXFrustums;
 	public float PreviewICVFXFrustumsFarDistance;
-	public sbyte PreviewNodeId;
+	public string PreviewNodeId;
 	public EDisplayClusterConfigurationRenderMode RenderMode;
 	public int TickPerFrame;
 	public int ViewportsPerFrame;
 	public int PreviewMaxTextureDimension;
-	public TMap<sbyte,UDisplayClusterPreviewComponent> PreviewComponents;
+	public TMap<string,UDisplayClusterPreviewComponent> PreviewComponents;
 	public bool bDeferPreviewGeneration;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ControlRigComponent.h")]
 public partial struct FControlRigComponentMappedCurve {
 // ControlRigComponentMappedCurve
-	public sbyte Source;
-	public sbyte Target;
+	public string Source;
+	public string Target;
 }

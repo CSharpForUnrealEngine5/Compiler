@@ -8,16 +8,16 @@ public partial class UConcertServerConfig : UObject {
 	public bool bAutoArchiveOnShutdown;
 	public bool bCleanWorkingDir;
 	public int NumSessionsToKeep;
-	public sbyte ServerName;
-	public sbyte DefaultSessionName;
-	public TSet<sbyte> AuthorizedClientKeys;
-	public sbyte DefaultSessionToRestore;
+	public string ServerName;
+	public string DefaultSessionName;
+	public TSet<string> AuthorizedClientKeys;
+	public string DefaultSessionToRestore;
 	public FConcertSessionVersionInfo DefaultVersionInfo;
 	public FConcertSessionSettings DefaultSessionSettings;
 	public FConcertServerSettings ServerSettings;
 	public FConcertEndpointSettings EndpointSettings;
-	public sbyte WorkingDir;
-	public sbyte ArchiveDir;
-	public sbyte SessionRepositoryRootDir;
+	public string WorkingDir;
+	public string ArchiveDir;
+	public string SessionRepositoryRootDir;
 	public bool bMountDefaultSessionRepository;
 }

@@ -20,7 +20,7 @@ public partial class UButton : UContentWidget {
 	public void SetStyle(FButtonStyle InStyle) {}
 	public void SetColorAndOpacity(FLinearColor InColorAndOpacity) {}
 	public void SetBackgroundColor(FLinearColor InBackgroundColor) {}
-	public bool IsPressed(bool ReturnValue) { return default; }
+	public bool IsPressed() { return default; }
 	public void SetClickMethod(EButtonClickMethod InClickMethod) {}
 	public void SetTouchMethod(EButtonTouchMethod InTouchMethod) {}
 	public void SetPressMethod(EButtonPressMethod InPressMethod) {}

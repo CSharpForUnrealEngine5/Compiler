@@ -7,7 +7,7 @@ public partial class UMoviePipelinePIEExecutor : UMoviePipelineLinearExecutorBas
 // MoviePipelinePIEExecutor
 	public void SetInitializationTime(FDateTime InInitializationTime) {}
 	public void SetIsRenderingOffscreen(bool bInRenderOffscreen) {}
-	public bool IsRenderingOffscreen(bool ReturnValue) { return default; }
+	public bool IsRenderingOffscreen() { return default; }
 	public FOnMoviePipelineIndividualJobFinished OnIndividualJobFinishedDelegate;
 	public FMoviePipelineWorkFinished OnIndividualJobWorkFinishedDelegate;
 	public FMoviePipelineWorkFinished OnIndividualShotWorkFinishedDelegate;

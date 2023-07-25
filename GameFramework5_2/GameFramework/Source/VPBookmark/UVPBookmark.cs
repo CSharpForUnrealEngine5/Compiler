@@ -8,8 +8,8 @@ public partial class UVPBookmark : UBookmarkBase {
 	public TLazyObjectPtr<AActor> OwnedActor;
 	public FVPBookmarkCreationContext CreationContext;
 	public FVPBookmarkViewportData CachedViewportData;
-	public bool IsActive(bool ReturnValue) { return default; }
-	public int GetBookmarkIndex(int ReturnValue) { return default; }
-	public UObject GetAssociatedBookmarkActor(UObject ReturnValue) { return default; }
-	public sbyte GetDisplayName(sbyte ReturnValue) { return default; }
+	public bool IsActive() { return default; }
+	public int GetBookmarkIndex() { return default; }
+	public UObject GetAssociatedBookmarkActor() { return default; }
+	public string GetDisplayName() { return default; }
 }

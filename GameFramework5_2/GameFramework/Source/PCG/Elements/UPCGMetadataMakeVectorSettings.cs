@@ -11,8 +11,8 @@ public partial class UPCGMetadataMakeVectorSettings : UPCGMetadataSettingsBase {
 	public EPCGMetadataTypes OutputType;
 	public EPCGMetadataMakeVector3 MakeVector3Op;
 	public EPCGMetadataMakeVector4 MakeVector4Op;
-	public sbyte Input1AttributeName_DEPRECATED;
-	public sbyte Input2AttributeName_DEPRECATED;
-	public sbyte Input3AttributeName_DEPRECATED;
-	public sbyte Input4AttributeName_DEPRECATED;
+	public string Input1AttributeName_DEPRECATED;
+	public string Input2AttributeName_DEPRECATED;
+	public string Input3AttributeName_DEPRECATED;
+	public string Input4AttributeName_DEPRECATED;
 }

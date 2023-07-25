@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("AssetReferencingPolicySettings.h")]
 public partial struct FARPDomainDefinitionForMatchingPlugins {
 // ARPDomainDefinitionForMatchingPlugins
-	public sbyte DisplayName;
-	public sbyte ErrorMessageIfUsedElsewhere;
+	public string DisplayName;
+	public string ErrorMessageIfUsedElsewhere;
 	public EARPPluginMatchMode MatchRule;
-	public sbyte PluginPathPrefix;
-	public sbyte PluginCategoryPrefix;
-	public TArray<sbyte> CanReferenceTheseDomains;
+	public string PluginPathPrefix;
+	public string PluginCategoryPrefix;
+	public TArray<string> CanReferenceTheseDomains;
 }

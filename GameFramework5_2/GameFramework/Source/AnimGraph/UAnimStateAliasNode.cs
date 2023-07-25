@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UAnimStateAliasNode : UAnimStateNodeBase {
 // AnimStateAliasNode
 	public bool bGlobalAlias;
-	public sbyte StateAliasName;
+	public string StateAliasName;
 	public TSet<TWeakObjectPtr<UAnimStateNodeBase>> AliasedStateNodes;
 }

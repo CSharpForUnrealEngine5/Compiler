@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that contains telemetry data.</summary>
 public partial struct FAutomationWorkerTelemetryData {
 // AutomationWorkerTelemetryData
-	public sbyte Storage;
-	public sbyte Configuration;
-	public sbyte Platform;
-	public sbyte TestName;
+	public string Storage;
+	public string Configuration;
+	public string Platform;
+	public string TestName;
 	public TArray<FAutomationWorkerTelemetryItem> Items;
 }

@@ -7,15 +7,15 @@ public partial class UStereoLayerComponent : USceneComponent {
 // StereoLayerComponent
 	public void SetTexture(UObject InTexture) {}
 	public void SetLeftTexture(UObject InTexture) {}
-	public UObject GetTexture(UObject ReturnValue) { return default; }
-	public UObject GetLeftTexture(UObject ReturnValue) { return default; }
+	public UObject GetTexture() { return default; }
+	public UObject GetLeftTexture() { return default; }
 	public void SetQuadSize(FVector2D InQuadSize) {}
-	public FVector2D GetQuadSize(FVector2D ReturnValue) { return default; }
+	public FVector2D GetQuadSize() { return default; }
 	public void SetUVRect(FBox2D InUVRect) {}
-	public FBox2D GetUVRect(FBox2D ReturnValue) { return default; }
+	public FBox2D GetUVRect() { return default; }
 	public void SetEquirectProps(FEquirectProps InScaleBiases) {}
 	public void SetPriority(int InPriority) {}
-	public int GetPriority(int ReturnValue) { return default; }
+	public int GetPriority() { return default; }
 	public void MarkTextureForUpdate() {}
 	public bool bLiveTexture;
 	public bool bSupportsDepth;

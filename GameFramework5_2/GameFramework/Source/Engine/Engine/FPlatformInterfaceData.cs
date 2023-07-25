@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct that encompasses the most common types of data. This is the data payload</summary>
 public partial struct FPlatformInterfaceData {
 // PlatformInterfaceData
-	public sbyte DataName;
+	public string DataName;
 	public byte Type;
 	public int IntValue;
 	public float FloatValue;
-	public sbyte StringValue;
+	public string StringValue;
 	public UObject ObjectValue;
 }

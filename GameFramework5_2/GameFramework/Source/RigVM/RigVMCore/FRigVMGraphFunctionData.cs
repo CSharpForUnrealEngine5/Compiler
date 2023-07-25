@@ -6,5 +6,5 @@ public partial struct FRigVMGraphFunctionData {
 // RigVMGraphFunctionData
 	public FRigVMGraphFunctionHeader Header;
 	public FRigVMFunctionCompilationData CompilationData;
-	public sbyte SerializedCollapsedNode;
+	public string SerializedCollapsedNode;
 }

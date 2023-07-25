@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("BuoyancyManager.h")]
 public partial class ABuoyancyManager : AActor {
 // BuoyancyManager
-	public bool GetBuoyancyComponentManager(UObject WorldContextObject,UObject Manager,bool ReturnValue) { return default; }
+	public bool GetBuoyancyComponentManager(UObject WorldContextObject,UObject Manager) { return default; }
 	public TArray<UBuoyancyComponent> BuoyancyComponents;
 }

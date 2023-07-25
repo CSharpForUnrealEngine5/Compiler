@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds information about a screen resolution to be used for playing.</summary>
 public partial struct FPlayScreenResolution {
 // PlayScreenResolution
-	public sbyte Description;
+	public string Description;
 	public int Width;
 	public int Height;
-	public sbyte AspectRatio;
+	public string AspectRatio;
 	public bool bCanSwapAspectRatio;
-	public sbyte ProfileName;
+	public string ProfileName;
 	public float ScaleFactor;
 	public int LogicalHeight;
 	public int LogicalWidth;

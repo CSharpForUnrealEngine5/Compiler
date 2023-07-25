@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>!!! The proxy object should have RF_StrongRefOnFrame flag. !!!</summary>
 public partial class UK2Node_BaseAsyncTask : UK2Node {
 // K2Node_BaseAsyncTask
-	public sbyte ProxyFactoryFunctionName;
+	public string ProxyFactoryFunctionName;
 	public UClass ProxyFactoryClass;
 	public UClass ProxyClass;
-	public sbyte ProxyActivateFunctionName;
+	public string ProxyActivateFunctionName;
 }

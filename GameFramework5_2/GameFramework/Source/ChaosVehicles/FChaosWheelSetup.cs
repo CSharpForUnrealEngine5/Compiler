@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FChaosWheelSetup {
 // ChaosWheelSetup
 	public UClass WheelClass;
-	public sbyte BoneName;
+	public string BoneName;
 	public FVector AdditionalOffset;
 }

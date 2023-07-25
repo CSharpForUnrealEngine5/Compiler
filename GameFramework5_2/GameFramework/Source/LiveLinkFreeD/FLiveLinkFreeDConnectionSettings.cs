@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkFreeDConnectionSettings.h")]
 public partial struct FLiveLinkFreeDConnectionSettings {
 // LiveLinkFreeDConnectionSettings
-	public sbyte IPAddress;
+	public string IPAddress;
 	public ushort UDPPortNumber;
 }

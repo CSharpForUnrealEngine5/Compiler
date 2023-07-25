@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UColorInputDeviceCurveProperty : UInputDeviceProperty {
 // ColorInputDeviceCurveProperty
 	public FDeviceColorCurveData ColorData;
-	public TMap<sbyte,FDeviceColorCurveData> DeviceOverrideData;
+	public TMap<string,FDeviceColorCurveData> DeviceOverrideData;
 }

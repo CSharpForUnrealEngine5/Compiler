@@ -6,14 +6,14 @@ using CSharpToCpp.Utilities;
 public partial class URemoteControlSettings : UDeveloperSettings {
 // RemoteControlSettings
 	public bool bProtocolsGenerateTransactions;
-	public sbyte RemoteControlWebInterfaceBindAddress;
+	public string RemoteControlWebInterfaceBindAddress;
 	public uint RemoteControlWebInterfacePort;
 	public bool bForceWebAppBuildAtStartup;
 	public bool bWebAppLogRequestDuration;
 	public bool bAutoStartWebServer;
 	public bool bAutoStartWebSocketServer;
 	public uint RemoteControlHttpServerPort;
-	public sbyte RemoteControlWebsocketServerBindAddress;
+	public string RemoteControlWebsocketServerBindAddress;
 	public uint RemoteControlWebSocketServerPort;
 	public bool bDisplayInEditorOnlyWarnings;
 	public float TreeBindingSplitRatio;
@@ -24,7 +24,7 @@ public partial class URemoteControlSettings : UDeveloperSettings {
 	public bool bRestrictServerAccess;
 	public bool bEnableRemotePythonExecution;
 	public TSet<FRCNetworkAddressRange> AllowlistedClients;
-	public sbyte AllowedOrigin;
+	public string AllowedOrigin;
 	public bool bEnforcePassphraseForRemoteClients;
 	public TArray<FRCPassphrase> Passphrases;
 	public bool bShowPassphraseDisabledWarning;

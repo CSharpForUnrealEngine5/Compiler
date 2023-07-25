@@ -5,34 +5,34 @@ using CSharpToCpp.Utilities;
 ///<summary>Component for applying a post-process lens distortion effect to a CineCameraComponent on the same actor</summary>
 public partial class ULensComponent : UActorComponent {
 // LensComponent
-	public FLensFilePicker GetLensFilePicker(FLensFilePicker ReturnValue) { return default; }
-	public UObject GetLensFile(UObject ReturnValue) { return default; }
+	public FLensFilePicker GetLensFilePicker() { return default; }
+	public UObject GetLensFile() { return default; }
 	public void SetLensFilePicker(FLensFilePicker LensFile) {}
 	public void SetLensFile(UObject LensFile) {}
-	public EFIZEvaluationMode GetFIZEvaluationMode(EFIZEvaluationMode ReturnValue) { return default; }
+	public EFIZEvaluationMode GetFIZEvaluationMode() { return default; }
 	public void SetFIZEvaluationMode(EFIZEvaluationMode Mode) {}
-	public float GetOverscanMultiplier(float ReturnValue) { return default; }
+	public float GetOverscanMultiplier() { return default; }
 	public void SetOverscanMultiplier(float Multiplier) {}
-	public EFilmbackOverrideSource GetFilmbackOverrideSetting(EFilmbackOverrideSource ReturnValue) { return default; }
+	public EFilmbackOverrideSource GetFilmbackOverrideSetting() { return default; }
 	public void SetFilmbackOverrideSetting(EFilmbackOverrideSource Setting) {}
-	public FCameraFilmbackSettings GetCroppedFilmback(FCameraFilmbackSettings ReturnValue) { return default; }
+	public FCameraFilmbackSettings GetCroppedFilmback() { return default; }
 	public void SetCroppedFilmback(FCameraFilmbackSettings Filmback) {}
-	public bool ShouldApplyNodalOffsetOnTick(bool ReturnValue) { return default; }
+	public bool ShouldApplyNodalOffsetOnTick() { return default; }
 	public void SetApplyNodalOffsetOnTick(bool bApplyNodalOffset) {}
-	public EDistortionSource GetDistortionSource(EDistortionSource ReturnValue) { return default; }
+	public EDistortionSource GetDistortionSource() { return default; }
 	public void SetDistortionSource(EDistortionSource Source) {}
-	public bool ShouldApplyDistortion(bool ReturnValue) { return default; }
+	public bool ShouldApplyDistortion() { return default; }
 	public void SetApplyDistortion(bool bApply) {}
-	public UClass GetLensModel(UClass ReturnValue) { return default; }
+	public UClass GetLensModel() { return default; }
 	public void SetLensModel(UClass Model) {}
-	public FLensDistortionState GetDistortionState(FLensDistortionState ReturnValue) { return default; }
+	public FLensDistortionState GetDistortionState() { return default; }
 	public void SetDistortionState(FLensDistortionState State) {}
 	public void ClearDistortionState() {}
-	public float GetOriginalFocalLength(float ReturnValue) { return default; }
-	public FLensFileEvaluationInputs GetLensFileEvaluationInputs(FLensFileEvaluationInputs ReturnValue) { return default; }
-	public bool WasNodalOffsetAppliedThisTick(bool ReturnValue) { return default; }
-	public bool WasDistortionEvaluated(bool ReturnValue) { return default; }
-	public void ApplyNodalOffset(UObject ComponentToOffset,bool bUseManualInputs=false,float ManualFocusInput=0.0f,float ManualZoomInput=0.0f) {}
+	public float GetOriginalFocalLength() { return default; }
+	public FLensFileEvaluationInputs GetLensFileEvaluationInputs() { return default; }
+	public bool WasNodalOffsetAppliedThisTick() { return default; }
+	public bool WasDistortionEvaluated() { return default; }
+	public void ApplyNodalOffset(UObject ComponentToOffset,bool bUseManualInputs/*=false*/,float ManualFocusInput/*=0.0f*/,float ManualZoomInput/*=0.0f*/) {}
 	public FLensFilePicker LensFilePicker;
 	public EFIZEvaluationMode EvaluationMode;
 	public FComponentReference TargetCameraComponent;
@@ -53,7 +53,7 @@ public partial class ULensComponent : UActorComponent {
 	public UCineCameraComponent LastCameraComponent;
 	public TMap<UClass,ULensDistortionModelHandlerBase> LensDistortionHandlerMap;
 	public TWeakObjectPtr<USceneComponent> TrackedComponent;
-	public sbyte TrackedComponentName;
+	public string TrackedComponentName;
 	public FRotator OriginalCameraRotation_DEPRECATED;
 	public FVector OriginalCameraLocation_DEPRECATED;
 	public bool bEvaluateLensFileForDistortion_DEPRECATED;

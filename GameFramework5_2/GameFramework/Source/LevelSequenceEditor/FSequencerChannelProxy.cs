@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LevelSequenceEditorBlueprintLibrary.h")]
 public partial struct FSequencerChannelProxy {
 // SequencerChannelProxy
-	public sbyte ChannelName;
+	public string ChannelName;
 	public UMovieSceneSection Section;
 }

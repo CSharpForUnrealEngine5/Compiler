@@ -8,17 +8,17 @@ public partial class UWidgetInteractionComponent : USceneComponent {
 	public FOnHoveredWidgetChanged OnHoveredWidgetChanged;
 	public void PressPointerKey(FKey Key) {}
 	public void ReleasePointerKey(FKey Key) {}
-	public bool PressKey(FKey Key,bool bRepeat=false,bool ReturnValue) { return default; }
-	public bool ReleaseKey(FKey Key,bool ReturnValue) { return default; }
-	public bool PressAndReleaseKey(FKey Key,bool ReturnValue) { return default; }
-	public bool SendKeyChar(sbyte Characters,bool bRepeat=false,bool ReturnValue) { return default; }
+	public bool PressKey(FKey Key,bool bRepeat/*=false*/) { return default; }
+	public bool ReleaseKey(FKey Key) { return default; }
+	public bool PressAndReleaseKey(FKey Key) { return default; }
+	public bool SendKeyChar(string Characters,bool bRepeat/*=false*/) { return default; }
 	public void ScrollWheel(float ScrollDelta) {}
-	public UObject GetHoveredWidgetComponent(UObject ReturnValue) { return default; }
-	public bool IsOverInteractableWidget(bool ReturnValue) { return default; }
-	public bool IsOverFocusableWidget(bool ReturnValue) { return default; }
-	public bool IsOverHitTestVisibleWidget(bool ReturnValue) { return default; }
-	public FHitResult GetLastHitResult(FHitResult ReturnValue) { return default; }
-	public FVector2D Get2DHitLocation(FVector2D ReturnValue) { return default; }
+	public UObject GetHoveredWidgetComponent() { return default; }
+	public bool IsOverInteractableWidget() { return default; }
+	public bool IsOverFocusableWidget() { return default; }
+	public bool IsOverHitTestVisibleWidget() { return default; }
+	public FHitResult GetLastHitResult() { return default; }
+	public FVector2D Get2DHitLocation() { return default; }
 	public void SetCustomHitResult(FHitResult HitResult) {}
 	public void SetFocus(UObject FocusWidget) {}
 	public int VirtualUserIndex;

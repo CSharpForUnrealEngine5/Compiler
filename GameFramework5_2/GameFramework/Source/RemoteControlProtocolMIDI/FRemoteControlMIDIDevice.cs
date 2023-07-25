@@ -7,7 +7,7 @@ public partial struct FRemoteControlMIDIDevice {
 // RemoteControlMIDIDevice
 	public ERemoteControlMIDIDeviceSelector DeviceSelector;
 	public int ResolvedDeviceId;
-	public sbyte DeviceName;
+	public string DeviceName;
 	public int DeviceId;
 	public bool bDeviceIsAvailable;
 }

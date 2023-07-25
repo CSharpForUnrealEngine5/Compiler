@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraStackGraphUtilitiesAdapterLibrary.h")]
 public partial struct FNiagaraAddEventGeneratorOptions {
 // NiagaraAddEventGeneratorOptions
-	public sbyte SourceEmitterName;
+	public string SourceEmitterName;
 	public FAssetData EventGeneratorScriptAssetData;
 }

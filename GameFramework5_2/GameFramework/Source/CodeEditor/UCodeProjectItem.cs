@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UCodeProjectItem : UObject {
 // CodeProjectItem
 	public byte Type;
-	public sbyte Name;
-	public sbyte Extension;
-	public sbyte Path;
+	public string Name;
+	public string Extension;
+	public string Path;
 	public TArray<UCodeProjectItem> Children;
 }

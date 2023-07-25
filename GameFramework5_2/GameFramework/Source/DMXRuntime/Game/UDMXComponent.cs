@@ -9,7 +9,7 @@ public partial class UDMXComponent : UActorComponent {
 	public void FDMXOnDMXComponentTickSignature(float DeltaTime) {}
 	public FDMXComponentFixturePatchReceivedSignature OnFixturePatchReceived;
 	public FDMXOnDMXComponentTickSignature OnDMXComponentTick;
-	public UObject GetFixturePatch(UObject ReturnValue) { return default; }
+	public UObject GetFixturePatch() { return default; }
 	public void SetFixturePatch(UObject InFixturePatch) {}
 	public void SetReceiveDMXFromPatch(bool bReceive) {}
 	public FDMXEntityFixturePatchRef FixturePatchRef;

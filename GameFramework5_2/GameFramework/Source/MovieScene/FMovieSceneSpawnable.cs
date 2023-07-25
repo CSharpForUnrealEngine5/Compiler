@@ -6,15 +6,15 @@ using CSharpToCpp.Utilities;
 public partial struct FMovieSceneSpawnable {
 // MovieSceneSpawnable
 	public FTransform SpawnTransform;
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 	public bool bContinuouslyRespawn;
 	public bool bNetAddressableName;
 	public bool bEvaluateTracksWhenNotSpawned;
 	public FGuid Guid;
-	public sbyte Name;
+	public string Name;
 	public UObject ObjectTemplate;
 	public TArray<FGuid> ChildPossessables;
 	public ESpawnOwnership Ownership;
 	public UClass GeneratedClass_DEPRECATED;
-	public sbyte LevelName;
+	public string LevelName;
 }

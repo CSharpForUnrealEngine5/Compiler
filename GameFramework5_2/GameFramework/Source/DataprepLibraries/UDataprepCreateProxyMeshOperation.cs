@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Collect geometry from selected actors and merge them into single mesh with reduction.</summary>
 public partial class UDataprepCreateProxyMeshOperation : UDataprepEditingOperation {
 // DataprepCreateProxyMeshOperation
-	public sbyte NewActorLabel;
+	public string NewActorLabel;
 	public float Quality;
 }

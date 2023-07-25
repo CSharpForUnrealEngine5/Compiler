@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectParameterTypeDefinitions.h")]
 public partial struct FCustomizableObjectProjectorParameterValue {
 // CustomizableObjectProjectorParameterValue
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FCustomizableObjectProjector Value;
-	public sbyte Uid;
+	public string Uid;
 	public TArray<FCustomizableObjectProjector> RangeValues;
 }

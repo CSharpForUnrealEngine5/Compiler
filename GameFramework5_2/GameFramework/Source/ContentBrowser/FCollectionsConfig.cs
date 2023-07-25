@@ -6,6 +6,6 @@ public partial struct FCollectionsConfig {
 // CollectionsConfig
 	public bool bExpanded;
 	public bool bSearchExpanded;
-	public TArray<sbyte> SelectedCollections;
-	public TArray<sbyte> ExpandedCollections;
+	public TArray<string> SelectedCollections;
+	public TArray<string> ExpandedCollections;
 }

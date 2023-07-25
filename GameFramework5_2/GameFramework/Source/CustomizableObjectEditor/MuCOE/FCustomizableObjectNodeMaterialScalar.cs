@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Deprecated, do not use!</summary>
 public partial struct FCustomizableObjectNodeMaterialScalar {
 // CustomizableObjectNodeMaterialScalar
-	public sbyte Name;
+	public string Name;
 	public int LayerIndex;
-	public sbyte PinName;
+	public string PinName;
 }

@@ -8,7 +8,7 @@ public partial struct FChannelMapInfo {
 	public int TotalChannelIndex;
 	public int ChannelIndex;
 	public int ParentControlIndex;
-	public sbyte ChannelTypeName;
+	public string ChannelTypeName;
 	public bool bDoesHaveSpace;
 	public int SpaceChannelIndex;
 	public int MaskIndex;

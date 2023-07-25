@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UMLAdapterAgentElement : UObject {
 // MLAdapterAgentElement
 	public uint ElementID;
-	public sbyte Nickname;
+	public string Nickname;
 }

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAbilityTaskDebugMessage {
 // AbilityTaskDebugMessage
 	public UGameplayTask FromTask;
-	public sbyte Message;
+	public string Message;
 }

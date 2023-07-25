@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlModels.h")]
 public partial struct FRCPresetFieldRenamed {
 // RCPresetFieldRenamed
-	public sbyte OldFieldLabel;
-	public sbyte NewFieldLabel;
+	public string OldFieldLabel;
+	public string NewFieldLabel;
 }

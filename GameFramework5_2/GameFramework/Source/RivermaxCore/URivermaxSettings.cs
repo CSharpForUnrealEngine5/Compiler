@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class URivermaxSettings : UDeveloperSettings {
 // RivermaxSettings
 	public ERivermaxTimeSource TimeSource;
-	public sbyte PTPInterfaceAddress;
+	public string PTPInterfaceAddress;
 }

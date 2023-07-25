@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>The combobox allows you to display a list of options to the user in a dropdown menu for them to select one.</summary>
 public partial class UComboBoxKey : UWidget {
 // ComboBoxKey
-	public void FOnSelectionChangedEvent(sbyte SelectedItem,ESelectInfo SelectionType) {}
+	public void FOnSelectionChangedEvent(string SelectedItem,ESelectInfo SelectionType) {}
 	public void FOnOpeningEvent() {}
-	public UObject FGenerateWidgetEvent(sbyte Item,UObject ReturnValue) { return default; }
-	public TArray<sbyte> Options;
-	public sbyte SelectedOption;
+	public UObject FGenerateWidgetEvent(string Item) { return default; }
+	public TArray<string> Options;
+	public string SelectedOption;
 	public FComboBoxStyle WidgetStyle;
 	public FTableRowStyle ItemStyle;
 	public FScrollBarStyle ScrollBarStyle;
@@ -23,11 +23,11 @@ public partial class UComboBoxKey : UWidget {
 	public FGenerateWidgetEvent OnGenerateItemWidget;
 	public FOnSelectionChangedEvent OnSelectionChanged;
 	public FOnOpeningEvent OnOpening;
-	public void AddOption(sbyte Option) {}
-	public bool RemoveOption(sbyte Option,bool ReturnValue) { return default; }
+	public void AddOption(string Option) {}
+	public bool RemoveOption(string Option) { return default; }
 	public void ClearOptions() {}
 	public void ClearSelection() {}
-	public void SetSelectedOption(sbyte Option) {}
-	public sbyte GetSelectedOption(sbyte ReturnValue) { return default; }
-	public bool IsOpen(bool ReturnValue) { return default; }
+	public void SetSelectedOption(string Option) {}
+	public string GetSelectedOption() { return default; }
+	public bool IsOpen() { return default; }
 }

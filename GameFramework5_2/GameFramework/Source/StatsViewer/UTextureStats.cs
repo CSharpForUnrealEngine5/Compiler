@@ -7,8 +7,8 @@ public partial class UTextureStats : UObject {
 // TextureStats
 	public TWeakObjectPtr<UTexture> Texture;
 	public TArray<TWeakObjectPtr<AActor>> Actors;
-	public sbyte Type;
-	public sbyte Virtual;
+	public string Type;
+	public string Virtual;
 	public FVector2D MaxDim;
 	public FVector2D CurrentDim;
 	public byte Format;
@@ -18,5 +18,5 @@ public partial class UTextureStats : UObject {
 	public float FullyLoadedKB;
 	public int NumUses;
 	public float LastTimeRendered;
-	public sbyte Path;
+	public string Path;
 }

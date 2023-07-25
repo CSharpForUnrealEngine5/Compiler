@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>An object used internally by the New Plugin Wizard to set user-defined plugin descriptor information.</summary>
 public partial class UNewPluginDescriptorData : UObject {
 // NewPluginDescriptorData
-	public sbyte CreatedBy;
-	public sbyte CreatedByURL;
-	public sbyte Description;
+	public string CreatedBy;
+	public string CreatedByURL;
+	public string Description;
 	public bool bIsBetaVersion;
 }

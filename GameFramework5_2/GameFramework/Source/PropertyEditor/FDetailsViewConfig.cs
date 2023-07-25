@@ -13,5 +13,5 @@ public partial struct FDetailsViewConfig {
 	public bool bShowOnlyModified;
 	public bool bShowSections;
 	public float ValueColumnWidth;
-	public TMap<sbyte,FDetailsSectionSelection> SelectedSections;
+	public TMap<string,FDetailsSectionSelection> SelectedSections;
 }

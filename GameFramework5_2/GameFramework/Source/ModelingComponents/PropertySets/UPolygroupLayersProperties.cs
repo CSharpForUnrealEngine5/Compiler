@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Basic Tool Property Set that allows for selecting from a list of FNames (that we assume are Polygroup Layers)</summary>
 public partial class UPolygroupLayersProperties : UInteractiveToolPropertySet {
 // PolygroupLayersProperties
-	public sbyte ActiveGroupLayer;
-	public TArray<sbyte> GetGroupLayersFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GroupLayersList;
+	public string ActiveGroupLayer;
+	public TArray<string> GetGroupLayersFunc() { return default; }
+	public TArray<string> GroupLayersList;
 }

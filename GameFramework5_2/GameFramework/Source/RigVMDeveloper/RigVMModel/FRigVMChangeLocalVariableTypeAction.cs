@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRigVMChangeLocalVariableTypeAction {
 // RigVMChangeLocalVariableTypeAction
 	public FRigVMGraphVariableDescription LocalVariable;
-	public sbyte CPPType;
+	public string CPPType;
 	public UObject CPPTypeObject;
 }

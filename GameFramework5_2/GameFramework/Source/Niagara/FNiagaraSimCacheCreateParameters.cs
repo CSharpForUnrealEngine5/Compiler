@@ -9,9 +9,9 @@ public partial struct FNiagaraSimCacheCreateParameters {
 	public bool bAllowDataInterfaceCaching;
 	public bool bAllowInterpolation;
 	public bool bAllowVelocityExtrapolation;
-	public TArray<sbyte> RebaseIncludeAttributes;
-	public TArray<sbyte> RebaseExcludeAttributes;
-	public TArray<sbyte> InterpolationIncludeAttributes;
-	public TArray<sbyte> InterpolationExcludeAttributes;
-	public TArray<sbyte> ExplicitCaptureAttributes;
+	public TArray<string> RebaseIncludeAttributes;
+	public TArray<string> RebaseExcludeAttributes;
+	public TArray<string> InterpolationIncludeAttributes;
+	public TArray<string> InterpolationExcludeAttributes;
+	public TArray<string> ExplicitCaptureAttributes;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Extend type conversions to handle FDropTimecode structure</summary>
 public partial class UDropTimecodeToStringConversion : UBlueprintFunctionLibrary {
 // DropTimecodeToStringConversion
-	public sbyte Conv_DropTimecodeToString(FDropTimecode InTimecode,sbyte ReturnValue) { return default; }
+	public string Conv_DropTimecodeToString(FDropTimecode InTimecode) { return default; }
 }

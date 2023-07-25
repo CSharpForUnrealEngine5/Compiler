@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FFeaturePackLevelSet {
 // FeaturePackLevelSet
 	public TArray<EFeaturePackDetailLevel> DetailLevels;
-	public sbyte MountName;
+	public string MountName;
 }

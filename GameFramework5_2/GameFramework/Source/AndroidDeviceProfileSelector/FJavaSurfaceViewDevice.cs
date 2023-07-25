@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("AndroidJavaSurfaceViewDevices.h")]
 public partial struct FJavaSurfaceViewDevice {
 // JavaSurfaceViewDevice
-	public sbyte Manufacturer;
-	public sbyte Model;
+	public string Manufacturer;
+	public string Model;
 }

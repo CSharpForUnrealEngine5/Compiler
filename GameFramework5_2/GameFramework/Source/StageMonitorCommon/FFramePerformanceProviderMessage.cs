@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FFramePerformanceProviderMessage {
 // FramePerformanceProviderMessage
 	public EStageMonitorNodeStatus Status;
-	public sbyte AssetInStatus;
+	public string AssetInStatus;
 	public float AverageFPS;
 	public float GameThreadMS;
 	public float RenderThreadMS;

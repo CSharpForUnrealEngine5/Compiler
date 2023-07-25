@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UK2Node_SwitchEnum : UK2Node_Switch {
 // K2Node_SwitchEnum
 	public UEnum Enum;
-	public TArray<sbyte> EnumEntries;
-	public TArray<sbyte> EnumFriendlyNames;
+	public TArray<string> EnumEntries;
+	public TArray<string> EnumFriendlyNames;
 }

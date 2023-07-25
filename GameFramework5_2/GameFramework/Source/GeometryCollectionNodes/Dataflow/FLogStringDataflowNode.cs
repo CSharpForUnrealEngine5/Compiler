@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FLogStringDataflowNode {
 // LogStringDataflowNode
 	public bool bPrintToLog;
-	public sbyte String;
+	public string String;
 }

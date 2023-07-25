@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial class UAnimGraphNode_Base : UK2Node {
 // AnimGraphNode_Base
 	public TArray<FOptionalPinFromProperty> ShowPinForProperties;
-	public TMap<sbyte,FAnimGraphNodePropertyBinding> PropertyBindings;
-	public TSet<sbyte> AlwaysDynamicProperties;
+	public TMap<string,FAnimGraphNodePropertyBinding> PropertyBindings;
+	public TSet<string> AlwaysDynamicProperties;
 	public EBlueprintUsage BlueprintUsage;
 	public FMemberReference InitialUpdateFunction;
 	public FMemberReference BecomeRelevantFunction;
 	public FMemberReference UpdateFunction;
-	public sbyte Tag;
+	public string Tag;
 }

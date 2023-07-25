@@ -4,17 +4,17 @@ using CSharpToCpp.Utilities;
 [CppInclude("EOSSettings.h")]
 public partial class UEOSSettings : URuntimeOptionsBase {
 // EOSSettings
-	public sbyte CacheDir;
-	public sbyte DefaultArtifactName;
+	public string CacheDir;
+	public string DefaultArtifactName;
 	public int TickBudgetInMilliseconds;
 	public bool bEnableOverlay;
 	public bool bEnableSocialOverlay;
 	public bool bEnableEditorOverlay;
 	public bool bShouldEnforceBeingLaunchedByEGS;
-	public TArray<sbyte> TitleStorageTags;
+	public TArray<string> TitleStorageTags;
 	public int TitleStorageReadChunkLength;
 	public TArray<FArtifactSettings> Artifacts;
-	public TArray<sbyte> AuthScopeFlags;
+	public TArray<string> AuthScopeFlags;
 	public bool bUseEAS;
 	public bool bUseEOSConnect;
 	public bool bMirrorStatsToEOS;

@@ -6,19 +6,19 @@ using CSharpToCpp.Utilities;
 public partial class UPluginMetadataObject : UObject {
 // PluginMetadataObject
 	public int Version;
-	public sbyte VersionName;
-	public sbyte FriendlyName;
-	public sbyte Description;
-	public sbyte Category;
-	public sbyte CreatedBy;
-	public sbyte CreatedByURL;
-	public sbyte DocsURL;
-	public sbyte MarketplaceURL;
-	public sbyte SupportURL;
+	public string VersionName;
+	public string FriendlyName;
+	public string Description;
+	public string Category;
+	public string CreatedBy;
+	public string CreatedByURL;
+	public string DocsURL;
+	public string MarketplaceURL;
+	public string SupportURL;
 	public bool bCanContainContent;
 	public bool bIsBetaVersion;
 	public bool bIsEnabledByDefault;
 	public bool bExplicitlyLoaded;
 	public TArray<FPluginReferenceMetadata> Plugins;
-	public TArray<sbyte> GetAvailablePluginDependencies(TArray<sbyte> ReturnValue) { return default; }
+	public TArray<string> GetAvailablePluginDependencies() { return default; }
 }

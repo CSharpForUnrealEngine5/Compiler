@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("SceneOutlinerConfig.h")]
 public partial class UOutlinerConfig : UEditorConfigBase {
 // OutlinerConfig
-	public TMap<sbyte,FSceneOutlinerConfig> Outliners;
+	public TMap<string,FSceneOutlinerConfig> Outliners;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Field Commands container that will be stored in the construction script</summary>
 public partial struct FFieldObjectCommands {
 // FieldObjectCommands
-	public TArray<sbyte> TargetNames;
+	public TArray<string> TargetNames;
 	public TArray<UFieldNodeBase> RootNodes;
 	public TArray<UFieldSystemMetaData> MetaDatas;
 }

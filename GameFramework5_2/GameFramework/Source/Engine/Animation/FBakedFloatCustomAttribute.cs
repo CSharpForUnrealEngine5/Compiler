@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/CustomAttributes.h")]
 public partial struct FBakedFloatCustomAttribute {
 // BakedFloatCustomAttribute
-	public sbyte AttributeName;
+	public string AttributeName;
 	public FSimpleCurve FloatCurve;
 }

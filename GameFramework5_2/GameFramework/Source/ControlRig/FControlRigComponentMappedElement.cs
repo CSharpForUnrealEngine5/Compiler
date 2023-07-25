@@ -6,9 +6,9 @@ public partial struct FControlRigComponentMappedElement {
 // ControlRigComponentMappedElement
 	public FComponentReference ComponentReference;
 	public int TransformIndex;
-	public sbyte TransformName;
+	public string TransformName;
 	public ERigElementType ElementType;
-	public sbyte ElementName;
+	public string ElementName;
 	public EControlRigComponentMapDirection Direction;
 	public FTransform Offset;
 	public float Weight;

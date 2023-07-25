@@ -16,6 +16,6 @@ public partial class UNiagaraDataInterfaceStaticMesh : UNiagaraDataInterface {
 	public bool bAllowSamplingFromStreamingLODs;
 	public int LODIndex;
 	public FNiagaraUserParameterBinding LODIndexUserParameter;
-	public TArray<sbyte> FilteredSockets;
+	public TArray<string> FilteredSockets;
 	public void OnSourceEndPlay(UObject InSource,EEndPlayReason Reason) {}
 }

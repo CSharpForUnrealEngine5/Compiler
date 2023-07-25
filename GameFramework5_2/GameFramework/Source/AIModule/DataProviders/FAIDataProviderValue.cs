@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAIDataProviderValue {
 // AIDataProviderValue
 	public UAIDataProvider DataBinding;
-	public sbyte DataField;
+	public string DataField;
 }

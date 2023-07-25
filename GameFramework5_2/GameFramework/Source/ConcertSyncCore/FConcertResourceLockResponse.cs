@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertWorkspaceMessages.h")]
 public partial struct FConcertResourceLockResponse {
 // ConcertResourceLockResponse
-	public TMap<sbyte,FGuid> FailedResources;
+	public TMap<string,FGuid> FailedResources;
 	public EConcertResourceLockType LockType;
 }

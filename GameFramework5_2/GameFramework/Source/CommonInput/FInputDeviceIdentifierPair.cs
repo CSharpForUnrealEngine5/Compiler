@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("CommonInputBaseTypes.h")]
 public partial struct FInputDeviceIdentifierPair {
 // InputDeviceIdentifierPair
-	public sbyte InputDeviceName;
-	public sbyte HardwareDeviceIdentifier;
+	public string InputDeviceName;
+	public string HardwareDeviceIdentifier;
 }

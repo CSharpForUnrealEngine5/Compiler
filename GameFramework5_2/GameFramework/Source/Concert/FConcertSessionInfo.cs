@@ -9,9 +9,9 @@ public partial struct FConcertSessionInfo {
 	public FGuid ServerEndpointId;
 	public FGuid OwnerInstanceId;
 	public FGuid SessionId;
-	public sbyte SessionName;
-	public sbyte OwnerUserName;
-	public sbyte OwnerDeviceName;
+	public string SessionName;
+	public string OwnerUserName;
+	public string OwnerDeviceName;
 	public FConcertSessionSettings Settings;
 	public TArray<FConcertSessionVersionInfo> VersionInfos;
 	public EConcertSessionState State;

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FDMXFixtureCellAttribute {
 // DMXFixtureCellAttribute
 	public FDMXAttributeName Attribute;
-	public sbyte Description;
+	public string Description;
 	public long DefaultValue;
 	public EDMXFixtureSignalFormat DataType;
 	public bool bUseLSBMode;

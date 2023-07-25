@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ZoneGraphTypes.h")]
 public partial struct FZoneGraphTagInfo {
 // ZoneGraphTagInfo
-	public sbyte Name;
+	public string Name;
 	public FColor Color;
 	public FZoneGraphTag Tag;
 }

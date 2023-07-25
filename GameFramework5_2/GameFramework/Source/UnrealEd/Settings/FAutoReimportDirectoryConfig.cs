@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Auto reimport settings for a specific directory</summary>
 public partial struct FAutoReimportDirectoryConfig {
 // AutoReimportDirectoryConfig
-	public sbyte SourceDirectory;
-	public sbyte MountPoint;
+	public string SourceDirectory;
+	public string MountPoint;
 	public TArray<FAutoReimportWildcard> Wildcards;
 }

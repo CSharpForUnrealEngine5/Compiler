@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UBakeTexture2DProperties : UInteractiveToolPropertySet {
 // BakeTexture2DProperties
 	public UTexture2D SourceTexture;
-	public sbyte UVLayer;
-	public TArray<sbyte> GetUVLayerNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> UVLayerNamesList;
+	public string UVLayer;
+	public TArray<string> GetUVLayerNamesFunc() { return default; }
+	public TArray<string> UVLayerNamesList;
 }

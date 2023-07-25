@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>The FABRIK solver can solve N-Bone chains using</summary>
 public partial struct FRigUnit_FABRIK {
 // RigUnit_FABRIK
-	public sbyte StartBone;
-	public sbyte EffectorBone;
+	public string StartBone;
+	public string EffectorBone;
 	public FTransform EffectorTransform;
 	public float Precision;
 	public float Weight;

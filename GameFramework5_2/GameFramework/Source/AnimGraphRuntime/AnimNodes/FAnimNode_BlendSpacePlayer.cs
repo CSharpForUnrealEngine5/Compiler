@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>@TODO: Comment</summary>
 public partial struct FAnimNode_BlendSpacePlayer {
 // AnimNode_BlendSpacePlayer
-	public sbyte GroupName;
+	public string GroupName;
 	public byte GroupRole;
 	public EAnimSyncMethod Method;
 	public bool bIgnoreForRelevancyTest;

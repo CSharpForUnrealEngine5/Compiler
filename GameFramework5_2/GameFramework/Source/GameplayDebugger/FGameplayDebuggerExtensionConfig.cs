@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameplayDebuggerConfig.h")]
 public partial struct FGameplayDebuggerExtensionConfig {
 // GameplayDebuggerExtensionConfig
-	public sbyte ExtensionName;
+	public string ExtensionName;
 	public EGameplayDebuggerOverrideMode UseExtension;
 	public TArray<FGameplayDebuggerInputConfig> InputHandlers;
 }

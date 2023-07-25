@@ -4,15 +4,15 @@ using CSharpToCpp.Utilities;
 [CppInclude("PhysicsEngine/ConstraintInstanceBlueprintLibrary.h")]
 public partial class UConstraintInstanceBlueprintLibrary : UBlueprintFunctionLibrary {
 // ConstraintInstanceBlueprintLibrary
-	public void GetAttachedBodyNames(FConstraintInstanceAccessor Accessor,sbyte ParentBody,sbyte ChildBody) {}
+	public void GetAttachedBodyNames(FConstraintInstanceAccessor Accessor,string ParentBody,string ChildBody) {}
 	public void SetDisableCollision(FConstraintInstanceAccessor Accessor,bool bDisableCollision) {}
-	public bool GetDisableCollsion(FConstraintInstanceAccessor Accessor,bool ReturnValue) { return default; }
+	public bool GetDisableCollsion(FConstraintInstanceAccessor Accessor) { return default; }
 	public void SetProjectionParams(FConstraintInstanceAccessor Accessor,bool bEnableProjection,float ProjectionLinearAlpha,float ProjectionAngularAlpha) {}
 	public void GetProjectionParams(FConstraintInstanceAccessor Accessor,bool bEnableProjection,float ProjectionLinearAlpha,float ProjectionAngularAlpha) {}
 	public void SetParentDominates(FConstraintInstanceAccessor Accessor,bool bParentDominates) {}
-	public bool GetParentDominates(FConstraintInstanceAccessor Accessor,bool ReturnValue) { return default; }
+	public bool GetParentDominates(FConstraintInstanceAccessor Accessor) { return default; }
 	public void SetMassConditioningEnabled(FConstraintInstanceAccessor Accessor,bool bEnableMassConditioning) {}
-	public bool GetMassConditioningEnabled(FConstraintInstanceAccessor Accessor,bool ReturnValue) { return default; }
+	public bool GetMassConditioningEnabled(FConstraintInstanceAccessor Accessor) { return default; }
 	public void SetLinearLimits(FConstraintInstanceAccessor Accessor,byte XMotion,byte YMotion,byte ZMotion,float Limit) {}
 	public void GetLinearLimits(FConstraintInstanceAccessor Accessor,byte XMotion,byte YMotion,byte ZMotion,float Limit) {}
 	public void SetLinearSoftLimitParams(FConstraintInstanceAccessor Accessor,bool bSoftLinearLimit,float LinearLimitStiffness,float LinearLimitDamping,float LinearLimitRestitution,float LinearLimitContactDistance) {}
@@ -59,5 +59,5 @@ public partial class UConstraintInstanceBlueprintLibrary : UBlueprintFunctionLib
 	public void GetAngularVelocityTarget(FConstraintInstanceAccessor Accessor,FVector OutVelTarget) {}
 	public void SetAngularDriveParams(FConstraintInstanceAccessor Accessor,float PositionStrength,float VelocityStrength,float InForceLimit) {}
 	public void GetAngularDriveParams(FConstraintInstanceAccessor Accessor,float OutPositionStrength,float OutVelocityStrength,float OutForceLimit) {}
-	public void CopyParams(FConstraintInstanceAccessor Accessor,FConstraintInstanceAccessor SourceAccessor,bool bKeepPosition=true,bool bKeepRotation=true) {}
+	public void CopyParams(FConstraintInstanceAccessor Accessor,FConstraintInstanceAccessor SourceAccessor,bool bKeepPosition/*=true*/,bool bKeepRotation/*=true*/) {}
 }

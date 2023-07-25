@@ -7,7 +7,7 @@ public partial class UFileMediaOutput : UMediaOutput {
 // FileMediaOutput
 	public FImageWriteOptions WriteOptions;
 	public FDirectoryPath FilePath;
-	public sbyte BaseFileName;
+	public string BaseFileName;
 	public bool bOverrideDesiredSize;
 	public FIntPoint DesiredSize;
 	public bool bOverridePixelFormat;

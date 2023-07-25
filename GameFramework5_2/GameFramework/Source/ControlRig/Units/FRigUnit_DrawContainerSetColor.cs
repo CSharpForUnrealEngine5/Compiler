@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Set Imported Draw Container curve color</summary>
 public partial struct FRigUnit_DrawContainerSetColor {
 // RigUnit_DrawContainerSetColor
-	public sbyte InstructionName;
+	public string InstructionName;
 	public FLinearColor Color;
 }

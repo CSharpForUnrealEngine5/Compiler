@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FEditorScriptingMergeStaticMeshActorsOptions_Deprecated {
 // EditorScriptingMergeStaticMeshActorsOptions_Deprecated
 	public bool bSpawnMergedActor;
-	public sbyte BasePackageName;
+	public string BasePackageName;
 	public FMeshMergingSettings MeshMergingSettings;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraSpawnShortcut.h")]
 public partial struct FNiagaraSpawnShortcut {
 // NiagaraSpawnShortcut
-	public sbyte Name;
+	public string Name;
 	public FInputChord Input;
 }

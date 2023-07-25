@@ -6,11 +6,11 @@ public partial struct FCustomizableObjectClothingAssetData {
 // CustomizableObjectClothingAssetData
 	public TArray<FClothLODDataCommon> LodData;
 	public TArray<int> LodMap;
-	public TArray<sbyte> UsedBoneNames;
+	public TArray<string> UsedBoneNames;
 	public TArray<int> UsedBoneIndices;
 	public int ReferenceBoneIndex;
 	public TArray<FCustomizableObjectClothConfigData> ConfigsData;
-	public sbyte PhysicsAssetPath;
-	public sbyte Name;
+	public string PhysicsAssetPath;
+	public string Name;
 	public FGuid OriginalAssetGuid;
 }

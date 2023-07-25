@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Universal take recorder settings that apply to a whole take</summary>
 public partial class UMovieSceneTakeSettings : UObject {
 // MovieSceneTakeSettings
-	public sbyte HoursName;
-	public sbyte MinutesName;
-	public sbyte SecondsName;
-	public sbyte FramesName;
-	public sbyte SubFramesName;
-	public sbyte SlateName;
+	public string HoursName;
+	public string MinutesName;
+	public string SecondsName;
+	public string FramesName;
+	public string SubFramesName;
+	public string SlateName;
 }

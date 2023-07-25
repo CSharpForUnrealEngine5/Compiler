@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Grid/PCGLandscapeCache.h")]
 public partial class UPCGLandscapeCache : UObject {
 // PCGLandscapeCache
-	public TSet<sbyte> CachedLayerNames;
+	public TSet<string> CachedLayerNames;
 }

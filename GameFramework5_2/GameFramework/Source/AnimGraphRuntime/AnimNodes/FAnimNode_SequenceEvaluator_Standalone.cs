@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Sequence evaluator node that can be used standalone (without constant folding)</summary>
 public partial struct FAnimNode_SequenceEvaluator_Standalone {
 // AnimNode_SequenceEvaluator_Standalone
-	public sbyte GroupName;
+	public string GroupName;
 	public byte GroupRole;
 	public EAnimSyncMethod Method;
 	public bool bIgnoreForRelevancyTest;

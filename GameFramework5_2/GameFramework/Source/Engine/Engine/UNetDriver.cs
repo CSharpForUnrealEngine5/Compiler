@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/NetDriver.h")]
 public partial class UNetDriver : UObject {
 // NetDriver
-	public sbyte NetConnectionClassName;
-	public sbyte ReplicationDriverClassName;
-	public sbyte ReplicationBridgeClassName;
+	public string NetConnectionClassName;
+	public string ReplicationDriverClassName;
+	public string ReplicationBridgeClassName;
 	public int MaxDownloadSize;
 	public bool bClampListenServerTickRate;
 	public int NetServerMaxTickRate;
@@ -28,9 +28,9 @@ public partial class UNetDriver : UObject {
 	public UClass NetConnectionClass;
 	public UClass ReplicationDriverClass;
 	public UClass ReplicationBridgeClass;
-	public sbyte NetDriverName;
+	public string NetDriverName;
 	public TArray<FChannelDefinition> ChannelDefinitions;
-	public TMap<sbyte,FChannelDefinition> ChannelDefinitionMap;
+	public TMap<string,FChannelDefinition> ChannelDefinitionMap;
 	public TArray<UChannel> ActorChannelPool;
 	public bool bNoTimeouts;
 	public bool bNeverApplyNetworkEmulationSettings;

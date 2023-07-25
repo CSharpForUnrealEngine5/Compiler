@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ObjectTemplates/DatasmithMaterialInstanceTemplate.h")]
 public partial struct FDatasmithStaticParameterSetTemplate {
 // DatasmithStaticParameterSetTemplate
-	public TMap<sbyte,bool> StaticSwitchParameters;
+	public TMap<string,bool> StaticSwitchParameters;
 }

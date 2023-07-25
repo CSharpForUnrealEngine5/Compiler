@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraEventGeneratorProperties {
 // NiagaraEventGeneratorProperties
 	public int MaxEventsPerFrame;
-	public sbyte ID;
+	public string ID;
 	public FNiagaraDataSetCompiledData DataSetCompiledData;
 }

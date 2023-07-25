@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DisplayClusterConfigurationTypes_Base.h")]
 public partial struct FDisplayClusterConfigurationPolymorphicEntity {
 // DisplayClusterConfigurationPolymorphicEntity
-	public sbyte Type;
-	public TMap<sbyte,sbyte> Parameters;
+	public string Type;
+	public TMap<string,string> Parameters;
 	public bool bIsCustom;
 }

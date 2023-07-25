@@ -8,6 +8,6 @@ public partial class UAndroidSDKSettings : UObject {
 	public FDirectoryPath SDKPath;
 	public FDirectoryPath NDKPath;
 	public FDirectoryPath JavaPath;
-	public sbyte SDKAPILevel;
-	public sbyte NDKAPILevel;
+	public string SDKAPILevel;
+	public string NDKAPILevel;
 }

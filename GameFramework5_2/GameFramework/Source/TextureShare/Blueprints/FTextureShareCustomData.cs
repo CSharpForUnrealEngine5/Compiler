@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Custom data for sharing</summary>
 public partial struct FTextureShareCustomData {
 // TextureShareCustomData
-	public TMap<sbyte,sbyte> SendParameters;
-	public TMap<sbyte,sbyte> ReceivedParameters;
+	public TMap<string,string> SendParameters;
+	public TMap<string,string> ReceivedParameters;
 }

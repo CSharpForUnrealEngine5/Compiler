@@ -6,6 +6,6 @@ public partial class USourceFilterCollection : UDataAsset {
 // SourceFilterCollection
 	public TArray<UDataSourceFilter> Filters;
 	public TArray<FActorClassFilter> ClassFilters;
-	public TArray<sbyte> FilterClasses;
+	public TArray<string> FilterClasses;
 	public TMap<UDataSourceFilter,UDataSourceFilterSet> ChildToParent;
 }

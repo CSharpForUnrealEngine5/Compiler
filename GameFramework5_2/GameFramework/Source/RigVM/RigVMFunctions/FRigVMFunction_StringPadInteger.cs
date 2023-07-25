@@ -7,5 +7,5 @@ public partial struct FRigVMFunction_StringPadInteger {
 // RigVMFunction_StringPadInteger
 	public int Value;
 	public int Digits;
-	public sbyte Result;
+	public string Result;
 }

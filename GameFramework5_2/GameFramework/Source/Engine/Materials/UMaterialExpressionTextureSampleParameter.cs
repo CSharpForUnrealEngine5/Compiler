@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionTextureSampleParameter.h")]
 public partial class UMaterialExpressionTextureSampleParameter : UMaterialExpressionTextureSample {
 // MaterialExpressionTextureSampleParameter
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FGuid ExpressionGUID;
-	public sbyte Group;
+	public string Group;
 	public int SortPriority;
 	public FParameterChannelNames ChannelNames;
 }

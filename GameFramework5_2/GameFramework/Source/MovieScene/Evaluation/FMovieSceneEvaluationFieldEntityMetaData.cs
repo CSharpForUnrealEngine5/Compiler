@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Evaluation/MovieSceneEvaluationField.h")]
 public partial struct FMovieSceneEvaluationFieldEntityMetaData {
 // MovieSceneEvaluationFieldEntityMetaData
-	public sbyte OverrideBoundPropertyPath;
+	public string OverrideBoundPropertyPath;
 	public FFrameNumber ForcedTime;
 	public ESectionEvaluationFlags Flags;
 	public bool bEvaluateInSequencePreRoll;

@@ -6,12 +6,12 @@ using CSharpToCpp.Utilities;
 public partial class UTransferMeshToolProperties : UInteractiveToolPropertySet {
 // TransferMeshToolProperties
 	public bool bTransferMaterials;
-	public sbyte SourceLOD;
-	public sbyte TargetLOD;
+	public string SourceLOD;
+	public string TargetLOD;
 	public bool bIsStaticMeshSource;
-	public TArray<sbyte> GetSourceLODNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> SourceLODNamesList;
-	public TArray<sbyte> GetTargetLODNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> TargetLODNamesList;
+	public TArray<string> GetSourceLODNamesFunc() { return default; }
+	public TArray<string> SourceLODNamesList;
+	public TArray<string> GetTargetLODNamesFunc() { return default; }
+	public TArray<string> TargetLODNamesList;
 	public bool bIsStaticMeshTarget;
 }

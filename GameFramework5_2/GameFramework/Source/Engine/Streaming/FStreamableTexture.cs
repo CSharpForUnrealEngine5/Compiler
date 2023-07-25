@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Streaming/ActorTextureStreamingBuildDataComponent.h")]
 public partial struct FStreamableTexture {
 // StreamableTexture
-	public sbyte Name;
+	public string Name;
 	public FGuid Guid;
 }

@@ -8,5 +8,5 @@ public partial struct FSwarmAlertMessage {
 	public byte AlertLevel;
 	public FGuid ObjectGuid;
 	public int TypeId;
-	public sbyte TextMessage;
+	public string TextMessage;
 }

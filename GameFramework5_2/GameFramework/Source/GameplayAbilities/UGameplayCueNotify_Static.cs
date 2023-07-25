@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial class UGameplayCueNotify_Static : UObject {
 // GameplayCueNotify_Static
 	public void K2_HandleGameplayCue(UObject MyTarget,EGameplayCueEvent EventType,FGameplayCueParameters Parameters) {}
-	public bool OnExecute(UObject MyTarget,FGameplayCueParameters Parameters,bool ReturnValue) { return default; }
-	public bool OnActive(UObject MyTarget,FGameplayCueParameters Parameters,bool ReturnValue) { return default; }
-	public bool WhileActive(UObject MyTarget,FGameplayCueParameters Parameters,bool ReturnValue) { return default; }
-	public bool OnRemove(UObject MyTarget,FGameplayCueParameters Parameters,bool ReturnValue) { return default; }
+	public bool OnExecute(UObject MyTarget,FGameplayCueParameters Parameters) { return default; }
+	public bool OnActive(UObject MyTarget,FGameplayCueParameters Parameters) { return default; }
+	public bool WhileActive(UObject MyTarget,FGameplayCueParameters Parameters) { return default; }
+	public bool OnRemove(UObject MyTarget,FGameplayCueParameters Parameters) { return default; }
 	public FGameplayTag GameplayCueTag;
-	public sbyte GameplayCueName;
+	public string GameplayCueName;
 	public bool IsOverride;
 }

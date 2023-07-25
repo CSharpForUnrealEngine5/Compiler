@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Stage event to notify of TimecodeProvider state change</summary>
 public partial struct FTimecodeProviderStateEvent {
 // TimecodeProviderStateEvent
-	public sbyte ProviderName;
-	public sbyte ProviderType;
+	public string ProviderName;
+	public string ProviderType;
 	public FFrameRate FrameRate;
 	public ETimecodeProviderSynchronizationState NewState;
 }

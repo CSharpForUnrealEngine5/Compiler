@@ -9,7 +9,7 @@ public partial class UDEPRECATED_GoogleARCoreFaceMeshComponent : UProceduralMesh
 	public void UpdateMesh(TArray<FVector> Vertices) {}
 	public void SetAutoBind(bool bAutoBind) {}
 	public void BindARFaceGeometry(UObject FaceGeometry) {}
-	public FTransform GetTransform(FTransform ReturnValue) { return default; }
+	public FTransform GetTransform() { return default; }
 	public bool bWantsCollision;
 	public bool bAutoBindToLocalFaceMesh;
 	public EARCoreFaceComponentTransformMixing TransformSetting;

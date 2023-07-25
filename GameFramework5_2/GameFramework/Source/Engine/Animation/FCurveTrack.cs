@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Key frame curve data for one track</summary>
 public partial struct FCurveTrack {
 // CurveTrack
-	public sbyte CurveName;
+	public string CurveName;
 	public TArray<float> CurveWeights;
 }

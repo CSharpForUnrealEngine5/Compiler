@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Particles/Location/ParticleModuleLocationEmitterDirect.h")]
 public partial class UParticleModuleLocationEmitterDirect : UParticleModuleLocationBase {
 // ParticleModuleLocationEmitterDirect
-	public sbyte EmitterName;
+	public string EmitterName;
 }

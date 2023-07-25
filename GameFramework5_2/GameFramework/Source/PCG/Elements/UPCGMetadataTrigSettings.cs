@@ -7,6 +7,6 @@ public partial class UPCGMetadataTrigSettings : UPCGMetadataSettingsBase {
 	public EPCGMedadataTrigOperation Operation;
 	public FPCGAttributePropertySelector InputSource1;
 	public FPCGAttributePropertySelector InputSource2;
-	public sbyte Input1AttributeName_DEPRECATED;
-	public sbyte Input2AttributeName_DEPRECATED;
+	public string Input1AttributeName_DEPRECATED;
+	public string Input2AttributeName_DEPRECATED;
 }

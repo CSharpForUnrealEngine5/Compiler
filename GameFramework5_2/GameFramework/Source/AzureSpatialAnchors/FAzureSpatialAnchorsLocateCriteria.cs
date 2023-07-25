@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FAzureSpatialAnchorsLocateCriteria {
 // AzureSpatialAnchorsLocateCriteria
 	public bool bBypassCache;
-	public TArray<sbyte> Identifiers;
+	public TArray<string> Identifiers;
 	public UAzureCloudSpatialAnchor NearAnchor;
 	public float NearAnchorDistance;
 	public int NearAnchorMaxResultCount;

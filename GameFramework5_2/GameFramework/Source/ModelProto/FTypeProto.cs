@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FTypeProto {
 // TypeProto
 	public FTypeProtoTensor TensorType;
-	public sbyte Denotation;
+	public string Denotation;
 }

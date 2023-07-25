@@ -4,19 +4,19 @@ using CSharpToCpp.Utilities;
 [CppInclude("GeneralProjectSettings.h")]
 public partial class UGeneralProjectSettings : UObject {
 // GeneralProjectSettings
-	public sbyte CompanyName;
-	public sbyte CompanyDistinguishedName;
-	public sbyte CopyrightNotice;
-	public sbyte Description;
-	public sbyte Homepage;
-	public sbyte LicensingTerms;
-	public sbyte PrivacyPolicy;
+	public string CompanyName;
+	public string CompanyDistinguishedName;
+	public string CopyrightNotice;
+	public string Description;
+	public string Homepage;
+	public string LicensingTerms;
+	public string PrivacyPolicy;
 	public FGuid ProjectID;
-	public sbyte ProjectName;
-	public sbyte ProjectVersion;
-	public sbyte SupportContact;
-	public sbyte ProjectDisplayedTitle;
-	public sbyte ProjectDebugTitleInfo;
+	public string ProjectName;
+	public string ProjectVersion;
+	public string SupportContact;
+	public string ProjectDisplayedTitle;
+	public string ProjectDebugTitleInfo;
 	public bool bShouldWindowPreserveAspectRatio;
 	public bool bUseBorderlessWindow;
 	public bool bStartInVR;

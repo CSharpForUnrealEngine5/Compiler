@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FFullyLoadedPackagesInfo {
 // FullyLoadedPackagesInfo
 	public byte FullyLoadType;
-	public sbyte Tag;
-	public TArray<sbyte> PackagesToLoad;
+	public string Tag;
+	public TArray<string> PackagesToLoad;
 	public TArray<UObject> LoadedObjects;
 }

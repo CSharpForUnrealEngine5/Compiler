@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 public partial class UCustomizableObjectNodeProjectorParameter : UCustomizableObjectNode {
 // CustomizableObjectNodeProjectorParameter
 	public FCustomizableObjectProjector DefaultValue;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMutableParamUIMetadata ParamUIMetadata;
 	public ECustomizableObjectProjectorType ProjectionType;
 	public float ProjectionAngle;
 	public uint ReferenceSkeletonIndex;
-	public sbyte ProjectorBone;
+	public string ProjectorBone;
 }

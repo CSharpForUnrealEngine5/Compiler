@@ -9,15 +9,15 @@ public partial class UMediaSoundComponent : USynthComponent {
 	public bool DynamicRateAdjustment;
 	public float RateAdjustmentFactor;
 	public FFloatRange RateAdjustmentRange;
-	public bool BP_GetAttenuationSettingsToApply(FSoundAttenuationSettings OutAttenuationSettings,bool ReturnValue) { return default; }
-	public UObject GetMediaPlayer(UObject ReturnValue) { return default; }
+	public bool BP_GetAttenuationSettingsToApply(FSoundAttenuationSettings OutAttenuationSettings) { return default; }
+	public UObject GetMediaPlayer() { return default; }
 	public void SetMediaPlayer(UObject NewMediaPlayer) {}
 	public void SetEnableSpectralAnalysis(bool bInSpectralAnalysisEnabled) {}
-	public void SetSpectralAnalysisSettings(TArray<float> InFrequenciesToAnalyze,EMediaSoundComponentFFTSize InFFTSize=EMediaSoundComponentFFTSize) {}
-	public TArray<FMediaSoundComponentSpectralData> GetSpectralData(TArray<FMediaSoundComponentSpectralData> ReturnValue) { return default; }
-	public TArray<FMediaSoundComponentSpectralData> GetNormalizedSpectralData(TArray<FMediaSoundComponentSpectralData> ReturnValue) { return default; }
+	public void SetSpectralAnalysisSettings(TArray<float> InFrequenciesToAnalyze,EMediaSoundComponentFFTSize InFFTSize/*=EMediaSoundComponentFFTSize.Medium_512*/) {}
+	public TArray<FMediaSoundComponentSpectralData> GetSpectralData() { return default; }
+	public TArray<FMediaSoundComponentSpectralData> GetNormalizedSpectralData() { return default; }
 	public void SetEnableEnvelopeFollowing(bool bInEnvelopeFollowing) {}
 	public void SetEnvelopeFollowingsettings(int AttackTimeMsec,int ReleaseTimeMsec) {}
-	public float GetEnvelopeValue(float ReturnValue) { return default; }
+	public float GetEnvelopeValue() { return default; }
 	public UMediaPlayer MediaPlayer;
 }

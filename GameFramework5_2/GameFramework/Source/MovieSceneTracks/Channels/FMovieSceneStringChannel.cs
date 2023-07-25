@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FMovieSceneStringChannel {
 // MovieSceneStringChannel
 	public TArray<FFrameNumber> Times;
-	public TArray<sbyte> Values;
-	public sbyte DefaultValue;
+	public TArray<string> Values;
+	public string DefaultValue;
 	public bool bHasDefaultValue;
 	public FMovieSceneKeyHandleMap KeyHandles;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertMessageData.h")]
 public partial struct FConcertSessionSerializedPayload {
 // ConcertSessionSerializedPayload
-	public sbyte PayloadTypeName;
+	public string PayloadTypeName;
 	public EConcertPayloadSerializationMethod SerializationMethod;
 	public EConcertCompressionDetails PayloadCompressionDetails;
 	public int PayloadSize;

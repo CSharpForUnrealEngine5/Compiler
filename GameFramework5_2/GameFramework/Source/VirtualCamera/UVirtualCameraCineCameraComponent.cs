@@ -7,7 +7,7 @@ public partial class UVirtualCameraCineCameraComponent : UCineCameraComponent {
 	public TArray<float> ApertureOptions;
 	public TArray<float> FocalLengthOptions;
 	public TArray<float> MatteOptions;
-	public TMap<sbyte,FCameraFilmbackSettings> FilmbackOptions;
+	public TMap<string,FCameraFilmbackSettings> FilmbackOptions;
 	public FCameraFilmbackSettings DesiredFilmbackSettings;
 	public float MatteAspectRatio;
 	public float MatteOpacity;

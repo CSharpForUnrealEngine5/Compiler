@@ -8,7 +8,7 @@ public partial struct FGameplayCueNotify_ForceFeedbackInfo {
 	public FGameplayCueNotify_SpawnCondition SpawnConditionOverride;
 	public FGameplayCueNotify_PlacementInfo PlacementInfoOverride;
 	public UForceFeedbackEffect ForceFeedbackEffect;
-	public sbyte ForceFeedbackTag;
+	public string ForceFeedbackTag;
 	public bool bIsLooping;
 	public bool bOverrideSpawnCondition;
 	public bool bOverridePlacementInfo;

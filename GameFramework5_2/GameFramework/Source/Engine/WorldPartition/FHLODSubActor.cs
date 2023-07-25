@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial struct FHLODSubActor {
 // HLODSubActor
 	public FGuid ActorGuid;
-	public sbyte ActorPackage;
-	public sbyte ActorPath;
+	public string ActorPackage;
+	public string ActorPath;
 	public FActorContainerID ContainerID;
-	public sbyte ContainerPackage;
+	public string ContainerPackage;
 	public FTransform ContainerTransform;
 }

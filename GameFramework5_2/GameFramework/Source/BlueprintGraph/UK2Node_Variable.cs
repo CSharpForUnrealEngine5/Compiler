@@ -7,6 +7,6 @@ public partial class UK2Node_Variable : UK2Node {
 	public FMemberReference VariableReference;
 	public byte SelfContextInfo;
 	public UClass VariableSourceClass_DEPRECATED;
-	public sbyte VariableName_DEPRECATED;
+	public string VariableName_DEPRECATED;
 	public bool bSelfContext_DEPRECATED;
 }

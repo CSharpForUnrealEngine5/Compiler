@@ -12,7 +12,7 @@ public partial struct FContextualAnimTrack {
 	public FContextualAnimAlignmentTrackContainer IKTargetData;
 	public TArray<UContextualAnimSelectionCriterion> SelectionCriteria;
 	public FTransform MeshToScene;
-	public sbyte Role;
+	public string Role;
 	public int SectionIdx;
 	public int AnimSetIdx;
 	public int AnimTrackIdx;

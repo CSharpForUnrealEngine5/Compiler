@@ -8,10 +8,10 @@ public partial struct FSlateFontInfo {
 	public UObject FontObject;
 	public UObject FontMaterial;
 	public FFontOutlineSettings OutlineSettings;
-	public sbyte TypefaceFontName;
+	public string TypefaceFontName;
 	public int Size;
 	public int LetterSpacing;
 	public float SkewAmount;
-	public sbyte FontName_DEPRECATED;
+	public string FontName_DEPRECATED;
 	public EFontHinting Hinting_DEPRECATED;
 }

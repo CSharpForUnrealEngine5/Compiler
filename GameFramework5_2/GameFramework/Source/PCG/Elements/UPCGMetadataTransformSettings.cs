@@ -9,7 +9,7 @@ public partial class UPCGMetadataTransformSettings : UPCGMetadataSettingsBase {
 	public FPCGAttributePropertySelector InputSource1;
 	public FPCGAttributePropertySelector InputSource2;
 	public FPCGAttributePropertySelector InputSource3;
-	public sbyte Input1AttributeName_DEPRECATED;
-	public sbyte Input2AttributeName_DEPRECATED;
-	public sbyte Input3AttributeName_DEPRECATED;
+	public string Input1AttributeName_DEPRECATED;
+	public string Input2AttributeName_DEPRECATED;
+	public string Input3AttributeName_DEPRECATED;
 }

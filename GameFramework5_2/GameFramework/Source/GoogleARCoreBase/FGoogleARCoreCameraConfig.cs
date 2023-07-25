@@ -7,7 +7,7 @@ public partial struct FGoogleARCoreCameraConfig {
 // GoogleARCoreCameraConfig
 	public FIntPoint CameraImageResolution;
 	public FIntPoint CameraTextureResolution;
-	public sbyte CameraID;
+	public string CameraID;
 	public int TargetFPS;
 	public int DepthSensorUsage;
 }

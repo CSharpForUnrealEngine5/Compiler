@@ -7,7 +7,7 @@ public partial struct FKShapeElem {
 // KShapeElem
 	public float RestOffset;
 	public bool bIsGenerated;
-	public sbyte Name;
+	public string Name;
 	public bool bContributeToMass;
 	public byte CollisionEnabled;
 }

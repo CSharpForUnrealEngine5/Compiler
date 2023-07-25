@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ComputeFramework/ComputeKernelPermutationVector.h")]
 public partial struct FComputeKernelPermutationVector {
 // ComputeKernelPermutationVector
-	public TMap<sbyte,uint> Permutations;
+	public TMap<string,uint> Permutations;
 	public uint BitCount;
 }

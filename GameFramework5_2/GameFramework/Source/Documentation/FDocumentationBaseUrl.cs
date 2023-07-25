@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("DocumentationSettings.h")]
 public partial struct FDocumentationBaseUrl {
 // DocumentationBaseUrl
-	public sbyte Id;
-	public sbyte Url;
+	public string Id;
+	public string Url;
 }

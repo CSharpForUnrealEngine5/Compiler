@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Snapshot of source control state of a file</summary>
 public partial struct FSourceControlState {
 // SourceControlState
-	public sbyte Filename;
+	public string Filename;
 	public bool bIsValid;
 	public bool bIsUnknown;
 	public bool bCanCheckIn;
@@ -23,5 +23,5 @@ public partial struct FSourceControlState {
 	public bool bIsConflicted;
 	public bool bCanRevert;
 	public bool bIsCheckedOutOther;
-	public sbyte CheckedOutOther;
+	public string CheckedOutOther;
 }

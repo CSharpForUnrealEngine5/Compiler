@@ -7,10 +7,10 @@ public partial class UPhysicsAsset : UObject {
 // PhysicsAsset
 	public USkeletalMesh DefaultSkelMesh_DEPRECATED;
 	public TSoftObjectPtr<USkeletalMesh> PreviewSkeletalMesh;
-	public TArray<sbyte> PhysicalAnimationProfiles;
-	public TArray<sbyte> ConstraintProfiles;
-	public sbyte CurrentPhysicalAnimationProfileName;
-	public sbyte CurrentConstraintProfileName;
+	public TArray<string> PhysicalAnimationProfiles;
+	public TArray<string> ConstraintProfiles;
+	public string CurrentPhysicalAnimationProfileName;
+	public string CurrentConstraintProfileName;
 	public TArray<int> BoundsBodies;
 	public TArray<USkeletalBodySetup> SkeletalBodySetups;
 	public TArray<UPhysicsConstraintTemplate> ConstraintSetup;
@@ -19,8 +19,8 @@ public partial class UPhysicsAsset : UObject {
 	public EPhysicsAssetSolverType SolverType;
 	public bool bNotForDedicatedServer;
 	public UThumbnailInfo ThumbnailInfo;
-	public FConstraintInstanceAccessor GetConstraintByName(sbyte ConstraintName,FConstraintInstanceAccessor ReturnValue) { return default; }
-	public FConstraintInstanceAccessor GetConstraintByBoneNames(sbyte Bone1Name,sbyte Bone2Name,FConstraintInstanceAccessor ReturnValue) { return default; }
+	public FConstraintInstanceAccessor GetConstraintByName(string ConstraintName) { return default; }
+	public FConstraintInstanceAccessor GetConstraintByBoneNames(string Bone1Name,string Bone2Name) { return default; }
 	public void GetConstraints(bool bIncludesTerminated,TArray<FConstraintInstanceAccessor> OutConstraints) {}
 	public TArray<UBodySetup> BodySetup_DEPRECATED;
 }

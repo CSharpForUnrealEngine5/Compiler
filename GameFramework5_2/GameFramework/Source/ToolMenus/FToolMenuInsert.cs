@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ToolMenuMisc.h")]
 public partial struct FToolMenuInsert {
 // ToolMenuInsert
-	public sbyte Name;
+	public string Name;
 	public EToolMenuInsertType Position;
 }

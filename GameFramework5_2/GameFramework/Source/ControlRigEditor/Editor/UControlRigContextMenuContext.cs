@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("Editor/ControlRigContextMenuContext.h")]
 public partial class UControlRigContextMenuContext : UObject {
 // ControlRigContextMenuContext
-	public UObject GetControlRigBlueprint(UObject ReturnValue) { return default; }
-	public UObject GetControlRig(UObject ReturnValue) { return default; }
-	public bool IsAltDown(bool ReturnValue) { return default; }
-	public FControlRigRigHierarchyDragAndDropContext GetRigHierarchyDragAndDropContext(FControlRigRigHierarchyDragAndDropContext ReturnValue) { return default; }
-	public FControlRigGraphNodeContextMenuContext GetGraphNodeContextMenuContext(FControlRigGraphNodeContextMenuContext ReturnValue) { return default; }
-	public FControlRigRigHierarchyToGraphDragAndDropContext GetRigHierarchyToGraphDragAndDropContext(FControlRigRigHierarchyToGraphDragAndDropContext ReturnValue) { return default; }
+	public UObject GetControlRigBlueprint() { return default; }
+	public UObject GetControlRig() { return default; }
+	public bool IsAltDown() { return default; }
+	public FControlRigRigHierarchyDragAndDropContext GetRigHierarchyDragAndDropContext() { return default; }
+	public FControlRigGraphNodeContextMenuContext GetGraphNodeContextMenuContext() { return default; }
+	public FControlRigRigHierarchyToGraphDragAndDropContext GetRigHierarchyToGraphDragAndDropContext() { return default; }
 }

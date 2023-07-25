@@ -7,11 +7,11 @@ public partial struct FWebAPICodeGeneratorSettings {
 // WebAPICodeGeneratorSettings
 	public bool bOverrideGeneratorClass;
 	public TSoftObjectPtr<UClass> CodeGeneratorClass;
-	public sbyte CopyrightNotice;
+	public string CopyrightNotice;
 	public FWebAPIDefinitionTargetModule TargetModule;
-	public sbyte ModelOutputPath;
-	public sbyte OperationOutputPath;
+	public string ModelOutputPath;
+	public string OperationOutputPath;
 	public TSoftObjectPtr<UClass> GeneratedSettingsBaseClass;
 	public bool bWriteResult;
-	public sbyte Namespace;
+	public string Namespace;
 }

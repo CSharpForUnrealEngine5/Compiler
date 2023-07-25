@@ -6,7 +6,7 @@ public partial class UMaterialExpressionLandscapeLayerWeight : UMaterialExpressi
 // MaterialExpressionLandscapeLayerWeight
 	public FExpressionInput Base;
 	public FExpressionInput Layer;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public float PreviewWeight;
 	public FVector ConstBase;
 }

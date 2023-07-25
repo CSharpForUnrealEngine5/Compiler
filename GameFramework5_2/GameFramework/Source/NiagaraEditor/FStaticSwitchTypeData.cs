@@ -6,7 +6,7 @@ public partial struct FStaticSwitchTypeData {
 // StaticSwitchTypeData
 	public ENiagaraStaticSwitchType SwitchType;
 	public UEnum Enum;
-	public sbyte SwitchConstant;
+	public string SwitchConstant;
 	public bool bAutoRefreshEnabled;
 	public bool bExposeAsPin;
 }

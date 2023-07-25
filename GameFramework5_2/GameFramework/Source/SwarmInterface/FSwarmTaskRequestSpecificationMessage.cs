@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FSwarmTaskRequestSpecificationMessage {
 // SwarmTaskRequestSpecificationMessage
 	public FGuid TaskGuid;
-	public sbyte Parameters;
+	public string Parameters;
 	public byte Flags;
 	public uint Cost;
-	public TArray<sbyte> Dependencies;
+	public TArray<string> Dependencies;
 }

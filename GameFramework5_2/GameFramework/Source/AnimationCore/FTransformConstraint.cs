@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FTransformConstraint {
 // TransformConstraint
 	public FConstraintDescription Operator;
-	public sbyte SourceNode;
-	public sbyte TargetNode;
+	public string SourceNode;
+	public string TargetNode;
 	public float Weight;
 	public bool bMaintainOffset;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/Engine.h")]
 public partial struct FPluginRedirect {
 // PluginRedirect
-	public sbyte OldPluginName;
-	public sbyte NewPluginName;
+	public string OldPluginName;
+	public string NewPluginName;
 }

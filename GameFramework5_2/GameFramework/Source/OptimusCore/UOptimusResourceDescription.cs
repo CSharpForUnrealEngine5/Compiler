@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusResourceDescription.h")]
 public partial class UOptimusResourceDescription : UObject {
 // OptimusResourceDescription
-	public sbyte ResourceName;
+	public string ResourceName;
 	public FOptimusDataTypeRef DataType;
 	public TWeakObjectPtr<UOptimusComponentSourceBinding> ComponentBinding;
 	public FOptimusDataDomain DataDomain;

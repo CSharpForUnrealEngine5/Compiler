@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Editable text box widget</summary>
 public partial class UMultiLineEditableText : UTextLayoutWidget {
 // MultiLineEditableText
-	public void FOnMultiLineEditableTextChangedEvent(sbyte Text) {}
-	public void FOnMultiLineEditableTextCommittedEvent(sbyte Text,ETextCommit CommitMethod) {}
-	public sbyte Text;
-	public sbyte HintText;
+	public void FOnMultiLineEditableTextChangedEvent(string Text) {}
+	public void FOnMultiLineEditableTextCommittedEvent(string Text,ETextCommit CommitMethod) {}
+	public string Text;
+	public string HintText;
 	public FGetText HintTextDelegate;
 	public FTextBlockStyle WidgetStyle;
 	public bool bIsReadOnly;
@@ -21,13 +21,13 @@ public partial class UMultiLineEditableText : UTextLayoutWidget {
 	public EVirtualKeyboardDismissAction VirtualKeyboardDismissAction;
 	public FOnMultiLineEditableTextChangedEvent OnTextChanged;
 	public FOnMultiLineEditableTextCommittedEvent OnTextCommitted;
-	public sbyte GetText(sbyte ReturnValue) { return default; }
-	public void SetText(sbyte InText) {}
-	public sbyte GetHintText(sbyte ReturnValue) { return default; }
-	public void SetHintText(sbyte InHintText) {}
+	public string GetText() { return default; }
+	public void SetText(string InText) {}
+	public string GetHintText() { return default; }
+	public void SetHintText(string InHintText) {}
 	public void SetIsReadOnly(bool bReadOnly) {}
 	public void SetWidgetStyle(FTextBlockStyle InWidgetStyle) {}
-	public FSlateFontInfo GetFont(FSlateFontInfo ReturnValue) { return default; }
+	public FSlateFontInfo GetFont() { return default; }
 	public void SetFont(FSlateFontInfo InFontInfo) {}
 	public void SetFontMaterial(UObject InMaterial) {}
 	public void SetFontOutlineMaterial(UObject InMaterial) {}

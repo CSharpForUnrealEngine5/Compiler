@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FPluginTemplateData {
 // PluginTemplateData
 	public FDirectoryPath Path;
-	public sbyte Label;
-	public sbyte Description;
+	public string Label;
+	public string Description;
 	public UClass DefaultGameFeatureDataClass;
-	public sbyte DefaultGameFeatureDataName;
+	public string DefaultGameFeatureDataName;
 	public bool bIsEnabledByDefault;
 }

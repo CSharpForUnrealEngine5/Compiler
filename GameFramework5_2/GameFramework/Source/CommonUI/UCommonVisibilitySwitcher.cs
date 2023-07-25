@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial class UCommonVisibilitySwitcher : UOverlay {
 // CommonVisibilitySwitcher
 	public void SetActiveWidgetIndex(int Index) {}
-	public int GetActiveWidgetIndex(int ReturnValue) { return default; }
-	public UObject GetActiveWidget(UObject ReturnValue) { return default; }
+	public int GetActiveWidgetIndex() { return default; }
+	public UObject GetActiveWidget() { return default; }
 	public void SetActiveWidget(UObject Widget) {}
-	public void IncrementActiveWidgetIndex(bool bAllowWrapping=true) {}
-	public void DecrementActiveWidgetIndex(bool bAllowWrapping=true) {}
+	public void IncrementActiveWidgetIndex(bool bAllowWrapping/*=true*/) {}
+	public void DecrementActiveWidgetIndex(bool bAllowWrapping/*=true*/) {}
 	public void ActivateVisibleSlot() {}
 	public void DeactivateVisibleSlot() {}
 	public ESlateVisibility ShownVisibility;

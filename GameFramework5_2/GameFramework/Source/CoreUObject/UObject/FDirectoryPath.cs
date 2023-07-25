@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure for directory paths that are displayed in the editor with a picker UI.</summary>
 public partial struct FDirectoryPath {
 // DirectoryPath
-	public sbyte Path;
+	public string Path;
 }

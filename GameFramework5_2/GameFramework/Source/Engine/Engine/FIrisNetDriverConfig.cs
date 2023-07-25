@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct used to configure which NetDriver is started with Iris enabled or not</summary>
 public partial struct FIrisNetDriverConfig {
 // IrisNetDriverConfig
-	public sbyte NetDriverDefinition;
-	public sbyte NetDriverName;
-	public sbyte NetDriverWildcardName;
+	public string NetDriverDefinition;
+	public string NetDriverName;
+	public string NetDriverWildcardName;
 	public bool bEnableIris;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Utilities/VersionInfoHandler.h")]
 public partial class UVersionInfoHandler : UObject {
 // VersionInfoHandler
-	public UObject Get(UObject ReturnValue) { return default; }
+	public UObject Get() { return default; }
 	public FVersionData CommonVersionData;
 }

@@ -17,7 +17,7 @@ public partial class UEditorSettings : UObject {
 	public bool bLoadTheMostRecentlyLoadedProjectAtStartup;
 	public bool bEditorAnalyticsEnabled_DEPRECATED;
 	public TArray<FRecentProjectFile> RecentlyOpenedProjectFiles;
-	public TArray<sbyte> CreatedProjectPaths;
+	public TArray<string> CreatedProjectPaths;
 	public bool bCopyStarterContentPreference;
 	public TArray<FGuid> CompletedSurveys;
 	public TArray<FGuid> InProgressSurveys;

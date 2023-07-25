@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithMeshUObject.h")]
 public partial class UDatasmithMesh : UObject {
 // DatasmithMesh
-	public sbyte MeshName;
+	public string MeshName;
 	public bool bIsCollisionMesh;
 	public TArray<FDatasmithMeshSourceModel> SourceModels;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Crossfades between different sounds based on a parameter</summary>
 public partial class USoundNodeParamCrossFade : USoundNodeDistanceCrossFade {
 // SoundNodeParamCrossFade
-	public sbyte ParamName;
+	public string ParamName;
 }

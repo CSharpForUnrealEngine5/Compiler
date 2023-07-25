@@ -7,6 +7,6 @@ public partial class UCompositingElementMaterialPass : UCompositingPostProcessPa
 // CompositingElementMaterialPass
 	public FCompositingMaterial Material;
 	public void SetMaterialInterface(UObject NewMaterial) {}
-	public bool SetParameterMapping(sbyte TextureParamName,sbyte ComposureLayerName,bool ReturnValue) { return default; }
+	public bool SetParameterMapping(string TextureParamName,string ComposureLayerName) { return default; }
 	public void ApplyMaterialParams(UObject MID) {}
 }

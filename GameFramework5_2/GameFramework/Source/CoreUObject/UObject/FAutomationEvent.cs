@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FAutomationEvent {
 // AutomationEvent
 	public EAutomationEventType Type;
-	public sbyte Message;
-	public sbyte Context;
+	public string Message;
+	public string Context;
 	public FGuid Artifact;
 }

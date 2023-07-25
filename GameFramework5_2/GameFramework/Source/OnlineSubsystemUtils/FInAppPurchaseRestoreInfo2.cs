@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Micro-transaction purchase information</summary>
 public partial struct FInAppPurchaseRestoreInfo2 {
 // InAppPurchaseRestoreInfo2
-	public sbyte ItemName;
-	public sbyte ItemId;
-	public sbyte ValidationInfo;
+	public string ItemName;
+	public string ItemId;
+	public string ValidationInfo;
 }

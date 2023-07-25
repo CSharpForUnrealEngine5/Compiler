@@ -7,9 +7,9 @@ public partial struct FConcertSerializedObjectData {
 	public bool bAllowCreate;
 	public bool bResetExisting;
 	public bool bIsPendingKill;
-	public sbyte NewPackageName;
-	public sbyte NewName;
-	public sbyte NewOuterPathName;
-	public sbyte NewExternalPackageName;
+	public string NewPackageName;
+	public string NewName;
+	public string NewOuterPathName;
+	public string NewExternalPackageName;
 	public TArray<byte> SerializedData;
 }

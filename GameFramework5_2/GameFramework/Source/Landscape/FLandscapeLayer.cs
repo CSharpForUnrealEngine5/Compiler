@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FLandscapeLayer {
 // LandscapeLayer
 	public FGuid Guid;
-	public sbyte Name;
+	public string Name;
 	public bool bVisible;
 	public bool bLocked;
 	public float HeightmapAlpha;

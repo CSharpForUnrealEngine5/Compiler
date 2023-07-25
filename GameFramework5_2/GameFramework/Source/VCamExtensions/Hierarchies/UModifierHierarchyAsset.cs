@@ -6,10 +6,10 @@ using CSharpToCpp.Utilities;
 public partial class UModifierHierarchyAsset : UObject {
 // ModifierHierarchyAsset
 	public UModifierHierarchyRules Rules;
-	public sbyte GetRootNode(sbyte ReturnValue) { return default; }
-	public bool GetParentNode(sbyte ChildNode,sbyte ParentNode,bool ReturnValue) { return default; }
-	public TSet<sbyte> GetChildNodes(sbyte ParentGroup,TSet<sbyte> ReturnValue) { return default; }
-	public UObject GetModifierInNode(UObject Component,sbyte GroupName,UObject ReturnValue) { return default; }
-	public bool GetConnectionPointTargetForNode(sbyte GroupName,UObject Component,FVCamModifierConnectionBinding Connection,bool ReturnValue) { return default; }
-	public TSet<sbyte> GetGroupsContainingModifier(UObject Modifier,TSet<sbyte> ReturnValue) { return default; }
+	public string GetRootNode() { return default; }
+	public bool GetParentNode(string ChildNode,string ParentNode) { return default; }
+	public TSet<string> GetChildNodes(string ParentGroup) { return default; }
+	public UObject GetModifierInNode(UObject Component,string GroupName) { return default; }
+	public bool GetConnectionPointTargetForNode(string GroupName,UObject Component,FVCamModifierConnectionBinding Connection) { return default; }
+	public TSet<string> GetGroupsContainingModifier(UObject Modifier) { return default; }
 }

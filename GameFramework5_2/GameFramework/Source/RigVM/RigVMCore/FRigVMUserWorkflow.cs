@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigVMCore/RigVMUserWorkflow.h")]
 public partial struct FRigVMUserWorkflow {
 // RigVMUserWorkflow
-	public sbyte Title;
-	public sbyte Tooltip;
+	public string Title;
+	public string Tooltip;
 	public ERigVMUserWorkflowType Type;
 	public FRigVMPeformUserWorkflowDynamicDelegate PerformDynamicDelegate;
 	public UClass OptionsClass;

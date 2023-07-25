@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("SequenceRecorderActorGroup.h")]
 public partial class USequenceRecorderActorGroup : UObject {
 // SequenceRecorderActorGroup
-	public sbyte GroupName;
-	public sbyte SequenceName;
+	public string GroupName;
+	public string SequenceName;
 	public FDirectoryPath SequenceRecordingBasePath;
 	public bool bSpecifyTargetLevelSequence;
 	public ULevelSequence TargetLevelSequence;

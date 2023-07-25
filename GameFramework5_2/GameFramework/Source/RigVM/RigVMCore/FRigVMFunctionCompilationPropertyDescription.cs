@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigVMCore/RigVMGraphFunctionDefinition.h")]
 public partial struct FRigVMFunctionCompilationPropertyDescription {
 // RigVMFunctionCompilationPropertyDescription
-	public sbyte Name;
-	public sbyte CPPType;
+	public string Name;
+	public string CPPType;
 	public TSoftObjectPtr<UObject> CPPTypeObject;
-	public sbyte DefaultValue;
+	public string DefaultValue;
 }

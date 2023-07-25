@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("PortalUserMessages.h")]
 public partial struct FPortalUserIsEntitledToItemRequest {
 // PortalUserIsEntitledToItemRequest
-	public sbyte ItemId;
+	public string ItemId;
 	public EEntitlementCacheLevelRequest CacheLevel;
 }

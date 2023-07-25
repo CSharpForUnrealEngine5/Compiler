@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Container for detailing collision automated test data.</summary>
 public partial class UFbxTestPlan : UObject {
 // FbxTestPlan
-	public sbyte TestPlanName;
+	public string TestPlanName;
 	public byte Action;
 	public int LodIndex;
 	public bool bDeleteFolderAssets;

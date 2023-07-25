@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionFunctionOutput.h")]
 public partial class UMaterialExpressionFunctionOutput : UMaterialExpression {
 // MaterialExpressionFunctionOutput
-	public sbyte OutputName;
-	public sbyte Description;
+	public string OutputName;
+	public string Description;
 	public int SortPriority;
 	public FExpressionInput A;
 	public bool bLastPreviewed;

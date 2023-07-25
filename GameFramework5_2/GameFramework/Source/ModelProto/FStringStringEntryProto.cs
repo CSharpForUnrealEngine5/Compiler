@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Level 7 - FStringStringEntryProto</summary>
 public partial struct FStringStringEntryProto {
 // StringStringEntryProto
-	public sbyte Key;
-	public sbyte Value;
+	public string Key;
+	public string Value;
 }

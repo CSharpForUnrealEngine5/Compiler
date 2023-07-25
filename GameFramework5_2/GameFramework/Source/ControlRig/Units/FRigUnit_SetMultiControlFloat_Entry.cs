@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Units/Hierarchy/RigUnit_SetControlTransform.h")]
 public partial struct FRigUnit_SetMultiControlFloat_Entry {
 // RigUnit_SetMultiControlFloat_Entry
-	public sbyte Control;
+	public string Control;
 	public float FloatValue;
 }

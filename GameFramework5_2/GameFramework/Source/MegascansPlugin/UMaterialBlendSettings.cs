@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MSSettings.h")]
 public partial class UMaterialBlendSettings : UObject {
 // MaterialBlendSettings
-	public sbyte BlendedMaterialName;
+	public string BlendedMaterialName;
 	public FDirectoryPath BlendedMaterialPath;
 }

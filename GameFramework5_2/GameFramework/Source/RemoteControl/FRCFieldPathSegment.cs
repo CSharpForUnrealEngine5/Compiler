@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>RemoteControl Path segment holding a property layer</summary>
 public partial struct FRCFieldPathSegment {
 // RCFieldPathSegment
-	public sbyte Name;
+	public string Name;
 	public int ArrayIndex;
-	public sbyte ValuePropertyName;
-	public sbyte MapKey;
+	public string ValuePropertyName;
+	public string MapKey;
 }

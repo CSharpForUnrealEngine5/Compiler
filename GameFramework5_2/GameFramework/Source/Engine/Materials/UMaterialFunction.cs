@@ -6,13 +6,13 @@ using CSharpToCpp.Utilities;
 public partial class UMaterialFunction : UMaterialFunctionInterface {
 // MaterialFunction
 	public UMaterialFunction ParentFunction;
-	public sbyte Description;
+	public string Description;
 	public bool bExposeToLibrary;
 	public bool bPrefixParameterNames;
 	public bool bEnableExecWire;
 	public bool bEnableNewHLSLGenerator;
-	public TArray<sbyte> LibraryCategories_DEPRECATED;
-	public TArray<sbyte> LibraryCategoriesText;
+	public TArray<string> LibraryCategories_DEPRECATED;
+	public TArray<string> LibraryCategoriesText;
 	public UMaterial PreviewMaterial;
 	public TArray<UMaterialExpressionMaterialFunctionCall> DependentFunctionExpressionCandidates;
 	public byte PreviewBlendMode;

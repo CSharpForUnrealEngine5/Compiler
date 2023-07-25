@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for rebooting a target device.</summary>
 public partial struct FTargetDeviceServiceReboot {
 // TargetDeviceServiceReboot
-	public sbyte Operator;
+	public string Operator;
 }

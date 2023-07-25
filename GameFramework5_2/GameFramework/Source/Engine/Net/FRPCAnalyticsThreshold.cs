@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Specifies time or count thresholds for when an RPC should be included in analytics</summary>
 public partial struct FRPCAnalyticsThreshold {
 // RPCAnalyticsThreshold
-	public sbyte RPC;
+	public string RPC;
 	public int CountPerSec;
 	public double TimePerSec;
 }

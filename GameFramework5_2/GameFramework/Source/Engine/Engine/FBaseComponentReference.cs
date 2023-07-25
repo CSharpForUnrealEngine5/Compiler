@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for the hard/soft component reference structs</summary>
 public partial struct FBaseComponentReference {
 // BaseComponentReference
-	public sbyte ComponentProperty;
-	public sbyte PathToComponent;
+	public string ComponentProperty;
+	public string PathToComponent;
 }

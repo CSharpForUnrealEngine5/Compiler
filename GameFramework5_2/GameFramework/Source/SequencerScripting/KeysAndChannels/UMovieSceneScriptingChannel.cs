@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("KeysAndChannels/MovieSceneScriptingChannel.h")]
 public partial class UMovieSceneScriptingChannel : UObject {
 // MovieSceneScriptingChannel
-	public sbyte ChannelName;
+	public string ChannelName;
 }

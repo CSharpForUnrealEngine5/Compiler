@@ -7,6 +7,6 @@ public partial struct FLatentActionInfo {
 // LatentActionInfo
 	public int Linkage;
 	public int UUID;
-	public sbyte ExecutionFunction;
+	public string ExecutionFunction;
 	public UObject CallbackTarget;
 }

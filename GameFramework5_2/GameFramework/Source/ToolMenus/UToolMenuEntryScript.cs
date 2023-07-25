@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 public partial class UToolMenuEntryScript : UObject {
 // ToolMenuEntryScript
 	public void Execute(FToolMenuContext Context) {}
-	public bool CanExecute(FToolMenuContext Context,bool ReturnValue) { return default; }
-	public ECheckBoxState GetCheckState(FToolMenuContext Context,ECheckBoxState ReturnValue) { return default; }
-	public bool IsVisible(FToolMenuContext Context,bool ReturnValue) { return default; }
-	public sbyte GetLabel(FToolMenuContext Context,sbyte ReturnValue) { return default; }
-	public sbyte GetToolTip(FToolMenuContext Context,sbyte ReturnValue) { return default; }
-	public FScriptSlateIcon GetIcon(FToolMenuContext Context,FScriptSlateIcon ReturnValue) { return default; }
-	public void ConstructMenuEntry(UObject Menu,sbyte SectionName,FToolMenuContext Context) {}
+	public bool CanExecute(FToolMenuContext Context) { return default; }
+	public ECheckBoxState GetCheckState(FToolMenuContext Context) { return default; }
+	public bool IsVisible(FToolMenuContext Context) { return default; }
+	public string GetLabel(FToolMenuContext Context) { return default; }
+	public string GetToolTip(FToolMenuContext Context) { return default; }
+	public FScriptSlateIcon GetIcon(FToolMenuContext Context) { return default; }
+	public void ConstructMenuEntry(UObject Menu,string SectionName,FToolMenuContext Context) {}
 	public void RegisterMenuEntry() {}
-	public void InitEntry(sbyte OwnerName,sbyte Menu,sbyte Section,sbyte Name,sbyte Label=FText,sbyte ToolTip=FText) {}
+	public void InitEntry(string OwnerName,string Menu,string Section,string Name,string Label/*=new FText()*/,string ToolTip/*=new FText()*/) {}
 	public FToolMenuEntryScriptData Data;
 }

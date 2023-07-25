@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertAdmin_MountSessionRepositoryRequest {
 // ConcertAdmin_MountSessionRepositoryRequest
 	public FGuid RepositoryId;
-	public sbyte RepositoryRootDir;
+	public string RepositoryRootDir;
 	public bool bAsServerDefault;
 	public bool bCreateIfNotExist;
 }

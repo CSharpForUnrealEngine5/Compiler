@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>UAnimNotify_PlayMontageNotifyWindow</summary>
 public partial class UAnimNotify_PlayMontageNotifyWindow : UAnimNotifyState {
 // AnimNotify_PlayMontageNotifyWindow
-	public sbyte NotifyName;
+	public string NotifyName;
 }

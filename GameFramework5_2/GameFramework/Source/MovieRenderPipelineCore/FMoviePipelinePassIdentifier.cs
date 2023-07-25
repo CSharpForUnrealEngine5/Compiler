@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MovieRenderPipelineDataTypes.h")]
 public partial struct FMoviePipelinePassIdentifier {
 // MoviePipelinePassIdentifier
-	public sbyte Name;
-	public sbyte CameraName;
+	public string Name;
+	public string CameraName;
 }

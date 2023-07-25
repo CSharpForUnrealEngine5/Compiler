@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("LensFileExchangeFormat.h")]
 public partial struct FLensFileParameterTable {
 // LensFileParameterTable
-	public sbyte ParameterName;
-	public TArray<sbyte> Header;
+	public string ParameterName;
+	public TArray<string> Header;
 	public TArray<FLensFileParameterTableRow> Data;
 }

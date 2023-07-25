@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A segment of a 'property path' used to access an object's properties from another location</summary>
 public partial struct FPropertyAccessSegment {
 // PropertyAccessSegment
-	public sbyte Name;
+	public string Name;
 	public UStruct Struct;
 	public object Property;
 	public UFunction Function;

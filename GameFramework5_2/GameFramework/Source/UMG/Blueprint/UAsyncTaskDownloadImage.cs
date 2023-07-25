@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Blueprint/AsyncTaskDownloadImage.h")]
 public partial class UAsyncTaskDownloadImage : UBlueprintAsyncActionBase {
 // AsyncTaskDownloadImage
-	public UObject DownloadImage(sbyte URL,UObject ReturnValue) { return default; }
+	public UObject DownloadImage(string URL) { return default; }
 	public FDownloadImageDelegate OnSuccess;
 	public FDownloadImageDelegate OnFail;
 }

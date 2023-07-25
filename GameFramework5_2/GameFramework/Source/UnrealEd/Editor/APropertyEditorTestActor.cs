@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 public partial class APropertyEditorTestActor : AActor {
 // PropertyEditorTestActor
 	public TArray<UPropertyEditorTestInstancedObject> InstancedUObjectArray;
-	public sbyte GetOptionsValue;
+	public string GetOptionsValue;
 	public float DefaultsOnly;
 	public float DefaultsOnlySubcategory;
 	public float InstanceOnly;
 	public float InstanceOnlySubcategory;
-	public TMap<int,sbyte> MultiLineMap;
-	public TArray<sbyte> GetOptionsFunc(TArray<sbyte> ReturnValue) { return default; }
+	public TMap<int,string> MultiLineMap;
+	public TArray<string> GetOptionsFunc() { return default; }
 }

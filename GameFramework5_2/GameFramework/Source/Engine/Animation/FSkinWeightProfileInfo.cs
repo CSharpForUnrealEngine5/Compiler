@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure storing user facing properties, and is used to identify profiles at the SkeletalMesh level</summary>
 public partial struct FSkinWeightProfileInfo {
 // SkinWeightProfileInfo
-	public sbyte Name;
+	public string Name;
 	public FPerPlatformBool DefaultProfile;
 	public FPerPlatformInt DefaultProfileFromLODIndex;
-	public TMap<int,sbyte> PerLODSourceFiles;
+	public TMap<int,string> PerLODSourceFiles;
 }

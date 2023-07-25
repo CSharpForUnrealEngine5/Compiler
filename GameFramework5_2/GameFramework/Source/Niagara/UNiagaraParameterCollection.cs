@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Asset containing a collection of global parameters usable by Niagara.</summary>
 public partial class UNiagaraParameterCollection : UObject {
 // NiagaraParameterCollection
-	public sbyte Namespace;
+	public string Namespace;
 	public TArray<FNiagaraVariable> Parameters;
 	public UMaterialParameterCollection SourceMaterialCollection;
 	public UNiagaraParameterCollectionInstance DefaultInstance;

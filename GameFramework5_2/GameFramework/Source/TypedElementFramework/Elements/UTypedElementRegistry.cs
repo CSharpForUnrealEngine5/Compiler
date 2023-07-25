@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Registry of element types and their associated interfaces, along with the elements that represent their instances.</summary>
 public partial class UTypedElementRegistry : UObject {
 // TypedElementRegistry
-	public UObject GetInstance(UObject ReturnValue) { return default; }
-	public UObject GetElementInterface(FScriptTypedElementHandle InElementHandle,UClass InBaseInterfaceType,UObject ReturnValue) { return default; }
+	public UObject GetInstance() { return default; }
+	public UObject GetElementInterface(FScriptTypedElementHandle InElementHandle,UClass InBaseInterfaceType) { return default; }
 }

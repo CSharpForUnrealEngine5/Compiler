@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameplayTagsSettings.h")]
 public partial struct FRestrictedConfigInfo {
 // RestrictedConfigInfo
-	public sbyte RestrictedConfigName;
-	public TArray<sbyte> Owners;
+	public string RestrictedConfigName;
+	public TArray<string> Owners;
 }

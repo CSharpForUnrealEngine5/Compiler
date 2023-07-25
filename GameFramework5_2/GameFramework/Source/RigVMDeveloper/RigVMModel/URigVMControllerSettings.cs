@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class URigVMControllerSettings : UObject {
 // RigVMControllerSettings
 	public bool bAutoResolveTemplateNodesWhenLinkingExecute;
-	public TMap<sbyte,FRigVMController_CommonTypePerTemplate> TemplateDefaultTypes;
+	public TMap<string,FRigVMController_CommonTypePerTemplate> TemplateDefaultTypes;
 }

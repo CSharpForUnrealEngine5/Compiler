@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FDataTableRowHandle {
 // DataTableRowHandle
 	public UDataTable DataTable;
-	public sbyte RowName;
+	public string RowName;
 }

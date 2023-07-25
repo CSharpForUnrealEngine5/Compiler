@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Properties/MeshStatisticsProperties.h")]
 public partial class UMeshStatisticsProperties : UInteractiveToolPropertySet {
 // MeshStatisticsProperties
-	public sbyte Mesh;
-	public sbyte UV;
-	public sbyte Attributes;
+	public string Mesh;
+	public string UV;
+	public string Attributes;
 }

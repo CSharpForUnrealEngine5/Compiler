@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeObjectGroup.h")]
 public partial class UCustomizableObjectNodeObjectGroup : UCustomizableObjectNode {
 // CustomizableObjectNodeObjectGroup
-	public sbyte GroupName;
+	public string GroupName;
 	public ECustomizableObjectGroupType GroupType;
 	public FMutableParamUIMetadata ParamUIMetadata;
 	public int SocketPriority;

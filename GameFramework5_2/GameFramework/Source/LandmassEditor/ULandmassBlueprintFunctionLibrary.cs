@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("LandmassBPEditorExtension.h")]
 public partial class ULandmassBlueprintFunctionLibrary : UBlueprintFunctionLibrary {
 // LandmassBlueprintFunctionLibrary
-	public bool GetCursorWorldRay(FVector CameraLocation,FVector RayOrigin,FVector RayDirection,bool ReturnValue) { return default; }
+	public bool GetCursorWorldRay(FVector CameraLocation,FVector RayOrigin,FVector RayDirection) { return default; }
 }

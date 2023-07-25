@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FMaterialsInfoDataflowNode {
 // MaterialsInfoDataflowNode
 	public TArray<UMaterial> Materials;
-	public sbyte String;
+	public string String;
 }

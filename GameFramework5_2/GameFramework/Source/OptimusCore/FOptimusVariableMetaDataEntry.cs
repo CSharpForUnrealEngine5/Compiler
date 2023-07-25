@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusVariableDescription.h")]
 public partial struct FOptimusVariableMetaDataEntry {
 // OptimusVariableMetaDataEntry
-	public sbyte Key;
-	public sbyte Value;
+	public string Key;
+	public string Value;
 }

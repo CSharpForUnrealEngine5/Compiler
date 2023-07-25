@@ -9,27 +9,27 @@ public partial class UAbilitySystemGlobals : UObject {
 	public void ToggleIgnoreAbilitySystemCooldowns() {}
 	public void ToggleIgnoreAbilitySystemCosts() {}
 	public void ListPlayerAbilities() {}
-	public void ServerActivatePlayerAbility(sbyte AbilityNameMatch) {}
-	public void ServerEndPlayerAbility(sbyte AbilityNameMatch) {}
-	public void ServerCancelPlayerAbility(sbyte AbilityNameMatch) {}
+	public void ServerActivatePlayerAbility(string AbilityNameMatch) {}
+	public void ServerEndPlayerAbility(string AbilityNameMatch) {}
+	public void ServerCancelPlayerAbility(string AbilityNameMatch) {}
 	public bool bUseDebugTargetFromHud;
 	public FGameplayTag ActivateFailIsDeadTag;
-	public sbyte ActivateFailIsDeadName;
+	public string ActivateFailIsDeadName;
 	public FGameplayTag ActivateFailCooldownTag;
-	public sbyte ActivateFailCooldownName;
+	public string ActivateFailCooldownName;
 	public FGameplayTag ActivateFailCostTag;
-	public sbyte ActivateFailCostName;
+	public string ActivateFailCostName;
 	public FGameplayTag ActivateFailTagsBlockedTag;
-	public sbyte ActivateFailTagsBlockedName;
+	public string ActivateFailTagsBlockedName;
 	public FGameplayTag ActivateFailTagsMissingTag;
-	public sbyte ActivateFailTagsMissingName;
+	public string ActivateFailTagsMissingName;
 	public FGameplayTag ActivateFailNetworkingTag;
-	public sbyte ActivateFailNetworkingName;
+	public string ActivateFailNetworkingName;
 	public int MinimalReplicationTagCountBits;
 	public FNetSerializeScriptStructCache TargetDataStructCache;
 	public bool bAllowGameplayModEvaluationChannels;
 	public EGameplayModEvaluationChannel DefaultGameplayModEvaluationChannel;
-	public sbyte GameplayModEvaluationChannelAliases;
+	public string GameplayModEvaluationChannelAliases;
 	public FSoftObjectPath GlobalCurveTableName;
 	public UCurveTable GlobalCurveTable;
 	public FSoftObjectPath GlobalAttributeMetaDataTableName;
@@ -39,7 +39,7 @@ public partial class UAbilitySystemGlobals : UObject {
 	public TArray<UCurveTable> GlobalAttributeDefaultsTables;
 	public FSoftObjectPath GlobalGameplayCueManagerClass;
 	public FSoftObjectPath GlobalGameplayCueManagerName;
-	public TArray<sbyte> GameplayCueNotifyPaths;
+	public TArray<string> GameplayCueNotifyPaths;
 	public FSoftObjectPath GameplayTagResponseTableName;
 	public UGameplayTagReponseTable GameplayTagResponseTable;
 	public bool PredictTargetGameplayEffects;

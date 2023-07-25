@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implement an Actor component for input bindings.</summary>
 public partial class UEnhancedInputComponent : UInputComponent {
 // EnhancedInputComponent
-	public FInputActionValue GetBoundActionValue(UObject Action,FInputActionValue ReturnValue) { return default; }
+	public FInputActionValue GetBoundActionValue(UObject Action) { return default; }
 }

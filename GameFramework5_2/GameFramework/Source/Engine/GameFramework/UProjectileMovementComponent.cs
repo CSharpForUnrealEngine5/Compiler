@@ -29,7 +29,7 @@ public partial class UProjectileMovementComponent : UMovementComponent {
 	public float Friction;
 	public float BounceVelocityStopSimulatingThreshold;
 	public float MinFrictionFraction;
-	public bool IsVelocityUnderSimulationThreshold(bool ReturnValue) { return default; }
+	public bool IsVelocityUnderSimulationThreshold() { return default; }
 	public FOnProjectileBounceDelegate OnProjectileBounce;
 	public FOnProjectileStopDelegate OnProjectileStop;
 	public float HomingAccelerationMagnitude;
@@ -46,6 +46,6 @@ public partial class UProjectileMovementComponent : UMovementComponent {
 	public float InterpRotationTime;
 	public float InterpLocationMaxLagDistance;
 	public float InterpLocationSnapToTargetDistance;
-	public bool IsInterpolationComplete(bool ReturnValue) { return default; }
-	public FVector LimitVelocity(FVector NewVelocity,FVector ReturnValue) { return default; }
+	public bool IsInterpolationComplete() { return default; }
+	public FVector LimitVelocity(FVector NewVelocity) { return default; }
 }

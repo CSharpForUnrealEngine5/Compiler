@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameplayDebuggerConfig.h")]
 public partial struct FGameplayDebuggerCategoryConfig {
 // GameplayDebuggerCategoryConfig
-	public sbyte CategoryName;
+	public string CategoryName;
 	public int SlotIdx;
 	public EGameplayDebuggerOverrideMode ActiveInGame;
 	public EGameplayDebuggerOverrideMode ActiveInSimulate;

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("RetargetEditor/IKRetargetDetails.h")]
 public partial class UIKRetargetBoneDetails : UObject {
 // IKRetargetBoneDetails
-	public sbyte SelectedBone;
+	public string SelectedBone;
 	public FTransform OffsetTransform;
 	public FTransform CurrentTransform;
 	public FTransform ReferenceTransform;

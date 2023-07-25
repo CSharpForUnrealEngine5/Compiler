@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("SwarmMessages.h")]
 public partial struct FSwarmInfoMessage {
 // SwarmInfoMessage
-	public sbyte TextMessage;
+	public string TextMessage;
 }

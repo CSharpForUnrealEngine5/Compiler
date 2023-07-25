@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UControlRigControlsProxy : UObject {
 // ControlRigControlsProxy
 	public bool bSelected;
-	public sbyte ControlName;
+	public string ControlName;
 }

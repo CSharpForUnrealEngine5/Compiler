@@ -10,10 +10,10 @@ public partial struct FTensorProto {
 	public FTensorProtoSegment Segment;
 	public TArray<float> FloatData;
 	public TArray<int> Int32Data;
-	public TArray<sbyte> StringData;
+	public TArray<string> StringData;
 	public TArray<long> Int64Data;
-	public sbyte Name;
-	public sbyte DocString;
+	public string Name;
+	public string DocString;
 	public TArray<byte> RawData;
 	public TArray<FStringStringEntryProto> ExternalData;
 	public ETensorProtoDataLocation DataLocation;

@@ -8,5 +8,5 @@ public partial struct FRigUnit_AimBone_Target {
 	public FVector Axis;
 	public FVector Target;
 	public EControlRigVectorKind Kind;
-	public sbyte Space;
+	public string Space;
 }

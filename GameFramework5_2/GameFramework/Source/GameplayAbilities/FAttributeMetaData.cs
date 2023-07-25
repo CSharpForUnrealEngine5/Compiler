@@ -8,6 +8,6 @@ public partial struct FAttributeMetaData {
 	public float BaseValue;
 	public float MinValue;
 	public float MaxValue;
-	public sbyte DerivedAttributeInfo;
+	public string DerivedAttributeInfo;
 	public bool bCanStack;
 }

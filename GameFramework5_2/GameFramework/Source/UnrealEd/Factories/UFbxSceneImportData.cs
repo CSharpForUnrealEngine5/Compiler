@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Factories/FbxSceneImportData.h")]
 public partial class UFbxSceneImportData : UObject {
 // FbxSceneImportData
-	public sbyte SourceFbxFile;
+	public string SourceFbxFile;
 }

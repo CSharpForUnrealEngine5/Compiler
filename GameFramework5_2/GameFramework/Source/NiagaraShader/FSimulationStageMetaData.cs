@@ -4,25 +4,25 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraScriptBase.h")]
 public partial struct FSimulationStageMetaData {
 // SimulationStageMetaData
-	public sbyte SimulationStageName;
-	public sbyte EnabledBinding;
-	public sbyte ElementCountXBinding;
-	public sbyte ElementCountYBinding;
-	public sbyte ElementCountZBinding;
+	public string SimulationStageName;
+	public string EnabledBinding;
+	public string ElementCountXBinding;
+	public string ElementCountYBinding;
+	public string ElementCountZBinding;
 	public ENiagaraIterationSource IterationSourceType;
-	public sbyte IterationDataInterface;
-	public sbyte IterationDirectBinding;
+	public string IterationDataInterface;
+	public string IterationDirectBinding;
 	public ENiagaraSimStageExecuteBehavior ExecuteBehavior;
 	public bool bWritesParticles;
 	public bool bPartialParticleUpdate;
 	public bool bParticleIterationStateEnabled;
 	public bool bGpuIndirectDispatch;
-	public sbyte ParticleIterationStateBinding;
+	public string ParticleIterationStateBinding;
 	public FIntPoint ParticleIterationStateRange;
-	public TArray<sbyte> OutputDestinations;
-	public TArray<sbyte> InputDataInterfaces;
+	public TArray<string> OutputDestinations;
+	public TArray<string> InputDataInterfaces;
 	public int NumIterations;
-	public sbyte NumIterationsBinding;
+	public string NumIterationsBinding;
 	public ENiagaraGpuDispatchType GpuDispatchType;
 	public ENiagaraDirectDispatchElementType GpuDirectDispatchElementType;
 	public FIntVector GpuDispatchNumThreads;

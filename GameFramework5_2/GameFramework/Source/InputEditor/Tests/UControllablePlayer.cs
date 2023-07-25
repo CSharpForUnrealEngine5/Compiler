@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UControllablePlayer : UObject {
 // ControllablePlayer
 	public APlayerController Player;
-	public TMap<sbyte,FBindingTargets> BindingTargets;
-	public TMap<sbyte,UInputMappingContext> InputContext;
-	public TMap<sbyte,UInputAction> InputAction;
+	public TMap<string,FBindingTargets> BindingTargets;
+	public TMap<string,UInputMappingContext> InputContext;
+	public TMap<string,UInputAction> InputAction;
 }

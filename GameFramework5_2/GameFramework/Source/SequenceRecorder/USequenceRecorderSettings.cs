@@ -11,13 +11,13 @@ public partial class USequenceRecorderSettings : UObject {
 	public bool bAllowLooping;
 	public float GlobalTimeDilation;
 	public bool bIgnoreTimeDilation;
-	public sbyte AnimationSubDirectory;
+	public string AnimationSubDirectory;
 	public EAudioRecordingMode RecordAudio;
 	public float AudioGain;
 	public bool bSplitAudioChannelsIntoSeparateTracks;
 	public bool bReplaceRecordedAudio;
-	public sbyte AudioTrackName;
-	public sbyte AudioSubDirectory;
+	public string AudioTrackName;
+	public string AudioSubDirectory;
 	public bool bRecordNearbySpawnedActors;
 	public float NearbyActorRecordingProximity;
 	public bool bRecordWorldSettingsActor;

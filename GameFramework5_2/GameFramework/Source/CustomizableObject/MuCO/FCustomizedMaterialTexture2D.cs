@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectInstance.h")]
 public partial struct FCustomizedMaterialTexture2D {
 // CustomizedMaterialTexture2D
-	public sbyte Name;
+	public string Name;
 	public UTexture2D Texture;
 }

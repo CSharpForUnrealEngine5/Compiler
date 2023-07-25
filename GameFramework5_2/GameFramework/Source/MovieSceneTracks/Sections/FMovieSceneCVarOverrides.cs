@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Sections/MovieSceneCVarSection.h")]
 public partial struct FMovieSceneCVarOverrides {
 // MovieSceneCVarOverrides
-	public TMap<sbyte,sbyte> ValuesByCVar;
+	public TMap<string,string> ValuesByCVar;
 }

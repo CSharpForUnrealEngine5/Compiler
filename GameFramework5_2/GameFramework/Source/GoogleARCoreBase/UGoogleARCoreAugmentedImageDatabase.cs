@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A collection of processed images for ARCore to track.</summary>
 public partial class UGoogleARCoreAugmentedImageDatabase : UDataAsset {
 // GoogleARCoreAugmentedImageDatabase
-	public int AddRuntimeAugmentedImageFromTexture(UObject ImageTexture,sbyte ImageName,float ImageWidthInMeter=0,int ReturnValue) { return default; }
+	public int AddRuntimeAugmentedImageFromTexture(UObject ImageTexture,string ImageName,float ImageWidthInMeter/*=0f*/) { return default; }
 	public TArray<FGoogleARCoreAugmentedImageDatabaseEntry> Entries;
 	public TArray<byte> SerializedDatabase;
 }

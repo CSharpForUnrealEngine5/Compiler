@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>hold template informations common to all AActors.</summary>
 public partial class UDatasmithActorTemplate : UDatasmithObjectTemplate {
 // DatasmithActorTemplate
-	public TSet<sbyte> Layers;
-	public TSet<sbyte> Tags;
+	public TSet<string> Layers;
+	public TSet<string> Tags;
 }

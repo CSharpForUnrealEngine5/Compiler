@@ -19,6 +19,6 @@ public partial class UFont : UObject {
 	public TArray<int> MaxCharHeight;
 	public float ScalingFactor;
 	public int LegacyFontSize;
-	public sbyte LegacyFontName;
+	public string LegacyFontName;
 	public FCompositeFont CompositeFont;
 }

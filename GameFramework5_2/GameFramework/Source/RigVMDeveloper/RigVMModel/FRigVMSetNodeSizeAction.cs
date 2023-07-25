@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a node's size in the graph.</summary>
 public partial struct FRigVMSetNodeSizeAction {
 // RigVMSetNodeSizeAction
-	public sbyte NodePath;
+	public string NodePath;
 	public FVector2D OldSize;
 	public FVector2D NewSize;
 }

@@ -9,5 +9,5 @@ public partial struct FCustomChannelSetup {
 	public byte DefaultResponse;
 	public bool bTraceType;
 	public bool bStaticObject;
-	public sbyte Name;
+	public string Name;
 }

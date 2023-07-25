@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Command that will execute a console command on the debugger client.</summary>
 public partial struct FNiagaraDebuggerExecuteConsoleCommand {
 // NiagaraDebuggerExecuteConsoleCommand
-	public sbyte Command;
+	public string Command;
 	public bool bRequiresWorld;
 }

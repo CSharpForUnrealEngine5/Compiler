@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Script-friendly structure for identifying an attribute (curve).</summary>
 public partial struct FAnimationAttributeIdentifier {
 // AnimationAttributeIdentifier
-	public sbyte Name;
-	public sbyte BoneName;
+	public string Name;
+	public string BoneName;
 	public int BoneIndex;
 	public UScriptStruct ScriptStruct;
 	public FSoftObjectPath ScriptStructPath;

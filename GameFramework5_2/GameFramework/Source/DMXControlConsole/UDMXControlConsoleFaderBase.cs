@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for a Fader in the DMX Control Console.</summary>
 public partial class UDMXControlConsoleFaderBase : UObject {
 // DMXControlConsoleFaderBase
-	public sbyte FaderName;
+	public string FaderName;
 	public int EndingAddress;
 	public uint Value;
 	public uint MinValue;

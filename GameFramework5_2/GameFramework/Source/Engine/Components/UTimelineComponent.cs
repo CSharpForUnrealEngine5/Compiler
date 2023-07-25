@@ -12,23 +12,23 @@ public partial class UTimelineComponent : UActorComponent {
 	public void Reverse() {}
 	public void ReverseFromEnd() {}
 	public void Stop() {}
-	public bool IsPlaying(bool ReturnValue) { return default; }
-	public bool IsReversing(bool ReturnValue) { return default; }
-	public void SetPlaybackPosition(float NewPosition,bool bFireEvents,bool bFireUpdate=true) {}
-	public float GetPlaybackPosition(float ReturnValue) { return default; }
+	public bool IsPlaying() { return default; }
+	public bool IsReversing() { return default; }
+	public void SetPlaybackPosition(float NewPosition,bool bFireEvents,bool bFireUpdate/*=true*/) {}
+	public float GetPlaybackPosition() { return default; }
 	public void SetLooping(bool bNewLooping) {}
-	public bool IsLooping(bool ReturnValue) { return default; }
+	public bool IsLooping() { return default; }
 	public void SetPlayRate(float NewRate) {}
-	public float GetPlayRate(float ReturnValue) { return default; }
+	public float GetPlayRate() { return default; }
 	public void SetNewTime(float NewTime) {}
-	public float GetTimelineLength(float ReturnValue) { return default; }
-	public float GetScaledTimelineLength(float ReturnValue) { return default; }
+	public float GetTimelineLength() { return default; }
+	public float GetScaledTimelineLength() { return default; }
 	public void SetTimelineLength(float NewLength) {}
 	public void SetTimelineLengthMode(ETimelineLengthMode NewLengthMode) {}
 	public void SetIgnoreTimeDilation(bool bNewIgnoreTimeDilation) {}
-	public bool GetIgnoreTimeDilation(bool ReturnValue) { return default; }
-	public void SetFloatCurve(UObject NewFloatCurve,sbyte FloatTrackName) {}
-	public void SetVectorCurve(UObject NewVectorCurve,sbyte VectorTrackName) {}
-	public void SetLinearColorCurve(UObject NewLinearColorCurve,sbyte LinearColorTrackName) {}
+	public bool GetIgnoreTimeDilation() { return default; }
+	public void SetFloatCurve(UObject NewFloatCurve,string FloatTrackName) {}
+	public void SetVectorCurve(UObject NewVectorCurve,string VectorTrackName) {}
+	public void SetLinearColorCurve(UObject NewLinearColorCurve,string LinearColorTrackName) {}
 	public void OnRep_Timeline(FTimeline OldTimeline) {}
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectParameterTypeDefinitions.h")]
 public partial struct FCustomizableObjectVectorParameterValue {
 // CustomizableObjectVectorParameterValue
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FLinearColor ParameterValue;
-	public sbyte Uid;
+	public string Uid;
 }

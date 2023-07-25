@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("OculusFunctionLibrary.h")]
 public partial struct FHmdUserProfileField {
 // HmdUserProfileField
-	public sbyte FieldName;
-	public sbyte FieldValue;
+	public string FieldName;
+	public string FieldValue;
 }

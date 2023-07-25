@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Setup data that is used to create the representation of a single limb. A limb is an array of</summary>
 public partial struct FPhysicsControlLimbSetupData {
 // PhysicsControlLimbSetupData
-	public sbyte LimbName;
-	public sbyte StartBone;
+	public string LimbName;
+	public string StartBone;
 	public bool bIncludeParentBone;
 }

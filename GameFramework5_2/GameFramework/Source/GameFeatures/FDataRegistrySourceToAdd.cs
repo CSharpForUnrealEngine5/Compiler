@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines which source assets to add and conditions for adding</summary>
 public partial struct FDataRegistrySourceToAdd {
 // DataRegistrySourceToAdd
-	public sbyte RegistryToAddTo;
+	public string RegistryToAddTo;
 	public int AssetPriority;
 	public bool bClientSource;
 	public bool bServerSource;

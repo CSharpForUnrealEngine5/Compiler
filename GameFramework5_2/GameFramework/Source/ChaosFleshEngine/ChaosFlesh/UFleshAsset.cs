@@ -6,13 +6,13 @@ using CSharpToCpp.Utilities;
 public partial class UFleshAsset : UObject {
 // FleshAsset
 	public UDataflow DataflowAsset;
-	public sbyte DataflowTerminal;
+	public string DataflowTerminal;
 	public TArray<FStringValuePair> Overrides;
 	public USkeletalMesh SkeletalMesh;
 	public USkeleton Skeleton;
 	public USkeletalMesh TargetDeformationSkeleton;
 	public UStaticMesh StaticMesh;
-	public sbyte TargetSkeletalMesh;
+	public string TargetSkeletalMesh;
 	public bool bRenderInEditor;
 	public UThumbnailInfo ThumbnailInfo;
 }

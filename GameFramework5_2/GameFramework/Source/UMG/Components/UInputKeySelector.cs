@@ -11,19 +11,19 @@ public partial class UInputKeySelector : UWidget {
 	public FTextBlockStyle TextStyle;
 	public FInputChord SelectedKey;
 	public FMargin Margin;
-	public sbyte KeySelectionText;
-	public sbyte NoKeySpecifiedText;
+	public string KeySelectionText;
+	public string NoKeySpecifiedText;
 	public bool bAllowModifierKeys;
 	public bool bAllowGamepadKeys;
 	public TArray<FKey> EscapeKeys;
 	public FOnKeySelected OnKeySelected;
 	public FOnIsSelectingKeyChanged OnIsSelectingKeyChanged;
 	public void SetSelectedKey(FInputChord InSelectedKey) {}
-	public void SetKeySelectionText(sbyte InKeySelectionText) {}
-	public void SetNoKeySpecifiedText(sbyte InNoKeySpecifiedText) {}
+	public void SetKeySelectionText(string InKeySelectionText) {}
+	public void SetNoKeySpecifiedText(string InNoKeySpecifiedText) {}
 	public void SetAllowModifierKeys(bool bInAllowModifierKeys) {}
 	public void SetAllowGamepadKeys(bool bInAllowGamepadKeys) {}
-	public bool GetIsSelectingKey(bool ReturnValue) { return default; }
+	public bool GetIsSelectingKey() { return default; }
 	public void SetTextBlockVisibility(ESlateVisibility InVisibility) {}
 	public void SetEscapeKeys(TArray<FKey> InKeys) {}
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Evaluates a point in an anim sequence, using a specific time input rather than advancing time internally.</summary>
 public partial struct FAnimNode_PoseByName {
 // AnimNode_PoseByName
-	public sbyte PoseName;
+	public string PoseName;
 	public float PoseWeight;
 }

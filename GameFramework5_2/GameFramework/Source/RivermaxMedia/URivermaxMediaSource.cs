@@ -11,8 +11,8 @@ public partial class URivermaxMediaSource : UTimeSynchronizableMediaSource {
 	public FIntPoint Resolution;
 	public FFrameRate FrameRate;
 	public ERivermaxMediaSourcePixelFormat PixelFormat;
-	public sbyte InterfaceAddress;
-	public sbyte StreamAddress;
+	public string InterfaceAddress;
+	public string StreamAddress;
 	public int Port;
 	public bool bIsSRGBInput;
 	public bool bUseGPUDirect;

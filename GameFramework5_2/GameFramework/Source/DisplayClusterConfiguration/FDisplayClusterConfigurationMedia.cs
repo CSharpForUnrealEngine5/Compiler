@@ -8,5 +8,5 @@ public partial struct FDisplayClusterConfigurationMedia {
 	public bool bEnable;
 	public UMediaSource MediaSource;
 	public UMediaOutput MediaOutput;
-	public sbyte MediaSharingNode_DEPRECATED;
+	public string MediaSharingNode_DEPRECATED;
 }

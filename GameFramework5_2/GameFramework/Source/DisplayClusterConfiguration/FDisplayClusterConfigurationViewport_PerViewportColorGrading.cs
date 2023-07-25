@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("DisplayClusterConfigurationTypes_Postprocess.h")]
 public partial struct FDisplayClusterConfigurationViewport_PerViewportColorGrading {
 // DisplayClusterConfigurationViewport_PerViewportColorGrading
-	public sbyte Name;
+	public string Name;
 	public bool bIsEnabled;
 	public bool bIsEntireClusterEnabled;
 	public FDisplayClusterConfigurationViewport_ColorGradingRenderingSettings ColorGradingSettings;
-	public TArray<sbyte> ApplyPostProcessToObjects;
+	public TArray<string> ApplyPostProcessToObjects;
 }

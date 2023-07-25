@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UEditorUtilityWidget : UUserWidget {
 // EditorUtilityWidget
 	public void Run() {}
-	public sbyte TabDisplayName;
-	public sbyte HelpText;
+	public string TabDisplayName;
+	public string HelpText;
 	public bool bAlwaysReregisterWithWindowsMenu;
 	public bool bAutoRunDefaultAction;
 }

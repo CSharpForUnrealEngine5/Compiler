@@ -14,7 +14,7 @@ public partial class UVPUtilitiesEditorSettings : UObject {
 	public float InertiaDamping;
 	public bool bIsHelperSystemEnabled;
 	public bool bStartOSCServerAtLaunch;
-	public sbyte OSCServerAddress;
+	public string OSCServerAddress;
 	public ushort OSCServerPort;
 	public TArray<FSoftObjectPath> StartupOSCListeners;
 	public FSoftClassPath ScoutingSubsystemEditorUtilityClassPath;

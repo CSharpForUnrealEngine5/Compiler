@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlResponse.h")]
 public partial struct FGetMetadataFieldResponse {
 // GetMetadataFieldResponse
-	public sbyte Value;
+	public string Value;
 }

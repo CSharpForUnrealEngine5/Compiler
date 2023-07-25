@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes template of multiple parallel lanes, created in settings.</summary>
 public partial struct FZoneLaneProfile {
 // ZoneLaneProfile
-	public sbyte Name;
+	public string Name;
 	public FGuid ID;
 	public TArray<FZoneLaneDesc> Lanes;
 }

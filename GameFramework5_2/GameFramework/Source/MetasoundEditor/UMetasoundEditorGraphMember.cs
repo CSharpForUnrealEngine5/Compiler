@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UMetasoundEditorGraphMember : UObject {
 // MetasoundEditorGraphMember
 	public UMetasoundEditorGraphMemberDefaultLiteral Literal;
-	public sbyte TypeName;
+	public string TypeName;
 }

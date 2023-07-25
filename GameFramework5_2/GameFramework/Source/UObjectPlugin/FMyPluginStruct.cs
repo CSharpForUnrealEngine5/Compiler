@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Example UStruct declared in a plugin module</summary>
 public partial struct FMyPluginStruct {
 // MyPluginStruct
-	public sbyte TestString;
+	public string TestString;
 }

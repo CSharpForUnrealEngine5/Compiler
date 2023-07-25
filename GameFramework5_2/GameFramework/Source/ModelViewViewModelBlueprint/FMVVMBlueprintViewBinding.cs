@@ -10,7 +10,7 @@ public partial struct FMVVMBlueprintViewBinding {
 	public bool bOverrideExecutionMode;
 	public EMVVMExecutionMode OverrideExecutionMode;
 	public FMVVMBlueprintViewConversionPath Conversion;
-	public TArray<sbyte> Errors;
+	public TArray<string> Errors;
 	public FGuid BindingId;
 	public bool bEnabled;
 	public bool bCompile;

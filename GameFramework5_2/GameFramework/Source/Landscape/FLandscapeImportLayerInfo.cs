@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure storing Layer Data for import</summary>
 public partial struct FLandscapeImportLayerInfo {
 // LandscapeImportLayerInfo
-	public sbyte LayerName;
+	public string LayerName;
 	public ULandscapeLayerInfoObject LayerInfo;
-	public sbyte SourceFilePath;
+	public string SourceFilePath;
 }

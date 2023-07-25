@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UClassBasedWidgetStyleDefinitions : UModifierBoundWidgetStyleDefinitions {
 // ClassBasedWidgetStyleDefinitions
 	public TMap<UClass,FPerModifierClassWidgetSytleData> Config;
-	public TMap<sbyte,FWidgetStyleDataArray> CategoriesWithoutModifier;
+	public TMap<string,FWidgetStyleDataArray> CategoriesWithoutModifier;
 }

@@ -9,5 +9,5 @@ public partial class UAnimBlueprintSettings : UObject {
 	public bool bAllowMacros;
 	public bool bAllowDelegates;
 	public bool bRestrictBaseFunctionOverrides;
-	public TArray<sbyte> BaseFunctionOverrideAllowList;
+	public TArray<string> BaseFunctionOverrideAllowList;
 }

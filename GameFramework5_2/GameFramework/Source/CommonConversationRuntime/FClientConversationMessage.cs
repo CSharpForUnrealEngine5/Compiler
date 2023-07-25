@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FClientConversationMessage {
 // ClientConversationMessage
 	public FGameplayTag SpeakerID;
-	public sbyte ParticipantDisplayName;
-	public sbyte Text;
+	public string ParticipantDisplayName;
+	public string Text;
 	public TArray<FConversationNodeParameterPair> MetadataParameters;
 }

@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UNearestNeighborOptimizedNetwork : UObject {
 // NearestNeighborOptimizedNetwork
 	public void Empty() {}
-	public UObject AddLayer(int LayerType,UObject ReturnValue) { return default; }
+	public UObject AddLayer(int LayerType) { return default; }
 	public TArray<UNearestNeighborNetworkLayer> Layers;
 }

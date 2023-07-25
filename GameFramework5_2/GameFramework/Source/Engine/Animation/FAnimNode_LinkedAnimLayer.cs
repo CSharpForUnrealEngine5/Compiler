@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNode_LinkedAnimLayer {
 // AnimNode_LinkedAnimLayer
 	public UClass Interface;
-	public sbyte Layer;
+	public string Layer;
 }

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FNamedColor {
 // NamedColor
 	public FColor Value;
-	public sbyte Name;
+	public string Name;
 }

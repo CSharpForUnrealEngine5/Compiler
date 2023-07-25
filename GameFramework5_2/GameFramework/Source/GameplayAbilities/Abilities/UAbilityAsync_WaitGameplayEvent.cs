@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Abilities/Async/AbilityAsync_WaitGameplayEvent.h")]
 public partial class UAbilityAsync_WaitGameplayEvent : UAbilityAsync {
 // AbilityAsync_WaitGameplayEvent
-	public UObject WaitGameplayEventToActor(UObject TargetActor,FGameplayTag EventTag,bool OnlyTriggerOnce=false,bool OnlyMatchExact=true,UObject ReturnValue) { return default; }
+	public UObject WaitGameplayEventToActor(UObject TargetActor,FGameplayTag EventTag,bool OnlyTriggerOnce/*=false*/,bool OnlyMatchExact/*=true*/) { return default; }
 	public void FEventReceivedDelegate(FGameplayEventData Payload) {}
 	public FEventReceivedDelegate EventReceived;
 }

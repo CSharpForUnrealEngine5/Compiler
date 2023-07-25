@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("BuoyancyComponent.h")]
 public partial class UBuoyancyComponent : UActorComponent {
 // BuoyancyComponent
-	public TArray<UObject> GetCurrentWaterBodyComponents(TArray<UObject> ReturnValue) { return default; }
-	public bool IsOverlappingWaterBody(bool ReturnValue) { return default; }
-	public bool IsInWaterBody(bool ReturnValue) { return default; }
+	public TArray<UObject> GetCurrentWaterBodyComponents() { return default; }
+	public bool IsOverlappingWaterBody() { return default; }
+	public bool IsInWaterBody() { return default; }
 	public TArray<FSphericalPontoon> Pontoons_DEPRECATED;
 	public void OnPontoonEnteredWater(FSphericalPontoon Pontoon) {}
 	public void OnPontoonExitedWater(FSphericalPontoon Pontoon) {}

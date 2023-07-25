@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigBaseElement {
 // RigBaseElement
 	public FRigElementKey Key;
-	public sbyte NameString;
+	public string NameString;
 	public int Index;
 	public int SubIndex;
 	public bool bSelected;

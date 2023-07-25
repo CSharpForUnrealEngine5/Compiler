@@ -6,6 +6,6 @@ public partial class UNiagaraNodeDataSetBase : UNiagaraNode {
 // NiagaraNodeDataSetBase
 	public FNiagaraDataSetID DataSet;
 	public TArray<FNiagaraVariable> Variables;
-	public TArray<sbyte> VariableFriendlyNames;
+	public TArray<string> VariableFriendlyNames;
 	public UStruct ExternalStructAsset;
 }

@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Filters/FilterBarConfig.h")]
 public partial struct FFilterBarSettings {
 // FilterBarSettings
-	public TMap<sbyte,bool> CustomFilters;
-	public TMap<sbyte,bool> TypeFilters;
+	public TMap<string,bool> CustomFilters;
+	public TMap<string,bool> TypeFilters;
 	public TArray<FCustomTextFilterState> CustomTextFilters;
 	public bool bIsLayoutSaved;
 	public EFilterBarLayout FilterBarLayout;

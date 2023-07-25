@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FPlayerReservation {
 // PlayerReservation
 	public FUniqueNetIdRepl UniqueId;
-	public sbyte ValidationStr;
-	public sbyte Platform;
+	public string ValidationStr;
+	public string Platform;
 	public bool bAllowCrossplay;
 	public float ElapsedTime;
 }

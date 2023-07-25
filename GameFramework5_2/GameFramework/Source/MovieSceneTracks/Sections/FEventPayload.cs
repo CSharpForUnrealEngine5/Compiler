@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Sections/MovieSceneEventSection.h")]
 public partial struct FEventPayload {
 // EventPayload
-	public sbyte EventName;
+	public string EventName;
 	public FMovieSceneEventParameters Parameters;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("CinePrestreamingEditorSubsystem.h")]
 public partial class UCinePrestreamingEditorSubsystem : UEditorSubsystem {
 // CinePrestreamingEditorSubsystem
-	public bool IsRendering(bool ReturnValue) { return default; }
+	public bool IsRendering() { return default; }
 	public void GeneratePrestreamingAsset(FCinePrestreamingGenerateAssetArgs InArgs) {}
 	public void CreatePackagesFromGeneratedData(TArray<FMoviePipelineCinePrestreamingGeneratedData> InOutData) {}
 	public FOnCinePrestreamingGenerateAsset OnAssetGenerated;

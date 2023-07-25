@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Simple wrapper because we're not allowed to have TMap properties with TArray<FString> as values</summary>
 public partial struct FUsdPrimPathList {
 // UsdPrimPathList
-	public TArray<sbyte> PrimPaths;
+	public TArray<string> PrimPaths;
 }

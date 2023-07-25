@@ -8,7 +8,7 @@ public partial struct FDebugTextInfo {
 	public AActor SrcActor;
 	public FVector SrcActorOffset;
 	public FVector SrcActorDesiredOffset;
-	public sbyte DebugText;
+	public string DebugText;
 	public float TimeRemaining;
 	public float Duration;
 	public FColor TextColor;

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>FCompositingParamPayload</summary>
 public partial struct FCompositingParamPayload {
 // CompositingParamPayload
-	public TMap<sbyte,float> ScalarParamOverrides;
-	public TMap<sbyte,FLinearColor> VectorParamOverrides;
-	public TMap<sbyte,UTexture> TextureParamOverrides;
+	public TMap<string,float> ScalarParamOverrides;
+	public TMap<string,FLinearColor> VectorParamOverrides;
+	public TMap<string,UTexture> TextureParamOverrides;
 }

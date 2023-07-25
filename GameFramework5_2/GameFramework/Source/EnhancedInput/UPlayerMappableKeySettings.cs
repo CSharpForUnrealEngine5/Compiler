@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UPlayerMappableKeySettings : UObject {
 // PlayerMappableKeySettings
 	public UObject Metadata;
-	public sbyte Name;
-	public sbyte DisplayName;
-	public sbyte DisplayCategory;
+	public string Name;
+	public string DisplayName;
+	public string DisplayCategory;
 }

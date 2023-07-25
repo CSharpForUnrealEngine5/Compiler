@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UInputDeviceAudioBasedVibrationProperty : UInputDeviceProperty {
 // InputDeviceAudioBasedVibrationProperty
 	public FAudioBasedVibrationData Data;
-	public TMap<sbyte,FAudioBasedVibrationData> DeviceOverrideData;
+	public TMap<string,FAudioBasedVibrationData> DeviceOverrideData;
 }

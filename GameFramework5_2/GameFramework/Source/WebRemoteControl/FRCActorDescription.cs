@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A description of an actor that can both uniquely identify it and provide a user-friendly name.</summary>
 public partial struct FRCActorDescription {
 // RCActorDescription
-	public sbyte Name;
-	public sbyte Path;
+	public string Name;
+	public string Path;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetControlTransform is used to retrieve a single transform from a hierarchy.</summary>
 public partial struct FRigUnit_GetControlInitialTransform {
 // RigUnit_GetControlInitialTransform
-	public sbyte Control;
+	public string Control;
 	public ERigVMTransformSpace Space;
 	public FTransform Transform;
 	public FCachedRigElement CachedControlIndex;

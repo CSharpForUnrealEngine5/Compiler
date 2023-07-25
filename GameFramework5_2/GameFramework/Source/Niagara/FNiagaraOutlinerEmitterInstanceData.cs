@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraDebuggerCommon.h")]
 public partial struct FNiagaraOutlinerEmitterInstanceData {
 // NiagaraOutlinerEmitterInstanceData
-	public sbyte EmitterName;
+	public string EmitterName;
 	public ENiagaraSimTarget SimTarget;
 	public ENiagaraExecutionState ExecState;
 	public int NumParticles;

@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial class UPCGAttributeSelectSettings : UPCGSettings {
 // PCGAttributeSelectSettings
 	public FPCGAttributePropertySelector InputSource;
-	public sbyte OutputAttributeName;
+	public string OutputAttributeName;
 	public EPCGAttributeSelectOperation Operation;
 	public EPCGAttributeSelectAxis Axis;
 	public FVector4 CustomAxis;
-	public sbyte InputAttributeName_DEPRECATED;
+	public string InputAttributeName_DEPRECATED;
 }

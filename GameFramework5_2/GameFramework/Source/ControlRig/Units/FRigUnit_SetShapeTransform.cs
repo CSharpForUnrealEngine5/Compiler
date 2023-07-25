@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetShapeTransform is used to perform a change in the hierarchy by setting a single control's shape transform.</summary>
 public partial struct FRigUnit_SetShapeTransform {
 // RigUnit_SetShapeTransform
-	public sbyte Control;
+	public string Control;
 	public FTransform Transform;
 	public FCachedRigElement CachedControlIndex;
 }

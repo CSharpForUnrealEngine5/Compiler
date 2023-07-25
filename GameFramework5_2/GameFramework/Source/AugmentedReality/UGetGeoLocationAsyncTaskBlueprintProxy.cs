@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Blueprint async task to convert Geo location.</summary>
 public partial class UGetGeoLocationAsyncTaskBlueprintProxy : UARBaseAsyncTaskBlueprintProxy {
 // GetGeoLocationAsyncTaskBlueprintProxy
-	public void FGetGeoLocationDelegate(float Longitude,float Latitude,float Altitude,sbyte Error) {}
+	public void FGetGeoLocationDelegate(float Longitude,float Latitude,float Altitude,string Error) {}
 	public FGetGeoLocationDelegate OnSuccess;
 	public FGetGeoLocationDelegate OnFailed;
-	public UObject GetGeoLocationAtWorldPosition(UObject WorldContextObject,FVector WorldPosition,UObject ReturnValue) { return default; }
+	public UObject GetGeoLocationAtWorldPosition(UObject WorldContextObject,FVector WorldPosition) { return default; }
 }

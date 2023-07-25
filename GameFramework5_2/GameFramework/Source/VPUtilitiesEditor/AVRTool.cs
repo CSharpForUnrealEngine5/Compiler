@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for virtual production VR tools</summary>
 public partial class AVRTool : AVPTransientEditorTickableActorBase {
 // VRTool
-	public UObject GetInputComponent(UObject ReturnValue) { return default; }
+	public UObject GetInputComponent() { return default; }
 	public void SetReceivesEditorInput(bool bInValue) {}
-	public bool GetReceivesEditorInput(bool ReturnValue) { return default; }
+	public bool GetReceivesEditorInput() { return default; }
 	public UInputComponent EditorOnlyInputComponent;
 	public bool bReceivesEditorInput;
 }

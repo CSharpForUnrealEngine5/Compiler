@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("EditMode/ControlRigControlsProxy.h")]
 public partial struct FControlToProxyMap {
 // ControlToProxyMap
-	public TMap<sbyte,UControlRigControlsProxy> ControlToProxy;
+	public TMap<string,UControlRigControlsProxy> ControlToProxy;
 }

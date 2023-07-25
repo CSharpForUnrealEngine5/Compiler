@@ -4,15 +4,15 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraCommon.h")]
 public partial struct FNiagaraFunctionSignature {
 // NiagaraFunctionSignature
-	public sbyte Name;
+	public string Name;
 	public TArray<FNiagaraVariable> Inputs;
 	public TArray<FNiagaraVariable> Outputs;
-	public sbyte OwnerName;
+	public string OwnerName;
 	public bool bRequiresContext;
 	public bool bRequiresExecPin;
 	public bool bMemberFunction;
 	public bool bExperimental;
-	public sbyte ExperimentalMessage;
+	public string ExperimentalMessage;
 	public uint FunctionVersion;
 	public bool bSupportsCPU;
 	public bool bSupportsGPU;
@@ -25,8 +25,8 @@ public partial struct FNiagaraFunctionSignature {
 	public int ContextStageIndex;
 	public short RequiredInputs;
 	public short RequiredOutputs;
-	public TMap<sbyte,sbyte> FunctionSpecifiers;
-	public sbyte Description;
-	public TMap<FNiagaraVariableBase,sbyte> InputDescriptions;
-	public TMap<FNiagaraVariableBase,sbyte> OutputDescriptions;
+	public TMap<string,string> FunctionSpecifiers;
+	public string Description;
+	public TMap<FNiagaraVariableBase,string> InputDescriptions;
+	public TMap<FNiagaraVariableBase,string> OutputDescriptions;
 }

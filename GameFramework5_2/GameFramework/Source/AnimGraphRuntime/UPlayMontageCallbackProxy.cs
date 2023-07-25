@@ -9,9 +9,9 @@ public partial class UPlayMontageCallbackProxy : UObject {
 	public FOnMontagePlayDelegate OnInterrupted;
 	public FOnMontagePlayDelegate OnNotifyBegin;
 	public FOnMontagePlayDelegate OnNotifyEnd;
-	public UObject CreateProxyObjectForPlayMontage(UObject InSkeletalMeshComponent,UObject MontageToPlay,float PlayRate=1.f,float StartingPosition=0.f,sbyte StartingSection=NAME_None,UObject ReturnValue) { return default; }
+	public UObject CreateProxyObjectForPlayMontage(UObject InSkeletalMeshComponent,UObject MontageToPlay,float PlayRate/*=1.0f*/,float StartingPosition/*=0.0f*/,string StartingSection/*=NAME_None*/) { return default; }
 	public void OnMontageBlendingOut(UObject Montage,bool bInterrupted) {}
 	public void OnMontageEnded(UObject Montage,bool bInterrupted) {}
-	public void OnNotifyBeginReceived(sbyte NotifyName,FBranchingPointNotifyPayload BranchingPointNotifyPayload) {}
-	public void OnNotifyEndReceived(sbyte NotifyName,FBranchingPointNotifyPayload BranchingPointNotifyPayload) {}
+	public void OnNotifyBeginReceived(string NotifyName,FBranchingPointNotifyPayload BranchingPointNotifyPayload) {}
+	public void OnNotifyEndReceived(string NotifyName,FBranchingPointNotifyPayload BranchingPointNotifyPayload) {}
 }

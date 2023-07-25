@@ -8,5 +8,5 @@ public partial struct FRigVMFunction_VisualDebugQuat {
 	public bool bEnabled;
 	public float Thickness;
 	public float Scale;
-	public sbyte BoneSpace;
+	public string BoneSpace;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ContextualAnimSceneAsset.h")]
 public partial struct FContextualAnimActorPreviewData {
 // ContextualAnimActorPreviewData
-	public sbyte Role;
+	public string Role;
 	public EContextualAnimActorPreviewType Type;
 	public TSoftObjectPtr<USkeletalMesh> PreviewSkeletalMesh;
 	public TSoftObjectPtr<UClass> PreviewAnimInstance;

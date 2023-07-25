@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraMessages.h")]
 public partial struct FNiagaraStackMessage {
 // NiagaraStackMessage
-	public sbyte MessageText;
-	public sbyte ShortDescription;
+	public string MessageText;
+	public string ShortDescription;
 	public ENiagaraMessageSeverity MessageSeverity;
 	public bool bAllowDismissal;
 	public FGuid Guid;

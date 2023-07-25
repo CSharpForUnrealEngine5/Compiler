@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Object descriptor</summary>
 public partial struct FTextureShareObjectDesc {
 // TextureShareObjectDesc
-	public sbyte ShareName;
+	public string ShareName;
 	public FTextureShareObjectSyncSettings Settings;
 }

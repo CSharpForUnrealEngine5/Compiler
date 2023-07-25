@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MrcCalibrationData.h")]
 public partial class UMrcCalibrationSaveGame : UMrcCalibrationData {
 // MrcCalibrationSaveGame
-	public sbyte SaveSlotName;
+	public string SaveSlotName;
 	public int UserIndex;
 	public int ConfigurationSaveVersion;
 }

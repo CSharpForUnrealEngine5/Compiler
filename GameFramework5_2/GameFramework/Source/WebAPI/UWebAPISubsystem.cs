@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UWebAPISubsystem : UEngineSubsystem {
 // WebAPISubsystem
 	public bool bUsePooling;
-	public TMap<sbyte,FWebAPIPooledOperation> OperationPool;
+	public TMap<string,FWebAPIPooledOperation> OperationPool;
 }

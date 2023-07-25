@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("HeadMountedDisplayTypes.h")]
 public partial class UHandKeypointConversion : UBlueprintFunctionLibrary {
 // HandKeypointConversion
-	public int Conv_HandKeypointToInt32(EHandKeypoint input,int ReturnValue) { return default; }
+	public int Conv_HandKeypointToInt32(EHandKeypoint input) { return default; }
 }

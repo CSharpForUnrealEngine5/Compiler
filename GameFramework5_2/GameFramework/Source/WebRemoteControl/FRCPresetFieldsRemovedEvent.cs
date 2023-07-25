@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlResponse.h")]
 public partial struct FRCPresetFieldsRemovedEvent {
 // RCPresetFieldsRemovedEvent
-	public sbyte Type;
-	public sbyte PresetName;
-	public sbyte PresetId;
-	public TArray<sbyte> RemovedFields;
-	public TArray<sbyte> RemovedFieldIds;
+	public string Type;
+	public string PresetName;
+	public string PresetId;
+	public TArray<string> RemovedFields;
+	public TArray<string> RemovedFieldIds;
 }

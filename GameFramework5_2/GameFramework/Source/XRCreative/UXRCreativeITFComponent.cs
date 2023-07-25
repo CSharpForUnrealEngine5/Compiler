@@ -4,15 +4,15 @@ using CSharpToCpp.Utilities;
 [CppInclude("XRCreativeITFComponent.h")]
 public partial class UXRCreativeITFComponent : UActorComponent {
 // XRCreativeITFComponent
-	public bool CanUndo(bool ReturnValue) { return default; }
-	public bool CanRedo(bool ReturnValue) { return default; }
+	public bool CanUndo() { return default; }
+	public bool CanRedo() { return default; }
 	public void Undo() {}
 	public void Redo() {}
 	public void LeftMousePressed() {}
 	public void LeftMouseReleased() {}
-	public UObject GetSelectionSet(UObject ReturnValue) { return default; }
-	public bool HaveActiveTool(bool ReturnValue) { return default; }
-	public EToolContextCoordinateSystem GetCurrentCoordinateSystem(EToolContextCoordinateSystem ReturnValue) { return default; }
+	public UObject GetSelectionSet() { return default; }
+	public bool HaveActiveTool() { return default; }
+	public EToolContextCoordinateSystem GetCurrentCoordinateSystem() { return default; }
 	public void SetCurrentCoordinateSystem(EToolContextCoordinateSystem CoordSystem) {}
 	public UClass FullTRSGizmoActorClass;
 	public UXRCreativePointerComponent PointerComponent;

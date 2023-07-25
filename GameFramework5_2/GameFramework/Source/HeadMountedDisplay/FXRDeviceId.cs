@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("IIdentifiableXRDevice.h")]
 public partial struct FXRDeviceId {
 // XRDeviceId
-	public sbyte SystemName;
+	public string SystemName;
 	public int DeviceId;
 }

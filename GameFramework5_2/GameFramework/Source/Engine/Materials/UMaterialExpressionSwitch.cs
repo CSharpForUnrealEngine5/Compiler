@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionSwitch.h")]
 public partial class UMaterialExpressionSwitch : UMaterialExpression {
 // MaterialExpressionSwitch
-	public sbyte Description;
+	public string Description;
 	public FExpressionInput SwitchValue;
 	public float ConstSwitchValue;
 	public FExpressionInput Default;

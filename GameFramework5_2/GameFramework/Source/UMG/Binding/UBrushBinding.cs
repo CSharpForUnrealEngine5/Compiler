@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Binding/BrushBinding.h")]
 public partial class UBrushBinding : UPropertyBinding {
 // BrushBinding
-	public FSlateBrush GetValue(FSlateBrush ReturnValue) { return default; }
+	public FSlateBrush GetValue() { return default; }
 }

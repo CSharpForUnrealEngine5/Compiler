@@ -14,15 +14,15 @@ public partial class UMaterialInterface : UObject {
 	public TArray<FMaterialTextureInfo> TextureStreamingDataMissingEntries;
 	public FSoftObjectPath PreviewMesh;
 	public UThumbnailInfo ThumbnailInfo;
-	public TMap<sbyte,bool> LayerParameterExpansion;
-	public TMap<sbyte,bool> ParameterOverviewExpansion;
+	public TMap<string,bool> LayerParameterExpansion;
+	public TMap<string,bool> ParameterOverviewExpansion;
 	public UAssetImportData AssetImportData;
 	public FGuid LightingGuid;
-	public UObject GetBaseMaterial(UObject ReturnValue) { return default; }
-	public UObject GetPhysicalMaterial(UObject ReturnValue) { return default; }
-	public UObject GetPhysicalMaterialMask(UObject ReturnValue) { return default; }
-	public UObject GetPhysicalMaterialFromMap(int Index,UObject ReturnValue) { return default; }
-	public FMaterialParameterInfo GetParameterInfo(EMaterialParameterAssociation Association,sbyte ParameterName,UObject LayerFunction,FMaterialParameterInfo ReturnValue) { return default; }
-	public EBlendMode GetBlendMode(EBlendMode ReturnValue) { return default; }
-	public void SetForceMipLevelsToBeResident(bool OverrideForceMiplevelsToBeResident,bool bForceMiplevelsToBeResidentValue,float ForceDuration,int CinematicTextureGroups=0,bool bFastResponse=false) {}
+	public UObject GetBaseMaterial() { return default; }
+	public UObject GetPhysicalMaterial() { return default; }
+	public UObject GetPhysicalMaterialMask() { return default; }
+	public UObject GetPhysicalMaterialFromMap(int Index) { return default; }
+	public FMaterialParameterInfo GetParameterInfo(EMaterialParameterAssociation Association,string ParameterName,UObject LayerFunction) { return default; }
+	public EBlendMode GetBlendMode() { return default; }
+	public void SetForceMipLevelsToBeResident(bool OverrideForceMiplevelsToBeResident,bool bForceMiplevelsToBeResidentValue,float ForceDuration,int CinematicTextureGroups/*=0*/,bool bFastResponse/*=false*/) {}
 }

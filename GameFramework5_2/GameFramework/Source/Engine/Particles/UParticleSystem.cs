@@ -22,7 +22,7 @@ public partial class UParticleSystem : UFXSystemAsset {
 	public TArray<FParticleSystemLOD> LODSettings;
 	public FBox FixedRelativeBoundingBox;
 	public float SecondsBeforeInactive;
-	public sbyte FloorMesh;
+	public string FloorMesh;
 	public FVector FloorPosition;
 	public FRotator FloorRotation;
 	public float FloorScale;
@@ -52,5 +52,5 @@ public partial class UParticleSystem : UFXSystemAsset {
 	public FBox CustomOcclusionBounds;
 	public TArray<FLODSoloTrack> SoloTracking;
 	public TArray<FNamedEmitterMaterial> NamedMaterialSlots;
-	public bool ContainsEmitterType(UClass TypeData,bool ReturnValue) { return default; }
+	public bool ContainsEmitterType(UClass TypeData) { return default; }
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>deprecated class version for converting old data</summary>
 public partial class UDEPRECATED_ChooserParameterEnum_ContextProperty : UObject {
 // ChooserParameterEnum_ContextProperty
-	public TArray<sbyte> PropertyBindingChain;
+	public TArray<string> PropertyBindingChain;
 }

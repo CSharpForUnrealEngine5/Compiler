@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Slides an existing chain along itself with control over extrapolation.</summary>
 public partial struct FRigUnit_SlideChain {
 // RigUnit_SlideChain
-	public sbyte StartBone;
-	public sbyte EndBone;
+	public string StartBone;
+	public string EndBone;
 	public float SlideAmount;
 	public bool bPropagateToChildren;
 	public FRigUnit_SlideChain_WorkData WorkData;

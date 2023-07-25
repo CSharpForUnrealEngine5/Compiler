@@ -9,7 +9,7 @@ public partial class UMrcGarbageMatteCaptureComponent : USceneCaptureComponent2D
 	public void SetGarbageMatteActor(UObject NewActor) {}
 	public void GetGarbageMatteData(TArray<FMrcGarbageMatteSaveData> GarbageMatteDataOut) {}
 	public void SetFocalDriver(object /*InFocalDriver*/ InFocalDriver) {}
-	public UObject SpawnNewGarbageMatteActor(UObject TrackingOrigin,UObject ReturnValue) { return default; }
+	public UObject SpawnNewGarbageMatteActor(UObject TrackingOrigin) { return default; }
 	public UClass GarbageMatteActorClass;
 	public AMrcGarbageMatteActor GarbageMatteActor;
 	public TArray<AMrcGarbageMatteActor> SpawnedActors;

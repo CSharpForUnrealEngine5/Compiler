@@ -9,7 +9,7 @@ public partial struct FNewLevelInstanceParams {
 	public AActor PivotActor;
 	public bool bAlwaysShowDialog;
 	public UWorld TemplateWorld;
-	public sbyte LevelPackageName;
+	public string LevelPackageName;
 	public bool bPromptForSave;
 	public UClass LevelInstanceClass;
 	public bool bExternalActors;

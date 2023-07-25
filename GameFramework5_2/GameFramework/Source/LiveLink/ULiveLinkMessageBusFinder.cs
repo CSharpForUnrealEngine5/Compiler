@@ -7,5 +7,5 @@ public partial class ULiveLinkMessageBusFinder : UObject {
 // LiveLinkMessageBusFinder
 	public void GetAvailableProviders(UObject WorldContextObject,FLatentActionInfo LatentInfo,float Duration,TArray<FProviderPollResult> AvailableProviders) {}
 	public void ConnectToProvider(FProviderPollResult Provider,FLiveLinkSourceHandle SourceHandle) {}
-	public UObject ConstructMessageBusFinder(UObject ReturnValue) { return default; }
+	public UObject ConstructMessageBusFinder() { return default; }
 }

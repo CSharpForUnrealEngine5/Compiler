@@ -11,10 +11,10 @@ public partial class UContextualAnimSceneInstance : UObject {
 	public FOnContextualAnimSceneActorLeft OnActorLeft;
 	public FOnContextualAnimSceneNotify OnNotifyBegin;
 	public FOnContextualAnimSceneNotify OnNotifyEnd;
-	public UObject GetActorByRole(sbyte Role,UObject ReturnValue) { return default; }
+	public UObject GetActorByRole(string Role) { return default; }
 	public void OnMontageBlendingOut(UObject Montage,bool bInterrupted) {}
-	public void OnNotifyBeginReceived(sbyte NotifyName,FBranchingPointNotifyPayload BranchingPointNotifyPayload) {}
-	public void OnNotifyEndReceived(sbyte NotifyName,FBranchingPointNotifyPayload BranchingPointNotifyPayload) {}
+	public void OnNotifyBeginReceived(string NotifyName,FBranchingPointNotifyPayload BranchingPointNotifyPayload) {}
+	public void OnNotifyEndReceived(string NotifyName,FBranchingPointNotifyPayload BranchingPointNotifyPayload) {}
 	public UContextualAnimSceneAsset SceneAsset;
 	public FContextualAnimSceneBindings Bindings;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("IdentifierTable/ConcertIdentifierTableData.h")]
 public partial struct FConcertLocalIdentifierState {
 // ConcertLocalIdentifierState
-	public TArray<sbyte> MappedNames;
+	public TArray<string> MappedNames;
 }

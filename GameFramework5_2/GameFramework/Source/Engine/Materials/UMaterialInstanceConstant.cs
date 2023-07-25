@@ -7,8 +7,8 @@ public partial class UMaterialInstanceConstant : UMaterialInstance {
 // MaterialInstanceConstant
 	public FGuid ParameterStateId;
 	public UPhysicalMaterialMask PhysMaterialMask;
-	public float K2_GetScalarParameterValue(sbyte ParameterName,float ReturnValue) { return default; }
-	public UObject K2_GetTextureParameterValue(sbyte ParameterName,UObject ReturnValue) { return default; }
-	public FLinearColor K2_GetVectorParameterValue(sbyte ParameterName,FLinearColor ReturnValue) { return default; }
+	public float K2_GetScalarParameterValue(string ParameterName) { return default; }
+	public UObject K2_GetTextureParameterValue(string ParameterName) { return default; }
+	public FLinearColor K2_GetVectorParameterValue(string ParameterName) { return default; }
 	public void SetNaniteOverrideMaterial(bool bInEnableOverride,UObject InOverrideMaterial) {}
 }

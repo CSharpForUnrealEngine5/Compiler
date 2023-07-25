@@ -7,6 +7,6 @@ public partial class UPCGAttributeGetFromPointIndexSettings : UPCGSettings {
 // PCGAttributeGetFromPointIndexSettings
 	public FPCGAttributePropertySelector InputSource;
 	public int Index;
-	public sbyte OutputAttributeName;
-	public sbyte InputAttributeName_DEPRECATED;
+	public string OutputAttributeName;
+	public string InputAttributeName_DEPRECATED;
 }

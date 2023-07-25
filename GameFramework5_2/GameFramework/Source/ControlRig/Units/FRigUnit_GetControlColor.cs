@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetControlColor is used to retrieve the color of control</summary>
 public partial struct FRigUnit_GetControlColor {
 // RigUnit_GetControlColor
-	public sbyte Control;
+	public string Control;
 	public FLinearColor Color;
 	public FCachedRigElement CachedControlIndex;
 }

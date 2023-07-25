@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusSource.h")]
 public partial class UOptimusSource : UComputeSource {
 // OptimusSource
-	public sbyte SourceText;
+	public string SourceText;
 }

@@ -5,15 +5,15 @@ using CSharpToCpp.Utilities;
 ///<summary>A virtualized list that allows up to thousands of items to be displayed.</summary>
 public partial class UListView : UListViewBase {
 // ListView
-	public TArray<UObject> GetListItems(TArray<UObject> ReturnValue) { return default; }
+	public TArray<UObject> GetListItems() { return default; }
 	public void AddItem(UObject Item) {}
 	public void RemoveItem(UObject Item) {}
-	public UObject GetItemAt(int Index,UObject ReturnValue) { return default; }
-	public int GetNumItems(int ReturnValue) { return default; }
-	public int GetIndexForItem(UObject Item,int ReturnValue) { return default; }
+	public UObject GetItemAt(int Index) { return default; }
+	public int GetNumItems() { return default; }
+	public int GetIndexForItem(UObject Item) { return default; }
 	public void ClearListItems() {}
 	public void SetSelectionMode(byte SelectionMode) {}
-	public bool IsRefreshPending(bool ReturnValue) { return default; }
+	public bool IsRefreshPending() { return default; }
 	public void ScrollIndexIntoView(int Index) {}
 	public void SetSelectedIndex(int Index) {}
 	public void NavigateToIndex(int Index) {}
@@ -32,14 +32,14 @@ public partial class UListView : UListViewBase {
 	public void BP_SetSelectedItem(UObject Item) {}
 	public void BP_SetItemSelection(UObject Item,bool bSelected) {}
 	public void BP_ClearSelection() {}
-	public int BP_GetNumItemsSelected(int ReturnValue) { return default; }
-	public bool BP_GetSelectedItems(TArray<UObject> Items,bool ReturnValue) { return default; }
-	public bool BP_IsItemVisible(UObject Item,bool ReturnValue) { return default; }
+	public int BP_GetNumItemsSelected() { return default; }
+	public bool BP_GetSelectedItems(TArray<UObject> Items) { return default; }
+	public bool BP_IsItemVisible(UObject Item) { return default; }
 	public void BP_NavigateToItem(UObject Item) {}
 	public void BP_ScrollItemIntoView(UObject Item) {}
 	public void BP_CancelScrollIntoView() {}
 	public void BP_SetListItems(TArray<UObject> InListItems) {}
-	public UObject BP_GetSelectedItem(UObject ReturnValue) { return default; }
+	public UObject BP_GetSelectedItem() { return default; }
 	public FOnListEntryInitializedDynamic BP_OnEntryInitialized;
 	public FSimpleListItemEventDynamic BP_OnItemClicked;
 	public FSimpleListItemEventDynamic BP_OnItemDoubleClicked;

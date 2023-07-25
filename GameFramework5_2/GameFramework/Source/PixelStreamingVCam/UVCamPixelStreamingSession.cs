@@ -9,7 +9,7 @@ public partial class UVCamPixelStreamingSession : UVCamOutputProviderBase {
 	public bool EnableARKitTracking;
 	public bool PreventEditorIdle;
 	public bool bAutoSetLiveLinkSubject;
-	public sbyte StreamerId;
+	public string StreamerId;
 	public UPixelStreamingMediaOutput MediaOutput;
 	public UPixelStreamingMediaCapture MediaCapture;
 }

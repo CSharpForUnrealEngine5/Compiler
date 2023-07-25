@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("AIGraphTypes.h")]
 public partial struct FGraphNodeClassData {
 // GraphNodeClassData
-	public sbyte AssetName;
-	public sbyte GeneratedClassPackage;
-	public sbyte ClassName;
-	public sbyte Category;
+	public string AssetName;
+	public string GeneratedClassPackage;
+	public string ClassName;
+	public string Category;
 }

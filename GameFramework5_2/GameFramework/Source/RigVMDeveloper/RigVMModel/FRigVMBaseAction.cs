@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>The base action is the base struct for all actions, and provides</summary>
 public partial struct FRigVMBaseAction {
 // RigVMBaseAction
-	public sbyte Title;
+	public string Title;
 	public TArray<FRigVMActionKey> SubActions;
 }

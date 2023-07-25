@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made via websocket to create an nDisplay preview renderer.</summary>
 public partial struct FRCWebSocketNDisplayPreviewRendererCreateBody {
 // RCWebSocketNDisplayPreviewRendererCreateBody
-	public sbyte RootActorPath;
+	public string RootActorPath;
 	public FRCWebSocketNDisplayPreviewRendererSettings Settings;
 }

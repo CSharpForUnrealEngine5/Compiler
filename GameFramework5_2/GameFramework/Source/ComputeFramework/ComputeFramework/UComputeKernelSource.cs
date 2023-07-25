@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Class representing the source for a UComputeKernel</summary>
 public partial class UComputeKernelSource : UObject {
 // ComputeKernelSource
-	public sbyte EntryPoint;
+	public string EntryPoint;
 	public FIntVector GroupSize;
 	public FComputeKernelPermutationSet PermutationSet;
 	public FComputeKernelDefinitionSet DefinitionsSet;

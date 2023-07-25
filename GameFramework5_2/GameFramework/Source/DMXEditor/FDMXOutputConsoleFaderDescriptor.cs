@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("DMXEditorSettings.h")]
 public partial struct FDMXOutputConsoleFaderDescriptor {
 // DMXOutputConsoleFaderDescriptor
-	public sbyte FaderName;
+	public string FaderName;
 	public byte Value;
 	public byte MaxValue;
 	public byte MinValue;
 	public int UniversID;
 	public int StartingAddress;
 	public int EndingAddress;
-	public sbyte ProtocolName;
+	public string ProtocolName;
 }

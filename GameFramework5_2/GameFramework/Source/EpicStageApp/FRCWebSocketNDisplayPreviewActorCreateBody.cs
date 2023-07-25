@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FRCWebSocketNDisplayPreviewActorCreateBody {
 // RCWebSocketNDisplayPreviewActorCreateBody
 	public int RendererId;
-	public sbyte ActorName;
-	public sbyte ActorClass;
-	public sbyte TemplatePath;
+	public string ActorName;
+	public string ActorClass;
+	public string TemplatePath;
 	public bool OverridePosition;
 	public FVector2D Position;
 	public bool OverrideColor;

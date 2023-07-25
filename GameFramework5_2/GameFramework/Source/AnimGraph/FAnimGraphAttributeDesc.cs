@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Description of an attribute</summary>
 public partial struct FAnimGraphAttributeDesc {
 // AnimGraphAttributeDesc
-	public sbyte Name;
+	public string Name;
 	public FSlateBrush Icon;
-	public sbyte DisplayName;
-	public sbyte ToolTipText;
+	public string DisplayName;
+	public string ToolTipText;
 	public FSlateColor Color;
 	public EAnimGraphAttributesDisplayMode DisplayMode;
 	public EAnimGraphAttributeBlend Blend;

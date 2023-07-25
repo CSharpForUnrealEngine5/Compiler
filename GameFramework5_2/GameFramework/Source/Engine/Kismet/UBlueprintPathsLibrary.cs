@@ -5,86 +5,86 @@ using CSharpToCpp.Utilities;
 ///<summary>Function library to expose FPaths to Blueprints and Python</summary>
 public partial class UBlueprintPathsLibrary : UBlueprintFunctionLibrary {
 // BlueprintPathsLibrary
-	public bool ShouldSaveToUserDir(bool ReturnValue) { return default; }
-	public sbyte LaunchDir(sbyte ReturnValue) { return default; }
-	public sbyte EngineDir(sbyte ReturnValue) { return default; }
-	public sbyte EngineUserDir(sbyte ReturnValue) { return default; }
-	public sbyte EngineVersionAgnosticUserDir(sbyte ReturnValue) { return default; }
-	public sbyte EngineContentDir(sbyte ReturnValue) { return default; }
-	public sbyte EngineConfigDir(sbyte ReturnValue) { return default; }
-	public sbyte EngineIntermediateDir(sbyte ReturnValue) { return default; }
-	public sbyte EngineSavedDir(sbyte ReturnValue) { return default; }
-	public sbyte EnginePluginsDir(sbyte ReturnValue) { return default; }
-	public sbyte EnterpriseDir(sbyte ReturnValue) { return default; }
-	public sbyte EnterprisePluginsDir(sbyte ReturnValue) { return default; }
-	public sbyte EnterpriseFeaturePackDir(sbyte ReturnValue) { return default; }
-	public sbyte RootDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectUserDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectContentDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectConfigDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectSavedDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectIntermediateDir(sbyte ReturnValue) { return default; }
-	public sbyte ShaderWorkingDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectPluginsDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectModsDir(sbyte ReturnValue) { return default; }
-	public bool HasProjectPersistentDownloadDir(bool ReturnValue) { return default; }
-	public sbyte ProjectPersistentDownloadDir(sbyte ReturnValue) { return default; }
-	public sbyte SourceConfigDir(sbyte ReturnValue) { return default; }
-	public sbyte GeneratedConfigDir(sbyte ReturnValue) { return default; }
-	public sbyte SandboxesDir(sbyte ReturnValue) { return default; }
-	public sbyte ProfilingDir(sbyte ReturnValue) { return default; }
-	public sbyte ScreenShotDir(sbyte ReturnValue) { return default; }
-	public sbyte BugItDir(sbyte ReturnValue) { return default; }
-	public sbyte VideoCaptureDir(sbyte ReturnValue) { return default; }
-	public sbyte ProjectLogDir(sbyte ReturnValue) { return default; }
-	public sbyte AutomationDir(sbyte ReturnValue) { return default; }
-	public sbyte AutomationTransientDir(sbyte ReturnValue) { return default; }
-	public sbyte AutomationLogDir(sbyte ReturnValue) { return default; }
-	public sbyte CloudDir(sbyte ReturnValue) { return default; }
-	public sbyte GameDevelopersDir(sbyte ReturnValue) { return default; }
-	public sbyte GameUserDeveloperDir(sbyte ReturnValue) { return default; }
-	public sbyte DiffDir(sbyte ReturnValue) { return default; }
-	public TArray<sbyte> GetEngineLocalizationPaths(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GetEditorLocalizationPaths(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GetPropertyNameLocalizationPaths(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GetToolTipLocalizationPaths(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GetGameLocalizationPaths(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> GetRestrictedFolderNames(TArray<sbyte> ReturnValue) { return default; }
-	public bool IsRestrictedPath(sbyte InPath,bool ReturnValue) { return default; }
-	public sbyte GameAgnosticSavedDir(sbyte ReturnValue) { return default; }
-	public sbyte EngineSourceDir(sbyte ReturnValue) { return default; }
-	public sbyte GameSourceDir(sbyte ReturnValue) { return default; }
-	public sbyte FeaturePackDir(sbyte ReturnValue) { return default; }
-	public bool IsProjectFilePathSet(bool ReturnValue) { return default; }
-	public sbyte GetProjectFilePath(sbyte ReturnValue) { return default; }
-	public void SetProjectFilePath(sbyte NewGameProjectFilePath) {}
-	public sbyte GetExtension(sbyte InPath,bool bIncludeDot=false,sbyte ReturnValue) { return default; }
-	public sbyte GetCleanFilename(sbyte InPath,sbyte ReturnValue) { return default; }
-	public sbyte GetBaseFilename(sbyte InPath,bool bRemovePath=true,sbyte ReturnValue) { return default; }
-	public sbyte GetPath(sbyte InPath,sbyte ReturnValue) { return default; }
-	public sbyte ChangeExtension(sbyte InPath,sbyte InNewExtension,sbyte ReturnValue) { return default; }
-	public sbyte SetExtension(sbyte InPath,sbyte InNewExtension,sbyte ReturnValue) { return default; }
-	public bool FileExists(sbyte InPath,bool ReturnValue) { return default; }
-	public bool DirectoryExists(sbyte InPath,bool ReturnValue) { return default; }
-	public bool IsDrive(sbyte InPath,bool ReturnValue) { return default; }
-	public bool IsRelative(sbyte InPath,bool ReturnValue) { return default; }
-	public void NormalizeFilename(sbyte InPath,sbyte OutPath) {}
-	public bool IsSamePath(sbyte PathA,sbyte PathB,bool ReturnValue) { return default; }
-	public void NormalizeDirectoryName(sbyte InPath,sbyte OutPath) {}
-	public bool CollapseRelativeDirectories(sbyte InPath,sbyte OutPath,bool ReturnValue) { return default; }
-	public void RemoveDuplicateSlashes(sbyte InPath,sbyte OutPath) {}
-	public void MakeStandardFilename(sbyte InPath,sbyte OutPath) {}
-	public void MakePlatformFilename(sbyte InPath,sbyte OutPath) {}
-	public bool MakePathRelativeTo(sbyte InPath,sbyte InRelativeTo,sbyte OutPath,bool ReturnValue) { return default; }
-	public sbyte ConvertRelativePathToFull(sbyte InPath,sbyte InBasePath=TEXT,sbyte ReturnValue) { return default; }
-	public sbyte ConvertToSandboxPath(sbyte InPath,sbyte InSandboxName,sbyte ReturnValue) { return default; }
-	public sbyte ConvertFromSandboxPath(sbyte InPath,sbyte InSandboxName,sbyte ReturnValue) { return default; }
-	public sbyte CreateTempFilename(sbyte Path,sbyte Prefix=TEXT,sbyte Extension=TEXT,sbyte ReturnValue) { return default; }
-	public sbyte GetInvalidFileSystemChars(sbyte ReturnValue) { return default; }
-	public sbyte MakeValidFileName(sbyte InString,sbyte InReplacementChar=TEXT,sbyte ReturnValue) { return default; }
-	public void ValidatePath(sbyte InPath,bool bDidSucceed,sbyte OutReason) {}
-	public void Split(sbyte InPath,sbyte PathPart,sbyte FilenamePart,sbyte ExtensionPart) {}
-	public sbyte GetRelativePathToRoot(sbyte ReturnValue) { return default; }
-	public sbyte Combine(TArray<sbyte> InPaths,sbyte ReturnValue) { return default; }
+	public bool ShouldSaveToUserDir() { return default; }
+	public string LaunchDir() { return default; }
+	public string EngineDir() { return default; }
+	public string EngineUserDir() { return default; }
+	public string EngineVersionAgnosticUserDir() { return default; }
+	public string EngineContentDir() { return default; }
+	public string EngineConfigDir() { return default; }
+	public string EngineIntermediateDir() { return default; }
+	public string EngineSavedDir() { return default; }
+	public string EnginePluginsDir() { return default; }
+	public string EnterpriseDir() { return default; }
+	public string EnterprisePluginsDir() { return default; }
+	public string EnterpriseFeaturePackDir() { return default; }
+	public string RootDir() { return default; }
+	public string ProjectDir() { return default; }
+	public string ProjectUserDir() { return default; }
+	public string ProjectContentDir() { return default; }
+	public string ProjectConfigDir() { return default; }
+	public string ProjectSavedDir() { return default; }
+	public string ProjectIntermediateDir() { return default; }
+	public string ShaderWorkingDir() { return default; }
+	public string ProjectPluginsDir() { return default; }
+	public string ProjectModsDir() { return default; }
+	public bool HasProjectPersistentDownloadDir() { return default; }
+	public string ProjectPersistentDownloadDir() { return default; }
+	public string SourceConfigDir() { return default; }
+	public string GeneratedConfigDir() { return default; }
+	public string SandboxesDir() { return default; }
+	public string ProfilingDir() { return default; }
+	public string ScreenShotDir() { return default; }
+	public string BugItDir() { return default; }
+	public string VideoCaptureDir() { return default; }
+	public string ProjectLogDir() { return default; }
+	public string AutomationDir() { return default; }
+	public string AutomationTransientDir() { return default; }
+	public string AutomationLogDir() { return default; }
+	public string CloudDir() { return default; }
+	public string GameDevelopersDir() { return default; }
+	public string GameUserDeveloperDir() { return default; }
+	public string DiffDir() { return default; }
+	public TArray<string> GetEngineLocalizationPaths() { return default; }
+	public TArray<string> GetEditorLocalizationPaths() { return default; }
+	public TArray<string> GetPropertyNameLocalizationPaths() { return default; }
+	public TArray<string> GetToolTipLocalizationPaths() { return default; }
+	public TArray<string> GetGameLocalizationPaths() { return default; }
+	public TArray<string> GetRestrictedFolderNames() { return default; }
+	public bool IsRestrictedPath(string InPath) { return default; }
+	public string GameAgnosticSavedDir() { return default; }
+	public string EngineSourceDir() { return default; }
+	public string GameSourceDir() { return default; }
+	public string FeaturePackDir() { return default; }
+	public bool IsProjectFilePathSet() { return default; }
+	public string GetProjectFilePath() { return default; }
+	public void SetProjectFilePath(string NewGameProjectFilePath) {}
+	public string GetExtension(string InPath,bool bIncludeDot/*=false*/) { return default; }
+	public string GetCleanFilename(string InPath) { return default; }
+	public string GetBaseFilename(string InPath,bool bRemovePath/*=true*/) { return default; }
+	public string GetPath(string InPath) { return default; }
+	public string ChangeExtension(string InPath,string InNewExtension) { return default; }
+	public string SetExtension(string InPath,string InNewExtension) { return default; }
+	public bool FileExists(string InPath) { return default; }
+	public bool DirectoryExists(string InPath) { return default; }
+	public bool IsDrive(string InPath) { return default; }
+	public bool IsRelative(string InPath) { return default; }
+	public void NormalizeFilename(string InPath,string OutPath) {}
+	public bool IsSamePath(string PathA,string PathB) { return default; }
+	public void NormalizeDirectoryName(string InPath,string OutPath) {}
+	public bool CollapseRelativeDirectories(string InPath,string OutPath) { return default; }
+	public void RemoveDuplicateSlashes(string InPath,string OutPath) {}
+	public void MakeStandardFilename(string InPath,string OutPath) {}
+	public void MakePlatformFilename(string InPath,string OutPath) {}
+	public bool MakePathRelativeTo(string InPath,string InRelativeTo,string OutPath) { return default; }
+	public string ConvertRelativePathToFull(string InPath,string InBasePath/*=TEXT("")*/) { return default; }
+	public string ConvertToSandboxPath(string InPath,string InSandboxName) { return default; }
+	public string ConvertFromSandboxPath(string InPath,string InSandboxName) { return default; }
+	public string CreateTempFilename(string Path,string Prefix/*=TEXT("")*/,string Extension/*=TEXT(".tmp")*/) { return default; }
+	public string GetInvalidFileSystemChars() { return default; }
+	public string MakeValidFileName(string InString,string InReplacementChar/*=TEXT("")*/) { return default; }
+	public void ValidatePath(string InPath,bool bDidSucceed,string OutReason) {}
+	public void Split(string InPath,string PathPart,string FilenamePart,string ExtensionPart) {}
+	public string GetRelativePathToRoot() { return default; }
+	public string Combine(TArray<string> InPaths) { return default; }
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionLandscapeLayerSample.h")]
 public partial class UMaterialExpressionLandscapeLayerSample : UMaterialExpression {
 // MaterialExpressionLandscapeLayerSample
-	public sbyte ParameterName;
+	public string ParameterName;
 	public float PreviewWeight;
 }

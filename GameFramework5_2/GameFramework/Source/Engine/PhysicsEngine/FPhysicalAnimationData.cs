@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Stores info on the type of motor that will be used for a given bone</summary>
 public partial struct FPhysicalAnimationData {
 // PhysicalAnimationData
-	public sbyte BodyName;
+	public string BodyName;
 	public bool bIsLocalSimulation;
 	public float OrientationStrength;
 	public float AngularVelocityStrength;

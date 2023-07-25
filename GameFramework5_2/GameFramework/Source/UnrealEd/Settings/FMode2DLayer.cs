@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>2D layer settings</summary>
 public partial struct FMode2DLayer {
 // Mode2DLayer
-	public sbyte Name;
+	public string Name;
 	public float Depth;
 }

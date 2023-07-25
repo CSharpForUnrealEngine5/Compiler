@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An action renaming an exposed in the graph.</summary>
 public partial struct FRigVMRenameExposedPinAction {
 // RigVMRenameExposedPinAction
-	public sbyte OldPinName;
-	public sbyte NewPinName;
+	public string OldPinName;
+	public string NewPinName;
 }

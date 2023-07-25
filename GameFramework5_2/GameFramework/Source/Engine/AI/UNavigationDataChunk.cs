@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("AI/Navigation/NavigationDataChunk.h")]
 public partial class UNavigationDataChunk : UObject {
 // NavigationDataChunk
-	public sbyte NavigationDataName;
+	public string NavigationDataName;
 }

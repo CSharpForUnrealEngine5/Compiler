@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An action marking a function as public/private.</summary>
 public partial struct FRigVMMarkFunctionPublicAction {
 // RigVMMarkFunctionPublicAction
-	public sbyte FunctionName;
+	public string FunctionName;
 	public bool bIsPublic;
 }

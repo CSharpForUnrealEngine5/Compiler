@@ -6,5 +6,5 @@ public partial class UConsoleVariablesEditorProjectSettings : UObject {
 // ConsoleVariablesEditorProjectSettings
 	public EConsoleVariablesEditorRowDisplayType UncheckedRowDisplayType;
 	public bool bAddAllChangedConsoleVariablesToCurrentPreset;
-	public TSet<sbyte> ChangedConsoleVariableSkipList;
+	public TSet<string> ChangedConsoleVariableSkipList;
 }

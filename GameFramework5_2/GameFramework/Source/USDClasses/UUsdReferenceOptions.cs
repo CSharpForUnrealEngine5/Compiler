@@ -8,7 +8,7 @@ public partial class UUsdReferenceOptions : UObject {
 	public bool bInternalReference;
 	public FFilePath TargetFile;
 	public bool bUseDefaultPrim;
-	public sbyte TargetPrimPath;
+	public string TargetPrimPath;
 	public float TimeCodeOffset;
 	public float TimeCodeScale;
 }

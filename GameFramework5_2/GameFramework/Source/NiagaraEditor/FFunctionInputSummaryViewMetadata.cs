@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FFunctionInputSummaryViewMetadata {
 // FunctionInputSummaryViewMetadata
 	public bool bVisible;
-	public sbyte DisplayName;
-	public sbyte Category;
+	public string DisplayName;
+	public string Category;
 	public int SortIndex;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for FBX parser warnings</summary>
 public partial class UInterchangeResultTextureWarning : UInterchangeResultWarning {
 // InterchangeResultTextureWarning
-	public sbyte TextureName;
+	public string TextureName;
 }

@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("MeshSelectors/PCGMeshSelectorByAttribute.h")]
 public partial class UPCGMeshSelectorByAttribute : UPCGMeshSelectorBase {
 // PCGMeshSelectorByAttribute
-	public sbyte AttributeName;
+	public string AttributeName;
 	public FSoftISMComponentDescriptor TemplateDescriptor;
 	public bool bUseAttributeMaterialOverrides;
-	public TArray<sbyte> MaterialOverrideAttributes;
+	public TArray<string> MaterialOverrideAttributes;
 	public bool bOverrideCollisionProfile_DEPRECATED;
 	public FCollisionProfileName CollisionProfile_DEPRECATED;
 	public EPCGMeshSelectorMaterialOverrideMode MaterialOverrideMode_DEPRECATED;

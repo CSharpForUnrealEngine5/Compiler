@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlFieldMetadata.h")]
 public partial struct FRCMetadata_FString {
 // RCMetadata_FString
-	public sbyte DefaultValue;
+	public string DefaultValue;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPerParticleCacheData {
 // PerParticleCacheData
 	public FParticleTransformTrack TransformData;
-	public TMap<sbyte,FRichCurve> CurveData;
+	public TMap<string,FRichCurve> CurveData;
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Helper struct for setting string console ini values.</summary>
 public partial struct FIniStringValue {
 // IniStringValue
-	public sbyte Section;
-	public sbyte Key;
-	public sbyte Value;
-	public sbyte Filename;
+	public string Section;
+	public string Key;
+	public string Value;
+	public string Filename;
 }

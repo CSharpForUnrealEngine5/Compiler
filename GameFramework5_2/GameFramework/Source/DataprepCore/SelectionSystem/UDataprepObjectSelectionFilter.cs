@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Filter selected objects</summary>
 public partial class UDataprepObjectSelectionFilter : UDataprepFilterNoFetcher {
 // DataprepObjectSelectionFilter
-	public TArray<sbyte> SelectedObjectPaths;
+	public TArray<string> SelectedObjectPaths;
 	public int NumAssets;
 	public int NumActors;
-	public TArray<sbyte> CachedNames;
+	public TArray<string> CachedNames;
 }

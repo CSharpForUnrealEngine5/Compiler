@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A utility class allowing for references to FNiagaraVariableBase outside of the Niagara module.</summary>
 public partial struct FNiagaraVariableCommonReference {
 // NiagaraVariableCommonReference
-	public sbyte Name;
+	public string Name;
 	public UObject UnderlyingType;
 }

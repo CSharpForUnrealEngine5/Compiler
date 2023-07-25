@@ -9,7 +9,7 @@ public partial class UStaticMesh : UStreamableRenderAsset {
 	public FStaticMeshSourceModel HiResSourceModel;
 	public FMeshSectionInfoMap SectionInfoMap;
 	public FMeshSectionInfoMap OriginalSectionInfoMap;
-	public sbyte LODGroup;
+	public string LODGroup;
 	public FPerPlatformInt NumStreamedLODs;
 	public int ImportVersion;
 	public TArray<FMaterialRemapIndex> MaterialRemapIndexPerImportVersion;
@@ -17,19 +17,19 @@ public partial class UStaticMesh : UStreamableRenderAsset {
 	public bool bAutoComputeLODScreenSize;
 	public TArray<UMaterialInterface> Materials_DEPRECATED;
 	public FMeshNaniteSettings NaniteSettings;
-	public bool IsLODScreenSizeAutoComputed(bool ReturnValue) { return default; }
+	public bool IsLODScreenSizeAutoComputed() { return default; }
 	public FPerQualityLevelInt MinQualityLevelLOD;
-	public void GetMinimumLODForQualityLevels(TMap<sbyte,int> QualityLevelMinimumLODs) {}
-	public int GetMinimumLODForQualityLevel(sbyte QualityLevel,int ReturnValue) { return default; }
-	public void SetMinLODForQualityLevels(TMap<EPerQualityLevels,int> QualityLevelMinimumLODs,int Default=-1) {}
+	public void GetMinimumLODForQualityLevels(TMap<string,int> QualityLevelMinimumLODs) {}
+	public int GetMinimumLODForQualityLevel(string QualityLevel) { return default; }
+	public void SetMinLODForQualityLevels(TMap<EPerQualityLevels,int> QualityLevelMinimumLODs,int Default/*=-1*/) {}
 	public void GetMinLODForQualityLevels(TMap<EPerQualityLevels,int> QualityLevelMinimumLODs,int Default) {}
 	public FPerPlatformInt MinLOD;
-	public void GetMinimumLODForPlatforms(TMap<sbyte,int> PlatformMinimumLODs) {}
-	public int GetMinimumLODForPlatform(sbyte PlatformName,int ReturnValue) { return default; }
-	public void SetMinimumLODForPlatforms(TMap<sbyte,int> PlatformMinimumLODs) {}
-	public void SetMinimumLODForPlatform(sbyte PlatformName,int InMinLOD) {}
+	public void GetMinimumLODForPlatforms(TMap<string,int> PlatformMinimumLODs) {}
+	public int GetMinimumLODForPlatform(string PlatformName) { return default; }
+	public void SetMinimumLODForPlatforms(TMap<string,int> PlatformMinimumLODs) {}
+	public void SetMinimumLODForPlatform(string PlatformName,int InMinLOD) {}
 	public TArray<FStaticMaterial> StaticMaterials;
-	public TArray<FStaticMaterial> GetStaticMaterials(TArray<FStaticMaterial> ReturnValue) { return default; }
+	public TArray<FStaticMaterial> GetStaticMaterials() { return default; }
 	public void SetStaticMaterials(TArray<FStaticMaterial> InStaticMaterials) {}
 	public float LightmapUVDensity;
 	public int LightMapResolution;
@@ -48,8 +48,8 @@ public partial class UStaticMesh : UStreamableRenderAsset {
 	public bool bAllowCPUAccess;
 	public bool bSupportGpuUniformlyDistributedSampling;
 	public UAssetImportData AssetImportData;
-	public sbyte SourceFilePath_DEPRECATED;
-	public sbyte SourceFileTimestamp_DEPRECATED;
+	public string SourceFilePath_DEPRECATED;
+	public string SourceFileTimestamp_DEPRECATED;
 	public UThumbnailInfo ThumbnailInfo;
 	public FAssetEditorOrbitCameraPosition EditorCameraPosition;
 	public bool bCustomizedCollision;
@@ -61,22 +61,22 @@ public partial class UStaticMesh : UStreamableRenderAsset {
 	public TArray<UAssetUserData> AssetUserData;
 	public UObject EditableMesh_DEPRECATED;
 	public UStaticMesh ComplexCollisionMesh;
-	public UObject CreateStaticMeshDescription(UObject Outer=nullptr,UObject ReturnValue) { return default; }
-	public void BuildFromStaticMeshDescriptions(TArray<UObject> StaticMeshDescriptions,bool bBuildSimpleCollision=false,bool bFastBuild=true) {}
-	public UObject GetStaticMeshDescription(int LODIndex,UObject ReturnValue) { return default; }
+	public UObject CreateStaticMeshDescription(UObject Outer/*=nullptr*/) { return default; }
+	public void BuildFromStaticMeshDescriptions(TArray<UObject> StaticMeshDescriptions,bool bBuildSimpleCollision/*=false*/,bool bFastBuild/*=true*/) {}
+	public UObject GetStaticMeshDescription(int LODIndex) { return default; }
 	public UNavCollisionBase NavCollision;
 	public void SetNumSourceModels(int Num) {}
-	public int GetNumTriangles(int LODIndex,int ReturnValue) { return default; }
-	public int GetNumLODs(int ReturnValue) { return default; }
-	public FBoxSphereBounds GetBounds(FBoxSphereBounds ReturnValue) { return default; }
-	public FBox GetBoundingBox(FBox ReturnValue) { return default; }
-	public int GetNumSections(int InLOD,int ReturnValue) { return default; }
-	public UObject GetMaterial(int MaterialIndex,UObject ReturnValue) { return default; }
-	public sbyte AddMaterial(UObject Material,sbyte ReturnValue) { return default; }
-	public int GetMaterialIndex(sbyte MaterialSlotName,int ReturnValue) { return default; }
+	public int GetNumTriangles(int LODIndex) { return default; }
+	public int GetNumLODs() { return default; }
+	public FBoxSphereBounds GetBounds() { return default; }
+	public FBox GetBoundingBox() { return default; }
+	public int GetNumSections(int InLOD) { return default; }
+	public UObject GetMaterial(int MaterialIndex) { return default; }
+	public string AddMaterial(UObject Material) { return default; }
+	public int GetMaterialIndex(string MaterialSlotName) { return default; }
 	public void AddSocket(UObject Socket) {}
-	public UObject FindSocket(sbyte InSocketName,UObject ReturnValue) { return default; }
+	public UObject FindSocket(string InSocketName) { return default; }
 	public void RemoveSocket(UObject Socket) {}
-	public TArray<UObject> GetSocketsByTag(sbyte InSocketTag,TArray<UObject> ReturnValue) { return default; }
+	public TArray<UObject> GetSocketsByTag(string InSocketTag) { return default; }
 	public void SetMaterial(int MaterialIndex,UObject NewMaterial) {}
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a mapping between an action and key</summary>
 public partial struct FInputActionKeyMapping {
 // InputActionKeyMapping
-	public sbyte ActionName;
+	public string ActionName;
 	public bool bShift;
 	public bool bCtrl;
 	public bool bAlt;

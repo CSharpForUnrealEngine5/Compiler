@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Engine/NetworkSettings.h")]
 public partial struct FNetworkEmulationProfileDescription {
 // NetworkEmulationProfileDescription
-	public sbyte ProfileName;
-	public sbyte ToolTip;
+	public string ProfileName;
+	public string ToolTip;
 }

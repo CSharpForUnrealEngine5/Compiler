@@ -8,5 +8,5 @@ public partial class UTraceQueryTestResults : UObject {
 	public FTraceQueryTestResultsInner ObjectResults;
 	public FTraceQueryTestResultsInner ProfileResults;
 	public FTraceChannelTestBatchOptions BatchOptions;
-	public sbyte ToString(sbyte ReturnValue) { return default; }
+	public string ToString() { return default; }
 }

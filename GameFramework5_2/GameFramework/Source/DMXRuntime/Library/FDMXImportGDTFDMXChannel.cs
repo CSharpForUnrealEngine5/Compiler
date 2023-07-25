@@ -8,6 +8,6 @@ public partial struct FDMXImportGDTFDMXChannel {
 	public TArray<int> Offset;
 	public FDMXImportGDTFDMXValue Default;
 	public FDMXImportGDTFDMXValue Highlight;
-	public sbyte Geometry;
+	public string Geometry;
 	public FDMXImportGDTFLogicalChannel LogicalChannel;
 }

@@ -16,14 +16,14 @@ public partial class UDEPRECATED_UOculusMR_Settings : UObject {
 	public float ChromaKeySmoothRange;
 	public float ChromaKeySpillRange;
 	public EOculusMR_PostProcessEffects ExternalCompositionPostProcessEffects;
-	public EOculusMR_CompositionMethod GetCompositionMethod(EOculusMR_CompositionMethod ReturnValue) { return default; }
+	public EOculusMR_CompositionMethod GetCompositionMethod() { return default; }
 	public void SetCompositionMethod(EOculusMR_CompositionMethod val) {}
-	public EOculusMR_CameraDeviceEnum GetCapturingCamera(EOculusMR_CameraDeviceEnum ReturnValue) { return default; }
+	public EOculusMR_CameraDeviceEnum GetCapturingCamera() { return default; }
 	public void SetCapturingCamera(EOculusMR_CameraDeviceEnum val) {}
-	public bool GetIsCasting(bool ReturnValue) { return default; }
+	public bool GetIsCasting() { return default; }
 	public void SetIsCasting(bool val) {}
 	public void BindToTrackedCameraIndexIfAvailable(int InTrackedCameraIndex) {}
-	public int GetBindToTrackedCameraIndex(int ReturnValue) { return default; }
+	public int GetBindToTrackedCameraIndex() { return default; }
 	public void LoadFromIni() {}
 	public void SaveToIni() {}
 	public bool bIsCasting;

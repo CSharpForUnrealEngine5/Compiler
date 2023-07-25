@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("BehaviorTree/BlackboardAssetProvider.h")]
 public partial class UBlackboardAssetProvider : UInterface {
 // BlackboardAssetProvider
-	public UObject GetBlackboardAsset(UObject ReturnValue) { return default; }
+	public UObject GetBlackboardAsset() { return default; }
 }

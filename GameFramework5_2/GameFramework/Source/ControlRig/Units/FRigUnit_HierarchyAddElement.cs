@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_HierarchyAddElement {
 // RigUnit_HierarchyAddElement
 	public FRigElementKey Parent;
-	public sbyte Name;
+	public string Name;
 	public FRigElementKey Item;
 }

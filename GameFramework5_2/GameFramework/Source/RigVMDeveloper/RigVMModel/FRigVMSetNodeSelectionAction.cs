@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An action selecting or deselecting a node in the graph.</summary>
 public partial struct FRigVMSetNodeSelectionAction {
 // RigVMSetNodeSelectionAction
-	public TArray<sbyte> NewSelection;
-	public TArray<sbyte> OldSelection;
+	public TArray<string> NewSelection;
+	public TArray<string> OldSelection;
 }

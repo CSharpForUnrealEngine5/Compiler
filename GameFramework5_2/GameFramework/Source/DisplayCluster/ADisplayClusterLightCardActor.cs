@@ -32,7 +32,7 @@ public partial class ADisplayClusterLightCardActor : AActor {
 	public USpringArmComponent MainSpringArmComponent;
 	public USceneComponent LightCardTransformerComponent;
 	public UStaticMeshComponent LightCardComponent;
-	public TMap<sbyte,UActorComponent> ExtenderNameToComponentMap;
+	public TMap<string,UActorComponent> ExtenderNameToComponentMap;
 	public UDisplayClusterLabelComponent LabelComponent;
 	public UDisplayClusterStageActorComponent StageActorComponent;
 	public UStaticMeshComponent UVIndicatorComponent;

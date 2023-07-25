@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Node Mapping Container Class</summary>
 public partial class UNodeMappingContainer : UObject {
 // NodeMappingContainer
-	public TMap<sbyte,FNodeItem> SourceItems;
-	public TMap<sbyte,FNodeItem> TargetItems;
-	public TMap<sbyte,sbyte> SourceToTarget;
+	public TMap<string,FNodeItem> SourceItems;
+	public TMap<string,FNodeItem> TargetItems;
+	public TMap<string,string> SourceToTarget;
 	public TSoftObjectPtr<UObject> SourceAsset;
 	public TSoftObjectPtr<UObject> TargetAsset;
 }

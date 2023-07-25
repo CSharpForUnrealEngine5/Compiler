@@ -17,7 +17,7 @@ public partial class ADebugCameraController : APlayerController {
 	public void ShowDebugSelectedInfo() {}
 	public void ToggleDisplay() {}
 	public TWeakObjectPtr<AActor> SelectedActor;
-	public UObject GetSelectedActor(UObject ReturnValue) { return default; }
+	public UObject GetSelectedActor() { return default; }
 	public TWeakObjectPtr<UPrimitiveComponent> SelectedComponent;
 	public FHitResult SelectedHitPoint;
 	public APlayerController OriginalControllerRef;

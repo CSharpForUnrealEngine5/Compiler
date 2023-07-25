@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetBoneTranslation is used to perform a change in the hierarchy by setting a single bone's Translation.</summary>
 public partial struct FRigUnit_SetBoneTranslation {
 // RigUnit_SetBoneTranslation
-	public sbyte Bone;
+	public string Bone;
 	public FVector Translation;
 	public ERigVMTransformSpace Space;
 	public float Weight;

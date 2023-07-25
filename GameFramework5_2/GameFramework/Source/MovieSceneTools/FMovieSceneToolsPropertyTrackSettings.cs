@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MovieSceneToolsProjectSettings.h")]
 public partial struct FMovieSceneToolsPropertyTrackSettings {
 // MovieSceneToolsPropertyTrackSettings
-	public sbyte ComponentName;
-	public sbyte PropertyName;
+	public string ComponentName;
+	public string PropertyName;
 }

@@ -12,11 +12,11 @@ public partial class UMovieSceneSkeletalAnimationSection : UMovieSceneSection {
 	public float EndOffset_DEPRECATED;
 	public float PlayRate_DEPRECATED;
 	public bool bReverse_DEPRECATED;
-	public sbyte SlotName_DEPRECATED;
+	public string SlotName_DEPRECATED;
 	public FVector StartLocationOffset;
 	public FRotator StartRotationOffset;
 	public bool bMatchWithPrevious;
-	public sbyte MatchedBoneName;
+	public string MatchedBoneName;
 	public FVector MatchedLocationOffset;
 	public FRotator MatchedRotationOffset;
 	public bool bMatchTranslation;

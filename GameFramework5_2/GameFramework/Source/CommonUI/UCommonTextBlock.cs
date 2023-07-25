@@ -9,9 +9,9 @@ public partial class UCommonTextBlock : UTextBlock {
 	public void SetTextCase(bool bUseAllCaps) {}
 	public void SetLineHeightPercentage(float InLineHeightPercentage) {}
 	public void SetStyle(UClass InStyle) {}
-	public FMargin GetMargin(FMargin ReturnValue) { return default; }
+	public FMargin GetMargin() { return default; }
 	public void SetMargin(FMargin InMargin) {}
-	public float GetMobileFontSizeMultiplier(float ReturnValue) { return default; }
+	public float GetMobileFontSizeMultiplier() { return default; }
 	public void SetMobileFontSizeMultiplier(float InMobileFontSizeMultiplier) {}
 	public void ResetScrollState() {}
 	public void SetScrollingEnabled(bool bInIsScrollingEnabled) {}

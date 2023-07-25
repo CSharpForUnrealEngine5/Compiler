@@ -7,6 +7,6 @@ public partial class ULiveLinkBlueprintVirtualSubject : ULiveLinkVirtualSubject 
 // LiveLinkBlueprintVirtualSubject
 	public void OnInitialize() {}
 	public void OnUpdate() {}
-	public bool UpdateVirtualSubjectStaticData_Internal(FLiveLinkBaseStaticData InStruct,bool ReturnValue) { return default; }
-	public bool UpdateVirtualSubjectFrameData_Internal(FLiveLinkBaseFrameData InStruct,bool bInShouldStampCurrentTime,bool ReturnValue) { return default; }
+	public bool UpdateVirtualSubjectStaticData_Internal(FLiveLinkBaseStaticData InStruct) { return default; }
+	public bool UpdateVirtualSubjectFrameData_Internal(FLiveLinkBaseFrameData InStruct,bool bInShouldStampCurrentTime) { return default; }
 }

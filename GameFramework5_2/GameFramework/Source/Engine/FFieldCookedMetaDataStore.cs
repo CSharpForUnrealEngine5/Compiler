@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Cooked meta-data for a FField.</summary>
 public partial struct FFieldCookedMetaDataStore {
 // FieldCookedMetaDataStore
-	public TMap<sbyte,sbyte> FieldMetaData;
+	public TMap<string,string> FieldMetaData;
 }

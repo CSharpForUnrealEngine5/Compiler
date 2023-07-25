@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Wrapper for an emitter stack.</summary>
 public partial class UNiagaraPythonEmitter : UObject {
 // NiagaraPythonEmitter
-	public UObject GetObject(UObject ReturnValue) { return default; }
-	public FVersionedNiagaraEmitterData GetProperties(FVersionedNiagaraEmitterData ReturnValue) { return default; }
+	public UObject GetObject() { return default; }
+	public FVersionedNiagaraEmitterData GetProperties() { return default; }
 	public void SetProperties(FVersionedNiagaraEmitterData Data) {}
-	public TArray<UObject> GetModules(TArray<UObject> ReturnValue) { return default; }
-	public bool HasModule(sbyte ModuleName,bool ReturnValue) { return default; }
-	public UObject GetModule(sbyte ModuleName,UObject ReturnValue) { return default; }
+	public TArray<UObject> GetModules() { return default; }
+	public bool HasModule(string ModuleName) { return default; }
+	public UObject GetModule(string ModuleName) { return default; }
 }

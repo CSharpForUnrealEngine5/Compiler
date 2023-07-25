@@ -13,8 +13,8 @@ public partial class USoundWave : USoundBase {
 	public ESoundAssetCompressionType SoundAssetCompressionType;
 	public bool bSeekableStreaming;
 	public bool bUseBinkAudio;
-	public ESoundAssetCompressionType GetSoundAssetCompressionType(ESoundAssetCompressionType ReturnValue) { return default; }
-	public void SetSoundAssetCompressionType(ESoundAssetCompressionType InSoundAssetCompressionType,bool bMarkDirty=true) {}
+	public ESoundAssetCompressionType GetSoundAssetCompressionType() { return default; }
+	public void SetSoundAssetCompressionType(ESoundAssetCompressionType InSoundAssetCompressionType,bool bMarkDirty/*=true*/) {}
 	public USoundWave OverrideSoundToUseForAnalysis;
 	public bool TreatFileAsLoopingForAnalysis;
 	public bool bEnableBakedFFTAnalysis;
@@ -37,7 +37,7 @@ public partial class USoundWave : USoundBase {
 	public bool bVirtualizeWhenSilent_DEPRECATED;
 	public bool bIsAmbisonics;
 	public ESoundWaveLoadingBehavior LoadingBehavior;
-	public sbyte SpokenText_DEPRECATED;
+	public string SpokenText_DEPRECATED;
 	public float SubtitlePriority;
 	public float Volume;
 	public float Pitch;
@@ -48,10 +48,10 @@ public partial class USoundWave : USoundBase {
 	public int SampleRate;
 	public int ImportedSampleRate;
 	public TArray<FSubtitleCue> Subtitles;
-	public sbyte Comment;
+	public string Comment;
 	public FSoundWaveTimecodeInfo TimecodeInfo;
-	public sbyte SourceFilePath_DEPRECATED;
-	public sbyte SourceFileTimestamp_DEPRECATED;
+	public string SourceFilePath_DEPRECATED;
+	public string SourceFileTimestamp_DEPRECATED;
 	public UAssetImportData AssetImportData;
 	public UCurveTable Curves;
 	public UCurveTable InternalCurves;

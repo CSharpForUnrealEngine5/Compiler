@@ -7,7 +7,7 @@ public partial class UDatasmithStaticMeshCADImportData : UDatasmithStaticMeshImp
 	public FDatasmithTessellationOptions TessellationOptions;
 	public double ModelUnit;
 	public double ModelTolerance;
-	public sbyte ResourcePath;
-	public sbyte ResourceFilename;
-	public TArray<sbyte> AuxiliaryFilenames;
+	public string ResourcePath;
+	public string ResourceFilename;
+	public TArray<string> AuxiliaryFilenames;
 }

@@ -12,11 +12,11 @@ public partial class UAnimMontage : UAnimCompositeBase {
 	public FAlphaBlend BlendOut;
 	public float BlendOutTime_DEPRECATED;
 	public float BlendOutTriggerTime;
-	public FAlphaBlendArgs GetBlendInArgs(FAlphaBlendArgs ReturnValue) { return default; }
-	public FAlphaBlendArgs GetBlendOutArgs(FAlphaBlendArgs ReturnValue) { return default; }
-	public float GetDefaultBlendInTime(float ReturnValue) { return default; }
-	public float GetDefaultBlendOutTime(float ReturnValue) { return default; }
-	public sbyte SyncGroup;
+	public FAlphaBlendArgs GetBlendInArgs() { return default; }
+	public FAlphaBlendArgs GetBlendOutArgs() { return default; }
+	public float GetDefaultBlendInTime() { return default; }
+	public float GetDefaultBlendOutTime() { return default; }
+	public string SyncGroup;
 	public int SyncSlotIndex;
 	public FMarkerSyncData MarkerData;
 	public TArray<FCompositeSection> CompositeSections;
@@ -29,13 +29,13 @@ public partial class UAnimMontage : UAnimCompositeBase {
 	public UBlendProfile BlendProfileOut;
 	public byte RootMotionRootLock;
 	public UAnimSequence PreviewBasePose;
-	public int GetSectionIndex(sbyte InSectionName,int ReturnValue) { return default; }
-	public sbyte GetSectionName(int SectionIndex,sbyte ReturnValue) { return default; }
-	public int GetNumSections(int ReturnValue) { return default; }
-	public bool IsValidSectionName(sbyte InSectionName,bool ReturnValue) { return default; }
+	public int GetSectionIndex(string InSectionName) { return default; }
+	public string GetSectionName(int SectionIndex) { return default; }
+	public int GetNumSections() { return default; }
+	public bool IsValidSectionName(string InSectionName) { return default; }
 	public TArray<FBranchingPointMarker> BranchingPointMarkers;
 	public TArray<int> BranchingPointStateNotifyIndices;
-	public UObject CreateSlotAnimationAsDynamicMontage_WithBlendSettings(UObject Asset,sbyte SlotNodeName,FMontageBlendSettings BlendInSettings,FMontageBlendSettings BlendOutSettings,float InPlayRate=1.f,int LoopCount=1,float InBlendOutTriggerTime=-1.f,UObject ReturnValue) { return default; }
+	public UObject CreateSlotAnimationAsDynamicMontage_WithBlendSettings(UObject Asset,string SlotNodeName,FMontageBlendSettings BlendInSettings,FMontageBlendSettings BlendOutSettings,float InPlayRate/*=1.0f*/,int LoopCount/*=1*/,float InBlendOutTriggerTime/*=-1.0f*/) { return default; }
 	public FTimeStretchCurve TimeStretchCurve;
-	public sbyte TimeStretchCurveName;
+	public string TimeStretchCurveName;
 }

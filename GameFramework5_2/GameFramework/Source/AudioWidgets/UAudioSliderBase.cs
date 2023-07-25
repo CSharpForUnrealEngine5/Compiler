@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UAudioSliderBase : UWidget {
 // AudioSliderBase
 	public float Value;
-	public sbyte UnitsText;
+	public string UnitsText;
 	public FLinearColor TextLabelBackgroundColor;
 	public FGetLinearColor TextLabelBackgroundColorDelegate;
 	public bool ShowLabelOnlyOnHover;
@@ -22,11 +22,11 @@ public partial class UAudioSliderBase : UWidget {
 	public FGetLinearColor SliderThumbColorDelegate;
 	public FLinearColor WidgetBackgroundColor;
 	public FGetLinearColor WidgetBackgroundColorDelegate;
-	public float GetOutputValue(float InSliderValue,float ReturnValue) { return default; }
-	public float GetLinValue(float OutputValue,float ReturnValue) { return default; }
-	public float GetSliderValue(float OutputValue,float ReturnValue) { return default; }
+	public float GetOutputValue(float InSliderValue) { return default; }
+	public float GetLinValue(float OutputValue) { return default; }
+	public float GetSliderValue(float OutputValue) { return default; }
 	public void SetTextLabelBackgroundColor(FSlateColor InColor) {}
-	public void SetUnitsText(sbyte Units) {}
+	public void SetUnitsText(string Units) {}
 	public void SetUnitsTextReadOnly(bool bIsReadOnly) {}
 	public void SetValueTextReadOnly(bool bIsReadOnly) {}
 	public void SetShowLabelOnlyOnHover(bool bShowLabelOnlyOnHover) {}

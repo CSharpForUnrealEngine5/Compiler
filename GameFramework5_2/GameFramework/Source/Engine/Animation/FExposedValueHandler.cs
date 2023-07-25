@@ -7,5 +7,5 @@ public partial struct FExposedValueHandler {
 // ExposedValueHandler
 	public TArray<FExposedValueCopyRecord> CopyRecords;
 	public UFunction Function;
-	public sbyte BoundFunction;
+	public string BoundFunction;
 }

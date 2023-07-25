@@ -7,6 +7,6 @@ public partial class UComposureLensBloomPassPolicy : UComposurePostProcessPassPo
 // ComposureLensBloomPassPolicy
 	public FLensBloomSettings Settings;
 	public UMaterialInterface ReplacementMaterial;
-	public sbyte BloomIntensityParamName;
+	public string BloomIntensityParamName;
 	public UMaterialInstanceDynamic TonemapperReplacmentMID;
 }

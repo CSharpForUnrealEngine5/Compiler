@@ -8,5 +8,5 @@ public partial struct FAINoiseEvent {
 	public float Loudness;
 	public float MaxRange;
 	public AActor Instigator;
-	public sbyte Tag;
+	public string Tag;
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UVPUIBase : UEditorUtilityWidget {
 // VPUIBase
 	public AActor SelectedActor;
-	public void AppendVirtualProductionLog(sbyte NewMessage) {}
-	public sbyte GetLastVirtualProductionLogMessage(sbyte ReturnValue) { return default; }
+	public void AppendVirtualProductionLog(string NewMessage) {}
+	public string GetLastVirtualProductionLogMessage() { return default; }
 	public void OnVirtualProductionLogUpdated() {}
 	public void OnSelectedActorChanged() {}
 	public void OnBookmarkCreated(UObject Created) {}
@@ -15,5 +15,5 @@ public partial class UVPUIBase : UEditorUtilityWidget {
 	public void OnMapChanged() {}
 	public void OnSelectedActorPropertyChanged() {}
 	public void OnFlightModeChanged(bool WasEntered) {}
-	public TArray<sbyte> VirtualProductionLog;
+	public TArray<string> VirtualProductionLog;
 }

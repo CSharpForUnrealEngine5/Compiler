@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("TypedElementFrameworkTests.h")]
 public partial class UTestTypedElementInterfaceB : UInterface {
 // TestTypedElementInterfaceB
-	public bool MarkAsTested(FScriptTypedElementHandle InElementHandle,bool ReturnValue) { return default; }
+	public bool MarkAsTested(FScriptTypedElementHandle InElementHandle) { return default; }
 }

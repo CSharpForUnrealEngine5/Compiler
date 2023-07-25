@@ -6,15 +6,15 @@ public partial class USynthComponent : USceneComponent {
 // SynthComponent
 	public void Start() {}
 	public void Stop() {}
-	public bool IsPlaying(bool ReturnValue) { return default; }
+	public bool IsPlaying() { return default; }
 	public void SetVolumeMultiplier(float VolumeMultiplier) {}
 	public void SetSubmixSend(UObject Submix,float SendLevel) {}
 	public void SetLowPassFilterEnabled(bool InLowPassFilterEnabled) {}
 	public void SetLowPassFilterFrequency(float InLowPassFilterFrequency) {}
 	public void SetOutputToBusOnly(bool bInOutputToBusOnly) {}
-	public void FadeIn(float FadeInDuration,float FadeVolumeLevel=1.0f,float StartTime=0.0f,EAudioFaderCurve FadeCurve=EAudioFaderCurve) {}
-	public void FadeOut(float FadeOutDuration,float FadeVolumeLevel,EAudioFaderCurve FadeCurve=EAudioFaderCurve) {}
-	public void AdjustVolume(float AdjustVolumeDuration,float AdjustVolumeLevel,EAudioFaderCurve FadeCurve=EAudioFaderCurve) {}
+	public void FadeIn(float FadeInDuration,float FadeVolumeLevel/*=1.0f*/,float StartTime/*=0.0f*/,EAudioFaderCurve FadeCurve/*=EAudioFaderCurve.Linear*/) {}
+	public void FadeOut(float FadeOutDuration,float FadeVolumeLevel,EAudioFaderCurve FadeCurve/*=EAudioFaderCurve.Linear*/) {}
+	public void AdjustVolume(float AdjustVolumeDuration,float AdjustVolumeLevel,EAudioFaderCurve FadeCurve/*=EAudioFaderCurve.Linear*/) {}
 	public bool bAutoDestroy;
 	public bool bStopWhenOwnerDestroyed;
 	public bool bAllowSpatialization;

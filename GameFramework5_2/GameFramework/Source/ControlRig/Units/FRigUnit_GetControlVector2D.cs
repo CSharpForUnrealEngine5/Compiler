@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetControlVector2D is used to retrieve a single Vector2D from a hierarchy.</summary>
 public partial struct FRigUnit_GetControlVector2D {
 // RigUnit_GetControlVector2D
-	public sbyte Control;
+	public string Control;
 	public FVector2D Vector;
 	public FVector2D Minimum;
 	public FVector2D Maximum;

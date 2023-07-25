@@ -6,5 +6,5 @@ public partial class UK2Node_FunctionTerminator : UK2Node_EditablePinBase {
 // K2Node_FunctionTerminator
 	public FMemberReference FunctionReference;
 	public UClass SignatureClass_DEPRECATED;
-	public sbyte SignatureName_DEPRECATED;
+	public string SignatureName_DEPRECATED;
 }

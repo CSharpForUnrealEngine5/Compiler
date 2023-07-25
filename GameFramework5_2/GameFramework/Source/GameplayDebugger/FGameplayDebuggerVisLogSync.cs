@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameplayDebuggerCategoryReplicator.h")]
 public partial struct FGameplayDebuggerVisLogSync {
 // GameplayDebuggerVisLogSync
-	public sbyte DeviceIDs;
+	public string DeviceIDs;
 }

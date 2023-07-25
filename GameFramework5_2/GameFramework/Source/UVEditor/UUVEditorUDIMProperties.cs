@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Settings for UDIMs in the UVEditor</summary>
 public partial class UUVEditorUDIMProperties : UInteractiveToolPropertySet {
 // UVEditorUDIMProperties
-	public sbyte UDIMSourceAsset;
-	public TArray<sbyte> GetAssetNames(TArray<sbyte> ReturnValue) { return default; }
-	public int AssetByIndex(int ReturnValue) { return default; }
+	public string UDIMSourceAsset;
+	public TArray<string> GetAssetNames() { return default; }
+	public int AssetByIndex() { return default; }
 	public void SetUDIMsFromAsset() {}
 	public UTexture2D UDIMSourceTexture;
 	public void SetUDIMsFromTexture() {}

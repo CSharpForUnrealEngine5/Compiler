@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FDisplayClusterConfigurationJsonOverscan_427 {
 // DisplayClusterConfigurationJsonOverscan_427
 	public bool bEnabled;
-	public sbyte Mode;
+	public string Mode;
 	public int Left;
 	public int Right;
 	public int Top;

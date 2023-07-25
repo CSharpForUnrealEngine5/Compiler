@@ -9,9 +9,9 @@ public partial class UNiagaraDataInterfaceGrid3DCollection : UNiagaraDataInterfa
 	public ENiagaraGpuBufferFormat OverrideBufferFormat;
 	public bool bOverrideFormat;
 	public bool bPreviewGrid;
-	public sbyte PreviewAttribute;
-	public bool FillVolumeTexture(UObject Component,UObject dest,int AttributeIndex,bool ReturnValue) { return default; }
-	public bool FillRawVolumeTexture(UObject Component,UObject Dest,int TilesX,int TilesY,int TileZ,bool ReturnValue) { return default; }
+	public string PreviewAttribute;
+	public bool FillVolumeTexture(UObject Component,UObject dest,int AttributeIndex) { return default; }
+	public bool FillRawVolumeTexture(UObject Component,UObject Dest,int TilesX,int TilesY,int TileZ) { return default; }
 	public void GetRawTextureSize(UObject Component,int SizeX,int SizeY,int SizeZ) {}
 	public void GetTextureSize(UObject Component,int SizeX,int SizeY,int SizeZ) {}
 }

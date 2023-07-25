@@ -9,5 +9,5 @@ public partial struct FProfilerServiceData2 {
 	public long Frame;
 	public int CompressedSize;
 	public int UncompressedSize;
-	public sbyte HexData;
+	public string HexData;
 }

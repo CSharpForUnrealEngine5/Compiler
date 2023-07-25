@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_ItemToName {
 // RigUnit_ItemToName
 	public FRigElementKey Value;
-	public sbyte Result;
+	public string Result;
 }

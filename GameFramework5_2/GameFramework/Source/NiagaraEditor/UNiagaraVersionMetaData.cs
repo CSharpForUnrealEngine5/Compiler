@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraVersionMetaData : UObject {
 // NiagaraVersionMetaData
 	public bool bIsExposedVersion;
-	public sbyte ChangeDescription;
+	public string ChangeDescription;
 	public bool bIsVisibleInVersionSelector;
 	public bool bDeprecated;
-	public sbyte DeprecationMessage;
+	public string DeprecationMessage;
 	public FGuid VersionGuid;
 	public ENiagaraPythonUpdateScriptReference UpdateScriptExecution;
-	public sbyte PythonUpdateScript;
+	public string PythonUpdateScript;
 	public FFilePath ScriptAsset;
 }

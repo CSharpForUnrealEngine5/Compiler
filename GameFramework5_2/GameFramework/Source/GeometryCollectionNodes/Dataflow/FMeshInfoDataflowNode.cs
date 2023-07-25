@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FMeshInfoDataflowNode {
 // MeshInfoDataflowNode
 	public UDynamicMesh Mesh;
-	public sbyte InfoString;
+	public string InfoString;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Helper class for ULandscapeTexturePatch that stores information for a given weight layer.</summary>
 public partial class ULandscapeWeightPatchTextureInfo : UObject {
 // LandscapeWeightPatchTextureInfo
-	public sbyte WeightmapLayerName;
+	public string WeightmapLayerName;
 	public UTexture TextureAsset;
 	public ULandscapeWeightTextureBackedRenderTarget InternalData;
 	public ELandscapeTexturePatchSourceMode SourceMode;

@@ -7,7 +7,7 @@ public partial class UCustomizableInstancePrivateData : UObject {
 	public TArray<FGeneratedMaterial> GeneratedMaterials;
 	public TArray<FGeneratedTexture> GeneratedTextures;
 	public TArray<FParameterDecorations> ParameterDecorations;
-	public TMap<sbyte,TWeakObjectPtr<UTexture2D>> TextureReuseCache;
+	public TMap<string,TWeakObjectPtr<UTexture2D>> TextureReuseCache;
 	public TArray<FCustomizableInstanceComponentData> ComponentsData;
 	public TArray<UMaterialInterface> ReferencedMaterials;
 	public TArray<UPhysicsAsset> ClothingPhysicsAssets;

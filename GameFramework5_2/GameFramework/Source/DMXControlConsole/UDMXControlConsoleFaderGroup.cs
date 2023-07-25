@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A Group of Faders in the DMX Control Console</summary>
 public partial class UDMXControlConsoleFaderGroup : UObject {
 // DMXControlConsoleFaderGroup
-	public sbyte FaderGroupName;
+	public string FaderGroupName;
 	public TSoftObjectPtr<UDMXEntityFixturePatch> SoftFixturePatchPtr;
 	public TWeakObjectPtr<UDMXEntityFixturePatch> CachedWeakFixturePatch;
 	public TArray<object /*Elements*/> Elements;

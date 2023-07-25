@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Action to add nodes to the graph based on selected objects</summary>
 public partial struct FImportMeshLodSectionsData {
 // ImportMeshLodSectionsData
-	public TArray<sbyte> SectionOriginalMaterialName;
+	public TArray<string> SectionOriginalMaterialName;
 }

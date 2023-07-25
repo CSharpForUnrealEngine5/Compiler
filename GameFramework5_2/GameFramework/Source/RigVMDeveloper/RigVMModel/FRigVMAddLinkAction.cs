@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An action adding a new link to the graph.</summary>
 public partial struct FRigVMAddLinkAction {
 // RigVMAddLinkAction
-	public sbyte OutputPinPath;
-	public sbyte InputPinPath;
+	public string OutputPinPath;
+	public string InputPinPath;
 }

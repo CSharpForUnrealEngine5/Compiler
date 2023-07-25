@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FRigUnit_LiveLinkGetTransformByName {
 // RigUnit_LiveLinkGetTransformByName
 	public FSubjectFrameHandle SubjectFrame;
-	public sbyte TransformName;
+	public string TransformName;
 	public ERigVMTransformSpace Space;
 	public FTransform Transform;
 }

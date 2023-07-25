@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FCryptoEncryptionKey {
 // CryptoEncryptionKey
 	public FGuid Guid;
-	public sbyte Name;
-	public sbyte Key;
+	public string Name;
+	public string Key;
 }

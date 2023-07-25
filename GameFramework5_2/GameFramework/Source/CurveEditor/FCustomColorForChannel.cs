@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FCustomColorForChannel {
 // CustomColorForChannel
 	public TSoftObjectPtr<UClass> Object;
-	public sbyte PropertyName;
+	public string PropertyName;
 	public FLinearColor Color;
 }

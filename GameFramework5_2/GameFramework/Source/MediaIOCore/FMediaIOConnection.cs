@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FMediaIOConnection {
 // MediaIOConnection
 	public FMediaIODevice Device;
-	public sbyte Protocol;
+	public string Protocol;
 	public EMediaIOTransportType TransportType;
 	public EMediaIOQuadLinkTransportType QuadTransportType;
 	public int PortIdentifier;

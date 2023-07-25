@@ -7,5 +7,5 @@ public partial struct FBlueprintWatchedPin {
 // BlueprintWatchedPin
 	public TSoftObjectPtr<UEdGraphNode> OwningNode;
 	public FGuid PinId;
-	public TArray<sbyte> PathToProperty;
+	public TArray<string> PathToProperty;
 }

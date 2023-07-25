@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("RigVMModel/RigVMBuildData.h")]
 public partial struct FRigVMReferenceNodeData {
 // RigVMReferenceNodeData
-	public sbyte ReferenceNodePath;
-	public sbyte ReferencedFunctionPath_DEPRECATED;
+	public string ReferenceNodePath;
+	public string ReferencedFunctionPath_DEPRECATED;
 	public FRigVMGraphFunctionHeader ReferencedHeader;
 }

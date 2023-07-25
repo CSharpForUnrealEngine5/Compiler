@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Micro-transaction request information</summary>
 public partial struct FInAppPurchaseProductRequest2 {
 // InAppPurchaseProductRequest2
-	public sbyte ProductIdentifier;
+	public string ProductIdentifier;
 	public bool bIsConsumable;
 }

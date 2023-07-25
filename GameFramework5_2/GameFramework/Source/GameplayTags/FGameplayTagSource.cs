@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct defining where gameplay tags are loaded/saved from. Mostly for the editor</summary>
 public partial struct FGameplayTagSource {
 // GameplayTagSource
-	public sbyte SourceName;
+	public string SourceName;
 	public EGameplayTagSourceType SourceType;
 	public UGameplayTagsList SourceTagList;
 	public URestrictedGameplayTagsList SourceRestrictedTagList;

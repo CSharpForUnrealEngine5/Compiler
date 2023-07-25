@@ -8,6 +8,6 @@ public partial class UWebAPIDefinition : UObject {
 	public UAssetImportData AssetImportData;
 	public FWebAPIProviderSettings ProviderSettings;
 	public FWebAPICodeGeneratorSettings GeneratorSettings;
-	public TMap<sbyte,UObject> ImportedDataCache;
+	public TMap<string,UObject> ImportedDataCache;
 	public UWebAPISchema WebAPISchema;
 }

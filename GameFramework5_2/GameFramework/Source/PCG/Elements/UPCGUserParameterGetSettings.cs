@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UPCGUserParameterGetSettings : UPCGSettings {
 // PCGUserParameterGetSettings
 	public FGuid PropertyGuid;
-	public sbyte PropertyName;
+	public string PropertyName;
 }

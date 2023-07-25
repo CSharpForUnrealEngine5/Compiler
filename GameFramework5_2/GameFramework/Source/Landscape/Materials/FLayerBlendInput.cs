@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionLandscapeLayerBlend.h")]
 public partial struct FLayerBlendInput {
 // LayerBlendInput
-	public sbyte LayerName;
+	public string LayerName;
 	public byte BlendType;
 	public FExpressionInput LayerInput;
 	public FExpressionInput HeightInput;

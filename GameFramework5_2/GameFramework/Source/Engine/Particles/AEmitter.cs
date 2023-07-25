@@ -19,11 +19,11 @@ public partial class AEmitter : AActor {
 	public void Activate() {}
 	public void Deactivate() {}
 	public void ToggleActive() {}
-	public bool IsActive(bool ReturnValue) { return default; }
+	public bool IsActive() { return default; }
 	public void SetTemplate(UObject NewTemplate) {}
-	public void SetFloatParameter(sbyte ParameterName,float Param) {}
-	public void SetVectorParameter(sbyte ParameterName,FVector Param) {}
-	public void SetColorParameter(sbyte ParameterName,FLinearColor Param) {}
-	public void SetActorParameter(sbyte ParameterName,UObject Param) {}
-	public void SetMaterialParameter(sbyte ParameterName,UObject Param) {}
+	public void SetFloatParameter(string ParameterName,float Param) {}
+	public void SetVectorParameter(string ParameterName,FVector Param) {}
+	public void SetColorParameter(string ParameterName,FLinearColor Param) {}
+	public void SetActorParameter(string ParameterName,UObject Param) {}
+	public void SetMaterialParameter(string ParameterName,UObject Param) {}
 }

@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UModularSynthComponent : USynthComponent {
 // ModularSynthComponent
 	public int VoiceCount;
-	public void NoteOn(float Note,int Velocity,float Duration=-1.0f) {}
-	public void NoteOff(float Note,bool bAllNotesOff=false,bool bKillAllNotes=false) {}
+	public void NoteOn(float Note,int Velocity,float Duration/*=-1.0f*/) {}
+	public void NoteOff(float Note,bool bAllNotesOff/*=false*/,bool bKillAllNotes/*=false*/) {}
 	public void SetEnablePolyphony(bool bEnablePolyphony) {}
 	public void SetOscGain(int OscIndex,float OscGain) {}
 	public void SetOscGainMod(int OscIndex,float OscGainMod) {}
@@ -63,6 +63,6 @@ public partial class UModularSynthComponent : USynthComponent {
 	public void SetChorusFeedback(float Feedback) {}
 	public void SetChorusFrequency(float Frequency) {}
 	public void SetSynthPreset(FModularSynthPreset SynthPreset) {}
-	public FPatchId CreatePatch(ESynth1PatchSource PatchSource,TArray<FSynth1PatchCable> PatchCables,bool bEnableByDefault,FPatchId ReturnValue) { return default; }
-	public bool SetEnablePatch(FPatchId PatchId,bool bIsEnabled,bool ReturnValue) { return default; }
+	public FPatchId CreatePatch(ESynth1PatchSource PatchSource,TArray<FSynth1PatchCable> PatchCables,bool bEnableByDefault) { return default; }
+	public bool SetEnablePatch(FPatchId PatchId,bool bIsEnabled) { return default; }
 }

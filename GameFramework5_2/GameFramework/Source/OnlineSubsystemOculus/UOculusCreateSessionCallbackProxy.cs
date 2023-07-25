@@ -7,5 +7,5 @@ public partial class UOculusCreateSessionCallbackProxy : UOnlineBlueprintCallPro
 // OculusCreateSessionCallbackProxy
 	public FEmptyOnlineDelegate OnSuccess;
 	public FEmptyOnlineDelegate OnFailure;
-	public UObject CreateSession(int PublicConnections,sbyte OculusMatchmakingPool,UObject ReturnValue) { return default; }
+	public UObject CreateSession(int PublicConnections,string OculusMatchmakingPool) { return default; }
 }

@@ -6,8 +6,8 @@ public partial class UPCGMetadataOperationSettings : UPCGSettings {
 // PCGMetadataOperationSettings
 	public FPCGAttributePropertySelector InputSource;
 	public FPCGAttributePropertySelector OutputTarget;
-	public sbyte SourceAttribute_DEPRECATED;
+	public string SourceAttribute_DEPRECATED;
 	public EPCGPointProperties PointProperty_DEPRECATED;
-	public sbyte DestinationAttribute_DEPRECATED;
+	public string DestinationAttribute_DEPRECATED;
 	public EPCGMetadataOperationTarget Target_DEPRECATED;
 }

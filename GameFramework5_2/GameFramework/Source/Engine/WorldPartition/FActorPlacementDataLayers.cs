@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("WorldPartition/DataLayer/WorldDataLayers.h")]
 public partial struct FActorPlacementDataLayers {
 // ActorPlacementDataLayers
-	public TArray<sbyte> DataLayerInstanceNames;
+	public TArray<string> DataLayerInstanceNames;
 	public int ContextID;
 }

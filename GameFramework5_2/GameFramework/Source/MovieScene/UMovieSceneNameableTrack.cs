@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for movie scene tracks that can be renamed by the user.</summary>
 public partial class UMovieSceneNameableTrack : UMovieSceneTrack {
 // MovieSceneNameableTrack
-	public sbyte DisplayName;
-	public TArray<sbyte> TrackRowDisplayNames;
+	public string DisplayName;
+	public TArray<string> TrackRowDisplayNames;
 }

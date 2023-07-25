@@ -6,7 +6,7 @@ public partial class UEnvQueryTest : UEnvQueryNode {
 // EnvQueryTest
 	public int TestOrder;
 	public byte TestPurpose;
-	public sbyte TestComment;
+	public string TestComment;
 	public byte MultipleContextFilterOp;
 	public byte MultipleContextScoreOp;
 	public byte FilterType;

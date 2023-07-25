@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FOptimusDataDomain {
 // OptimusDataDomain
 	public EOptimusDataDomainType Type;
-	public TArray<sbyte> DimensionNames;
+	public TArray<string> DimensionNames;
 	public int Multiplier;
-	public sbyte Expression;
-	public TArray<sbyte> LevelNames_DEPRECATED;
+	public string Expression;
+	public TArray<string> LevelNames_DEPRECATED;
 }

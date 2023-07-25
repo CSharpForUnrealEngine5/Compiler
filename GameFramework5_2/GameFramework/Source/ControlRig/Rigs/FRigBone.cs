@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Rigs/RigBoneHierarchy.h")]
 public partial struct FRigBone {
 // RigBone
-	public sbyte ParentName;
+	public string ParentName;
 	public int ParentIndex;
 	public FTransform InitialTransform;
 	public FTransform GlobalTransform;

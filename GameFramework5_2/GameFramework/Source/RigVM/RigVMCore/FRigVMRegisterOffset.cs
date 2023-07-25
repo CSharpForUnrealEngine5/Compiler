@@ -7,10 +7,10 @@ public partial struct FRigVMRegisterOffset {
 // RigVMRegisterOffset
 	public TArray<int> Segments;
 	public ERigVMRegisterType Type;
-	public sbyte CPPType;
+	public string CPPType;
 	public UScriptStruct ScriptStruct;
 	public UScriptStruct ParentScriptStruct;
 	public int ArrayIndex;
 	public ushort ElementSize;
-	public sbyte CachedSegmentPath;
+	public string CachedSegmentPath;
 }

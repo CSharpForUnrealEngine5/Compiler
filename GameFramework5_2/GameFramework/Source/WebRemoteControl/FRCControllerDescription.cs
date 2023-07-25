@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteControlModels.h")]
 public partial struct FRCControllerDescription {
 // RCControllerDescription
-	public sbyte DisplayName;
-	public sbyte ID;
-	public sbyte Type;
-	public sbyte Path;
-	public TMap<sbyte,sbyte> Metadata;
+	public string DisplayName;
+	public string ID;
+	public string Type;
+	public string Path;
+	public TMap<string,string> Metadata;
 }

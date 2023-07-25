@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct that represents an expression's output.</summary>
 public partial struct FExpressionOutput {
 // ExpressionOutput
-	public sbyte OutputName;
+	public string OutputName;
 	public int Mask;
 	public int MaskR;
 	public int MaskG;

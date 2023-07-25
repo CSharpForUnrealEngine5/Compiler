@@ -18,14 +18,14 @@ public partial class UCubeGridToolProperties : UInteractiveToolPropertySet {
 	public bool bHitUnrelatedGeometry;
 	public bool bHitGridGroundPlaneIfCloser;
 	public ECubeGridToolFaceSelectionMode FaceSelectionMode;
-	public sbyte ToggleCornerMode;
-	public sbyte PushPull;
-	public sbyte ResizeGrid;
-	public sbyte SlideSelection;
-	public sbyte FlipSelection;
-	public sbyte GridGizmo;
-	public sbyte QuickShiftGizmo;
-	public sbyte AlignGizmo;
+	public string ToggleCornerMode;
+	public string PushPull;
+	public string ResizeGrid;
+	public string SlideSelection;
+	public string FlipSelection;
+	public string GridGizmo;
+	public string QuickShiftGizmo;
+	public string AlignGizmo;
 	public bool bInCornerMode;
 	public bool bAllowedToEditGrid;
 }

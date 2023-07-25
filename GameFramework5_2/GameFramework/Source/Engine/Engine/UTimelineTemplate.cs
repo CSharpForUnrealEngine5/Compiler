@@ -17,9 +17,9 @@ public partial class UTimelineTemplate : UObject {
 	public TArray<FBPVariableMetaDataEntry> MetaDataArray;
 	public FGuid TimelineGuid;
 	public byte TimelineTickGroup;
-	public sbyte VariableName;
-	public sbyte DirectionPropertyName;
-	public sbyte UpdateFunctionName;
-	public sbyte FinishedFunctionName;
+	public string VariableName;
+	public string DirectionPropertyName;
+	public string UpdateFunctionName;
+	public string FinishedFunctionName;
 	public TArray<FTTTrackId> TrackDisplayOrder;
 }

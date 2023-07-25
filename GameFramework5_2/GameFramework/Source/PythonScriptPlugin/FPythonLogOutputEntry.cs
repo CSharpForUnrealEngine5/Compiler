@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPythonLogOutputEntry {
 // PythonLogOutputEntry
 	public EPythonLogOutputType Type;
-	public sbyte Output;
+	public string Output;
 }

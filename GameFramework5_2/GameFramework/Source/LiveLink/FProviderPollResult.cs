@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkMessageBusFinder.h")]
 public partial struct FProviderPollResult {
 // ProviderPollResult
-	public sbyte Name;
-	public sbyte MachineName;
+	public string Name;
+	public string MachineName;
 	public double MachineTimeOffset;
 	public bool bIsValidProvider;
 }

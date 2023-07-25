@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Module-to-TypeData mapping helper.</summary>
 public partial struct FModuleMenuMapper {
 // ModuleMenuMapper
-	public sbyte ObjName;
-	public TArray<sbyte> InvalidObjNames;
+	public string ObjName;
+	public TArray<string> InvalidObjNames;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFFeatureGroup {
 // DMXImportGDTFFeatureGroup
-	public sbyte Name;
-	public sbyte Pretty;
+	public string Name;
+	public string Pretty;
 	public TArray<FDMXImportGDTFFeature> Features;
 }

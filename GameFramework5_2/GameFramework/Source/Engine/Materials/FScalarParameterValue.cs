@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialInstance.h")]
 public partial struct FScalarParameterValue {
 // ScalarParameterValue
-	public sbyte ParameterName_DEPRECATED;
+	public string ParameterName_DEPRECATED;
 	public FScalarParameterAtlasInstanceData AtlasData;
 	public FMaterialParameterInfo ParameterInfo;
 	public float ParameterValue;

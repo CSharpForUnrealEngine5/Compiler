@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertServerInfo {
 // ConcertServerInfo
 	public FGuid AdminEndpointId;
-	public sbyte ServerName;
+	public string ServerName;
 	public FConcertInstanceInfo InstanceInfo;
 	public EConcertServerFlags ServerFlags;
 }

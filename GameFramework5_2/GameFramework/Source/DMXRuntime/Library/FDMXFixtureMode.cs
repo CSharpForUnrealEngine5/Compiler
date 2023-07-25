@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXEntityFixtureType.h")]
 public partial struct FDMXFixtureMode {
 // DMXFixtureMode
-	public sbyte ModeName;
+	public string ModeName;
 	public TArray<FDMXFixtureFunction> Functions;
 	public bool bAutoChannelSpan;
 	public int ChannelSpan;

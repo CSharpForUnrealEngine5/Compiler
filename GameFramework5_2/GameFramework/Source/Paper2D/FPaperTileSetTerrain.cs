@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Information about a terrain type</summary>
 public partial struct FPaperTileSetTerrain {
 // PaperTileSetTerrain
-	public sbyte TerrainName;
+	public string TerrainName;
 	public int CenterTileIndex;
 }

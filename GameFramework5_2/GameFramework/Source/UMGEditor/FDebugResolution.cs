@@ -6,6 +6,6 @@ public partial struct FDebugResolution {
 // DebugResolution
 	public int Width;
 	public int Height;
-	public sbyte Description;
+	public string Description;
 	public FLinearColor Color;
 }

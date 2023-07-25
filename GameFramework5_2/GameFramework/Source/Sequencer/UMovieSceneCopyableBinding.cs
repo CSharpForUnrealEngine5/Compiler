@@ -9,6 +9,6 @@ public partial class UMovieSceneCopyableBinding : UObject {
 	public FMovieSceneBinding Binding;
 	public FMovieSceneSpawnable Spawnable;
 	public FMovieScenePossessable Possessable;
-	public TArray<sbyte> BoundObjectNames;
-	public TArray<sbyte> FolderPath;
+	public TArray<string> BoundObjectNames;
+	public TArray<string> FolderPath;
 }

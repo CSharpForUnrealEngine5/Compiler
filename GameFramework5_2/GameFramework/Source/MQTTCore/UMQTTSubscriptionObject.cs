@@ -6,6 +6,6 @@ public partial class UMQTTSubscriptionObject : UObject {
 // MQTTSubscriptionObject
 	public void FOnMessageDelegate(FMQTTClientMessage Message) {}
 	public void SetOnMessageHandler(FOnMessageDelegate OnMessageCallback) {}
-	public bool IsValid(bool ReturnValue) { return default; }
+	public bool IsValid() { return default; }
 	public FOnMessageDelegate OnMessageDelegate;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPCGActorPropertyOverride {
 // PCGActorPropertyOverride
 	public FPCGAttributePropertySelector InputSource;
-	public sbyte PropertyTarget;
+	public string PropertyTarget;
 }

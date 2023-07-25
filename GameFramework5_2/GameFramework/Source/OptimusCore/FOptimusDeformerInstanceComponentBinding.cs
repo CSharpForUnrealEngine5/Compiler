@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a binding between a component provider in the graph and an actor component in the component hierarchy on</summary>
 public partial struct FOptimusDeformerInstanceComponentBinding {
 // OptimusDeformerInstanceComponentBinding
-	public sbyte ProviderName;
-	public sbyte ComponentName;
+	public string ProviderName;
+	public string ComponentName;
 }

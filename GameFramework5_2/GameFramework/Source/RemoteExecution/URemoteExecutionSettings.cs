@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("RemoteExecutionSettings.h")]
 public partial class URemoteExecutionSettings : UObject {
 // RemoteExecutionSettings
-	public sbyte PreferredRemoteExecutor;
+	public string PreferredRemoteExecutor;
 }

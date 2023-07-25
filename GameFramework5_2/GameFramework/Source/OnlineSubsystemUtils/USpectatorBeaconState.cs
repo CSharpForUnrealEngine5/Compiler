@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A beacon host used for taking reservations for an existing game session</summary>
 public partial class USpectatorBeaconState : UObject {
 // SpectatorBeaconState
-	public sbyte SessionName;
+	public string SessionName;
 	public int NumConsumedReservations;
 	public int MaxReservations;
 	public bool bRestrictCrossConsole;

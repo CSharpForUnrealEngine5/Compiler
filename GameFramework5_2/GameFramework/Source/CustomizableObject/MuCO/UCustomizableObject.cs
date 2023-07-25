@@ -9,7 +9,7 @@ public partial class UCustomizableObject : UObject {
 	public TArray<FMutableRefSkeletalMeshData> ReferenceSkeletalMeshesData;
 	public UStaticMesh ReferenceStaticMesh;
 	public TArray<TSoftObjectPtr<UMaterialInterface>> ReferencedMaterials;
-	public TArray<sbyte> ReferencedMaterialSlotNames;
+	public TArray<string> ReferencedMaterialSlotNames;
 	public TArray<TSoftObjectPtr<USkeleton>> ReferencedSkeletons;
 	public FMutableLODSettings LODSettings;
 	public TArray<FMutableModelImageProperties> ImageProperties;
@@ -32,43 +32,43 @@ public partial class UCustomizableObject : UObject {
 	public UEdGraph Source;
 	public FGuid VersionId;
 	public TSet<FGuid> CustomizableObjectGuidsInCompilation;
-	public TMap<sbyte,sbyte> CustomizableObjectPathMap;
-	public TMap<sbyte,FCustomizableObjectIdPair> GroupNodeMap;
+	public TMap<string,string> CustomizableObjectPathMap;
+	public TMap<string,FCustomizableObjectIdPair> GroupNodeMap;
 	public TArray<FProfileParameterDat> InstancePropertiesProfiles;
 	public int NumMeshComponentsInRoot;
-	public int GetComponentCount(int ReturnValue) { return default; }
-	public int GetParameterCount(int ReturnValue) { return default; }
-	public int FindParameter(sbyte Name,int ReturnValue) { return default; }
-	public EMutableParameterType GetParameterType(int ParamIndex,EMutableParameterType ReturnValue) { return default; }
-	public EMutableParameterType GetParameterTypeByName(sbyte Name,EMutableParameterType ReturnValue) { return default; }
-	public sbyte GetParameterName(int ParamIndex,sbyte ReturnValue) { return default; }
-	public int GetParameterDescriptionCount(sbyte ParamName,int ReturnValue) { return default; }
-	public int GetIntParameterNumOptions(int ParamIndex,int ReturnValue) { return default; }
-	public sbyte GetIntParameterAvailableOption(int ParamIndex,int K,sbyte ReturnValue) { return default; }
+	public int GetComponentCount() { return default; }
+	public int GetParameterCount() { return default; }
+	public int FindParameter(string Name) { return default; }
+	public EMutableParameterType GetParameterType(int ParamIndex) { return default; }
+	public EMutableParameterType GetParameterTypeByName(string Name) { return default; }
+	public string GetParameterName(int ParamIndex) { return default; }
+	public int GetParameterDescriptionCount(string ParamName) { return default; }
+	public int GetIntParameterNumOptions(int ParamIndex) { return default; }
+	public string GetIntParameterAvailableOption(int ParamIndex,int K) { return default; }
 	public void LoadMaskOutCache() {}
 	public void UnloadMaskOutCache() {}
 	public TArray<FMutableModelParameterProperties> ParameterProperties;
-	public int GetStateCount(int ReturnValue) { return default; }
-	public sbyte GetStateName(int StateIndex,sbyte ReturnValue) { return default; }
-	public int GetStateParameterCount(sbyte StateName,int ReturnValue) { return default; }
-	public sbyte GetStateParameterName(sbyte StateName,int ParameterIndex,sbyte ReturnValue) { return default; }
-	public FParameterUIData GetStateUIMetadata(sbyte StateName,FParameterUIData ReturnValue) { return default; }
-	public FParameterUIData GetStateUIMetadataFromIndex(int StateIndex,FParameterUIData ReturnValue) { return default; }
-	public FParameterUIData GetParameterUIMetadata(sbyte ParamName,FParameterUIData ReturnValue) { return default; }
-	public FParameterUIData GetParameterUIMetadataFromIndex(int ParamIndex,FParameterUIData ReturnValue) { return default; }
-	public TMap<sbyte,FParameterUIData> ParameterUIDataMap;
-	public TMap<sbyte,FParameterUIData> StateUIDataMap;
-	public TMap<sbyte,TSoftObjectPtr<UPhysicsAsset>> PhysicsAssetsMap;
-	public TMap<sbyte,TSoftObjectPtr<UClass>> AnimBPAssetsMap;
+	public int GetStateCount() { return default; }
+	public string GetStateName(int StateIndex) { return default; }
+	public int GetStateParameterCount(string StateName) { return default; }
+	public string GetStateParameterName(string StateName,int ParameterIndex) { return default; }
+	public FParameterUIData GetStateUIMetadata(string StateName) { return default; }
+	public FParameterUIData GetStateUIMetadataFromIndex(int StateIndex) { return default; }
+	public FParameterUIData GetParameterUIMetadata(string ParamName) { return default; }
+	public FParameterUIData GetParameterUIMetadataFromIndex(int ParamIndex) { return default; }
+	public TMap<string,FParameterUIData> ParameterUIDataMap;
+	public TMap<string,FParameterUIData> StateUIDataMap;
+	public TMap<string,TSoftObjectPtr<UPhysicsAsset>> PhysicsAssetsMap;
+	public TMap<string,TSoftObjectPtr<UClass>> AnimBPAssetsMap;
 	public TArray<FMutableRefSocket> SocketArray;
 	public TSoftObjectPtr<UMutableMaskOutCache> MaskOutCache;
 	public TMap<ulong,FMutableStreamableBlock> HashToStreamableBlock;
-	public TArray<sbyte> CustomizableObjectClassTags;
-	public TArray<sbyte> PopulationClassTags;
-	public TMap<sbyte,FParameterTags> CustomizableObjectParametersTags;
+	public TArray<string> CustomizableObjectClassTags;
+	public TArray<string> PopulationClassTags;
+	public TMap<string,FParameterTags> CustomizableObjectParametersTags;
 	public bool bIsChildObject;
-	public UObject CreateInstance(UObject ReturnValue) { return default; }
-	public bool IsCompiled(bool ReturnValue) { return default; }
+	public UObject CreateInstance() { return default; }
+	public bool IsCompiled() { return default; }
 	public UMutableMaskOutCache MaskOutCache_HardRef;
 	public FGuid Identifier;
 	public FGuid CompilationGuid;

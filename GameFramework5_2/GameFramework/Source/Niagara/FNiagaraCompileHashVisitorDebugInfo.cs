@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraCompileHashVisitor.h")]
 public partial struct FNiagaraCompileHashVisitorDebugInfo {
 // NiagaraCompileHashVisitorDebugInfo
-	public sbyte Object;
-	public TArray<sbyte> PropertyKeys;
-	public TArray<sbyte> PropertyValues;
+	public string Object;
+	public TArray<string> PropertyKeys;
+	public TArray<string> PropertyValues;
 }

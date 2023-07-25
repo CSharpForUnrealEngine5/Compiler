@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Builds context and creates GameplayTask that will control playback of a ContextualAnimScene</summary>
 public partial struct FContextualAnimStateTreeTask {
 // ContextualAnimStateTreeTask
-	public sbyte Section;
-	public sbyte ExitSection;
+	public string Section;
+	public string ExitSection;
 	public bool bEnabled;
 }

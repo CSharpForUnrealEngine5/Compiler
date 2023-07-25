@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConsoleVariable.h")]
 public partial class UConsoleVariable : UUTBBaseCommand {
 // ConsoleVariable
-	public TArray<sbyte> ConsoleCommands;
+	public TArray<string> ConsoleCommands;
 }

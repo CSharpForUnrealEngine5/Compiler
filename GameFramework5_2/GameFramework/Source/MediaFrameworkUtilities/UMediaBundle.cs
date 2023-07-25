@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>A bundle of the Media Asset necessary to play a video & audio</summary>
 public partial class UMediaBundle : UObject {
 // MediaBundle
-	public UObject GetMaterial(UObject ReturnValue) { return default; }
-	public UObject GetMediaPlayer(UObject ReturnValue) { return default; }
-	public UObject GetMediaTexture(UObject ReturnValue) { return default; }
-	public UObject GetLensDisplacementTexture(UObject ReturnValue) { return default; }
-	public UObject GetMediaSource(UObject ReturnValue) { return default; }
-	public FOpenCVCameraViewInfo GetUndistortedCameraViewInfo(FOpenCVCameraViewInfo ReturnValue) { return default; }
+	public UObject GetMaterial() { return default; }
+	public UObject GetMediaPlayer() { return default; }
+	public UObject GetMediaTexture() { return default; }
+	public UObject GetLensDisplacementTexture() { return default; }
+	public UObject GetMediaSource() { return default; }
+	public FOpenCVCameraViewInfo GetUndistortedCameraViewInfo() { return default; }
 	public UMediaSource MediaSource;
 	public bool bLoopMediaSource;
 	public bool bReopenSourceOnError;
@@ -27,6 +27,6 @@ public partial class UMediaBundle : UObject {
 	public UTexture DefaultFailedTexture;
 	public UClass DefaultActorClass;
 	public void OnMediaClosed() {}
-	public void OnMediaOpenOpened(sbyte DeviceUrl) {}
-	public void OnMediaOpenFailed(sbyte DeviceUrl) {}
+	public void OnMediaOpenOpened(string DeviceUrl) {}
+	public void OnMediaOpenFailed(string DeviceUrl) {}
 }

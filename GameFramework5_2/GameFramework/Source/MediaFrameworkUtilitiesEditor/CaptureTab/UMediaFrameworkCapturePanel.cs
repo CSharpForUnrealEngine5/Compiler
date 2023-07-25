@@ -9,6 +9,6 @@ public partial class UMediaFrameworkCapturePanel : UObject {
 	public void EmptyRenderTargetCapture() {}
 	public void AddRenderTargetCapture(UObject MediaOutput,UObject RenderTarget,FMediaCaptureOptions CaptureOptions) {}
 	public void EmptyViewportCapture() {}
-	public void AddViewportCapture(UObject MediaOutput,UObject Camera,FMediaCaptureOptions CaptureOptions,EViewModeIndex ViewMode=VMI_Unknown) {}
-	public void SetCurrentViewportCapture(UObject MediaOutput,FMediaCaptureOptions CaptureOptions,EViewModeIndex ViewMode=VMI_Unknown) {}
+	public void AddViewportCapture(UObject MediaOutput,UObject Camera,FMediaCaptureOptions CaptureOptions,EViewModeIndex ViewMode/*=VMI_Unknown*/) {}
+	public void SetCurrentViewportCapture(UObject MediaOutput,FMediaCaptureOptions CaptureOptions,EViewModeIndex ViewMode/*=VMI_Unknown*/) {}
 }

@@ -12,7 +12,7 @@ public partial class UParticleModuleLocationBoneSocket : UParticleModuleLocation
 	public bool bOrientMeshEmitters;
 	public bool bInheritBoneVelocity;
 	public float InheritVelocityScale;
-	public sbyte SkelMeshActorParamName;
+	public string SkelMeshActorParamName;
 	public int NumPreSelectedIndices;
 	public USkeletalMesh EditorSkelMesh;
 }

@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UBlueprintComponentNodeSpawner : UBlueprintNodeSpawner {
 // BlueprintComponentNodeSpawner
 	public UClass ComponentClass;
-	public sbyte ComponentName;
-	public sbyte ComponentAssetName;
+	public string ComponentName;
+	public string ComponentAssetName;
 }

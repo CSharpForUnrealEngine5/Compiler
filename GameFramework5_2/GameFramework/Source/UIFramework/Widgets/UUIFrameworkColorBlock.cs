@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial class UUIFrameworkColorBlock : UUIFrameworkWidget {
 // UIFrameworkColorBlock
 	public void SetColor(FLinearColor Tint) {}
-	public FLinearColor GetColor(FLinearColor ReturnValue) { return default; }
+	public FLinearColor GetColor() { return default; }
 	public void SetDesiredSize(FVector2f DesiredSize) {}
-	public FVector2f GetDesiredSize(FVector2f ReturnValue) { return default; }
+	public FVector2f GetDesiredSize() { return default; }
 	public void OnRep_Color() {}
 	public void OnRep_DesiredSize() {}
 	public FLinearColor Color;

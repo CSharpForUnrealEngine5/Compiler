@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFActivationGroup {
 // DMXImportGDTFActivationGroup
-	public sbyte Name;
+	public string Name;
 }

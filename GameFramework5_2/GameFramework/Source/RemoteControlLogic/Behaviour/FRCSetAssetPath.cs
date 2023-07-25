@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct to help generate Widgts for the DetailsPanel of the Bahviour</summary>
 public partial struct FRCSetAssetPath {
 // RCSetAssetPath
-	public TArray<sbyte> PathArray;
+	public TArray<string> PathArray;
 }

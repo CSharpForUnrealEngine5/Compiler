@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>The UDataprepGraphActionNode class is used as the UEdGraphNode associated</summary>
 public partial class UDataprepGraphActionNode : UEdGraphNode {
 // DataprepGraphActionNode
-	public sbyte ActionTitle;
+	public string ActionTitle;
 	public UDataprepActionAsset DataprepActionAsset;
 	public TWeakObjectPtr<UDataprepAsset> DataprepAssetPtr;
 	public int ExecutionOrder;

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a comment node's text in the graph.</summary>
 public partial struct FRigVMSetCommentTextAction {
 // RigVMSetCommentTextAction
-	public sbyte NodePath;
-	public sbyte OldText;
-	public sbyte NewText;
+	public string NodePath;
+	public string OldText;
+	public string NewText;
 	public int OldFontSize;
 	public int NewFontSize;
 	public bool bOldBubbleVisible;

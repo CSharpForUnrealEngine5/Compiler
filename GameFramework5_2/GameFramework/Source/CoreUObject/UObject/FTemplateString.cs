@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure for templated strings that are displayed in the editor with a allowed args.</summary>
 public partial struct FTemplateString {
 // TemplateString
-	public sbyte Template;
+	public string Template;
 }

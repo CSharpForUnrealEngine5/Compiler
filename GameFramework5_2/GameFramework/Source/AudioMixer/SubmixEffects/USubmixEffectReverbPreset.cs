@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class USubmixEffectReverbPreset : USoundEffectSubmixPreset {
 // SubmixEffectReverbPreset
 	public void SetSettings(FSubmixEffectReverbSettings InSettings) {}
-	public void SetSettingsWithReverbEffect(UObject InReverbEffect,float WetLevel,float DryLevel=0.0f) {}
+	public void SetSettingsWithReverbEffect(UObject InReverbEffect,float WetLevel,float DryLevel/*=0.0f*/) {}
 	public FSubmixEffectReverbSettings Settings;
 }

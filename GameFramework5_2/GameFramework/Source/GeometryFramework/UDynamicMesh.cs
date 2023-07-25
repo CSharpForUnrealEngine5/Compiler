@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>UDynamicMesh is a UObject container for a FDynamicMesh3.</summary>
 public partial class UDynamicMesh : UObject {
 // DynamicMesh
-	public UObject Reset(UObject ReturnValue) { return default; }
-	public UObject ResetToCube(UObject ReturnValue) { return default; }
-	public bool IsEmpty(bool ReturnValue) { return default; }
-	public int GetTriangleCount(int ReturnValue) { return default; }
+	public UObject Reset() { return default; }
+	public UObject ResetToCube() { return default; }
+	public bool IsEmpty() { return default; }
+	public int GetTriangleCount() { return default; }
 	public FOnDynamicMeshModifiedBP MeshModifiedBPEvent;
 	public UDynamicMeshGenerator MeshGenerator;
 	public bool bEnableMeshGenerator;

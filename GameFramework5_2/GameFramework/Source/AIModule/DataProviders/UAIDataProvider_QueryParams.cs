@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>AIDataProvider_QueryParams is used with environment queries</summary>
 public partial class UAIDataProvider_QueryParams : UAIDataProvider {
 // AIDataProvider_QueryParams
-	public sbyte ParamName;
+	public string ParamName;
 	public float FloatValue;
 	public int IntValue;
 	public bool BoolValue;

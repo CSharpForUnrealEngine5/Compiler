@@ -17,5 +17,5 @@ public partial class UAnimBlueprint : UBlueprint {
 	public TSoftObjectPtr<USkeletalMesh> PreviewSkeletalMesh;
 	public TSoftObjectPtr<UAnimBlueprint> PreviewAnimationBlueprint;
 	public EPreviewAnimationBlueprintApplicationMethod PreviewAnimationBlueprintApplicationMethod;
-	public sbyte PreviewAnimationBlueprintTag;
+	public string PreviewAnimationBlueprintTag;
 }

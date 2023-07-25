@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UParticleModuleTrailSource : UParticleModuleTrailBase {
 // ParticleModuleTrailSource
 	public byte SourceMethod;
-	public sbyte SourceName;
+	public string SourceName;
 	public FRawDistributionFloat SourceStrength;
 	public bool bLockSourceStength;
 	public int SourceOffsetCount;

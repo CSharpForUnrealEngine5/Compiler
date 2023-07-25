@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Dataflow/DataflowSkeletalMeshNodes.h")]
 public partial struct FSkeletalMeshBoneDataflowNode {
 // SkeletalMeshBoneDataflowNode
-	public sbyte BoneName;
+	public string BoneName;
 	public USkeletalMesh SkeletalMesh;
 	public int BoneIndexOut;
-	public sbyte PropertyName;
+	public string PropertyName;
 }

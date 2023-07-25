@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFChannelFunction {
 // DMXImportGDTFChannelFunction
-	public sbyte Name;
+	public string Name;
 	public FDMXImportGDTFAttribute Attribute;
-	public sbyte OriginalAttribute;
+	public string OriginalAttribute;
 	public FDMXImportGDTFDMXValue DMXFrom;
 	public FDMXImportGDTFDMXValue DMXValue;
 	public float PhysicalFrom;
@@ -16,7 +16,7 @@ public partial struct FDMXImportGDTFChannelFunction {
 	public FDMXImportGDTFEmitter Emitter;
 	public FDMXImportGDTFFilter Filter;
 	public EDMXImportGDTFDMXInvert DMXInvert;
-	public sbyte ModeMaster;
+	public string ModeMaster;
 	public FDMXImportGDTFDMXValue ModeFrom;
 	public FDMXImportGDTFDMXValue ModeTo;
 	public TArray<FDMXImportGDTFChannelSet> ChannelSets;

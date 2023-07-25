@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionSwitch.h")]
 public partial struct FSwitchCustomInput {
 // SwitchCustomInput
-	public sbyte InputName;
+	public string InputName;
 	public FExpressionInput Input;
 }

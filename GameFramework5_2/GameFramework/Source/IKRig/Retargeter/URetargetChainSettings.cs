@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("Retargeter/IKRetargeter.h")]
 public partial class URetargetChainSettings : UObject {
 // RetargetChainSettings
-	public sbyte SourceChain;
-	public sbyte TargetChain;
+	public string SourceChain;
+	public string TargetChain;
 	public FTargetChainSettings Settings;
 	public bool CopyPoseUsingFK_DEPRECATED;
 	public ERetargetRotationMode RotationMode_DEPRECATED;
@@ -20,7 +20,7 @@ public partial class URetargetChainSettings : UObject {
 	public FRotator StaticRotationOffset_DEPRECATED;
 	public float Extension_DEPRECATED;
 	public bool UseSpeedCurveToPlantIK_DEPRECATED;
-	public sbyte SpeedCurveName_DEPRECATED;
+	public string SpeedCurveName_DEPRECATED;
 	public float VelocityThreshold_DEPRECATED;
 	public float UnplantStiffness_DEPRECATED;
 	public float UnplantCriticalDamping_DEPRECATED;

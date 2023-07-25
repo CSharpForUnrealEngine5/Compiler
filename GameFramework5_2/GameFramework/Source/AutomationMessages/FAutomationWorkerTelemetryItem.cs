@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that contains telemetry data point.</summary>
 public partial struct FAutomationWorkerTelemetryItem {
 // AutomationWorkerTelemetryItem
-	public sbyte DataPoint;
+	public string DataPoint;
 	public double Measurement;
-	public sbyte Context;
+	public string Context;
 }

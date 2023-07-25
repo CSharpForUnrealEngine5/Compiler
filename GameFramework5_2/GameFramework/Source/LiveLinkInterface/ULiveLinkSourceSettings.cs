@@ -7,7 +7,7 @@ public partial class ULiveLinkSourceSettings : UObject {
 // LiveLinkSourceSettings
 	public ELiveLinkSourceMode Mode;
 	public FLiveLinkSourceBufferManagementSettings BufferSettings;
-	public sbyte ConnectionString;
+	public string ConnectionString;
 	public UClass Factory;
 	public TArray<FLiveLinkSourceDebugInfo> SourceDebugInfos_DEPRECATED;
 }

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOP/CustomizableObjectPopulationCharacteristic.h")]
 public partial struct FCustomizableObjectPopulationCharacteristic {
 // CustomizableObjectPopulationCharacteristic
-	public sbyte ParameterName;
+	public string ParameterName;
 	public TArray<FCustomizableObjectPopulationConstraint> Constraints;
 }

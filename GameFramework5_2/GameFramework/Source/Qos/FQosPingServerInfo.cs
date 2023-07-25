@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Individual ping server details</summary>
 public partial struct FQosPingServerInfo {
 // QosPingServerInfo
-	public sbyte Address;
+	public string Address;
 	public int Port;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>This is used for redirecting an old name to new name, such as for collision profiles</summary>
 public partial struct FRedirector {
 // Redirector
-	public sbyte OldName;
-	public sbyte NewName;
+	public string OldName;
+	public string NewName;
 }

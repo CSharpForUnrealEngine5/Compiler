@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds saved actor data. See ActorUtil for operations.</summary>
 public partial struct FActorSnapshotData {
 // ActorSnapshotData
-	public sbyte ActorLabel;
+	public string ActorLabel;
 	public FSoftClassPath ActorClass_DEPRECATED;
 	public int ClassIndex;
 	public FObjectSnapshotData SerializedActorData;

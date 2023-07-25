@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Iris/ReplicationState/ReplicationStateDescriptorConfig.h")]
 public partial struct FSupportsStructNetSerializerConfig {
 // SupportsStructNetSerializerConfig
-	public sbyte StructName;
+	public string StructName;
 	public bool bCanUseStructNetSerializer;
 }

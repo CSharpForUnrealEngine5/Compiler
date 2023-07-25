@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Particles/ParticleModule.h")]
 public partial struct FParticleCurvePair {
 // ParticleCurvePair
-	public sbyte CurveName;
+	public string CurveName;
 	public UObject CurveObject;
 }

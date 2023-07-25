@@ -7,5 +7,5 @@ public partial class UOculusUpdateSessionCallbackProxy : UOnlineBlueprintCallPro
 // OculusUpdateSessionCallbackProxy
 	public FEmptyOnlineDelegate OnSuccess;
 	public FEmptyOnlineDelegate OnFailure;
-	public UObject SetSessionEnqueue(bool bShouldEnqueueInMatchmakingPool,UObject ReturnValue) { return default; }
+	public UObject SetSessionEnqueue(bool bShouldEnqueueInMatchmakingPool) { return default; }
 }

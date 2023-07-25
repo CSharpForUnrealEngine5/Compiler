@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_DelegateSet.h")]
 public partial class UK2Node_DelegateSet : UK2Node {
 // K2Node_DelegateSet
-	public sbyte DelegatePropertyName;
+	public string DelegatePropertyName;
 	public UClass DelegatePropertyClass;
 }

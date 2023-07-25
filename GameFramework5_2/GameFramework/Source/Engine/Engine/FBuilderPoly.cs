@@ -7,6 +7,6 @@ public partial struct FBuilderPoly {
 // BuilderPoly
 	public TArray<int> VertexIndices;
 	public int Direction;
-	public sbyte ItemName;
+	public string ItemName;
 	public int PolyFlags;
 }

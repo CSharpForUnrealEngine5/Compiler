@@ -7,5 +7,5 @@ public partial struct FHLODProxyMesh {
 // HLODProxyMesh
 	public TLazyObjectPtr<ALODActor> LODActor;
 	public UStaticMesh StaticMesh;
-	public sbyte Key;
+	public string Key;
 }

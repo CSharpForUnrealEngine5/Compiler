@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Struct used to send the DataPackPackets as RPC`s instead of using the CustomDeltaNetSerializer.</summary>
 public partial struct FGameplayDebuggerDataPackRPCParams {
 // GameplayDebuggerDataPackRPCParams
-	public sbyte CategoryName;
+	public string CategoryName;
 	public int DataPackIdx;
 	public FGameplayDebuggerDataPackHeader Header;
 	public TArray<byte> Data;

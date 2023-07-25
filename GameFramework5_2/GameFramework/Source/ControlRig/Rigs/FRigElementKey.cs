@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FRigElementKey {
 // RigElementKey
 	public ERigElementType Type;
-	public sbyte Name;
+	public string Name;
 }

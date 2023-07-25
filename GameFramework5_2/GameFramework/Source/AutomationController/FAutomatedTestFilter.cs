@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>* Describes a filter for a test group.</summary>
 public partial struct FAutomatedTestFilter {
 // AutomatedTestFilter
-	public sbyte Contains;
+	public string Contains;
 	public bool MatchFromStart;
 	public bool MatchFromEnd;
 }

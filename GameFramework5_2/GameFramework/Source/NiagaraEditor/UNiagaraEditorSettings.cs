@@ -24,8 +24,8 @@ public partial class UNiagaraEditorSettings : UDeveloperSettings {
 	public int AffectedAssetSearchLimit;
 	public TArray<float> PlaybackSpeeds;
 	public FNiagaraActionColors ActionColors;
-	public TMap<sbyte,FNiagaraNewAssetDialogConfig> NewAssetDialogConfigMap;
-	public TMap<sbyte,sbyte> HLSLKeywordReplacements;
+	public TMap<string,FNiagaraNewAssetDialogConfig> NewAssetDialogConfigMap;
+	public TMap<string,string> HLSLKeywordReplacements;
 	public TArray<FNiagaraNamespaceMetadata> NamespaceMetadata;
 	public TArray<FNiagaraNamespaceMetadata> NamespaceModifierMetadata;
 	public FNiagaraNamespaceMetadata DefaultNamespaceMetadata;

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A line of subtitle text and the time at which it should be displayed.</summary>
 public partial struct FSubtitleCue {
 // SubtitleCue
-	public sbyte Text;
+	public string Text;
 	public float Time;
 }

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>MovieScenePossessable is a "typed slot" used to allow the MovieScene to control an already-existing object</summary>
 public partial struct FMovieScenePossessable {
 // MovieScenePossessable
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 	public FGuid Guid;
-	public sbyte Name;
+	public string Name;
 	public TSoftObjectPtr<UClass> PossessedObjectClass;
 	public FGuid ParentGuid;
 	public FMovieSceneObjectBindingID SpawnableObjectBindingID;

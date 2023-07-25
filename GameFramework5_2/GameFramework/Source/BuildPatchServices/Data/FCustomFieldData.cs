@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Data/ManifestUObject.h")]
 public partial struct FCustomFieldData {
 // CustomFieldData
-	public sbyte Key;
-	public sbyte Value;
+	public string Key;
+	public string Value;
 }

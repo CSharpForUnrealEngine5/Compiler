@@ -6,5 +6,5 @@ public partial class UWebAPIOperationResponse : UWebAPIModel {
 // WebAPIOperationResponse
 	public EWebAPIResponseStorage Storage;
 	public uint Code;
-	public sbyte Message;
+	public string Message;
 }

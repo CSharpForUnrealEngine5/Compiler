@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPhysicsConstraintProfileHandle {
 // PhysicsConstraintProfileHandle
 	public FConstraintProfileProperties ProfileProperties;
-	public sbyte ProfileName;
+	public string ProfileName;
 }

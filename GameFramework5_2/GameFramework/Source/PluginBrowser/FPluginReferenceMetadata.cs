@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>We use this object to display plugin reference properties using details view.</summary>
 public partial struct FPluginReferenceMetadata {
 // PluginReferenceMetadata
-	public sbyte Name;
+	public string Name;
 	public bool bOptional;
 	public bool bEnabled;
 }

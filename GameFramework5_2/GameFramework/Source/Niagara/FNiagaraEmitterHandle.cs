@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraEmitterHandle {
 // NiagaraEmitterHandle
 	public FGuid Id;
-	public sbyte IdName;
+	public string IdName;
 	public bool bIsEnabled;
-	public sbyte Name;
+	public string Name;
 	public UNiagaraEmitter Source_DEPRECATED;
 	public UNiagaraEmitter LastMergedSource_DEPRECATED;
 	public bool bIsolated;

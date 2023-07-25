@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FStaticMaterial {
 // StaticMaterial
 	public UMaterialInterface MaterialInterface;
-	public sbyte MaterialSlotName;
-	public sbyte ImportedMaterialSlotName;
+	public string MaterialSlotName;
+	public string ImportedMaterialSlotName;
 	public FMeshUVChannelInfo UVChannelData;
 }

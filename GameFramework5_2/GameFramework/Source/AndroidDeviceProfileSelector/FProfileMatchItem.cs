@@ -6,5 +6,5 @@ public partial struct FProfileMatchItem {
 // ProfileMatchItem
 	public byte SourceType;
 	public byte CompareType;
-	public sbyte MatchString;
+	public string MatchString;
 }

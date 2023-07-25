@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UImagePlateComponent : UPrimitiveComponent {
 // ImagePlateComponent
 	public void SetImagePlate(FImagePlateParameters Plate) {}
-	public FImagePlateParameters GetPlate(FImagePlateParameters ReturnValue) { return default; }
+	public FImagePlateParameters GetPlate() { return default; }
 	public void OnRenderTextureChanged() {}
 	public FImagePlateParameters Plate;
 	public UImagePlateFrustumComponent EditorFrustum;

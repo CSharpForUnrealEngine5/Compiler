@@ -7,7 +7,7 @@ public partial class UGameplayAbility_Montage : UGameplayAbility {
 // GameplayAbility_Montage
 	public UAnimMontage MontageToPlay;
 	public float PlayRate;
-	public sbyte SectionName;
+	public string SectionName;
 	public TArray<UClass> GameplayEffectClassesWhileAnimating;
 	public TArray<UGameplayEffect> GameplayEffectsWhileAnimating;
 }

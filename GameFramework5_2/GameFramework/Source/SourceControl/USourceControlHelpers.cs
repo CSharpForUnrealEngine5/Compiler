@@ -5,29 +5,29 @@ using CSharpToCpp.Utilities;
 ///<summary>Editor source control common functionality.</summary>
 public partial class USourceControlHelpers : UObject {
 // SourceControlHelpers
-	public sbyte CurrentProvider(sbyte ReturnValue) { return default; }
-	public bool IsEnabled(bool ReturnValue) { return default; }
-	public bool IsAvailable(bool ReturnValue) { return default; }
-	public sbyte LastErrorMsg(sbyte ReturnValue) { return default; }
-	public bool SyncFile(sbyte InFile,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool SyncFiles(TArray<sbyte> InFiles,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool CheckOutFile(sbyte InFile,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool CheckOutFiles(TArray<sbyte> InFiles,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool CheckOutOrAddFile(sbyte InFile,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool CheckOutOrAddFiles(TArray<sbyte> InFiles,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool MarkFileForAdd(sbyte InFile,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool MarkFilesForAdd(TArray<sbyte> InFiles,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool MarkFileForDelete(sbyte InFile,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool MarkFilesForDelete(TArray<sbyte> InFiles,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool RevertFile(sbyte InFile,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool RevertAndReloadPackages(TArray<sbyte> InPackagesToRevert,bool bRevertAll=false,bool bReloadWorld=false,bool ReturnValue) { return default; }
-	public bool RevertFiles(TArray<sbyte> InFiles,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool RevertUnchangedFile(sbyte InFile,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool RevertUnchangedFiles(TArray<sbyte> InFiles,bool bSilent=false,bool ReturnValue) { return default; }
-	public bool CheckInFile(sbyte InFile,sbyte InDescription,bool bSilent=false,bool bKeepCheckedOut=false,bool ReturnValue) { return default; }
-	public bool CheckInFiles(TArray<sbyte> InFiles,sbyte InDescription,bool bSilent=false,bool bKeepCheckedOut=false,bool ReturnValue) { return default; }
-	public bool CopyFile(sbyte InSourceFile,sbyte InDestFile,bool bSilent=false,bool ReturnValue) { return default; }
-	public FSourceControlState QueryFileState(sbyte InFile,bool bSilent=false,FSourceControlState ReturnValue) { return default; }
+	public string CurrentProvider() { return default; }
+	public bool IsEnabled() { return default; }
+	public bool IsAvailable() { return default; }
+	public string LastErrorMsg() { return default; }
+	public bool SyncFile(string InFile,bool bSilent/*=false*/) { return default; }
+	public bool SyncFiles(TArray<string> InFiles,bool bSilent/*=false*/) { return default; }
+	public bool CheckOutFile(string InFile,bool bSilent/*=false*/) { return default; }
+	public bool CheckOutFiles(TArray<string> InFiles,bool bSilent/*=false*/) { return default; }
+	public bool CheckOutOrAddFile(string InFile,bool bSilent/*=false*/) { return default; }
+	public bool CheckOutOrAddFiles(TArray<string> InFiles,bool bSilent/*=false*/) { return default; }
+	public bool MarkFileForAdd(string InFile,bool bSilent/*=false*/) { return default; }
+	public bool MarkFilesForAdd(TArray<string> InFiles,bool bSilent/*=false*/) { return default; }
+	public bool MarkFileForDelete(string InFile,bool bSilent/*=false*/) { return default; }
+	public bool MarkFilesForDelete(TArray<string> InFiles,bool bSilent/*=false*/) { return default; }
+	public bool RevertFile(string InFile,bool bSilent/*=false*/) { return default; }
+	public bool RevertAndReloadPackages(TArray<string> InPackagesToRevert,bool bRevertAll/*=false*/,bool bReloadWorld/*=false*/) { return default; }
+	public bool RevertFiles(TArray<string> InFiles,bool bSilent/*=false*/) { return default; }
+	public bool RevertUnchangedFile(string InFile,bool bSilent/*=false*/) { return default; }
+	public bool RevertUnchangedFiles(TArray<string> InFiles,bool bSilent/*=false*/) { return default; }
+	public bool CheckInFile(string InFile,string InDescription,bool bSilent/*=false*/,bool bKeepCheckedOut/*=false*/) { return default; }
+	public bool CheckInFiles(TArray<string> InFiles,string InDescription,bool bSilent/*=false*/,bool bKeepCheckedOut/*=false*/) { return default; }
+	public bool CopyFile(string InSourceFile,string InDestFile,bool bSilent/*=false*/) { return default; }
+	public FSourceControlState QueryFileState(string InFile,bool bSilent/*=false*/) { return default; }
 	public void FQueryFileStateDelegate(FSourceControlState FileStateOut) {}
-	public void AsyncQueryFileState(FQueryFileStateDelegate FileStateCallback,sbyte InFile,bool bSilent=false) {}
+	public void AsyncQueryFileState(FQueryFileStateDelegate FileStateCallback,string InFile,bool bSilent/*=false*/) {}
 }

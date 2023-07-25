@@ -9,12 +9,12 @@ public partial class AFunctionalAITestBase : AFunctionalTest {
 	public TArray<APawn> SpawnedPawns;
 	public TArray<FPendingDelayedSpawn> PendingDelayedSpawns;
 	public int CurrentSpawnSetIndex;
-	public sbyte CurrentSpawnSetName;
+	public string CurrentSpawnSetName;
 	public FFunctionalTestAISpawned OnAISpawned;
 	public FFunctionalTestEventSignature OnAllAISPawned;
 	public FVector NavMeshDebugOrigin;
 	public FVector NavMeshDebugExtent;
 	public bool bWaitForNavMesh;
 	public bool bDebugNavMeshOnTimeout;
-	public bool IsOneOfSpawnedPawns(UObject Actor,bool ReturnValue) { return default; }
+	public bool IsOneOfSpawnedPawns(UObject Actor) { return default; }
 }

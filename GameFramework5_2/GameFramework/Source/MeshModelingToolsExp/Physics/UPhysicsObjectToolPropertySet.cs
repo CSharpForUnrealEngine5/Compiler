@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Physics/CollisionPropertySets.h")]
 public partial class UPhysicsObjectToolPropertySet : UInteractiveToolPropertySet {
 // PhysicsObjectToolPropertySet
-	public sbyte ObjectName;
+	public string ObjectName;
 	public ECollisionGeometryMode CollisionType;
 	public TArray<FPhysicsSphereData> Spheres;
 	public TArray<FPhysicsBoxData> Boxes;

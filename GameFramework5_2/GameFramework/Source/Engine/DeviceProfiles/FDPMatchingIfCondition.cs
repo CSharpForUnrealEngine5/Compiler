@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DeviceProfiles/DeviceProfileMatching.h")]
 public partial struct FDPMatchingIfCondition {
 // DPMatchingIfCondition
-	public sbyte Operator;
-	public sbyte Arg1;
-	public sbyte Arg2;
+	public string Operator;
+	public string Arg1;
+	public string Arg2;
 }

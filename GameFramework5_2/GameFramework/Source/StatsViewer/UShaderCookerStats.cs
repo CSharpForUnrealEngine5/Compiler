@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 ///<summary>Statistics page for shader cooker stats.</summary>
 public partial class UShaderCookerStats : UObject {
 // ShaderCookerStats
-	public sbyte Name;
-	public sbyte Platform;
-	public sbyte Category;
+	public string Name;
+	public string Platform;
+	public string Category;
 	public int Compiled;
 	public int Cooked;
 	public int Permutations;
 	public float CompileTime;
-	public sbyte Path;
+	public string Path;
 }

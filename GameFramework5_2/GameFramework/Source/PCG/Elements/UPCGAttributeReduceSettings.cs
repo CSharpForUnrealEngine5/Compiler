@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UPCGAttributeReduceSettings : UPCGSettings {
 // PCGAttributeReduceSettings
 	public FPCGAttributePropertySelector InputSource;
-	public sbyte OutputAttributeName;
+	public string OutputAttributeName;
 	public EPCGAttributeReduceOperation Operation;
-	public sbyte InputAttributeName_DEPRECATED;
+	public string InputAttributeName_DEPRECATED;
 }

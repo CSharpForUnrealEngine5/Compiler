@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FImagePlateParameters {
 // ImagePlateParameters
 	public UMaterialInterface Material;
-	public sbyte TextureParameterName;
+	public string TextureParameterName;
 	public bool bFillScreen;
 	public FVector2D FillScreenAmount;
 	public FVector2D FixedSize;

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UAnimationSettings : UDeveloperSettings {
 // AnimationSettings
 	public int CompressCommandletVersion;
-	public TArray<sbyte> KeyEndEffectorsMatchNameArray;
+	public TArray<string> KeyEndEffectorsMatchNameArray;
 	public bool ForceRecompression;
 	public bool bForceBelowThreshold;
 	public bool bFirstRecompressUsingCurrentOrDefault;
@@ -16,11 +16,11 @@ public partial class UAnimationSettings : UDeveloperSettings {
 	public bool bTickAnimationOnSkeletalMeshInit;
 	public FTimecodeCustomAttributeNameSettings BoneTimecodeCustomAttributeNameSettings;
 	public TArray<FCustomAttributeSetting> BoneCustomAttributesNames;
-	public TArray<sbyte> GetBoneCustomAttributeNamesToImport(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> BoneNamesWithCustomAttributes;
-	public TMap<sbyte,ECustomAttributeBlendType> AttributeBlendModes;
+	public TArray<string> GetBoneCustomAttributeNamesToImport() { return default; }
+	public TArray<string> BoneNamesWithCustomAttributes;
+	public TMap<string,ECustomAttributeBlendType> AttributeBlendModes;
 	public ECustomAttributeBlendType DefaultAttributeBlendMode;
-	public TArray<sbyte> TransformAttributeNames;
+	public TArray<string> TransformAttributeNames;
 	public TArray<TSoftObjectPtr<UUserDefinedStruct>> UserDefinedStructAttributes;
 	public TArray<FMirrorFindReplaceExpression> MirrorFindReplaceExpressions;
 	public FFrameRate DefaultFrameRate;

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Simulated network driver for recording and playing back game sessions.</summary>
 public partial class UDemoNetDriver : UNetDriver {
 // DemoNetDriver
-	public TMap<sbyte,FRollbackNetStartupActorInfo> RollbackNetStartupActors;
+	public TMap<string,FRollbackNetStartupActorInfo> RollbackNetStartupActors;
 	public float CheckpointSaveMaxMSPerFrame;
 	public TArray<FMulticastRecordOptions> MulticastRecordOptions;
 	public TArray<APlayerController> SpectatorControllers;

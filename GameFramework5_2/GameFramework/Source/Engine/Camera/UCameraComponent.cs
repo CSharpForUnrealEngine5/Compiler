@@ -19,7 +19,7 @@ public partial class UCameraComponent : USceneComponent {
 	public void SetConstraintAspectRatio(bool bInConstrainAspectRatio) {}
 	public bool bUseFieldOfViewForLOD;
 	public void SetUseFieldOfViewForLOD(bool bInUseFieldOfViewForLOD) {}
-	public sbyte GetFilmbackText(sbyte ReturnValue) { return default; }
+	public string GetFilmbackText() { return default; }
 	public bool bDrawFrustumAllowed;
 	public bool bCameraMeshHiddenInGame;
 	public bool bLockToHmd;
@@ -28,7 +28,7 @@ public partial class UCameraComponent : USceneComponent {
 	public void SetProjectionMode(ECameraProjectionMode InProjectionMode) {}
 	public void SetPostProcessBlendWeight(float InPostProcessBlendWeight) {}
 	public void GetCameraView(float DeltaTime,FMinimalViewInfo DesiredView) {}
-	public void AddOrUpdateBlendable(object /*InBlendableObject*/ InBlendableObject,float InWeight=1.0f) {}
+	public void AddOrUpdateBlendable(object /*InBlendableObject*/ InBlendableObject,float InWeight/*=1.0f*/) {}
 	public void RemoveBlendable(object /*InBlendableObject*/ InBlendableObject) {}
 	public UStaticMesh CameraMesh;
 	public void OnCameraMeshHiddenChanged() {}

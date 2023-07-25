@@ -12,8 +12,8 @@ public partial class UAnimSeqExportOption : UObject {
 	public bool bEvaluateAllSkeletalMeshComponents;
 	public EAnimInterpolationType Interpolation;
 	public byte CurveInterpolation;
-	public TArray<sbyte> IncludeAnimationNames;
-	public TArray<sbyte> ExcludeAnimationNames;
+	public TArray<string> IncludeAnimationNames;
+	public TArray<string> ExcludeAnimationNames;
 	public FFrameNumber WarmUpFrames;
 	public FFrameNumber DelayBeforeStart;
 	public bool bTransactRecording;

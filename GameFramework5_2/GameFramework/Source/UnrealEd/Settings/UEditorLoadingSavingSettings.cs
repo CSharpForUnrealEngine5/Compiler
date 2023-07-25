@@ -10,7 +10,7 @@ public partial class UEditorLoadingSavingSettings : UObject {
 	public bool bRestoreOpenAssetTabsOnRestart;
 	public bool bEnableSourceControlCompatabilityCheck_DEPRECATED;
 	public bool bMonitorContentDirectories;
-	public TArray<sbyte> AutoReimportDirectories_DEPRECATED;
+	public TArray<string> AutoReimportDirectories_DEPRECATED;
 	public TArray<FAutoReimportDirectoryConfig> AutoReimportDirectorySettings;
 	public float AutoReimportThreshold;
 	public bool bAutoCreateAssets;

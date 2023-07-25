@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ToolMenuSection.h")]
 public partial struct FToolMenuSection {
 // ToolMenuSection
-	public sbyte Name;
+	public string Name;
 	public FToolMenuOwner Owner;
 	public TArray<FToolMenuEntry> Blocks;
 	public FToolMenuInsert InsertPosition;

@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ComponentVisualizer.h")]
 public partial struct FPropertyNameAndIndex {
 // PropertyNameAndIndex
-	public sbyte Name;
+	public string Name;
 	public int Index;
 }

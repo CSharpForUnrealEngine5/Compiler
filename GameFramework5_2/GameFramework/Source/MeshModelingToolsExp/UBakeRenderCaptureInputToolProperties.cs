@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UBakeRenderCaptureInputToolProperties : UInteractiveToolPropertySet {
 // BakeRenderCaptureInputToolProperties
 	public UStaticMesh TargetStaticMesh;
-	public sbyte TargetUVLayer;
-	public int GetTargetUVLayerIndex(int ReturnValue) { return default; }
-	public TArray<sbyte> GetTargetUVLayerNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> TargetUVLayerNamesList;
+	public string TargetUVLayer;
+	public int GetTargetUVLayerIndex() { return default; }
+	public TArray<string> GetTargetUVLayerNamesFunc() { return default; }
+	public TArray<string> TargetUVLayerNamesList;
 }

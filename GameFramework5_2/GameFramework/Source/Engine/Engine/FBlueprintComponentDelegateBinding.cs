@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Entry for a delegate to assign after a blueprint has been instanced</summary>
 public partial struct FBlueprintComponentDelegateBinding {
 // BlueprintComponentDelegateBinding
-	public sbyte ComponentPropertyName;
-	public sbyte DelegatePropertyName;
-	public sbyte FunctionNameToBind;
+	public string ComponentPropertyName;
+	public string DelegatePropertyName;
+	public string FunctionNameToBind;
 }

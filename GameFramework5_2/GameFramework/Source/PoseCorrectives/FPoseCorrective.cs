@@ -12,5 +12,5 @@ public partial struct FPoseCorrective {
 	public TSet<int> CorrectiveBoneIndices;
 	public TArray<float> CorrectiveCurvesDelta;
 	public TSet<int> CorrectiveCurveIndices;
-	public sbyte GroupName;
+	public string GroupName;
 }

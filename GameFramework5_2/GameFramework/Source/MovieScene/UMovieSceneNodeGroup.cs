@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure that represents a group of nodes</summary>
 public partial class UMovieSceneNodeGroup : UObject {
 // MovieSceneNodeGroup
-	public sbyte Name;
-	public TArray<sbyte> Nodes;
+	public string Name;
+	public TArray<string> Nodes;
 }

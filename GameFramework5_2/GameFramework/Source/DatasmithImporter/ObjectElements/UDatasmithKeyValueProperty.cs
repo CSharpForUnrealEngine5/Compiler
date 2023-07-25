@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>UDatasmithKeyValueProperty</summary>
 public partial class UDatasmithKeyValueProperty : UDatasmithObjectElement {
 // DatasmithKeyValueProperty
-	public EDatasmithKeyValuePropertyType GetPropertyType(EDatasmithKeyValuePropertyType ReturnValue) { return default; }
+	public EDatasmithKeyValuePropertyType GetPropertyType() { return default; }
 	public void SetPropertyType(EDatasmithKeyValuePropertyType InType) {}
-	public sbyte GetValue(sbyte ReturnValue) { return default; }
-	public void SetValue(sbyte Value) {}
+	public string GetValue() { return default; }
+	public void SetValue(string Value) {}
 }

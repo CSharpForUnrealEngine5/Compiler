@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Blueprint function library for autocasting from a base camera shake to a legacy camera shake.</summary>
 public partial class ULegacyCameraShakeFunctionLibrary : UBlueprintFunctionLibrary {
 // LegacyCameraShakeFunctionLibrary
-	public UObject Conv_LegacyCameraShake(UObject CameraShake,UObject ReturnValue) { return default; }
+	public UObject Conv_LegacyCameraShake(UObject CameraShake) { return default; }
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UInvalidationBox : UContentWidget {
 // InvalidationBox
 	public void InvalidateCache() {}
-	public bool GetCanCache(bool ReturnValue) { return default; }
+	public bool GetCanCache() { return default; }
 	public void SetCanCache(bool CanCache) {}
 	public bool bCanCache;
 }

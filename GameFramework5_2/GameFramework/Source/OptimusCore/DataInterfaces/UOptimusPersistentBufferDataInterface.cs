@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Compute Framework Data Interface for a transient buffer.</summary>
 public partial class UOptimusPersistentBufferDataInterface : UOptimusRawBufferDataInterface {
 // OptimusPersistentBufferDataInterface
-	public sbyte ResourceName;
+	public string ResourceName;
 }

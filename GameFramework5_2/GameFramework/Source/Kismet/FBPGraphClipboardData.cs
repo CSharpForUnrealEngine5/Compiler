@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>A helper struct for copying a Blueprint Function to the clipboard</summary>
 public partial struct FBPGraphClipboardData {
 // BPGraphClipboardData
-	public sbyte GraphName;
+	public string GraphName;
 	public byte GraphType;
 	public TWeakObjectPtr<UBlueprint> OriginalBlueprint;
-	public sbyte NodesString;
+	public string NodesString;
 }

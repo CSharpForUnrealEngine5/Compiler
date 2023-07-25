@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Structure that defines a shared feature pack resource.</summary>
 public partial struct FFeatureAdditionalFiles {
 // FeatureAdditionalFiles
-	public sbyte DestinationFilesFolder;
-	public TArray<sbyte> AdditionalFilesList;
+	public string DestinationFilesFolder;
+	public TArray<string> AdditionalFilesList;
 }

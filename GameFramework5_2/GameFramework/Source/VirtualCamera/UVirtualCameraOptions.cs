@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UVirtualCameraOptions : UInterface {
 // VirtualCameraOptions
 	public void SetDesiredDistanceUnits(EUnit DesiredUnits) {}
-	public EUnit GetDesiredDistanceUnits(EUnit ReturnValue) { return default; }
-	public bool IsFocusVisualizationAllowed(bool ReturnValue) { return default; }
+	public EUnit GetDesiredDistanceUnits() { return default; }
+	public bool IsFocusVisualizationAllowed() { return default; }
 }

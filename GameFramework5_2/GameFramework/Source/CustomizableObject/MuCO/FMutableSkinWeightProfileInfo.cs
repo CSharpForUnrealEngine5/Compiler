@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObject.h")]
 public partial struct FMutableSkinWeightProfileInfo {
 // MutableSkinWeightProfileInfo
-	public sbyte Name;
+	public string Name;
 	public bool DefaultProfile;
 	public short DefaultProfileFromLODIndex;
 }

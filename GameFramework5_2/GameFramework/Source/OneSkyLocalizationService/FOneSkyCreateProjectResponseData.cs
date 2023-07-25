@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FOneSkyCreateProjectResponseData {
 // OneSkyCreateProjectResponseData
 	public int id;
-	public sbyte name;
-	public sbyte description;
+	public string name;
+	public string description;
 	public FOneSkyShowProjectResponseProjectType project_type;
 }

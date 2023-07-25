@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>GetSpaceTransform is used to retrieve a single transform from a hierarchy.</summary>
 public partial struct FRigUnit_GetSpaceTransform {
 // RigUnit_GetSpaceTransform
-	public sbyte Space;
+	public string Space;
 	public ERigVMTransformSpace SpaceType;
 	public FTransform Transform;
 	public FCachedRigElement CachedSpaceIndex;

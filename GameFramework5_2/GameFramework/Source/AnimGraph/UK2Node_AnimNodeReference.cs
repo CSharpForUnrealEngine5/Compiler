@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_AnimNodeReference.h")]
 public partial class UK2Node_AnimNodeReference : UK2Node {
 // K2Node_AnimNodeReference
-	public sbyte Tag;
+	public string Tag;
 }

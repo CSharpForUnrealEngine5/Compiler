@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Describes the input and output of an anim blueprint 'function'</summary>
 public partial struct FAnimBlueprintFunction {
 // AnimBlueprintFunction
-	public sbyte Name;
-	public sbyte Group;
+	public string Name;
+	public string Group;
 	public int OutputPoseNodeIndex;
-	public TArray<sbyte> InputPoseNames;
+	public TArray<string> InputPoseNames;
 	public TArray<int> InputPoseNodeIndices;
 	public bool bImplemented;
 }

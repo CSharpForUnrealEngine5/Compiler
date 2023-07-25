@@ -10,5 +10,5 @@ public partial struct FARGeoAnchorUpdatePayload {
 	public float Latitude;
 	public float AltitudeMeters;
 	public EARAltitudeSource AltitudeSource;
-	public sbyte AnchorName;
+	public string AnchorName;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for the various platform interface classes.</summary>
 public partial class UCloudStorageBase : UPlatformInterfaceBase {
 // CloudStorageBase
-	public TArray<sbyte> LocalCloudFiles;
+	public TArray<string> LocalCloudFiles;
 	public bool bSuppressDelegateCalls;
 }

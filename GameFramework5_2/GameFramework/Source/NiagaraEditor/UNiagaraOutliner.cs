@@ -7,5 +7,5 @@ public partial class UNiagaraOutliner : UObject {
 	public FNiagaraOutlinerCaptureSettings CaptureSettings;
 	public FNiagaraOutlinerViewSettings ViewSettings;
 	public FNiagaraOutlinerData Data;
-	public TMap<sbyte,UNiagaraSimCache> SystemSimCaches;
+	public TMap<string,UNiagaraSimCache> SystemSimCaches;
 }

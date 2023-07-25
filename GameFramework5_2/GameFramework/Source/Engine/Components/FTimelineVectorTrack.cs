@@ -7,6 +7,6 @@ public partial struct FTimelineVectorTrack {
 // TimelineVectorTrack
 	public UCurveVector VectorCurve;
 	public FOnTimelineVector InterpFunc;
-	public sbyte TrackName;
-	public sbyte VectorPropertyName;
+	public string TrackName;
+	public string VectorPropertyName;
 }

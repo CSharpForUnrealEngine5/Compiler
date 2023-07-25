@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertMessages.h")]
 public partial struct FConcertSession_SessionRenamedEvent {
 // ConcertSession_SessionRenamedEvent
-	public sbyte NewName;
+	public string NewName;
 }

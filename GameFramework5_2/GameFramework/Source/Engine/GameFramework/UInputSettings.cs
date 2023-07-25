@@ -23,9 +23,9 @@ public partial class UInputSettings : UObject {
 	public bool bShowConsoleOnFourFingerTap;
 	public bool bEnableGestureRecognizer;
 	public bool bUseAutocorrect;
-	public TArray<sbyte> ExcludedAutocorrectOS;
-	public TArray<sbyte> ExcludedAutocorrectCultures;
-	public TArray<sbyte> ExcludedAutocorrectDeviceModels;
+	public TArray<string> ExcludedAutocorrectOS;
+	public TArray<string> ExcludedAutocorrectCultures;
+	public TArray<string> ExcludedAutocorrectDeviceModels;
 	public EMouseCaptureMode DefaultViewportMouseCaptureMode;
 	public EMouseLockMode DefaultViewportMouseLockMode;
 	public float FOVScale;
@@ -37,15 +37,15 @@ public partial class UInputSettings : UObject {
 	public TSoftObjectPtr<UClass> DefaultInputComponentClass;
 	public FSoftObjectPath DefaultTouchInterface;
 	public TArray<FKey> ConsoleKeys;
-	public UObject GetInputSettings(UObject ReturnValue) { return default; }
-	public void AddActionMapping(FInputActionKeyMapping KeyMapping,bool bForceRebuildKeymaps=true) {}
-	public void GetActionMappingByName(sbyte InActionName,TArray<FInputActionKeyMapping> OutMappings) {}
-	public void RemoveActionMapping(FInputActionKeyMapping KeyMapping,bool bForceRebuildKeymaps=true) {}
-	public void AddAxisMapping(FInputAxisKeyMapping KeyMapping,bool bForceRebuildKeymaps=true) {}
-	public void GetAxisMappingByName(sbyte InAxisName,TArray<FInputAxisKeyMapping> OutMappings) {}
-	public void RemoveAxisMapping(FInputAxisKeyMapping KeyMapping,bool bForceRebuildKeymaps=true) {}
+	public UObject GetInputSettings() { return default; }
+	public void AddActionMapping(FInputActionKeyMapping KeyMapping,bool bForceRebuildKeymaps/*=true*/) {}
+	public void GetActionMappingByName(string InActionName,TArray<FInputActionKeyMapping> OutMappings) {}
+	public void RemoveActionMapping(FInputActionKeyMapping KeyMapping,bool bForceRebuildKeymaps/*=true*/) {}
+	public void AddAxisMapping(FInputAxisKeyMapping KeyMapping,bool bForceRebuildKeymaps/*=true*/) {}
+	public void GetAxisMappingByName(string InAxisName,TArray<FInputAxisKeyMapping> OutMappings) {}
+	public void RemoveAxisMapping(FInputAxisKeyMapping KeyMapping,bool bForceRebuildKeymaps/*=true*/) {}
 	public void SaveKeyMappings() {}
-	public void GetActionNames(TArray<sbyte> ActionNames) {}
-	public void GetAxisNames(TArray<sbyte> AxisNames) {}
+	public void GetActionNames(TArray<string> ActionNames) {}
+	public void GetAxisNames(TArray<string> AxisNames) {}
 	public void ForceRebuildKeymaps() {}
 }

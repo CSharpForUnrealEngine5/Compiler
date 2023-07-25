@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>An interface object for any clothing asset the engine can use.</summary>
 public partial class UClothingAssetBase : UObject {
 // ClothingAssetBase
-	public sbyte ImportedFilePath;
+	public string ImportedFilePath;
 	public FGuid AssetGuid;
 }

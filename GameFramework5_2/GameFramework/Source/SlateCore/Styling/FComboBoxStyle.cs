@@ -10,6 +10,6 @@ public partial struct FComboBoxStyle {
 	public FSlateSound SelectionChangeSlateSound;
 	public FMargin ContentPadding;
 	public FMargin MenuRowPadding;
-	public sbyte PressedSound_DEPRECATED;
-	public sbyte SelectionChangeSound_DEPRECATED;
+	public string PressedSound_DEPRECATED;
+	public string SelectionChangeSound_DEPRECATED;
 }

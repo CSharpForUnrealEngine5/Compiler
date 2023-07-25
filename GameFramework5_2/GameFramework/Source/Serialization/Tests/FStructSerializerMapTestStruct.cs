@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Test structure for map properties.</summary>
 public partial struct FStructSerializerMapTestStruct {
 // StructSerializerMapTestStruct
-	public TMap<int,sbyte> IntToStr;
-	public TMap<sbyte,sbyte> StrToStr;
-	public TMap<sbyte,FVector> StrToVec;
-	public TMap<sbyte,FStructSerializerBuiltinTestStruct> StrToStruct;
+	public TMap<int,string> IntToStr;
+	public TMap<string,string> StrToStr;
+	public TMap<string,FVector> StrToVec;
+	public TMap<string,FStructSerializerBuiltinTestStruct> StrToStruct;
 }

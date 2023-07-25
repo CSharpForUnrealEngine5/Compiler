@@ -8,6 +8,6 @@ public partial class UObjectReplicationBridgeConfig : UObject {
 	public TArray<FObjectReplicationBridgeFilterConfig> FilterConfigs;
 	public TArray<FObjectReplicationBridgePrioritizerConfig> PrioritizerConfigs;
 	public TArray<FObjectReplicationBridgeDeltaCompressionConfig> DeltaCompressionConfigs;
-	public sbyte DefaultSpatialFilterName;
-	public sbyte RequiredNetDriverChannelClassName;
+	public string DefaultSpatialFilterName;
+	public string RequiredNetDriverChannelClassName;
 }

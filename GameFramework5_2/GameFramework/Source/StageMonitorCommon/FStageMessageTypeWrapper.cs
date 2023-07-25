@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Wrapper structure holding a message type static struct.</summary>
 public partial struct FStageMessageTypeWrapper {
 // StageMessageTypeWrapper
-	public sbyte MessageType;
+	public string MessageType;
 }

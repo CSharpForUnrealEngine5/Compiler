@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectParameterTypeDefinitions.h")]
 public partial struct FCustomizableObjectIntParameterValue {
 // CustomizableObjectIntParameterValue
-	public sbyte ParameterName;
-	public sbyte ParameterValueName;
-	public sbyte Uid;
-	public TArray<sbyte> ParameterRangeValueNames;
+	public string ParameterName;
+	public string ParameterValueName;
+	public string Uid;
+	public TArray<string> ParameterRangeValueNames;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UMoviePipelineOutputSetting : UMoviePipelineSetting {
 // MoviePipelineOutputSetting
 	public FDirectoryPath OutputDirectory;
-	public sbyte FileNameFormat;
+	public string FileNameFormat;
 	public FIntPoint OutputResolution;
 	public bool bUseCustomFrameRate;
 	public FFrameRate OutputFrameRate;

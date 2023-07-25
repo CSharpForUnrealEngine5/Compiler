@@ -7,6 +7,6 @@ public partial struct FTransformCollectionAttributeDataflowNode {
 	public FManagedArrayCollection Collection;
 	public FTransform TransformIn;
 	public FTransform LocalTransform;
-	public sbyte GroupName;
-	public sbyte AttributeName;
+	public string GroupName;
+	public string AttributeName;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Represents a PIE/Game streaming grid</summary>
 public partial struct FSpatialHashStreamingGrid {
 // SpatialHashStreamingGrid
-	public sbyte GridName;
+	public string GridName;
 	public FVector Origin;
 	public int CellSize;
 	public float LoadingRange;

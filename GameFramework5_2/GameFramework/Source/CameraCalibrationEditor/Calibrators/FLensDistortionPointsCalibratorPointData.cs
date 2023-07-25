@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FLensDistortionPointsCalibratorPointData {
 // LensDistortionPointsCalibratorPointData
 	public bool bIsValid;
-	public sbyte Name;
+	public string Name;
 	public FVector Point3d;
 	public FVector2D Point2d;
 }

@@ -9,7 +9,7 @@ public partial class UScalableConeGizmo : UInteractiveGizmo {
 	public float MinAngle;
 	public FColor ConeColor;
 	public float HitErrorThreshold;
-	public sbyte TransactionDescription;
+	public string TransactionDescription;
 	public float Length;
 	public float Angle;
 	public bool bIsHovering;

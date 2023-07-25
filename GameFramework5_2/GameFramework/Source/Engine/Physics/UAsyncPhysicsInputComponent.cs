@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UAsyncPhysicsInputComponent : UActorComponent {
 // AsyncPhysicsInputComponent
 	public void ServerRPCBufferInput(UObject AsyncPhysicsData) {}
-	public UObject GetDataToWrite(UObject ReturnValue) { return default; }
-	public UObject GetDataToConsume(UObject ReturnValue) { return default; }
+	public UObject GetDataToWrite() { return default; }
+	public UObject GetDataToConsume() { return default; }
 	public UClass DataClass;
 	public TArray<UAsyncPhysicsData> BufferedData;
 	public UAsyncPhysicsData DataToConsume;

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FPerPlatformBool {
 // PerPlatformBool
 	public bool Default;
-	public TMap<sbyte,bool> PerPlatform;
+	public TMap<string,bool> PerPlatform;
 }

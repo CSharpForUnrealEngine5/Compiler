@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Materials/MaterialExpressionLandscapeGrassOutput.h")]
 public partial struct FGrassInput {
 // GrassInput
-	public sbyte Name;
+	public string Name;
 	public ULandscapeGrassType GrassType;
 	public FExpressionInput Input;
 }

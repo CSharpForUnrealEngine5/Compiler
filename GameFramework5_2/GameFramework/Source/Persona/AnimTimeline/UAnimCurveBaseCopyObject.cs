@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Object used to export AnimCurves to clipboard</summary>
 public partial class UAnimCurveBaseCopyObject : UObject {
 // AnimCurveBaseCopyObject
-	public sbyte DisplayName;
+	public string DisplayName;
 	public ushort UID;
 	public ERawCurveTrackTypes CurveType;
 	public ETransformCurveChannel Channel;
 	public EVectorCurveChannel Axis;
-	public sbyte OriginName;
+	public string OriginName;
 }

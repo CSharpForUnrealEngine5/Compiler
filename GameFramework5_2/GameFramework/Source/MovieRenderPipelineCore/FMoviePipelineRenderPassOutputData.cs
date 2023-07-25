@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("MovieRenderPipelineDataTypes.h")]
 public partial struct FMoviePipelineRenderPassOutputData {
 // MoviePipelineRenderPassOutputData
-	public TArray<sbyte> FilePaths;
+	public TArray<string> FilePaths;
 }

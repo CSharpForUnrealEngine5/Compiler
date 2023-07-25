@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("LogVisualizerSettings.h")]
 public partial struct FVisualLoggerFiltersData {
 // VisualLoggerFiltersData
-	public sbyte SearchBoxFilter;
-	public sbyte ObjectNameFilter;
+	public string SearchBoxFilter;
+	public string ObjectNameFilter;
 	public TArray<FCategoryFilter> Categories;
-	public TArray<sbyte> SelectedClasses;
+	public TArray<string> SelectedClasses;
 }

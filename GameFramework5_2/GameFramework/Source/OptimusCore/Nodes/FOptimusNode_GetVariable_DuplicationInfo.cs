@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Information to hold data on the variable definition that persists over node duplication.</summary>
 public partial struct FOptimusNode_GetVariable_DuplicationInfo {
 // OptimusNode_GetVariable_DuplicationInfo
-	public sbyte VariableName;
+	public string VariableName;
 	public FOptimusDataTypeRef DataType;
-	public sbyte DefaultValue;
+	public string DefaultValue;
 }

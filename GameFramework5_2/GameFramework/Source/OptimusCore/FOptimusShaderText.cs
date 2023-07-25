@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusShaderText.h")]
 public partial struct FOptimusShaderText {
 // OptimusShaderText
-	public sbyte Declarations;
-	public sbyte ShaderText;
+	public string Declarations;
+	public string ShaderText;
 }

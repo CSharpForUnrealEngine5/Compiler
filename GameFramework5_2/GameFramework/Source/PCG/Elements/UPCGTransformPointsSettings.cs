@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UPCGTransformPointsSettings : UPCGSettings {
 // PCGTransformPointsSettings
 	public bool bApplyToAttribute;
-	public sbyte AttributeName;
+	public string AttributeName;
 	public FVector OffsetMin;
 	public FVector OffsetMax;
 	public bool bAbsoluteOffset;

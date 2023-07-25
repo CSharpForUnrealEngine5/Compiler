@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkTypes.h")]
 public partial struct FLiveLinkSubjectName {
 // LiveLinkSubjectName
-	public sbyte Name;
+	public string Name;
 }

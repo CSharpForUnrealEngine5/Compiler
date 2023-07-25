@@ -5,18 +5,18 @@ using CSharpToCpp.Utilities;
 ///<summary>An asset used to track collections of console variables that can be recalled and edited using the Console Variables Editor.</summary>
 public partial class UConsoleVariablesEditorFunctionLibrary : UBlueprintFunctionLibrary {
 // ConsoleVariablesEditorFunctionLibrary
-	public UObject GetCurrentlyLoadedPreset(UObject ReturnValue) { return default; }
+	public UObject GetCurrentlyLoadedPreset() { return default; }
 	public void LoadPresetIntoConsoleVariablesEditor(UObject InAsset) {}
-	public bool CopyCurrentListToAsset(UObject InAsset,bool ReturnValue) { return default; }
-	public bool AddValidatedCommandToCurrentPreset(sbyte NewCommand,bool ReturnValue) { return default; }
-	public bool RemoveCommandFromCurrentPreset(sbyte NewCommand,bool ReturnValue) { return default; }
-	public bool GetListOfCommandsFromPreset(UObject InAsset,TArray<sbyte> OutCommandList,bool ReturnValue) { return default; }
-	public bool SetConsoleVariableByName_Float(sbyte InCommandName,float InValue,bool ReturnValue) { return default; }
-	public bool SetConsoleVariableByName_Bool(sbyte InCommandName,bool InValue,bool ReturnValue) { return default; }
-	public bool SetConsoleVariableByName_Int(sbyte InCommandName,int InValue,bool ReturnValue) { return default; }
-	public bool SetConsoleVariableByName_String(sbyte InCommandName,sbyte InValue,bool ReturnValue) { return default; }
-	public bool GetConsoleVariableStringValue(sbyte InCommandName,sbyte OutValue,bool ReturnValue) { return default; }
-	public bool GetConsoleVariableSourceByName(sbyte InCommandName,sbyte OutValue,bool ReturnValue) { return default; }
-	public bool GetEnableMultiUserCVarSync(bool ReturnValue) { return default; }
+	public bool CopyCurrentListToAsset(UObject InAsset) { return default; }
+	public bool AddValidatedCommandToCurrentPreset(string NewCommand) { return default; }
+	public bool RemoveCommandFromCurrentPreset(string NewCommand) { return default; }
+	public bool GetListOfCommandsFromPreset(UObject InAsset,TArray<string> OutCommandList) { return default; }
+	public bool SetConsoleVariableByName_Float(string InCommandName,float InValue) { return default; }
+	public bool SetConsoleVariableByName_Bool(string InCommandName,bool InValue) { return default; }
+	public bool SetConsoleVariableByName_Int(string InCommandName,int InValue) { return default; }
+	public bool SetConsoleVariableByName_String(string InCommandName,string InValue) { return default; }
+	public bool GetConsoleVariableStringValue(string InCommandName,string OutValue) { return default; }
+	public bool GetConsoleVariableSourceByName(string InCommandName,string OutValue) { return default; }
+	public bool GetEnableMultiUserCVarSync() { return default; }
 	public void SetEnableMultiUserCVarSync(bool bNewSetting) {}
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for ability tasks that apply root motion</summary>
 public partial class UAbilityTask_ApplyRootMotion_Base : UAbilityTask {
 // AbilityTask_ApplyRootMotion_Base
-	public sbyte ForceName;
+	public string ForceName;
 	public ERootMotionFinishVelocityMode FinishVelocityMode;
 	public FVector FinishSetVelocity;
 	public float FinishClampVelocity;

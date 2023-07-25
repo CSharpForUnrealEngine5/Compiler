@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for concrete media sources.</summary>
 public partial class UBaseMediaSource : UMediaSource {
 // BaseMediaSource
-	public TMap<sbyte,sbyte> PlatformPlayerNames;
-	public sbyte PlayerName;
+	public TMap<string,string> PlatformPlayerNames;
+	public string PlayerName;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("InterchangeTestFunction.h")]
 public partial struct FInterchangeTestFunctionResult {
 // InterchangeTestFunctionResult
-	public TArray<sbyte> Infos;
-	public TArray<sbyte> Warnings;
-	public TArray<sbyte> Errors;
+	public TArray<string> Infos;
+	public TArray<string> Warnings;
+	public TArray<string> Errors;
 }

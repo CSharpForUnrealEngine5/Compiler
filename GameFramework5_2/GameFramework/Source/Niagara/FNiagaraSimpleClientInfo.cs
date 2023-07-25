@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Simple information on the connected client for use in continuous or immediate response UI elements.</summary>
 public partial struct FNiagaraSimpleClientInfo {
 // NiagaraSimpleClientInfo
-	public TArray<sbyte> Systems;
-	public TArray<sbyte> Actors;
-	public TArray<sbyte> Components;
-	public TArray<sbyte> Emitters;
+	public TArray<string> Systems;
+	public TArray<string> Actors;
+	public TArray<string> Components;
+	public TArray<string> Emitters;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Input action definition. These are instanced per player (via FInputActionInstance)</summary>
 public partial class UInputAction : UDataAsset {
 // InputAction
-	public sbyte ActionDescription;
+	public string ActionDescription;
 	public bool bConsumeInput;
 	public bool bTriggerWhenPaused;
 	public bool bReserveAllMappings;

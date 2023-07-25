@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertSyncLockEvent {
 // ConcertSyncLockEvent
 	public EConcertSyncLockEventType LockEventType;
-	public TArray<sbyte> ResourceNames;
+	public TArray<string> ResourceNames;
 }

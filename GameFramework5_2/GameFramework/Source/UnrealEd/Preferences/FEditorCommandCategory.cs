@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A category to store a list of commands.</summary>
 public partial struct FEditorCommandCategory {
 // EditorCommandCategory
-	public sbyte Parent;
-	public sbyte Name;
+	public string Parent;
+	public string Name;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Event triggered when the list of actors in the current scene (or their names) changes.</summary>
 public partial struct FRCActorsChangedEvent {
 // RCActorsChangedEvent
-	public sbyte Type;
-	public TMap<sbyte,FRCActorsChangedData> Changes;
+	public string Type;
+	public TMap<string,FRCActorsChangedData> Changes;
 }

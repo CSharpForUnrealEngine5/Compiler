@@ -11,7 +11,7 @@ public partial struct FRigVMFunction_DebugArc {
 	public float MaximumDegrees;
 	public float Thickness;
 	public int Detail;
-	public sbyte Space;
+	public string Space;
 	public FTransform WorldOffset;
 	public bool bEnabled;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Solvers/IKRig_BodyMover.h")]
 public partial class UIKRig_BodyMoverEffector : UObject {
 // IKRig_BodyMoverEffector
-	public sbyte GoalName;
-	public sbyte BoneName;
+	public string GoalName;
+	public string BoneName;
 	public float InfluenceMultiplier;
 }

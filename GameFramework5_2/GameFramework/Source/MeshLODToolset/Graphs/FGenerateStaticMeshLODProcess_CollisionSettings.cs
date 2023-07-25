@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Graphs/GenerateStaticMeshLODProcess.h")]
 public partial struct FGenerateStaticMeshLODProcess_CollisionSettings {
 // GenerateStaticMeshLODProcess_CollisionSettings
-	public sbyte CollisionGroupLayerName;
+	public string CollisionGroupLayerName;
 	public EGenerateStaticMeshLODSimpleCollisionGeometryType CollisionType;
 	public int ConvexTriangleCount;
 	public bool bPrefilterVertices;

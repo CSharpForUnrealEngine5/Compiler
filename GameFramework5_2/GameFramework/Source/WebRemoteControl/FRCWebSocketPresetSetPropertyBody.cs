@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made via websocket to modify a property exposed in a preset.</summary>
 public partial struct FRCWebSocketPresetSetPropertyBody {
 // RCWebSocketPresetSetPropertyBody
-	public sbyte PresetName;
-	public sbyte PropertyLabel;
+	public string PresetName;
+	public string PropertyLabel;
 	public ERCModifyOperation Operation;
 	public ERCTransactionMode TransactionMode;
 	public int TransactionId;

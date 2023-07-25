@@ -6,5 +6,5 @@ public partial class UAnimGraphNode_BlendListByEnum : UAnimGraphNode_BlendListBa
 // AnimGraphNode_BlendListByEnum
 	public FAnimNode_BlendListByEnum Node;
 	public UEnum BoundEnum;
-	public TArray<sbyte> VisibleEnumEntries;
+	public TArray<string> VisibleEnumEntries;
 }

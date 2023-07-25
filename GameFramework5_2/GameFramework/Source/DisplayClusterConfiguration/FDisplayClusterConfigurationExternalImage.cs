@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("DisplayClusterConfigurationTypes.h")]
 public partial struct FDisplayClusterConfigurationExternalImage {
 // DisplayClusterConfigurationExternalImage
-	public sbyte ImagePath;
+	public string ImagePath;
 }

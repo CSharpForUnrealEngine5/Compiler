@@ -6,5 +6,5 @@ public partial struct FLandscapeSplineSegmentConnection {
 // LandscapeSplineSegmentConnection
 	public ULandscapeSplineControlPoint ControlPoint;
 	public float TangentLen;
-	public sbyte SocketName;
+	public string SocketName;
 }

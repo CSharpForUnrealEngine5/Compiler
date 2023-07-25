@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Creates an item array based on a name search.</summary>
 public partial struct FRigUnit_CollectionNameSearchArray {
 // RigUnit_CollectionNameSearchArray
-	public sbyte PartialName;
+	public string PartialName;
 	public ERigElementType TypeToSearch;
 	public TArray<FRigElementKey> Items;
 }

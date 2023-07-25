@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraCommon.h")]
 public partial struct FNiagaraScriptDataInterfaceCompileInfo {
 // NiagaraScriptDataInterfaceCompileInfo
-	public sbyte Name;
+	public string Name;
 	public int UserPtrIdx;
 	public FNiagaraTypeDefinition Type;
 	public TArray<FNiagaraFunctionSignature> RegisteredFunctions;
-	public sbyte RegisteredParameterMapRead;
-	public sbyte RegisteredParameterMapWrite;
+	public string RegisteredParameterMapRead;
+	public string RegisteredParameterMapWrite;
 	public bool bIsPlaceholder;
 }

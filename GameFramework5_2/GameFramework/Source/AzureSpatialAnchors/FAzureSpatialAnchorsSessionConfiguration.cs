@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("AzureSpatialAnchorsTypes.h")]
 public partial struct FAzureSpatialAnchorsSessionConfiguration {
 // AzureSpatialAnchorsSessionConfiguration
-	public sbyte AccessToken;
-	public sbyte AccountId;
-	public sbyte AccountKey;
-	public sbyte AccountDomain;
-	public sbyte AuthenticationToken;
+	public string AccessToken;
+	public string AccountId;
+	public string AccountKey;
+	public string AccountDomain;
+	public string AuthenticationToken;
 }

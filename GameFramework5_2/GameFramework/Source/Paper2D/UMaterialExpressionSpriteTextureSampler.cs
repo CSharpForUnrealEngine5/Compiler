@@ -7,5 +7,5 @@ public partial class UMaterialExpressionSpriteTextureSampler : UMaterialExpressi
 // MaterialExpressionSpriteTextureSampler
 	public bool bSampleAdditionalTextures;
 	public int AdditionalSlotIndex;
-	public sbyte SlotDisplayName;
+	public string SlotDisplayName;
 }

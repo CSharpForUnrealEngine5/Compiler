@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class ADatasmithSceneActor : AActor {
 // DatasmithSceneActor
 	public UDatasmithScene Scene;
-	public TMap<sbyte,TSoftObjectPtr<AActor>> RelatedActors;
+	public TMap<string,TSoftObjectPtr<AActor>> RelatedActors;
 }

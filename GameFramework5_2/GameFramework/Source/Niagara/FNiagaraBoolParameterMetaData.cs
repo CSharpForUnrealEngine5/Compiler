@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraBoolParameterMetaData {
 // NiagaraBoolParameterMetaData
 	public ENiagaraBoolDisplayMode DisplayMode;
-	public sbyte OverrideNameTrue;
-	public sbyte OverrideNameFalse;
+	public string OverrideNameTrue;
+	public string OverrideNameFalse;
 	public UTexture2D IconOverrideTrue;
 	public UTexture2D IconOverrideFalse;
 }

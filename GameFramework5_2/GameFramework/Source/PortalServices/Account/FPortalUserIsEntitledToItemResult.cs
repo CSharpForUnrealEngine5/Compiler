@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Account/IPortalUser.h")]
 public partial struct FPortalUserIsEntitledToItemResult {
 // PortalUserIsEntitledToItemResult
-	public sbyte ItemId;
+	public string ItemId;
 	public bool IsEntitled;
 	public EEntitlementCacheLevelRetrieved RetrievedFromCacheLevel;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetControlOffset is used to perform a change in the hierarchy by setting a single control's transform.</summary>
 public partial struct FRigUnit_SetControlOffset {
 // RigUnit_SetControlOffset
-	public sbyte Control;
+	public string Control;
 	public FTransform Offset;
 	public ERigVMTransformSpace Space;
 	public FCachedRigElement CachedControlIndex;

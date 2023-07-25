@@ -8,10 +8,10 @@ public partial class UWidgetBlueprint : UBaseWidgetBlueprint {
 	public TArray<FDelegateEditorBinding> Bindings;
 	public TArray<FWidgetAnimation_DEPRECATED> AnimationData_DEPRECATED;
 	public TArray<UWidgetAnimation> Animations;
-	public sbyte PaletteCategory;
+	public string PaletteCategory;
 	public EWidgetTickFrequency TickFrequency;
 	public EWidgetCompileTimeTickPrediction TickPrediction;
-	public sbyte TickPredictionReason;
+	public string TickPredictionReason;
 	public int PropertyBindings;
 	public EThumbnailPreviewSizeMode ThumbnailSizeMode;
 	public FVector2D ThumbnailCustomSize;

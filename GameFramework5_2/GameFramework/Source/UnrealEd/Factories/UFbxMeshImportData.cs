@@ -12,6 +12,6 @@ public partial class UFbxMeshImportData : UFbxAssetImportData {
 	public byte NormalGenerationMethod;
 	public bool bComputeWeightedNormals;
 	public bool bReorderMaterialToFbxOrder;
-	public TArray<sbyte> ImportMaterialOriginalNameData;
+	public TArray<string> ImportMaterialOriginalNameData;
 	public TArray<FImportMeshLodSectionsData> ImportMeshLodData;
 }

@@ -5,28 +5,28 @@ using CSharpToCpp.Utilities;
 ///<summary>* UDatasmithPropertyCaptureElement</summary>
 public partial class UDatasmithPropertyCaptureElement : UDatasmithBasePropertyCaptureElement {
 // DatasmithPropertyCaptureElement
-	public bool GetValueBool(bool ReturnValue) { return default; }
+	public bool GetValueBool() { return default; }
 	public void SetValueBool(bool InValue) {}
-	public int GetValueInt(int ReturnValue) { return default; }
+	public int GetValueInt() { return default; }
 	public void SetValueInt(int InValue) {}
-	public float GetValueFloat(float ReturnValue) { return default; }
+	public float GetValueFloat() { return default; }
 	public void SetValueFloat(float InValue) {}
-	public sbyte GetValueString(sbyte ReturnValue) { return default; }
-	public void SetValueString(sbyte InValue) {}
-	public FRotator GetValueRotator(FRotator ReturnValue) { return default; }
+	public string GetValueString() { return default; }
+	public void SetValueString(string InValue) {}
+	public FRotator GetValueRotator() { return default; }
 	public void SetValueRotator(FRotator InValue) {}
-	public FColor GetValueColor(FColor ReturnValue) { return default; }
+	public FColor GetValueColor() { return default; }
 	public void SetValueColor(FColor InValue) {}
-	public FLinearColor GetValueLinearColor(FLinearColor ReturnValue) { return default; }
+	public FLinearColor GetValueLinearColor() { return default; }
 	public void SetValueLinearColor(FLinearColor InValue) {}
-	public FVector GetValueVector(FVector ReturnValue) { return default; }
+	public FVector GetValueVector() { return default; }
 	public void SetValueVector(FVector InValue) {}
-	public FQuat GetValueQuat(FQuat ReturnValue) { return default; }
+	public FQuat GetValueQuat() { return default; }
 	public void SetValueQuat(FQuat InValue) {}
-	public FVector4 GetValueVector4(FVector4 ReturnValue) { return default; }
+	public FVector4 GetValueVector4() { return default; }
 	public void SetValueVector4(FVector4 InValue) {}
-	public FVector2D GetValueVector2D(FVector2D ReturnValue) { return default; }
+	public FVector2D GetValueVector2D() { return default; }
 	public void SetValueVector2D(FVector2D InValue) {}
-	public FIntPoint GetValueIntPoint(FIntPoint ReturnValue) { return default; }
+	public FIntPoint GetValueIntPoint() { return default; }
 	public void SetValueIntPoint(FIntPoint InValue) {}
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Multilayer Projector Helper. Eases the management of Layers and Virtual Layers.</summary>
 public partial struct FMultilayerProjector {
 // MultilayerProjector
-	public sbyte ParamName;
-	public TMap<sbyte,int> VirtualLayersMapping;
-	public TMap<sbyte,int> VirtualLayersOrder;
-	public TMap<sbyte,FMultilayerProjectorLayer> DisableVirtualLayers;
+	public string ParamName;
+	public TMap<string,int> VirtualLayersMapping;
+	public TMap<string,int> VirtualLayersOrder;
+	public TMap<string,FMultilayerProjectorLayer> DisableVirtualLayers;
 }

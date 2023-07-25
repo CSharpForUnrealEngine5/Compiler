@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UWebAPIOperationError : UObject {
 // WebAPIOperationError
 	public uint Code;
-	public sbyte Description;
+	public string Description;
 }

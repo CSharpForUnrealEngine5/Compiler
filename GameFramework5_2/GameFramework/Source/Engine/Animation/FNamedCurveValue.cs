@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Name/value pair for retrieving curve values</summary>
 public partial struct FNamedCurveValue {
 // NamedCurveValue
-	public sbyte Name;
+	public string Name;
 	public float Value;
 }

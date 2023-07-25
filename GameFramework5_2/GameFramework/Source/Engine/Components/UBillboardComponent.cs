@@ -13,7 +13,7 @@ public partial class UBillboardComponent : UPrimitiveComponent {
 	public float V;
 	public float VL;
 	public float OpacityMaskRefVal;
-	public sbyte SpriteCategoryName_DEPRECATED;
+	public string SpriteCategoryName_DEPRECATED;
 	public FSpriteCategoryInfo SpriteInfo;
 	public bool bUseInEditorScaling;
 	public bool bShowLockedLocation;

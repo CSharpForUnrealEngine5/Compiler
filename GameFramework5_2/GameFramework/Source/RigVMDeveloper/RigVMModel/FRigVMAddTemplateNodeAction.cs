@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action adding a template node to the graph.</summary>
 public partial struct FRigVMAddTemplateNodeAction {
 // RigVMAddTemplateNodeAction
-	public sbyte TemplateNotation;
+	public string TemplateNotation;
 	public FVector2D Position;
-	public sbyte NodePath;
+	public string NodePath;
 }

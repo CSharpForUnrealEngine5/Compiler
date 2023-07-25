@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>Metadata added to a prim to indicate it was exported from a particular Unreal asset</summary>
 public partial struct FUsdUnrealAssetInfo {
 // UsdUnrealAssetInfo
-	public sbyte Name;
-	public sbyte Identifier;
-	public sbyte Version;
-	public sbyte UnrealContentPath;
-	public sbyte UnrealAssetType;
-	public sbyte UnrealExportTime;
-	public sbyte UnrealEngineVersion;
+	public string Name;
+	public string Identifier;
+	public string Version;
+	public string UnrealContentPath;
+	public string UnrealAssetType;
+	public string UnrealExportTime;
+	public string UnrealEngineVersion;
 }

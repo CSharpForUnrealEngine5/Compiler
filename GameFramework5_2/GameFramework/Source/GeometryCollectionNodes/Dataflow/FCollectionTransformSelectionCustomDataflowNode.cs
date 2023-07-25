@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FCollectionTransformSelectionCustomDataflowNode {
 // CollectionTransformSelectionCustomDataflowNode
 	public FManagedArrayCollection Collection;
-	public sbyte BoneIndicies;
+	public string BoneIndicies;
 	public FDataflowTransformSelection TransformSelection;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/EditorSkeletonNotifyObj.h")]
 public partial class UEditorSkeletonNotifyObj : UObject {
 // EditorSkeletonNotifyObj
-	public sbyte Name;
+	public string Name;
 }

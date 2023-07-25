@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("OptimusDataType.h")]
 public partial struct FOptimusDataType {
 // OptimusDataType
-	public sbyte TypeName;
-	public sbyte DisplayName;
+	public string TypeName;
+	public string DisplayName;
 	public FShaderValueTypeHandle ShaderValueType;
 	public int ShaderValueSize;
-	public sbyte TypeCategory;
+	public string TypeCategory;
 	public TWeakObjectPtr<UObject> TypeObject;
 	public bool bHasCustomPinColor;
 	public FLinearColor CustomPinColor;

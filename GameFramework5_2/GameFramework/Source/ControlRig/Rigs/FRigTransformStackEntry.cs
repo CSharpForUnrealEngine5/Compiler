@@ -10,5 +10,5 @@ public partial struct FRigTransformStackEntry {
 	public FTransform OldTransform;
 	public FTransform NewTransform;
 	public bool bAffectChildren;
-	public TArray<sbyte> Callstack;
+	public TArray<string> Callstack;
 }

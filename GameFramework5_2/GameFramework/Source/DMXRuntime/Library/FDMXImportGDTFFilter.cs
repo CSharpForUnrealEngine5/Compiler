@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Library/DMXImportGDTF.h")]
 public partial struct FDMXImportGDTFFilter {
 // DMXImportGDTFFilter
-	public sbyte Name;
+	public string Name;
 	public FDMXColorCIE Color;
 }

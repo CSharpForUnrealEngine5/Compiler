@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("BoneContainer.h")]
 public partial struct FBoneReference {
 // BoneReference
-	public sbyte BoneName;
+	public string BoneName;
 }

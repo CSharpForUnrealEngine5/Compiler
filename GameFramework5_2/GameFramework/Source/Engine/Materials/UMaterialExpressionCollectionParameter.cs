@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UMaterialExpressionCollectionParameter : UMaterialExpression {
 // MaterialExpressionCollectionParameter
 	public UMaterialParameterCollection Collection;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FGuid ParameterId;
 }

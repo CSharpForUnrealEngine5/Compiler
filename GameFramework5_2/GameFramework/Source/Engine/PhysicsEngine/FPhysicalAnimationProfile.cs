@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("PhysicsEngine/PhysicsAsset.h")]
 public partial struct FPhysicalAnimationProfile {
 // PhysicalAnimationProfile
-	public sbyte ProfileName;
+	public string ProfileName;
 	public FPhysicalAnimationData PhysicalAnimationData;
 }

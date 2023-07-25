@@ -29,8 +29,8 @@ public partial class USkyAtmosphereComponent : USceneComponent {
 	public float TransmittanceMinLightElevationAngle;
 	public float AerialPerspectiveStartDepth;
 	public void OverrideAtmosphereLightDirection(int AtmosphereLightIndex,FVector LightDirection) {}
-	public bool IsAtmosphereLightDirectionOverriden(int AtmosphereLightIndex,bool ReturnValue) { return default; }
-	public FVector GetOverridenAtmosphereLightDirection(int AtmosphereLightIndex,FVector ReturnValue) { return default; }
+	public bool IsAtmosphereLightDirectionOverriden(int AtmosphereLightIndex) { return default; }
+	public FVector GetOverridenAtmosphereLightDirection(int AtmosphereLightIndex) { return default; }
 	public void ResetAtmosphereLightDirectionOverride(int AtmosphereLightIndex) {}
 	public void SetAtmosphereHeight(float NewValue) {}
 	public void SetMultiScatteringFactor(float NewValue) {}
@@ -48,6 +48,6 @@ public partial class USkyAtmosphereComponent : USceneComponent {
 	public void SetSkyLuminanceFactor(FLinearColor NewValue) {}
 	public void SetAerialPespectiveViewDistanceScale(float NewValue) {}
 	public void SetHeightFogContribution(float NewValue) {}
-	public FLinearColor GetAtmosphereTransmitanceOnGroundAtPlanetTop(UObject DirectionalLight,FLinearColor ReturnValue) { return default; }
+	public FLinearColor GetAtmosphereTransmitanceOnGroundAtPlanetTop(UObject DirectionalLight) { return default; }
 	public FGuid bStaticLightingBuiltGUID;
 }

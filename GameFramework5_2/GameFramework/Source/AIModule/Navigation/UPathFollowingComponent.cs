@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial class UPathFollowingComponent : UActorComponent {
 // PathFollowingComponent
 	public void OnActorBump(UObject SelfActor,UObject OtherActor,FVector NormalImpulse,FHitResult Hit) {}
-	public EPathFollowingAction GetPathActionType(EPathFollowingAction ReturnValue) { return default; }
-	public FVector GetPathDestination(FVector ReturnValue) { return default; }
+	public EPathFollowingAction GetPathActionType() { return default; }
+	public FVector GetPathDestination() { return default; }
 	public UNavMovementComponent MovementComp;
 	public ANavigationData MyNavData;
 	public void OnNavDataRegistered(UObject NavData) {}

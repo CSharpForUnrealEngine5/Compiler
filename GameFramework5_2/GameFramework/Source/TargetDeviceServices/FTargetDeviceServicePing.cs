@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message for discovering target device services on the network.</summary>
 public partial struct FTargetDeviceServicePing {
 // TargetDeviceServicePing
-	public sbyte HostUser;
+	public string HostUser;
 }

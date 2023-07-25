@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithRuntimeBlueprintLibrary.h")]
 public partial class UDatasmithRuntimeLibrary : UBlueprintFunctionLibrary {
 // DatasmithRuntimeLibrary
-	public bool LoadFile(UObject DatasmithRuntimeActor,sbyte FilePath,bool ReturnValue) { return default; }
+	public bool LoadFile(UObject DatasmithRuntimeActor,string FilePath) { return default; }
 	public void ResetActor(UObject DatasmithRuntimeActor) {}
-	public UObject GetDirectLinkProxy(UObject ReturnValue) { return default; }
-	public bool LoadFileFromExplorer(UObject DatasmithRuntimeActor,sbyte DefaultPath,bool ReturnValue) { return default; }
+	public UObject GetDirectLinkProxy() { return default; }
+	public bool LoadFileFromExplorer(UObject DatasmithRuntimeActor,string DefaultPath) { return default; }
 }

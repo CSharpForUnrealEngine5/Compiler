@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Sequence player node that can be used with constant folding</summary>
 public partial struct FAnimNode_SequencePlayer {
 // AnimNode_SequencePlayer
-	public sbyte GroupName;
+	public string GroupName;
 	public byte GroupRole;
 	public EAnimSyncMethod Method;
 	public bool bIgnoreForRelevancyTest;

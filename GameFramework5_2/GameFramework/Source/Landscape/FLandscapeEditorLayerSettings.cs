@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FLandscapeEditorLayerSettings {
 // LandscapeEditorLayerSettings
 	public ULandscapeLayerInfoObject LayerInfoObj;
-	public sbyte ReimportLayerFilePath;
+	public string ReimportLayerFilePath;
 }

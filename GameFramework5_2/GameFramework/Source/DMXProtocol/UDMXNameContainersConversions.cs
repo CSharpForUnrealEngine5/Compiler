@@ -4,8 +4,8 @@ using CSharpToCpp.Utilities;
 [CppInclude("DMXProtocolTypes.h")]
 public partial class UDMXNameContainersConversions : UBlueprintFunctionLibrary {
 // DMXNameContainersConversions
-	public sbyte Conv_DMXProtocolNameToString(FDMXProtocolName InProtocolName,sbyte ReturnValue) { return default; }
-	public sbyte Conv_DMXProtocolNameToName(FDMXProtocolName InProtocolName,sbyte ReturnValue) { return default; }
-	public sbyte Conv_DMXFixtureCategoryToString(FDMXFixtureCategory InFixtureCategory,sbyte ReturnValue) { return default; }
-	public sbyte Conv_DMXFixtureCategoryToName(FDMXFixtureCategory InFixtureCategory,sbyte ReturnValue) { return default; }
+	public string Conv_DMXProtocolNameToString(FDMXProtocolName InProtocolName) { return default; }
+	public string Conv_DMXProtocolNameToName(FDMXProtocolName InProtocolName) { return default; }
+	public string Conv_DMXFixtureCategoryToString(FDMXFixtureCategory InFixtureCategory) { return default; }
+	public string Conv_DMXFixtureCategoryToName(FDMXFixtureCategory InFixtureCategory) { return default; }
 }

@@ -5,17 +5,17 @@ using CSharpToCpp.Utilities;
 ///<summary>Offer entry for display from online store</summary>
 public partial struct FOnlineProxyStoreOffer {
 // OnlineProxyStoreOffer
-	public sbyte OfferId;
-	public sbyte Title;
-	public sbyte Description;
-	public sbyte LongDescription;
-	public sbyte RegularPriceText;
+	public string OfferId;
+	public string Title;
+	public string Description;
+	public string LongDescription;
+	public string RegularPriceText;
 	public int RegularPrice;
-	public sbyte PriceText;
+	public string PriceText;
 	public int NumericPrice;
-	public sbyte CurrencyCode;
+	public string CurrencyCode;
 	public FDateTime ReleaseDate;
 	public FDateTime ExpirationDate;
 	public EOnlineProxyStoreOfferDiscountType DiscountType;
-	public TMap<sbyte,sbyte> DynamicFields;
+	public TMap<string,string> DynamicFields;
 }

@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UDNAAsset : UAssetUserData {
 // DNAAsset
 	public UAssetImportData AssetImportData;
-	public sbyte DnaFileName;
+	public string DnaFileName;
 }

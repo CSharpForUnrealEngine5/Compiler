@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("TabSpawner.h")]
 public partial class UTabSpawner : UUTBBaseCommand {
 // TabSpawner
-	public sbyte TabName;
+	public string TabName;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A screen reader announcement represents a localized message that a user wants to speak to an end user.</summary>
 public partial struct FScreenReaderAnnouncement {
 // ScreenReaderAnnouncement
-	public sbyte AnnouncementString;
+	public string AnnouncementString;
 	public FScreenReaderAnnouncementInfo AnnouncementInfo;
 }

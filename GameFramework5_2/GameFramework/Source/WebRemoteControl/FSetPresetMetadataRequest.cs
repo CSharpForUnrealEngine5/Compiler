@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request to set a metadata field.</summary>
 public partial struct FSetPresetMetadataRequest {
 // SetPresetMetadataRequest
-	public sbyte Value;
+	public string Value;
 }

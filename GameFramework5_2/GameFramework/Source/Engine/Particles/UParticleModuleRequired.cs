@@ -49,5 +49,5 @@ public partial class UParticleModuleRequired : UParticleModule {
 	public int MaxDrawCount;
 	public float EmitterDurationLow;
 	public FVector NormalsCylinderDirection;
-	public TArray<sbyte> NamedMaterialOverrides;
+	public TArray<string> NamedMaterialOverrides;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FDeletedSessionInfo {
 // DeletedSessionInfo
 	public FGuid SessionId;
-	public sbyte SessionName;
+	public string SessionName;
 }

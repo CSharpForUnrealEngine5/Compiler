@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Remove FBranchingPoint when VER_UE4_MONTAGE_BRANCHING_POINT_REMOVAL is removed.</summary>
 public partial struct FBranchingPoint {
 // BranchingPoint
-	public sbyte EventName;
+	public string EventName;
 	public float DisplayTime_DEPRECATED;
 	public float TriggerTimeOffset;
 }

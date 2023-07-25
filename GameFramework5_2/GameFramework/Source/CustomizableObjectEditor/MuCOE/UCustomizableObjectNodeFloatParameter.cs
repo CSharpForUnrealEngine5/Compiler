@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UCustomizableObjectNodeFloatParameter : UCustomizableObjectNode {
 // CustomizableObjectNodeFloatParameter
 	public float DefaultValue;
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMutableParamUIMetadata ParamUIMetadata;
 	public TArray<FEdGraphPinReference> DescriptionImagePinsReferences;
 	public TArray<FCustomizableObjectNodeFloatDescription> DescriptionImage;

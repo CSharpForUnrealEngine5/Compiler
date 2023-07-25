@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("CodeEditorCustomization.h")]
 public partial struct FCodeEditorTextCustomization {
 // CodeEditorTextCustomization
-	public sbyte Font;
+	public string Font;
 	public FLinearColor Color;
 }

@@ -7,7 +7,7 @@ public partial class UBTService_BlueprintBase : UBTService {
 // BTService_BlueprintBase
 	public AAIController AIOwner;
 	public AActor ActorOwner;
-	public sbyte CustomDescription;
+	public string CustomDescription;
 	public bool bShowPropertyDetails;
 	public bool bShowEventDetails;
 	public void ReceiveTick(UObject OwnerActor,float DeltaSeconds) {}
@@ -18,5 +18,5 @@ public partial class UBTService_BlueprintBase : UBTService {
 	public void ReceiveSearchStartAI(UObject OwnerController,UObject ControlledPawn) {}
 	public void ReceiveActivationAI(UObject OwnerController,UObject ControlledPawn) {}
 	public void ReceiveDeactivationAI(UObject OwnerController,UObject ControlledPawn) {}
-	public bool IsServiceActive(bool ReturnValue) { return default; }
+	public bool IsServiceActive() { return default; }
 }

@@ -6,7 +6,7 @@ public partial struct FSwarmTaskStateMessage {
 // SwarmTaskStateMessage
 	public FGuid Guid;
 	public byte State;
-	public sbyte Message;
+	public string Message;
 	public int ExitCode;
 	public double RunningTime;
 }

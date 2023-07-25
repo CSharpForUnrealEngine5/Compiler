@@ -6,10 +6,10 @@ using CSharpToCpp.Utilities;
 public partial class UAnimNotifyState_TimedParticleEffect : UAnimNotifyState {
 // AnimNotifyState_TimedParticleEffect
 	public UParticleSystem PSTemplate;
-	public sbyte SocketName;
+	public string SocketName;
 	public FVector LocationOffset;
 	public FRotator RotationOffset;
 	public bool bDestroyAtEnd;
 	public TArray<UParticleSystem> PreviousPSTemplates;
-	public TArray<sbyte> PreviousSocketNames;
+	public TArray<string> PreviousSocketNames;
 }

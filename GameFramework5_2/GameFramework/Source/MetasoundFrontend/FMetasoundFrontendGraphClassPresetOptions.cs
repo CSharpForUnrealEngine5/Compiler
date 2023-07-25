@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FMetasoundFrontendGraphClassPresetOptions {
 // MetasoundFrontendGraphClassPresetOptions
 	public bool bIsPreset;
-	public TSet<sbyte> InputsInheritingDefault;
+	public TSet<string> InputsInheritingDefault;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MovieRenderPipelineDataTypes.h")]
 public partial struct FMoviePipelineFormatArgs {
 // MoviePipelineFormatArgs
-	public TMap<sbyte,sbyte> FilenameArguments;
-	public TMap<sbyte,sbyte> FileMetadata;
+	public TMap<string,string> FilenameArguments;
+	public TMap<string,string> FileMetadata;
 	public UMoviePipelineExecutorJob InJob;
 }

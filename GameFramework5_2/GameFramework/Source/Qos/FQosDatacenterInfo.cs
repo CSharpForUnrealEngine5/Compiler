@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Metadata about datacenters that can be queried</summary>
 public partial struct FQosDatacenterInfo {
 // QosDatacenterInfo
-	public sbyte Id;
-	public sbyte RegionId;
+	public string Id;
+	public string RegionId;
 	public bool bEnabled;
 	public TArray<FQosPingServerInfo> Servers;
 }

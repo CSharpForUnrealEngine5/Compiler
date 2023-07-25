@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_MakeCurveExpressionMap.h")]
 public partial struct FCurveExpressionList {
 // CurveExpressionList
-	public sbyte AssignmentExpressions;
+	public string AssignmentExpressions;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds custom version information</summary>
 public partial struct FSnapshotCustomVersionInfo {
 // SnapshotCustomVersionInfo
-	public sbyte FriendlyName;
+	public string FriendlyName;
 	public FGuid Key;
 	public int Version;
 }

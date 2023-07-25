@@ -8,5 +8,5 @@ public partial struct FStateTreeCompilerLogMessage {
 	public int Severity;
 	public UStateTreeState State;
 	public FStateTreeBindableStructDesc Item;
-	public sbyte Message;
+	public string Message;
 }

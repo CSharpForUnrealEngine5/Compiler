@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FGatherTextExcludePath {
 // GatherTextExcludePath
 	public ELocalizationGatherPathRoot PathRoot;
-	public sbyte Pattern;
+	public string Pattern;
 }

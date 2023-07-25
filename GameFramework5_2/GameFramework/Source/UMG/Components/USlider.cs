@@ -24,8 +24,8 @@ public partial class USlider : UWidget {
 	public FOnControllerCaptureBeginEvent OnControllerCaptureBegin;
 	public FOnControllerCaptureEndEvent OnControllerCaptureEnd;
 	public FOnFloatValueChangedEvent OnValueChanged;
-	public float GetValue(float ReturnValue) { return default; }
-	public float GetNormalizedValue(float ReturnValue) { return default; }
+	public float GetValue() { return default; }
+	public float GetNormalizedValue() { return default; }
 	public void SetValue(float InValue) {}
 	public void SetMinValue(float InValue) {}
 	public void SetMaxValue(float InValue) {}

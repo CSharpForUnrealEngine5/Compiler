@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Properties/MeshAnalysisProperties.h")]
 public partial class UMeshAnalysisProperties : UInteractiveToolPropertySet {
 // MeshAnalysisProperties
-	public sbyte SurfaceArea;
-	public sbyte Volume;
+	public string SurfaceArea;
+	public string Volume;
 }

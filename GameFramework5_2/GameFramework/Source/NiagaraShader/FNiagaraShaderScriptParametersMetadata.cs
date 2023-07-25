@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FNiagaraShaderScriptParametersMetadata {
 // NiagaraShaderScriptParametersMetadata
 	public TArray<FNiagaraDataInterfaceGPUParamInfo> DataInterfaceParamInfo;
-	public TArray<sbyte> LooseMetadataNames;
+	public TArray<string> LooseMetadataNames;
 	public bool bExternalConstantsInterpolated;
 	public TArray<FNiagaraShaderScriptExternalConstant> ExternalConstants;
 }

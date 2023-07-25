@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>/</summary>
 public partial struct FDisplayClusterClusterEventJson {
 // DisplayClusterClusterEventJson
-	public sbyte Name;
-	public sbyte Type;
-	public sbyte Category;
-	public TMap<sbyte,sbyte> Parameters;
+	public string Name;
+	public string Type;
+	public string Category;
+	public TMap<string,string> Parameters;
 }

@@ -8,9 +8,9 @@ public partial struct FComputeFiberFieldNode {
 	public FManagedArrayCollection Collection;
 	public TArray<int> OriginIndices;
 	public TArray<int> InsertionIndices;
-	public sbyte OriginInsertionGroupName;
-	public sbyte OriginVertexFieldName;
-	public sbyte InsertionVertexFieldName;
+	public string OriginInsertionGroupName;
+	public string OriginVertexFieldName;
+	public string InsertionVertexFieldName;
 	public int MaxIterations;
 	public float Tolerance;
 }

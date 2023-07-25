@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MSAssetImportData.h")]
 public partial struct FMaterialParams {
 // MaterialParams
-	public sbyte paramName;
-	public sbyte usedTextureID;
+	public string paramName;
+	public string usedTextureID;
 }

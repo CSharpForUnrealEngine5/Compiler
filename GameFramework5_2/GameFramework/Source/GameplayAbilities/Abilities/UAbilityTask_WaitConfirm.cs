@@ -6,5 +6,5 @@ public partial class UAbilityTask_WaitConfirm : UAbilityTask {
 // AbilityTask_WaitConfirm
 	public FGenericGameplayTaskDelegate OnConfirm;
 	public void OnConfirmCallback(UObject InAbility) {}
-	public UObject WaitConfirm(UObject OwningAbility,UObject ReturnValue) { return default; }
+	public UObject WaitConfirm(UObject OwningAbility) { return default; }
 }

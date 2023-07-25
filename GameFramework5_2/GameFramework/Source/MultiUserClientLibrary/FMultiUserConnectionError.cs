@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FMultiUserConnectionError {
 // MultiUserConnectionError
 	public EMultiUserConnectionError ErrorCode;
-	public sbyte ErrorMessage;
+	public string ErrorMessage;
 }

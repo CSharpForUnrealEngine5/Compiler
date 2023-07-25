@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkTypes.h")]
 public partial struct FLiveLinkMetaData {
 // LiveLinkMetaData
-	public TMap<sbyte,sbyte> StringMetaData;
+	public TMap<string,string> StringMetaData;
 	public FQualifiedFrameTime SceneTime;
 }

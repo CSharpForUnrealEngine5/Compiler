@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FXRMotionControllerData {
 // XRMotionControllerData
 	public bool bValid;
-	public sbyte DeviceName;
+	public string DeviceName;
 	public FGuid ApplicationInstanceID;
 	public EXRVisualType DeviceVisualType;
 	public EControllerHand HandIndex;

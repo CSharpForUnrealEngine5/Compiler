@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>FGameplayCueNotify_SoundParameterInterfaceInfo</summary>
 public partial struct FGameplayCueNotify_SoundParameterInterfaceInfo {
 // GameplayCueNotify_SoundParameterInterfaceInfo
-	public sbyte StopTriggerName;
+	public string StopTriggerName;
 }

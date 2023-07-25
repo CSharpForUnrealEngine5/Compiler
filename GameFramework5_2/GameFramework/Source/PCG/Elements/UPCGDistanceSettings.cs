@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Calculates the distance between two points (inherently a n*n operation)</summary>
 public partial class UPCGDistanceSettings : UPCGSettings {
 // PCGDistanceSettings
-	public sbyte AttributeName;
+	public string AttributeName;
 	public bool bOutputDistanceVector;
 	public bool bSetDensity;
 	public double MaximumDistance;

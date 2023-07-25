@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Cooker/ExternalCookOnTheFlyServer.h")]
 public partial struct FZenCookOnTheFlyRegisterServiceMessage {
 // ZenCookOnTheFlyRegisterServiceMessage
-	public sbyte ServiceId;
+	public string ServiceId;
 	public int Port;
 }

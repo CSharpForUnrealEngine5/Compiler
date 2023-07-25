@@ -7,5 +7,5 @@ public partial class UInterchangePythonPipelineAsset : UObject {
 // InterchangePythonPipelineAsset
 	public TSoftObjectPtr<UClass> PythonClass;
 	public UInterchangePythonPipelineBase GeneratedPipeline;
-	public sbyte JsonDefaultProperties;
+	public string JsonDefaultProperties;
 }

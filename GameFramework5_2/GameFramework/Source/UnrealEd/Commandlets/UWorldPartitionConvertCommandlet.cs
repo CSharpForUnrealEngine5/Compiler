@@ -6,17 +6,17 @@ public partial class UWorldPartitionConvertCommandlet : UCommandlet {
 // WorldPartitionConvertCommandlet
 	public UClass EditorHashClass;
 	public UClass RuntimeHashClass;
-	public TArray<sbyte> ExcludedLevels;
+	public TArray<string> ExcludedLevels;
 	public bool bConvertActorsNotReferencedByLevelScript;
 	public FVector WorldOrigin;
 	public FVector WorldExtent;
-	public sbyte HLODLayerAssetsPath;
-	public sbyte DefaultHLODLayerName;
-	public sbyte DefaultHLODLayerAsset;
-	public sbyte FoliageTypePath;
+	public string HLODLayerAssetsPath;
+	public string DefaultHLODLayerName;
+	public string DefaultHLODLayerAsset;
+	public string FoliageTypePath;
 	public TArray<FHLODLayerActorMapping> HLODLayersForActorClasses;
-	public TMap<sbyte,UHLODLayer> HLODLayers;
+	public TMap<string,UHLODLayer> HLODLayers;
 	public uint LandscapeGridSize;
-	public sbyte DataLayerAssetFolder;
+	public string DataLayerAssetFolder;
 	public UDataLayerFactory DataLayerFactory;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for FBX parser warnings</summary>
 public partial class UInterchangeResultMeshWarning : UInterchangeResultWarning {
 // InterchangeResultMeshWarning
-	public sbyte MeshName;
+	public string MeshName;
 }

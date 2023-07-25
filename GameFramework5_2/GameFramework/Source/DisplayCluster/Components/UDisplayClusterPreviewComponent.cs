@@ -9,8 +9,8 @@ public partial class UDisplayClusterPreviewComponent : UActorComponent {
 	public UTextureRenderTarget2D RenderTargetPostProcess;
 	public FDisplayClusterConfigurationProjection WarpMeshSavedProjectionPolicy;
 	public ADisplayClusterRootActor RootActor;
-	public sbyte ViewportId;
-	public sbyte ClusterNodeId;
+	public string ViewportId;
+	public string ClusterNodeId;
 	public UDisplayClusterConfigurationViewport ViewportConfig;
 	public UMeshComponent PreviewMesh;
 	public bool bIsRootActorPreviewMesh;

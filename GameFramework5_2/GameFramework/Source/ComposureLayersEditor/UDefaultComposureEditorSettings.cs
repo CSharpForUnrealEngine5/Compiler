@@ -6,5 +6,5 @@ public partial class UDefaultComposureEditorSettings : UObject {
 // DefaultComposureEditorSettings
 	public TArray<FSoftObjectPath> FeaturedCompShotClasses;
 	public TArray<FSoftObjectPath> FeaturedElementClasses;
-	public TMap<sbyte,sbyte> DefaultElementNames;
+	public TMap<string,string> DefaultElementNames;
 }

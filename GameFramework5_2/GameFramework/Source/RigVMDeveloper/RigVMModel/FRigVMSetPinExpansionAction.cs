@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a pin's expansion state in the graph.</summary>
 public partial struct FRigVMSetPinExpansionAction {
 // RigVMSetPinExpansionAction
-	public sbyte PinPath;
+	public string PinPath;
 	public bool OldIsExpanded;
 	public bool NewIsExpanded;
 }

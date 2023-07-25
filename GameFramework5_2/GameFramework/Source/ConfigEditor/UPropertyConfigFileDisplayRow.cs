@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConfigPropertyHelper.h")]
 public partial class UPropertyConfigFileDisplayRow : UObject {
 // PropertyConfigFileDisplayRow
-	public sbyte ConfigFileName;
+	public string ConfigFileName;
 	public object ExternalProperty;
 	public bool bIsFileWritable;
 }

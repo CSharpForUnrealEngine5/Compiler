@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Out structure for use with AudioMixerBlueprintLibrary::SwapAudioOutputDevice</summary>
 public partial struct FSwapAudioOutputResult {
 // SwapAudioOutputResult
-	public sbyte CurrentDeviceId;
-	public sbyte RequestedDeviceId;
+	public string CurrentDeviceId;
+	public string RequestedDeviceId;
 	public ESwapAudioOutputDeviceResultState Result;
 }

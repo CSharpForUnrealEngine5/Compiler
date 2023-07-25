@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ARTrackable.h")]
 public partial class UARTrackedQRCode : UARTrackedImage {
 // ARTrackedQRCode
-	public sbyte QRCode;
+	public string QRCode;
 	public int Version;
 }

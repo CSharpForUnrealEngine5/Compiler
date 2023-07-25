@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>This class is deprecated and only present for backward compatibility purposes.</summary>
 public partial struct FActorDataLayer {
 // ActorDataLayer
-	public sbyte Name;
+	public string Name;
 }

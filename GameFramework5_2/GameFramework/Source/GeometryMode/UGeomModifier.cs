@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("GeomModifier.h")]
 public partial class UGeomModifier : UObject {
 // GeomModifier
-	public sbyte Description;
-	public sbyte Tooltip;
-	public sbyte ToolbarIconName;
+	public string Description;
+	public string Tooltip;
+	public string ToolbarIconName;
 	public bool bPushButton;
 	public bool bInitialized;
 	public bool bPendingPivotOffsetUpdate;

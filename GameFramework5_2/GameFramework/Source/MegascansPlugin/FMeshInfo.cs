@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("MSAssetImportData.h")]
 public partial struct FMeshInfo {
 // MeshInfo
-	public sbyte meshID;
-	public sbyte name;
-	public sbyte path;
+	public string meshID;
+	public string name;
+	public string path;
 	public short numberOfLods;
 	public TArray<FMaterialUsage> materialUsage;
 }

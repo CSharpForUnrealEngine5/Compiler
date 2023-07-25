@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UDEPRECATED_ObjectChooser_LookupProxy : UObject {
 // ObjectChooser_LookupProxy
 	public object /*ProxyTable*/ ProxyTable;
-	public sbyte Key;
+	public string Key;
 }

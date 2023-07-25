@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>A container that controls visibility based on Input type and Platform</summary>
 public partial class UDEPRECATED_UCommonVisibilityWidgetBase : UCommonBorder {
 // UCommonVisibilityWidgetBase
-	public TMap<sbyte,bool> VisibilityControls;
+	public TMap<string,bool> VisibilityControls;
 	public bool bShowForGamepad;
 	public bool bShowForMouseAndKeyboard;
 	public bool bShowForTouch;
 	public ESlateVisibility VisibleType;
 	public ESlateVisibility HiddenType;
-	public TArray<sbyte> GetRegisteredPlatforms(TArray<sbyte> ReturnValue) { return default; }
+	public TArray<string> GetRegisteredPlatforms() { return default; }
 }

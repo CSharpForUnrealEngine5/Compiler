@@ -20,15 +20,15 @@ public partial class UCheatManager : UObject {
 	public void DestroyAll(UClass aClass) {}
 	public void DestroyAllPawnsExceptTarget() {}
 	public void DestroyPawns(UClass aClass) {}
-	public void Summon(sbyte ClassName) {}
+	public void Summon(string ClassName) {}
 	public void PlayersOnly() {}
 	public void ViewSelf() {}
-	public void ViewPlayer(sbyte S) {}
-	public void ViewActor(sbyte ActorName) {}
+	public void ViewPlayer(string S) {}
+	public void ViewActor(string ActorName) {}
 	public void ViewClass(UClass DesiredClass) {}
-	public void StreamLevelIn(sbyte PackageName) {}
-	public void OnlyLoadLevel(sbyte PackageName) {}
-	public void StreamLevelOut(sbyte PackageName) {}
+	public void StreamLevelIn(string PackageName) {}
+	public void OnlyLoadLevel(string PackageName) {}
+	public void StreamLevelOut(string PackageName) {}
 	public void ToggleDebugCamera() {}
 	public void ToggleAILogging() {}
 	public void ServerToggleAILogging() {}
@@ -45,14 +45,14 @@ public partial class UCheatManager : UObject {
 	public void DumpChatState() {}
 	public void DumpVoiceMutingState() {}
 	public void BugItGo(float X,float Y,float Z,float Pitch,float Yaw,float Roll) {}
-	public void BugIt(sbyte ScreenShotDescription=TEXT) {}
-	public void BugItStringCreator(FVector ViewLocation,FRotator ViewRotation,sbyte GoString,sbyte LocString) {}
+	public void BugIt(string ScreenShotDescription/*=TEXT("")*/) {}
+	public void BugItStringCreator(FVector ViewLocation,FRotator ViewRotation,string GoString,string LocString) {}
 	public void FlushLog() {}
 	public void LogLoc() {}
 	public void SetWorldOrigin() {}
 	public void SetMouseSensitivityToDefault() {}
 	public void InvertMouse() {}
-	public void CheatScript(sbyte ScriptName) {}
+	public void CheatScript(string ScriptName) {}
 	public void SpawnServerStatReplicator() {}
 	public void DestroyServerStatReplicator() {}
 	public void ToggleServerStatReplicatorClientOverwrite() {}
@@ -64,5 +64,5 @@ public partial class UCheatManager : UObject {
 	public TArray<UCheatManagerExtension> CheatManagerExtensions;
 	public void EnableDebugCamera() {}
 	public void DisableDebugCamera() {}
-	public UObject GetPlayerController(UObject ReturnValue) { return default; }
+	public UObject GetPlayerController() { return default; }
 }

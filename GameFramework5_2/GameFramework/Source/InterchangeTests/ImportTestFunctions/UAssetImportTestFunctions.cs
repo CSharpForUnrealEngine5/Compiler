@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ImportTestFunctions/AssetImportTestFunctions.h")]
 public partial class UAssetImportTestFunctions : UImportTestFunctionsBase {
 // AssetImportTestFunctions
-	public FInterchangeTestFunctionResult CheckImportedMetadataCount(UObject Object,int ExpectedNumberOfMetadataForThisObject,FInterchangeTestFunctionResult ReturnValue) { return default; }
-	public FInterchangeTestFunctionResult CheckMetadataExist(UObject Object,sbyte ExpectedMetadataKey,FInterchangeTestFunctionResult ReturnValue) { return default; }
-	public FInterchangeTestFunctionResult CheckMetadataValue(UObject Object,sbyte ExpectedMetadataKey,sbyte ExpectedMetadataValue,FInterchangeTestFunctionResult ReturnValue) { return default; }
+	public FInterchangeTestFunctionResult CheckImportedMetadataCount(UObject Object,int ExpectedNumberOfMetadataForThisObject) { return default; }
+	public FInterchangeTestFunctionResult CheckMetadataExist(UObject Object,string ExpectedMetadataKey) { return default; }
+	public FInterchangeTestFunctionResult CheckMetadataValue(UObject Object,string ExpectedMetadataKey,string ExpectedMetadataValue) { return default; }
 }

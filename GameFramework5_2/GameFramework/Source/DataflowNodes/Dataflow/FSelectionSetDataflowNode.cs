@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Dataflow/DataflowSelectionNodes.h")]
 public partial struct FSelectionSetDataflowNode {
 // SelectionSetDataflowNode
-	public sbyte Indices;
+	public string Indices;
 	public TArray<int> IndicesOut;
 }

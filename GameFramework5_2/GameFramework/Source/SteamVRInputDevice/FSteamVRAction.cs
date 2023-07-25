@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>SteamVR actions as defined by the developer</summary>
 public partial struct FSteamVRAction {
 // SteamVRAction
-	public sbyte Name;
-	public sbyte Path;
+	public string Name;
+	public string Path;
 }

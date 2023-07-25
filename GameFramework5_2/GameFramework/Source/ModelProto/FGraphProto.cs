@@ -7,10 +7,10 @@ public partial struct FGraphProto {
 // GraphProto
 	public bool bIsLoaded;
 	public TArray<FNodeProto> Node;
-	public sbyte Name;
+	public string Name;
 	public TArray<FTensorProto> Initializer;
 	public TArray<FSparseTensorProto> SparseInitializer;
-	public sbyte DocString;
+	public string DocString;
 	public TArray<FValueInfoProto> Input;
 	public TArray<FValueInfoProto> Output;
 	public TArray<FValueInfoProto> ValueInfo;

@@ -4,14 +4,14 @@ using CSharpToCpp.Utilities;
 [CppInclude("Audio/SoundParameterControllerInterface.h")]
 public partial class UAudioParameterConversionStatics : UBlueprintFunctionLibrary {
 // AudioParameterConversionStatics
-	public FAudioParameter BooleanToAudioParameter(sbyte Name,bool Bool,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter FloatToAudioParameter(sbyte Name,float Float,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter IntegerToAudioParameter(sbyte Name,int Integer,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter StringToAudioParameter(sbyte Name,sbyte String,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter ObjectToAudioParameter(sbyte Name,UObject Object,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter BooleanArrayToAudioParameter(sbyte Name,TArray<bool> Bools,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter FloatArrayToAudioParameter(sbyte Name,TArray<float> Floats,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter IntegerArrayToAudioParameter(sbyte Name,TArray<int> Integers,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter StringArrayToAudioParameter(sbyte Name,TArray<sbyte> Strings,FAudioParameter ReturnValue) { return default; }
-	public FAudioParameter ObjectArrayToAudioParameter(sbyte Name,TArray<UObject> Objects,FAudioParameter ReturnValue) { return default; }
+	public FAudioParameter BooleanToAudioParameter(string Name,bool Bool) { return default; }
+	public FAudioParameter FloatToAudioParameter(string Name,float Float) { return default; }
+	public FAudioParameter IntegerToAudioParameter(string Name,int Integer) { return default; }
+	public FAudioParameter StringToAudioParameter(string Name,string String) { return default; }
+	public FAudioParameter ObjectToAudioParameter(string Name,UObject Object) { return default; }
+	public FAudioParameter BooleanArrayToAudioParameter(string Name,TArray<bool> Bools) { return default; }
+	public FAudioParameter FloatArrayToAudioParameter(string Name,TArray<float> Floats) { return default; }
+	public FAudioParameter IntegerArrayToAudioParameter(string Name,TArray<int> Integers) { return default; }
+	public FAudioParameter StringArrayToAudioParameter(string Name,TArray<string> Strings) { return default; }
+	public FAudioParameter ObjectArrayToAudioParameter(string Name,TArray<UObject> Objects) { return default; }
 }

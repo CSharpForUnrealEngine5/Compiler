@@ -7,7 +7,7 @@ public partial class UInterchangeGenericAssetsPipeline : UInterchangePipelineBas
 // InterchangeGenericAssetsPipeline
 	public EReimportStrategyFlags ReimportStrategy;
 	public bool bUseSourceNameForAsset;
-	public sbyte AssetName;
+	public string AssetName;
 	public FVector ImportOffsetTranslation;
 	public FRotator ImportOffsetRotation;
 	public float ImportOffsetUniformScale;

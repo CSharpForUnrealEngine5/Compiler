@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>Level Sequence With Shots Settings.</summary>
 public partial class ULevelSequenceWithShotsSettings : UObject {
 // LevelSequenceWithShotsSettings
-	public sbyte Name;
-	public sbyte Suffix;
+	public string Name;
+	public string Suffix;
 	public FDirectoryPath BasePath;
 	public uint NumShots;
 	public TLazyObjectPtr<ULevelSequence> SequenceToDuplicate;
-	public TArray<sbyte> SubSequenceNames;
+	public TArray<string> SubSequenceNames;
 	public bool bInstanceSubSequences;
 }

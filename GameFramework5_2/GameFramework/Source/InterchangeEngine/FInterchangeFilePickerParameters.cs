@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FInterchangeFilePickerParameters {
 // InterchangeFilePickerParameters
 	public bool bAllowMultipleFiles;
-	public sbyte Title;
-	public sbyte DefaultPath;
+	public string Title;
+	public string DefaultPath;
 }

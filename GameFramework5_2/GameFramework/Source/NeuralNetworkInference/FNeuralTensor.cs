@@ -8,7 +8,7 @@ public partial struct FNeuralTensor {
 	public ENeuralDataType DataType;
 	public TArray<long> Sizes;
 	public long Volume;
-	public sbyte Name;
+	public string Name;
 	public ENeuralTensorType TensorType;
 	public TArray<byte> UnderlyingUInt8ArrayData;
 	public bool bEnableGPU;

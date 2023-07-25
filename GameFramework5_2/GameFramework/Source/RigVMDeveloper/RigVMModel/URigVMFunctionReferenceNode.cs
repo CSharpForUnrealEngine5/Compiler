@@ -7,5 +7,5 @@ public partial class URigVMFunctionReferenceNode : URigVMLibraryNode {
 // RigVMFunctionReferenceNode
 	public FRigVMGraphFunctionHeader ReferencedFunctionHeader;
 	public TSoftObjectPtr<URigVMLibraryNode> ReferencedNodePtr_DEPRECATED;
-	public TMap<sbyte,sbyte> VariableMap;
+	public TMap<string,string> VariableMap;
 }

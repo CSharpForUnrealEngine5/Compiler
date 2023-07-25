@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements a message that is sent when a service claimed a device.</summary>
 public partial struct FTargetDeviceClaimed {
 // TargetDeviceClaimed
-	public sbyte DeviceName;
-	public sbyte HostName;
-	public sbyte HostUser;
+	public string DeviceName;
+	public string HostName;
+	public string HostUser;
 }

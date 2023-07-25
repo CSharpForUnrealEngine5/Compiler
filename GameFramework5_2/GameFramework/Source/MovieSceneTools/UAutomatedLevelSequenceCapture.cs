@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UAutomatedLevelSequenceCapture : UMovieSceneCapture {
 // AutomatedLevelSequenceCapture
 	public FSoftObjectPath LevelSequenceAsset;
-	public sbyte ShotName;
+	public string ShotName;
 	public bool bUseCustomStartFrame;
 	public FFrameNumber CustomStartFrame;
 	public bool bUseCustomEndFrame;

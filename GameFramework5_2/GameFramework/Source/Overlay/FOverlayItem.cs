@@ -6,6 +6,6 @@ public partial struct FOverlayItem {
 // OverlayItem
 	public FTimespan StartTime;
 	public FTimespan EndTime;
-	public sbyte Text;
+	public string Text;
 	public FVector2D Position;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("NNECoreRuntimeFormat.h")]
 public partial struct FNNEFormatTensorDesc {
 // NNEFormatTensorDesc
-	public sbyte Name;
+	public string Name;
 	public TArray<int> Shape;
 	public ENNEFormatTensorType Type;
 	public ENNETensorDataType DataType;

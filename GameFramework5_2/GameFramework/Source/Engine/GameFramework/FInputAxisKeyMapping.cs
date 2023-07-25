@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Defines a mapping between an axis and key</summary>
 public partial struct FInputAxisKeyMapping {
 // InputAxisKeyMapping
-	public sbyte AxisName;
+	public string AxisName;
 	public float Scale;
 	public FKey Key;
 }

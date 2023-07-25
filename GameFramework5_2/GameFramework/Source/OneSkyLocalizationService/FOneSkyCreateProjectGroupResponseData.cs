@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FOneSkyCreateProjectGroupResponseData {
 // OneSkyCreateProjectGroupResponseData
 	public int id;
-	public sbyte name;
+	public string name;
 	public FOneSkyCreateProjectGroupResponseBaseLanguage base_language;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UForceFeedbackEffect : UObject {
 // ForceFeedbackEffect
 	public TArray<FForceFeedbackChannelDetails> ChannelDetails;
-	public TMap<sbyte,FForceFeedbackEffectOverridenChannelDetails> PerDeviceOverrides;
+	public TMap<string,FForceFeedbackEffectOverridenChannelDetails> PerDeviceOverrides;
 	public TArray<UInputDeviceProperty> DeviceProperties;
 	public float Duration;
 }

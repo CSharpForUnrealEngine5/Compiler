@@ -5,14 +5,14 @@ using CSharpToCpp.Utilities;
 ///<summary>Abstract base class for media capture.</summary>
 public partial class UMediaCapture : UObject {
 // MediaCapture
-	public bool CaptureActiveSceneViewport(FMediaCaptureOptions CaptureOptions,bool ReturnValue) { return default; }
-	public bool CaptureTextureRenderTarget2D(UObject RenderTarget,FMediaCaptureOptions CaptureOptions,bool ReturnValue) { return default; }
-	public bool UpdateTextureRenderTarget2D(UObject RenderTarget,bool ReturnValue) { return default; }
+	public bool CaptureActiveSceneViewport(FMediaCaptureOptions CaptureOptions) { return default; }
+	public bool CaptureTextureRenderTarget2D(UObject RenderTarget,FMediaCaptureOptions CaptureOptions) { return default; }
+	public bool UpdateTextureRenderTarget2D(UObject RenderTarget) { return default; }
 	public void StopCapture(bool bAllowPendingFrameToBeProcess) {}
-	public EMediaCaptureState GetState(EMediaCaptureState ReturnValue) { return default; }
+	public EMediaCaptureState GetState() { return default; }
 	public void SetMediaOutput(UObject InMediaOutput) {}
-	public FIntPoint GetDesiredSize(FIntPoint ReturnValue) { return default; }
-	public EPixelFormat GetDesiredPixelFormat(EPixelFormat ReturnValue) { return default; }
+	public FIntPoint GetDesiredSize() { return default; }
+	public EPixelFormat GetDesiredPixelFormat() { return default; }
 	public FMediaCaptureStateChangedSignature OnStateChanged;
 	public UMediaOutput MediaOutput;
 }

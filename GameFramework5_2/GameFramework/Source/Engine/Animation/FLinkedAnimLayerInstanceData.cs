@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FLinkedAnimLayerInstanceData {
 // LinkedAnimLayerInstanceData
 	public UAnimInstance Instance;
-	public TMap<sbyte,TWeakObjectPtr<UAnimInstance>> LinkedFunctions;
+	public TMap<string,TWeakObjectPtr<UAnimInstance>> LinkedFunctions;
 }

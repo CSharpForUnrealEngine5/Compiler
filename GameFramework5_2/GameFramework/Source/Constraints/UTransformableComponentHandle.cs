@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial class UTransformableComponentHandle : UTransformableHandle {
 // TransformableComponentHandle
 	public TWeakObjectPtr<USceneComponent> Component;
-	public sbyte SocketName;
+	public string SocketName;
 }

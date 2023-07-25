@@ -10,7 +10,7 @@ public partial class URenderGridMoviePipelineRenderJob : UObject {
 	public UMoviePipelineQueue PipelineQueue;
 	public UMoviePipelineExecutorBase PipelineExecutor;
 	public UMoviePipelineExecutorJob PipelineExecutorJob;
-	public sbyte Status;
+	public string Status;
 	public bool bCanExecute;
 	public bool bCanceled;
 }

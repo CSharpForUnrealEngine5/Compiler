@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("USDAssetImportData.h")]
 public partial class UUsdAssetImportData : UAssetImportData {
 // UsdAssetImportData
-	public sbyte PrimPath;
+	public string PrimPath;
 	public UObject ImportOptions;
 }

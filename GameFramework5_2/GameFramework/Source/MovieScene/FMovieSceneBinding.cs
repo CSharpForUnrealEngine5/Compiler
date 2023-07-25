@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FMovieSceneBinding {
 // MovieSceneBinding
 	public FGuid ObjectGuid;
-	public sbyte BindingName;
+	public string BindingName;
 	public TArray<UMovieSceneTrack> Tracks;
 	public int SortingOrder;
 }

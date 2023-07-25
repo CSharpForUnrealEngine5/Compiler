@@ -13,5 +13,5 @@ public partial struct FPaperTerrainMaterialRule {
 	public bool bEnableCollision;
 	public float CollisionOffset;
 	public int DrawOrder;
-	public sbyte Description;
+	public string Description;
 }

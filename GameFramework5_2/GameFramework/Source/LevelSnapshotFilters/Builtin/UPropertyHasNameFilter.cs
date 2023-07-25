@@ -7,5 +7,5 @@ public partial class UPropertyHasNameFilter : UPropertySelectorFilter {
 // PropertyHasNameFilter
 	public byte NameMatchingRule;
 	public bool bIncludeStructSubproperties;
-	public TSet<sbyte> AllowedNames;
+	public TSet<string> AllowedNames;
 }

@@ -14,6 +14,6 @@ public partial class UImgMediaSettings : UObject {
 	public float GlobalCacheSizeGB;
 	public bool UseGlobalCache;
 	public uint ExrDecoderThreads;
-	public sbyte DefaultProxy;
+	public string DefaultProxy;
 	public bool UseDefaultProxy;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A level blueprint is a specialized type of blueprint. It is used to house</summary>
 public partial class ULevelScriptBlueprint : UBlueprint {
 // LevelScriptBlueprint
-	public sbyte FriendlyName;
+	public string FriendlyName;
 }

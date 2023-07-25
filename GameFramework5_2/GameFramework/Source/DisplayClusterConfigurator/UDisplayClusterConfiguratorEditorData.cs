@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UDisplayClusterConfiguratorEditorData : UObject {
 // DisplayClusterConfiguratorEditorData
 	public UDisplayClusterConfigurationData nDisplayConfig;
-	public sbyte PathToConfig;
+	public string PathToConfig;
 	public bool bConvertedToBlueprint;
 }

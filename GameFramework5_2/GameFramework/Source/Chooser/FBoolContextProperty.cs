@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("BoolColumn.h")]
 public partial struct FBoolContextProperty {
 // BoolContextProperty
-	public TArray<sbyte> PropertyBindingChain;
+	public TArray<string> PropertyBindingChain;
 }

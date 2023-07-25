@@ -7,7 +7,7 @@ public partial class UCustomizableObjectNodeSkeletalMesh : UCustomizableObjectNo
 	public USkeletalMesh SkeletalMesh;
 	public TArray<FCustomizableObjectNodeSkeletalMeshLOD> LODs;
 	public FEdGraphPinReference DefaultPin;
-	public TArray<sbyte> UsedRealTimeMorphTargetNames;
+	public TArray<string> UsedRealTimeMorphTargetNames;
 	public bool bUseAllRealTimeMorphs;
 	public TSoftObjectPtr<UClass> AnimInstance;
 	public int AnimBlueprintSlot;

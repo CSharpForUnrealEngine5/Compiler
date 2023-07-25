@@ -5,15 +5,15 @@ using CSharpToCpp.Utilities;
 public partial class ANUTActor : AActor {
 // NUTActor
 	public FExecuteOnServer TempDelegate;
-	public void Admin(sbyte Command) {}
-	public void ServerAdmin(sbyte Command) {}
-	public void UnitSeamlessTravel(sbyte Dest=TEXT) {}
-	public void UnitTravel(sbyte Dest=TEXT) {}
+	public void Admin(string Command) {}
+	public void ServerAdmin(string Command) {}
+	public void UnitSeamlessTravel(string Dest/*=TEXT(" ")*/) {}
+	public void UnitTravel(string Dest/*=TEXT(" ")*/) {}
 	public void NetFlush() {}
 	public void Wait(ushort Seconds) {}
 	public void ServerClientStillAlive() {}
-	public void ServerReceiveText(sbyte InText) {}
+	public void ServerReceiveText(string InText) {}
 	public void ServerClientPing() {}
 	public void NetMulticastPing() {}
-	public void ServerExecute(sbyte InDelegate) {}
+	public void ServerExecute(string InDelegate) {}
 }

@@ -13,6 +13,6 @@ public partial struct FAnimNode_TwoWayBlend {
 	public float Alpha;
 	public FInputScaleBias AlphaScaleBias;
 	public FInputAlphaBoolBlend AlphaBoolBlend;
-	public sbyte AlphaCurveName;
+	public string AlphaCurveName;
 	public FInputScaleBiasClamp AlphaScaleBiasClamp;
 }

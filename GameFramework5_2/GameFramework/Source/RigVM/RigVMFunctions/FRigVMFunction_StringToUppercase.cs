@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Converts the string to upper case</summary>
 public partial struct FRigVMFunction_StringToUppercase {
 // RigVMFunction_StringToUppercase
-	public sbyte Value;
-	public sbyte Result;
+	public string Value;
+	public string Result;
 }

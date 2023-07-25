@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UARLiveLinkRetargetAsset : ULiveLinkRetargetAsset {
 // ARLiveLinkRetargetAsset
 	public EARLiveLinkSourceType SourceType;
-	public TMap<sbyte,sbyte> BoneMap;
+	public TMap<string,string> BoneMap;
 	public FARKitPoseTrackingConfig ARKitPoseTrackingConfig;
 }

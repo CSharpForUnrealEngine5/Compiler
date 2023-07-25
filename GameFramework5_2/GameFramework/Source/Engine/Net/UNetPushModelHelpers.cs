@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Net/NetPushModelHelpers.h")]
 public partial class UNetPushModelHelpers : UBlueprintFunctionLibrary {
 // NetPushModelHelpers
-	public void MarkPropertyDirty(UObject Object,sbyte PropertyName) {}
-	public void MarkPropertyDirtyFromRepIndex(UObject Object,int RepIndex,sbyte PropertyName) {}
+	public void MarkPropertyDirty(UObject Object,string PropertyName) {}
+	public void MarkPropertyDirtyFromRepIndex(UObject Object,int RepIndex,string PropertyName) {}
 }

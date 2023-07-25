@@ -6,6 +6,6 @@ public partial struct FConcertPlaySessionEvent {
 // ConcertPlaySessionEvent
 	public EConcertPlaySessionEventType EventType;
 	public FGuid PlayEndpointId;
-	public sbyte PlayPackageName;
+	public string PlayPackageName;
 	public bool bIsSimulating;
 }

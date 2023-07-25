@@ -7,6 +7,6 @@ public partial class UCombineMeshesToolProperties : UInteractiveToolPropertySet 
 // CombineMeshesToolProperties
 	public bool bIsDuplicateMode;
 	public EBaseCreateFromSelectedTargetType OutputWriteTo;
-	public sbyte OutputNewName;
-	public sbyte OutputExistingName;
+	public string OutputNewName;
+	public string OutputExistingName;
 }

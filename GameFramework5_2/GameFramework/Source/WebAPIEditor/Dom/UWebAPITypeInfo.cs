@@ -5,25 +5,25 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds information for an existing or pending type.</summary>
 public partial class UWebAPITypeInfo : UObject {
 // WebAPITypeInfo
-	public sbyte Name;
-	public sbyte DisplayName;
+	public string Name;
+	public string DisplayName;
 	public EWebAPISchemaType SchemaType;
 	public bool bIsNested;
 	public FWebAPITypeNameVariant ContainingType;
-	public sbyte JsonName;
-	public sbyte JsonType;
-	public sbyte JsonPropertyToSerialize;
-	public sbyte PrintFormatSpecifier;
-	public sbyte PrintFormatExpression;
-	public sbyte Namespace;
-	public sbyte Prefix;
-	public sbyte Suffix;
-	public sbyte DeclarationType;
+	public string JsonName;
+	public string JsonType;
+	public string JsonPropertyToSerialize;
+	public string PrintFormatSpecifier;
+	public string PrintFormatExpression;
+	public string Namespace;
+	public string Prefix;
+	public string Suffix;
+	public string DeclarationType;
 	public bool bIsBuiltinType;
-	public sbyte DefaultValue;
+	public string DefaultValue;
 	public TSoftObjectPtr<UWebAPIModelBase> Model;
-	public TSet<sbyte> Modules;
-	public TSet<sbyte> IncludePaths;
+	public TSet<string> Modules;
+	public TSet<string> IncludePaths;
 	public FSlateColor PinColor;
-	public sbyte DebugString;
+	public string DebugString;
 }

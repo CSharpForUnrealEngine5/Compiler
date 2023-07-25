@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Platform mapping for crossplay checks</summary>
 public partial struct FPartyBeaconCrossplayPlatformMapping {
 // PartyBeaconCrossplayPlatformMapping
-	public sbyte PlatformName;
-	public sbyte PlatformType;
+	public string PlatformName;
+	public string PlatformType;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>This structure is used to pass arguments to ClientPlayForceFeedback() client RPC function</summary>
 public partial struct FForceFeedbackParameters {
 // ForceFeedbackParameters
-	public sbyte Tag;
+	public string Tag;
 	public bool bLooping;
 	public bool bIgnoreTimeDilation;
 	public bool bPlayWhilePaused;

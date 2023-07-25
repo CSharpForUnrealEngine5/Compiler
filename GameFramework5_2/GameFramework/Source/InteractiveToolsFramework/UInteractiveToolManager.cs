@@ -7,5 +7,5 @@ public partial class UInteractiveToolManager : UObject {
 // InteractiveToolManager
 	public UInteractiveTool ActiveLeftTool;
 	public UInteractiveTool ActiveRightTool;
-	public TMap<sbyte,UInteractiveToolBuilder> ToolBuilders;
+	public TMap<string,UInteractiveToolBuilder> ToolBuilders;
 }

@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UVREditorUISystem : UObject {
 // VREditorUISystem
 	public UVREditorMode VRMode;
-	public TMap<sbyte,AVREditorFloatingUI> FloatingUIs;
-	public TMap<sbyte,AActor> PreviewWindowInfo;
+	public TMap<string,AVREditorFloatingUI> FloatingUIs;
+	public TMap<string,AActor> PreviewWindowInfo;
 	public AVREditorFloatingUI InfoDisplayPanel;
 	public AVREditorRadialFloatingUI QuickRadialMenu;
 	public AVREditorDockableWindow DraggingUI;

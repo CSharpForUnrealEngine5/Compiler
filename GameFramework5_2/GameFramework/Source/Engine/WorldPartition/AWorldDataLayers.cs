@@ -13,10 +13,10 @@ public partial class AWorldDataLayers : AInfo {
 	public bool bAllowRuntimeDataLayerEditing;
 	public FActorPlacementDataLayers CurrentDataLayers;
 	public TSet<UDataLayerInstance> DataLayerInstances;
-	public TMap<sbyte,TWeakObjectPtr<UDataLayerInstance>> DeprecatedDataLayerNameToDataLayerInstance;
+	public TMap<string,TWeakObjectPtr<UDataLayerInstance>> DeprecatedDataLayerNameToDataLayerInstance;
 	public TSet<UDEPRECATED_DataLayer> WorldDataLayers_DEPRECATED;
-	public TArray<sbyte> RepActiveDataLayerNames;
-	public TArray<sbyte> RepLoadedDataLayerNames;
-	public TArray<sbyte> RepEffectiveActiveDataLayerNames;
-	public TArray<sbyte> RepEffectiveLoadedDataLayerNames;
+	public TArray<string> RepActiveDataLayerNames;
+	public TArray<string> RepLoadedDataLayerNames;
+	public TArray<string> RepEffectiveActiveDataLayerNames;
+	public TArray<string> RepEffectiveLoadedDataLayerNames;
 }

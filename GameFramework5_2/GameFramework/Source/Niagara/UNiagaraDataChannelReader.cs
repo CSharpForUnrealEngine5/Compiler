@@ -6,14 +6,14 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraDataChannelReader : UObject {
 // NiagaraDataChannelReader
 	public UNiagaraDataChannelHandler Owner;
-	public bool InitAccess(UObject OwningComponent,bool ReturnValue) { return default; }
-	public int Num(int ReturnValue) { return default; }
-	public double ReadFloat(sbyte VarName,int Index,double ReturnValue) { return default; }
-	public FVector2D ReadVector2D(sbyte VarName,int Index,FVector2D ReturnValue) { return default; }
-	public FVector ReadVector(sbyte VarName,int Index,FVector ReturnValue) { return default; }
-	public FVector4 ReadVector4(sbyte VarName,int Index,FVector4 ReturnValue) { return default; }
-	public FQuat ReadQuat(sbyte VarName,int Index,FQuat ReturnValue) { return default; }
-	public FLinearColor ReadLinearColor(sbyte VarName,int Index,FLinearColor ReturnValue) { return default; }
-	public int ReadInt(sbyte VarName,int Index,int ReturnValue) { return default; }
-	public bool ReadBool(sbyte VarName,int Index,bool ReturnValue) { return default; }
+	public bool InitAccess(UObject OwningComponent) { return default; }
+	public int Num() { return default; }
+	public double ReadFloat(string VarName,int Index) { return default; }
+	public FVector2D ReadVector2D(string VarName,int Index) { return default; }
+	public FVector ReadVector(string VarName,int Index) { return default; }
+	public FVector4 ReadVector4(string VarName,int Index) { return default; }
+	public FQuat ReadQuat(string VarName,int Index) { return default; }
+	public FLinearColor ReadLinearColor(string VarName,int Index) { return default; }
+	public int ReadInt(string VarName,int Index) { return default; }
+	public bool ReadBool(string VarName,int Index) { return default; }
 }

@@ -12,7 +12,7 @@ public partial class UAudioRadialSlider : UWidget {
 	public FLinearColor SliderProgressColor;
 	public FLinearColor SliderBarColor;
 	public FVector2D HandStartEndRatio;
-	public sbyte UnitsText;
+	public string UnitsText;
 	public FLinearColor TextLabelBackgroundColor;
 	public bool ShowLabelOnlyOnHover;
 	public bool ShowUnitsText;
@@ -21,15 +21,15 @@ public partial class UAudioRadialSlider : UWidget {
 	public float SliderThickness;
 	public FVector2D OutputRange;
 	public FOnAudioRadialSliderValueChangedEvent OnValueChanged;
-	public float GetOutputValue(float InSliderValue,float ReturnValue) { return default; }
-	public float GetSliderValue(float OutputValue,float ReturnValue) { return default; }
+	public float GetOutputValue(float InSliderValue) { return default; }
+	public float GetSliderValue(float OutputValue) { return default; }
 	public void SetWidgetLayout(EAudioRadialSliderLayout InLayout) {}
 	public void SetCenterBackgroundColor(FLinearColor InValue) {}
 	public void SetSliderProgressColor(FLinearColor InValue) {}
 	public void SetSliderBarColor(FLinearColor InValue) {}
 	public void SetHandStartEndRatio(FVector2D InHandStartEndRatio) {}
 	public void SetTextLabelBackgroundColor(FSlateColor InColor) {}
-	public void SetUnitsText(sbyte Units) {}
+	public void SetUnitsText(string Units) {}
 	public void SetUnitsTextReadOnly(bool bIsReadOnly) {}
 	public void SetValueTextReadOnly(bool bIsReadOnly) {}
 	public void SetShowLabelOnlyOnHover(bool bShowLabelOnlyOnHover) {}

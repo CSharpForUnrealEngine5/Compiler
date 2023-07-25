@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Implements the Class Viewer's loading and saving settings.</summary>
 public partial class UClassViewerSettings : UObject {
 // ClassViewerSettings
-	public TArray<sbyte> AllowedClasses;
+	public TArray<string> AllowedClasses;
 	public bool DisplayInternalClasses;
 	public EClassViewerDeveloperType DeveloperFolderType;
 }

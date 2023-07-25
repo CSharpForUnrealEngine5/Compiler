@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ProxyTable.h")]
 public partial struct FProxyTableContextProperty {
 // ProxyTableContextProperty
-	public TArray<sbyte> PropertyBindingChain;
+	public TArray<string> PropertyBindingChain;
 }

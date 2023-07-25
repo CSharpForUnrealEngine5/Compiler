@@ -12,5 +12,5 @@ public partial class UMIDIDeviceInputController : UMIDIDeviceControllerBase {
 	public FOnMIDIProgramChange OnMIDIProgramChange;
 	public FOnMIDIChannelAftertouch OnMIDIChannelAftertouch;
 	public int DeviceID;
-	public sbyte DeviceName;
+	public string DeviceName;
 }

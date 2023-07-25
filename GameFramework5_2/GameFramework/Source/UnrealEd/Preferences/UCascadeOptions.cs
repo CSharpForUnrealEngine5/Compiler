@@ -42,7 +42,7 @@ public partial class UCascadeOptions : UObject {
 	public bool bShowParticleMemory;
 	public float ParticleMemoryUpdateTime;
 	public bool bShowFloor;
-	public sbyte FloorMesh;
+	public string FloorMesh;
 	public FVector FloorPosition;
 	public FRotator FloorRotation;
 	public float FloorScale;

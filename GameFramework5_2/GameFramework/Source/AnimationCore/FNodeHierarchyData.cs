@@ -7,5 +7,5 @@ public partial struct FNodeHierarchyData {
 // NodeHierarchyData
 	public TArray<FNodeObject> Nodes;
 	public TArray<FTransform> Transforms;
-	public TMap<sbyte,int> NodeNameToIndexMapping;
+	public TMap<string,int> NodeNameToIndexMapping;
 }

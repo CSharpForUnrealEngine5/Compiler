@@ -4,12 +4,12 @@ using CSharpToCpp.Utilities;
 [CppInclude("GameFramework/EngineMessage.h")]
 public partial class UEngineMessage : ULocalMessage {
 // EngineMessage
-	public sbyte FailedPlaceMessage;
-	public sbyte MaxedOutMessage;
-	public sbyte EnteredMessage;
-	public sbyte LeftMessage;
-	public sbyte GlobalNameChange;
-	public sbyte SpecEnteredMessage;
-	public sbyte NewPlayerMessage;
-	public sbyte NewSpecMessage;
+	public string FailedPlaceMessage;
+	public string MaxedOutMessage;
+	public string EnteredMessage;
+	public string LeftMessage;
+	public string GlobalNameChange;
+	public string SpecEnteredMessage;
+	public string NewPlayerMessage;
+	public string NewSpecMessage;
 }

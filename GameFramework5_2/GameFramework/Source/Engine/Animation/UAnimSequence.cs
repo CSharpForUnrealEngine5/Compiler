@@ -10,7 +10,7 @@ public partial class UAnimSequence : UAnimSequenceBase {
 	public int NumberOfKeys;
 	public FFrameRate SamplingFrameRate;
 	public FGuid RawDataGuid;
-	public TArray<sbyte> AnimationTrackNames;
+	public TArray<string> AnimationTrackNames;
 	public bool bAllowFrameStripping;
 	public float CompressionErrorThresholdScale;
 	public UAnimBoneCompressionSettings BoneCompressionSettings;
@@ -19,7 +19,7 @@ public partial class UAnimSequence : UAnimSequenceBase {
 	public byte RefPoseType;
 	public int RefFrameIndex;
 	public UAnimSequence RefPoseSeq;
-	public sbyte RetargetSource;
+	public string RetargetSource;
 	public TSoftObjectPtr<USkeletalMesh> RetargetSourceAsset;
 	public TArray<FTransform> RetargetSourceAssetReferencePose;
 	public EAnimInterpolationType Interpolation;
@@ -31,14 +31,14 @@ public partial class UAnimSequence : UAnimSequenceBase {
 	public int CompressCommandletVersion;
 	public bool bDoNotOverrideCompression;
 	public UAssetImportData AssetImportData;
-	public sbyte SourceFilePath_DEPRECATED;
-	public sbyte SourceFileTimestamp_DEPRECATED;
+	public string SourceFilePath_DEPRECATED;
+	public string SourceFileTimestamp_DEPRECATED;
 	public TArray<FAnimSyncMarker> AuthoredSyncMarkers;
-	public void AddBoneFloatCustomAttribute(sbyte BoneName,sbyte AttributeName,TArray<float> TimeKeys,TArray<float> ValueKeys) {}
-	public void AddBoneIntegerCustomAttribute(sbyte BoneName,sbyte AttributeName,TArray<float> TimeKeys,TArray<int> ValueKeys) {}
-	public void AddBoneStringCustomAttribute(sbyte BoneName,sbyte AttributeName,TArray<float> TimeKeys,TArray<sbyte> ValueKeys) {}
-	public void RemoveCustomAttribute(sbyte BoneName,sbyte AttributeName) {}
-	public void RemoveAllCustomAttributesForBone(sbyte BoneName) {}
+	public void AddBoneFloatCustomAttribute(string BoneName,string AttributeName,TArray<float> TimeKeys,TArray<float> ValueKeys) {}
+	public void AddBoneIntegerCustomAttribute(string BoneName,string AttributeName,TArray<float> TimeKeys,TArray<int> ValueKeys) {}
+	public void AddBoneStringCustomAttribute(string BoneName,string AttributeName,TArray<float> TimeKeys,TArray<string> ValueKeys) {}
+	public void RemoveCustomAttribute(string BoneName,string AttributeName) {}
+	public void RemoveAllCustomAttributesForBone(string BoneName) {}
 	public void RemoveAllCustomAttributes() {}
 	public FFrameRate TargetFrameRate;
 	public FPerPlatformFrameRate PlatformTargetFrameRate;

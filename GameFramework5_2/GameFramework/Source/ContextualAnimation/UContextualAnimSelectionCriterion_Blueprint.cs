@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>UContextualAnimSelectionCriterion_Blueprint</summary>
 public partial class UContextualAnimSelectionCriterion_Blueprint : UContextualAnimSelectionCriterion {
 // ContextualAnimSelectionCriterion_Blueprint
-	public bool BP_DoesQuerierPassCondition(FContextualAnimSceneBindingContext Primary,FContextualAnimSceneBindingContext Querier,bool ReturnValue) { return default; }
-	public UObject GetSceneAsset(UObject ReturnValue) { return default; }
+	public bool BP_DoesQuerierPassCondition(FContextualAnimSceneBindingContext Primary,FContextualAnimSceneBindingContext Querier) { return default; }
+	public UObject GetSceneAsset() { return default; }
 }

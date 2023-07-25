@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial struct FUsdStageImportContext {
 // UsdStageImportContext
 	public AActor SceneActor;
-	public sbyte ObjectName;
-	public sbyte PackagePath;
-	public sbyte FilePath;
+	public string ObjectName;
+	public string PackagePath;
+	public string FilePath;
 	public UUsdStageImportOptions ImportOptions;
 	public UObject ImportedAsset;
 	public UUsdAssetCache2 AssetCache;

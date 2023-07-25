@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("ReplayTypes.h")]
 public partial struct FLevelNameAndTime {
 // LevelNameAndTime
-	public sbyte LevelName;
+	public string LevelName;
 	public uint LevelChangeTimeInMS;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("FractureToolGenerators.h")]
 public partial class UFractureToolGenerateAsset : UFractureActionTool {
 // FractureToolGenerateAsset
-	public sbyte AssetPath;
+	public string AssetPath;
 }

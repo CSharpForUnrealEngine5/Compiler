@@ -9,5 +9,5 @@ public partial struct FFbxTestPlanExpectedResult {
 	public TArray<int> ExpectedPresetsDataInteger;
 	public TArray<float> ExpectedPresetsDataFloat;
 	public TArray<double> ExpectedPresetsDataDouble;
-	public TArray<sbyte> ExpectedPresetsDataString;
+	public TArray<string> ExpectedPresetsDataString;
 }

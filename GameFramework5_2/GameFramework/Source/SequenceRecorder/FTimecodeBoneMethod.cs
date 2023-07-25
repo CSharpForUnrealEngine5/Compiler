@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FTimecodeBoneMethod {
 // TimecodeBoneMethod
 	public ETimecodeBoneMode BoneMode;
-	public sbyte BoneName;
+	public string BoneName;
 }

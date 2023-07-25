@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraClipboardFunction : UObject {
 // NiagaraClipboardFunction
 	public void FOnPastedFunctionCallNode(UObject PastedFunctionCall) {}
-	public sbyte FunctionName;
-	public sbyte DisplayName;
+	public string FunctionName;
+	public string DisplayName;
 	public ENiagaraClipboardFunctionScriptMode ScriptMode;
 	public TSoftObjectPtr<UNiagaraScript> Script;
 	public TArray<FNiagaraVariable> AssignmentTargets;
-	public TArray<sbyte> AssignmentDefaults;
+	public TArray<string> AssignmentDefaults;
 	public TArray<UNiagaraClipboardFunctionInput> Inputs;
 	public FOnPastedFunctionCallNode OnPastedFunctionCallNodeDelegate;
 	public FGuid ScriptVersion;

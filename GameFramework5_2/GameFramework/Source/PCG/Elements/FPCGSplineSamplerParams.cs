@@ -12,9 +12,9 @@ public partial struct FPCGSplineSamplerParams {
 	public int NumPlanarSubdivisions;
 	public int NumHeightSubdivisions;
 	public bool bComputeDirectionDelta;
-	public sbyte NextDirectionDeltaAttribute;
+	public string NextDirectionDeltaAttribute;
 	public bool bComputeCurvature;
-	public sbyte CurvatureAttribute;
+	public string CurvatureAttribute;
 	public float InteriorSampleSpacing;
 	public float InteriorBorderSampleSpacing;
 	public bool bTreatSplineAsPolyline;

@@ -9,16 +9,16 @@ public partial class UMockFlyingAbilityComponent : UFlyingMovementComponent {
 	public FMockAbilityNotifyStateChange OnSprintStateChange;
 	public FMockAbilityNotifyStateChange OnDashStateChange;
 	public FMockAbilityNotifyStateChange OnBlinkStateChange;
-	public bool IsSprinting(bool ReturnValue) { return default; }
-	public bool IsDashing(bool ReturnValue) { return default; }
-	public bool IsBlinking(bool ReturnValue) { return default; }
+	public bool IsSprinting() { return default; }
+	public bool IsDashing() { return default; }
+	public bool IsBlinking() { return default; }
 	public void FMockAbilityBlinkCueEvent(FVector DestinationLocation,int RandomValue,float ElapsedTimeSeconds) {}
 	public FMockAbilityBlinkCueEvent OnBlinkActivateEvent;
 	public void FMockAbilityBlinkCueRollback() {}
 	public FMockAbilityBlinkCueRollback OnBlinkActivateEventRollback;
 	public void FMockAbilityPhysicsGunFireEvent(FVector Start,FVector End,bool bHasCooldown,TArray<FVector_NetQuantize100> HitLocations,float ElapsedTimeSeconds) {}
 	public FMockAbilityPhysicsGunFireEvent OnPhysicsGunFirEvent;
-	public float GetBlinkWarmupTimeSeconds(float ReturnValue) { return default; }
-	public float GetStamina(float ReturnValue) { return default; }
-	public float GetMaxStamina(float ReturnValue) { return default; }
+	public float GetBlinkWarmupTimeSeconds() { return default; }
+	public float GetStamina() { return default; }
+	public float GetMaxStamina() { return default; }
 }

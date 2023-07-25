@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FVehicleThrustConfig {
 // VehicleThrustConfig
 	public EVehicleThrustType ThrustType;
-	public sbyte BoneName;
+	public string BoneName;
 	public FVector Offset;
 	public FVector ThrustAxis;
 	public float MaxThrustForce;

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertAdmin_RenameSessionResponse {
 // ConcertAdmin_RenameSessionResponse
 	public FGuid SessionId;
-	public sbyte OldName;
+	public string OldName;
 }

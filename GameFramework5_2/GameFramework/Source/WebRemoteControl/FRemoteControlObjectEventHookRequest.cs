@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FRemoteControlObjectEventHookRequest {
 // RemoteControlObjectEventHookRequest
 	public ERemoteControlEvent EventType;
-	public sbyte ObjectPath;
-	public sbyte PropertyName;
+	public string ObjectPath;
+	public string PropertyName;
 }

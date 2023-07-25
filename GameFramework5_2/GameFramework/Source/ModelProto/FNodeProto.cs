@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>Level 3 - FNodeProto</summary>
 public partial struct FNodeProto {
 // NodeProto
-	public TArray<sbyte> Input;
-	public TArray<sbyte> Output;
-	public sbyte Name;
-	public sbyte OperatorType;
-	public sbyte Domain;
+	public TArray<string> Input;
+	public TArray<string> Output;
+	public string Name;
+	public string OperatorType;
+	public string Domain;
 	public TArray<FAttributeProto> Attribute;
-	public sbyte DocString;
+	public string DocString;
 }

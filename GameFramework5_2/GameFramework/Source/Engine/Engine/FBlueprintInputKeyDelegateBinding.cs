@@ -6,5 +6,5 @@ public partial struct FBlueprintInputKeyDelegateBinding {
 // BlueprintInputKeyDelegateBinding
 	public FInputChord InputChord;
 	public byte InputKeyEvent;
-	public sbyte FunctionNameToBind;
+	public string FunctionNameToBind;
 }

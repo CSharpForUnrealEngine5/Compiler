@@ -6,6 +6,6 @@ public partial struct FRigVMMirrorSettings {
 // RigVMMirrorSettings
 	public byte MirrorAxis;
 	public byte AxisToFlip;
-	public sbyte SearchString;
-	public sbyte ReplaceString;
+	public string SearchString;
+	public string ReplaceString;
 }

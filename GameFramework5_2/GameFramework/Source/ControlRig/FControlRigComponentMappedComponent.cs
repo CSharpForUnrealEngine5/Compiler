@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FControlRigComponentMappedComponent {
 // ControlRigComponentMappedComponent
 	public USceneComponent Component;
-	public sbyte ElementName;
+	public string ElementName;
 	public ERigElementType ElementType;
 	public EControlRigComponentMapDirection Direction;
 }

@@ -16,11 +16,11 @@ public partial class UCookerSettings : UDeveloperSettings {
 	public bool bCompileBlueprintsInDevelopmentMode;
 	public EBlueprintComponentDataCookingMethod BlueprintComponentDataCookingMethod;
 	public EBlueprintPropertyGuidsCookingMethod BlueprintPropertyGuidsCookingMethod;
-	public TArray<sbyte> ClassesExcludedOnDedicatedServer;
-	public TArray<sbyte> ModulesExcludedOnDedicatedServer;
-	public TArray<sbyte> ClassesExcludedOnDedicatedClient;
-	public TArray<sbyte> ModulesExcludedOnDedicatedClient;
-	public TArray<sbyte> VersionedIntRValues;
+	public TArray<string> ClassesExcludedOnDedicatedServer;
+	public TArray<string> ModulesExcludedOnDedicatedServer;
+	public TArray<string> ClassesExcludedOnDedicatedClient;
+	public TArray<string> ModulesExcludedOnDedicatedClient;
+	public TArray<string> VersionedIntRValues;
 	public int DefaultASTCQualityBySpeed;
 	public int DefaultASTCQualityBySize;
 	public ETextureFormatASTCCompressor DefaultASTCCompressor;

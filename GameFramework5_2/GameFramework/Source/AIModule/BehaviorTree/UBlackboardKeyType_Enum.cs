@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial class UBlackboardKeyType_Enum : UBlackboardKeyType {
 // BlackboardKeyType_Enum
 	public UEnum EnumType;
-	public sbyte EnumName;
+	public string EnumName;
 	public bool bIsEnumNameValid;
 }

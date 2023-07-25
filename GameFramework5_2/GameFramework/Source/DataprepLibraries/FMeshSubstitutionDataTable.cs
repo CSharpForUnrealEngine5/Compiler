@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>* DEPRECATED - Simple struct for the table row used for UDataprepOperationsLibrary::SubstituteMaterials</summary>
 public partial struct FMeshSubstitutionDataTable {
 // MeshSubstitutionDataTable
-	public sbyte SearchString_DEPRECATED;
+	public string SearchString_DEPRECATED;
 	public EEditorScriptingStringMatchType StringMatch_DEPRECATED;
 	public UStaticMesh MeshReplacement_DEPRECATED;
 }

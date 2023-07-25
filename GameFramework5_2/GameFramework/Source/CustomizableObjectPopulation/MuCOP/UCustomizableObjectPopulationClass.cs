@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOP/CustomizableObjectPopulationClass.h")]
 public partial class UCustomizableObjectPopulationClass : UObject {
 // CustomizableObjectPopulationClass
-	public sbyte Name;
+	public string Name;
 	public UCustomizableObject CustomizableObject;
-	public TArray<sbyte> Allowlist;
-	public TArray<sbyte> Blocklist;
+	public TArray<string> Allowlist;
+	public TArray<string> Blocklist;
 	public TArray<FCustomizableObjectPopulationCharacteristic> Characteristics;
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 }

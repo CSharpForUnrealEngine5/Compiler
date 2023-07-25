@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNode_LinkedAnimGraph {
 // AnimNode_LinkedAnimGraph
 	public TArray<FPoseLink> InputPoses;
-	public TArray<sbyte> InputPoseNames;
+	public TArray<string> InputPoseNames;
 	public UClass InstanceClass;
-	public sbyte Tag_DEPRECATED;
+	public string Tag_DEPRECATED;
 	public UBlendProfile PendingBlendOutProfile;
 	public UBlendProfile PendingBlendInProfile;
 	public bool bReceiveNotifiesFromLinkedInstances;

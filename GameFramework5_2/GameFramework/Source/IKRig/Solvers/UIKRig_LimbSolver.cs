@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Solvers/IKRig_LimbSolver.h")]
 public partial class UIKRig_LimbSolver : UIKRigSolver {
 // IKRig_LimbSolver
-	public sbyte RootName;
+	public string RootName;
 	public float ReachPrecision;
 	public byte HingeRotationAxis;
 	public int MaxIterations;

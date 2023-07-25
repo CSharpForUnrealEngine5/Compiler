@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>PacketHandler Configuration Profiles based on each NetDriver</summary>
 public partial class UPacketHandlerProfileConfig : UObject {
 // PacketHandlerProfileConfig
-	public TArray<sbyte> Components;
+	public TArray<string> Components;
 }

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FScreenMessageString {
 // ScreenMessageString
 	public ulong Key;
-	public sbyte ScreenMessage;
+	public string ScreenMessage;
 	public FColor DisplayColor;
 	public float TimeToDisplay;
 	public float CurrentTimeDisplayed;

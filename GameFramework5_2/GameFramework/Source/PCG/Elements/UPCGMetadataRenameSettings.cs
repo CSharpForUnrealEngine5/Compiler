@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Elements/Metadata/PCGMetadataRenameElement.h")]
 public partial class UPCGMetadataRenameSettings : UPCGSettings {
 // PCGMetadataRenameSettings
-	public sbyte AttributeToRename;
-	public sbyte NewAttributeName;
+	public string AttributeToRename;
+	public string NewAttributeName;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Info used to populate a create widget tool stack</summary>
 public partial struct FCreateWidgetStackInfo {
 // CreateWidgetStackInfo
-	public sbyte DisplayName;
+	public string DisplayName;
 	public TArray<FCreateWidgetToolInfo> WidgetToolInfos;
 }

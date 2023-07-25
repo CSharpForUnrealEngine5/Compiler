@@ -8,6 +8,6 @@ public partial class UAsyncNiagaraCaptureSimCache : UBlueprintAsyncActionBase {
 	public UNiagaraSimCache CaptureSimCache;
 	public UNiagaraComponent CaptureComponent;
 	public FOnCaptureComplete CaptureComplete;
-	public UObject CaptureNiagaraSimCacheMultiFrame(UObject SimCache,FNiagaraSimCacheCreateParameters CreateParameters,UObject NiagaraComponent,UObject OutSimCache,int NumFrames=16,int CaptureRate=1,bool bAdvanceSimulation=false,float AdvanceDeltaTime=0.01666f,UObject ReturnValue) { return default; }
-	public UObject CaptureNiagaraSimCacheUntilComplete(UObject SimCache,FNiagaraSimCacheCreateParameters CreateParameters,UObject NiagaraComponent,UObject OutSimCache,int CaptureRate=1,bool bAdvanceSimulation=false,float AdvanceDeltaTime=0.01666f,UObject ReturnValue) { return default; }
+	public UObject CaptureNiagaraSimCacheMultiFrame(UObject SimCache,FNiagaraSimCacheCreateParameters CreateParameters,UObject NiagaraComponent,UObject OutSimCache,int NumFrames/*=16*/,int CaptureRate/*=1*/,bool bAdvanceSimulation/*=false*/,float AdvanceDeltaTime/*=0.01666f*/) { return default; }
+	public UObject CaptureNiagaraSimCacheUntilComplete(UObject SimCache,FNiagaraSimCacheCreateParameters CreateParameters,UObject NiagaraComponent,UObject OutSimCache,int CaptureRate/*=1*/,bool bAdvanceSimulation/*=false*/,float AdvanceDeltaTime/*=0.01666f*/) { return default; }
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action removing an array pin from the graph.</summary>
 public partial struct FRigVMRemoveArrayPinAction {
 // RigVMRemoveArrayPinAction
-	public sbyte ArrayPinPath;
+	public string ArrayPinPath;
 	public int Index;
-	public sbyte DefaultValue;
+	public string DefaultValue;
 }

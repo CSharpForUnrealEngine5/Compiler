@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>An action exposing a pin as a parameter</summary>
 public partial struct FRigVMRemoveExposedPinAction {
 // RigVMRemoveExposedPinAction
-	public sbyte PinName;
+	public string PinName;
 	public ERigVMPinDirection Direction;
-	public sbyte CPPType;
-	public sbyte CPPTypeObjectPath;
-	public sbyte DefaultValue;
+	public string CPPType;
+	public string CPPTypeObjectPath;
+	public string DefaultValue;
 	public int PinIndex;
 }

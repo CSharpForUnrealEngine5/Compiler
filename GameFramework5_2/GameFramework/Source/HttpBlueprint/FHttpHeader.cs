@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Provides a way for blueprint to create and store a map of HTTP headers</summary>
 public partial struct FHttpHeader {
 // HttpHeader
-	public TMap<sbyte,sbyte> Headers;
+	public TMap<string,string> Headers;
 }

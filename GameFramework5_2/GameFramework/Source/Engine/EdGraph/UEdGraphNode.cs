@@ -21,9 +21,9 @@ public partial class UEdGraphNode : UObject {
 	public bool bCommentBubbleVisible;
 	public bool bCommentBubbleMakeVisible;
 	public bool bCanRenameNode;
-	public sbyte NodeUpgradeMessage;
-	public sbyte NodeComment;
+	public string NodeUpgradeMessage;
+	public string NodeComment;
 	public int ErrorType;
-	public sbyte ErrorMsg;
+	public string ErrorMsg;
 	public FGuid NodeGuid;
 }

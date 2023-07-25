@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FInterchangeTestFunction {
 // InterchangeTestFunction
 	public UClass AssetClass;
-	public sbyte OptionalAssetName;
+	public string OptionalAssetName;
 	public UFunction CheckFunction;
-	public TMap<sbyte,sbyte> Parameters;
+	public TMap<string,string> Parameters;
 }

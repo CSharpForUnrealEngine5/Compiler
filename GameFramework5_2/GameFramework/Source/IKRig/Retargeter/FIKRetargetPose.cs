@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FIKRetargetPose {
 // IKRetargetPose
 	public FVector RootTranslationOffset;
-	public TMap<sbyte,FQuat> BoneRotationOffsets;
+	public TMap<string,FQuat> BoneRotationOffsets;
 }

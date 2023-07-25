@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A class to transfer Camera data in MU session</summary>
 public partial class UDEPRECATED_VirtualCameraConcertCameraComponent : UActorComponent {
 // VirtualCameraConcertCameraComponent
-	public sbyte TrackingName;
+	public string TrackingName;
 	public bool bHasAuthority;
 	public bool bSendUpdateInEditor;
 	public bool bUpdateCameraComponentTransform;

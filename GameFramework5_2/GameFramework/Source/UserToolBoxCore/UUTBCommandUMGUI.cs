@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("UTBBaseUICommand.h")]
 public partial class UUTBCommandUMGUI : UUserWidget {
 // UTBCommandUMGUI
-	public bool DoesSupportClass(UClass ObjectClass,bool ReturnValue) { return default; }
+	public bool DoesSupportClass(UClass ObjectClass) { return default; }
 	public void ExecuteCommand() {}
 	public UUTBBaseCommand Command;
 }

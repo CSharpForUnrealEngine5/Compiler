@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FSoundModulationParameterSettings {
 // SoundModulationParameterSettings
 	public float ValueNormalized;
-	public sbyte UnitDisplayName;
+	public string UnitDisplayName;
 	public float ValueUnit;
 }

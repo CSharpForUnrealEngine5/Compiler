@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request to search for an actor.</summary>
 public partial struct FSearchActorRequest {
 // SearchActorRequest
-	public sbyte Query;
-	public sbyte Class;
+	public string Query;
+	public string Class;
 	public int Limit;
 }

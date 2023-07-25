@@ -9,5 +9,5 @@ public partial struct FPrintStringDataflowNode {
 	public bool bPrintToLog;
 	public FColor Color;
 	public float Duration;
-	public sbyte String;
+	public string String;
 }

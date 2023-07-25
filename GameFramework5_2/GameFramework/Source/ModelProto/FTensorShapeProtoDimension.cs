@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FTensorShapeProtoDimension {
 // TensorShapeProtoDimension
 	public long DimValue;
-	public sbyte DimParam;
-	public sbyte Denotation;
+	public string DimParam;
+	public string Denotation;
 }

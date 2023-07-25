@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertClientSettings.h")]
 public partial struct FConcertClientSettings {
 // ConcertClientSettings
-	public sbyte DisplayName;
+	public string DisplayName;
 	public FLinearColor AvatarColor;
 	public FSoftClassPath DesktopAvatarActorClass;
 	public FSoftClassPath VRAvatarActorClass;
@@ -14,6 +14,6 @@ public partial struct FConcertClientSettings {
 	public float LatencyCompensationMs;
 	public bool bReflectLevelEditorInGame;
 	public bool bSupportMixedBuildTypes;
-	public TArray<sbyte> Tags;
-	public sbyte ClientAuthenticationKey;
+	public TArray<string> Tags;
+	public string ClientAuthenticationKey;
 }

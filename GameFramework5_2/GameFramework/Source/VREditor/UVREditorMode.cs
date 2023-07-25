@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial class UVREditorMode : UVREditorModeBase {
 // VREditorMode
 	public void SetGameView(bool bGameView) {}
-	public bool IsInGameView(bool ReturnValue) { return default; }
-	public float GetWorldScaleFactor(float ReturnValue) { return default; }
+	public bool IsInGameView() { return default; }
+	public float GetWorldScaleFactor() { return default; }
 	public AVREditorAvatarActor AvatarActor;
 	public UVREditorUISystem UISystem;
 	public AVREditorTeleporter TeleportActor;

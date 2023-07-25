@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class ADisplayClusterTestPatternsActor : AActor {
 // DisplayClusterTestPatternsActor
 	public UPostProcessComponent PostProcessComponent;
-	public TMap<sbyte,UMaterial> CalibrationPatterns;
-	public TMap<sbyte,FPostProcessSettings> ViewportPPSettings;
+	public TMap<string,UMaterial> CalibrationPatterns;
+	public TMap<string,FPostProcessSettings> ViewportPPSettings;
 }

@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>Basic Tool Property Set that allows for selecting from a list of FNames (that we assume are Weight Maps)</summary>
 public partial class UWeightMapSetProperties : UInteractiveToolPropertySet {
 // WeightMapSetProperties
-	public sbyte WeightMap;
-	public TArray<sbyte> GetWeightMapsFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> WeightMapsList;
+	public string WeightMap;
+	public TArray<string> GetWeightMapsFunc() { return default; }
+	public TArray<string> WeightMapsList;
 	public bool bInvertWeightMap;
 }

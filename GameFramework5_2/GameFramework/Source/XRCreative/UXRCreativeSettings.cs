@@ -7,5 +7,5 @@ public partial class UXRCreativeSettings : UDeveloperSettingsBackedByCVars {
 	public bool bUseImperial;
 	public TArray<float> FloatArray;
 	public TSoftObjectPtr<UClass> SubsystemHelpersClass;
-	public UObject GetXRCreativeSettings(UObject ReturnValue) { return default; }
+	public UObject GetXRCreativeSettings() { return default; }
 }

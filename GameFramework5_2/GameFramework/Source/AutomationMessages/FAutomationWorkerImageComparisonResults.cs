@@ -10,5 +10,5 @@ public partial struct FAutomationWorkerImageComparisonResults {
 	public bool bSimilar;
 	public double MaxLocalDifference;
 	public double GlobalDifference;
-	public sbyte ErrorMessage;
+	public string ErrorMessage;
 }

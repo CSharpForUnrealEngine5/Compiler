@@ -4,11 +4,11 @@ using CSharpToCpp.Utilities;
 [CppInclude("KeysAndChannels/MovieSceneScriptingString.h")]
 public partial class UMovieSceneScriptingStringChannel : UMovieSceneScriptingChannel {
 // MovieSceneScriptingStringChannel
-	public UObject AddKey(FFrameNumber InTime,sbyte NewValue,float SubFrame=0.f,ESequenceTimeUnit TimeUnit=ESequenceTimeUnit,UObject ReturnValue) { return default; }
+	public UObject AddKey(FFrameNumber InTime,string NewValue,float SubFrame/*=0.0f*/,ESequenceTimeUnit TimeUnit/*=ESequenceTimeUnit.DisplayRate*/) { return default; }
 	public void RemoveKey(UObject Key) {}
-	public TArray<UObject> GetKeys(TArray<UObject> ReturnValue) { return default; }
-	public void SetDefault(sbyte InDefaultValue) {}
-	public sbyte GetDefault(sbyte ReturnValue) { return default; }
+	public TArray<UObject> GetKeys() { return default; }
+	public void SetDefault(string InDefaultValue) {}
+	public string GetDefault() { return default; }
 	public void RemoveDefault() {}
-	public bool HasDefault(bool ReturnValue) { return default; }
+	public bool HasDefault() { return default; }
 }

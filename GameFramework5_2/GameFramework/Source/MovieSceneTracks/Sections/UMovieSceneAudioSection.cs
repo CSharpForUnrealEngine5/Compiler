@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial class UMovieSceneAudioSection : UMovieSceneSection {
 // MovieSceneAudioSection
 	public void SetSound(UObject InSound) {}
-	public UObject GetSound(UObject ReturnValue) { return default; }
+	public UObject GetSound() { return default; }
 	public void SetStartOffset(FFrameNumber InStartOffset) {}
-	public FFrameNumber GetStartOffset(FFrameNumber ReturnValue) { return default; }
+	public FFrameNumber GetStartOffset() { return default; }
 	public USoundBase Sound;
 	public FFrameNumber StartFrameOffset;
 	public float StartOffset_DEPRECATED;
@@ -17,11 +17,11 @@ public partial class UMovieSceneAudioSection : UMovieSceneSection {
 	public float AudioVolume_DEPRECATED;
 	public FMovieSceneFloatChannel SoundVolume;
 	public FMovieSceneFloatChannel PitchMultiplier;
-	public TMap<sbyte,FMovieSceneFloatChannel> Inputs_Float;
-	public TMap<sbyte,FMovieSceneStringChannel> Inputs_String;
-	public TMap<sbyte,FMovieSceneBoolChannel> Inputs_Bool;
-	public TMap<sbyte,FMovieSceneIntegerChannel> Inputs_Int;
-	public TMap<sbyte,FMovieSceneAudioTriggerChannel> Inputs_Trigger;
+	public TMap<string,FMovieSceneFloatChannel> Inputs_Float;
+	public TMap<string,FMovieSceneStringChannel> Inputs_String;
+	public TMap<string,FMovieSceneBoolChannel> Inputs_Bool;
+	public TMap<string,FMovieSceneIntegerChannel> Inputs_Int;
+	public TMap<string,FMovieSceneAudioTriggerChannel> Inputs_Trigger;
 	public FMovieSceneActorReferenceData AttachActorData;
 	public bool bLooping;
 	public bool bSuppressSubtitles;

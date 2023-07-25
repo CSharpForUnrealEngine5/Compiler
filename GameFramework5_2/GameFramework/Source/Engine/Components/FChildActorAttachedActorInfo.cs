@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FChildActorAttachedActorInfo {
 // ChildActorAttachedActorInfo
 	public TWeakObjectPtr<AActor> Actor;
-	public sbyte SocketName;
+	public string SocketName;
 	public FTransform RelativeTransform;
 }

@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertTakeRecorderMessages.h")]
 public partial struct FConcertRecordingNamedLevelSequenceEvent {
 // ConcertRecordingNamedLevelSequenceEvent
-	public sbyte LevelSequencePath;
+	public string LevelSequencePath;
 }

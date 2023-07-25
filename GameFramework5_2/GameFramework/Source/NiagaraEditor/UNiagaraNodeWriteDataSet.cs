@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraNodeWriteDataSet.h")]
 public partial class UNiagaraNodeWriteDataSet : UNiagaraNodeDataSetBase {
 // NiagaraNodeWriteDataSet
-	public sbyte EventName;
+	public string EventName;
 }

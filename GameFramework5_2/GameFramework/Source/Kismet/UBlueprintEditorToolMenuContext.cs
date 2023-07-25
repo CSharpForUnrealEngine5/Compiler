@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("BlueprintEditorContext.h")]
 public partial class UBlueprintEditorToolMenuContext : UObject {
 // BlueprintEditorToolMenuContext
-	public UObject GetBlueprintObj(UObject ReturnValue) { return default; }
+	public UObject GetBlueprintObj() { return default; }
 }

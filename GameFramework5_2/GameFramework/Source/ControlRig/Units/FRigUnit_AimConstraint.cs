@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Units/Deprecated/RigUnit_AimConstraint.h")]
 public partial struct FRigUnit_AimConstraint {
 // RigUnit_AimConstraint
-	public sbyte Joint;
+	public string Joint;
 	public EAimMode AimMode;
 	public EAimMode UpMode;
 	public FVector AimVector;

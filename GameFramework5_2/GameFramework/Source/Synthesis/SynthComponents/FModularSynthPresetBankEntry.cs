@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("SynthComponents/EpicSynth1Component.h")]
 public partial struct FModularSynthPresetBankEntry {
 // ModularSynthPresetBankEntry
-	public sbyte PresetName;
+	public string PresetName;
 	public FModularSynthPreset Preset;
 }

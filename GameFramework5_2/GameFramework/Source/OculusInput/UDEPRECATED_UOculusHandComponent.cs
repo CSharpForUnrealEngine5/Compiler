@@ -12,7 +12,7 @@ public partial class UDEPRECATED_UOculusHandComponent : UPoseableMeshComponent {
 	public bool bInitializePhysics;
 	public bool bUpdateHandScale;
 	public UMaterialInterface MaterialOverride;
-	public TMap<EBone,sbyte> BoneNameMappings;
+	public TMap<EBone,string> BoneNameMappings;
 	public TArray<FOculusCapsuleCollider> CollisionCapsules;
 	public bool bSkeletalMeshInitialized;
 }

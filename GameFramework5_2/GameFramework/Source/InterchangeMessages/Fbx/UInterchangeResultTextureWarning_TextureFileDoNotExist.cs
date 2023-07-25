@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>A generic class for FBX parser warnings, with no additional metadata, and where the text is specified by the user</summary>
 public partial class UInterchangeResultTextureWarning_TextureFileDoNotExist : UInterchangeResultTextureWarning {
 // InterchangeResultTextureWarning_TextureFileDoNotExist
-	public sbyte Text;
-	public sbyte MaterialName;
+	public string Text;
+	public string MaterialName;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for screenshot functional test</summary>
 public partial class AScreenshotFunctionalTestBase : AFunctionalTest {
 // ScreenshotFunctionalTestBase
-	public sbyte Notes;
+	public string Notes;
 	public UCameraComponent ScreenshotCamera;
 	public FAutomationScreenshotOptions ScreenshotOptions;
 }

@@ -11,5 +11,5 @@ public partial class UUniformGridPanel : UPanelWidget {
 	public void SetSlotPadding(FMargin InSlotPadding) {}
 	public void SetMinDesiredSlotWidth(float InMinDesiredSlotWidth) {}
 	public void SetMinDesiredSlotHeight(float InMinDesiredSlotHeight) {}
-	public UObject AddChildToUniformGrid(UObject Content,int InRow=0,int InColumn=0,UObject ReturnValue) { return default; }
+	public UObject AddChildToUniformGrid(UObject Content,int InRow/*=0*/,int InColumn/*=0*/) { return default; }
 }

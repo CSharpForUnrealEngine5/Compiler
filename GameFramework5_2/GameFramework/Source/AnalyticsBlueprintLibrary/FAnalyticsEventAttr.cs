@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Blueprint accessible version of the analytics event struct</summary>
 public partial struct FAnalyticsEventAttr {
 // AnalyticsEventAttr
-	public sbyte Name;
-	public sbyte Value;
+	public string Name;
+	public string Value;
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FVCamModifierConnectionBinding {
 // VCamModifierConnectionBinding
 	public UVCamModifier Modifier;
-	public sbyte ConnectionPoint;
+	public string ConnectionPoint;
 }

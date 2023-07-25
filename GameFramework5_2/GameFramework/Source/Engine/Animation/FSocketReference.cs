@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/BoneSocketReference.h")]
 public partial struct FSocketReference {
 // SocketReference
-	public sbyte SocketName;
+	public string SocketName;
 }

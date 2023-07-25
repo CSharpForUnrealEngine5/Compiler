@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Controls the selection of the system used to simplify skeletal meshes.</summary>
 public partial class USkeletalMeshSimplificationSettings : UDeveloperSettings {
 // SkeletalMeshSimplificationSettings
-	public sbyte SkeletalMeshReductionModuleName;
+	public string SkeletalMeshReductionModuleName;
 }

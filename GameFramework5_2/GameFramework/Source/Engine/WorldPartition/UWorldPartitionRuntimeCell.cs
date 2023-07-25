@@ -7,7 +7,7 @@ public partial class UWorldPartitionRuntimeCell : UObject {
 // WorldPartitionRuntimeCell
 	public UActorContainer UnsavedActorsContainer;
 	public bool bIsAlwaysLoaded;
-	public TArray<sbyte> DataLayers;
+	public TArray<string> DataLayers;
 	public FWorldPartitionRuntimeCellDebugInfo DebugInfo;
 	public int Priority;
 	public bool bClientOnlyVisible;

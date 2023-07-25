@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Components/SceneCaptureComponent.h")]
 public partial struct FEngineShowFlagsSetting {
 // EngineShowFlagsSetting
-	public sbyte ShowFlagName;
+	public string ShowFlagName;
 	public bool Enabled;
 }

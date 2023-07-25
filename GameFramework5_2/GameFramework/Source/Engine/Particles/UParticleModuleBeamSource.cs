@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UParticleModuleBeamSource : UParticleModuleBeamBase {
 // ParticleModuleBeamSource
 	public byte SourceMethod;
-	public sbyte SourceName;
+	public string SourceName;
 	public bool bSourceAbsolute;
 	public FRawDistributionVector Source;
 	public bool bLockSource;

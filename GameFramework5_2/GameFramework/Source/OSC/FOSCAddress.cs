@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>namespace OSC</summary>
 public partial struct FOSCAddress {
 // OSCAddress
-	public TArray<sbyte> Containers;
-	public sbyte Method;
+	public TArray<string> Containers;
+	public string Method;
 }

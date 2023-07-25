@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>Data used to filter object instances by their package.</summary>
 public partial struct FContentBrowserDataPackageFilter {
 // ContentBrowserDataPackageFilter
-	public TArray<sbyte> PackageNamesToInclude;
-	public TArray<sbyte> PackageNamesToExclude;
-	public TArray<sbyte> PackagePathsToInclude;
-	public TArray<sbyte> PackagePathsToExclude;
+	public TArray<string> PackageNamesToInclude;
+	public TArray<string> PackageNamesToExclude;
+	public TArray<string> PackagePathsToInclude;
+	public TArray<string> PackagePathsToExclude;
 	public bool bRecursivePackagePathsToInclude;
 	public bool bRecursivePackagePathsToExclude;
 }

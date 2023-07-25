@@ -7,6 +7,6 @@ public partial struct FSetVertexTetrahedraPositionTargetBindingDataflowNode {
 // SetVertexTetrahedraPositionTargetBindingDataflowNode
 	public FManagedArrayCollection Collection;
 	public TArray<int> TargetIndicesIn;
-	public TArray<sbyte> GeometryGroupGuidsIn;
+	public TArray<string> GeometryGroupGuidsIn;
 	public float PositionTargetStiffness;
 }

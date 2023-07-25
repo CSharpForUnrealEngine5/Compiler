@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Function library containing methods that should be hoisted onto UMovieSceneEventTrack for scripting</summary>
 public partial class UMovieSceneEventTrackExtensions : UBlueprintFunctionLibrary {
 // MovieSceneEventTrackExtensions
-	public UObject AddEventRepeaterSection(UObject InTrack,UObject ReturnValue) { return default; }
-	public UObject AddEventTriggerSection(UObject InTrack,UObject ReturnValue) { return default; }
-	public UClass GetBoundObjectPropertyClass(FMovieSceneEvent EventKey,UClass ReturnValue) { return default; }
+	public UObject AddEventRepeaterSection(UObject InTrack) { return default; }
+	public UObject AddEventTriggerSection(UObject InTrack) { return default; }
+	public UClass GetBoundObjectPropertyClass(FMovieSceneEvent EventKey) { return default; }
 }

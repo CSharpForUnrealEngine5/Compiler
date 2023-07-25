@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCOE/Nodes/CustomizableObjectNodeExtendMaterial.h")]
 public partial class UCustomizableObjectNodeExtendMaterial : UCustomizableObjectNodeMaterialBase {
 // CustomizableObjectNodeExtendMaterial
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 	public UCustomizableObject ParentMaterialObject;
 	public FGuid ParentMaterialNodeId;
 	public TMap<FGuid,FEdGraphPinReference> PinsParameter;

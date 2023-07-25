@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Blueprints/DisplayClusterBlueprintContainers.h")]
 public partial struct FDisplayClusterViewportContext {
 // DisplayClusterViewportContext
-	public sbyte ViewportID;
+	public string ViewportID;
 	public FIntPoint RectLocation;
 	public FIntPoint RectSize;
 	public FVector ViewLocation;

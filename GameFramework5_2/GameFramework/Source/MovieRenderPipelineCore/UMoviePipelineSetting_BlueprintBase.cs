@@ -7,10 +7,10 @@ public partial class UMoviePipelineSetting_BlueprintBase : UMoviePipelineSetting
 // MoviePipelineSetting_BlueprintBase
 	public void ReceiveSetupForPipelineImpl(UObject InPipeline) {}
 	public void ReceiveTeardownForPipelineImpl(UObject InPipeline) {}
-	public FMoviePipelineFormatArgs ReceiveGetFormatArguments(FMoviePipelineFormatArgs InOutFormatArgs,FMoviePipelineFormatArgs ReturnValue) { return default; }
+	public FMoviePipelineFormatArgs ReceiveGetFormatArguments(FMoviePipelineFormatArgs InOutFormatArgs) { return default; }
 	public void OnEngineTickBeginFrame() {}
-	public sbyte ReceiveGetFooterText(UObject InJob,sbyte ReturnValue) { return default; }
-	public sbyte CategoryText;
+	public string ReceiveGetFooterText(UObject InJob) { return default; }
+	public string CategoryText;
 	public bool bIsValidOnPrimary;
 	public bool bIsValidOnShots;
 	public bool bCanBeDisabled;

@@ -48,18 +48,18 @@ public partial class AActor : UObject {
 	public EActorUpdateOverlapsMethod DefaultUpdateOverlapsMethodDuringLevelStreaming;
 	public void SetReplicates(bool bInReplicates) {}
 	public void SetReplicateMovement(bool bInReplicateMovement) {}
-	public ENetRole GetLocalRole(ENetRole ReturnValue) { return default; }
-	public ENetRole GetRemoteRole(ENetRole ReturnValue) { return default; }
+	public ENetRole GetLocalRole() { return default; }
+	public ENetRole GetRemoteRole() { return default; }
 	public float InitialLifeSpan;
 	public float CustomTimeDilation;
 	public byte RemoteRole;
 	public int RayTracingGroupId;
 	public EActorGridPlacement GridPlacement_DEPRECATED;
-	public sbyte RuntimeGrid;
+	public string RuntimeGrid;
 	public FRepAttachment AttachmentReplication;
 	public FRepMovement ReplicatedMovement;
 	public AActor Owner;
-	public sbyte NetDriverName;
+	public string NetDriverName;
 	public void OnRep_AttachmentReplication() {}
 	public byte Role;
 	public byte NetDormancy;
@@ -78,9 +78,9 @@ public partial class AActor : UObject {
 	public USceneComponent RootComponent;
 	public FVector PivotOffset;
 	public void SetRayTracingGroupId(int InRaytracingGroupId) {}
-	public int GetRayTracingGroupId(int ReturnValue) { return default; }
+	public int GetRayTracingGroupId() { return default; }
 	public UHLODLayer HLODLayer;
-	public TArray<sbyte> Layers;
+	public TArray<string> Layers;
 	public TWeakObjectPtr<AActor> ParentComponentActor_DEPRECATED;
 	public TWeakObjectPtr<UChildActorComponent> ParentComponent;
 	public FGuid ActorGuid;
@@ -90,8 +90,8 @@ public partial class AActor : UObject {
 	public AActor GroupActor;
 	public float SpriteScale;
 	public ulong HiddenEditorViews;
-	public sbyte ActorLabel;
-	public sbyte FolderPath;
+	public string ActorLabel;
+	public string FolderPath;
 	public FGuid FolderGuid;
 	public bool bHiddenEd;
 	public bool bIsEditorPreviewActor;
@@ -106,7 +106,7 @@ public partial class AActor : UObject {
 	public bool bIsSpatiallyLoaded;
 	public bool bHiddenEdTemporary;
 	public bool bForceExternalActorLevelReferenceForPIE;
-	public TArray<sbyte> Tags;
+	public TArray<string> Tags;
 	public FTakeAnyDamageSignature OnTakeAnyDamage;
 	public FTakePointDamageSignature OnTakePointDamage;
 	public FTakeRadialDamageSignature OnTakeRadialDamage;
@@ -124,37 +124,37 @@ public partial class AActor : UObject {
 	public void EnableInput(UObject PlayerController) {}
 	public void CreateInputComponent(UClass InputComponentToCreate) {}
 	public void DisableInput(UObject PlayerController) {}
-	public float GetInputAxisValue(sbyte InputAxisName,float ReturnValue) { return default; }
-	public float GetInputAxisKeyValue(FKey InputAxisKey,float ReturnValue) { return default; }
-	public FVector GetInputVectorAxisValue(FKey InputAxisKey,FVector ReturnValue) { return default; }
-	public UObject GetInstigator(UObject ReturnValue) { return default; }
-	public UObject GetInstigatorController(UObject ReturnValue) { return default; }
-	public FTransform GetTransform(FTransform ReturnValue) { return default; }
-	public FVector K2_GetActorLocation(FVector ReturnValue) { return default; }
-	public bool K2_SetActorLocation(FVector NewLocation,bool bSweep,FHitResult SweepHitResult,bool bTeleport,bool ReturnValue) { return default; }
-	public FRotator K2_GetActorRotation(FRotator ReturnValue) { return default; }
-	public FVector GetActorForwardVector(FVector ReturnValue) { return default; }
-	public FVector GetActorUpVector(FVector ReturnValue) { return default; }
-	public FVector GetActorRightVector(FVector ReturnValue) { return default; }
-	public void GetActorBounds(bool bOnlyCollidingComponents,FVector Origin,FVector BoxExtent,bool bIncludeFromChildActors=false) {}
-	public UObject K2_GetRootComponent(UObject ReturnValue) { return default; }
-	public FVector GetVelocity(FVector ReturnValue) { return default; }
-	public bool K2_SetActorRotation(FRotator NewRotation,bool bTeleportPhysics,bool ReturnValue) { return default; }
-	public bool K2_SetActorLocationAndRotation(FVector NewLocation,FRotator NewRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport,bool ReturnValue) { return default; }
+	public float GetInputAxisValue(string InputAxisName) { return default; }
+	public float GetInputAxisKeyValue(FKey InputAxisKey) { return default; }
+	public FVector GetInputVectorAxisValue(FKey InputAxisKey) { return default; }
+	public UObject GetInstigator() { return default; }
+	public UObject GetInstigatorController() { return default; }
+	public FTransform GetTransform() { return default; }
+	public FVector K2_GetActorLocation() { return default; }
+	public bool K2_SetActorLocation(FVector NewLocation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) { return default; }
+	public FRotator K2_GetActorRotation() { return default; }
+	public FVector GetActorForwardVector() { return default; }
+	public FVector GetActorUpVector() { return default; }
+	public FVector GetActorRightVector() { return default; }
+	public void GetActorBounds(bool bOnlyCollidingComponents,FVector Origin,FVector BoxExtent,bool bIncludeFromChildActors/*=false*/) {}
+	public UObject K2_GetRootComponent() { return default; }
+	public FVector GetVelocity() { return default; }
+	public bool K2_SetActorRotation(FRotator NewRotation,bool bTeleportPhysics) { return default; }
+	public bool K2_SetActorLocationAndRotation(FVector NewLocation,FRotator NewRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) { return default; }
 	public void SetActorScale3D(FVector NewScale3D) {}
-	public FVector GetActorScale3D(FVector ReturnValue) { return default; }
-	public float GetDistanceTo(UObject OtherActor,float ReturnValue) { return default; }
-	public float GetSquaredDistanceTo(UObject OtherActor,float ReturnValue) { return default; }
-	public float GetHorizontalDistanceTo(UObject OtherActor,float ReturnValue) { return default; }
-	public float GetSquaredHorizontalDistanceTo(UObject OtherActor,float ReturnValue) { return default; }
-	public float GetVerticalDistanceTo(UObject OtherActor,float ReturnValue) { return default; }
-	public float GetDotProductTo(UObject OtherActor,float ReturnValue) { return default; }
-	public float GetHorizontalDotProductTo(UObject OtherActor,float ReturnValue) { return default; }
+	public FVector GetActorScale3D() { return default; }
+	public float GetDistanceTo(UObject OtherActor) { return default; }
+	public float GetSquaredDistanceTo(UObject OtherActor) { return default; }
+	public float GetHorizontalDistanceTo(UObject OtherActor) { return default; }
+	public float GetSquaredHorizontalDistanceTo(UObject OtherActor) { return default; }
+	public float GetVerticalDistanceTo(UObject OtherActor) { return default; }
+	public float GetDotProductTo(UObject OtherActor) { return default; }
+	public float GetHorizontalDotProductTo(UObject OtherActor) { return default; }
 	public void K2_AddActorWorldOffset(FVector DeltaLocation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_AddActorWorldRotation(FRotator DeltaRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_AddActorWorldTransform(FTransform DeltaTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_AddActorWorldTransformKeepScale(FTransform DeltaTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
-	public bool K2_SetActorTransform(FTransform NewTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport,bool ReturnValue) { return default; }
+	public bool K2_SetActorTransform(FTransform NewTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport) { return default; }
 	public void K2_AddActorLocalOffset(FVector DeltaLocation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_AddActorLocalRotation(FRotator DeltaRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_AddActorLocalTransform(FTransform NewTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
@@ -162,36 +162,36 @@ public partial class AActor : UObject {
 	public void K2_SetActorRelativeRotation(FRotator NewRelativeRotation,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void K2_SetActorRelativeTransform(FTransform NewRelativeTransform,bool bSweep,FHitResult SweepHitResult,bool bTeleport) {}
 	public void SetActorRelativeScale3D(FVector NewRelativeScale) {}
-	public FVector GetActorRelativeScale3D(FVector ReturnValue) { return default; }
+	public FVector GetActorRelativeScale3D() { return default; }
 	public void SetActorHiddenInGame(bool bNewHidden) {}
 	public void SetActorEnableCollision(bool bNewActorEnableCollision) {}
-	public bool GetActorEnableCollision(bool ReturnValue) { return default; }
+	public bool GetActorEnableCollision() { return default; }
 	public void K2_DestroyActor() {}
-	public bool HasAuthority(bool ReturnValue) { return default; }
-	public UObject AddComponent(sbyte TemplateName,bool bManualAttachment,FTransform RelativeTransform,UObject ComponentTemplateContext,bool bDeferredFinish=false,UObject ReturnValue) { return default; }
-	public UObject AddComponentByClass(UClass Class,bool bManualAttachment,FTransform RelativeTransform,bool bDeferredFinish,UObject ReturnValue) { return default; }
+	public bool HasAuthority() { return default; }
+	public UObject AddComponent(string TemplateName,bool bManualAttachment,FTransform RelativeTransform,UObject ComponentTemplateContext,bool bDeferredFinish/*=false*/) { return default; }
+	public UObject AddComponentByClass(UClass Class,bool bManualAttachment,FTransform RelativeTransform,bool bDeferredFinish) { return default; }
 	public void FinishAddComponent(UObject Component,bool bManualAttachment,FTransform RelativeTransform) {}
-	public void K2_AttachRootComponentTo(UObject InParent,sbyte InSocketName=NAME_None,EAttachLocation AttachLocationType=EAttachLocation,bool bWeldSimulatedBodies=true) {}
-	public bool K2_AttachToComponent(UObject Parent,sbyte SocketName,EAttachmentRule LocationRule,EAttachmentRule RotationRule,EAttachmentRule ScaleRule,bool bWeldSimulatedBodies,bool ReturnValue) { return default; }
-	public void K2_AttachRootComponentToActor(UObject InParentActor,sbyte InSocketName=NAME_None,EAttachLocation AttachLocationType=EAttachLocation,bool bWeldSimulatedBodies=true) {}
-	public bool K2_AttachToActor(UObject ParentActor,sbyte SocketName,EAttachmentRule LocationRule,EAttachmentRule RotationRule,EAttachmentRule ScaleRule,bool bWeldSimulatedBodies,bool ReturnValue) { return default; }
-	public void DetachRootComponentFromParent(bool bMaintainWorldPosition=true) {}
-	public void K2_DetachFromActor(EDetachmentRule LocationRule=EDetachmentRule,EDetachmentRule RotationRule=EDetachmentRule,EDetachmentRule ScaleRule=EDetachmentRule) {}
-	public bool ActorHasTag(sbyte Tag,bool ReturnValue) { return default; }
-	public float GetActorTimeDilation(float ReturnValue) { return default; }
+	public void K2_AttachRootComponentTo(UObject InParent,string InSocketName/*=NAME_None*/,EAttachLocation AttachLocationType/*=EAttachLocation.KeepRelativeOffset*/,bool bWeldSimulatedBodies/*=true*/) {}
+	public bool K2_AttachToComponent(UObject Parent,string SocketName,EAttachmentRule LocationRule,EAttachmentRule RotationRule,EAttachmentRule ScaleRule,bool bWeldSimulatedBodies) { return default; }
+	public void K2_AttachRootComponentToActor(UObject InParentActor,string InSocketName/*=NAME_None*/,EAttachLocation AttachLocationType/*=EAttachLocation.KeepRelativeOffset*/,bool bWeldSimulatedBodies/*=true*/) {}
+	public bool K2_AttachToActor(UObject ParentActor,string SocketName,EAttachmentRule LocationRule,EAttachmentRule RotationRule,EAttachmentRule ScaleRule,bool bWeldSimulatedBodies) { return default; }
+	public void DetachRootComponentFromParent(bool bMaintainWorldPosition/*=true*/) {}
+	public void K2_DetachFromActor(EDetachmentRule LocationRule/*=EDetachmentRule.KeepRelative*/,EDetachmentRule RotationRule/*=EDetachmentRule.KeepRelative*/,EDetachmentRule ScaleRule/*=EDetachmentRule.KeepRelative*/) {}
+	public bool ActorHasTag(string Tag) { return default; }
+	public float GetActorTimeDilation() { return default; }
 	public void AddTickPrerequisiteActor(UObject PrerequisiteActor) {}
 	public void AddTickPrerequisiteComponent(UObject PrerequisiteComponent) {}
 	public void RemoveTickPrerequisiteActor(UObject PrerequisiteActor) {}
 	public void RemoveTickPrerequisiteComponent(UObject PrerequisiteComponent) {}
-	public bool GetTickableWhenPaused(bool ReturnValue) { return default; }
+	public bool GetTickableWhenPaused() { return default; }
 	public void SetTickableWhenPaused(bool bTickableWhenPaused) {}
-	public float GetGameTimeSinceCreation(float ReturnValue) { return default; }
+	public float GetGameTimeSinceCreation() { return default; }
 	public void ReceiveBeginPlay() {}
 	public void ReceiveEndPlay(EEndPlayReason EndPlayReason) {}
-	public bool IsActorBeingDestroyed(bool ReturnValue) { return default; }
+	public bool IsActorBeingDestroyed() { return default; }
 	public void ReceiveAnyDamage(float Damage,UObject DamageType,UObject InstigatedBy,UObject DamageCauser) {}
 	public void ReceiveRadialDamage(float DamageReceived,UObject DamageType,FVector Origin,FHitResult HitInfo,UObject InstigatedBy,UObject DamageCauser) {}
-	public void ReceivePointDamage(float Damage,UObject DamageType,FVector HitLocation,FVector HitNormal,UObject HitComponent,sbyte BoneName,FVector ShotFromDirection,UObject InstigatedBy,UObject DamageCauser,FHitResult HitInfo) {}
+	public void ReceivePointDamage(float Damage,UObject DamageType,FVector HitLocation,FVector HitNormal,UObject HitComponent,string BoneName,FVector ShotFromDirection,UObject InstigatedBy,UObject DamageCauser,FHitResult HitInfo) {}
 	public void ReceiveTick(float DeltaSeconds) {}
 	public void ReceiveAsyncPhysicsTick(float DeltaSeconds,float SimSeconds) {}
 	public void ReceiveActorBeginOverlap(UObject OtherActor) {}
@@ -204,59 +204,59 @@ public partial class AActor : UObject {
 	public void ReceiveActorOnInputTouchEnd(ETouchIndex FingerIndex) {}
 	public void ReceiveActorOnInputTouchEnter(ETouchIndex FingerIndex) {}
 	public void ReceiveActorOnInputTouchLeave(ETouchIndex FingerIndex) {}
-	public void GetOverlappingActors(TArray<UObject> OverlappingActors,UClass ClassFilter=nullptr) {}
+	public void GetOverlappingActors(TArray<UObject> OverlappingActors,UClass ClassFilter/*=nullptr*/) {}
 	public void GetOverlappingComponents(TArray<UObject> OverlappingComponents) {}
 	public void ReceiveHit(UObject MyComp,UObject Other,UObject OtherComp,bool bSelfMoved,FVector HitLocation,FVector HitNormal,FVector NormalImpulse,FHitResult Hit) {}
 	public void SetLifeSpan(float InLifespan) {}
-	public float GetLifeSpan(float ReturnValue) { return default; }
+	public float GetLifeSpan() { return default; }
 	public void UserConstructionScript() {}
 	public void ReceiveDestroyed() {}
 	public FActorDestroyedSignature OnDestroyed;
 	public FActorEndPlaySignature OnEndPlay;
-	public bool IsHiddenEdAtStartup(bool ReturnValue) { return default; }
-	public bool IsHiddenEd(bool ReturnValue) { return default; }
+	public bool IsHiddenEdAtStartup() { return default; }
+	public bool IsHiddenEd() { return default; }
 	public void SetIsTemporarilyHiddenInEditor(bool bIsHidden) {}
-	public bool IsTemporarilyHiddenInEditor(bool bIncludeParent=false,bool ReturnValue) { return default; }
-	public bool IsEditable(bool ReturnValue) { return default; }
-	public bool IsSelectable(bool ReturnValue) { return default; }
-	public sbyte GetDefaultActorLabel(sbyte ReturnValue) { return default; }
-	public sbyte GetActorLabel(bool bCreateIfNone=true,sbyte ReturnValue) { return default; }
-	public void SetActorLabel(sbyte NewActorLabel,bool bMarkDirty=true) {}
-	public sbyte GetFolderPath(sbyte ReturnValue) { return default; }
-	public void SetFolderPath(sbyte NewFolderPath) {}
+	public bool IsTemporarilyHiddenInEditor(bool bIncludeParent/*=false*/) { return default; }
+	public bool IsEditable() { return default; }
+	public bool IsSelectable() { return default; }
+	public string GetDefaultActorLabel() { return default; }
+	public string GetActorLabel(bool bCreateIfNone/*=true*/) { return default; }
+	public void SetActorLabel(string NewActorLabel,bool bMarkDirty/*=true*/) {}
+	public string GetFolderPath() { return default; }
+	public void SetFolderPath(string NewFolderPath) {}
 	public void SetActorTickEnabled(bool bEnabled) {}
-	public bool IsActorTickEnabled(bool ReturnValue) { return default; }
+	public bool IsActorTickEnabled() { return default; }
 	public void SetActorTickInterval(float TickInterval) {}
-	public float GetActorTickInterval(float ReturnValue) { return default; }
+	public float GetActorTickInterval() { return default; }
 	public void OnRep_ReplicatedMovement() {}
 	public void SetOwner(UObject NewOwner) {}
-	public UObject GetOwner(UObject ReturnValue) { return default; }
-	public bool IsOverlappingActor(UObject Other,bool ReturnValue) { return default; }
+	public UObject GetOwner() { return default; }
+	public bool IsOverlappingActor(UObject Other) { return default; }
 	public void SetNetDormancy(ENetDormancy NewDormancy) {}
 	public void FlushNetDormancy() {}
-	public bool IsChildActor(bool ReturnValue) { return default; }
-	public void GetAllChildActors(TArray<UObject> ChildActors,bool bIncludeDescendants=true) {}
-	public UObject GetParentComponent(UObject ReturnValue) { return default; }
-	public UObject GetParentActor(UObject ReturnValue) { return default; }
-	public bool K2_TeleportTo(FVector DestLocation,FRotator DestRotation,bool ReturnValue) { return default; }
-	public UObject GetLevel(UObject ReturnValue) { return default; }
-	public FTransform GetLevelTransform(FTransform ReturnValue) { return default; }
-	public UObject GetAttachParentActor(UObject ReturnValue) { return default; }
-	public sbyte GetAttachParentSocketName(sbyte ReturnValue) { return default; }
-	public void GetAttachedActors(TArray<UObject> OutActors,bool bResetArray=true,bool bRecursivelyIncludeAttachedActors=false) {}
+	public bool IsChildActor() { return default; }
+	public void GetAllChildActors(TArray<UObject> ChildActors,bool bIncludeDescendants/*=true*/) {}
+	public UObject GetParentComponent() { return default; }
+	public UObject GetParentActor() { return default; }
+	public bool K2_TeleportTo(FVector DestLocation,FRotator DestRotation) { return default; }
+	public UObject GetLevel() { return default; }
+	public FTransform GetLevelTransform() { return default; }
+	public UObject GetAttachParentActor() { return default; }
+	public string GetAttachParentSocketName() { return default; }
+	public void GetAttachedActors(TArray<UObject> OutActors,bool bResetArray/*=true*/,bool bRecursivelyIncludeAttachedActors/*=false*/) {}
 	public void SetTickGroup(ETickingGroup NewTickGroup) {}
 	public void K2_OnBecomeViewTarget(UObject PC) {}
 	public void K2_OnEndViewTarget(UObject PC) {}
 	public void K2_OnReset() {}
-	public bool WasRecentlyRendered(float Tolerance=0.2f,bool ReturnValue) { return default; }
+	public bool WasRecentlyRendered(float Tolerance/*=0.2f*/) { return default; }
 	public void ForceNetUpdate() {}
-	public void PrestreamTextures(float Seconds,bool bEnableStreaming,int CinematicTextureGroups=0) {}
+	public void PrestreamTextures(float Seconds,bool bEnableStreaming,int CinematicTextureGroups/*=0*/) {}
 	public void GetActorEyesViewPoint(FVector OutLocation,FRotator OutRotation) {}
-	public UObject GetComponentByClass(UClass ComponentClass,UObject ReturnValue) { return default; }
-	public TArray<UObject> K2_GetComponentsByClass(UClass ComponentClass,TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetComponentsByTag(UClass ComponentClass,sbyte Tag,TArray<UObject> ReturnValue) { return default; }
-	public TArray<UObject> GetComponentsByInterface(UClass Interface,TArray<UObject> ReturnValue) { return default; }
+	public UObject GetComponentByClass(UClass ComponentClass) { return default; }
+	public TArray<UObject> K2_GetComponentsByClass(UClass ComponentClass) { return default; }
+	public TArray<UObject> GetComponentsByTag(UClass ComponentClass,string Tag) { return default; }
+	public TArray<UObject> GetComponentsByInterface(UClass Interface) { return default; }
 	public TArray<UActorComponent> InstanceComponents;
 	public TArray<UActorComponent> BlueprintCreatedComponents;
-	public void MakeNoise(float Loudness=1.f,UObject NoiseInstigator=nullptr,FVector NoiseLocation=FVector,float MaxRange=0.f,sbyte Tag=NAME_None) {}
+	public void MakeNoise(float Loudness/*=1.0f*/,UObject NoiseInstigator/*=nullptr*/,FVector NoiseLocation/*=FVector.ZeroVector*/,float MaxRange/*=0.0f*/,string Tag/*=NAME_None*/) {}
 }

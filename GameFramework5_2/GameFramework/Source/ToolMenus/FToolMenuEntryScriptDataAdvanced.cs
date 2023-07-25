@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("ToolMenuEntryScript.h")]
 public partial struct FToolMenuEntryScriptDataAdvanced {
 // ToolMenuEntryScriptDataAdvanced
-	public sbyte TutorialHighlight;
+	public string TutorialHighlight;
 	public EMultiBlockType EntryType;
 	public EUserInterfaceActionType UserInterfaceActionType;
-	public sbyte StyleNameOverride;
+	public string StyleNameOverride;
 	public bool bIsSubMenu;
 	public bool bOpenSubMenuOnClick;
 	public bool bShouldCloseWindowAfterMenuSelection;

@@ -13,9 +13,9 @@ public partial class ANavLinkProxy : AActor {
 	public UBillboardComponent SpriteComponent;
 	public void ReceiveSmartLinkReached(UObject Agent,FVector Destination) {}
 	public void ResumePathFollowing(UObject Agent) {}
-	public bool IsSmartLinkEnabled(bool ReturnValue) { return default; }
+	public bool IsSmartLinkEnabled() { return default; }
 	public void SetSmartLinkEnabled(bool bEnabled) {}
-	public bool HasMovingAgents(bool ReturnValue) { return default; }
+	public bool HasMovingAgents() { return default; }
 	public void CopyEndPointsFromSimpleLinkToSmartLink() {}
 	public FSmartLinkReachedSignature OnSmartLinkReached;
 }

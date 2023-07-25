@@ -8,6 +8,6 @@ public partial class UK2Node_AnimGetter : UK2Node_CallFunction {
 	public UAnimStateNodeBase SourceStateNode;
 	public UClass GetterClass;
 	public UAnimBlueprint SourceAnimBlueprint;
-	public sbyte CachedTitle;
-	public TArray<sbyte> Contexts;
+	public string CachedTitle;
+	public TArray<string> Contexts;
 }

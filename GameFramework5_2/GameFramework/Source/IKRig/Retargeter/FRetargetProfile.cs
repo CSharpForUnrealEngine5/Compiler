@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 public partial struct FRetargetProfile {
 // RetargetProfile
 	public bool bApplyTargetRetargetPose;
-	public sbyte TargetRetargetPoseName;
+	public string TargetRetargetPoseName;
 	public bool bApplySourceRetargetPose;
-	public sbyte SourceRetargetPoseName;
+	public string SourceRetargetPoseName;
 	public bool bApplyChainSettings;
-	public TMap<sbyte,FTargetChainSettings> ChainSettings;
+	public TMap<string,FTargetChainSettings> ChainSettings;
 	public bool bApplyRootSettings;
 	public FTargetRootSettings RootSettings;
 	public bool bApplyGlobalSettings;

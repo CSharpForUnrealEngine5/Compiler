@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FSoundGroup {
 // SoundGroup
 	public byte SoundGroup;
-	public sbyte DisplayName;
+	public string DisplayName;
 	public bool bAlwaysDecompressOnLoad;
 	public float DecompressedDuration;
 }

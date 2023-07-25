@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>A node which allows the user to build a set of arbitrary output types from an arbitrary set of input types by connecting their inner components.</summary>
 public partial class UNiagaraNodeConvert : UNiagaraNodeWithDynamicPins {
 // NiagaraNodeConvert
-	public sbyte AutowireSwizzle;
+	public string AutowireSwizzle;
 	public FNiagaraTypeDefinition AutowireMakeType;
 	public FNiagaraTypeDefinition AutowireBreakType;
 	public TArray<FNiagaraConvertConnection> Connections;

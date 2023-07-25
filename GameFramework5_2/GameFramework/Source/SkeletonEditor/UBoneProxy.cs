@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Proxy object used to display/edit bone transforms</summary>
 public partial class UBoneProxy : UObject {
 // BoneProxy
-	public sbyte BoneName;
+	public string BoneName;
 	public FVector Location;
 	public FRotator Rotation;
 	public FVector Scale;

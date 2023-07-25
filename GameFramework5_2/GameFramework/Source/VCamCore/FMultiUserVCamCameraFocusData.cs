@@ -7,7 +7,7 @@ public partial struct FMultiUserVCamCameraFocusData {
 	public float ManualFocusDistance;
 	public float FocusSmoothingInterpSpeed;
 	public bool bSmoothFocusChanges;
-	public sbyte ActorToTrack;
+	public string ActorToTrack;
 	public FVector RelativeOffset;
 	public ECameraFocusMethod FocusMethod;
 	public bool bDrawDebugFocusPlane;

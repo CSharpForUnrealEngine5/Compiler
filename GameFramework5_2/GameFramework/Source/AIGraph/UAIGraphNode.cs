@@ -11,5 +11,5 @@ public partial class UAIGraphNode : UEdGraphNode {
 	public int CopySubNodeIndex;
 	public bool bIsReadOnly;
 	public bool bIsSubNode;
-	public sbyte ErrorMessage;
+	public string ErrorMessage;
 }

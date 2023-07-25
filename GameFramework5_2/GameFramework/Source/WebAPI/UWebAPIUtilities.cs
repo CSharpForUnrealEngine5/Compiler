@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("WebAPIUtilities.h")]
 public partial class UWebAPIUtilities : UBlueprintFunctionLibrary {
 // WebAPIUtilities
-	public sbyte GetResponseMessage(FWebAPIMessageResponse MessageResponse,sbyte ReturnValue) { return default; }
-	public sbyte GetHostFromUrl(sbyte InUrl,sbyte ReturnValue) { return default; }
+	public string GetResponseMessage(FWebAPIMessageResponse MessageResponse) { return default; }
+	public string GetHostFromUrl(string InUrl) { return default; }
 }

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FAnimNotifyQueue {
 // AnimNotifyQueue
 	public TArray<FAnimNotifyEventReference> AnimNotifies;
-	public TMap<sbyte,FAnimNotifyArray> UnfilteredMontageAnimNotifies;
+	public TMap<string,FAnimNotifyArray> UnfilteredMontageAnimNotifies;
 }

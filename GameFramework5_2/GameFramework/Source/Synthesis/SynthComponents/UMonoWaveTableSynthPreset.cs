@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>UStruct Mono Wave Table Synth Preset</summary>
 public partial class UMonoWaveTableSynthPreset : UObject {
 // MonoWaveTableSynthPreset
-	public sbyte PresetName;
+	public string PresetName;
 	public bool bLockKeyframesToGridBool;
 	public int LockKeyframesToGrid;
 	public int WaveTableResolution;

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial class UDisplayClusterConfigurationViewport : UDisplayClusterConfigurationData_Base {
 // DisplayClusterConfigurationViewport
 	public bool bAllowRendering;
-	public sbyte Camera;
+	public string Camera;
 	public FDisplayClusterConfigurationProjection ProjectionPolicy;
 	public bool bAllowPreviewFrustumRendering;
 	public FDisplayClusterConfigurationRectangle Region;

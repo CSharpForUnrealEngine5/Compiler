@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertTakeRecorderMessages.h")]
 public partial struct FConcertTakeInitializedEvent {
 // ConcertTakeInitializedEvent
-	public sbyte TakePresetPath;
-	public sbyte TakeName;
+	public string TakePresetPath;
+	public string TakeName;
 	public TArray<byte> TakeData;
-	public sbyte TakeMetaDataPath;
+	public string TakeMetaDataPath;
 	public FConcertLocalIdentifierState IdentifierState;
 	public FTakeRecorderUserParameters Settings;
 }

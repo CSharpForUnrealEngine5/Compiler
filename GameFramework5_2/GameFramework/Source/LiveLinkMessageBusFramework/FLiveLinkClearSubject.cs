@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("LiveLinkMessages.h")]
 public partial struct FLiveLinkClearSubject {
 // LiveLinkClearSubject
-	public sbyte SubjectName;
+	public string SubjectName;
 }

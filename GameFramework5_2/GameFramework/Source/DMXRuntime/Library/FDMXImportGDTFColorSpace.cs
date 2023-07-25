@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FDMXImportGDTFColorSpace {
 // DMXImportGDTFColorSpace
 	public EDMXImportGDTFMode Mode;
-	public sbyte Description;
+	public string Description;
 	public FDMXColorCIE Red;
 	public FDMXColorCIE Green;
 	public FDMXColorCIE Blue;

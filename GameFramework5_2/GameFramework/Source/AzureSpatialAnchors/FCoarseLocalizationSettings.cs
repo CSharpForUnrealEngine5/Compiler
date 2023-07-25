@@ -7,5 +7,5 @@ public partial struct FCoarseLocalizationSettings {
 	public bool bEnable;
 	public bool bEnableGPS;
 	public bool bEnableWifi;
-	public TArray<sbyte> BLEBeaconUUIDs;
+	public TArray<string> BLEBeaconUUIDs;
 }

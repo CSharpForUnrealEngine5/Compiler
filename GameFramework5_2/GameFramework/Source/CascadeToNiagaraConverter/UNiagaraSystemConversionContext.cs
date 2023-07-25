@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial class UNiagaraSystemConversionContext : UObject {
 // NiagaraSystemConversionContext
 	public void Cleanup() {}
-	public UObject AddEmptyEmitter(sbyte NewEmitterNameString,UObject ReturnValue) { return default; }
+	public UObject AddEmptyEmitter(string NewEmitterNameString) { return default; }
 	public void Finalize() {}
 }

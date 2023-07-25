@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>Allows in-engine playback of incoming WebRTC audio from a particular Pixel Streaming player/peer using their mic in the browser.</summary>
 public partial class UPixelStreamingAudioComponent : USynthComponent {
 // PixelStreamingAudioComponent
-	public sbyte StreamerToHear;
-	public sbyte PlayerToHear;
+	public string StreamerToHear;
+	public string PlayerToHear;
 	public bool bAutoFindPeer;
-	public bool ListenTo(sbyte PlayerToListenTo,bool ReturnValue) { return default; }
-	public bool StreamerListenTo(sbyte StreamerId,sbyte PlayerToListenTo,bool ReturnValue) { return default; }
-	public bool IsListeningToPlayer(bool ReturnValue) { return default; }
+	public bool ListenTo(string PlayerToListenTo) { return default; }
+	public bool StreamerListenTo(string StreamerId,string PlayerToListenTo) { return default; }
+	public bool IsListeningToPlayer() { return default; }
 	public void Reset() {}
 }

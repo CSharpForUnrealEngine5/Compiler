@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>SetControlColor is used to change the control's color</summary>
 public partial struct FRigUnit_SetControlColor {
 // RigUnit_SetControlColor
-	public sbyte Control;
+	public string Control;
 	public FLinearColor Color;
 	public FCachedRigElement CachedControlIndex;
 }

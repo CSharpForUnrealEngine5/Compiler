@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>An action adding a unit node to the graph.</summary>
 public partial struct FRigVMAddUnitNodeAction {
 // RigVMAddUnitNodeAction
-	public sbyte ScriptStructPath;
-	public sbyte MethodName;
+	public string ScriptStructPath;
+	public string MethodName;
 	public FVector2D Position;
-	public sbyte NodePath;
+	public string NodePath;
 }

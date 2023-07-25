@@ -5,11 +5,11 @@ using CSharpToCpp.Utilities;
 ///<summary>UCreateMeshObjectTypeProperties is a InteractiveTool PropertySet used to select</summary>
 public partial class UCreateMeshObjectTypeProperties : UInteractiveToolPropertySet {
 // CreateMeshObjectTypeProperties
-	public sbyte OutputType;
+	public string OutputType;
 	public UClass VolumeType;
-	public TArray<sbyte> GetOutputTypeNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> OutputTypeNamesList;
+	public TArray<string> GetOutputTypeNamesFunc() { return default; }
+	public TArray<string> OutputTypeNamesList;
 	public bool bShowVolumeList;
-	public bool ShouldShowPropertySet(bool ReturnValue) { return default; }
-	public ECreateObjectTypeHint GetCurrentCreateMeshType(ECreateObjectTypeHint ReturnValue) { return default; }
+	public bool ShouldShowPropertySet() { return default; }
+	public ECreateObjectTypeHint GetCurrentCreateMeshType() { return default; }
 }

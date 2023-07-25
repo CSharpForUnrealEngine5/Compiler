@@ -5,10 +5,10 @@ using CSharpToCpp.Utilities;
 ///<summary>The Parameter Node represents an input or output argument / parameter</summary>
 public partial class URigVMParameterNode : URigVMNode {
 // RigVMParameterNode
-	public sbyte GetParameterName(sbyte ReturnValue) { return default; }
-	public bool IsInput(bool ReturnValue) { return default; }
-	public sbyte GetCPPType(sbyte ReturnValue) { return default; }
-	public UObject GetCPPTypeObject(UObject ReturnValue) { return default; }
-	public sbyte GetDefaultValue(sbyte ReturnValue) { return default; }
-	public FRigVMGraphParameterDescription GetParameterDescription(FRigVMGraphParameterDescription ReturnValue) { return default; }
+	public string GetParameterName() { return default; }
+	public bool IsInput() { return default; }
+	public string GetCPPType() { return default; }
+	public UObject GetCPPTypeObject() { return default; }
+	public string GetDefaultValue() { return default; }
+	public FRigVMGraphParameterDescription GetParameterDescription() { return default; }
 }

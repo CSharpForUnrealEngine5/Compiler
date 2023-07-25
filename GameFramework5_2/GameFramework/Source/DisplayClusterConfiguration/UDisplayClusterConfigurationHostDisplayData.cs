@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DisplayClusterConfigurationTypes.h")]
 public partial class UDisplayClusterConfigurationHostDisplayData : UObject {
 // DisplayClusterConfigurationHostDisplayData
-	public sbyte HostName;
+	public string HostName;
 	public FVector2D Position;
 	public bool bAllowManualPlacement;
 	public FVector2D HostResolution;

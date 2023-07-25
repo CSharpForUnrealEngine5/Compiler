@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>"Version" property</summary>
 public partial struct FDisplayClusterConfigurationVersion {
 // DisplayClusterConfigurationVersion
-	public sbyte Version;
+	public string Version;
 }

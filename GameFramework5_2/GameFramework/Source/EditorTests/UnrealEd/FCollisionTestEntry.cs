@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Container for detailing collision automated test data.</summary>
 public partial struct FCollisionTestEntry {
 // CollisionTestEntry
-	public sbyte RootShapeAsset;
-	public sbyte ShapeType;
+	public string RootShapeAsset;
+	public string ShapeType;
 	public FHitResult HitResult;
 }

@@ -6,9 +6,9 @@ using CSharpToCpp.Utilities;
 public partial struct FClientReceiveData {
 // ClientReceiveData
 	public APlayerController LocalPC;
-	public sbyte MessageType;
+	public string MessageType;
 	public int MessageIndex;
-	public sbyte MessageString;
+	public string MessageString;
 	public APlayerState RelatedPlayerState_1;
 	public APlayerState RelatedPlayerState_2;
 	public UObject OptionalObject;

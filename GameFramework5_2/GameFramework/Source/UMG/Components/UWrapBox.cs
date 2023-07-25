@@ -12,5 +12,5 @@ public partial class UWrapBox : UPanelWidget {
 	public byte Orientation;
 	public void SetInnerSlotPadding(FVector2D InPadding) {}
 	public void SetHorizontalAlignment(EHorizontalAlignment InHorizontalAlignment) {}
-	public UObject AddChildToWrapBox(UObject Content,UObject ReturnValue) { return default; }
+	public UObject AddChildToWrapBox(UObject Content) { return default; }
 }

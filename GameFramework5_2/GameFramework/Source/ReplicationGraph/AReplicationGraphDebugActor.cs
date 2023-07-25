@@ -9,7 +9,7 @@ public partial class AReplicationGraphDebugActor : AActor {
 	public void ServerStartDebugging() {}
 	public void ServerStopDebugging() {}
 	public void ServerCellInfo() {}
-	public void ServerPrintAllActorInfo(sbyte Str) {}
+	public void ServerPrintAllActorInfo(string Str) {}
 	public void ServerSetCullDistanceForClass(UClass Class,float CullDistance) {}
 	public void ServerSetPeriodFrameForClass(UClass Class,int PeriodFrame) {}
 	public void ServerSetConditionalActorBreakpoint(UObject Actor) {}

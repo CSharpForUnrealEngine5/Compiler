@@ -6,6 +6,6 @@ public partial struct FAnimNode_Inertialization {
 // AnimNode_Inertialization
 	public FPoseLink Source;
 	public UBlendProfile DefaultBlendProfile;
-	public TArray<sbyte> FilteredCurves;
+	public TArray<string> FilteredCurves;
 	public TArray<FInertializationRequest> RequestQueue;
 }

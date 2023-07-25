@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("Sequencer/MovieSceneControlRigParameterSection.h")]
 public partial struct FIntegerParameterNameAndCurve {
 // IntegerParameterNameAndCurve
-	public sbyte ParameterName;
+	public string ParameterName;
 	public FMovieSceneIntegerChannel ParameterCurve;
 }

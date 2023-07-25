@@ -10,7 +10,7 @@ public partial struct FRigUnit_DebugBezier {
 	public FLinearColor Color;
 	public float Thickness;
 	public int Detail;
-	public sbyte Space;
+	public string Space;
 	public FTransform WorldOffset;
 	public bool bEnabled;
 }

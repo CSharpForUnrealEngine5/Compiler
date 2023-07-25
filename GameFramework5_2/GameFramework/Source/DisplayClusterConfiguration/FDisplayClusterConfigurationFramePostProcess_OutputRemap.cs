@@ -8,6 +8,6 @@ public partial struct FDisplayClusterConfigurationFramePostProcess_OutputRemap {
 	public bool bEnable;
 	public EDisplayClusterConfigurationFramePostProcess_OutputRemapSource DataSource;
 	public UStaticMesh StaticMesh;
-	public sbyte MeshComponentName;
-	public sbyte ExternalFile;
+	public string MeshComponentName;
+	public string ExternalFile;
 }

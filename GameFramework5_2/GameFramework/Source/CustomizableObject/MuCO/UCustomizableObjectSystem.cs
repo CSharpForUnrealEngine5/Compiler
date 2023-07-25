@@ -4,15 +4,15 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObjectSystem.h")]
 public partial class UCustomizableObjectSystem : UObject {
 // CustomizableObjectSystem
-	public UObject GetInstance(UObject ReturnValue) { return default; }
+	public UObject GetInstance() { return default; }
 	public TArray<FPendingReleaseSkeletalMeshInfo> PendingReleaseSkeletalMesh;
 	public UDefaultImageProvider DefaultImageProvider;
-	public sbyte GetPluginVersion(sbyte ReturnValue) { return default; }
-	public int GetNumInstances(int ReturnValue) { return default; }
-	public int GetNumPendingInstances(int ReturnValue) { return default; }
-	public int GetTotalInstances(int ReturnValue) { return default; }
-	public int GetTextureMemoryUsed(int ReturnValue) { return default; }
-	public int GetAverageBuildTime(int ReturnValue) { return default; }
+	public string GetPluginVersion() { return default; }
+	public int GetNumInstances() { return default; }
+	public int GetNumPendingInstances() { return default; }
+	public int GetTotalInstances() { return default; }
+	public int GetTextureMemoryUsed() { return default; }
+	public int GetAverageBuildTime() { return default; }
 	public void SetReleaseMutableTexturesImmediately(bool bReleaseTextures) {}
 	public UCustomizableInstanceLODManagementBase DefaultInstanceLODManagement;
 	public UCustomizableInstanceLODManagementBase CurrentInstanceLODManagement;

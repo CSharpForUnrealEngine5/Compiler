@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraBakerOutput.h")]
 public partial class UNiagaraBakerOutput : UObject {
 // NiagaraBakerOutput
-	public sbyte OutputName;
+	public string OutputName;
 }

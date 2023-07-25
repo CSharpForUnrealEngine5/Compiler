@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("MoviePipelineFCPXMLExporterSetting.h")]
 public partial class UMoviePipelineFCPXMLExporter : UMoviePipelineOutputBase {
 // MoviePipelineFCPXMLExporter
-	public sbyte FileNameFormatOverride;
+	public string FileNameFormatOverride;
 	public FCPXMLExportDataSource DataSource;
 }

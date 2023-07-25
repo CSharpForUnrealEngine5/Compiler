@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a pin's watch state in the graph.</summary>
 public partial struct FRigVMSetPinWatchAction {
 // RigVMSetPinWatchAction
-	public sbyte PinPath;
+	public string PinPath;
 	public bool OldIsWatched;
 	public bool NewIsWatched;
 }

@@ -7,6 +7,6 @@ public partial struct FAppendCollectionAssetsDataflowNode {
 // AppendCollectionAssetsDataflowNode
 	public FManagedArrayCollection Collection1;
 	public FManagedArrayCollection Collection2;
-	public TArray<sbyte> GeometryGroupGuidsOut1;
-	public TArray<sbyte> GeometryGroupGuidsOut2;
+	public TArray<string> GeometryGroupGuidsOut1;
+	public TArray<string> GeometryGroupGuidsOut2;
 }

@@ -6,11 +6,11 @@ using CSharpToCpp.Utilities;
 public partial class UControlRigPoseAsset : UObject {
 // ControlRigPoseAsset
 	public void SavePose(UObject InControlRig,bool bUseAll) {}
-	public void PastePose(UObject InControlRig,bool bDoKey=false,bool bDoMirror=false) {}
-	public void SelectControls(UObject InControlRig,bool bDoMirror=false) {}
+	public void PastePose(UObject InControlRig,bool bDoKey/*=false*/,bool bDoMirror/*=false*/) {}
+	public void SelectControls(UObject InControlRig,bool bDoMirror/*=false*/) {}
 	public void GetCurrentPose(UObject InControlRig,FControlRigControlPose OutPose) {}
-	public TArray<sbyte> GetControlNames(TArray<sbyte> ReturnValue) { return default; }
-	public void ReplaceControlName(sbyte CurrentName,sbyte NewName) {}
-	public bool DoesMirrorMatch(UObject ControlRig,sbyte ControlName,bool ReturnValue) { return default; }
+	public TArray<string> GetControlNames() { return default; }
+	public void ReplaceControlName(string CurrentName,string NewName) {}
+	public bool DoesMirrorMatch(UObject ControlRig,string ControlName) { return default; }
 	public FControlRigControlPose Pose;
 }

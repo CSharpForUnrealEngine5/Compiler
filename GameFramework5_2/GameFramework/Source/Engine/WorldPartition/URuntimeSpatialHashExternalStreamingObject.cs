@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class URuntimeSpatialHashExternalStreamingObject : URuntimeHashExternalStreamingObjectBase {
 // RuntimeSpatialHashExternalStreamingObject
 	public TArray<FSpatialHashStreamingGrid> StreamingGrids;
-	public TMap<sbyte,sbyte> CellToLevelStreamingPackage;
+	public TMap<string,string> CellToLevelStreamingPackage;
 }

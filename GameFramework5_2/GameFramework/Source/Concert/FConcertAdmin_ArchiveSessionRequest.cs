@@ -6,8 +6,8 @@ using CSharpToCpp.Utilities;
 public partial struct FConcertAdmin_ArchiveSessionRequest {
 // ConcertAdmin_ArchiveSessionRequest
 	public FGuid SessionId;
-	public sbyte ArchiveNameOverride;
-	public sbyte UserName;
-	public sbyte DeviceName;
+	public string ArchiveNameOverride;
+	public string UserName;
+	public string DeviceName;
 	public FConcertSessionFilter SessionFilter;
 }

@@ -6,12 +6,12 @@ using CSharpToCpp.Utilities;
 public partial class UPlatformGameInstance : UGameInstance {
 // PlatformGameInstance
 	public void FPlatformDelegate() {}
-	public void FPlatformStartupArgumentsDelegate(TArray<sbyte> StartupArguments) {}
+	public void FPlatformStartupArgumentsDelegate(TArray<string> StartupArguments) {}
 	public void FPlatformRegisteredForRemoteNotificationsDelegate(TArray<byte> inArray) {}
 	public void FPlatformRegisteredForUserNotificationsDelegate(int inInt) {}
-	public void FPlatformFailedToRegisterForRemoteNotificationsDelegate(sbyte inString) {}
-	public void FPlatformReceivedRemoteNotificationDelegate(sbyte inString,EApplicationState inAppState) {}
-	public void FPlatformReceivedLocalNotificationDelegate(sbyte inString,int inInt,EApplicationState inAppState) {}
+	public void FPlatformFailedToRegisterForRemoteNotificationsDelegate(string inString) {}
+	public void FPlatformReceivedRemoteNotificationDelegate(string inString,EApplicationState inAppState) {}
+	public void FPlatformReceivedLocalNotificationDelegate(string inString,int inInt,EApplicationState inAppState) {}
 	public void FPlatformScreenOrientationChangedDelegate(EScreenOrientation inScreenOrientation) {}
 	public FPlatformDelegate ApplicationWillDeactivateDelegate;
 	public FPlatformDelegate ApplicationHasReactivatedDelegate;

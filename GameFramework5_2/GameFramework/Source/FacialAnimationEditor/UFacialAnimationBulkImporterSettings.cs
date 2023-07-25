@@ -6,5 +6,5 @@ public partial class UFacialAnimationBulkImporterSettings : UObject {
 // FacialAnimationBulkImporterSettings
 	public FDirectoryPath SourceImportPath;
 	public FDirectoryPath TargetImportPath;
-	public sbyte CurveNodeName;
+	public string CurveNodeName;
 }

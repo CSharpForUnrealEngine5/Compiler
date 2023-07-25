@@ -6,5 +6,5 @@ public partial struct FDisplayClusterConfigurationICVFX_VisibilityList {
 // DisplayClusterConfigurationICVFX_VisibilityList
 	public TArray<FActorLayer> ActorLayers;
 	public TArray<TSoftObjectPtr<AActor>> Actors;
-	public TArray<sbyte> RootActorComponentNames;
+	public TArray<string> RootActorComponentNames;
 }

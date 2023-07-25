@@ -7,5 +7,5 @@ public partial struct FARQRCodeUpdatePayload {
 	public FARSessionPayload SessionPayload;
 	public FTransform WorldTransform;
 	public FVector Extents;
-	public sbyte QRCode;
+	public string QRCode;
 }

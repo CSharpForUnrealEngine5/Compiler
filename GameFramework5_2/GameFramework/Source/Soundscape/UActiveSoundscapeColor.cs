@@ -9,9 +9,9 @@ public partial class UActiveSoundscapeColor : UObject {
 	public FSoundscapeColorModulationSettings ModulationBehavior;
 	public FSoundscapeColorPlaybackSettings PlaybackBehavior;
 	public FSoundscapeColorSpawnSettings SpawnBehavior;
-	public void Play(float ColorVolume=1.0f,float ColorPitch=1.0f,float ColorFadeInTime=1.0f) {}
-	public void Stop(float ColorFadeOutTime=1.0f) {}
-	public bool IsPlaying(bool ReturnValue) { return default; }
+	public void Play(float ColorVolume/*=1.0f*/,float ColorPitch/*=1.0f*/,float ColorFadeInTime/*=1.0f*/) {}
+	public void Stop(float ColorFadeOutTime/*=1.0f*/) {}
+	public bool IsPlaying() { return default; }
 	public void UpdateSoundscapeColor() {}
 	public TArray<UActiveSoundscapeColorVoice> SoundscapeColorVoicePool;
 }

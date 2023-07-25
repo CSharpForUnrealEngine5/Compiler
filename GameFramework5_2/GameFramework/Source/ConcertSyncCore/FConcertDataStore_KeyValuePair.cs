@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Contains a key and its value, used by the client/server cache replication mechanism.</summary>
 public partial struct FConcertDataStore_KeyValuePair {
 // ConcertDataStore_KeyValuePair
-	public sbyte Key;
+	public string Key;
 	public FConcertDataStore_StoreValue Value;
 }

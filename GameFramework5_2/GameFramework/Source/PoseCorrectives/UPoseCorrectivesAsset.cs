@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 ///<summary>* Pose Correctives Asset</summary>
 public partial class UPoseCorrectivesAsset : UObject {
 // PoseCorrectivesAsset
-	public TMap<sbyte,FPoseCorrective> PoseCorrectives;
-	public TMap<sbyte,FPoseGroupDefinition> GroupDefinitions;
+	public TMap<string,FPoseCorrective> PoseCorrectives;
+	public TMap<string,FPoseGroupDefinition> GroupDefinitions;
 	public USkeletalMesh TargetMesh;
 	public USkeletalMesh SourcePreviewMesh;
 	public UObject ControlRigBlueprint;

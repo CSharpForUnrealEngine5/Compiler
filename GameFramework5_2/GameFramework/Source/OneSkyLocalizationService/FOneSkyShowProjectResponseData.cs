@@ -5,8 +5,8 @@ using CSharpToCpp.Utilities;
 public partial struct FOneSkyShowProjectResponseData {
 // OneSkyShowProjectResponseData
 	public int id;
-	public sbyte name;
-	public sbyte description;
+	public string name;
+	public string description;
 	public FOneSkyShowProjectResponseProjectType project_type;
 	public int string_count;
 	public int word_count;

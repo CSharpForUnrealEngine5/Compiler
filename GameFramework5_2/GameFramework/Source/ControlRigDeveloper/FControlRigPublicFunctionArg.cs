@@ -4,9 +4,9 @@ using CSharpToCpp.Utilities;
 [CppInclude("ControlRigBlueprint.h")]
 public partial struct FControlRigPublicFunctionArg {
 // ControlRigPublicFunctionArg
-	public sbyte Name;
-	public sbyte CPPType;
-	public sbyte CPPTypeObjectPath;
+	public string Name;
+	public string CPPType;
+	public string CPPTypeObjectPath;
 	public bool bIsArray;
 	public ERigVMPinDirection Direction;
 }

@@ -8,5 +8,5 @@ public partial class UCookerStats : UObject {
 	public TArray<TWeakObjectPtr<UObject>> Assets;
 	public float SizeBefore;
 	public float SizeAfter;
-	public sbyte Path;
+	public string Path;
 }

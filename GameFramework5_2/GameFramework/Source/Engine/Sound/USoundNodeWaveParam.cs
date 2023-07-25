@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Sound node that takes a runtime parameter for the wave to play</summary>
 public partial class USoundNodeWaveParam : USoundNode {
 // SoundNodeWaveParam
-	public sbyte WaveParameterName;
+	public string WaveParameterName;
 }

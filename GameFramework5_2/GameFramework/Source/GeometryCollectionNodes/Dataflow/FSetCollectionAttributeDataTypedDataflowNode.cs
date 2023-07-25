@@ -7,13 +7,13 @@ public partial struct FSetCollectionAttributeDataTypedDataflowNode {
 // SetCollectionAttributeDataTypedDataflowNode
 	public FManagedArrayCollection Collection;
 	public EStandardGroupNameEnum GroupName;
-	public sbyte CustomGroupName;
-	public sbyte AttrName;
+	public string CustomGroupName;
+	public string AttrName;
 	public TArray<bool> BoolAttributeData;
 	public TArray<float> FloatAttributeData;
 	public TArray<double> DoubleAttributeData;
 	public TArray<int> Int32AttributeData;
-	public TArray<sbyte> StringAttributeData;
+	public TArray<string> StringAttributeData;
 	public TArray<FVector3f> Vector3fAttributeData;
 	public TArray<FVector3d> Vector3dAttributeData;
 }

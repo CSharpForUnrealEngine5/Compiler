@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("CommonUIRichTextData.h")]
 public partial struct FRichTextIconData {
 // RichTextIconData
-	public sbyte DisplayName;
+	public string DisplayName;
 	public TSoftObjectPtr<UObject> ResourceObject;
 	public FVector2D ImageSize;
 }

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Export configuration options for a single internal pass on an ACompositingElement, or its output pass (where TransformPassName is None)</summary>
 public partial struct FMovieSceneComposureExportPass {
 // MovieSceneComposureExportPass
-	public sbyte TransformPassName;
+	public string TransformPassName;
 	public bool bRenamePass;
-	public sbyte ExportedAs;
+	public string ExportedAs;
 }

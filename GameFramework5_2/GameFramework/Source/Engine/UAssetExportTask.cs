@@ -7,7 +7,7 @@ public partial class UAssetExportTask : UObject {
 // AssetExportTask
 	public UObject Object;
 	public UExporter Exporter;
-	public sbyte Filename;
+	public string Filename;
 	public bool bSelected;
 	public bool bReplaceIdentical;
 	public bool bPrompt;
@@ -16,5 +16,5 @@ public partial class UAssetExportTask : UObject {
 	public bool bWriteEmptyFiles;
 	public TArray<UObject> IgnoreObjectList;
 	public UObject Options;
-	public TArray<sbyte> Errors;
+	public TArray<string> Errors;
 }

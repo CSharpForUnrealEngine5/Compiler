@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("K2Node_CustomEvent.h")]
 public partial class UK2Node_CustomEvent : UK2Node_Event {
 // K2Node_CustomEvent
-	public sbyte DeprecationMessage;
+	public string DeprecationMessage;
 	public bool bIsDeprecated;
 	public bool bCallInEditor;
 	public FKismetUserDeclaredFunctionMetadata MetaData;

@@ -6,5 +6,5 @@ public partial class UAbilityTask_WaitMovementModeChange : UAbilityTask {
 // AbilityTask_WaitMovementModeChange
 	public FMovementModeChangedDelegate OnChange;
 	public void OnMovementModeChange(UObject Character,EMovementMode PrevMovementMode,byte PreviousCustomMode) {}
-	public UObject CreateWaitMovementModeChange(UObject OwningAbility,EMovementMode NewMode,UObject ReturnValue) { return default; }
+	public UObject CreateWaitMovementModeChange(UObject OwningAbility,EMovementMode NewMode) { return default; }
 }

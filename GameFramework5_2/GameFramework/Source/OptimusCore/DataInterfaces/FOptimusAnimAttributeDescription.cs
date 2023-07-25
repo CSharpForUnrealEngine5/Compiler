@@ -4,10 +4,10 @@ using CSharpToCpp.Utilities;
 [CppInclude("DataInterfaces/OptimusDataInterfaceAnimAttribute.h")]
 public partial struct FOptimusAnimAttributeDescription {
 // OptimusAnimAttributeDescription
-	public sbyte Name;
-	public sbyte BoneName;
+	public string Name;
+	public string BoneName;
 	public FOptimusDataTypeRef DataType;
 	public UOptimusValueContainer DefaultValue;
-	public sbyte HlslId;
-	public sbyte PinName;
+	public string HlslId;
+	public string PinName;
 }

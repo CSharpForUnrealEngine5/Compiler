@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial struct FActorInitStateChangedParams {
 // ActorInitStateChangedParams
 	public AActor OwningActor;
-	public sbyte FeatureName;
+	public string FeatureName;
 	public UObject Implementer;
 	public FGameplayTag FeatureState;
 }

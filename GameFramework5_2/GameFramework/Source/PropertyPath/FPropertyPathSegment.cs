@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Base class for cached property path segments</summary>
 public partial struct FPropertyPathSegment {
 // PropertyPathSegment
-	public sbyte Name;
+	public string Name;
 	public int ArrayIndex;
 	public UStruct Struct;
 }

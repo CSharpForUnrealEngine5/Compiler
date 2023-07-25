@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("ConcertPresenceEvents.h")]
 public partial struct FConcertClientPresenceDataUpdateEvent {
 // ConcertClientPresenceDataUpdateEvent
-	public sbyte WorldPath;
+	public string WorldPath;
 	public FVector Position;
 	public FQuat Orientation;
 }

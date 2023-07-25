@@ -7,6 +7,6 @@ public partial class ULiveLinkDebuggerSettings : UObject {
 	public FSlateColor MinBarColor;
 	public FSlateColor MaxBarColor;
 	public float DPIScaleMultiplier;
-	public float GetDPIScaleBasedOnSize(FIntPoint Size,float ReturnValue) { return default; }
-	public FSlateColor GetBarColorForCurveValue(float CurveValue,FSlateColor ReturnValue) { return default; }
+	public float GetDPIScaleBasedOnSize(FIntPoint Size) { return default; }
+	public FSlateColor GetBarColorForCurveValue(float CurveValue) { return default; }
 }

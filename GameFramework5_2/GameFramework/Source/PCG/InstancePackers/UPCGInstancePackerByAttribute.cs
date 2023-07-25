@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("InstancePackers/PCGInstancePackerByAttribute.h")]
 public partial class UPCGInstancePackerByAttribute : UPCGInstancePackerBase {
 // PCGInstancePackerByAttribute
-	public TArray<sbyte> AttributeNames;
+	public TArray<string> AttributeNames;
 }

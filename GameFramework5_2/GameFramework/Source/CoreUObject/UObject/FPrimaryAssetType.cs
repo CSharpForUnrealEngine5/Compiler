@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>A type of primary asset, used by the Asset Manager system.</summary>
 public partial struct FPrimaryAssetType {
 // PrimaryAssetType
-	public sbyte Name;
+	public string Name;
 }

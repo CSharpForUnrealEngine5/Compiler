@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("TemplateProjectDefs.h")]
 public partial struct FLocalizedTemplateString {
 // LocalizedTemplateString
-	public sbyte Language;
-	public sbyte Text;
+	public string Language;
+	public string Text;
 }

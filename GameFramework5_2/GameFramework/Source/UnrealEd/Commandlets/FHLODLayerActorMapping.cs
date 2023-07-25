@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FHLODLayerActorMapping {
 // HLODLayerActorMapping
 	public TSoftObjectPtr<UClass> ActorClass;
-	public sbyte HLODLayer;
+	public string HLODLayer;
 }

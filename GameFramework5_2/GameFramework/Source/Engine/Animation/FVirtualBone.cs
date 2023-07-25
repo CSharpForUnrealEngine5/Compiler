@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Animation/Skeleton.h")]
 public partial struct FVirtualBone {
 // VirtualBone
-	public sbyte SourceBoneName;
-	public sbyte TargetBoneName;
-	public sbyte VirtualBoneName;
+	public string SourceBoneName;
+	public string TargetBoneName;
+	public string VirtualBoneName;
 }

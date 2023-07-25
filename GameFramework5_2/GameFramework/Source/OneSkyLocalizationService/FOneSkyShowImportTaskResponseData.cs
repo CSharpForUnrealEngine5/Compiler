@@ -8,7 +8,7 @@ public partial struct FOneSkyShowImportTaskResponseData {
 	public FOneSkyShowImportTaskResponseFile file;
 	public int string_count;
 	public int word_count;
-	public sbyte status;
-	public sbyte created_at;
+	public string status;
+	public string created_at;
 	public int created_at_timestamp;
 }

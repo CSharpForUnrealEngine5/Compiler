@@ -5,12 +5,12 @@ using CSharpToCpp.Utilities;
 public partial class UPCGSpawnActorSettings : UPCGBaseSubgraphSettings {
 // PCGSpawnActorSettings
 	public UClass TemplateActorClass;
-	public TArray<sbyte> PostSpawnFunctionNames;
+	public TArray<string> PostSpawnFunctionNames;
 	public EPCGSpawnActorOption Option;
 	public bool bForceDisableActorParsing;
 	public EPCGSpawnActorGenerationTrigger bGenerationTrigger;
 	public bool bInheritActorTags;
-	public TArray<sbyte> TagsToAddOnActors;
+	public TArray<string> TagsToAddOnActors;
 	public AActor TemplateActor;
 	public TArray<FPCGActorPropertyOverride> ActorOverrides;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("MuCO/CustomizableObject.h")]
 public partial struct FMutableModelImageProperties {
 // MutableModelImageProperties
-	public sbyte TextureParameterName;
+	public string TextureParameterName;
 	public byte Filter;
 	public bool SRGB;
 	public bool FlipGreenChannel;

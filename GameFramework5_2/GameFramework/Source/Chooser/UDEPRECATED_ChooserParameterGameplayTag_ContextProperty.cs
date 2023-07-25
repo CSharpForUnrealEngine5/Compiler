@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>deprecated class versions for converting old data</summary>
 public partial class UDEPRECATED_ChooserParameterGameplayTag_ContextProperty : UObject {
 // ChooserParameterGameplayTag_ContextProperty
-	public TArray<sbyte> PropertyBindingChain;
+	public TArray<string> PropertyBindingChain;
 }

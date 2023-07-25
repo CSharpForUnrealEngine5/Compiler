@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Given a collection of items, execute iteratively across all items in a given collection</summary>
 public partial struct FRigUnit_CollectionLoop {
 // RigUnit_CollectionLoop
-	public sbyte BlockToRun;
+	public string BlockToRun;
 	public FRigElementKeyCollection Collection;
 	public FRigElementKey Item;
 	public int Index;

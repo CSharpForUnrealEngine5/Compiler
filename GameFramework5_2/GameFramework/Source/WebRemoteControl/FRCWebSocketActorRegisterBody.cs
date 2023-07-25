@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 ///<summary>Holds a request made via websocket to register for spawn/destroy events about a given actor type.</summary>
 public partial struct FRCWebSocketActorRegisterBody {
 // RCWebSocketActorRegisterBody
-	public sbyte ClassName;
+	public string ClassName;
 }

@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("LogVisualizerSettings.h")]
 public partial struct FCategoryFilter {
 // CategoryFilter
-	public sbyte CategoryName;
+	public string CategoryName;
 	public int LogVerbosity;
 	public bool Enabled;
 }

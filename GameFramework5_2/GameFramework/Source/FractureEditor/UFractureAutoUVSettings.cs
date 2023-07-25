@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Settings for UV layout and texture baking on the geometry collection *</summary>
 public partial class UFractureAutoUVSettings : UFractureToolSettings {
 // FractureAutoUVSettings
-	public sbyte UVChannel;
-	public TArray<sbyte> GetUVChannelNamesFunc(TArray<sbyte> ReturnValue) { return default; }
-	public TArray<sbyte> UVChannelNamesList;
+	public string UVChannel;
+	public TArray<string> GetUVChannelNamesFunc() { return default; }
+	public TArray<string> UVChannelNamesList;
 	public void AddUVChannel() {}
 	public void DeleteUVChannel() {}
 	public void LayoutUVs() {}

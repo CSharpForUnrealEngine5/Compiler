@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>UK2Node_EaseFunction</summary>
 public partial struct FCustomPin {
 // CustomPin
-	public sbyte PinName;
-	public sbyte CallFuncPinName;
+	public string PinName;
+	public string CallFuncPinName;
 	public bool bValuePin;
 }

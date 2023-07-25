@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FAssetPlacementInfo {
 // AssetPlacementInfo
 	public FAssetData AssetToPlace;
-	public sbyte NameOverride;
+	public string NameOverride;
 	public TWeakObjectPtr<ULevel> PreferredLevel;
 	public FTransform FinalizedTransform;
 	public object /*FactoryOverride*/ FactoryOverride;

@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UUsdProjectSettings : UDeveloperSettings {
 // UsdProjectSettings
 	public TArray<FDirectoryPath> AdditionalPluginDirectories;
-	public TArray<sbyte> AdditionalMaterialPurposes;
+	public TArray<string> AdditionalMaterialPurposes;
 	public FSoftObjectPath DefaultAssetCache;
 	public bool bShowCreateDefaultAssetCacheDialog;
 	public bool bShowConfirmationWhenClearingLayers;

@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FStackEntryID {
 // StackEntryID
 	public EScriptExecutionCategory ScriptExecutionCategory;
-	public sbyte EventName;
+	public string EventName;
 }

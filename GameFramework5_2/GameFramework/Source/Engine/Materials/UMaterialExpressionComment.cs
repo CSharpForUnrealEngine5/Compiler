@@ -6,7 +6,7 @@ public partial class UMaterialExpressionComment : UMaterialExpression {
 // MaterialExpressionComment
 	public int SizeX;
 	public int SizeY;
-	public sbyte Text;
+	public string Text;
 	public FLinearColor CommentColor;
 	public int FontSize;
 	public bool bCommentBubbleVisible_InDetailsPanel;

@@ -5,9 +5,9 @@ using CSharpToCpp.Utilities;
 ///<summary>Prioritizer definition. Configurable via UNetObjectPrioritizerDefinitions.</summary>
 public partial struct FNetObjectPrioritizerDefinition {
 // NetObjectPrioritizerDefinition
-	public sbyte PrioritizerName;
-	public sbyte ClassName;
+	public string PrioritizerName;
+	public string ClassName;
 	public UClass Class;
-	public sbyte ConfigClassName;
+	public string ConfigClassName;
 	public UClass ConfigClass;
 }

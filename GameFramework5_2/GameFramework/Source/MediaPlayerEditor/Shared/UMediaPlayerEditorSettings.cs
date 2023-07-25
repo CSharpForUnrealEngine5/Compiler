@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("Shared/MediaPlayerEditorSettings.h")]
 public partial class UMediaPlayerEditorSettings : UObject {
 // MediaPlayerEditorSettings
-	public sbyte DesiredPlayerName;
+	public string DesiredPlayerName;
 	public bool ShowTextOverlays;
 	public EMediaPlayerEditorScale ViewportScale;
 }

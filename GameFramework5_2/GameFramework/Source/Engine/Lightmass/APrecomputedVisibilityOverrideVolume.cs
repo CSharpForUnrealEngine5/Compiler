@@ -6,5 +6,5 @@ public partial class APrecomputedVisibilityOverrideVolume : AVolume {
 // PrecomputedVisibilityOverrideVolume
 	public TArray<AActor> OverrideVisibleActors;
 	public TArray<AActor> OverrideInvisibleActors;
-	public TArray<sbyte> OverrideInvisibleLevels;
+	public TArray<string> OverrideInvisibleLevels;
 }

@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>One metadata entry for a variable</summary>
 public partial struct FBPVariableMetaDataEntry {
 // BPVariableMetaDataEntry
-	public sbyte DataKey;
-	public sbyte DataValue;
+	public string DataKey;
+	public string DataValue;
 }

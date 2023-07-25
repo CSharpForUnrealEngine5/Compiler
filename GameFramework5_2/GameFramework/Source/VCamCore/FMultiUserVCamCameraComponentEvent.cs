@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("VCamMultiUser.h")]
 public partial struct FMultiUserVCamCameraComponentEvent {
 // MultiUserVCamCameraComponentEvent
-	public sbyte TrackingName;
+	public string TrackingName;
 	public FMultiUserVCamCameraData CameraData;
 }

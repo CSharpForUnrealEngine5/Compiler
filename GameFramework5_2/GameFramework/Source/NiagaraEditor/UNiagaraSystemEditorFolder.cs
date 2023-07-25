@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>Editor only folder data for emitters in a system.</summary>
 public partial class UNiagaraSystemEditorFolder : UObject {
 // NiagaraSystemEditorFolder
-	public sbyte FolderName;
+	public string FolderName;
 	public TArray<UNiagaraSystemEditorFolder> ChildFolders;
 	public TArray<FGuid> ChildEmitterHandleIds;
 }

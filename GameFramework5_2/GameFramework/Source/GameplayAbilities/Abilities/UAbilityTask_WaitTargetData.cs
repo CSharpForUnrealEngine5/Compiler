@@ -11,9 +11,9 @@ public partial class UAbilityTask_WaitTargetData : UAbilityTask {
 	public void OnTargetDataReplicatedCancelledCallback() {}
 	public void OnTargetDataReadyCallback(FGameplayAbilityTargetDataHandle Data) {}
 	public void OnTargetDataCancelledCallback(FGameplayAbilityTargetDataHandle Data) {}
-	public UObject WaitTargetData(UObject OwningAbility,sbyte TaskInstanceName,byte ConfirmationType,UClass Class,UObject ReturnValue) { return default; }
-	public UObject WaitTargetDataUsingActor(UObject OwningAbility,sbyte TaskInstanceName,byte ConfirmationType,UObject TargetActor,UObject ReturnValue) { return default; }
-	public bool BeginSpawningActor(UObject OwningAbility,UClass Class,UObject SpawnedActor,bool ReturnValue) { return default; }
+	public UObject WaitTargetData(UObject OwningAbility,string TaskInstanceName,byte ConfirmationType,UClass Class) { return default; }
+	public UObject WaitTargetDataUsingActor(UObject OwningAbility,string TaskInstanceName,byte ConfirmationType,UObject TargetActor) { return default; }
+	public bool BeginSpawningActor(UObject OwningAbility,UClass Class,UObject SpawnedActor) { return default; }
 	public void FinishSpawningActor(UObject OwningAbility,UObject SpawnedActor) {}
 	public UClass TargetClass;
 	public AGameplayAbilityTargetActor TargetActor;

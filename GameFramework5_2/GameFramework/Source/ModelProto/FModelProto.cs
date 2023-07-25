@@ -8,11 +8,11 @@ public partial struct FModelProto {
 	public bool bIsLoaded;
 	public long IRVersion;
 	public TArray<FOperatorSetIdProto> OpsetImport;
-	public sbyte ProducerName;
-	public sbyte ProducerVersion;
-	public sbyte Domain;
+	public string ProducerName;
+	public string ProducerVersion;
+	public string Domain;
 	public long ModelVersion;
-	public sbyte DocString;
+	public string DocString;
 	public FGraphProto Graph;
 	public TArray<FStringStringEntryProto> MetadataProps;
 	public TArray<FTrainingInfoProto> TrainingInfo;

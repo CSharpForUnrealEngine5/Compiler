@@ -4,5 +4,5 @@ using CSharpToCpp.Utilities;
 [CppInclude("Elements/Metadata/PCGMetadataPartition.h")]
 public partial class UPCGMetadataPartitionSettings : UPCGSettings {
 // PCGMetadataPartitionSettings
-	public sbyte PartitionAttribute;
+	public string PartitionAttribute;
 }

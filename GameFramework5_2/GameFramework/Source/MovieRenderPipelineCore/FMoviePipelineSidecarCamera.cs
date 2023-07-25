@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial struct FMoviePipelineSidecarCamera {
 // MoviePipelineSidecarCamera
 	public FGuid BindingId;
-	public sbyte Name;
+	public string Name;
 }

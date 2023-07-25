@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>The action key is used for serializing and storing an action in the stack,</summary>
 public partial struct FRigVMActionKey {
 // RigVMActionKey
-	public sbyte ScriptStructPath;
-	public sbyte ExportedText;
+	public string ScriptStructPath;
+	public string ExportedText;
 }

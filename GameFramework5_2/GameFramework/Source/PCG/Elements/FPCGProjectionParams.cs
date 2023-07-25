@@ -9,7 +9,7 @@ public partial struct FPCGProjectionParams {
 	public bool bProjectRotations;
 	public bool bProjectScales;
 	public bool bProjectColors;
-	public sbyte AttributeList;
+	public string AttributeList;
 	public EPCGMetadataFilterMode AttributeMode;
 	public EPCGMetadataOp AttributeMergeOperation;
 }

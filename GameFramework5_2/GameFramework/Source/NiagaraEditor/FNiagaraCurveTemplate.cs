@@ -4,6 +4,6 @@ using CSharpToCpp.Utilities;
 [CppInclude("NiagaraEditorSettings.h")]
 public partial struct FNiagaraCurveTemplate {
 // NiagaraCurveTemplate
-	public sbyte DisplayNameOverride;
+	public string DisplayNameOverride;
 	public FSoftObjectPath CurveAsset;
 }

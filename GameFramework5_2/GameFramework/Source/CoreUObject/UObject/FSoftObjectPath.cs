@@ -6,5 +6,5 @@ using CSharpToCpp.Utilities;
 public partial struct FSoftObjectPath {
 // SoftObjectPath
 	public FTopLevelAssetPath AssetPath;
-	public sbyte SubPathString;
+	public string SubPathString;
 }

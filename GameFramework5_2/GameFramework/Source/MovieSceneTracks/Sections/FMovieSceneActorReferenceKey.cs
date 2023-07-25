@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 public partial struct FMovieSceneActorReferenceKey {
 // MovieSceneActorReferenceKey
 	public FMovieSceneObjectBindingID Object;
-	public sbyte ComponentName;
-	public sbyte SocketName;
+	public string ComponentName;
+	public string SocketName;
 }

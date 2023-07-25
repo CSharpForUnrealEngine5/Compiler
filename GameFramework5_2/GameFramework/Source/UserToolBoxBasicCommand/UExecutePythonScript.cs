@@ -5,5 +5,5 @@ using CSharpToCpp.Utilities;
 public partial class UExecutePythonScript : UUTBBaseCommand {
 // ExecutePythonScript
 	public FFilePath ScriptPath;
-	public sbyte Args;
+	public string Args;
 }

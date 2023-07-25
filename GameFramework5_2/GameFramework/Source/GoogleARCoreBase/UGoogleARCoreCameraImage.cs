@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class UGoogleARCoreCameraImage : UObject {
 // GoogleARCoreCameraImage
 	public void Release() {}
-	public int GetWidth(int ReturnValue) { return default; }
-	public int GetHeight(int ReturnValue) { return default; }
-	public int GetPlaneCount(int ReturnValue) { return default; }
+	public int GetWidth() { return default; }
+	public int GetHeight() { return default; }
+	public int GetPlaneCount() { return default; }
 }

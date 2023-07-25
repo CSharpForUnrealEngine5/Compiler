@@ -9,5 +9,5 @@ public partial struct FLODLevelGenerateSettings {
 	public int TargetPercentage;
 	public int TargetCount;
 	public bool bReproject;
-	public sbyte Result;
+	public string Result;
 }

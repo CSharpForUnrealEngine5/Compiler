@@ -10,7 +10,7 @@ public partial class UNeuralNetwork : UObject {
 	public ENeuralDeviceType OutputDeviceType;
 	public ENeuralSynchronousMode SynchronousMode;
 	public ENeuralThreadMode ThreadModeDelegateForAsyncRunCompleted;
-	public sbyte ModelFullFilePath;
+	public string ModelFullFilePath;
 	public bool bIsLoaded;
 	public TArray<byte> ModelReadFromFileInBytes;
 	public TArray<bool> AreInputTensorSizesVariable;

@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 public partial struct FVehicleAerofoilConfig {
 // VehicleAerofoilConfig
 	public EVehicleAerofoilType AerofoilType;
-	public sbyte BoneName;
+	public string BoneName;
 	public FVector Offset;
 	public FVector UpAxis;
 	public float Area;

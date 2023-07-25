@@ -5,6 +5,6 @@ using CSharpToCpp.Utilities;
 ///<summary>Base struct for all actuation states</summary>
 public partial struct FGameplayActuationStateBase {
 // GameplayActuationStateBase
-	public sbyte ActuationName;
+	public string ActuationName;
 	public FVector NavigationLocation;
 }

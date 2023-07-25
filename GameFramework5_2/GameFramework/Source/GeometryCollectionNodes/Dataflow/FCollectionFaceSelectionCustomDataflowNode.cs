@@ -6,6 +6,6 @@ using CSharpToCpp.Utilities;
 public partial struct FCollectionFaceSelectionCustomDataflowNode {
 // CollectionFaceSelectionCustomDataflowNode
 	public FManagedArrayCollection Collection;
-	public sbyte FaceIndicies;
+	public string FaceIndicies;
 	public FDataflowFaceSelection FaceSelection;
 }

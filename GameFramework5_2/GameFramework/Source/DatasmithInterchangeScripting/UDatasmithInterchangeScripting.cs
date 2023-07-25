@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("DatasmithInterchangeScripting.h")]
 public partial class UDatasmithInterchangeScripting : UBlueprintFunctionLibrary {
 // DatasmithInterchangeScripting
-	public UObject LoadFile(sbyte FilePath,FDatasmithInterchangeImportContext Context,UObject ReturnValue) { return default; }
-	public void GetDatasmithOptionsForFile(sbyte FilePath,TArray<UObject> Options) {}
-	public void GetDatasmithFormats(sbyte Extensions,sbyte FileTypes) {}
+	public UObject LoadFile(string FilePath,FDatasmithInterchangeImportContext Context) { return default; }
+	public void GetDatasmithOptionsForFile(string FilePath,TArray<UObject> Options) {}
+	public void GetDatasmithFormats(string Extensions,string FileTypes) {}
 }

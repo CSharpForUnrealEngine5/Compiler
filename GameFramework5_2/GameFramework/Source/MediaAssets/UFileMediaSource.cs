@@ -4,7 +4,7 @@ using CSharpToCpp.Utilities;
 [CppInclude("FileMediaSource.h")]
 public partial class UFileMediaSource : UBaseMediaSource {
 // FileMediaSource
-	public sbyte FilePath;
+	public string FilePath;
 	public bool PrecacheFile;
-	public void SetFilePath(sbyte Path) {}
+	public void SetFilePath(string Path) {}
 }

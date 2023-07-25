@@ -6,7 +6,7 @@ using CSharpToCpp.Utilities;
 public partial class URigVMCollapseNode : URigVMLibraryNode {
 // RigVMCollapseNode
 	public URigVMGraph ContainedGraph;
-	public sbyte NodeCategory;
-	public sbyte NodeKeywords;
-	public sbyte NodeDescription;
+	public string NodeCategory;
+	public string NodeKeywords;
+	public string NodeDescription;
 }

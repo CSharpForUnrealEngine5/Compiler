@@ -5,7 +5,7 @@ using CSharpToCpp.Utilities;
 ///<summary>An action setting a node's description in the graph.</summary>
 public partial struct FRigVMSetNodeDescriptionAction {
 // RigVMSetNodeDescriptionAction
-	public sbyte NodePath;
-	public sbyte OldDescription;
-	public sbyte NewDescription;
+	public string NodePath;
+	public string OldDescription;
+	public string NewDescription;
 }
